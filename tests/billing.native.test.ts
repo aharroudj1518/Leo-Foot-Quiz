@@ -1,0 +1,19 @@
+import {describe,it,expect,vi,beforeEach} from 'vitest';
+const store=vi.hoisted(()=>({owned:false,packages:[] as any[],configure:vi.fn()}));
+const info=()=>({entitlements:{active:store.owned?{legends:{}}:{}}});
+vi.mock('react-native',()=>({Platform:{OS:'android'}}));
+vi.mock('expo-constants',()=>({default:{appOwnership:'standalone'}}));
+vi.mock('../src/content/editorial-status.json',()=>({default:{independentEditorialApproval:true}}));
+vi.mock('react-native-purchases',()=>({default:{configure:store.configure,getCustomerInfo:async()=>info(),getOfferings:async()=>({current:{availablePackages:store.packages}}),purchasePackage:async()=>({customerInfo:info()}),restorePurchases:async()=>info()}}));
+import {buy,loadShop,restore} from '../src/services/billing';
+const pkg={product:{identifier:'leoqo_legends_lifetime',priceString:'£2.99'}} as any;
+beforeEach(()=>{store.owned=false;store.packages=[];vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','true');vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','goog_live_key');});
+describe('store build purchase path',()=>{
+it('stays closed until the commerce flag is set, even with editorial approval',async()=>{vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','false');const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.message).toContain('not open');});
+it('refuses test_ keys so a sandbox key never ships',async()=>{vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','test_abc');const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.message).toContain('not open');});
+it('configures the SDK with the platform key and reports a missing offering without inventing a price',async()=>{const shop=await loadShop();expect(store.configure).toHaveBeenCalledWith({apiKey:'goog_live_key'});expect(shop.available).toBe(false);expect(shop.product).toBeNull();expect(shop.message).toContain('not available from your store yet');});
+it('exposes the real package and ownership when the store answers',async()=>{store.packages=[pkg];const shop=await loadShop();expect(shop.available).toBe(true);expect(shop.product).toBe(pkg);expect(shop.owned).toBe(false);expect(shop.message).toBe('');});
+it('does not report success when the store has not granted the entitlement',async()=>{await expect(buy(pkg)).rejects.toThrow('still being confirmed');});
+it('returns true only once the entitlement is active, for buy and restore',async()=>{store.owned=true;expect(await buy(pkg)).toBe(true);expect(await restore()).toBe(true);});
+it('never reconfigures the SDK once it is set up',async()=>{store.configure.mockClear();await loadShop();await restore();expect(store.configure).not.toHaveBeenCalled();});
+});

@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
-    "version": "1.0.0",
+    "name": "Leoqo Football Quiz",
+    "slug": "leoqo-football-quiz",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.leoqo.footballquiz"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,10 +17,21 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.leoqo.footballquiz"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "name": "Leoqo Football Quiz",
+      "shortName": "Leoqo",
+      "themeColor": "#16382E",
+      "backgroundColor": "#F4F6F2",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-font"
+    ],
+    "scheme": "leoqo"
   }
 }

@@ -1,0 +1,2857 @@
+[
+  {
+    "id": "world-1930",
+    "prompt": "Who won the 1930 men’s World Cup?",
+    "answer": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Brazil",
+      "Argentina",
+      "France"
+    ],
+    "explanation": "Uruguay won the men’s World Cup in 1930. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Montevideo.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1930",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1934",
+    "prompt": "Who won the 1934 men’s World Cup?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "Argentina",
+      "France",
+      "Germany"
+    ],
+    "explanation": "Italy won the men’s World Cup in 1934. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1934",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1938",
+    "prompt": "Who won the 1938 men’s World Cup?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "France",
+      "Germany",
+      "Spain"
+    ],
+    "explanation": "Italy won the men’s World Cup in 1938. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1938",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1950",
+    "prompt": "Who won the 1950 men’s World Cup?",
+    "answer": "Uruguay",
+    "options": [
+      "Uruguay",
+      "Italy",
+      "Germany",
+      "Spain"
+    ],
+    "explanation": "Uruguay won the men’s World Cup in 1950. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Montevideo.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1950",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1954",
+    "prompt": "Who won the 1954 men’s World Cup?",
+    "answer": "West Germany",
+    "options": [
+      "West Germany",
+      "Spain",
+      "England",
+      "Uruguay"
+    ],
+    "explanation": "West Germany won the men’s World Cup in 1954. This question refers to that edition, not the current champions.",
+    "hint": "The team represented the western German state.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1954",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1958",
+    "prompt": "Who won the 1958 men’s World Cup?",
+    "answer": "Brazil",
+    "options": [
+      "Brazil",
+      "England",
+      "Uruguay",
+      "Netherlands"
+    ],
+    "explanation": "Brazil won the men’s World Cup in 1958. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Brasilia.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1958",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1962",
+    "prompt": "Who won the 1962 men’s World Cup?",
+    "answer": "Brazil",
+    "options": [
+      "Brazil",
+      "Uruguay",
+      "Netherlands",
+      "Portugal"
+    ],
+    "explanation": "Brazil won the men’s World Cup in 1962. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Brasilia.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1962",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1966",
+    "prompt": "Who won the 1966 men’s World Cup?",
+    "answer": "England",
+    "options": [
+      "England",
+      "Netherlands",
+      "Portugal",
+      "Sweden"
+    ],
+    "explanation": "England won the men’s World Cup in 1966. This question refers to that edition, not the current champions.",
+    "hint": "Wembley is its national stadium.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1966",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1970",
+    "prompt": "Who won the 1970 men’s World Cup?",
+    "answer": "Brazil",
+    "options": [
+      "Brazil",
+      "Portugal",
+      "Sweden",
+      "Japan"
+    ],
+    "explanation": "Brazil won the men’s World Cup in 1970. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Brasilia.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1970",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1974",
+    "prompt": "Who won the 1974 men’s World Cup?",
+    "answer": "West Germany",
+    "options": [
+      "West Germany",
+      "Sweden",
+      "Japan",
+      "Norway"
+    ],
+    "explanation": "West Germany won the men’s World Cup in 1974. This question refers to that edition, not the current champions.",
+    "hint": "The team represented the western German state.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1974",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1978",
+    "prompt": "Who won the 1978 men’s World Cup?",
+    "answer": "Argentina",
+    "options": [
+      "Argentina",
+      "Japan",
+      "Norway",
+      "United States"
+    ],
+    "explanation": "Argentina won the men’s World Cup in 1978. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Buenos Aires.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1978",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1982",
+    "prompt": "Who won the 1982 men’s World Cup?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "Norway",
+      "United States",
+      "Brazil"
+    ],
+    "explanation": "Italy won the men’s World Cup in 1982. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1982",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1986",
+    "prompt": "Who won the 1986 men’s World Cup?",
+    "answer": "Argentina",
+    "options": [
+      "Argentina",
+      "United States",
+      "Brazil",
+      "France"
+    ],
+    "explanation": "Argentina won the men’s World Cup in 1986. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Buenos Aires.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1986",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1990",
+    "prompt": "Who won the 1990 men’s World Cup?",
+    "answer": "West Germany",
+    "options": [
+      "West Germany",
+      "Brazil",
+      "Argentina",
+      "France"
+    ],
+    "explanation": "West Germany won the men’s World Cup in 1990. This question refers to that edition, not the current champions.",
+    "hint": "The team represented the western German state.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1990",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1994",
+    "prompt": "Who won the 1994 men’s World Cup?",
+    "answer": "Brazil",
+    "options": [
+      "Brazil",
+      "France",
+      "Italy",
+      "Germany"
+    ],
+    "explanation": "Brazil won the men’s World Cup in 1994. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Brasilia.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1994",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-1998",
+    "prompt": "Who won the 1998 men’s World Cup?",
+    "answer": "France",
+    "options": [
+      "France",
+      "Italy",
+      "Germany",
+      "Spain"
+    ],
+    "explanation": "France won the men’s World Cup in 1998. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Paris.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "1998",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2002",
+    "prompt": "Who won the 2002 men’s World Cup?",
+    "answer": "Brazil",
+    "options": [
+      "Brazil",
+      "Germany",
+      "Spain",
+      "England"
+    ],
+    "explanation": "Brazil won the men’s World Cup in 2002. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Brasilia.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2002",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2006",
+    "prompt": "Who won the 2006 men’s World Cup?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "Spain",
+      "England",
+      "Uruguay"
+    ],
+    "explanation": "Italy won the men’s World Cup in 2006. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2006",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2010",
+    "prompt": "Who won the 2010 men’s World Cup?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "England",
+      "Uruguay",
+      "Netherlands"
+    ],
+    "explanation": "Spain won the men’s World Cup in 2010. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2010",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2014",
+    "prompt": "Who won the 2014 men’s World Cup?",
+    "answer": "Germany",
+    "options": [
+      "Germany",
+      "Uruguay",
+      "Netherlands",
+      "Portugal"
+    ],
+    "explanation": "Germany won the men’s World Cup in 2014. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Berlin.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2014",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2018",
+    "prompt": "Who won the 2018 men’s World Cup?",
+    "answer": "France",
+    "options": [
+      "France",
+      "Netherlands",
+      "Portugal",
+      "Sweden"
+    ],
+    "explanation": "France won the men’s World Cup in 2018. This question refers to that edition, not the current champions.",
+    "hint": "Its capital is Paris.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2018",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "world-2022",
+    "prompt": "Who won the 2022 men’s World Cup?",
+    "answer": "Argentina",
+    "options": [
+      "Argentina",
+      "Portugal",
+      "Sweden",
+      "Japan"
+    ],
+    "explanation": "Argentina won the men’s World Cup in 2022. This question refers to that edition, not the current champions.",
+    "hint": "A South American country whose capital is Buenos Aires.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "era": "2022",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-1991",
+    "prompt": "Which country won the 1991 Women’s World Cup?",
+    "answer": "United States",
+    "options": [
+      "United States",
+      "Norway",
+      "Germany",
+      "Japan"
+    ],
+    "explanation": "United States became Women’s World Cup champions in 1991.",
+    "hint": "Its national flag features stars and stripes.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "1991",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-1995",
+    "prompt": "Which country won the 1995 Women’s World Cup?",
+    "answer": "Norway",
+    "options": [
+      "Norway",
+      "Germany",
+      "Japan",
+      "Spain"
+    ],
+    "explanation": "Norway became Women’s World Cup champions in 1995.",
+    "hint": "Its capital is Oslo.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "1995",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-1999",
+    "prompt": "Which country won the 1999 Women’s World Cup?",
+    "answer": "United States",
+    "options": [
+      "United States",
+      "Japan",
+      "Spain",
+      "England"
+    ],
+    "explanation": "United States became Women’s World Cup champions in 1999.",
+    "hint": "Its national flag features stars and stripes.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "1999",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2003",
+    "prompt": "Which country won the 2003 Women’s World Cup?",
+    "answer": "Germany",
+    "options": [
+      "Germany",
+      "Spain",
+      "England",
+      "Sweden"
+    ],
+    "explanation": "Germany became Women’s World Cup champions in 2003.",
+    "hint": "Its capital is Berlin.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2003",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2007",
+    "prompt": "Which country won the 2007 Women’s World Cup?",
+    "answer": "Germany",
+    "options": [
+      "Germany",
+      "England",
+      "Sweden",
+      "Brazil"
+    ],
+    "explanation": "Germany became Women’s World Cup champions in 2007.",
+    "hint": "Its capital is Berlin.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2007",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2011",
+    "prompt": "Which country won the 2011 Women’s World Cup?",
+    "answer": "Japan",
+    "options": [
+      "Japan",
+      "Sweden",
+      "Brazil",
+      "United States"
+    ],
+    "explanation": "Japan became Women’s World Cup champions in 2011.",
+    "hint": "Its capital is Tokyo.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2011",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2015",
+    "prompt": "Which country won the 2015 Women’s World Cup?",
+    "answer": "United States",
+    "options": [
+      "United States",
+      "Brazil",
+      "Norway",
+      "Germany"
+    ],
+    "explanation": "United States became Women’s World Cup champions in 2015.",
+    "hint": "Its national flag features stars and stripes.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2015",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2019",
+    "prompt": "Which country won the 2019 Women’s World Cup?",
+    "answer": "United States",
+    "options": [
+      "United States",
+      "Norway",
+      "Germany",
+      "Japan"
+    ],
+    "explanation": "United States became Women’s World Cup champions in 2019.",
+    "hint": "Its national flag features stars and stripes.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2019",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "women-2023",
+    "prompt": "Which country won the 2023 Women’s World Cup?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "Norway",
+      "Germany",
+      "Japan"
+    ],
+    "explanation": "Spain became Women’s World Cup champions in 2023.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "era": "2023",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1960",
+    "prompt": "Who won the men’s EURO 1960 tournament?",
+    "answer": "Soviet Union",
+    "options": [
+      "Soviet Union",
+      "Spain",
+      "Italy",
+      "France"
+    ],
+    "explanation": "Soviet Union won EURO 1960.",
+    "hint": "A former federation whose capital was Moscow.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1960/",
+    "era": "EURO 1960",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1964",
+    "prompt": "Who won the men’s EURO 1964 tournament?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "France",
+      "Netherlands",
+      "Denmark"
+    ],
+    "explanation": "Spain won EURO 1964.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1964/",
+    "era": "EURO 1964",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1968",
+    "prompt": "Who won the men’s EURO 1968 tournament?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "Netherlands",
+      "Denmark",
+      "Germany"
+    ],
+    "explanation": "Italy won EURO 1968.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1968/",
+    "era": "EURO 1968",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1972",
+    "prompt": "Who won the men’s EURO 1972 tournament?",
+    "answer": "West Germany",
+    "options": [
+      "West Germany",
+      "Netherlands",
+      "Denmark",
+      "Greece"
+    ],
+    "explanation": "West Germany won EURO 1972.",
+    "hint": "The team represented the western German state.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1972/",
+    "era": "EURO 1972",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1976",
+    "prompt": "Who won the men’s EURO 1976 tournament?",
+    "answer": "Czechoslovakia",
+    "options": [
+      "Czechoslovakia",
+      "Denmark",
+      "Germany",
+      "Greece"
+    ],
+    "explanation": "Czechoslovakia won EURO 1976.",
+    "hint": "A former country that included today’s Czechia and Slovakia.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1976/",
+    "era": "EURO 1976",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1980",
+    "prompt": "Who won the men’s EURO 1980 tournament?",
+    "answer": "West Germany",
+    "options": [
+      "West Germany",
+      "Greece",
+      "Portugal",
+      "Spain"
+    ],
+    "explanation": "West Germany won EURO 1980.",
+    "hint": "The team represented the western German state.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1980/",
+    "era": "EURO 1980",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1984",
+    "prompt": "Who won the men’s EURO 1984 tournament?",
+    "answer": "France",
+    "options": [
+      "France",
+      "Portugal",
+      "Spain",
+      "Italy"
+    ],
+    "explanation": "France won EURO 1984.",
+    "hint": "Its capital is Paris.",
+    "category": "world",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1984/",
+    "era": "EURO 1984",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1988",
+    "prompt": "Who won the men’s EURO 1988 tournament?",
+    "answer": "Netherlands",
+    "options": [
+      "Netherlands",
+      "Spain",
+      "Italy",
+      "France"
+    ],
+    "explanation": "Netherlands won EURO 1988.",
+    "hint": "Its fans are famous for wearing orange.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1988/",
+    "era": "EURO 1988",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1992",
+    "prompt": "Who won the men’s EURO 1992 tournament?",
+    "answer": "Denmark",
+    "options": [
+      "Denmark",
+      "Italy",
+      "France",
+      "Netherlands"
+    ],
+    "explanation": "Denmark won EURO 1992.",
+    "hint": "Its capital is Copenhagen.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1992/",
+    "era": "EURO 1992",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-1996",
+    "prompt": "Who won the men’s EURO 1996 tournament?",
+    "answer": "Germany",
+    "options": [
+      "Germany",
+      "France",
+      "Netherlands",
+      "Denmark"
+    ],
+    "explanation": "Germany won EURO 1996.",
+    "hint": "Its capital is Berlin.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/1996/",
+    "era": "EURO 1996",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2000",
+    "prompt": "Who won the men’s EURO 2000 tournament?",
+    "answer": "France",
+    "options": [
+      "France",
+      "Denmark",
+      "Germany",
+      "Greece"
+    ],
+    "explanation": "France won EURO 2000.",
+    "hint": "Its capital is Paris.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2000/",
+    "era": "EURO 2000",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2004",
+    "prompt": "Who won the men’s EURO 2004 tournament?",
+    "answer": "Greece",
+    "options": [
+      "Greece",
+      "Denmark",
+      "Germany",
+      "Portugal"
+    ],
+    "explanation": "Greece won EURO 2004.",
+    "hint": "Its capital is Athens.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2004/",
+    "era": "EURO 2004",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2008",
+    "prompt": "Who won the men’s EURO 2008 tournament?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "Greece",
+      "Portugal",
+      "Italy"
+    ],
+    "explanation": "Spain won EURO 2008.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2008/",
+    "era": "EURO 2008",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2012",
+    "prompt": "Who won the men’s EURO 2012 tournament?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France"
+    ],
+    "explanation": "Spain won EURO 2012.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2012/",
+    "era": "EURO 2012",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2016",
+    "prompt": "Who won the men’s EURO 2016 tournament?",
+    "answer": "Portugal",
+    "options": [
+      "Portugal",
+      "Spain",
+      "Italy",
+      "France"
+    ],
+    "explanation": "Portugal won EURO 2016.",
+    "hint": "Its capital is Lisbon.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2016/",
+    "era": "EURO 2016",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2020",
+    "prompt": "Who won the men’s EURO 2020 tournament?",
+    "answer": "Italy",
+    "options": [
+      "Italy",
+      "France",
+      "Netherlands",
+      "Denmark"
+    ],
+    "explanation": "Italy won EURO 2020. The 2020 edition was played in 2021.",
+    "hint": "Its capital is Rome.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2020/",
+    "era": "EURO 2020",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "euro-2024",
+    "prompt": "Who won the men’s EURO 2024 tournament?",
+    "answer": "Spain",
+    "options": [
+      "Spain",
+      "Netherlands",
+      "Denmark",
+      "Germany"
+    ],
+    "explanation": "Spain won EURO 2024.",
+    "hint": "Its capital is Madrid.",
+    "category": "world",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefaeuro/history/seasons/2024/",
+    "era": "EURO 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2000",
+    "prompt": "Which club won the men’s Champions League final in 2000?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Real Madrid won the 2000 final, at the end of the 1999/00 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1999/",
+    "era": "1999/00",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2001",
+    "prompt": "Which club won the men’s Champions League final in 2001?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "AC Milan",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "explanation": "Bayern Munich won the 2001 final, at the end of the 2000/01 season.",
+    "hint": "This club is based in Germany.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2000/",
+    "era": "2000/01",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2002",
+    "prompt": "Which club won the men’s Champions League final in 2002?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Liverpool",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "explanation": "Real Madrid won the 2002 final, at the end of the 2001/02 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2001/",
+    "era": "2001/02",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2003",
+    "prompt": "Which club won the men’s Champions League final in 2003?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "AC Milan won the 2003 final, at the end of the 2002/03 season.",
+    "hint": "This club is based in Italy.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2002/",
+    "era": "2002/03",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2004",
+    "prompt": "Which club won the men’s Champions League final in 2004?",
+    "answer": "Porto",
+    "options": [
+      "Porto",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Porto won the 2004 final, at the end of the 2003/04 season.",
+    "hint": "This club is based in Portugal.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2003/",
+    "era": "2003/04",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2005",
+    "prompt": "Which club won the men’s Champions League final in 2005?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Liverpool won the 2005 final, at the end of the 2004/05 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2004/",
+    "era": "2004/05",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2006",
+    "prompt": "Which club won the men’s Champions League final in 2006?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Inter Milan",
+      "Porto",
+      "Ajax"
+    ],
+    "explanation": "Barcelona won the 2006 final, at the end of the 2005/06 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2005/",
+    "era": "2005/06",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2007",
+    "prompt": "Which club won the men’s Champions League final in 2007?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Porto",
+      "Ajax",
+      "Juventus"
+    ],
+    "explanation": "AC Milan won the 2007 final, at the end of the 2006/07 season.",
+    "hint": "This club is based in Italy.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2006/",
+    "era": "2006/07",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2008",
+    "prompt": "Which club won the men’s Champions League final in 2008?",
+    "answer": "Manchester United",
+    "options": [
+      "Manchester United",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Manchester United won the 2008 final, at the end of the 2007/08 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2007/",
+    "era": "2007/08",
+    "premium": false,
+    "aliases": [
+      "Man United",
+      "Manchester Utd"
+    ]
+  },
+  {
+    "id": "clubs-2009",
+    "prompt": "Which club won the men’s Champions League final in 2009?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Juventus",
+      "Borussia Dortmund",
+      "Manchester City"
+    ],
+    "explanation": "Barcelona won the 2009 final, at the end of the 2008/09 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2008/",
+    "era": "2008/09",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2010",
+    "prompt": "Which club won the men’s Champions League final in 2010?",
+    "answer": "Inter Milan",
+    "options": [
+      "Inter Milan",
+      "Borussia Dortmund",
+      "Manchester City",
+      "Real Madrid"
+    ],
+    "explanation": "Inter Milan won the 2010 final, at the end of the 2009/10 season.",
+    "hint": "This club is based in Italy.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2009/",
+    "era": "2009/10",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2011",
+    "prompt": "Which club won the men’s Champions League final in 2011?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Manchester City",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "Barcelona won the 2011 final, at the end of the 2010/11 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2010/",
+    "era": "2010/11",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2012",
+    "prompt": "Which club won the men’s Champions League final in 2012?",
+    "answer": "Chelsea",
+    "options": [
+      "Chelsea",
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "explanation": "Chelsea won the 2012 final, at the end of the 2011/12 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2011/",
+    "era": "2011/12",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2013",
+    "prompt": "Which club won the men’s Champions League final in 2013?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "AC Milan",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "explanation": "Bayern Munich won the 2013 final, at the end of the 2012/13 season.",
+    "hint": "This club is based in Germany.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2012/",
+    "era": "2012/13",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2014",
+    "prompt": "Which club won the men’s Champions League final in 2014?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Liverpool",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "explanation": "Real Madrid won the 2014 final, at the end of the 2013/14 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2013/",
+    "era": "2013/14",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2015",
+    "prompt": "Which club won the men’s Champions League final in 2015?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Liverpool",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Barcelona won the 2015 final, at the end of the 2014/15 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2014/",
+    "era": "2014/15",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2016",
+    "prompt": "Which club won the men’s Champions League final in 2016?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Real Madrid won the 2016 final, at the end of the 2015/16 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2015/",
+    "era": "2015/16",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2017",
+    "prompt": "Which club won the men’s Champions League final in 2017?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Real Madrid won the 2017 final, at the end of the 2016/17 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2016/",
+    "era": "2016/17",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2018",
+    "prompt": "Which club won the men’s Champions League final in 2018?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Inter Milan",
+      "Porto",
+      "Ajax"
+    ],
+    "explanation": "Real Madrid won the 2018 final, at the end of the 2017/18 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2017/",
+    "era": "2017/18",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2019",
+    "prompt": "Which club won the men’s Champions League final in 2019?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Porto",
+      "Ajax",
+      "Juventus"
+    ],
+    "explanation": "Liverpool won the 2019 final, at the end of the 2018/19 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2018/",
+    "era": "2018/19",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2020",
+    "prompt": "Which club won the men’s Champions League final in 2020?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Bayern Munich won the 2020 final, at the end of the 2019/20 season.",
+    "hint": "This club is based in Germany.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2019/",
+    "era": "2019/20",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2021",
+    "prompt": "Which club won the men’s Champions League final in 2021?",
+    "answer": "Chelsea",
+    "options": [
+      "Chelsea",
+      "Juventus",
+      "Borussia Dortmund",
+      "Manchester City"
+    ],
+    "explanation": "Chelsea won the 2021 final, at the end of the 2020/21 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2020/",
+    "era": "2020/21",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2022",
+    "prompt": "Which club won the men’s Champions League final in 2022?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Borussia Dortmund",
+      "Manchester City",
+      "AC Milan"
+    ],
+    "explanation": "Real Madrid won the 2022 final, at the end of the 2021/22 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2021/",
+    "era": "2021/22",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2023",
+    "prompt": "Which club won the men’s Champions League final in 2023?",
+    "answer": "Manchester City",
+    "options": [
+      "Manchester City",
+      "Borussia Dortmund",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "Manchester City won the 2023 final, at the end of the 2022/23 season.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2022/",
+    "era": "2022/23",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "clubs-2024",
+    "prompt": "Which club won the men’s Champions League final in 2024?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Real Madrid won the 2024 final, at the end of the 2023/24 season.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2023/",
+    "era": "2023/24",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "player-1",
+    "prompt": "Who is this player?\n\nBarcelona → Paris Saint-Germain → Inter Miami",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Thierry Henry",
+      "Zinedine Zidane"
+    ],
+    "explanation": "Lionel Messi represents Argentina. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Argentina.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.intermiamicf.com/players/lionel-messi/",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Messi"
+    ]
+  },
+  {
+    "id": "player-2",
+    "prompt": "Who is this player?\n\nSporting CP → Manchester United → Real Madrid → Juventus",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Thierry Henry",
+      "Zinedine Zidane",
+      "David Beckham"
+    ],
+    "explanation": "Cristiano Ronaldo represents Portugal. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Portugal.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Ronaldo"
+    ]
+  },
+  {
+    "id": "player-3",
+    "prompt": "Who is this player?\n\nMonaco → Juventus → Arsenal → Barcelona",
+    "answer": "Thierry Henry",
+    "options": [
+      "Thierry Henry",
+      "Zinedine Zidane",
+      "David Beckham",
+      "Luka Modrić"
+    ],
+    "explanation": "Thierry Henry represents France. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.arsenal.com/historic/players/thierry-henry",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Henry"
+    ]
+  },
+  {
+    "id": "player-4",
+    "prompt": "Who is this player?\n\nCannes → Bordeaux → Juventus → Real Madrid",
+    "answer": "Zinedine Zidane",
+    "options": [
+      "Zinedine Zidane",
+      "David Beckham",
+      "Luka Modrić",
+      "Didier Drogba"
+    ],
+    "explanation": "Zinedine Zidane represents France. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Zidane"
+    ]
+  },
+  {
+    "id": "player-5",
+    "prompt": "Who is this player?\n\nManchester United → Real Madrid → LA Galaxy",
+    "answer": "David Beckham",
+    "options": [
+      "David Beckham",
+      "Luka Modrić",
+      "Didier Drogba",
+      "Fernando Torres"
+    ],
+    "explanation": "David Beckham represents England. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents England.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Beckham"
+    ]
+  },
+  {
+    "id": "player-6",
+    "prompt": "Who is this player?\n\nDinamo Zagreb → Tottenham Hotspur → Real Madrid",
+    "answer": "Luka Modrić",
+    "options": [
+      "Luka Modrić",
+      "Didier Drogba",
+      "Fernando Torres",
+      "Luis Suárez"
+    ],
+    "explanation": "Luka Modrić represents Croatia. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Croatia.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/luka-modric",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Modrić"
+    ]
+  },
+  {
+    "id": "player-7",
+    "prompt": "Who is this player?\n\nGuingamp → Marseille → Chelsea",
+    "answer": "Didier Drogba",
+    "options": [
+      "Didier Drogba",
+      "Fernando Torres",
+      "Luis Suárez",
+      "Mohamed Salah"
+    ],
+    "explanation": "Didier Drogba represents Ivory Coast. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Ivory Coast.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.chelseafc.com/en/didier-drogba",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Drogba"
+    ]
+  },
+  {
+    "id": "player-8",
+    "prompt": "Who is this player?\n\nAtlético Madrid → Liverpool → Chelsea",
+    "answer": "Fernando Torres",
+    "options": [
+      "Fernando Torres",
+      "Luis Suárez",
+      "Mohamed Salah",
+      "Sadio Mané"
+    ],
+    "explanation": "Fernando Torres represents Spain. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Spain.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.liverpoolfc.com/info/fernando-torres",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Torres"
+    ]
+  },
+  {
+    "id": "player-9",
+    "prompt": "Who is this player?\n\nGroningen → Ajax → Liverpool → Barcelona",
+    "answer": "Luis Suárez",
+    "options": [
+      "Luis Suárez",
+      "Mohamed Salah",
+      "Sadio Mané",
+      "Robert Lewandowski"
+    ],
+    "explanation": "Luis Suárez represents Uruguay. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Uruguay.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.liverpoolfc.com/info/luis-suarez",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Luis Suarez"
+    ]
+  },
+  {
+    "id": "player-10",
+    "prompt": "Who is this player?\n\nBasel → Chelsea → Roma → Liverpool (permanent clubs shown)",
+    "answer": "Mohamed Salah",
+    "options": [
+      "Mohamed Salah",
+      "Sadio Mané",
+      "Robert Lewandowski",
+      "Lionel Messi"
+    ],
+    "explanation": "Mohamed Salah represents Egypt. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Egypt.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.liverpoolfc.com/team/mens/player/mohamed-salah",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Salah"
+    ]
+  },
+  {
+    "id": "player-11",
+    "prompt": "Who is this player?\n\nMetz → Salzburg → Southampton → Liverpool",
+    "answer": "Sadio Mané",
+    "options": [
+      "Sadio Mané",
+      "Robert Lewandowski",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "explanation": "Sadio Mané represents Senegal. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Senegal.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.liverpoolfc.com/info/sadio-mane",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Mané"
+    ]
+  },
+  {
+    "id": "player-12",
+    "prompt": "Who is this player?\n\nLech Poznań → Borussia Dortmund → Bayern Munich → Barcelona",
+    "answer": "Robert Lewandowski",
+    "options": [
+      "Robert Lewandowski",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Thierry Henry"
+    ],
+    "explanation": "Robert Lewandowski represents Poland. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Poland.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players/5109/robert-lewandowski",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Lewandowski"
+    ]
+  },
+  {
+    "id": "player-13",
+    "prompt": "Who is this player?\n\nLiverpool → Manchester City → Lyon → Manchester City → Barcelona",
+    "answer": "Lucy Bronze",
+    "options": [
+      "Lucy Bronze",
+      "Alexia Putellas",
+      "Aitana Bonmatí",
+      "Alex Morgan"
+    ],
+    "explanation": "Lucy Bronze represents England. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents England.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.chelseafc.com/en/teams/profile/lucy-bronze",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Bronze"
+    ]
+  },
+  {
+    "id": "player-14",
+    "prompt": "Who is this player?\n\nWestern New York Flash → Portland Thorns → Orlando Pride",
+    "answer": "Alex Morgan",
+    "options": [
+      "Alex Morgan",
+      "Aitana Bonmatí",
+      "Lucy Bronze",
+      "Megan Rapinoe"
+    ],
+    "explanation": "Alex Morgan represents United States. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents United States.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.ussoccer.com/players/m/alex-morgan",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Morgan"
+    ]
+  },
+  {
+    "id": "player-15",
+    "prompt": "Who is this player?\n\nThe American winger who won the 2019 Women’s World Cup Golden Boot",
+    "answer": "Megan Rapinoe",
+    "options": [
+      "Megan Rapinoe",
+      "Lucy Bronze",
+      "Alex Morgan",
+      "Marta"
+    ],
+    "explanation": "Megan Rapinoe represents United States. The clue describes this player’s historical achievement.",
+    "hint": "This player represents United States.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.ussoccer.com/players/r/megan-rapinoe",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Rapinoe"
+    ]
+  },
+  {
+    "id": "player-16",
+    "prompt": "Who is this player?\n\nThe Brazilian forward known as “Rainha”, or “Queen”",
+    "answer": "Marta",
+    "options": [
+      "Marta",
+      "Alex Morgan",
+      "Megan Rapinoe",
+      "Sam Kerr"
+    ],
+    "explanation": "Marta represents Brazil. The clue describes this player’s historical achievement.",
+    "hint": "This player represents Brazil.",
+    "category": "players",
+    "difficulty": "starter",
+    "source": "https://www.orlandocitysc.com/pride/players/marta/",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Marta"
+    ]
+  },
+  {
+    "id": "player-17",
+    "prompt": "Who is this player?\n\nPerth Glory → Western New York Flash → Sky Blue FC → Chicago Red Stars → Chelsea (selected clubs)",
+    "answer": "Sam Kerr",
+    "options": [
+      "Sam Kerr",
+      "Megan Rapinoe",
+      "Marta",
+      "Ada Hegerberg"
+    ],
+    "explanation": "Sam Kerr represents Australia. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "This player represents Australia.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.chelseafc.com/en/teams/profile/sam-kerr",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Kerr"
+    ]
+  },
+  {
+    "id": "player-18",
+    "prompt": "Who is this player?\n\nThe Norwegian forward who won the first Women’s Ballon d’Or in 2018",
+    "answer": "Ada Hegerberg",
+    "options": [
+      "Ada Hegerberg",
+      "Marta",
+      "Sam Kerr",
+      "Alexia Putellas"
+    ],
+    "explanation": "Ada Hegerberg represents Norway. The clue describes this player’s historical achievement.",
+    "hint": "This player represents Norway.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/womenschampionsleague/news/024c-0e1762cd438a-cf591c14c353-1000--hegerberg-wins-first-women-s-ballon-d-or/",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Hegerberg"
+    ]
+  },
+  {
+    "id": "player-19",
+    "prompt": "Who is this player?\n\nThe Spanish midfielder who won the Women’s Ballon d’Or in both 2021 and 2022",
+    "answer": "Alexia Putellas",
+    "options": [
+      "Alexia Putellas",
+      "Sam Kerr",
+      "Ada Hegerberg",
+      "Aitana Bonmatí"
+    ],
+    "explanation": "Alexia Putellas represents Spain. The clue describes this player’s historical achievement.",
+    "hint": "This player represents Spain.",
+    "category": "players",
+    "difficulty": "expert",
+    "source": "https://www.fcbarcelona.com/en/football/womens-football/players/711855/alexia-putellas",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Putellas"
+    ]
+  },
+  {
+    "id": "player-20",
+    "prompt": "Who is this player?\n\nThe Spanish midfielder awarded the Golden Ball at the 2023 Women’s World Cup",
+    "answer": "Aitana Bonmatí",
+    "options": [
+      "Aitana Bonmatí",
+      "Ada Hegerberg",
+      "Alexia Putellas",
+      "Lucy Bronze"
+    ],
+    "explanation": "Aitana Bonmatí represents Spain. The clue describes this player’s historical achievement.",
+    "hint": "This player represents Spain.",
+    "category": "players",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/womens-football/players/711860/aitana-bonmati",
+    "era": "Career / achievements through 2024",
+    "premium": false,
+    "aliases": [
+      "Bonmatí"
+    ]
+  },
+  {
+    "id": "rule-1",
+    "prompt": "In a standard eleven-a-side match, how many players can one team have on the field?",
+    "answer": "11",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "explanation": "A team has at most eleven players on the field, including one goalkeeper.",
+    "hint": "Include the goalkeeper.",
+    "category": "rules",
+    "difficulty": "starter",
+    "source": "https://www.theifab.com/laws/latest/the-players/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-2",
+    "prompt": "What is the minimum number of players a team must have for a match to start or continue?",
+    "answer": "7",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "explanation": "A match may not start or continue if either team has fewer than seven players.",
+    "hint": "It is fewer than eleven but more than six.",
+    "category": "rules",
+    "difficulty": "starter",
+    "source": "https://www.theifab.com/laws/latest/the-players/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-3",
+    "prompt": "How long is each half in a standard adult match, before added time?",
+    "answer": "45 minutes",
+    "options": [
+      "45 minutes",
+      "30 minutes",
+      "40 minutes",
+      "60 minutes"
+    ],
+    "explanation": "A standard match consists of two equal halves of 45 minutes, subject to permitted modifications.",
+    "hint": "Two halves make 90 minutes.",
+    "category": "rules",
+    "difficulty": "starter",
+    "source": "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-4",
+    "prompt": "How long may the half-time interval normally last at most?",
+    "answer": "15 minutes",
+    "options": [
+      "15 minutes",
+      "5 minutes",
+      "25 minutes",
+      "30 minutes"
+    ],
+    "explanation": "The half-time interval must not exceed 15 minutes.",
+    "hint": "A quarter of an hour.",
+    "category": "rules",
+    "difficulty": "starter",
+    "source": "https://www.theifab.com/laws/latest/the-duration-of-the-match/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-5",
+    "prompt": "Which card normally signals a player is sent off?",
+    "answer": "Red",
+    "options": [
+      "Red",
+      "Yellow",
+      "Green",
+      "Blue"
+    ],
+    "explanation": "A red card communicates a sending-off.",
+    "hint": "It is the colour often used for stop.",
+    "category": "rules",
+    "difficulty": "starter",
+    "source": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-6",
+    "prompt": "Which card communicates a caution?",
+    "answer": "Yellow",
+    "options": [
+      "Yellow",
+      "Red",
+      "White",
+      "Purple"
+    ],
+    "explanation": "A yellow card communicates a caution.",
+    "hint": "Think of a warning colour.",
+    "category": "rules",
+    "difficulty": "fan",
+    "source": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-7",
+    "prompt": "Can a goal be scored directly from a throw-in?",
+    "answer": "No",
+    "options": [
+      "No",
+      "Yes, in either goal",
+      "Yes, only at home",
+      "Yes, only in extra time"
+    ],
+    "explanation": "A goal cannot be scored directly from a throw-in.",
+    "hint": "A throw-in is different from a corner kick.",
+    "category": "rules",
+    "difficulty": "fan",
+    "source": "https://www.theifab.com/laws/latest/the-throw-in/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-8",
+    "prompt": "How must a player deliver the ball at a throw-in?",
+    "answer": "With both hands",
+    "options": [
+      "With both hands",
+      "With one hand",
+      "With either foot",
+      "With the head"
+    ],
+    "explanation": "At delivery, the thrower uses both hands and throws from behind and over the head.",
+    "hint": "One hand alone is not enough.",
+    "category": "rules",
+    "difficulty": "fan",
+    "source": "https://www.theifab.com/laws/latest/the-throw-in/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-9",
+    "prompt": "Where is a penalty kick taken from?",
+    "answer": "The penalty mark",
+    "options": [
+      "The penalty mark",
+      "The centre spot",
+      "The corner arc",
+      "The halfway line"
+    ],
+    "explanation": "The ball is placed on the penalty mark for a penalty kick.",
+    "hint": "It is inside the penalty area.",
+    "category": "rules",
+    "difficulty": "fan",
+    "source": "https://www.theifab.com/laws/latest/the-penalty-kick/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-10",
+    "prompt": "How far is the penalty mark from the midpoint between the goalposts?",
+    "answer": "11 metres",
+    "options": [
+      "11 metres",
+      "5 metres",
+      "9 metres",
+      "16 metres"
+    ],
+    "explanation": "The penalty mark is 11 metres (12 yards) from the midpoint between the posts.",
+    "hint": "The distance in yards is twelve.",
+    "category": "rules",
+    "difficulty": "fan",
+    "source": "https://www.theifab.com/laws/latest/the-field-of-play/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-11",
+    "prompt": "What restarts play at the start of each half?",
+    "answer": "A kick-off",
+    "options": [
+      "A kick-off",
+      "A throw-in",
+      "A corner kick",
+      "A penalty kick"
+    ],
+    "explanation": "Each half starts with a kick-off at the centre of the field.",
+    "hint": "Players begin at the halfway line.",
+    "category": "rules",
+    "difficulty": "expert",
+    "source": "https://www.theifab.com/laws/latest/the-start-and-restart-of-play/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-12",
+    "prompt": "Can a player be offside directly from a goal kick?",
+    "answer": "No",
+    "options": [
+      "No",
+      "Yes, always",
+      "Only after half-time",
+      "Only inside the penalty area"
+    ],
+    "explanation": "There is no offside offence when receiving the ball directly from a goal kick.",
+    "hint": "This restart is an exception to offside.",
+    "category": "rules",
+    "difficulty": "expert",
+    "source": "https://www.theifab.com/laws/latest/offside/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-13",
+    "prompt": "Can a player be offside directly from a throw-in?",
+    "answer": "No",
+    "options": [
+      "No",
+      "Yes, always",
+      "Only in extra time",
+      "Only at an away ground"
+    ],
+    "explanation": "Receiving the ball directly from a throw-in is an exception to offside.",
+    "hint": "Think about exceptions for restarts.",
+    "category": "rules",
+    "difficulty": "expert",
+    "source": "https://www.theifab.com/laws/latest/offside/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-14",
+    "prompt": "When is the ball completely out of play across a boundary line?",
+    "answer": "When the whole ball crosses the whole line",
+    "options": [
+      "When the whole ball crosses the whole line",
+      "When half the ball crosses",
+      "When its shadow crosses",
+      "When a player calls it out"
+    ],
+    "explanation": "The ball is out when it has wholly crossed the touchline or goal line, on the ground or in the air.",
+    "hint": "The word “whole” matters.",
+    "category": "rules",
+    "difficulty": "expert",
+    "source": "https://www.theifab.com/laws/latest/the-ball-in-and-out-of-play/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "rule-15",
+    "prompt": "Which official enforces the Laws of the Game during the match?",
+    "answer": "The referee",
+    "options": [
+      "The referee",
+      "The stadium announcer",
+      "The team captain",
+      "The coach"
+    ],
+    "explanation": "The referee has authority to enforce the Laws of the Game for the match.",
+    "hint": "Look for the official with the whistle.",
+    "category": "rules",
+    "difficulty": "expert",
+    "source": "https://www.theifab.com/laws/latest/the-referee/",
+    "era": "Standard adult association football · 2026/27",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "legend-1956",
+    "prompt": "Which club won the men’s European Cup final in 1956?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Real Madrid won the 1956 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1955/",
+    "era": "1956",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1957",
+    "prompt": "Which club won the men’s European Cup final in 1957?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Bayern Munich",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "explanation": "Real Madrid won the 1957 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1956/",
+    "era": "1957",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1958",
+    "prompt": "Which club won the men’s European Cup final in 1958?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Liverpool",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "explanation": "Real Madrid won the 1958 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1957/",
+    "era": "1958",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1959",
+    "prompt": "Which club won the men’s European Cup final in 1959?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Real Madrid won the 1959 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1958/",
+    "era": "1959",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1960",
+    "prompt": "Which club won the men’s European Cup final in 1960?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Real Madrid won the 1960 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1959/",
+    "era": "1960",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1961",
+    "prompt": "Which club won the men’s European Cup final in 1961?",
+    "answer": "Benfica",
+    "options": [
+      "Benfica",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Benfica won the 1961 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Portugal.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1960/",
+    "era": "1961",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1962",
+    "prompt": "Which club won the men’s European Cup final in 1962?",
+    "answer": "Benfica",
+    "options": [
+      "Benfica",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Benfica won the 1962 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Portugal.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1961/",
+    "era": "1962",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1963",
+    "prompt": "Which club won the men’s European Cup final in 1963?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Porto",
+      "Ajax",
+      "Juventus"
+    ],
+    "explanation": "AC Milan won the 1963 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1962/",
+    "era": "1963",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1964",
+    "prompt": "Which club won the men’s European Cup final in 1964?",
+    "answer": "Inter Milan",
+    "options": [
+      "Inter Milan",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Inter Milan won the 1964 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1963/",
+    "era": "1964",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1965",
+    "prompt": "Which club won the men’s European Cup final in 1965?",
+    "answer": "Inter Milan",
+    "options": [
+      "Inter Milan",
+      "Juventus",
+      "Borussia Dortmund",
+      "Manchester City"
+    ],
+    "explanation": "Inter Milan won the 1965 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1964/",
+    "era": "1965",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1966",
+    "prompt": "Which club won the men’s European Cup final in 1966?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Borussia Dortmund",
+      "Manchester City",
+      "Benfica"
+    ],
+    "explanation": "Real Madrid won the 1966 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1965/",
+    "era": "1966",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1967",
+    "prompt": "Which club won the men’s European Cup final in 1967?",
+    "answer": "Celtic",
+    "options": [
+      "Celtic",
+      "Borussia Dortmund",
+      "Manchester City",
+      "Benfica"
+    ],
+    "explanation": "Celtic won the 1967 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Scotland.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1966/",
+    "era": "1967",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1968",
+    "prompt": "Which club won the men’s European Cup final in 1968?",
+    "answer": "Manchester United",
+    "options": [
+      "Manchester United",
+      "Benfica",
+      "Celtic",
+      "Feyenoord"
+    ],
+    "explanation": "Manchester United won the 1968 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "expert",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1967/",
+    "era": "1968",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1969",
+    "prompt": "Which club won the men’s European Cup final in 1969?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Celtic",
+      "Feyenoord",
+      "Nottingham Forest"
+    ],
+    "explanation": "AC Milan won the 1969 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1968/",
+    "era": "1969",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1970",
+    "prompt": "Which club won the men’s European Cup final in 1970?",
+    "answer": "Feyenoord",
+    "options": [
+      "Feyenoord",
+      "Celtic",
+      "Nottingham Forest",
+      "Aston Villa"
+    ],
+    "explanation": "Feyenoord won the 1970 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1969/",
+    "era": "1970",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1971",
+    "prompt": "Which club won the men’s European Cup final in 1971?",
+    "answer": "Ajax",
+    "options": [
+      "Ajax",
+      "Nottingham Forest",
+      "Aston Villa",
+      "Real Madrid"
+    ],
+    "explanation": "Ajax won the 1971 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1970/",
+    "era": "1971",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1972",
+    "prompt": "Which club won the men’s European Cup final in 1972?",
+    "answer": "Ajax",
+    "options": [
+      "Ajax",
+      "Aston Villa",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "Ajax won the 1972 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1971/",
+    "era": "1972",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1973",
+    "prompt": "Which club won the men’s European Cup final in 1973?",
+    "answer": "Ajax",
+    "options": [
+      "Ajax",
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "explanation": "Ajax won the 1973 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1972/",
+    "era": "1973",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1974",
+    "prompt": "Which club won the men’s European Cup final in 1974?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "AC Milan",
+      "Liverpool",
+      "Barcelona"
+    ],
+    "explanation": "Bayern Munich won the 1974 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Germany.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1973/",
+    "era": "1974",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1975",
+    "prompt": "Which club won the men’s European Cup final in 1975?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Liverpool",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "explanation": "Bayern Munich won the 1975 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Germany.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1974/",
+    "era": "1975",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1976",
+    "prompt": "Which club won the men’s European Cup final in 1976?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Bayern Munich won the 1976 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Germany.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1975/",
+    "era": "1976",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1977",
+    "prompt": "Which club won the men’s European Cup final in 1977?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Liverpool won the 1977 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1976/",
+    "era": "1977",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1978",
+    "prompt": "Which club won the men’s European Cup final in 1978?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Liverpool won the 1978 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1977/",
+    "era": "1978",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1979",
+    "prompt": "Which club won the men’s European Cup final in 1979?",
+    "answer": "Nottingham Forest",
+    "options": [
+      "Nottingham Forest",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Nottingham Forest won the 1979 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1978/",
+    "era": "1979",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1980",
+    "prompt": "Which club won the men’s European Cup final in 1980?",
+    "answer": "Nottingham Forest",
+    "options": [
+      "Nottingham Forest",
+      "Inter Milan",
+      "Porto",
+      "Ajax"
+    ],
+    "explanation": "Nottingham Forest won the 1980 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1979/",
+    "era": "1980",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1981",
+    "prompt": "Which club won the men’s European Cup final in 1981?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Liverpool won the 1981 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1980/",
+    "era": "1981",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1982",
+    "prompt": "Which club won the men’s European Cup final in 1982?",
+    "answer": "Aston Villa",
+    "options": [
+      "Aston Villa",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Aston Villa won the 1982 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1981/",
+    "era": "1982",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1983",
+    "prompt": "Which club won the men’s European Cup final in 1983?",
+    "answer": "Hamburg",
+    "options": [
+      "Hamburg",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Hamburg won the 1983 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Germany.",
+    "category": "legends",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1982/",
+    "era": "1983",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1984",
+    "prompt": "Which club won the men’s European Cup final in 1984?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Manchester City",
+      "Benfica",
+      "Celtic"
+    ],
+    "explanation": "Liverpool won the 1984 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from England.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1983/",
+    "era": "1984",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1985",
+    "prompt": "Which club won the men’s European Cup final in 1985?",
+    "answer": "Juventus",
+    "options": [
+      "Juventus",
+      "Benfica",
+      "Celtic",
+      "Feyenoord"
+    ],
+    "explanation": "Juventus won the 1985 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1984/",
+    "era": "1985",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1986",
+    "prompt": "Which club won the men’s European Cup final in 1986?",
+    "answer": "Steaua București",
+    "options": [
+      "Steaua București",
+      "Manchester City",
+      "Benfica",
+      "Celtic"
+    ],
+    "explanation": "Steaua București won the 1986 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Romania.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1985/",
+    "era": "1986",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1987",
+    "prompt": "Which club won the men’s European Cup final in 1987?",
+    "answer": "Porto",
+    "options": [
+      "Porto",
+      "Feyenoord",
+      "Nottingham Forest",
+      "Aston Villa"
+    ],
+    "explanation": "Porto won the 1987 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Portugal.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1986/",
+    "era": "1987",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1988",
+    "prompt": "Which club won the men’s European Cup final in 1988?",
+    "answer": "PSV Eindhoven",
+    "options": [
+      "PSV Eindhoven",
+      "Celtic",
+      "Feyenoord",
+      "Nottingham Forest"
+    ],
+    "explanation": "PSV Eindhoven won the 1988 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1987/",
+    "era": "1988",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1989",
+    "prompt": "Which club won the men’s European Cup final in 1989?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Aston Villa",
+      "Real Madrid",
+      "Bayern Munich"
+    ],
+    "explanation": "AC Milan won the 1989 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1988/",
+    "era": "1989",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1990",
+    "prompt": "Which club won the men’s European Cup final in 1990?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Real Madrid",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "AC Milan won the 1990 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1989/",
+    "era": "1990",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1991",
+    "prompt": "Which club won the men’s European Cup final in 1991?",
+    "answer": "Red Star Belgrade",
+    "options": [
+      "Red Star Belgrade",
+      "Aston Villa",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "Red Star Belgrade won the 1991 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Yugoslavia at the time.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1990/",
+    "era": "1991",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1992",
+    "prompt": "Which club won the men’s European Cup final in 1992?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Bayern Munich",
+      "Liverpool",
+      "Manchester United"
+    ],
+    "explanation": "Barcelona won the 1992 European Cup final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Spain.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1991/",
+    "era": "1992",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1993",
+    "prompt": "Which club won the men’s Champions League final in 1993?",
+    "answer": "Marseille",
+    "options": [
+      "Marseille",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Marseille won the 1993 Champions League final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from France.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1992/",
+    "era": "1993",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1994",
+    "prompt": "Which club won the men’s Champions League final in 1994?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "AC Milan won the 1994 Champions League final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from Italy.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1993/",
+    "era": "1994",
+    "premium": true,
+    "aliases": []
+  },
+  {
+    "id": "legend-1995",
+    "prompt": "Which club won the men’s Champions League final in 1995?",
+    "answer": "Ajax",
+    "options": [
+      "Ajax",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Ajax won the 1995 Champions League final. The competition was renamed the Champions League for the 1992/93 season.",
+    "hint": "The winning club is from the Netherlands.",
+    "category": "legends",
+    "difficulty": "starter",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1994/",
+    "era": "1995",
+    "premium": true,
+    "aliases": []
+  }
+]
