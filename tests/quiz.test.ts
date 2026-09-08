@@ -10,6 +10,7 @@ it('does not expose premium items in a free mixed round',()=>{for(let i=0;i<20;i
 it('gives the same daily set independent of difficulty and seen history',()=>{expect(makeSession(bank,'mixed','starter',[],'daily-2026-09-08',{daily:true}).questionIds).toEqual(makeSession(bank,'mixed','expert',bank.map(q=>q.id),'daily-2026-09-08',{daily:true}).questionIds);});
 it('finishes unseen questions without padding a round with repeats',()=>{const available=bank.filter(q=>!q.premium&&q.difficulty==='fan');const only=available[0];const seen=available.slice(1).map(q=>q.id);expect(makeSession(bank,'mixed','fan',seen,'fresh').questionIds).toEqual([only.id]);});
 it('rejects a clue that gives away its own answer',()=>{const q={...bank[0],id:'leak',prompt:'Which club is this?\n\nReal Madrid’s city rival, founded in 1903',answer:'Real Madrid',options:['Real Madrid','Atlético Madrid','Sevilla','Valencia']};expect(validateBank([q])).toContain('Answer leaked in prompt: leak');});
+it('offers free Guess-the-club clue questions at every difficulty',()=>{const clues=bank.filter(q=>q.category==='clubs'&&!q.premium&&q.prompt.startsWith('Which club is this?'));for(const d of ['starter','fan','expert'])expect(clues.filter(q=>q.difficulty===d).length,d).toBeGreaterThanOrEqual(3);});
 it('handles empty filtered pools explicitly',()=>expect(()=>makeSession(bank,'legends','fan',[],'empty')).toThrow());
 });
 describe('saveable session transitions',()=>{

@@ -1390,6 +1390,234 @@
     "aliases": []
   },
   {
+    "id": "club-clue-1",
+    "prompt": "Which club is this?\n\nSpanish club with a record number of European Cup and Champions League titles, playing in all white at the Santiago Bernabéu.",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Real Madrid. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.realmadrid.com/en-US/the-club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-2",
+    "prompt": "Which club is this?\n\nCatalan club whose motto is “Més que un club”, with its home at Camp Nou.",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "AC Milan",
+      "Bayern Munich",
+      "Liverpool"
+    ],
+    "explanation": "Barcelona. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Spain.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.fcbarcelona.com/en/club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-3",
+    "prompt": "Which club is this?\n\nEnglish club whose anthem is “You’ll Never Walk Alone”, playing at Anfield.",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Bayern Munich",
+      "Barcelona",
+      "Manchester United"
+    ],
+    "explanation": "Liverpool. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://www.liverpoolfc.com/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-4",
+    "prompt": "Which club is this?\n\nBavarian club and record German champions, with the Allianz Arena as home ground.",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Bayern Munich. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Germany.",
+    "category": "clubs",
+    "difficulty": "starter",
+    "source": "https://fcbayern.com/en/club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-5",
+    "prompt": "Which club is this?\n\nTurin club nicknamed “La Vecchia Signora” (The Old Lady), famous for black-and-white stripes.",
+    "answer": "Juventus",
+    "options": [
+      "Juventus",
+      "Barcelona",
+      "Manchester United",
+      "Chelsea"
+    ],
+    "explanation": "Juventus. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Italy.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-6",
+    "prompt": "Which club is this?\n\nAmsterdam club famed for its youth academy and for “Total Football” in the 1970s.",
+    "answer": "Ajax",
+    "options": [
+      "Ajax",
+      "Manchester United",
+      "Chelsea",
+      "Inter Milan"
+    ],
+    "explanation": "Ajax. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in the Netherlands.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.ajax.nl/en/club/history/",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-7",
+    "prompt": "Which club is this?\n\nGerman club known for the “Yellow Wall” terrace at the Westfalenstadion.",
+    "answer": "Borussia Dortmund",
+    "options": [
+      "Borussia Dortmund",
+      "Chelsea",
+      "Inter Milan",
+      "Porto"
+    ],
+    "explanation": "Borussia Dortmund. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Germany.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.bvb.de/eng/BVB/History",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-8",
+    "prompt": "Which club is this?\n\nItalian club in blue-and-black stripes that completed a treble in 2010 under José Mourinho.",
+    "answer": "Inter Milan",
+    "options": [
+      "Inter Milan",
+      "Porto",
+      "Ajax",
+      "Juventus"
+    ],
+    "explanation": "Inter Milan. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Italy.",
+    "category": "clubs",
+    "difficulty": "fan",
+    "source": "https://www.inter.it/en/club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-9",
+    "prompt": "Which club is this?\n\nFirst British club to win the European Cup, in 1967, with a side remembered as the Lisbon Lions.",
+    "answer": "Celtic",
+    "options": [
+      "Celtic",
+      "Porto",
+      "Ajax",
+      "Juventus"
+    ],
+    "explanation": "Celtic. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Scotland.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.celticfc.com/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-10",
+    "prompt": "Which club is this?\n\nEnglish club that won back-to-back European Cups in 1979 and 1980 under Brian Clough.",
+    "answer": "Nottingham Forest",
+    "options": [
+      "Nottingham Forest",
+      "Ajax",
+      "Juventus",
+      "Borussia Dortmund"
+    ],
+    "explanation": "Nottingham Forest. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in England.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.nottinghamforest.co.uk/club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-11",
+    "prompt": "Which club is this?\n\nPortuguese club that won the 2004 Champions League under José Mourinho.",
+    "answer": "Porto",
+    "options": [
+      "Porto",
+      "Borussia Dortmund",
+      "Manchester City",
+      "Benfica"
+    ],
+    "explanation": "Porto. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Portugal.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.fcporto.pt/en/club/history",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
+    "id": "club-clue-12",
+    "prompt": "Which club is this?\n\nLisbon club that won consecutive European Cups in 1961 and 1962 with Eusébio.",
+    "answer": "Benfica",
+    "options": [
+      "Benfica",
+      "Borussia Dortmund",
+      "Manchester City",
+      "Celtic"
+    ],
+    "explanation": "Benfica. The clue describes this club’s identity or historical achievement, not its current form.",
+    "hint": "This club is based in Portugal.",
+    "category": "clubs",
+    "difficulty": "expert",
+    "source": "https://www.slbenfica.pt/en-us/clube/historia",
+    "era": "Club history through 2024",
+    "premium": false,
+    "aliases": []
+  },
+  {
     "id": "player-1",
     "prompt": "Who is this player?\n\nBarcelona → Paris Saint-Germain → Inter Miami",
     "answer": "Lionel Messi",

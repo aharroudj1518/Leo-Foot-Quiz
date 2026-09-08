@@ -23,6 +23,21 @@ clubs=['Real Madrid','AC Milan','Bayern Munich','Liverpool','Barcelona','Manches
 modern=[(2000,'Real Madrid'),(2001,'Bayern Munich'),(2002,'Real Madrid'),(2003,'AC Milan'),(2004,'Porto'),(2005,'Liverpool'),(2006,'Barcelona'),(2007,'AC Milan'),(2008,'Manchester United'),(2009,'Barcelona'),(2010,'Inter Milan'),(2011,'Barcelona'),(2012,'Chelsea'),(2013,'Bayern Munich'),(2014,'Real Madrid'),(2015,'Barcelona'),(2016,'Real Madrid'),(2017,'Real Madrid'),(2018,'Real Madrid'),(2019,'Liverpool'),(2020,'Bayern Munich'),(2021,'Chelsea'),(2022,'Real Madrid'),(2023,'Manchester City'),(2024,'Real Madrid')]
 for i,(year,team) in enumerate(modern):
  add(f'clubs-{year}',f'Which club won the men’s Champions League final in {year}?',team,distract(team,clubs,i),f'{team} won the {year} final, at the end of the {year-1}/{str(year)[2:]} season.','The year is the year of the final.','clubs',f'https://www.uefa.com/uefachampionsleague/history/seasons/{year-1}/',f'{year-1}/{str(year)[2:]}',aliases=['Man United','Manchester Utd'] if team=='Manchester United' else [])
+club_clues=[
+('Real Madrid','Spanish club with a record number of European Cup and Champions League titles, playing in all white at the Santiago Bernabéu.','https://www.realmadrid.com/en-US/the-club/history'),
+('Barcelona','Catalan club whose motto is “Més que un club”, with its home at Camp Nou.','https://www.fcbarcelona.com/en/club/history'),
+('Liverpool','English club whose anthem is “You’ll Never Walk Alone”, playing at Anfield.','https://www.liverpoolfc.com/history'),
+('Bayern Munich','Bavarian club and record German champions, with the Allianz Arena as home ground.','https://fcbayern.com/en/club/history'),
+('Juventus','Turin club nicknamed “La Vecchia Signora” (The Old Lady), famous for black-and-white stripes.','https://www.juventus.com/en/history'),
+('Ajax','Amsterdam club famed for its youth academy and for “Total Football” in the 1970s.','https://www.ajax.nl/en/club/history/'),
+('Borussia Dortmund','German club known for the “Yellow Wall” terrace at the Westfalenstadion.','https://www.bvb.de/eng/BVB/History'),
+('Inter Milan','Italian club in blue-and-black stripes that completed a treble in 2010 under José Mourinho.','https://www.inter.it/en/club/history'),
+('Celtic','First British club to win the European Cup, in 1967, with a side remembered as the Lisbon Lions.','https://www.celticfc.com/history'),
+('Nottingham Forest','English club that won back-to-back European Cups in 1979 and 1980 under Brian Clough.','https://www.nottinghamforest.co.uk/club/history'),
+('Porto','Portuguese club that won the 2004 Champions League under José Mourinho.','https://www.fcporto.pt/en/club/history'),
+('Benfica','Lisbon club that won consecutive European Cups in 1961 and 1962 with Eusébio.','https://www.slbenfica.pt/en-us/clube/historia')]
+for i,(name,clue,url) in enumerate(club_clues):
+ add(f'club-clue-{i+1}',f'Which club is this?\n\n{clue}',name,distract(name,clubs+['Benfica','Celtic','Nottingham Forest'],i),f'{name}. The clue describes this club’s identity or historical achievement, not its current form.','','clubs',url,'Club history through 2024')
 players=[
 ('Lionel Messi','Barcelona → Paris Saint-Germain → Inter Miami','Argentina','https://www.intermiamicf.com/players/lionel-messi/'),
 ('Cristiano Ronaldo','Sporting CP → Manchester United → Real Madrid → Juventus','Portugal','https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro'),
@@ -77,7 +92,8 @@ for q in bank:
   year=int(q['id'].split('-')[-1]);q['difficulty']='starter' if year>=2014 else 'fan' if year>=1986 else 'expert'
   if q['id'].startswith('world-'):q['source']='https://www.archives.fifa.com/fifa_world_cup'
  elif q['category']=='clubs':
-  year=int(q['id'].split('-')[-1]);q['difficulty']='starter' if year>=2016 else 'fan' if year>=2008 else 'expert';q['hint']='This club is based in '+club_countries[q['answer']]+'.'
+  n=int(q['id'].split('-')[-1]);q['hint']='This club is based in '+club_countries[q['answer']]+'.'
+  q['difficulty']=('starter' if n<=4 else 'fan' if n<=8 else 'expert') if q['id'].startswith('club-clue-') else 'starter' if n>=2016 else 'fan' if n>=2008 else 'expert'
  elif q['category']=='players':
   i=int(q['id'].split('-')[-1]);q['difficulty']='starter' if i in [1,2,3,5,14,16] else 'fan' if i in [4,7,9,10,12,17,20] else 'expert'
  elif q['category']=='rules':
