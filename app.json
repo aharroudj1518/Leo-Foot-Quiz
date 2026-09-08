@@ -18,7 +18,13 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.leoqo.footballquiz"
+      "package": "com.leoqo.footballquiz",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -34,6 +40,12 @@
       "expo-audio",
       "expo-asset"
     ],
-    "scheme": "leoqo"
+    "scheme": "leoqo",
+    "extra": {
+      "eas": {
+        "projectId": "99891114-dac6-4d4c-973c-3a246db2a7b1"
+      }
+    },
+    "owner": "amoharroudj"
   }
 }
