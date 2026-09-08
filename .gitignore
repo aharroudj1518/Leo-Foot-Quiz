@@ -44,3 +44,7 @@ playwright-report/
 # generated native folders
 /ios
 /android
+
+# local debug artifacts
+audit.json
+preview-debug.png
