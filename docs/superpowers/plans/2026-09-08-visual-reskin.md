@@ -332,11 +332,11 @@ const letters=page.getByRole('button',{name:/^Letter [A-Z]$/});const n=await let
 await letters.first().click();await expect(page.getByRole('button',{name:/^Slot 1, letter [A-Z]$/})).toBeVisible();
 await page.getByRole('button',{name:'Clear letters',exact:true}).click();await expect(page.getByRole('button',{name:'Slot 1, empty',exact:true})).toBeVisible();
 const pool=page.getByRole('button',{name:/^Letter [A-Z]$/});for(let i=0;i<n;i++){const slots=await page.getByRole('button',{name:/^Slot \d+, empty$/}).count();if(slots===0)break;await pool.nth(i).click();}
-await expect(page.getByText(/One for the memory bank\.|Spot on\./)).toBeVisible();
+await expect(page.getByText(/One for the memory bank\.|Nicely played\./)).toBeVisible();
 });
 ```
 
-Before running, confirm the exact correct-feedback string: `grep -n "quiz_feedback_correct" src/i18n.ts`. If it is not "Spot on." replace it in the regex above with the real string.
+(`Nicely played.` is `quiz_feedback_correct`; `One for the memory bank.` is the incorrect feedback. The loop fills every slot, so either can appear.)
 
 - [ ] **Step 2: Build and run the new e2e test to verify it fails**
 
