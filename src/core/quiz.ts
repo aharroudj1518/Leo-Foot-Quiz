@@ -67,6 +67,7 @@ export function validateBank(bank: Question[]): string[] {
     if (q.options.length !== 4 || new Set(q.options.map(normalize)).size !== 4) errors.push(`Invalid options: ${q.id}`);
     if (q.options.filter(o => correctAnswer(q, o)).length !== 1) errors.push(`Expected exactly one correct option: ${q.id}`);
     if (!q.explanation || !q.hint || !q.era || !q.source.startsWith('https://')) errors.push(`Missing provenance: ${q.id}`);
+    if (normalize(q.prompt).includes(normalize(q.answer))) errors.push(`Answer leaked in prompt: ${q.id}`);
   }
   return errors;
 }
