@@ -24,6 +24,11 @@ test('large-text preference persists and layout fits a narrow screen',async({pag
 await page.setViewportSize({width:320,height:780});await page.goto('/');await page.getByRole('tab',{name:'Settings',exact:true}).click();await page.getByRole('switch',{name:'Larger text'}).click();await page.reload();await page.getByRole('tab',{name:'Settings',exact:true}).click();await expect(page.getByRole('switch',{name:'Larger text'})).toBeChecked();
 expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
 });
+test('sound effects are opt-in and the preference persists',async({page})=>{
+await page.goto('/');await page.getByRole('tab',{name:'Settings',exact:true}).click();const sw=page.getByRole('switch',{name:'Sound effects'});await expect(sw).not.toBeChecked();await sw.click();
+await page.reload();await page.getByRole('tab',{name:'Settings',exact:true}).click();await expect(page.getByRole('switch',{name:'Sound effects'})).toBeChecked();
+expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).sound)).toBe(true);
+});
 test('timed rounds are opt-in, count down, and reveal the answer when time runs out',async({page})=>{
 await page.clock.install();await page.goto('/');await page.getByRole('button',{name:'Let’s play',exact:true}).click();await expect(page.getByText('TAKE YOUR TIME')).toBeVisible();
 await page.getByRole('button',{name:'Save and leave round'}).click();await page.getByRole('tab',{name:'Settings',exact:true}).click();await page.getByRole('switch',{name:'Timed rounds'}).click();

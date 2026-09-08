@@ -4,5 +4,6 @@ describe('t()',()=>{
 it('returns the raw string when there are no placeholders',()=>expect(t('home_kickoff_label')).toBe('Let’s play'));
 it('substitutes every occurrence of a placeholder',()=>expect(t('quiz_progress',{n:3,total:10})).toBe('QUESTION 3 OF 10'));
 it('leaves unknown placeholders literal instead of printing undefined',()=>expect(t('quiz_progress',{n:1})).toBe('QUESTION 1 OF {total}'));
+it('names every difficulty tier for display',()=>{expect(t('difficulty_starter')).toBe('Starter');expect(t('difficulty_fan')).toBe('Fan');expect(t('difficulty_expert')).toBe('Expert');});
 it('has no empty strings and no duplicated whitespace-only keys',()=>{for(const [k,v] of Object.entries(en))expect(v.trim().length,k).toBeGreaterThan(0);});
 });
