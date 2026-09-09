@@ -3445,5 +3445,142 @@
     "assetIds": [
       "maracana"
     ]
+  },
+  {
+    "id": "connections-ronaldo",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Luka Modrić",
+      "Robert Lewandowski",
+      "Pepe Reina"
+    ],
+    "explanation": "Cristiano Ronaldo played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Portugal.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Sporting CP",
+      "Real Madrid",
+      "Juventus"
+    ]
+  },
+  {
+    "id": "connections-modric",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Luka Modrić",
+    "options": [
+      "Luka Modrić",
+      "Robert Lewandowski",
+      "Pepe Reina",
+      "Lionel Messi"
+    ],
+    "explanation": "Luka Modrić played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Croatia.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Dinamo Zagreb",
+      "Tottenham Hotspur",
+      "Real Madrid"
+    ]
+  },
+  {
+    "id": "connections-lewandowski",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Robert Lewandowski",
+    "options": [
+      "Robert Lewandowski",
+      "Pepe Reina",
+      "Lionel Messi",
+      "Erling Haaland"
+    ],
+    "explanation": "Robert Lewandowski played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Poland.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Lech Poznań",
+      "Borussia Dortmund",
+      "Bayern Munich"
+    ]
+  },
+  {
+    "id": "connections-reina",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Pepe Reina",
+    "options": [
+      "Pepe Reina",
+      "Lionel Messi",
+      "Erling Haaland",
+      "Cristiano Ronaldo"
+    ],
+    "explanation": "Pepe Reina played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Spain.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Villarreal",
+      "Liverpool",
+      "Napoli"
+    ]
+  },
+  {
+    "id": "connections-messi",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Erling Haaland",
+      "Cristiano Ronaldo",
+      "Luka Modrić"
+    ],
+    "explanation": "Lionel Messi played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Argentina.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Barcelona",
+      "Paris Saint-Germain"
+    ]
+  },
+  {
+    "id": "connections-haaland",
+    "prompt": "Which player connects these clubs?",
+    "answer": "Erling Haaland",
+    "options": [
+      "Erling Haaland",
+      "Cristiano Ronaldo",
+      "Luka Modrić",
+      "Robert Lewandowski"
+    ],
+    "explanation": "Erling Haaland played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Norway.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.mancity.com/news/mens/erling-haaland-10-year-manchester-city-contract-63872694",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Molde",
+      "Red Bull Salzburg",
+      "Manchester City"
+    ]
   }
 ]

@@ -1,4 +1,4 @@
-export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends' | 'portraits' | 'badges' | 'stadiums';
+export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends' | 'portraits' | 'badges' | 'stadiums' | 'connections';
 export type Difficulty = 'starter' | 'fan' | 'expert';
 export type Question = {
   id: string; prompt: string; answer: string; options: string[]; aliases?: string[];
@@ -6,6 +6,7 @@ export type Question = {
   difficulty: Difficulty; source: string; era: string; premium?: boolean;
   visual?: { kind: 'portrait' | 'badge' | 'stadium'; key: string; description: string };
   assetIds?: string[];
+  clubConnections?: string[];
 };
 export type Answer = { questionId: string; value: string; correct: boolean; hinted: boolean };
 export type Session = {
@@ -39,7 +40,7 @@ export function makeSession(bank: Question[], mode: Mode, difficulty: Difficulty
   // The shared daily challenge must not change when a player buys a pack.
   let pool = bank.filter(q => (!q.premium || (options.premium && !options.daily)) && (mode === 'mixed' || q.category === mode));
   if (options.revision) pool = pool.filter(q => options.revision!.includes(q.id));
-  if (!options.daily && !options.revision && !['portraits','badges','stadiums'].includes(mode)) pool = pool.filter(q => q.difficulty === difficulty);
+  if (!options.daily && !options.revision && !['portraits','badges','stadiums','connections'].includes(mode)) pool = pool.filter(q => q.difficulty === difficulty);
   const ordered = shuffled(pool, seed);
   const unseen = options.daily || options.revision ? ordered : ordered.filter(q => !seen.includes(q.id));
   // Finish the unseen pool before offering deliberate revision. No silent repeats to pad a round.
@@ -99,7 +100,7 @@ function strings(value: unknown): value is string[] {
 }
 function validSession(value: unknown): value is Session {
   if (!record(value) || typeof value.id !== 'string' || typeof value.seed !== 'string'
-    || !['mixed', 'world', 'clubs', 'players', 'rules', 'legends', 'portraits', 'badges', 'stadiums'].includes(String(value.mode))
+    || !['mixed', 'world', 'clubs', 'players', 'rules', 'legends', 'portraits', 'badges', 'stadiums', 'connections'].includes(String(value.mode))
     || !['starter', 'fan', 'expert'].includes(String(value.difficulty))
     || !strings(value.questionIds) || value.questionIds.length === 0
     || new Set(value.questionIds).size !== value.questionIds.length
