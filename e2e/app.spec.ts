@@ -1,4 +1,57 @@
 import {test,expect} from '@playwright/test';
+test('exhausted topics offer explicit revision and do not replace progress on cancel',async({page})=>{
+await page.goto('/');
+await page.getByRole('tab',{name:'Settings',exact:true}).click();
+await page.getByRole('button',{name:'Starter difficulty',exact:true}).click();
+await page.getByRole('tab',{name:'Play',exact:true}).click();
+await page.getByRole('button',{name:/Know the game, 15 questions/}).click();
+for(let i=1;i<=5;i++){
+  await page.getByRole('button',{name:'Skip question',exact:true}).click();
+  await page.getByRole('button',{name:i===5?'See my result':'Next question',exact:true}).click();
+}
+const saved=await page.evaluate(()=>localStorage.getItem('leoqo.profile.v1'));
+await page.getByRole('button',{name:'Play another round',exact:true}).click();
+await expect(page.getByText('You’ve seen this set.',{exact:true})).toBeVisible();
+await page.getByRole('button',{name:'Explore another topic',exact:true}).click();
+expect(await page.evaluate(()=>localStorage.getItem('leoqo.profile.v1'))).toBe(saved);
+await page.getByRole('button',{name:/Know the game, 15 questions/}).click();
+await page.getByRole('button',{name:'Start a revision round',exact:true}).click();
+await expect(page.getByText('QUESTION 1 OF 5')).toBeVisible();
+});
+test('daily challenge becomes available after UTC midnight without reloading',async({page})=>{
+await page.clock.install({time:new Date('2026-09-09T23:59:50Z')});
+await page.goto('/');
+await page.getByRole('button',{name:'Play today’s five',exact:true}).click();
+for(let i=1;i<=5;i++){
+  await page.getByRole('button',{name:'Skip question',exact:true}).click();
+  await page.getByRole('button',{name:i===5?'See my result':'Next question',exact:true}).click();
+}
+await page.getByRole('button',{name:'Back to the clubhouse',exact:true}).click();
+await expect(page.getByRole('button',{name:'See today’s result',exact:true})).toBeVisible();
+await page.clock.runFor(11000);
+await page.getByRole('button',{name:'Play today’s five',exact:true}).click();
+expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session.seed)).toBe('daily-2026-09-10');
+});
+test('viewing a completed daily result preserves an unfinished practice round',async({page})=>{
+await page.goto('/');
+await page.getByRole('button',{name:'Play today’s five',exact:true}).click();
+for(let i=1;i<=5;i++){
+  await page.getByRole('button',{name:'Skip question',exact:true}).click();
+  await page.getByRole('button',{name:i===5?'See my result':'Next question',exact:true}).click();
+}
+await page.getByRole('button',{name:'Back to the clubhouse',exact:true}).click();
+await page.getByRole('button',{name:'Let’s play',exact:true}).click();
+await page.getByRole('button',{name:'Skip question',exact:true}).click();
+await page.getByRole('button',{name:'Save and leave round'}).click();
+const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session);
+await page.getByRole('button',{name:'See today’s result',exact:true}).click();
+await expect(page.getByText('FULL TIME. WELL PLAYED.')).toBeVisible();
+expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session)).toEqual(saved);
+await page.getByRole('button',{name:'Back to the clubhouse',exact:true}).click();
+await page.getByRole('button',{name:/Continue your round/}).click();
+await expect(page.getByText('QUESTION 1 OF 10')).toBeVisible();
+await expect(page.getByText('One for the memory bank.',{exact:true})).toBeVisible();
+});
 test('a full round survives refresh and records one result',async({page})=>{
 await page.goto('/');await page.getByRole('button',{name:'Let’s play',exact:true}).click();
 await expect(page.getByText('QUESTION 1 OF 10')).toBeVisible();

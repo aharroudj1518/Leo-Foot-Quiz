@@ -1,5 +1,11 @@
 // ponytail: single locale table; add a locale map + picker when a second language ships.
 export const en = {
+replay_kicker:'TIME FOR A REMATCH',
+replay_title:'You’ve seen this set.',
+replay_body:'You’ve tried every available question for this topic and difficulty. Revisit them to build your knowledge, or choose another topic or level.',
+replay_start:'Start a revision round',
+replay_explore:'Explore another topic',
+replay_back:'Back to the clubhouse',
 modes_world_name:'World stage',modes_world_sub:'World Cups & European nights',
 modes_players_name:'Who’s the player?',modes_players_sub:'Follow the career. Find the name.',
 modes_clubs_name:'Club football',modes_clubs_sub:'The teams that made history',

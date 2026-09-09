@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "messi",
+      "status": "review-required",
+      "creator": "Кирилл Венедиктов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ronaldo",
+      "status": "review-required",
+      "creator": "Анна Нэсси",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "mbappe",
+      "status": "review-required",
+      "creator": "Антон Зайцев",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "salah",
+      "status": "review-required",
+      "creator": "Анна Нэсси",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "haaland",
+      "status": "review-required",
+      "creator": "Jacek Stanislawek",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "arsenal",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "madrid",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "city",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "milan",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "juventus",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "barcelona",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "wembley",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "allianz",
+      "status": "review-required",
+      "creator": "Rudi Riet from Washington, DC, United States",
+      "licenseEvidence": "CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "maracana",
+      "status": "review-required",
+      "creator": "Daniel Basil",
+      "licenseEvidence": "CC BY 3.0 br: https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    }
+  ]
+}

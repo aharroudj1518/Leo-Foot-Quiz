@@ -2,32 +2,24 @@
   "expo": {
     "name": "Leoqo Football Quiz",
     "slug": "leoqo-football-quiz",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/brand/lion-ball.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.leoqo.footballquiz"
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
       "predictiveBackGestureEnabled": false,
       "package": "com.leoqo.footballquiz",
       "permissions": [
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS",
-        "android.permission.FOREGROUND_SERVICE",
-        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
-      ]
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "icon": "./assets/brand/lion-ball.png"
     },
     "web": {
-      "favicon": "./assets/favicon.png",
+      "favicon": "./assets/brand/lion-ball.png",
       "name": "Leoqo Football Quiz",
       "shortName": "Leoqo",
       "themeColor": "#16382E",
@@ -37,7 +29,15 @@
     "plugins": [
       "expo-sqlite",
       "expo-font",
-      "expo-audio",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundRecording": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
       "expo-asset"
     ],
     "scheme": "leoqo",

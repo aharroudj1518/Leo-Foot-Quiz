@@ -1,0 +1,366 @@
+[
+  {
+    "id": "visual-messi",
+    "prompt": "Who is this player?",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ],
+    "explanation": "Lionel Messi represents Argentina. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Argentina.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "messi",
+      "description": "Short-haired, bearded player wearing Argentina’s light blue and white stripes."
+    },
+    "assetIds": [
+      "messi"
+    ]
+  },
+  {
+    "id": "visual-ronaldo",
+    "prompt": "Who is this player?",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ],
+    "explanation": "Cristiano Ronaldo represents Portugal. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Portugal.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "ronaldo",
+      "description": "Short dark-haired player wearing Portugal’s red shirt."
+    },
+    "assetIds": [
+      "ronaldo"
+    ]
+  },
+  {
+    "id": "visual-mbappe",
+    "prompt": "Who is this player?",
+    "answer": "Kylian Mbappé",
+    "options": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Mohamed Salah"
+    ],
+    "explanation": "Kylian Mbappé represents France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "mbappe",
+      "description": "Young player with close-cropped hair wearing France’s dark blue shirt."
+    },
+    "assetIds": [
+      "mbappe"
+    ]
+  },
+  {
+    "id": "visual-salah",
+    "prompt": "Who is this player?",
+    "answer": "Mohamed Salah",
+    "options": [
+      "Mohamed Salah",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Mohamed Salah represents Egypt. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Egypt.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "salah",
+      "description": "Curly-haired, bearded player wearing Egypt’s red shirt."
+    },
+    "assetIds": [
+      "salah"
+    ]
+  },
+  {
+    "id": "visual-haaland",
+    "prompt": "Who is this player?",
+    "answer": "Erling Haaland",
+    "options": [
+      "Erling Haaland",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Erling Haaland represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Norway.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "haaland",
+      "description": "Fair-haired player with long hair pulled back."
+    },
+    "assetIds": [
+      "haaland"
+    ]
+  },
+  {
+    "id": "visual-arsenal",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Arsenal",
+    "options": [
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City",
+      "AC Milan"
+    ],
+    "explanation": "The cannon and red colours point to Arsenal, known as the Gunners. This is an original puzzle illustration, not the official crest.",
+    "hint": "North London · The Gunners",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.arsenal.com/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "arsenal",
+      "description": "Red shield with a gold cannon and two wheels."
+    },
+    "assetIds": [
+      "arsenal"
+    ]
+  },
+  {
+    "id": "visual-madrid",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Arsenal",
+      "Manchester City",
+      "AC Milan"
+    ],
+    "explanation": "White, a crown and the Spanish capital point to Real Madrid. This is an original puzzle illustration, not the official crest.",
+    "hint": "Spanish capital · Los Blancos",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.realmadrid.com/en-US/the-club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "madrid",
+      "description": "White shield with a gold crown and diagonal blue band."
+    },
+    "assetIds": [
+      "madrid"
+    ]
+  },
+  {
+    "id": "visual-city",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Manchester City",
+    "options": [
+      "Manchester City",
+      "Arsenal",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "The ship and sky-blue colours point to Manchester City. This is an original puzzle illustration, not the official crest.",
+    "hint": "Manchester · The sky-blue side",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.mancity.com/club/manchester-city-history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "city",
+      "description": "Sky-blue round badge with a gold sailing ship."
+    },
+    "assetIds": [
+      "city"
+    ]
+  },
+  {
+    "id": "visual-milan",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Red and black are the colours behind AC Milan’s Rossoneri nickname. This is an original puzzle illustration, not the official crest.",
+    "hint": "Milan · The Rossoneri",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "milan",
+      "description": "Oval shield with alternating red and black stripes."
+    },
+    "assetIds": [
+      "milan"
+    ]
+  },
+  {
+    "id": "visual-juventus",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Juventus",
+    "options": [
+      "Juventus",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Black and white and the city of Turin point to Juventus. This is an original puzzle illustration, not the official crest.",
+    "hint": "Turin · The Bianconeri",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/club/history/",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "juventus",
+      "description": "Black and white striped shield with a gold star."
+    },
+    "assetIds": [
+      "juventus"
+    ]
+  },
+  {
+    "id": "visual-barcelona",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "FC Barcelona",
+    "options": [
+      "FC Barcelona",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Blue and garnet are the colours behind Barcelona’s Blaugrana nickname. This is an original puzzle illustration, not the official crest.",
+    "hint": "Catalonia · The Blaugrana",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "barcelona",
+      "description": "Blue and garnet shield with a gold football."
+    },
+    "assetIds": [
+      "barcelona"
+    ]
+  },
+  {
+    "id": "visual-wembley",
+    "prompt": "Which stadium is this?",
+    "answer": "Wembley Stadium",
+    "options": [
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã",
+      "San Siro"
+    ],
+    "explanation": "The arch is the defining feature of Wembley Stadium in London. This image is an illustrative interpretation.",
+    "hint": "London · Look at the great arch.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://www.wembleystadium.com/",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "wembley",
+      "description": "A large stadium with a single illuminated arch above the roof."
+    },
+    "assetIds": [
+      "wembley"
+    ]
+  },
+  {
+    "id": "visual-allianz",
+    "prompt": "Which stadium is this?",
+    "answer": "Allianz Arena",
+    "options": [
+      "Allianz Arena",
+      "Wembley Stadium",
+      "Maracanã",
+      "San Siro"
+    ],
+    "explanation": "The Allianz Arena in Munich is known for its illuminated exterior panels.",
+    "hint": "Munich · A luminous outer shell.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "allianz",
+      "description": "A rounded stadium exterior made of illuminated inflatable-looking panels."
+    },
+    "assetIds": [
+      "allianz"
+    ]
+  },
+  {
+    "id": "visual-maracana",
+    "prompt": "Which stadium is this?",
+    "answer": "Maracanã",
+    "options": [
+      "Maracanã",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "San Siro"
+    ],
+    "explanation": "The Maracanã is a landmark football stadium in Rio de Janeiro.",
+    "hint": "Rio de Janeiro · A Brazilian landmark.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "maracana",
+      "description": "A huge oval stadium viewed from above, with a continuous ring of roof and seating."
+    },
+    "assetIds": [
+      "maracana"
+    ]
+  }
+]

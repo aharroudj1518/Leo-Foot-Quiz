@@ -1,9 +1,11 @@
-export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends';
+export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends' | 'portraits' | 'badges' | 'stadiums';
 export type Difficulty = 'starter' | 'fan' | 'expert';
 export type Question = {
   id: string; prompt: string; answer: string; options: string[]; aliases?: string[];
   explanation: string; hint: string; category: Exclude<Mode, 'mixed'>;
   difficulty: Difficulty; source: string; era: string; premium?: boolean;
+  visual?: { kind: 'portrait' | 'badge' | 'stadium'; key: string; description: string };
+  assetIds?: string[];
 };
 export type Answer = { questionId: string; value: string; correct: boolean; hinted: boolean };
 export type Session = {
@@ -34,9 +36,10 @@ export function shuffled<T>(values: T[], seed: string): T[] {
   return result;
 }
 export function makeSession(bank: Question[], mode: Mode, difficulty: Difficulty, seen: string[], seed: string, options: { daily?: boolean; family?: boolean; premium?: boolean; revision?: string[] } = {}): Session {
-  let pool = bank.filter(q => (!q.premium || options.premium) && (mode === 'mixed' || q.category === mode));
+  // The shared daily challenge must not change when a player buys a pack.
+  let pool = bank.filter(q => (!q.premium || (options.premium && !options.daily)) && (mode === 'mixed' || q.category === mode));
   if (options.revision) pool = pool.filter(q => options.revision!.includes(q.id));
-  if (!options.daily && !options.revision) pool = pool.filter(q => q.difficulty === difficulty);
+  if (!options.daily && !options.revision && !['portraits','badges','stadiums'].includes(mode)) pool = pool.filter(q => q.difficulty === difficulty);
   const ordered = shuffled(pool, seed);
   const unseen = options.daily || options.revision ? ordered : ordered.filter(q => !seen.includes(q.id));
   // Finish the unseen pool before offering deliberate revision. No silent repeats to pad a round.
@@ -73,9 +76,40 @@ export function validateBank(bank: Question[]): string[] {
 }
 export function hydrate(raw: string | null, bank: Question[]): Profile {
   if (!raw) return initialProfile();
-  const p = JSON.parse(raw) as Profile;
-  if (p.version !== 1 || !Array.isArray(p.seen) || !Array.isArray(p.history) || !Array.isArray(p.mistakes) || !Array.isArray(p.reports)) throw new Error('Saved data could not be read. Export it before resetting.');
+  const p: unknown = JSON.parse(raw);
+  if (!record(p) || p.version !== 1 || !strings(p.seen) || !strings(p.mistakes)
+    || !Array.isArray(p.history) || !p.history.every(h => validSession(h) && h.completed)
+    || !Array.isArray(p.reports) || !p.reports.every(r => record(r) && typeof r.questionId === 'string' && typeof r.reason === 'string' && typeof r.at === 'string')
+    || !['starter', 'fan', 'expert'].includes(String(p.difficulty))
+    || typeof p.largeText !== 'boolean' || typeof p.sound !== 'boolean'
+    || (p.timed !== undefined && typeof p.timed !== 'boolean')) {
+    throw new Error('Saved data could not be read. Export it before resetting.');
+  }
+  const profile = p as unknown as Profile;
   const valid = new Set(bank.map(q => q.id));
-  if (p.session && (!Array.isArray(p.session.questionIds) || !Array.isArray(p.session.answers) || p.session.questionIds.some(id => !valid.has(id)) || p.session.index < 0 || p.session.index >= p.session.questionIds.length)) p.session = null;
-  return { ...initialProfile(), ...p };
+  if (!validSession(profile.session) || profile.session.questionIds.some(id => !valid.has(id))) profile.session = null;
+  return { ...initialProfile(), ...profile };
+}
+
+function record(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null && !Array.isArray(value);
+}
+function strings(value: unknown): value is string[] {
+  return Array.isArray(value) && value.every(item => typeof item === 'string');
+}
+function validSession(value: unknown): value is Session {
+  if (!record(value) || typeof value.id !== 'string' || typeof value.seed !== 'string'
+    || !['mixed', 'world', 'clubs', 'players', 'rules', 'legends', 'portraits', 'badges', 'stadiums'].includes(String(value.mode))
+    || !['starter', 'fan', 'expert'].includes(String(value.difficulty))
+    || !strings(value.questionIds) || value.questionIds.length === 0
+    || new Set(value.questionIds).size !== value.questionIds.length
+    || !Array.isArray(value.answers) || !Number.isInteger(value.index)
+    || typeof value.index !== 'number' || value.index < 0 || value.index >= value.questionIds.length
+    || typeof value.daily !== 'boolean' || typeof value.family !== 'boolean' || typeof value.completed !== 'boolean') return false;
+  const ids = value.questionIds;
+  if (!value.answers.every((a, i) => record(a) && a.questionId === ids[i]
+    && typeof a.value === 'string' && typeof a.correct === 'boolean' && typeof a.hinted === 'boolean')) return false;
+  return value.completed
+    ? value.index === ids.length - 1 && value.answers.length === ids.length
+    : value.answers.length === value.index || value.answers.length === value.index + 1;
 }

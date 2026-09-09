@@ -101,6 +101,8 @@ for q in bank:
  elif q['category']=='legends':
   year=int(q['id'].split('-')[-1]);q['difficulty']='starter' if year>=1984 else 'fan' if year>=1969 else 'expert';q['hint']='The winning club is from '+club_countries[q['answer']]+'.'
 folder=root/'src/content';folder.mkdir(parents=True,exist_ok=True)
+visual=folder/'visual-questions.json'
+if visual.exists(): bank.extend(json.loads(visual.read_text(encoding='utf8')))
 (folder/'questions.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2),encoding='utf8')
 (folder/'editorial-status.json').write_text(json.dumps({'status':'development-bank','independentEditorialApproval':False,'createdAt':'2026-09-08','questions':len(bank),'note':'Original wording with reference URLs. Verify every linked source and fact independently before enabling paid release. No claim of independent sign-off.'},indent=2),encoding='utf8')
 print(f'Created {len(bank)} questions, {sum(not q["premium"] for q in bank)} free, {sum(q["premium"] for q in bank)} pack questions.')

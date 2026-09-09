@@ -20,7 +20,11 @@ function owned(info: CustomerInfo) { return !!info.entitlements.active[ENTITLEME
 export async function loadShop(): Promise<Shop> {
   try {
     const purchases = await sdk();
-    const [info, offerings] = await Promise.all([purchases.getCustomerInfo(), purchases.getOfferings()]);
+    const info = await purchases.getCustomerInfo();
+    // Ownership does not depend on the catalogue being reachable.
+    let offerings;
+    try { offerings = await purchases.getOfferings(); }
+    catch { return { available: false, owned: owned(info), product: null, message: 'The store catalogue could not be reached. Your verified pack access is unchanged. Try again later.' }; }
     const product = offerings.current?.availablePackages.find(p => p.product.identifier === 'leoqo_legends_lifetime') ?? null;
     return { available: !!product, owned: owned(info), product, message: product ? '' : 'The Legends Pack is not available from your store yet. No payment has been taken.' };
   } catch (error) { return { available: false, owned: false, product: null, message: error instanceof Error ? error.message : 'The store could not be reached. Please try again.' }; }

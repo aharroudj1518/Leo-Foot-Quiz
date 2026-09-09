@@ -6,6 +6,10 @@ async function db() {
     const connection = await openDatabaseAsync('leoqo.db');
     await connection.execAsync('PRAGMA journal_mode = WAL; CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY NOT NULL, value TEXT NOT NULL);');
     return connection;
+  }).catch(error => {
+    // A temporary open failure must not poison every subsequent Retry attempt.
+    database = undefined;
+    throw error;
   });
   return database;
 }
