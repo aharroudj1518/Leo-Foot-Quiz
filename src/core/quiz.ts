@@ -137,3 +137,11 @@ function validSession(value: unknown): value is Session {
     ? value.index === ids.length - 1 && value.answers.length === ids.length
     : value.answers.length === value.index || value.answers.length === value.index + 1;
 }
+
+// Recover the club from saved question IDs, including sessions created before this fix.
+export function replayClub(session: Session, bank: Question[]): string | undefined {
+  if (session.mode !== 'squads' || !session.questionIds.length) return undefined;
+  const byId = new Map(bank.map(q => [q.id, q.squadCode]));
+  const codes = session.questionIds.map(id => byId.get(id));
+  return codes[0] && codes.every(code => code === codes[0]) ? codes[0] : undefined;
+}

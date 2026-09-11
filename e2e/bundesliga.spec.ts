@@ -20,4 +20,11 @@ test('Bundesliga shirt round shows sourced details and restores a correct answer
  await page.reload();await page.getByRole('button',{name:/Continue your round/}).click();
  await expect(page.getByText(q.explanation,{exact:true})).toBeVisible();
  await expect(page.getByRole('button',{name:`${player.name}, correct answer`,exact:true})).toBeDisabled();
+ await page.getByRole('button',{name:'See my result',exact:true}).click();
+ await page.getByRole('button',{name:'Play another round',exact:true}).click();
+ const next=await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session);
+ expect(next.questionIds).toHaveLength(10);
+ expect(next.questionIds).not.toContain(q.id);
+ expect(next.questionIds.every((id:string)=>(bank as Question[]).find(item=>item.id===id)?.squadCode===q.squadCode)).toBe(true);
 });
+
