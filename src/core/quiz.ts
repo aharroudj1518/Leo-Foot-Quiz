@@ -1,5 +1,5 @@
 export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends' | 'portraits' | 'badges' | 'stadiums' | 'connections' | 'squads';
-import {dailyDate,isUtcDate,retainDailyProgress} from './daily';
+import {dailyDate,isUtcDate,retainDailyProgress} from './daily.ts';
 export type Difficulty = 'starter' | 'fan' | 'expert';
 export type Question = {
   id: string; prompt: string; answer: string; options: string[]; aliases?: string[];
