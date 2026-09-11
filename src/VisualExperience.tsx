@@ -2,6 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import {AccessibilityInfo, Animated, Image, ImageSourcePropType, Pressable, StyleSheet, Text, View} from 'react-native';
 import {LinearGradient} from 'expo-linear-gradient';
 import {C, Icon} from './ui';
+import {DailyChallenge} from './DailyChallenge';
 import type {Mode, Profile, Question} from './core/quiz';
 import baseCredits from '../assets/visual/credits.json';
 import playerCredits from '../assets/players/manifest.json';
@@ -50,7 +51,7 @@ export function ClubBadge({id,size=130}:{id:string;size?:number}){
   </View>;
 }
 
-export function VisualHome({onStart,profile,onCredits,onAlbum,onDaily,dailyDone}:{onDaily:()=>void;dailyDone:boolean;onAlbum:()=>void;onStart:(mode:Mode)=>void;profile:Profile;onCredits:()=>void}){
+export function VisualHome({onStart,profile,onCredits,onAlbum,onDaily,dailyDone,today}:{today:string;onDaily:()=>void;dailyDone:boolean;onAlbum:()=>void;onStart:(mode:Mode)=>void;profile:Profile;onCredits:()=>void}){
   const completed=profile.seen.filter(id=>id.startsWith('visual-')).length;
   return <View style={{gap:20,marginBottom:24}}>
     <View style={v.headingRow}><View><Text style={v.eyebrow}>THE VISUAL FOOTBALL QUIZ</Text><Text style={v.heading}>Football in your DNA?</Text></View><View style={v.progressPill}><Icon name="football" size={16}/><Text style={v.progressText}>{completed}/{questions.length}</Text></View></View>
@@ -60,7 +61,7 @@ export function VisualHome({onStart,profile,onCredits,onAlbum,onDaily,dailyDone}
       <View style={v.heroCopy}><Text style={v.heroTag}>PLAYER SPOTLIGHT</Text><Text style={v.heroTitle}>Name that{"\n"}legend.</Text><Text style={v.heroSub}>Stars, icons and trailblazers. How many can you name?</Text><View style={v.playButton}><Text style={v.playText}>Guess the player</Text><Icon name="arrow-forward" size={20}/></View></View>
       <View accessible={false} style={v.photoStack}><View style={[v.playerCard,{transform:[{rotate:'12deg'}],right:-12,top:23}]}><Image source={visualImages.ronaldo} style={v.cardPhoto}/></View><View style={[v.playerCard,{transform:[{rotate:'-9deg'}],right:30,top:3}]}><Image source={visualImages.messi} style={v.cardPhoto}/><View style={v.mystery}><Text style={v.mysteryText}>?</Text></View></View></View>
     </Pressable></Reveal>
-    <Pressable accessibilityRole="button" accessibilityLabel={dailyDone?"See today’s result":"Play today’s five"} onPress={onDaily} style={({pressed})=>({padding:16,borderRadius:12,backgroundColor:"#F4CF55",flexDirection:"row",alignItems:"center",gap:12,opacity:pressed?.85:1})}><Icon name={dailyDone?"checkmark-circle":"sunny-outline"} size={28}/><View style={{flex:1,gap:3}}><Text style={{fontSize:16,fontWeight:"800",color:C.ink}}>{dailyDone?"Today’s five: completed":"Today’s five"}</Text><Text style={{fontSize:12,color:C.ink}}>{dailyDone?"Your score is ready to revisit":"A fresh football challenge every day"}</Text></View><Icon name="arrow-forward" size={22}/></Pressable>
+    <DailyChallenge profile={profile} today={today} completed={dailyDone} onPlay={onDaily}/>
     <View style={v.headingRow}><Text style={v.sectionTitle}>Pick your challenge</Text><Text style={v.small}>Play free · All levels</Text></View>
     <View style={v.challengeRow}>
       <Pressable accessibilityRole="button" accessibilityLabel="Guess the badge, 6 club puzzles" onPress={()=>onStart('badges')} style={({pressed})=>[v.challenge,{backgroundColor:'#E4ECE9'},pressed&&v.pressed]}>
