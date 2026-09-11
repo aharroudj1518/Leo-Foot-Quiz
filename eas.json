@@ -29,6 +29,12 @@
       },
       "node": "22.20.0"
     },
+    "device-validation": {
+      "extends": "validation",
+      "ios": {
+        "simulator": false
+      }
+    },
     "production": {
       "autoIncrement": true,
       "env": {
