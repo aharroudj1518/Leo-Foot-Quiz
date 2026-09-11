@@ -1,0 +1,3441 @@
+{
+  "competition": "premier-league",
+  "season": "2026/27",
+  "source": "https://fantasy.premierleague.com/api/bootstrap-static/",
+  "retrievedAt": "2026-09-11",
+  "sourceSha256": "11f4a58a44e1e25168d7a5780167f38cd841ce7fe91270b8b867c12b78f2ace1",
+  "scope": "Selected players from the official Fantasy Premier League catalogue; unavailable entries excluded. Includes eligible young players. Not the complete registration list.",
+  "independentReview": false,
+  "clubs": [
+    {
+      "club": "Arsenal",
+      "players": [
+        {
+          "id": 154561,
+          "name": "David Raya Martín",
+          "fullName": "David Raya Martín",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 109745,
+          "name": "Kepa Arrizabalaga Revuelta",
+          "fullName": "Kepa Arrizabalaga Revuelta",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 437495,
+          "name": "Illan Meslier",
+          "fullName": "Illan Meslier",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 226597,
+          "name": "Gabriel dos Santos Magalhães",
+          "fullName": "Gabriel dos Santos Magalhães",
+          "position": "Defender"
+        },
+        {
+          "id": 445122,
+          "name": "Jurriën Timber",
+          "fullName": "Jurriën Timber",
+          "position": "Defender"
+        },
+        {
+          "id": 462424,
+          "name": "William Saliba",
+          "fullName": "William Saliba",
+          "position": "Defender"
+        },
+        {
+          "id": 499169,
+          "name": "Myles Lewis-Skelly",
+          "fullName": "Myles Lewis-Skelly",
+          "position": "Midfielder"
+        },
+        {
+          "id": 466075,
+          "name": "Riccardo Calafiori",
+          "fullName": "Riccardo Calafiori",
+          "position": "Defender"
+        },
+        {
+          "id": 448104,
+          "name": "Piero Hincapié",
+          "fullName": "Piero Hincapié",
+          "position": "Defender"
+        },
+        {
+          "id": 198869,
+          "name": "Benjamin White",
+          "fullName": "Benjamin White",
+          "position": "Defender"
+        },
+        {
+          "id": 500040,
+          "name": "Cristhian Mosquera",
+          "fullName": "Cristhian Mosquera",
+          "position": "Defender"
+        },
+        {
+          "id": 223340,
+          "name": "Bukayo Saka",
+          "fullName": "Bukayo Saka",
+          "position": "Midfielder"
+        },
+        {
+          "id": 204480,
+          "name": "Declan Rice",
+          "fullName": "Declan Rice",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232413,
+          "name": "Eberechi Eze",
+          "fullName": "Eberechi Eze",
+          "position": "Midfielder"
+        },
+        {
+          "id": 184029,
+          "name": "Martin Ødegaard",
+          "fullName": "Martin Ødegaard",
+          "position": "Midfielder"
+        },
+        {
+          "id": 248857,
+          "name": "Noni Madueke",
+          "fullName": "Noni Madueke",
+          "position": "Midfielder"
+        },
+        {
+          "id": 195384,
+          "name": "Mikel Merino Zazón",
+          "fullName": "Mikel Merino Zazón",
+          "position": "Midfielder"
+        },
+        {
+          "id": 481655,
+          "name": "Martín Zubimendi Ibáñez",
+          "fullName": "Martín Zubimendi Ibáñez",
+          "position": "Midfielder"
+        },
+        {
+          "id": 616077,
+          "name": "Max Dowman",
+          "fullName": "Max Dowman",
+          "position": "Midfielder"
+        },
+        {
+          "id": 224117,
+          "name": "Viktor Gyökeres",
+          "fullName": "Viktor Gyökeres",
+          "position": "Forward"
+        },
+        {
+          "id": 219847,
+          "name": "Kai Havertz",
+          "fullName": "Kai Havertz",
+          "position": "Forward"
+        },
+        {
+          "id": 199798,
+          "name": "Ezri Konsa Ngoyo",
+          "fullName": "Ezri Konsa Ngoyo",
+          "position": "Defender"
+        },
+        {
+          "id": 208706,
+          "name": "Bruno G.",
+          "fullName": "Bruno Guimarães Rodriguez Moura",
+          "position": "Midfielder"
+        },
+        {
+          "id": 439509,
+          "name": "Christos Tzolis",
+          "fullName": "Christos Tzolis",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Aston Villa",
+      "players": [
+        {
+          "id": 72147,
+          "name": "Marco Bizot",
+          "fullName": "Marco Bizot",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 199796,
+          "name": "Matty Cash",
+          "fullName": "Matty Cash",
+          "position": "Defender"
+        },
+        {
+          "id": 149484,
+          "name": "Tyrone Mings",
+          "fullName": "Tyrone Mings",
+          "position": "Defender"
+        },
+        {
+          "id": 244954,
+          "name": "Pau Torres",
+          "fullName": "Pau Torres",
+          "position": "Defender"
+        },
+        {
+          "id": 515597,
+          "name": "Lamare Bogarde",
+          "fullName": "Lamare Bogarde",
+          "position": "Midfielder"
+        },
+        {
+          "id": 441302,
+          "name": "Ian Maatsen",
+          "fullName": "Ian Maatsen",
+          "position": "Defender"
+        },
+        {
+          "id": 184667,
+          "name": "Victor Lindelöf",
+          "fullName": "Victor Lindelöf",
+          "position": "Defender"
+        },
+        {
+          "id": 606798,
+          "name": "Andrés García",
+          "fullName": "Andrés García",
+          "position": "Defender"
+        },
+        {
+          "id": 195546,
+          "name": "Emiliano Buendía Stati",
+          "fullName": "Emiliano Buendía Stati",
+          "position": "Midfielder"
+        },
+        {
+          "id": 122806,
+          "name": "John McGinn",
+          "fullName": "John McGinn",
+          "position": "Midfielder"
+        },
+        {
+          "id": 88894,
+          "name": "Ross Barkley",
+          "fullName": "Ross Barkley",
+          "position": "Midfielder"
+        },
+        {
+          "id": 226944,
+          "name": "Boubacar Kamara",
+          "fullName": "Boubacar Kamara",
+          "position": "Midfielder"
+        },
+        {
+          "id": 449871,
+          "name": "Amadou Onana",
+          "fullName": "Amadou Onana",
+          "position": "Midfielder"
+        },
+        {
+          "id": 645618,
+          "name": "Bradley Burrowes",
+          "fullName": "Bradley Burrowes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 577285,
+          "name": "George Hemmings",
+          "fullName": "George Hemmings",
+          "position": "Midfielder"
+        },
+        {
+          "id": 653481,
+          "name": "Alysson",
+          "fullName": "Alysson Edward Franco da Rocha dos Santos",
+          "position": "Midfielder"
+        },
+        {
+          "id": 614071,
+          "name": "Johan Manzambi",
+          "fullName": "Johan Manzambi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 448089,
+          "name": "Joao Gomes",
+          "fullName": "Joao Gomes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 173879,
+          "name": "Tammy Abraham",
+          "fullName": "Tammy Abraham",
+          "position": "Forward"
+        },
+        {
+          "id": 493105,
+          "name": "Alejandro Garnacho Ferreyra",
+          "fullName": "Alejandro Garnacho Ferreyra",
+          "position": "Midfielder"
+        },
+        {
+          "id": 517052,
+          "name": "Nicolas Jackson",
+          "fullName": "Nicolas Jackson",
+          "position": "Forward"
+        },
+        {
+          "id": 690838,
+          "name": "Brian Madjo",
+          "fullName": "Brian Madjo",
+          "position": "Forward"
+        },
+        {
+          "id": 487992,
+          "name": "Matteo Ruggeri",
+          "fullName": "Matteo Ruggeri",
+          "position": "Defender"
+        },
+        {
+          "id": 433969,
+          "name": "Zion Suzuki",
+          "fullName": "Zion Suzuki",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 569577,
+          "name": "Triston Rowe",
+          "fullName": "Triston Rowe",
+          "position": "Defender"
+        },
+        {
+          "id": 214590,
+          "name": "Aaron Wan-Bissaka",
+          "fullName": "Aaron Wan-Bissaka",
+          "position": "Defender"
+        },
+        {
+          "id": 119090,
+          "name": "Leon Goretzka",
+          "fullName": "Leon Goretzka",
+          "position": "Midfielder"
+        },
+        {
+          "id": 245719,
+          "name": "Taylor Harwood-Bellis",
+          "fullName": "Taylor Harwood-Bellis",
+          "position": "Defender"
+        },
+        {
+          "id": 638987,
+          "name": "Ibrahim Mbaye",
+          "fullName": "Ibrahim Mbaye",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Bournemouth",
+      "players": [
+        {
+          "id": 457569,
+          "name": "Đorđe Petrović",
+          "fullName": "Đorđe Petrović",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 40383,
+          "name": "Fraser Forster",
+          "fullName": "Fraser Forster",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 463981,
+          "name": "James Hill",
+          "fullName": "James Hill",
+          "position": "Defender"
+        },
+        {
+          "id": 494521,
+          "name": "Adrien Truffert",
+          "fullName": "Adrien Truffert",
+          "position": "Defender"
+        },
+        {
+          "id": 242882,
+          "name": "Bafodé Diakité",
+          "fullName": "Bafodé Diakité",
+          "position": "Defender"
+        },
+        {
+          "id": 620487,
+          "name": "Veljko Milosavljevic",
+          "fullName": "Veljko Milosavljevic",
+          "position": "Defender"
+        },
+        {
+          "id": 54469,
+          "name": "Adam Smith",
+          "fullName": "Adam Smith",
+          "position": "Defender"
+        },
+        {
+          "id": 436893,
+          "name": "Julián Araujo Zúñiga",
+          "fullName": "Julián Araujo Zúñiga",
+          "position": "Defender"
+        },
+        {
+          "id": 575901,
+          "name": "Julio Soler Barreto",
+          "fullName": "Julio Soler Barreto",
+          "position": "Defender"
+        },
+        {
+          "id": 499604,
+          "name": "Rayan Vitor Simplício Rocha",
+          "fullName": "Rayan Vitor Simplício Rocha",
+          "position": "Midfielder"
+        },
+        {
+          "id": 201658,
+          "name": "Marcus Tavernier",
+          "fullName": "Marcus Tavernier",
+          "position": "Midfielder"
+        },
+        {
+          "id": 503139,
+          "name": "Alex Scott",
+          "fullName": "Alex Scott",
+          "position": "Midfielder"
+        },
+        {
+          "id": 222683,
+          "name": "Justin Kluivert",
+          "fullName": "Justin Kluivert",
+          "position": "Midfielder"
+        },
+        {
+          "id": 155408,
+          "name": "Lewis Cook",
+          "fullName": "Lewis Cook",
+          "position": "Midfielder"
+        },
+        {
+          "id": 496208,
+          "name": "Ben Gannon-Doak",
+          "fullName": "Ben Gannon-Doak",
+          "position": "Midfielder"
+        },
+        {
+          "id": 200785,
+          "name": "Tyler Adams",
+          "fullName": "Tyler Adams",
+          "position": "Midfielder"
+        },
+        {
+          "id": 111317,
+          "name": "David Brooks",
+          "fullName": "David Brooks",
+          "position": "Midfielder"
+        },
+        {
+          "id": 158499,
+          "name": "Ryan Christie",
+          "fullName": "Ryan Christie",
+          "position": "Midfielder"
+        },
+        {
+          "id": 614574,
+          "name": "Alex Tóth",
+          "fullName": "Alex Tóth",
+          "position": "Midfielder"
+        },
+        {
+          "id": 489888,
+          "name": "Amine Adli",
+          "fullName": "Amine Adli",
+          "position": "Midfielder"
+        },
+        {
+          "id": 560262,
+          "name": "Junior Kroupi",
+          "fullName": "Junior Kroupi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 444102,
+          "name": "Evanilson",
+          "fullName": "Francisco Evanilson de Lima Barbosa",
+          "position": "Forward"
+        },
+        {
+          "id": 561245,
+          "name": "Álvaro Rodríguez",
+          "fullName": "Álvaro Rodríguez",
+          "position": "Forward"
+        },
+        {
+          "id": 483067,
+          "name": "Silva",
+          "fullName": "António João Pereira de Albuquerque Tavares da Silva",
+          "position": "Defender"
+        },
+        {
+          "id": 494928,
+          "name": "Juanlu Sánchez",
+          "fullName": "Juanlu Sánchez",
+          "position": "Defender"
+        },
+        {
+          "id": 523700,
+          "name": "Daniel Jebbison",
+          "fullName": "Daniel Jebbison",
+          "position": "Forward"
+        },
+        {
+          "id": 230650,
+          "name": "Michele Di Gregorio",
+          "fullName": "Michele Di Gregorio",
+          "position": "Goalkeeper"
+        }
+      ]
+    },
+    {
+      "club": "Brentford",
+      "players": [
+        {
+          "id": 200720,
+          "name": "Caoimhín Kelleher",
+          "fullName": "Caoimhín Kelleher",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 507433,
+          "name": "Hákon Rafn Valdimarsson",
+          "fullName": "Hákon Rafn Valdimarsson",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 432830,
+          "name": "Nathan Collins",
+          "fullName": "Nathan Collins",
+          "position": "Defender"
+        },
+        {
+          "id": 444765,
+          "name": "Sepp van den Berg",
+          "fullName": "Sepp van den Berg",
+          "position": "Defender"
+        },
+        {
+          "id": 249231,
+          "name": "Keane Lewis-Potter",
+          "fullName": "Keane Lewis-Potter",
+          "position": "Midfielder"
+        },
+        {
+          "id": 191866,
+          "name": "Kristoffer Ajer",
+          "fullName": "Kristoffer Ajer",
+          "position": "Defender"
+        },
+        {
+          "id": 607464,
+          "name": "Michael Kayode",
+          "fullName": "Michael Kayode",
+          "position": "Defender"
+        },
+        {
+          "id": 194010,
+          "name": "Rico Henry",
+          "fullName": "Rico Henry",
+          "position": "Defender"
+        },
+        {
+          "id": 472713,
+          "name": "Aaron Hickey",
+          "fullName": "Aaron Hickey",
+          "position": "Defender"
+        },
+        {
+          "id": 570241,
+          "name": "Kim Ji-soo",
+          "fullName": "Kim Ji-soo",
+          "position": "Defender"
+        },
+        {
+          "id": 513086,
+          "name": "Jannik Schuster",
+          "fullName": "Jannik Schuster",
+          "position": "Defender"
+        },
+        {
+          "id": 513418,
+          "name": "Kevin Schade",
+          "fullName": "Kevin Schade",
+          "position": "Midfielder"
+        },
+        {
+          "id": 533463,
+          "name": "Dango Ouattara",
+          "fullName": "Dango Ouattara",
+          "position": "Midfielder"
+        },
+        {
+          "id": 440089,
+          "name": "Mikkel Damsgaard",
+          "fullName": "Mikkel Damsgaard",
+          "position": "Midfielder"
+        },
+        {
+          "id": 207283,
+          "name": "Mathias Jensen",
+          "fullName": "Mathias Jensen",
+          "position": "Midfielder"
+        },
+        {
+          "id": 204580,
+          "name": "Vitaly Janelt",
+          "fullName": "Vitaly Janelt",
+          "position": "Midfielder"
+        },
+        {
+          "id": 543295,
+          "name": "Antoni Milambo",
+          "fullName": "Antoni Milambo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 244858,
+          "name": "Fábio Freitas Gouveia Carvalho",
+          "fullName": "Fábio Freitas Gouveia Carvalho",
+          "position": "Midfielder"
+        },
+        {
+          "id": 508395,
+          "name": "Yehor Yarmoliuk",
+          "fullName": "Yehor Yarmoliuk",
+          "position": "Midfielder"
+        },
+        {
+          "id": 183656,
+          "name": "Josh Dasilva",
+          "fullName": "Josh Dasilva",
+          "position": "Midfielder"
+        },
+        {
+          "id": 444180,
+          "name": "Jaidon Anthony",
+          "fullName": "Jaidon Anthony",
+          "position": "Midfielder"
+        },
+        {
+          "id": 502500,
+          "name": "Thiago",
+          "fullName": "Igor Thiago Nascimento Rodrigues",
+          "position": "Forward"
+        },
+        {
+          "id": 593174,
+          "name": "Kaye Furo",
+          "fullName": "Kaye Furo",
+          "position": "Forward"
+        },
+        {
+          "id": 75115,
+          "name": "Callum Wilson",
+          "fullName": "Callum Wilson",
+          "position": "Forward"
+        },
+        {
+          "id": 513545,
+          "name": "Mamadou Sangaré",
+          "fullName": "Mamadou Sangaré",
+          "position": "Midfielder"
+        },
+        {
+          "id": 613804,
+          "name": "El Hadji Malick Diouf",
+          "fullName": "El Hadji Malick Diouf",
+          "position": "Defender"
+        }
+      ]
+    },
+    {
+      "club": "Brighton & Hove Albion",
+      "players": [
+        {
+          "id": 489639,
+          "name": "Bart Verbruggen",
+          "fullName": "Bart Verbruggen",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 49262,
+          "name": "Jason Steele",
+          "fullName": "Jason Steele",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 231416,
+          "name": "Ferdi Kadıoğlu",
+          "fullName": "Ferdi Kadıoğlu",
+          "position": "Defender"
+        },
+        {
+          "id": 204120,
+          "name": "Olivier Boscagli",
+          "fullName": "Olivier Boscagli",
+          "position": "Defender"
+        },
+        {
+          "id": 465730,
+          "name": "Maxim De Cuyper",
+          "fullName": "Maxim De Cuyper",
+          "position": "Defender"
+        },
+        {
+          "id": 83299,
+          "name": "Lewis Dunk",
+          "fullName": "Lewis Dunk",
+          "position": "Defender"
+        },
+        {
+          "id": 550090,
+          "name": "Diego Coppola",
+          "fullName": "Diego Coppola",
+          "position": "Defender"
+        },
+        {
+          "id": 451490,
+          "name": "João Pedro Loureiro da Costa",
+          "fullName": "João Pedro Loureiro da Costa",
+          "position": "Defender"
+        },
+        {
+          "id": 454490,
+          "name": "Michael Svoboda",
+          "fullName": "Michael Svoboda",
+          "position": "Defender"
+        },
+        {
+          "id": 451340,
+          "name": "Mitoma Kaoru",
+          "fullName": "Mitoma Kaoru",
+          "position": "Midfielder"
+        },
+        {
+          "id": 592031,
+          "name": "Yankuba Minteh",
+          "fullName": "Yankuba Minteh",
+          "position": "Midfielder"
+        },
+        {
+          "id": 532529,
+          "name": "Jack Hinshelwood",
+          "fullName": "Jack Hinshelwood",
+          "position": "Midfielder"
+        },
+        {
+          "id": 60307,
+          "name": "Pascal Groß",
+          "fullName": "Pascal Groß",
+          "position": "Midfielder"
+        },
+        {
+          "id": 463067,
+          "name": "Georginio Rutter",
+          "fullName": "Georginio Rutter",
+          "position": "Forward"
+        },
+        {
+          "id": 219249,
+          "name": "Matt O'Riley",
+          "fullName": "Matt O'Riley",
+          "position": "Midfielder"
+        },
+        {
+          "id": 514254,
+          "name": "Diego Gómez Amarilla",
+          "fullName": "Diego Gómez Amarilla",
+          "position": "Midfielder"
+        },
+        {
+          "id": 509416,
+          "name": "Yasin Ayari",
+          "fullName": "Yasin Ayari",
+          "position": "Midfielder"
+        },
+        {
+          "id": 467779,
+          "name": "Mats Wieffer",
+          "fullName": "Mats Wieffer",
+          "position": "Defender"
+        },
+        {
+          "id": 556637,
+          "name": "Nehemiah Oriola",
+          "fullName": "Nehemiah Oriola",
+          "position": "Midfielder"
+        },
+        {
+          "id": 700308,
+          "name": "Zadok Yohanna",
+          "fullName": "Zadok Yohanna",
+          "position": "Midfielder"
+        },
+        {
+          "id": 608181,
+          "name": "Stefanos Tzimas",
+          "fullName": "Stefanos Tzimas",
+          "position": "Forward"
+        },
+        {
+          "id": 647850,
+          "name": "Charalampos Kostoulas",
+          "fullName": "Charalampos Kostoulas",
+          "position": "Forward"
+        },
+        {
+          "id": 487117,
+          "name": "Evan Ferguson",
+          "fullName": "Evan Ferguson",
+          "position": "Forward"
+        },
+        {
+          "id": 222694,
+          "name": "Pascal Struijk",
+          "fullName": "Pascal Struijk",
+          "position": "Defender"
+        },
+        {
+          "id": 610799,
+          "name": "Luka Vušković",
+          "fullName": "Luka Vušković",
+          "position": "Defender"
+        },
+        {
+          "id": 538007,
+          "name": "Promise David",
+          "fullName": "Promise David",
+          "position": "Forward"
+        },
+        {
+          "id": 612855,
+          "name": "Ibrahim Osman",
+          "fullName": "Ibrahim Osman",
+          "position": "Midfielder"
+        },
+        {
+          "id": 611695,
+          "name": "Malick Yalcouyé",
+          "fullName": "Malick Yalcouyé",
+          "position": "Midfielder"
+        },
+        {
+          "id": 512123,
+          "name": "Jaouen Hadjam",
+          "fullName": "Jaouen Hadjam",
+          "position": "Defender"
+        },
+        {
+          "id": 592984,
+          "name": "José María Andrés Baixauli",
+          "fullName": "José María Andrés Baixauli",
+          "position": "Midfielder"
+        },
+        {
+          "id": 471551,
+          "name": "Femi Azeez",
+          "fullName": "Femi Azeez",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Chelsea",
+      "players": [
+        {
+          "id": 98980,
+          "name": "Emiliano Martínez Romero",
+          "fullName": "Emiliano Martínez Romero",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 244850,
+          "name": "Morgan Rogers",
+          "fullName": "Morgan Rogers",
+          "position": "Midfielder"
+        },
+        {
+          "id": 56979,
+          "name": "Jordan Henderson",
+          "fullName": "Jordan Henderson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 50175,
+          "name": "Danny Welbeck",
+          "fullName": "Danny Welbeck",
+          "position": "Forward"
+        },
+        {
+          "id": 225796,
+          "name": "Reece James",
+          "fullName": "Reece James",
+          "position": "Defender"
+        },
+        {
+          "id": 482609,
+          "name": "Malo Gusto",
+          "fullName": "Malo Gusto",
+          "position": "Defender"
+        },
+        {
+          "id": 444463,
+          "name": "Wesley Fofana",
+          "fullName": "Wesley Fofana",
+          "position": "Defender"
+        },
+        {
+          "id": 551210,
+          "name": "Jorrel Hato",
+          "fullName": "Jorrel Hato",
+          "position": "Defender"
+        },
+        {
+          "id": 460028,
+          "name": "Levi Samuels Colwill",
+          "fullName": "Levi Samuels Colwill",
+          "position": "Defender"
+        },
+        {
+          "id": 577016,
+          "name": "Josh Acheampong",
+          "fullName": "Josh Acheampong",
+          "position": "Defender"
+        },
+        {
+          "id": 620109,
+          "name": "Marco Palestra",
+          "fullName": "Marco Palestra",
+          "position": "Defender"
+        },
+        {
+          "id": 244851,
+          "name": "Cole Palmer",
+          "fullName": "Cole Palmer",
+          "position": "Midfielder"
+        },
+        {
+          "id": 247632,
+          "name": "Pedro Lomba Neto",
+          "fullName": "Pedro Lomba Neto",
+          "position": "Midfielder"
+        },
+        {
+          "id": 624773,
+          "name": "Estêvão",
+          "fullName": "Estêvão Almeida de Oliveira Gonçalves",
+          "position": "Midfielder"
+        },
+        {
+          "id": 463936,
+          "name": "Jamie Bynoe-Gittens",
+          "fullName": "Jamie Bynoe-Gittens",
+          "position": "Midfielder"
+        },
+        {
+          "id": 486672,
+          "name": "Moisés Caicedo Corozo",
+          "fullName": "Moisés Caicedo Corozo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 514356,
+          "name": "Roméo Lavia",
+          "fullName": "Roméo Lavia",
+          "position": "Midfielder"
+        },
+        {
+          "id": 593117,
+          "name": "Geovany Quenda",
+          "fullName": "Geovany Quenda",
+          "position": "Midfielder"
+        },
+        {
+          "id": 475168,
+          "name": "João Pedro Junqueira de Jesus",
+          "fullName": "João Pedro Junqueira de Jesus",
+          "position": "Forward"
+        },
+        {
+          "id": 567119,
+          "name": "Shumaira Mheuka",
+          "fullName": "Shumaira Mheuka",
+          "position": "Forward"
+        },
+        {
+          "id": 503037,
+          "name": "Emmanuel Emegha",
+          "fullName": "Emmanuel Emegha",
+          "position": "Forward"
+        },
+        {
+          "id": 437499,
+          "name": "Maxence Lacroix",
+          "fullName": "Maxence Lacroix",
+          "position": "Defender"
+        },
+        {
+          "id": 549939,
+          "name": "Mike Penders",
+          "fullName": "Mike Penders",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 622758,
+          "name": "Aaron Anselmino",
+          "fullName": "Aaron Anselmino",
+          "position": "Defender"
+        },
+        {
+          "id": 543158,
+          "name": "Valentín Barco",
+          "fullName": "Valentín Barco",
+          "position": "Midfielder"
+        },
+        {
+          "id": 498444,
+          "name": "Pep Chavarría",
+          "fullName": "Pep Chavarría",
+          "position": "Defender"
+        }
+      ]
+    },
+    {
+      "club": "Coventry City",
+      "players": [
+        {
+          "id": 231065,
+          "name": "Ethan Pinnock",
+          "fullName": "Ethan Pinnock",
+          "position": "Defender"
+        },
+        {
+          "id": 428580,
+          "name": "Frank Onyeka",
+          "fullName": "Frank Onyeka",
+          "position": "Midfielder"
+        },
+        {
+          "id": 472739,
+          "name": "Carl Rushworth",
+          "fullName": "Carl Rushworth",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 110690,
+          "name": "Ben Wilson",
+          "fullName": "Ben Wilson",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 461102,
+          "name": "Bobby Thomas",
+          "fullName": "Bobby Thomas",
+          "position": "Defender"
+        },
+        {
+          "id": 451284,
+          "name": "Milan van Ewijk",
+          "fullName": "Milan van Ewijk",
+          "position": "Defender"
+        },
+        {
+          "id": 173878,
+          "name": "Jay Dasilva",
+          "fullName": "Jay Dasilva",
+          "position": "Defender"
+        },
+        {
+          "id": 465390,
+          "name": "Kaine Kesler-Hayden",
+          "fullName": "Kaine Kesler-Hayden",
+          "position": "Defender"
+        },
+        {
+          "id": 80178,
+          "name": "Jake Bidwell",
+          "fullName": "Jake Bidwell",
+          "position": "Defender"
+        },
+        {
+          "id": 204813,
+          "name": "Joel Latibeaudiere",
+          "fullName": "Joel Latibeaudiere",
+          "position": "Defender"
+        },
+        {
+          "id": 220583,
+          "name": "Luke Woolfenden",
+          "fullName": "Luke Woolfenden",
+          "position": "Defender"
+        },
+        {
+          "id": 539142,
+          "name": "Aurèle Amenda",
+          "fullName": "Aurèle Amenda",
+          "position": "Defender"
+        },
+        {
+          "id": 480457,
+          "name": "Jack Rudoni",
+          "fullName": "Jack Rudoni",
+          "position": "Midfielder"
+        },
+        {
+          "id": 168144,
+          "name": "Matt Grimes",
+          "fullName": "Matt Grimes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 501459,
+          "name": "Tatsuhiro Sakamoto",
+          "fullName": "Tatsuhiro Sakamoto",
+          "position": "Midfielder"
+        },
+        {
+          "id": 241293,
+          "name": "Ephron Mason-Clark",
+          "fullName": "Ephron Mason-Clark",
+          "position": "Midfielder"
+        },
+        {
+          "id": 439668,
+          "name": "Josh Eccles",
+          "fullName": "Josh Eccles",
+          "position": "Midfielder"
+        },
+        {
+          "id": 226965,
+          "name": "Victor Torp",
+          "fullName": "Victor Torp",
+          "position": "Midfielder"
+        },
+        {
+          "id": 684268,
+          "name": "George Shepherd",
+          "fullName": "George Shepherd",
+          "position": "Midfielder"
+        },
+        {
+          "id": 469272,
+          "name": "Loum Tchaouna",
+          "fullName": "Loum Tchaouna",
+          "position": "Midfielder"
+        },
+        {
+          "id": 176412,
+          "name": "Haji Wright",
+          "fullName": "Haji Wright",
+          "position": "Forward"
+        },
+        {
+          "id": 230730,
+          "name": "Brandon Thomas-Asante",
+          "fullName": "Brandon Thomas-Asante",
+          "position": "Forward"
+        },
+        {
+          "id": 218997,
+          "name": "Ellis Simms",
+          "fullName": "Ellis Simms",
+          "position": "Forward"
+        },
+        {
+          "id": 210156,
+          "name": "Taiwo Awoniyi",
+          "fullName": "Taiwo Awoniyi",
+          "position": "Forward"
+        },
+        {
+          "id": 661888,
+          "name": "Caleb Yirenkyi",
+          "fullName": "Caleb Yirenkyi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 196100,
+          "name": "Gustavo Hamer",
+          "fullName": "Gustavo Hamer",
+          "position": "Midfielder"
+        },
+        {
+          "id": 627221,
+          "name": "Sidiki Cherif",
+          "fullName": "Sidiki Cherif",
+          "position": "Forward"
+        },
+        {
+          "id": 79602,
+          "name": "Dan Bentley",
+          "fullName": "Dan Bentley",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 242893,
+          "name": "Yann Gboho",
+          "fullName": "Yann Gboho",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Crystal Palace",
+      "players": [
+        {
+          "id": 485337,
+          "name": "Evann Guessand",
+          "fullName": "Evann Guessand",
+          "position": "Midfielder"
+        },
+        {
+          "id": 220362,
+          "name": "Axel Disasi",
+          "fullName": "Axel Disasi",
+          "position": "Defender"
+        },
+        {
+          "id": 172649,
+          "name": "Dean Henderson",
+          "fullName": "Dean Henderson",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 121709,
+          "name": "Walter Benítez",
+          "fullName": "Walter Benítez",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 427623,
+          "name": "Chris Richards",
+          "fullName": "Chris Richards",
+          "position": "Defender"
+        },
+        {
+          "id": 651426,
+          "name": "Jaydee Canvot",
+          "fullName": "Jaydee Canvot",
+          "position": "Defender"
+        },
+        {
+          "id": 244723,
+          "name": "Tyrick Mitchell",
+          "fullName": "Tyrick Mitchell",
+          "position": "Defender"
+        },
+        {
+          "id": 515621,
+          "name": "Chadi Riad Dnanou",
+          "fullName": "Chadi Riad Dnanou",
+          "position": "Defender"
+        },
+        {
+          "id": 242313,
+          "name": "Oscar Mingueza",
+          "fullName": "Oscar Mingueza",
+          "position": "Defender"
+        },
+        {
+          "id": 232185,
+          "name": "Ismaïla Sarr",
+          "fullName": "Ismaïla Sarr",
+          "position": "Midfielder"
+        },
+        {
+          "id": 496221,
+          "name": "Adam Wharton",
+          "fullName": "Adam Wharton",
+          "position": "Midfielder"
+        },
+        {
+          "id": 488024,
+          "name": "Yéremy Pino Santos",
+          "fullName": "Yéremy Pino Santos",
+          "position": "Midfielder"
+        },
+        {
+          "id": 108413,
+          "name": "Will Hughes",
+          "fullName": "Will Hughes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 152551,
+          "name": "Jefferson Lerma Solís",
+          "fullName": "Jefferson Lerma Solís",
+          "position": "Midfielder"
+        },
+        {
+          "id": 209400,
+          "name": "Daichi Kamada",
+          "fullName": "Daichi Kamada",
+          "position": "Midfielder"
+        },
+        {
+          "id": 536694,
+          "name": "Matheus França de Oliveira",
+          "fullName": "Matheus França de Oliveira",
+          "position": "Midfielder"
+        },
+        {
+          "id": 438464,
+          "name": "Cheick Doucouré",
+          "fullName": "Cheick Doucouré",
+          "position": "Midfielder"
+        },
+        {
+          "id": 672492,
+          "name": "Joél Drakes-Thomas",
+          "fullName": "Joél Drakes-Thomas",
+          "position": "Midfielder"
+        },
+        {
+          "id": 247412,
+          "name": "Jørgen Strand Larsen",
+          "fullName": "Jørgen Strand Larsen",
+          "position": "Forward"
+        },
+        {
+          "id": 231747,
+          "name": "Jean-Philippe Mateta",
+          "fullName": "Jean-Philippe Mateta",
+          "position": "Forward"
+        },
+        {
+          "id": 205533,
+          "name": "Eddie Nketiah",
+          "fullName": "Eddie Nketiah",
+          "position": "Forward"
+        },
+        {
+          "id": 433154,
+          "name": "Dwight McNeil",
+          "fullName": "Dwight McNeil",
+          "position": "Midfielder"
+        },
+        {
+          "id": 169593,
+          "name": "Remi Matthews",
+          "fullName": "Remi Matthews",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 223723,
+          "name": "Takehiro Tomiyasu",
+          "fullName": "Takehiro Tomiyasu",
+          "position": "Defender"
+        },
+        {
+          "id": 570794,
+          "name": "Anan Khalaili",
+          "fullName": "Anan Khalaili",
+          "position": "Defender"
+        },
+        {
+          "id": 559152,
+          "name": "Zavier Gozo",
+          "fullName": "Zavier Gozo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 605972,
+          "name": "Honest Ahanor",
+          "fullName": "Honest Ahanor",
+          "position": "Defender"
+        },
+        {
+          "id": 172850,
+          "name": "Ben Chilwell",
+          "fullName": "Ben Chilwell",
+          "position": "Defender"
+        },
+        {
+          "id": 450063,
+          "name": "Quinten Timber",
+          "fullName": "Quinten Timber",
+          "position": "Midfielder"
+        },
+        {
+          "id": 533646,
+          "name": "Darío Osorio",
+          "fullName": "Darío Osorio",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Everton",
+      "players": [
+        {
+          "id": 128295,
+          "name": "Christian Nørgaard",
+          "fullName": "Christian Nørgaard",
+          "position": "Midfielder"
+        },
+        {
+          "id": 242898,
+          "name": "Brennan Johnson",
+          "fullName": "Brennan Johnson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 111234,
+          "name": "Jordan Pickford",
+          "fullName": "Jordan Pickford",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 229600,
+          "name": "Mark Travers",
+          "fullName": "Mark Travers",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 138001,
+          "name": "Tom King",
+          "fullName": "Tom King",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 17761,
+          "name": "James Tarkowski",
+          "fullName": "James Tarkowski",
+          "position": "Defender"
+        },
+        {
+          "id": 480455,
+          "name": "Jarrad Branthwaite",
+          "fullName": "Jarrad Branthwaite",
+          "position": "Defender"
+        },
+        {
+          "id": 106611,
+          "name": "Michael Keane",
+          "fullName": "Michael Keane",
+          "position": "Defender"
+        },
+        {
+          "id": 512462,
+          "name": "Jake O'Brien",
+          "fullName": "Jake O'Brien",
+          "position": "Defender"
+        },
+        {
+          "id": 224967,
+          "name": "Vitalii Mykolenko",
+          "fullName": "Vitalii Mykolenko",
+          "position": "Defender"
+        },
+        {
+          "id": 215413,
+          "name": "Kiernan Dewsbury-Hall",
+          "fullName": "Kiernan Dewsbury-Hall",
+          "position": "Midfielder"
+        },
+        {
+          "id": 114283,
+          "name": "Jack Grealish",
+          "fullName": "Jack Grealish",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232928,
+          "name": "James Garner",
+          "fullName": "James Garner",
+          "position": "Midfielder"
+        },
+        {
+          "id": 550615,
+          "name": "Tyrique George",
+          "fullName": "Tyrique George",
+          "position": "Midfielder"
+        },
+        {
+          "id": 502697,
+          "name": "Carlos Alcaraz Durán",
+          "fullName": "Carlos Alcaraz Durán",
+          "position": "Midfielder"
+        },
+        {
+          "id": 609873,
+          "name": "Harrison Armstrong",
+          "fullName": "Harrison Armstrong",
+          "position": "Midfielder"
+        },
+        {
+          "id": 496661,
+          "name": "Tyler Dibling",
+          "fullName": "Tyler Dibling",
+          "position": "Midfielder"
+        },
+        {
+          "id": 513466,
+          "name": "Merlin Röhl",
+          "fullName": "Merlin Röhl",
+          "position": "Midfielder"
+        },
+        {
+          "id": 244860,
+          "name": "Hayden Hackney",
+          "fullName": "Hayden Hackney",
+          "position": "Midfielder"
+        },
+        {
+          "id": 586309,
+          "name": "Thierno Barry",
+          "fullName": "Thierno Barry",
+          "position": "Forward"
+        },
+        {
+          "id": 154043,
+          "name": "Ainsley Maitland-Niles",
+          "fullName": "Ainsley Maitland-Niles",
+          "position": "Defender"
+        },
+        {
+          "id": 629068,
+          "name": "Braiden Graham",
+          "fullName": "Braiden Graham",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Fulham",
+      "players": [
+        {
+          "id": 80201,
+          "name": "Bernd Leno",
+          "fullName": "Bernd Leno",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 86873,
+          "name": "Benjamin Lecomte",
+          "fullName": "Benjamin Lecomte",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 174874,
+          "name": "Joachim Andersen",
+          "fullName": "Joachim Andersen",
+          "position": "Defender"
+        },
+        {
+          "id": 169528,
+          "name": "Antonee Robinson",
+          "fullName": "Antonee Robinson",
+          "position": "Defender"
+        },
+        {
+          "id": 246301,
+          "name": "Jorge Cuenca Barreno",
+          "fullName": "Jorge Cuenca Barreno",
+          "position": "Defender"
+        },
+        {
+          "id": 167074,
+          "name": "Kenny Tete",
+          "fullName": "Kenny Tete",
+          "position": "Defender"
+        },
+        {
+          "id": 232892,
+          "name": "Calvin Bassey",
+          "fullName": "Calvin Bassey",
+          "position": "Defender"
+        },
+        {
+          "id": 166477,
+          "name": "Timothy Castagne",
+          "fullName": "Timothy Castagne",
+          "position": "Defender"
+        },
+        {
+          "id": 153133,
+          "name": "Alex Iwobi",
+          "fullName": "Alex Iwobi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 209289,
+          "name": "Emile Smith Rowe",
+          "fullName": "Emile Smith Rowe",
+          "position": "Midfielder"
+        },
+        {
+          "id": 560552,
+          "name": "Kevin Santos Lopes de Macedo",
+          "fullName": "Kevin Santos Lopes de Macedo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 477555,
+          "name": "Oscar Bobb",
+          "fullName": "Oscar Bobb",
+          "position": "Midfielder"
+        },
+        {
+          "id": 207189,
+          "name": "Sander Berge",
+          "fullName": "Sander Berge",
+          "position": "Midfielder"
+        },
+        {
+          "id": 76357,
+          "name": "Tom Cairney",
+          "fullName": "Tom Cairney",
+          "position": "Midfielder"
+        },
+        {
+          "id": 577725,
+          "name": "Josh King",
+          "fullName": "Josh King",
+          "position": "Midfielder"
+        },
+        {
+          "id": 184349,
+          "name": "Ryan Sessegnon",
+          "fullName": "Ryan Sessegnon",
+          "position": "Defender"
+        },
+        {
+          "id": 153366,
+          "name": "Harrison Reed",
+          "fullName": "Harrison Reed",
+          "position": "Midfielder"
+        },
+        {
+          "id": 244042,
+          "name": "Rodrigo Muniz Carvalho",
+          "fullName": "Rodrigo Muniz Carvalho",
+          "position": "Forward"
+        },
+        {
+          "id": 631786,
+          "name": "Jonah Kusi-Asare",
+          "fullName": "Jonah Kusi-Asare",
+          "position": "Forward"
+        },
+        {
+          "id": 551466,
+          "name": "Gonzalo García",
+          "fullName": "Gonzalo García",
+          "position": "Forward"
+        },
+        {
+          "id": 571779,
+          "name": "César Palacios",
+          "fullName": "César Palacios",
+          "position": "Midfielder"
+        },
+        {
+          "id": 463210,
+          "name": "Shea Charles",
+          "fullName": "Shea Charles",
+          "position": "Midfielder"
+        },
+        {
+          "id": 547686,
+          "name": "Luc De Fougerolles",
+          "fullName": "Luc De Fougerolles",
+          "position": "Defender"
+        },
+        {
+          "id": 616069,
+          "name": "Macaulay Zepa",
+          "fullName": "Macaulay Zepa",
+          "position": "Midfielder"
+        },
+        {
+          "id": 551050,
+          "name": "Hugo Larsson",
+          "fullName": "Hugo Larsson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 500033,
+          "name": "Manuel Ángel Morán Ibáñez",
+          "fullName": "Manuel Ángel Morán Ibáñez",
+          "position": "Midfielder"
+        },
+        {
+          "id": 442299,
+          "name": "David Affengruber",
+          "fullName": "David Affengruber",
+          "position": "Defender"
+        }
+      ]
+    },
+    {
+      "club": "Hull City",
+      "players": [
+        {
+          "id": 490094,
+          "name": "Tim Iroegbunam",
+          "fullName": "Tim Iroegbunam",
+          "position": "Midfielder"
+        },
+        {
+          "id": 167825,
+          "name": "Dillon Phillips",
+          "fullName": "Dillon Phillips",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 105666,
+          "name": "Jack Butland",
+          "fullName": "Jack Butland",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 108416,
+          "name": "John Egan",
+          "fullName": "John Egan",
+          "position": "Defender"
+        },
+        {
+          "id": 501902,
+          "name": "Charlie Hughes",
+          "fullName": "Charlie Hughes",
+          "position": "Defender"
+        },
+        {
+          "id": 146426,
+          "name": "Semi Ajayi",
+          "fullName": "Semi Ajayi",
+          "position": "Defender"
+        },
+        {
+          "id": 193278,
+          "name": "Lewie Coyle",
+          "fullName": "Lewie Coyle",
+          "position": "Defender"
+        },
+        {
+          "id": 232351,
+          "name": "Ryan Giles",
+          "fullName": "Ryan Giles",
+          "position": "Defender"
+        },
+        {
+          "id": 661800,
+          "name": "Cathal McCarthy",
+          "fullName": "Cathal McCarthy",
+          "position": "Defender"
+        },
+        {
+          "id": 160817,
+          "name": "Paddy McNair",
+          "fullName": "Paddy McNair",
+          "position": "Defender"
+        },
+        {
+          "id": 540324,
+          "name": "Mohamed Belloumi",
+          "fullName": "Mohamed Belloumi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 171270,
+          "name": "Kieran Dowell",
+          "fullName": "Kieran Dowell",
+          "position": "Midfielder"
+        },
+        {
+          "id": 101282,
+          "name": "Matt Crooks",
+          "fullName": "Matt Crooks",
+          "position": "Midfielder"
+        },
+        {
+          "id": 243413,
+          "name": "Regan Slater",
+          "fullName": "Regan Slater",
+          "position": "Midfielder"
+        },
+        {
+          "id": 465525,
+          "name": "Eliot Matazo",
+          "fullName": "Eliot Matazo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 208481,
+          "name": "Abdülkadir Ömür",
+          "fullName": "Abdülkadir Ömür",
+          "position": "Midfielder"
+        },
+        {
+          "id": 553783,
+          "name": "Óscar Zambrano",
+          "fullName": "Óscar Zambrano",
+          "position": "Midfielder"
+        },
+        {
+          "id": 169432,
+          "name": "Oli McBurnie",
+          "fullName": "Oli McBurnie",
+          "position": "Forward"
+        },
+        {
+          "id": 213292,
+          "name": "David Akintola",
+          "fullName": "David Akintola",
+          "position": "Midfielder"
+        },
+        {
+          "id": 470294,
+          "name": "Darko Gyabi",
+          "fullName": "Darko Gyabi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 462635,
+          "name": "Joe Gelhardt",
+          "fullName": "Joe Gelhardt",
+          "position": "Midfielder"
+        },
+        {
+          "id": 169359,
+          "name": "Matt Targett",
+          "fullName": "Matt Targett",
+          "position": "Defender"
+        },
+        {
+          "id": 445028,
+          "name": "Hidemasa Morita",
+          "fullName": "Hidemasa Morita",
+          "position": "Midfielder"
+        },
+        {
+          "id": 473284,
+          "name": "Konstantinos Tzolakis",
+          "fullName": "Konstantinos Tzolakis",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 552946,
+          "name": "Jens Hjertø-Dahl",
+          "fullName": "Jens Hjertø-Dahl",
+          "position": "Midfielder"
+        },
+        {
+          "id": 608227,
+          "name": "Elliot Stroud",
+          "fullName": "Elliot Stroud",
+          "position": "Midfielder"
+        },
+        {
+          "id": 597462,
+          "name": "Lucas Herrington",
+          "fullName": "Lucas Herrington",
+          "position": "Defender"
+        },
+        {
+          "id": 606930,
+          "name": "Nobel Mendy",
+          "fullName": "Nobel Mendy",
+          "position": "Defender"
+        },
+        {
+          "id": 469266,
+          "name": "Lucas Gourna-Douath",
+          "fullName": "Lucas Gourna-Douath",
+          "position": "Midfielder"
+        },
+        {
+          "id": 490884,
+          "name": "Mohamed-Ali Cho",
+          "fullName": "Mohamed-Ali Cho",
+          "position": "Midfielder"
+        },
+        {
+          "id": 626751,
+          "name": "Ilyas Ansah",
+          "fullName": "Ilyas Ansah",
+          "position": "Forward"
+        },
+        {
+          "id": 631000,
+          "name": "Robinio Vaz",
+          "fullName": "Robinio Vaz",
+          "position": "Forward"
+        },
+        {
+          "id": 496181,
+          "name": "Brooke Norton-Cuffy",
+          "fullName": "Brooke Norton-Cuffy",
+          "position": "Defender"
+        },
+        {
+          "id": 243951,
+          "name": "Sorba Thomas",
+          "fullName": "Sorba Thomas",
+          "position": "Midfielder"
+        },
+        {
+          "id": 647839,
+          "name": "Christos Mouzakitis",
+          "fullName": "Christos Mouzakitis",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Ipswich Town",
+      "players": [
+        {
+          "id": 219924,
+          "name": "Issa Diop",
+          "fullName": "Issa Diop",
+          "position": "Defender"
+        },
+        {
+          "id": 212314,
+          "name": "Saša Lukić",
+          "fullName": "Saša Lukić",
+          "position": "Midfielder"
+        },
+        {
+          "id": 108813,
+          "name": "Christian Walton",
+          "fullName": "Christian Walton",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 112520,
+          "name": "Alex Palmer",
+          "fullName": "Alex Palmer",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 50093,
+          "name": "David Button",
+          "fullName": "David Button",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 183015,
+          "name": "Cédric Kipré",
+          "fullName": "Cédric Kipré",
+          "position": "Defender"
+        },
+        {
+          "id": 216616,
+          "name": "Dara O'Shea",
+          "fullName": "Dara O'Shea",
+          "position": "Defender"
+        },
+        {
+          "id": 455084,
+          "name": "Leif Davis",
+          "fullName": "Leif Davis",
+          "position": "Defender"
+        },
+        {
+          "id": 449429,
+          "name": "Jacob Greaves",
+          "fullName": "Jacob Greaves",
+          "position": "Defender"
+        },
+        {
+          "id": 176420,
+          "name": "Darnell Furlong",
+          "fullName": "Darnell Furlong",
+          "position": "Defender"
+        },
+        {
+          "id": 501390,
+          "name": "Marcelino Núñez",
+          "fullName": "Marcelino Núñez",
+          "position": "Midfielder"
+        },
+        {
+          "id": 241117,
+          "name": "Azor Matusiwa",
+          "fullName": "Azor Matusiwa",
+          "position": "Midfielder"
+        },
+        {
+          "id": 231899,
+          "name": "Jack Taylor",
+          "fullName": "Jack Taylor",
+          "position": "Midfielder"
+        },
+        {
+          "id": 443261,
+          "name": "Jack Clarke",
+          "fullName": "Jack Clarke",
+          "position": "Midfielder"
+        },
+        {
+          "id": 531442,
+          "name": "Abdul Fatawu",
+          "fullName": "Abdul Fatawu",
+          "position": "Midfielder"
+        },
+        {
+          "id": 543968,
+          "name": "Emersonn Correia da Silva",
+          "fullName": "Emersonn Correia da Silva",
+          "position": "Forward"
+        },
+        {
+          "id": 481624,
+          "name": "Jaden Philogene",
+          "fullName": "Jaden Philogene",
+          "position": "Midfielder"
+        },
+        {
+          "id": 147675,
+          "name": "Chuba Akpom",
+          "fullName": "Chuba Akpom",
+          "position": "Forward"
+        },
+        {
+          "id": 557012,
+          "name": "Sindre Walle Egeli",
+          "fullName": "Sindre Walle Egeli",
+          "position": "Forward"
+        },
+        {
+          "id": 461587,
+          "name": "Kasey McAteer",
+          "fullName": "Kasey McAteer",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232457,
+          "name": "Anis Mehmeti",
+          "fullName": "Anis Mehmeti",
+          "position": "Midfielder"
+        },
+        {
+          "id": 442967,
+          "name": "Daizen Maeda",
+          "fullName": "Daizen Maeda",
+          "position": "Midfielder"
+        },
+        {
+          "id": 240514,
+          "name": "Kjell Scherpen",
+          "fullName": "Kjell Scherpen",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 216055,
+          "name": "Florentino Ibrain Morris Luís",
+          "fullName": "Florentino Ibrain Morris Luís",
+          "position": "Midfielder"
+        },
+        {
+          "id": 474120,
+          "name": "Julio Enciso",
+          "fullName": "Julio Enciso",
+          "position": "Midfielder"
+        },
+        {
+          "id": 572584,
+          "name": "Abdoul Ouattara",
+          "fullName": "Abdoul Ouattara",
+          "position": "Defender"
+        },
+        {
+          "id": 218543,
+          "name": "Exequiel Palacios",
+          "fullName": "Exequiel Palacios",
+          "position": "Midfielder"
+        },
+        {
+          "id": 431639,
+          "name": "Zian Flemming",
+          "fullName": "Zian Flemming",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "club": "Leeds United",
+      "players": [
+        {
+          "id": 153682,
+          "name": "Harry Wilson",
+          "fullName": "Harry Wilson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 434752,
+          "name": "Jaka Bijol",
+          "fullName": "Jaka Bijol",
+          "position": "Defender"
+        },
+        {
+          "id": 214225,
+          "name": "Joe Rodon",
+          "fullName": "Joe Rodon",
+          "position": "Defender"
+        },
+        {
+          "id": 226182,
+          "name": "Jayden Bogle",
+          "fullName": "Jayden Bogle",
+          "position": "Defender"
+        },
+        {
+          "id": 243526,
+          "name": "Gabriel Gudmundsson",
+          "fullName": "Gabriel Gudmundsson",
+          "position": "Defender"
+        },
+        {
+          "id": 220627,
+          "name": "James Justin",
+          "fullName": "James Justin",
+          "position": "Defender"
+        },
+        {
+          "id": 522047,
+          "name": "Tarik Muharemović",
+          "fullName": "Tarik Muharemović",
+          "position": "Defender"
+        },
+        {
+          "id": 466525,
+          "name": "Anton Stach",
+          "fullName": "Anton Stach",
+          "position": "Midfielder"
+        },
+        {
+          "id": 435997,
+          "name": "Noah Okafor",
+          "fullName": "Noah Okafor",
+          "position": "Midfielder"
+        },
+        {
+          "id": 427637,
+          "name": "Brenden Aaronson",
+          "fullName": "Brenden Aaronson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 199598,
+          "name": "Ethan Ampadu",
+          "fullName": "Ethan Ampadu",
+          "position": "Midfielder"
+        },
+        {
+          "id": 180135,
+          "name": "Sean Longstaff",
+          "fullName": "Sean Longstaff",
+          "position": "Midfielder"
+        },
+        {
+          "id": 200617,
+          "name": "Daniel James",
+          "fullName": "Daniel James",
+          "position": "Midfielder"
+        },
+        {
+          "id": 486520,
+          "name": "Ilia Gruev",
+          "fullName": "Ilia Gruev",
+          "position": "Midfielder"
+        },
+        {
+          "id": 248056,
+          "name": "Tanaka Ao",
+          "fullName": "Tanaka Ao",
+          "position": "Midfielder"
+        },
+        {
+          "id": 177815,
+          "name": "Dominic Calvert-Lewin",
+          "fullName": "Dominic Calvert-Lewin",
+          "position": "Forward"
+        },
+        {
+          "id": 174594,
+          "name": "Lukas Nmecha",
+          "fullName": "Lukas Nmecha",
+          "position": "Forward"
+        },
+        {
+          "id": 565297,
+          "name": "Mateo Joseph",
+          "fullName": "Mateo Joseph Fernández-Regatillo",
+          "position": "Forward"
+        },
+        {
+          "id": 432720,
+          "name": "James Trafford",
+          "fullName": "James Trafford",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 173774,
+          "name": "Nico Elvedi",
+          "fullName": "Nico Elvedi",
+          "position": "Defender"
+        },
+        {
+          "id": 643970,
+          "name": "Jayden Lienou",
+          "fullName": "Jayden Lienou",
+          "position": "Defender"
+        },
+        {
+          "id": 592740,
+          "name": "Alfie Cresswell",
+          "fullName": "Alfie Cresswell",
+          "position": "Midfielder"
+        },
+        {
+          "id": 97846,
+          "name": "Alex Cairns",
+          "fullName": "Alex Cairns",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 155465,
+          "name": "Michael Zetterer",
+          "fullName": "Michael Zetterer",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 437497,
+          "name": "Melvin Bard",
+          "fullName": "Melvin Bard",
+          "position": "Defender"
+        },
+        {
+          "id": 587982,
+          "name": "Jean-Mattéo Bahoya",
+          "fullName": "Jean-Mattéo Bahoya",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Liverpool",
+      "players": [
+        {
+          "id": 116535,
+          "name": "Alisson Becker",
+          "fullName": "Alisson Becker",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 449027,
+          "name": "Giorgi Mamardashvili",
+          "fullName": "Giorgi Mamardashvili",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 155503,
+          "name": "Freddie Woodman",
+          "fullName": "Freddie Woodman",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 432987,
+          "name": "Vitezslav Jaros",
+          "fullName": "Vitezslav Jaros",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 464353,
+          "name": "Harvey Davies",
+          "fullName": "Harvey Davies",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 97032,
+          "name": "Virgil van Dijk",
+          "fullName": "Virgil van Dijk",
+          "position": "Defender"
+        },
+        {
+          "id": 216094,
+          "name": "Jeremie Frimpong",
+          "fullName": "Jeremie Frimpong",
+          "position": "Defender"
+        },
+        {
+          "id": 544877,
+          "name": "Milos Kerkez",
+          "fullName": "Milos Kerkez",
+          "position": "Defender"
+        },
+        {
+          "id": 171287,
+          "name": "Joe Gomez",
+          "fullName": "Joe Gomez",
+          "position": "Defender"
+        },
+        {
+          "id": 492777,
+          "name": "Conor Bradley",
+          "fullName": "Conor Bradley",
+          "position": "Defender"
+        },
+        {
+          "id": 519440,
+          "name": "Wellity Lucky",
+          "fullName": "Wellity Lucky",
+          "position": "Defender"
+        },
+        {
+          "id": 606702,
+          "name": "Jeremy Jacquet",
+          "fullName": "Jeremy Jacquet",
+          "position": "Defender"
+        },
+        {
+          "id": 647681,
+          "name": "Giovanni Leoni",
+          "fullName": "Giovanni Leoni",
+          "position": "Defender"
+        },
+        {
+          "id": 214285,
+          "name": "Kostas Tsimikas",
+          "fullName": "Kostas Tsimikas",
+          "position": "Defender"
+        },
+        {
+          "id": 494595,
+          "name": "Florian Wirtz",
+          "fullName": "Florian Wirtz",
+          "position": "Midfielder"
+        },
+        {
+          "id": 243298,
+          "name": "Cody Gakpo",
+          "fullName": "Cody Gakpo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 424876,
+          "name": "Dominik Szoboszlai",
+          "fullName": "Dominik Szoboszlai",
+          "position": "Midfielder"
+        },
+        {
+          "id": 611922,
+          "name": "Rio Ngumoha",
+          "fullName": "Rio Ngumoha",
+          "position": "Midfielder"
+        },
+        {
+          "id": 223541,
+          "name": "Federico Chiesa",
+          "fullName": "Federico Chiesa",
+          "position": "Midfielder"
+        },
+        {
+          "id": 441266,
+          "name": "Ryan Gravenberch",
+          "fullName": "Ryan Gravenberch",
+          "position": "Midfielder"
+        },
+        {
+          "id": 243016,
+          "name": "Alexis Mac Allister",
+          "fullName": "Alexis Mac Allister",
+          "position": "Midfielder"
+        },
+        {
+          "id": 158983,
+          "name": "Endo Wataru",
+          "fullName": "Endo Wataru",
+          "position": "Midfielder"
+        },
+        {
+          "id": 591386,
+          "name": "Trey Nyoni",
+          "fullName": "Trey Nyoni",
+          "position": "Midfielder"
+        },
+        {
+          "id": 551499,
+          "name": "Victor Munoz",
+          "fullName": "Victor Munoz",
+          "position": "Midfielder"
+        },
+        {
+          "id": 491501,
+          "name": "James McConnell",
+          "fullName": "James McConnell",
+          "position": "Midfielder"
+        },
+        {
+          "id": 219168,
+          "name": "Alexander Isak",
+          "fullName": "Alexander Isak",
+          "position": "Forward"
+        },
+        {
+          "id": 510663,
+          "name": "Hugo Ekitiké",
+          "fullName": "Hugo Ekitiké",
+          "position": "Forward"
+        },
+        {
+          "id": 514514,
+          "name": "Lewis Koumas",
+          "fullName": "Lewis Koumas",
+          "position": "Midfielder"
+        },
+        {
+          "id": 500058,
+          "name": "Jayden Danns",
+          "fullName": "Jayden Danns",
+          "position": "Forward"
+        },
+        {
+          "id": 445087,
+          "name": "Ronald Araujo",
+          "fullName": "Ronald Araujo",
+          "position": "Defender"
+        },
+        {
+          "id": 482616,
+          "name": "Bradley Barcola",
+          "fullName": "Bradley Barcola",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Manchester City",
+      "players": [
+        {
+          "id": 448047,
+          "name": "Enzo Fernández",
+          "fullName": "Enzo Fernández",
+          "position": "Midfielder"
+        },
+        {
+          "id": 440993,
+          "name": "Iliman Ndiaye",
+          "fullName": "Iliman Ndiaye",
+          "position": "Midfielder"
+        },
+        {
+          "id": 204936,
+          "name": "Gianluigi Donnarumma",
+          "fullName": "Gianluigi Donnarumma",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 122074,
+          "name": "Marcus Bettinelli",
+          "fullName": "Marcus Bettinelli",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 472769,
+          "name": "Nico O'Reilly",
+          "fullName": "Nico O'Reilly",
+          "position": "Defender"
+        },
+        {
+          "id": 209036,
+          "name": "Marc Guéhi",
+          "fullName": "Marc Guéhi",
+          "position": "Defender"
+        },
+        {
+          "id": 465351,
+          "name": "Matheus Nunes",
+          "fullName": "Matheus Nunes",
+          "position": "Defender"
+        },
+        {
+          "id": 171314,
+          "name": "Rúben",
+          "fullName": "Rúben dos Santos Gato Alves Dias",
+          "position": "Defender"
+        },
+        {
+          "id": 477424,
+          "name": "Joško Gvardiol",
+          "fullName": "Joško Gvardiol",
+          "position": "Defender"
+        },
+        {
+          "id": 448514,
+          "name": "Rayan Aït-Nouri",
+          "fullName": "Rayan Aït-Nouri",
+          "position": "Defender"
+        },
+        {
+          "id": 578153,
+          "name": "Abdukodir Khusanov",
+          "fullName": "Abdukodir Khusanov",
+          "position": "Defender"
+        },
+        {
+          "id": 477064,
+          "name": "Rico Lewis",
+          "fullName": "Rico Lewis",
+          "position": "Defender"
+        },
+        {
+          "id": 616222,
+          "name": "Vitor Reis",
+          "fullName": "Vitor de Oliveira Nunes dos Reis",
+          "position": "Defender"
+        },
+        {
+          "id": 437730,
+          "name": "Antoine Semenyo",
+          "fullName": "Antoine Semenyo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 209244,
+          "name": "Phil Foden",
+          "fullName": "Phil Foden",
+          "position": "Midfielder"
+        },
+        {
+          "id": 466052,
+          "name": "Rayan Cherki",
+          "fullName": "Rayan Cherki",
+          "position": "Midfielder"
+        },
+        {
+          "id": 248875,
+          "name": "Jérémy Doku",
+          "fullName": "Jérémy Doku",
+          "position": "Midfielder"
+        },
+        {
+          "id": 91651,
+          "name": "Mateo Kovačić",
+          "fullName": "Mateo Kovačić",
+          "position": "Midfielder"
+        },
+        {
+          "id": 223094,
+          "name": "Erling Haaland",
+          "fullName": "Erling Haaland",
+          "position": "Forward"
+        },
+        {
+          "id": 215379,
+          "name": "Elliot Anderson",
+          "fullName": "Elliot Anderson",
+          "position": "Midfielder"
+        },
+        {
+          "id": 106921,
+          "name": "Gerónimo Rulli",
+          "fullName": "Gerónimo Rulli",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 637238,
+          "name": "Ayyoub Bouaddi",
+          "fullName": "Ayyoub Bouaddi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 616288,
+          "name": "Ryan McAidoo",
+          "fullName": "Ryan McAidoo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 554054,
+          "name": "Kaden Braithwaite",
+          "fullName": "Kaden Braithwaite",
+          "position": "Defender"
+        },
+        {
+          "id": 624777,
+          "name": "Allan Andrade Elias",
+          "fullName": "Allan Andrade Elias",
+          "position": "Midfielder"
+        },
+        {
+          "id": 595480,
+          "name": "Floyd Samba",
+          "fullName": "Floyd Samba",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Manchester United",
+      "players": [
+        {
+          "id": 166989,
+          "name": "Youri Tielemans",
+          "fullName": "Youri Tielemans",
+          "position": "Midfielder"
+        },
+        {
+          "id": 535301,
+          "name": "Carlos Baleba",
+          "fullName": "Carlos Baleba",
+          "position": "Midfielder"
+        },
+        {
+          "id": 532605,
+          "name": "Andrey Nascimento dos Santos",
+          "fullName": "Andrey Nascimento dos Santos",
+          "position": "Midfielder"
+        },
+        {
+          "id": 59735,
+          "name": "Karl Darlow",
+          "fullName": "Karl Darlow",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 465247,
+          "name": "Senne Lammens",
+          "fullName": "Senne Lammens",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 21205,
+          "name": "Tom Heaton",
+          "fullName": "Tom Heaton",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 596777,
+          "name": "Patrick Dorgu",
+          "fullName": "Patrick Dorgu",
+          "position": "Midfielder"
+        },
+        {
+          "id": 209365,
+          "name": "Matthijs de Ligt",
+          "fullName": "Matthijs de Ligt",
+          "position": "Defender"
+        },
+        {
+          "id": 216051,
+          "name": "Diogo Dalot Teixeira",
+          "fullName": "Diogo Dalot Teixeira",
+          "position": "Defender"
+        },
+        {
+          "id": 95658,
+          "name": "Harry Maguire",
+          "fullName": "Harry Maguire",
+          "position": "Defender"
+        },
+        {
+          "id": 221820,
+          "name": "Lisandro Martínez",
+          "fullName": "Lisandro Martínez",
+          "position": "Defender"
+        },
+        {
+          "id": 550864,
+          "name": "Leny Yoro",
+          "fullName": "Leny Yoro",
+          "position": "Defender"
+        },
+        {
+          "id": 606745,
+          "name": "Ayden Heaven",
+          "fullName": "Ayden Heaven",
+          "position": "Defender"
+        },
+        {
+          "id": 230001,
+          "name": "Noussair Mazraoui",
+          "fullName": "Noussair Mazraoui",
+          "position": "Defender"
+        },
+        {
+          "id": 106760,
+          "name": "Luke Shaw",
+          "fullName": "Luke Shaw",
+          "position": "Defender"
+        },
+        {
+          "id": 577974,
+          "name": "Harry Amass",
+          "fullName": "Harry Amass",
+          "position": "Defender"
+        },
+        {
+          "id": 141746,
+          "name": "Bruno Borges Fernandes",
+          "fullName": "Bruno Borges Fernandes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 446008,
+          "name": "Bryan Mbeumo",
+          "fullName": "Bryan Mbeumo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 430871,
+          "name": "Cunha",
+          "fullName": "Matheus Santos Carneiro da Cunha",
+          "position": "Midfielder"
+        },
+        {
+          "id": 176297,
+          "name": "Marcus Rashford",
+          "fullName": "Marcus Rashford",
+          "position": "Midfielder"
+        },
+        {
+          "id": 184341,
+          "name": "Mason Mount",
+          "fullName": "Mason Mount",
+          "position": "Midfielder"
+        },
+        {
+          "id": 493250,
+          "name": "Amad Diallo",
+          "fullName": "Amad Diallo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 516895,
+          "name": "Kobbie Mainoo",
+          "fullName": "Kobbie Mainoo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232112,
+          "name": "Manuel Ugarte Ribeiro",
+          "fullName": "Manuel Ugarte Ribeiro",
+          "position": "Midfielder"
+        },
+        {
+          "id": 547037,
+          "name": "Jack Fletcher",
+          "fullName": "Jack Fletcher",
+          "position": "Midfielder"
+        },
+        {
+          "id": 576628,
+          "name": "Shea Lacey",
+          "fullName": "Shea Lacey",
+          "position": "Midfielder"
+        },
+        {
+          "id": 576620,
+          "name": "Bendito Mantato",
+          "fullName": "Bendito Mantato",
+          "position": "Midfielder"
+        },
+        {
+          "id": 519913,
+          "name": "Tyler Fletcher",
+          "fullName": "Tyler Fletcher",
+          "position": "Midfielder"
+        },
+        {
+          "id": 485711,
+          "name": "Benjamin Sesko",
+          "fullName": "Benjamin Sesko",
+          "position": "Forward"
+        },
+        {
+          "id": 458249,
+          "name": "Joshua Zirkzee",
+          "fullName": "Joshua Zirkzee",
+          "position": "Forward"
+        },
+        {
+          "id": 596047,
+          "name": "Chido Obi",
+          "fullName": "Chido Obi",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "club": "Newcastle United",
+      "players": [
+        {
+          "id": 465694,
+          "name": "Nico González Iglesias",
+          "fullName": "Nico González Iglesias",
+          "position": "Midfielder"
+        },
+        {
+          "id": 98747,
+          "name": "Nick Pope",
+          "fullName": "Nick Pope",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 81441,
+          "name": "Mark Gillespie",
+          "fullName": "Mark Gillespie",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 554578,
+          "name": "Ewen Jaouen",
+          "fullName": "Ewen Jaouen",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 465642,
+          "name": "Malick Thiaw",
+          "fullName": "Malick Thiaw",
+          "position": "Defender"
+        },
+        {
+          "id": 119471,
+          "name": "Fabian Schär",
+          "fullName": "Fabian Schär",
+          "position": "Defender"
+        },
+        {
+          "id": 220237,
+          "name": "Sven Botman",
+          "fullName": "Sven Botman",
+          "position": "Defender"
+        },
+        {
+          "id": 78916,
+          "name": "Dan Burn",
+          "fullName": "Dan Burn",
+          "position": "Defender"
+        },
+        {
+          "id": 487838,
+          "name": "Lewis Hall",
+          "fullName": "Lewis Hall",
+          "position": "Defender"
+        },
+        {
+          "id": 441191,
+          "name": "Tino Livramento",
+          "fullName": "Tino Livramento",
+          "position": "Defender"
+        },
+        {
+          "id": 201666,
+          "name": "Harvey Barnes",
+          "fullName": "Harvey Barnes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 449434,
+          "name": "Anthony Elanga",
+          "fullName": "Anthony Elanga",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232653,
+          "name": "Jacob Ramsey",
+          "fullName": "Jacob Ramsey",
+          "position": "Midfielder"
+        },
+        {
+          "id": 114243,
+          "name": "Jacob Murphy",
+          "fullName": "Jacob Murphy",
+          "position": "Midfielder"
+        },
+        {
+          "id": 180974,
+          "name": "Joelinton",
+          "fullName": "Joelinton Cássio Apolinário de Lira",
+          "position": "Midfielder"
+        },
+        {
+          "id": 547719,
+          "name": "Lewis Miley",
+          "fullName": "Lewis Miley",
+          "position": "Midfielder"
+        },
+        {
+          "id": 200089,
+          "name": "Joe Willock",
+          "fullName": "Joe Willock",
+          "position": "Midfielder"
+        },
+        {
+          "id": 611665,
+          "name": "Bazoumana Touré",
+          "fullName": "Bazoumana Touré",
+          "position": "Midfielder"
+        },
+        {
+          "id": 636852,
+          "name": "Sean Steur",
+          "fullName": "Sean Steur",
+          "position": "Midfielder"
+        },
+        {
+          "id": 216646,
+          "name": "Yoane Wissa",
+          "fullName": "Yoane Wissa",
+          "position": "Forward"
+        },
+        {
+          "id": 538207,
+          "name": "William Osula",
+          "fullName": "William Osula",
+          "position": "Forward"
+        },
+        {
+          "id": 632794,
+          "name": "Aladji Bamba",
+          "fullName": "Aladji Bamba",
+          "position": "Midfielder"
+        },
+        {
+          "id": 470551,
+          "name": "Lukás Hornícek",
+          "fullName": "Lukás Hornícek",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 463726,
+          "name": "Amar Dedic",
+          "fullName": "Amar Dedic",
+          "position": "Defender"
+        },
+        {
+          "id": 553746,
+          "name": "Leo Shahar",
+          "fullName": "Leo Shahar",
+          "position": "Defender"
+        },
+        {
+          "id": 613221,
+          "name": "Matias Fernandez-Pardo",
+          "fullName": "Matias Fernandez-Pardo",
+          "position": "Forward"
+        }
+      ]
+    },
+    {
+      "club": "Nottingham Forest",
+      "players": [
+        {
+          "id": 463034,
+          "name": "Liam Delap",
+          "fullName": "Liam Delap",
+          "position": "Forward"
+        },
+        {
+          "id": 247348,
+          "name": "Daniel Muñoz Mejía",
+          "fullName": "Daniel Muñoz Mejía",
+          "position": "Defender"
+        },
+        {
+          "id": 85633,
+          "name": "Matz Sels",
+          "fullName": "Matz Sels",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 221389,
+          "name": "John Victor Maciel Furtado",
+          "fullName": "John Victor Maciel Furtado",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 215136,
+          "name": "Neco Williams",
+          "fullName": "Neco Williams",
+          "position": "Defender"
+        },
+        {
+          "id": 227444,
+          "name": "Nikola Milenković",
+          "fullName": "Nikola Milenković",
+          "position": "Defender"
+        },
+        {
+          "id": 575476,
+          "name": "Murillo Costa dos Santos",
+          "fullName": "Murillo Costa dos Santos",
+          "position": "Defender"
+        },
+        {
+          "id": 159506,
+          "name": "Ola Aina",
+          "fullName": "Ola Aina",
+          "position": "Defender"
+        },
+        {
+          "id": 575458,
+          "name": "Jair Paula da Cunha Filho",
+          "fullName": "Jair Paula da Cunha Filho",
+          "position": "Defender"
+        },
+        {
+          "id": 500151,
+          "name": "Nicolò Savona",
+          "fullName": "Nicolò Savona",
+          "position": "Defender"
+        },
+        {
+          "id": 204822,
+          "name": "Omar Richards",
+          "fullName": "Omar Richards",
+          "position": "Defender"
+        },
+        {
+          "id": 470315,
+          "name": "Luca Netz",
+          "fullName": "Luca Netz",
+          "position": "Defender"
+        },
+        {
+          "id": 222531,
+          "name": "Morgan Gibbs-White",
+          "fullName": "Morgan Gibbs-White",
+          "position": "Midfielder"
+        },
+        {
+          "id": 209046,
+          "name": "Callum Hudson-Odoi",
+          "fullName": "Callum Hudson-Odoi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 456512,
+          "name": "Dan Ndoye",
+          "fullName": "Dan Ndoye",
+          "position": "Midfielder"
+        },
+        {
+          "id": 432714,
+          "name": "James McAtee",
+          "fullName": "James McAtee",
+          "position": "Midfielder"
+        },
+        {
+          "id": 250199,
+          "name": "Nicolás Domínguez",
+          "fullName": "Nicolás Domínguez",
+          "position": "Midfielder"
+        },
+        {
+          "id": 210462,
+          "name": "Ibrahim Sangaré",
+          "fullName": "Ibrahim Sangaré",
+          "position": "Midfielder"
+        },
+        {
+          "id": 204968,
+          "name": "Ryan Yates",
+          "fullName": "Ryan Yates",
+          "position": "Midfielder"
+        },
+        {
+          "id": 60689,
+          "name": "Chris Wood",
+          "fullName": "Chris Wood",
+          "position": "Forward"
+        },
+        {
+          "id": 482973,
+          "name": "Igor Jesus Maciel da Cruz",
+          "fullName": "Igor Jesus Maciel da Cruz",
+          "position": "Forward"
+        },
+        {
+          "id": 465680,
+          "name": "Arnaud Kalimuendo",
+          "fullName": "Arnaud Kalimuendo",
+          "position": "Forward"
+        },
+        {
+          "id": 204561,
+          "name": "Xaver Schlager",
+          "fullName": "Xaver Schlager",
+          "position": "Midfielder"
+        },
+        {
+          "id": 568420,
+          "name": "Ousmane Diomande",
+          "fullName": "Ousmane Diomande",
+          "position": "Defender"
+        },
+        {
+          "id": 428971,
+          "name": "Steven Benda",
+          "fullName": "Steven Benda",
+          "position": "Goalkeeper"
+        }
+      ]
+    },
+    {
+      "club": "Tottenham Hotspur",
+      "players": [
+        {
+          "id": 469142,
+          "name": "Jan Paul van Hecke",
+          "fullName": "Jan Paul van Hecke",
+          "position": "Defender"
+        },
+        {
+          "id": 109646,
+          "name": "Tosin Adarabioyo",
+          "fullName": "Tosin Adarabioyo",
+          "position": "Defender"
+        },
+        {
+          "id": 438234,
+          "name": "Omar Marmoush",
+          "fullName": "Omar Marmoush",
+          "position": "Forward"
+        },
+        {
+          "id": 510281,
+          "name": "Sávio Moreira de Oliveira",
+          "fullName": "Sávio Moreira de Oliveira",
+          "position": "Midfielder"
+        },
+        {
+          "id": 432422,
+          "name": "Sandro Tonali",
+          "fullName": "Sandro Tonali",
+          "position": "Midfielder"
+        },
+        {
+          "id": 214572,
+          "name": "Brandon Austin",
+          "fullName": "Brandon Austin",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 485055,
+          "name": "Antonín Kinský",
+          "fullName": "Antonín Kinský",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 67089,
+          "name": "Martin Dubravka",
+          "fullName": "Martin Dubravka",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 221466,
+          "name": "Marcos Senesi Barón",
+          "fullName": "Marcos Senesi Barón",
+          "position": "Defender"
+        },
+        {
+          "id": 441164,
+          "name": "Pedro Porro Sauceda",
+          "fullName": "Pedro Porro Sauceda",
+          "position": "Defender"
+        },
+        {
+          "id": 122798,
+          "name": "Andrew Robertson",
+          "fullName": "Andrew Robertson",
+          "position": "Defender"
+        },
+        {
+          "id": 491279,
+          "name": "Micky van de Ven",
+          "fullName": "Micky van de Ven",
+          "position": "Defender"
+        },
+        {
+          "id": 487053,
+          "name": "Destiny Udogie",
+          "fullName": "Destiny Udogie",
+          "position": "Defender"
+        },
+        {
+          "id": 115556,
+          "name": "Ben Davies",
+          "fullName": "Ben Davies",
+          "position": "Defender"
+        },
+        {
+          "id": 640419,
+          "name": "Jun'ai Byfield",
+          "fullName": "Jun'ai Byfield",
+          "position": "Defender"
+        },
+        {
+          "id": 499716,
+          "name": "James Rowswell",
+          "fullName": "James Rowswell",
+          "position": "Defender"
+        },
+        {
+          "id": 460842,
+          "name": "Mohammed Kudus",
+          "fullName": "Mohammed Kudus",
+          "position": "Midfielder"
+        },
+        {
+          "id": 493362,
+          "name": "Xavi Simons",
+          "fullName": "Xavi Simons",
+          "position": "Midfielder"
+        },
+        {
+          "id": 511499,
+          "name": "Mathys Tel",
+          "fullName": "Mathys Tel",
+          "position": "Midfielder"
+        },
+        {
+          "id": 172780,
+          "name": "James Maddison",
+          "fullName": "James Maddison",
+          "position": "Midfielder"
+        },
+        {
+          "id": 202993,
+          "name": "Rodrigo Bentancur",
+          "fullName": "Rodrigo Bentancur",
+          "position": "Midfielder"
+        },
+        {
+          "id": 550839,
+          "name": "Wilson Odobert",
+          "fullName": "Wilson Odobert",
+          "position": "Midfielder"
+        },
+        {
+          "id": 232787,
+          "name": "Conor Gallagher",
+          "fullName": "Conor Gallagher",
+          "position": "Midfielder"
+        },
+        {
+          "id": 570526,
+          "name": "Lucas Bergvall",
+          "fullName": "Lucas Bergvall",
+          "position": "Midfielder"
+        },
+        {
+          "id": 445044,
+          "name": "Dejan Kulusevski",
+          "fullName": "Dejan Kulusevski",
+          "position": "Midfielder"
+        },
+        {
+          "id": 547701,
+          "name": "Archie Gray",
+          "fullName": "Archie Gray",
+          "position": "Midfielder"
+        },
+        {
+          "id": 499726,
+          "name": "Callum Olusesi",
+          "fullName": "Callum Olusesi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 551226,
+          "name": "Mateus Fernandes",
+          "fullName": "Mateus Fernandes",
+          "position": "Midfielder"
+        },
+        {
+          "id": 154566,
+          "name": "Dominic Solanke-Mitchell",
+          "fullName": "Dominic Solanke-Mitchell",
+          "position": "Forward"
+        },
+        {
+          "id": 465920,
+          "name": "Mykhailo Mudryk",
+          "fullName": "Mykhailo Mudryk",
+          "position": "Midfielder"
+        },
+        {
+          "id": 611917,
+          "name": "Luca Williams-Barnett",
+          "fullName": "Luca Williams-Barnett",
+          "position": "Midfielder"
+        }
+      ]
+    },
+    {
+      "club": "Sunderland",
+      "players": [
+        {
+          "id": 135720,
+          "name": "Kevin Danso",
+          "fullName": "Kevin Danso",
+          "position": "Defender"
+        },
+        {
+          "id": 498016,
+          "name": "Robin Roefs",
+          "fullName": "Robin Roefs",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 515046,
+          "name": "Melker Ellborg",
+          "fullName": "Melker Ellborg",
+          "position": "Goalkeeper"
+        },
+        {
+          "id": 223827,
+          "name": "Daniel Ballard",
+          "fullName": "Daniel Ballard",
+          "position": "Defender"
+        },
+        {
+          "id": 200834,
+          "name": "Nordi Mukiele",
+          "fullName": "Nordi Mukiele",
+          "position": "Defender"
+        },
+        {
+          "id": 487676,
+          "name": "Trai Hume",
+          "fullName": "Trai Hume",
+          "position": "Defender"
+        },
+        {
+          "id": 201895,
+          "name": "Omar Alderete",
+          "fullName": "Omar Alderete",
+          "position": "Defender"
+        },
+        {
+          "id": 434399,
+          "name": "Reinildo Mandava",
+          "fullName": "Reinildo Mandava",
+          "position": "Defender"
+        },
+        {
+          "id": 167512,
+          "name": "Luke O'Nien",
+          "fullName": "Luke O'Nien",
+          "position": "Defender"
+        },
+        {
+          "id": 93605,
+          "name": "Thomas Meunier",
+          "fullName": "Thomas Meunier",
+          "position": "Defender"
+        },
+        {
+          "id": 484420,
+          "name": "Enzo Le Fée",
+          "fullName": "Enzo Le Fée",
+          "position": "Midfielder"
+        },
+        {
+          "id": 547027,
+          "name": "Habib Diarra",
+          "fullName": "Habib Diarra",
+          "position": "Midfielder"
+        },
+        {
+          "id": 84450,
+          "name": "Granit Xhaka",
+          "fullName": "Granit Xhaka",
+          "position": "Midfielder"
+        },
+        {
+          "id": 577669,
+          "name": "Noah Sadiki",
+          "fullName": "Noah Sadiki",
+          "position": "Midfielder"
+        },
+        {
+          "id": 461199,
+          "name": "Romaine Mundle",
+          "fullName": "Romaine Mundle",
+          "position": "Midfielder"
+        },
+        {
+          "id": 554197,
+          "name": "Chris Rigg",
+          "fullName": "Chris Rigg",
+          "position": "Midfielder"
+        },
+        {
+          "id": 549912,
+          "name": "Chemsdine Talbi",
+          "fullName": "Chemsdine Talbi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 699989,
+          "name": "Djiamgone Jocelin Ta Bi",
+          "fullName": "Djiamgone Jocelin Ta Bi",
+          "position": "Midfielder"
+        },
+        {
+          "id": 536661,
+          "name": "Nilson Angulo",
+          "fullName": "Nilson Angulo",
+          "position": "Midfielder"
+        },
+        {
+          "id": 441264,
+          "name": "Brian Brobbey",
+          "fullName": "Brian Brobbey",
+          "position": "Forward"
+        },
+        {
+          "id": 437505,
+          "name": "Wilson Isidor",
+          "fullName": "Wilson Isidor",
+          "position": "Forward"
+        },
+        {
+          "id": 638411,
+          "name": "Dayann Méthalie",
+          "fullName": "Dayann Méthalie",
+          "position": "Defender"
+        },
+        {
+          "id": 696104,
+          "name": "Jules Ahoka",
+          "fullName": "Jules Ahoka",
+          "position": "Midfielder"
+        },
+        {
+          "id": 549940,
+          "name": "Malick Fofana",
+          "fullName": "Malick Fofana",
+          "position": "Midfielder"
+        },
+        {
+          "id": 661313,
+          "name": "Juan Angulo",
+          "fullName": "Juan Angulo",
+          "position": "Forward"
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@ const read=name=>JSON.parse(fs.readFileSync(new URL(name,dir),'utf8'));
 const write=(name,value)=>fs.writeFileSync(new URL(name,dir),JSON.stringify(value,null,2)+'\n');
 const teams=read('sources/champions-league-2026-27.json');
 const leagues=read('sources/domestic-clubs-2026-27.json');
+const premier=read('sources/premier-league-players-2026-27.json');
 if(teams.length!==36||new Set(teams.map(t=>t.code)).size!==36)throw new Error('Expected 36 Champions League clubs');
 const questions=[],chapters=[];
 const allPlayers=[...new Set(teams.flatMap(t=>t.players.map(p=>p.name)))];
@@ -40,12 +41,23 @@ for(const league of leagues){
    questions.push({id,prompt,answer:club[field],aliases,options:choices(club[field],league.clubs.map(c=>c[field]).filter(value=>!aliases.includes(value)),id),explanation:`The season's club-and-ground table lists ${club.name} at ${club.stadium}, in ${club.location}.`,hint:field==='stadium'?`Location: ${club.location}.`:`This is the ground listed for ${club.name}.`,category:'squads',difficulty:'fan',source:club.source,era:league.name+' · 2026/27',premium:false,squadCode:code});ids.push(id);
   }
   if(!ids.length)throw new Error('Empty domestic chapter');
-  chapters.push({code,name:club.name,competition:league.id,kind:'Clubs & grounds',questionIds:ids});
+  const roster=league.id==='premier-league'?premier.clubs.find(c=>c.club===club.name):undefined;
+  if(league.id==='premier-league'&&!roster)throw new Error(`Missing player roster: ${club.name}`);
+  if(roster){
+   const names=new Set(roster.players.map(p=>normalize(p.name)));
+   for(const p of roster.players){
+    const id=code+'-player-'+p.id;
+    const pool=premier.clubs.filter(c=>c.club!==club.name).flatMap(c=>c.players).filter(other=>other.position===p.position&&!names.has(normalize(other.name))).map(other=>other.name);
+    questions.push({id,prompt:`Which of these ${p.position.toLowerCase()}s is listed for ${club.name}?`,answer:p.name,options:choices(p.name,pool,id),explanation:`The 2026/27 Premier League player snapshot lists ${p.fullName} with ${club.name}. Position group: ${p.position.toLowerCase()}.`,hint:`Choose the player from ${club.name}'s ${p.position.toLowerCase()} group.`,category:'squads',difficulty:'fan',source:premier.source,era:'Premier League · 2026/27',premium:false,squadCode:code});
+    ids.push(id);
+   }
+  }
+  chapters.push({code,name:club.name,competition:league.id,kind:roster?'Players & grounds':'Clubs & grounds',questionIds:ids});
  }
 }
 const bank=[...read('questions.json').filter(q=>q.category!=='squads'),...questions];
 const issues=validateBank(bank);if(issues.length)throw new Error(issues.join('\n'));
 write('squad-questions.json',questions);write('squad-chapters.json',chapters);write('questions.json',bank);
 const editorial=read('editorial-status.json');editorial.questions=bank.length;editorial.independentEditorialApproval=false;write('editorial-status.json',editorial);
-write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA named List A players only; domestic grounds and locations. Not complete domestic player squads.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
+write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA List A players; selected official FPL players; domestic grounds and locations. Not complete domestic registration lists.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json','sources/premier-league-players-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
 console.log(`${questions.length} season questions; ${chapters.length} club chapters; ${bank.length} total questions.`);

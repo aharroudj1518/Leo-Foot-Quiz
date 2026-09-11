@@ -1,6 +1,7 @@
 import {expect,it} from 'vitest';
 import questions from '../src/content/squad-questions.json';
 import chapters from '../src/content/squad-chapters.json';
+import premier from '../src/content/sources/premier-league-players-2026-27.json';
 import {advance,careerTotals,correctAnswer,hydrate,initialProfile,makeSession,Question,submit,validateBank} from '../src/core/quiz';
 it('replaces the World Cup with all Champions League clubs and four complete domestic club lists',()=>{
   for(const [competition,total] of [['champions-league',36],['premier-league',20],['la-liga',20],['serie-a',20],['bundesliga',18]] as const)expect(chapters.filter(c=>c.competition===competition)).toHaveLength(total);
@@ -11,6 +12,22 @@ it('replaces the World Cup with all Champions League clubs and four complete dom
 });
 it('never presents a stadium alias as an incorrect choice',()=>{
  for(const q of questions as Question[])expect(q.options.filter(option=>correctAnswer(q,option)),q.id).toHaveLength(1);
+});
+it('gives all Premier League clubs player rounds without teammates as distractors',()=>{
+ for(const club of premier.clubs){
+  const chapter=chapters.find(c=>c.competition==='premier-league'&&c.name===club.club)!;
+  const roster=new Set(club.players.map(p=>p.name));
+  const pool=questions.filter(q=>q.squadCode===chapter.code&&q.id.includes('-player-')) as Question[];
+  expect(pool.length).toBe(club.players.length);
+  expect(pool.length).toBeGreaterThanOrEqual(18);
+  for(const q of pool){
+   expect(q.options.filter(o=>roster.has(o))).toEqual([q.answer]);
+   expect(q.source).toBe(premier.source);
+  }
+  const first=makeSession(pool as Question[],'squads','fan',[],'pl-first');
+  const second=makeSession(pool as Question[],'squads','fan',first.questionIds,'pl-next');
+  expect(second.questionIds.every(id=>!first.questionIds.includes(id))).toBe(true);
+ }
 });
 it('retains earned career totals when the retired World Cup catalogue leaves the app',()=>{
  const retired=[{...questions[0],id:'squad26-retired-player'}] as Question[];
