@@ -3414,9 +3414,9 @@
     "answer": "Aitana Bonmatí",
     "options": [
       "Aitana Bonmatí",
-      "Alexia Putellas",
-      "Sam Kerr",
-      "Ada Hegerberg"
+      "Lauren James",
+      "Chloe Kelly",
+      "Alessia Russo"
     ],
     "explanation": "Aitana Bonmatí has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Spain.",
@@ -3443,9 +3443,9 @@
     "answer": "Alexia Putellas",
     "options": [
       "Alexia Putellas",
-      "Sam Kerr",
-      "Ada Hegerberg",
-      "Wendie Renard"
+      "Chloe Kelly",
+      "Alessia Russo",
+      "Salma Paralluelo"
     ],
     "explanation": "Alexia Putellas has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Spain.",
@@ -3472,9 +3472,9 @@
     "answer": "Sam Kerr",
     "options": [
       "Sam Kerr",
-      "Ada Hegerberg",
-      "Wendie Renard",
-      "Lucy Bronze"
+      "Alessia Russo",
+      "Salma Paralluelo",
+      "Linda Caicedo"
     ],
     "explanation": "Sam Kerr has represented Australia. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Australia.",
@@ -3501,9 +3501,9 @@
     "answer": "Ada Hegerberg",
     "options": [
       "Ada Hegerberg",
-      "Wendie Renard",
-      "Lucy Bronze",
-      "Marta"
+      "Salma Paralluelo",
+      "Linda Caicedo",
+      "Caroline Graham Hansen"
     ],
     "explanation": "Ada Hegerberg has represented Norway. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Norway.",
@@ -3530,9 +3530,9 @@
     "answer": "Wendie Renard",
     "options": [
       "Wendie Renard",
-      "Lucy Bronze",
-      "Marta",
-      "Beth Mead"
+      "Linda Caicedo",
+      "Caroline Graham Hansen",
+      "Aitana Bonmatí"
     ],
     "explanation": "Wendie Renard has represented France. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: France.",
@@ -3559,9 +3559,9 @@
     "answer": "Lucy Bronze",
     "options": [
       "Lucy Bronze",
-      "Marta",
-      "Beth Mead",
-      "Leah Williamson"
+      "Caroline Graham Hansen",
+      "Aitana Bonmatí",
+      "Alexia Putellas"
     ],
     "explanation": "Lucy Bronze has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -3588,9 +3588,9 @@
     "answer": "Marta",
     "options": [
       "Marta",
-      "Beth Mead",
-      "Leah Williamson",
-      "Megan Rapinoe"
+      "Aitana Bonmatí",
+      "Alexia Putellas",
+      "Sam Kerr"
     ],
     "explanation": "Marta has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -3615,9 +3615,9 @@
     "answer": "Ronaldinho",
     "options": [
       "Ronaldinho",
-      "Diego Maradona",
-      "Ronaldo Nazário",
-      "David Beckham"
+      "Thierry Henry",
+      "Didier Drogba",
+      "Andrés Iniesta"
     ],
     "explanation": "Ronaldinho has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -3642,9 +3642,9 @@
     "answer": "Zinedine Zidane",
     "options": [
       "Zinedine Zidane",
-      "Ronaldo Nazário",
-      "David Beckham",
-      "Steven Gerrard"
+      "Didier Drogba",
+      "Andrés Iniesta",
+      "Gianluigi Buffon"
     ],
     "explanation": "Zinedine Zidane has represented France. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: France.",
@@ -3671,9 +3671,9 @@
     "answer": "Thierry Henry",
     "options": [
       "Thierry Henry",
-      "David Beckham",
-      "Steven Gerrard",
-      "Ronaldinho"
+      "Andrés Iniesta",
+      "Gianluigi Buffon",
+      "Kaká"
     ],
     "explanation": "Thierry Henry has represented France. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: France.",
@@ -3700,9 +3700,9 @@
     "answer": "Didier Drogba",
     "options": [
       "Didier Drogba",
-      "Steven Gerrard",
-      "Ronaldinho",
-      "Zinedine Zidane"
+      "Gianluigi Buffon",
+      "Kaká",
+      "Pelé"
     ],
     "explanation": "Didier Drogba has represented Ivory Coast. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Ivory Coast.",
@@ -3729,9 +3729,9 @@
     "answer": "Andrés Iniesta",
     "options": [
       "Andrés Iniesta",
-      "Ronaldinho",
-      "Zinedine Zidane",
-      "Thierry Henry"
+      "Kaká",
+      "Pelé",
+      "Diego Maradona"
     ],
     "explanation": "Andrés Iniesta has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Spain.",
@@ -3758,9 +3758,9 @@
     "answer": "Gianluigi Buffon",
     "options": [
       "Gianluigi Buffon",
-      "Zinedine Zidane",
-      "Thierry Henry",
-      "Didier Drogba"
+      "Pelé",
+      "Diego Maradona",
+      "Ronaldo Nazário"
     ],
     "explanation": "Gianluigi Buffon has represented Italy. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Italy.",
@@ -3787,9 +3787,9 @@
     "answer": "Kaká",
     "options": [
       "Kaká",
-      "Thierry Henry",
-      "Didier Drogba",
-      "Andrés Iniesta"
+      "Diego Maradona",
+      "Ronaldo Nazário",
+      "David Beckham"
     ],
     "explanation": "Kaká has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -3814,9 +3814,9 @@
     "answer": "Neymar",
     "options": [
       "Neymar",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Karim Benzema",
+      "Toni Kroos",
+      "Manuel Neuer"
     ],
     "explanation": "Neymar has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -3844,9 +3844,9 @@
     "answer": "Luis Suárez",
     "options": [
       "Luis Suárez",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé",
-      "Mohamed Salah"
+      "Toni Kroos",
+      "Manuel Neuer",
+      "Thibaut Courtois"
     ],
     "explanation": "Luis Suárez has represented Uruguay. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Uruguay.",
@@ -3873,9 +3873,9 @@
     "answer": "Antoine Griezmann",
     "options": [
       "Antoine Griezmann",
-      "Kylian Mbappé",
-      "Mohamed Salah",
-      "Erling Haaland"
+      "Manuel Neuer",
+      "Thibaut Courtois",
+      "Alisson Becker"
     ],
     "explanation": "Antoine Griezmann has represented France. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: France.",
@@ -3902,9 +3902,9 @@
     "answer": "Bukayo Saka",
     "options": [
       "Bukayo Saka",
-      "Mohamed Salah",
-      "Erling Haaland",
-      "Harry Kane"
+      "Thibaut Courtois",
+      "Alisson Becker",
+      "Pedri"
     ],
     "explanation": "Bukayo Saka has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -3931,9 +3931,9 @@
     "answer": "Phil Foden",
     "options": [
       "Phil Foden",
-      "Erling Haaland",
-      "Harry Kane",
-      "Kevin De Bruyne"
+      "Alisson Becker",
+      "Pedri",
+      "Jamal Musiala"
     ],
     "explanation": "Phil Foden has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -3960,9 +3960,9 @@
     "answer": "Son Heung-min",
     "options": [
       "Son Heung-min",
-      "Harry Kane",
-      "Kevin De Bruyne",
-      "Luka Modrić"
+      "Pedri",
+      "Jamal Musiala",
+      "Lamine Yamal"
     ],
     "explanation": "Son Heung-min has represented South Korea. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: South Korea.",
@@ -3991,9 +3991,9 @@
     "answer": "Sadio Mané",
     "options": [
       "Sadio Mané",
-      "Kevin De Bruyne",
-      "Luka Modrić",
-      "Robert Lewandowski"
+      "Jamal Musiala",
+      "Lamine Yamal",
+      "Lionel Messi"
     ],
     "explanation": "Sadio Mané has represented Senegal. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Senegal.",
@@ -4020,9 +4020,9 @@
     "answer": "Victor Osimhen",
     "options": [
       "Victor Osimhen",
-      "Luka Modrić",
-      "Robert Lewandowski",
-      "Vinícius Júnior"
+      "Lamine Yamal",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
     ],
     "explanation": "Victor Osimhen has represented Nigeria. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Nigeria.",
@@ -4049,9 +4049,9 @@
     "answer": "Rodri",
     "options": [
       "Rodri",
-      "Robert Lewandowski",
-      "Vinícius Júnior",
-      "Jude Bellingham"
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
     ],
     "explanation": "Rodri has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Spain.",
@@ -4076,9 +4076,9 @@
     "answer": "Declan Rice",
     "options": [
       "Declan Rice",
-      "Vinícius Júnior",
-      "Jude Bellingham",
-      "Neymar"
+      "Cristiano Ronaldo",
+      "Kylian Mbappé",
+      "Mohamed Salah"
     ],
     "explanation": "Declan Rice has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -4105,9 +4105,9 @@
     "answer": "Cole Palmer",
     "options": [
       "Cole Palmer",
-      "Jude Bellingham",
-      "Neymar",
-      "Luis Suárez"
+      "Kylian Mbappé",
+      "Mohamed Salah",
+      "Erling Haaland"
     ],
     "explanation": "Cole Palmer has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -4134,9 +4134,9 @@
     "answer": "Ousmane Dembélé",
     "options": [
       "Ousmane Dembélé",
-      "Neymar",
-      "Luis Suárez",
-      "Antoine Griezmann"
+      "Mohamed Salah",
+      "Erling Haaland",
+      "Harry Kane"
     ],
     "explanation": "Ousmane Dembélé has represented France. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: France.",
@@ -4163,9 +4163,9 @@
     "answer": "Lautaro Martínez",
     "options": [
       "Lautaro Martínez",
-      "Luis Suárez",
-      "Antoine Griezmann",
-      "Bukayo Saka"
+      "Erling Haaland",
+      "Harry Kane",
+      "Kevin De Bruyne"
     ],
     "explanation": "Lautaro Martínez has represented Argentina. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Argentina.",
@@ -4193,9 +4193,9 @@
     "answer": "Bruno Fernandes",
     "options": [
       "Bruno Fernandes",
-      "Antoine Griezmann",
-      "Bukayo Saka",
-      "Phil Foden"
+      "Harry Kane",
+      "Kevin De Bruyne",
+      "Luka Modrić"
     ],
     "explanation": "Bruno Fernandes has represented Portugal. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Portugal.",
@@ -4222,9 +4222,9 @@
     "answer": "Virgil van Dijk",
     "options": [
       "Virgil van Dijk",
-      "Bukayo Saka",
-      "Phil Foden",
-      "Son Heung-min"
+      "Kevin De Bruyne",
+      "Luka Modrić",
+      "Robert Lewandowski"
     ],
     "explanation": "Virgil van Dijk has represented Netherlands. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Netherlands.",
@@ -4251,9 +4251,9 @@
     "answer": "Beth Mead",
     "options": [
       "Beth Mead",
+      "Marta",
       "Leah Williamson",
-      "Megan Rapinoe",
-      "Alex Morgan"
+      "Megan Rapinoe"
     ],
     "explanation": "Beth Mead has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -4280,9 +4280,9 @@
     "answer": "Leah Williamson",
     "options": [
       "Leah Williamson",
+      "Beth Mead",
       "Megan Rapinoe",
-      "Alex Morgan",
-      "Rose Lavelle"
+      "Alex Morgan"
     ],
     "explanation": "Leah Williamson has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -4309,9 +4309,9 @@
     "answer": "Megan Rapinoe",
     "options": [
       "Megan Rapinoe",
+      "Leah Williamson",
       "Alex Morgan",
-      "Rose Lavelle",
-      "Aitana Bonmatí"
+      "Rose Lavelle"
     ],
     "explanation": "Megan Rapinoe has represented United States. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: United States.",
@@ -4338,9 +4338,9 @@
     "answer": "Alex Morgan",
     "options": [
       "Alex Morgan",
+      "Megan Rapinoe",
       "Rose Lavelle",
-      "Aitana Bonmatí",
-      "Alexia Putellas"
+      "Lauren James"
     ],
     "explanation": "Alex Morgan has represented United States. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: United States.",
@@ -4367,9 +4367,9 @@
     "answer": "Rose Lavelle",
     "options": [
       "Rose Lavelle",
-      "Aitana Bonmatí",
-      "Alexia Putellas",
-      "Sam Kerr"
+      "Alex Morgan",
+      "Lauren James",
+      "Chloe Kelly"
     ],
     "explanation": "Rose Lavelle has represented United States. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: United States.",
@@ -4396,9 +4396,9 @@
     "answer": "Pelé",
     "options": [
       "Pelé",
-      "Zinedine Zidane",
-      "Thierry Henry",
-      "Didier Drogba"
+      "Andrea Pirlo",
+      "Francesco Totti",
+      "Carles Puyol"
     ],
     "explanation": "Pelé has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -4423,9 +4423,9 @@
     "answer": "Diego Maradona",
     "options": [
       "Diego Maradona",
-      "Thierry Henry",
-      "Didier Drogba",
-      "Andrés Iniesta"
+      "Francesco Totti",
+      "Carles Puyol",
+      "Zlatan Ibrahimović"
     ],
     "explanation": "Diego Maradona has represented Argentina. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Argentina.",
@@ -4452,9 +4452,9 @@
     "answer": "Ronaldo Nazário",
     "options": [
       "Ronaldo Nazário",
-      "Didier Drogba",
-      "Andrés Iniesta",
-      "Gianluigi Buffon"
+      "Carles Puyol",
+      "Zlatan Ibrahimović",
+      "Rivaldo"
     ],
     "explanation": "Ronaldo Nazário has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: Brazil.",
@@ -4484,9 +4484,9 @@
     "answer": "David Beckham",
     "options": [
       "David Beckham",
-      "Andrés Iniesta",
-      "Gianluigi Buffon",
-      "Kaká"
+      "Zlatan Ibrahimović",
+      "Rivaldo",
+      "Roberto Carlos"
     ],
     "explanation": "David Beckham has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -4513,9 +4513,9 @@
     "answer": "Steven Gerrard",
     "options": [
       "Steven Gerrard",
-      "Gianluigi Buffon",
-      "Kaká",
-      "Pelé"
+      "Rivaldo",
+      "Roberto Carlos",
+      "Ronaldinho"
     ],
     "explanation": "Steven Gerrard has represented England. This archive portrait is a visual identity question, not a current-club claim.",
     "hint": "International team: England.",
@@ -36875,5 +36875,581 @@
     "era": "Bundesliga · 2026/27",
     "premium": false,
     "squadCode": "club27-bundesliga-vfb-stuttgart"
+  },
+  {
+    "id": "visual-benzema",
+    "prompt": "Who is this player?",
+    "answer": "Karim Benzema",
+    "options": [
+      "Karim Benzema",
+      "Sadio Mané",
+      "Victor Osimhen",
+      "Rodri"
+    ],
+    "explanation": "Karim Benzema has represented France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Karim_Benzema_Pick.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "benzema",
+      "description": "Bearded player with closely trimmed hair, wearing a navy, white and red zip jacket."
+    },
+    "assetIds": [
+      "benzema"
+    ],
+    "aliases": [
+      "Benzema"
+    ]
+  },
+  {
+    "id": "visual-kroos",
+    "prompt": "Who is this player?",
+    "answer": "Toni Kroos",
+    "options": [
+      "Toni Kroos",
+      "Victor Osimhen",
+      "Rodri",
+      "Declan Rice"
+    ],
+    "explanation": "Toni Kroos has represented Germany. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Germany.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Toni_Kroos_Real_Madrid_2021.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "kroos",
+      "description": "Short-haired, clean-shaven player in a dark zip-up training jacket."
+    },
+    "assetIds": [
+      "kroos"
+    ],
+    "aliases": [
+      "Kroos"
+    ]
+  },
+  {
+    "id": "visual-neuer",
+    "prompt": "Who is this player?",
+    "answer": "Manuel Neuer",
+    "options": [
+      "Manuel Neuer",
+      "Rodri",
+      "Declan Rice",
+      "Cole Palmer"
+    ],
+    "explanation": "Manuel Neuer has represented Germany. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Germany.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "neuer",
+      "description": "Fair-haired goalkeeper wearing an orange number-one shirt with blue trim."
+    },
+    "assetIds": [
+      "neuer"
+    ],
+    "aliases": [
+      "Neuer"
+    ]
+  },
+  {
+    "id": "visual-courtois",
+    "prompt": "Who is this player?",
+    "answer": "Thibaut Courtois",
+    "options": [
+      "Thibaut Courtois",
+      "Declan Rice",
+      "Cole Palmer",
+      "Ousmane Dembélé"
+    ],
+    "explanation": "Thibaut Courtois has represented Belgium. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Belgium.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Thibaut_Courtois_at_the_2018_World_Cup_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "courtois",
+      "description": "Dark-haired goalkeeper in a blue shirt, with one hand over his chest."
+    },
+    "assetIds": [
+      "courtois"
+    ],
+    "aliases": [
+      "Courtois"
+    ]
+  },
+  {
+    "id": "visual-alisson",
+    "prompt": "Who is this player?",
+    "answer": "Alisson Becker",
+    "options": [
+      "Alisson Becker",
+      "Cole Palmer",
+      "Ousmane Dembélé",
+      "Lautaro Martínez"
+    ],
+    "explanation": "Alisson Becker has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "alisson",
+      "description": "Long-haired, bearded goalkeeper wearing a black headband and a dark patterned shirt."
+    },
+    "assetIds": [
+      "alisson"
+    ],
+    "aliases": [
+      "Alisson"
+    ]
+  },
+  {
+    "id": "visual-pedri",
+    "prompt": "Who is this player?",
+    "answer": "Pedri",
+    "options": [
+      "Pedri",
+      "Ousmane Dembélé",
+      "Lautaro Martínez",
+      "Bruno Fernandes"
+    ],
+    "explanation": "Pedri has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "pedri",
+      "description": "Dark-haired player wearing a pale number-twenty shirt with burgundy trim."
+    },
+    "assetIds": [
+      "pedri"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "visual-musiala",
+    "prompt": "Who is this player?",
+    "answer": "Jamal Musiala",
+    "options": [
+      "Jamal Musiala",
+      "Lautaro Martínez",
+      "Bruno Fernandes",
+      "Virgil van Dijk"
+    ],
+    "explanation": "Jamal Musiala has represented Germany. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Germany.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "musiala",
+      "description": "Smiling player with short curly hair, wearing a dark blue number-ten shirt."
+    },
+    "assetIds": [
+      "musiala"
+    ],
+    "aliases": [
+      "Musiala"
+    ]
+  },
+  {
+    "id": "visual-yamal",
+    "prompt": "Who is this player?",
+    "answer": "Lamine Yamal",
+    "options": [
+      "Lamine Yamal",
+      "Bruno Fernandes",
+      "Virgil van Dijk",
+      "Karim Benzema"
+    ],
+    "explanation": "Lamine Yamal has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamine_Yamal_France_v_Spain_7.24.26-142.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "yamal",
+      "description": "Player with highlighted curls and a light headband, wearing a pale number-nineteen shirt."
+    },
+    "assetIds": [
+      "yamal"
+    ],
+    "aliases": [
+      "Yamal"
+    ]
+  },
+  {
+    "id": "visual-lauren-james",
+    "prompt": "Who is this player?",
+    "answer": "Lauren James",
+    "options": [
+      "Lauren James",
+      "Beth Mead",
+      "Leah Williamson",
+      "Megan Rapinoe"
+    ],
+    "explanation": "Lauren James has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauren_James_Eng_Women_0_Czech_Rep_0_11_10_2022-488_(52426864234)_(cropped_-_James).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "lauren-james",
+      "description": "Player running in a bright red number-eleven shirt, with her hair tied back."
+    },
+    "assetIds": [
+      "lauren-james"
+    ],
+    "aliases": [
+      "James"
+    ]
+  },
+  {
+    "id": "visual-chloe-kelly",
+    "prompt": "Who is this player?",
+    "answer": "Chloe Kelly",
+    "options": [
+      "Chloe Kelly",
+      "Leah Williamson",
+      "Megan Rapinoe",
+      "Alex Morgan"
+    ],
+    "explanation": "Chloe Kelly has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:On_29.07.England_Lionesses_Bus_Celebration_-_The_Mall,_Lond2025_11_(cropped-J1).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "chloe-kelly",
+      "description": "Smiling blonde player with sunglasses on her head, holding a silver trophy."
+    },
+    "assetIds": [
+      "chloe-kelly"
+    ],
+    "aliases": [
+      "Kelly"
+    ]
+  },
+  {
+    "id": "visual-alessia-russo",
+    "prompt": "Who is this player?",
+    "answer": "Alessia Russo",
+    "options": [
+      "Alessia Russo",
+      "Megan Rapinoe",
+      "Alex Morgan",
+      "Rose Lavelle"
+    ],
+    "explanation": "Alessia Russo has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Valerenga-Arsenal_WUCL_12-12-2024_CG3A4421_05_(cropped-J1).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "alessia-russo",
+      "description": "Player with a blonde ponytail, seen in profile wearing a red shirt with white sleeves."
+    },
+    "assetIds": [
+      "alessia-russo"
+    ],
+    "aliases": [
+      "Russo"
+    ]
+  },
+  {
+    "id": "visual-paralluelo",
+    "prompt": "Who is this player?",
+    "answer": "Salma Paralluelo",
+    "options": [
+      "Salma Paralluelo",
+      "Alex Morgan",
+      "Rose Lavelle",
+      "Lauren James"
+    ],
+    "explanation": "Salma Paralluelo has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A6178_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "paralluelo",
+      "description": "Player with dark braided hair, looking over her shoulder in a turquoise shirt."
+    },
+    "assetIds": [
+      "paralluelo"
+    ],
+    "aliases": [
+      "Paralluelo"
+    ]
+  },
+  {
+    "id": "visual-caicedo",
+    "prompt": "Who is this player?",
+    "answer": "Linda Caicedo",
+    "options": [
+      "Linda Caicedo",
+      "Rose Lavelle",
+      "Lauren James",
+      "Chloe Kelly"
+    ],
+    "explanation": "Linda Caicedo has represented Colombia. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Colombia.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Valerenga_v_Real_Madrid,_2023_-_A_06.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "caicedo",
+      "description": "Player with dark braids tied back, holding the collar of a white zip-up jacket."
+    },
+    "assetIds": [
+      "caicedo"
+    ],
+    "aliases": [
+      "Caicedo"
+    ]
+  },
+  {
+    "id": "visual-graham-hansen",
+    "prompt": "Who is this player?",
+    "answer": "Caroline Graham Hansen",
+    "options": [
+      "Caroline Graham Hansen",
+      "Lauren James",
+      "Chloe Kelly",
+      "Alessia Russo"
+    ],
+    "explanation": "Caroline Graham Hansen has represented Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Norway.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A7081_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "graham-hansen",
+      "description": "Player with a light brown ponytail wearing a turquoise shirt with red sleeve trim."
+    },
+    "assetIds": [
+      "graham-hansen"
+    ],
+    "aliases": [
+      "Graham Hansen",
+      "Hansen"
+    ]
+  },
+  {
+    "id": "visual-pirlo",
+    "prompt": "Who is this player?",
+    "answer": "Andrea Pirlo",
+    "options": [
+      "Andrea Pirlo",
+      "Carles Puyol",
+      "Zlatan Ibrahimović",
+      "Rivaldo"
+    ],
+    "explanation": "Andrea Pirlo has represented Italy. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Italy.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "pirlo",
+      "description": "Bearded player with medium-length brown hair, wearing a blue jacket with a white collar."
+    },
+    "assetIds": [
+      "pirlo"
+    ],
+    "aliases": [
+      "Pirlo"
+    ]
+  },
+  {
+    "id": "visual-totti",
+    "prompt": "Who is this player?",
+    "answer": "Francesco Totti",
+    "options": [
+      "Francesco Totti",
+      "Zlatan Ibrahimović",
+      "Rivaldo",
+      "Roberto Carlos"
+    ],
+    "explanation": "Francesco Totti has represented Italy. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Italy.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:KL-2018_(4).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "totti",
+      "description": "Short-haired player with stubble, wearing a blue shirt with white trim."
+    },
+    "assetIds": [
+      "totti"
+    ],
+    "aliases": [
+      "Totti"
+    ]
+  },
+  {
+    "id": "visual-puyol",
+    "prompt": "Who is this player?",
+    "answer": "Carles Puyol",
+    "options": [
+      "Carles Puyol",
+      "Rivaldo",
+      "Roberto Carlos",
+      "Ronaldinho"
+    ],
+    "explanation": "Carles Puyol has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Premios_Goya_2020_-_Carles_Pujol.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "puyol",
+      "description": "Player with shoulder-length curly brown hair, wearing a dark suit and bow tie."
+    },
+    "assetIds": [
+      "puyol"
+    ],
+    "aliases": [
+      "Puyol"
+    ]
+  },
+  {
+    "id": "visual-zlatan",
+    "prompt": "Who is this player?",
+    "answer": "Zlatan Ibrahimović",
+    "options": [
+      "Zlatan Ibrahimović",
+      "Roberto Carlos",
+      "Ronaldinho",
+      "Zinedine Zidane"
+    ],
+    "explanation": "Zlatan Ibrahimović has represented Sweden. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Sweden.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "zlatan",
+      "description": "Smiling player with slicked-back dark hair and a goatee, wearing a black coat."
+    },
+    "assetIds": [
+      "zlatan"
+    ],
+    "aliases": [
+      "Zlatan",
+      "Ibrahimović"
+    ]
+  },
+  {
+    "id": "visual-rivaldo",
+    "prompt": "Who is this player?",
+    "answer": "Rivaldo",
+    "options": [
+      "Rivaldo",
+      "Ronaldinho",
+      "Zinedine Zidane",
+      "Thierry Henry"
+    ],
+    "explanation": "Rivaldo has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Rivaldo.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "rivaldo",
+      "description": "Short-haired player in a red shirt, lifting a gold trophy above his head."
+    },
+    "assetIds": [
+      "rivaldo"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "visual-roberto-carlos",
+    "prompt": "Who is this player?",
+    "answer": "Roberto Carlos",
+    "options": [
+      "Roberto Carlos",
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Didier Drogba"
+    ],
+    "explanation": "Roberto Carlos has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:LS3_1288_(53332367864)_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "roberto-carlos",
+      "description": "Smiling bald player with a greying goatee, wearing a black shirt at a microphone."
+    },
+    "assetIds": [
+      "roberto-carlos"
+    ],
+    "aliases": []
   }
 ]

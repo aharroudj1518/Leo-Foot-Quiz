@@ -55,8 +55,11 @@ const stadiums = [
 for(const p of grounds)stadiums.push([p.id,p.name,p.description,`Location: ${p.country}.`,`${p.name} is in ${p.country}. This archive photograph does not claim to show its current condition.`,p.source]);
 for(const [key,name,description,hint,explanation,source] of stadiums) add(key,'stadium','stadiums',name,stadiums.filter(s=>s[0]!==key).slice(0,3).map(s=>s[1]),description,hint,explanation,source);
 fs.writeFileSync(new URL('visual-questions.json',dir),JSON.stringify(additions,null,2)+'\n');
-const bank=JSON.parse(fs.readFileSync(new URL('questions.json',dir),'utf8')).filter(q=>!q.id.startsWith('visual-'));
-bank.push(...additions);
+const existing=JSON.parse(fs.readFileSync(new URL('questions.json',dir),'utf8'));
+const replacements=new Map(additions.map(q=>[q.id,q]));
+const bank=existing.flatMap(q=>q.id.startsWith('visual-')?(replacements.has(q.id)?[replacements.get(q.id)]:[]):[q]);
+const existingIds=new Set(existing.map(q=>q.id));
+bank.push(...additions.filter(q=>!existingIds.has(q.id)));
 fs.writeFileSync(new URL('questions.json',dir),JSON.stringify(bank,null,2)+'\n');
 const editorial=JSON.parse(fs.readFileSync(new URL('editorial-status.json',dir),'utf8'));
 editorial.questions=bank.length;editorial.independentEditorialApproval=false;

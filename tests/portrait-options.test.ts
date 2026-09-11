@@ -3,8 +3,8 @@ import questions from '../src/content/visual-questions.json';
 import portraits from '../assets/players/manifest.json';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
-it('ships fifty distinct portraits with intact sourced files and visual review',()=>{
- expect(questions.filter(q=>q.category==='portraits')).toHaveLength(50);
+it('ships seventy distinct portraits with intact sourced files and visual review',()=>{
+ expect(questions.filter(q=>q.category==='portraits')).toHaveLength(70);
  expect(new Set(portraits.map(p=>p.sha256)).size).toBe(portraits.length);
  for(const p of portraits){
   expect(p.visualReview).toBe(true);expect(p.description.length).toBeGreaterThan(20);

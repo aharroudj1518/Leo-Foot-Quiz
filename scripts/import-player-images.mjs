@@ -33,7 +33,17 @@ const players=[
  ['lavelle','Rose Lavelle','United States','women'],
  ['pele','Pelé','Brazil','legends'],['maradona','Diego Maradona','Argentina','legends'],
  ['ronaldo-brazil','Ronaldo (Brazilian footballer)','Brazil','legends'],
- ['beckham','David Beckham','England','legends'],['gerrard','Steven Gerrard','England','legends']
+ ['beckham','David Beckham','England','legends'],['gerrard','Steven Gerrard','England','legends'],
+ ['benzema','Karim Benzema','France','stars'],['kroos','Toni Kroos','Germany','stars'],
+ ['neuer','Manuel Neuer','Germany','stars'],['courtois','Thibaut Courtois','Belgium','stars'],
+ ['alisson','Alisson Becker','Brazil','stars'],['pedri','Pedri','Spain','stars'],
+ ['musiala','Jamal Musiala','Germany','stars'],['yamal','Lamine Yamal','Spain','stars'],
+ ['lauren-james','Lauren James','England','women'],['chloe-kelly','Chloe Kelly','England','women'],
+ ['alessia-russo','Alessia Russo','England','women'],['paralluelo','Salma Paralluelo','Spain','women'],
+ ['caicedo','Linda Caicedo','Colombia','women'],['graham-hansen','Caroline Graham Hansen','Norway','women'],
+ ['pirlo','Andrea Pirlo','Italy','legends'],['totti','Francesco Totti','Italy','legends'],
+ ['puyol','Carles Puyol','Spain','legends'],['zlatan','Zlatan Ibrahimović','Sweden','legends'],
+ ['rivaldo','Rivaldo','Brazil','legends'],['roberto-carlos','Roberto Carlos','Brazil','legends']
 ].filter(([id])=>!records.some(p=>p.id===id));
 if(!players.length){console.log('All roster portraits are already imported.');process.exit(0);}
 const headers={'User-Agent':'LeoFootQuizContent/0.2 (https://github.com/aharroudj1518/Leo-Foot-Quiz)'};
@@ -50,7 +60,8 @@ for(const [id,title,country,collection] of players){
   const file=files.find(f=>f.title.replaceAll('_',' ')===('File:'+name).replaceAll('_',' '));
   const info=file?.imageinfo?.[0],meta=info?.extmetadata;
   const license=plain(meta?.LicenseShortName?.value),licenseUrl=meta?.LicenseUrl?.value??info?.descriptionurl;
-  if(!info||!(/^(CC BY(?:-SA)? [234]\.0|CC BY-SA 3\.0 at|CC0(?: 1\.0)?|Public domain)$/.test(license)))throw new Error(`Unaccepted licence for ${title}: ${license}`);
+  // Exact additional ported licence reviewed: https://creativecommons.org/licenses/by/3.0/br/deed.en
+  if(!info||!(/^(CC BY(?:-SA)? [234]\.0|CC BY-SA 3\.0 at|CC BY 3\.0 br|CC0(?: 1\.0)?|Public domain)$/.test(license)))throw new Error(`Unaccepted licence for ${title}: ${license}`);
   const imageUrl=new URL(info.thumburl??info.url);
   if(imageUrl.protocol!=='https:'||!['upload.wikimedia.org','thumb.wikimedia.org'].includes(imageUrl.hostname))throw new Error(`Unexpected image host: ${title}`);
   const response=await fetch(imageUrl,{headers,signal:AbortSignal.timeout(30000)});if(!response.ok)throw new Error(`Image ${title}: HTTP ${response.status}`);

@@ -652,6 +652,266 @@
       "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
     },
     {
+      "id": "benzema",
+      "status": "review-required",
+      "creator": "Zack",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Karim_Benzema_Pick.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kroos",
+      "status": "review-required",
+      "creator": "https://www.youtube.com/@realmadrid",
+      "licenseEvidence": "CC BY 3.0: https://commons.wikimedia.org/wiki/File:Toni_Kroos_Real_Madrid_2021.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "neuer",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "courtois",
+      "status": "review-required",
+      "creator": "Кирилл Венедиктов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Thibaut_Courtois_at_the_2018_World_Cup_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "alisson",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "pedri",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "musiala",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "yamal",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Lamine_Yamal_France_v_Spain_7.24.26-142.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lauren-james",
+      "status": "review-required",
+      "creator": "James Boyes from UK",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Lauren_James_Eng_Women_0_Czech_Rep_0_11_10_2022-488_(52426864234)_(cropped_-_James).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "chloe-kelly",
+      "status": "review-required",
+      "creator": "Raph_PH",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:On_29.07.England_Lionesses_Bus_Celebration_-_The_Mall,_Lond2025_11_(cropped-J1).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "alessia-russo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Valerenga-Arsenal_WUCL_12-12-2024_CG3A4421_05_(cropped-J1).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "paralluelo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A6178_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "caicedo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Valerenga_v_Real_Madrid,_2023_-_A_06.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "graham-hansen",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A7081_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "pirlo",
+      "status": "review-required",
+      "creator": "Clément Bucco-Lechat",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "totti",
+      "status": "review-required",
+      "creator": "Антон Зайцев",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:KL-2018_(4).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "puyol",
+      "status": "review-required",
+      "creator": "Pedro J Pacheco",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Premios_Goya_2020_-_Carles_Pujol.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "zlatan",
+      "status": "review-required",
+      "creator": "Colleen Sturtevant",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "rivaldo",
+      "status": "review-required",
+      "creator": "Laura Cortizo/Portal da Copa",
+      "licenseEvidence": "CC BY 3.0 br: https://commons.wikimedia.org/wiki/File:Rivaldo.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "roberto-carlos",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:LS3_1288_(53332367864)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
       "id": "arsenal",
       "status": "review-required",
       "creator": "Original Leoqo preview artwork",
