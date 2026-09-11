@@ -22,6 +22,10 @@ test('player images load, text alternatives work, and the complete visual round 
     await page.getByRole('button',{name:i===4?'See my result':'Next question',exact:true}).click();
   }
   await expect(page.getByText('TOP BINS.',{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'Leoqo home',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Player album, 5 of 5 solved',exact:true})).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('button',{name:'Player album, 5 of 5 solved',exact:true})).toBeVisible();
   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).history.at(-1).answers.every((a:any)=>a.correct))).toBe(true);
 });
 

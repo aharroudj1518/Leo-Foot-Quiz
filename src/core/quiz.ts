@@ -14,11 +14,11 @@ export type Session = {
   index: number; seed: string; daily: boolean; family: boolean; completed: boolean;
 };
 export type Profile = {
-  version: 1; seen: string[]; mistakes: string[]; history: Session[]; session: Session | null;
+  version: 1; solved?: string[]; seen: string[]; mistakes: string[]; history: Session[]; session: Session | null;
   largeText: boolean; sound: boolean; timed: boolean; difficulty: Difficulty; reports: { questionId: string; reason: string; at: string }[];
 };
 export const TIMER_SECONDS = 20;
-export const initialProfile = (): Profile => ({ version: 1, seen: [], mistakes: [], history: [], session: null, largeText: false, sound: false, timed: false, difficulty: 'fan', reports: [] });
+export const initialProfile = (): Profile => ({ version: 1, solved: [], seen: [], mistakes: [], history: [], session: null, largeText: false, sound: false, timed: false, difficulty: 'fan', reports: [] });
 export function mastery(profile: Profile, bank: Question[]): { category: Question['category']; correct: number; total: number }[] {
   const byId = new Map(bank.map(q => [q.id, q.category]));
   const tally = new Map<Question['category'], { correct: number; total: number }>();
@@ -55,7 +55,7 @@ export function submit(profile: Profile, bank: Question[], value: string, hinted
   if (!q) throw new Error('This question is no longer available. Start a new round.');
   const answer = { questionId: q.id, value, correct: correctAnswer(q, value), hinted };
   const mistakes = answer.correct ? profile.mistakes.filter(id => id !== q.id) : Array.from(new Set([...profile.mistakes, q.id]));
-  return { ...profile, mistakes, seen: Array.from(new Set([...profile.seen, q.id])), session: { ...s, answers: [...s.answers, answer] } };
+  return { ...profile, solved: Array.from(new Set([...(profile.solved ?? []), ...(answer.correct ? [q.id] : [])])), mistakes, seen: Array.from(new Set([...profile.seen, q.id])), session: { ...s, answers: [...s.answers, answer] } };
 }
 export function advance(profile: Profile): Profile {
   const s = profile.session;
@@ -86,10 +86,12 @@ export function hydrate(raw: string | null, bank: Question[]): Profile {
     || (p.timed !== undefined && typeof p.timed !== 'boolean')) {
     throw new Error('Saved data could not be read. Export it before resetting.');
   }
+  if (p.solved !== undefined && !strings(p.solved)) throw new Error('Saved collection progress could not be read.');
   const profile = p as unknown as Profile;
   const valid = new Set(bank.map(q => q.id));
   if (!validSession(profile.session) || profile.session.questionIds.some(id => !valid.has(id))) profile.session = null;
-  return { ...initialProfile(), ...profile };
+  const solved = Array.from(new Set([...(profile.solved ?? []), ...profile.history.flatMap(h => h.answers.filter(a => a.correct).map(a => a.questionId)), ...(profile.session?.answers.filter(a => a.correct).map(a => a.questionId) ?? [])])).filter(id => valid.has(id));
+  return { ...initialProfile(), ...profile, solved };
 }
 
 function record(value: unknown): value is Record<string, unknown> {
