@@ -30,5 +30,7 @@ Club rounds are scoped by stable question IDs. Switching competition does not re
 
 ## Release status
 
-TypeScript, the 84-test unit suite plus two new alias/migration checks, the plain-Node build-hook regression, Expo web export and all 48 desktop/phone browser tests passed. Phone captures were visually inspected. Record final web production and native build IDs below once verified. The previous successful Android 0.4.1 APK does not include this replacement. No store purchases, ads or commercial release are enabled by this update.
+TypeScript, the 84-test unit suite plus two new alias/migration checks, the plain-Node build-hook regression, Expo web export and all 48 desktop/phone browser tests passed. Phone captures were visually inspected. The previous successful Android 0.4.1 APK does not include this replacement. No store purchases, ads or commercial release are enabled by this update.
+
+Production deployment APKsupgNMwUSRrCZ3MtnLgb96vVR is Ready at https://leo-foot-quiz.vercel.app/ from source 42a6d76dddb6cab35ae65feb427e5d033b6e145c. Public browser verification on 11 September confirmed all five home spaces, the 36-club/856-question Champions League catalogue, and a working Arsenal round with correct-answer feedback. See NATIVE-BUILDS-0.5.0.md for native status.
 
