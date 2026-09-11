@@ -16,5 +16,8 @@ for(const id of ['rivaldo','caicedo'])test(`portrait ${id} keeps the full source
  await expect(visiblePhoto).toHaveCSS('background-size','contain');
  expect(await photo.evaluate((img:HTMLImageElement)=>img.naturalWidth)).toBeGreaterThan(100);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+ const firstLetter=await page.getByRole('button',{name:/^Letter .+, tile /}).first().boundingBox();
+ expect(firstLetter!.y+firstLetter!.height).toBeLessThanOrEqual(780);
+ expect(firstLetter!.height).toBeGreaterThanOrEqual(44);
  await page.screenshot({path:`.expo/portrait-${id}-${info.project.name}.png`});
 });
