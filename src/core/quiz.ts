@@ -57,9 +57,29 @@ export function makeSession(bank: Question[], mode: Mode, difficulty: Difficulty
   const ordered = shuffled(pool, seed);
   const unseen = options.daily || options.revision ? ordered : ordered.filter(q => !seen.includes(q.id));
   // Finish the unseen pool before offering deliberate revision. No silent repeats to pad a round.
-  const selected = (unseen.length ? unseen : ordered).slice(0, options.daily ? 5 : 10);
+  const candidates = unseen.length ? unseen : ordered;
+  const selected = (mode === 'mixed' && !options.revision ? interleaveTopics(candidates, seed) : candidates).slice(0, options.daily ? 5 : 10);
   if (!selected.length) throw new Error('No questions at this level yet. Try a different level or topic.');
   return { id: seed, mode, difficulty, questionIds: selected.map(q => q.id), answers: [], index: 0, seed, daily: !!options.daily, family: !!options.family, completed: false };
+}
+function interleaveTopics(questions: Question[], seed: string): Question[] {
+  const groups = new Map<Question['category'], Question[]>();
+  for (const question of questions) {
+    const group = groups.get(question.category) ?? [];
+    group.push(question);
+    groups.set(question.category, group);
+  }
+  // Shuffle categories independently of their sizes: a large roster must not
+  // crowd out grounds, photos, rules and football history in a mixed round.
+  const categories = shuffled([...groups.keys()].sort(), `${seed}:topics`);
+  const result: Question[] = [];
+  for (let index = 0; result.length < questions.length; index++) {
+    for (const category of categories) {
+      const question = groups.get(category)![index];
+      if (question) result.push(question);
+    }
+  }
+  return result;
 }
 export function submit(profile: Profile, bank: Question[], value: string, hinted: boolean): Profile {
   const s = profile.session;
