@@ -5,6 +5,7 @@ const existing=fs.existsSync(new URL('manifest.json',target))?JSON.parse(fs.read
 fs.mkdirSync(target,{recursive:true});
 const players=[['san-siro','San Siro','Milan','stadiums'],['old-trafford','Old Trafford','Manchester','stadiums'],['camp-nou','Camp Nou','Barcelona','stadiums'],['stade-france','Stade de France','Saint-Denis','stadiums'],['soccer-city','FNB Stadium','Johannesburg','stadiums'],['azteca','Estadio Azteca','Mexico City','stadiums']];
 const headers={'User-Agent':'LeoFootQuizContent/0.2 (https://github.com/aharroudj1518/Leo-Foot-Quiz)'};
+players.push(['anfield','Anfield','Liverpool','stadiums'],['bernabeu','Santiago Bernabéu Stadium','Madrid','stadiums'],['dortmund','Westfalenstadion','Dortmund','stadiums'],['olympiastadion','Olympiastadion (Berlin)','Berlin','stadiums'],['velodrome','Stade Vélodrome','Marseille','stadiums'],['da-luz','Estádio da Luz','Lisbon','stadiums']);
 async function json(url){const r=await fetch(url,{headers,signal:AbortSignal.timeout(30000)});if(!r.ok)throw new Error(`${r.status} ${url.hostname}`);return r.json();}
 const wiki=new URL('https://en.wikipedia.org/w/api.php');
 wiki.search=new URLSearchParams({action:'query',redirects:'1',prop:'pageimages',piprop:'name',format:'json',titles:players.map(p=>p[1]).join('|')});

@@ -37,7 +37,7 @@ test('player images load, text alternatives work, and the complete visual round 
 });
 
 test('badge and stadium rounds open and survive a reload',async({page})=>{
-  for(const label of ['Guess the badge, 6 club puzzles','Stadium tour, 6 visual questions']){
+  for(const label of ['Guess the badge, 6 club puzzles','Stadium tour, 9 visual questions']){
     await page.goto('/');await page.getByRole('button',{name:label,exact:true}).click();
     await expect(page.getByTestId('visual-question')).toBeVisible();
     await page.getByRole('button',{name:'Skip question',exact:true}).click();

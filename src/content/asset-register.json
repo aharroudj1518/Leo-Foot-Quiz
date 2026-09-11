@@ -1066,6 +1066,45 @@
       "commercialUse": false,
       "likenessAndMarksAssessment": "Public-release assessment pending.",
       "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bernabeu",
+      "status": "review-required",
+      "creator": "Zoser",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "olympiastadion",
+      "status": "review-required",
+      "creator": "Matthias Süßen",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin-Marathontor-msu-2020-3139.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "da-luz",
+      "status": "review-required",
+      "creator": "Florent Dusonchet",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Estadio_da_Luz_2012.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
     }
   ]
 }

@@ -2340,5 +2340,83 @@
     "assetIds": [
       "stade-france"
     ]
+  },
+  {
+    "id": "visual-bernabeu",
+    "prompt": "Which stadium is this?",
+    "answer": "Santiago Bernabéu Stadium",
+    "options": [
+      "Santiago Bernabéu Stadium",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "Santiago Bernabéu Stadium is in Madrid. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Madrid.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "bernabeu",
+      "description": "Steep tiers of white and purple supporters beneath a continuous video screen and a steel roof."
+    },
+    "assetIds": [
+      "bernabeu"
+    ]
+  },
+  {
+    "id": "visual-olympiastadion",
+    "prompt": "Which stadium is this?",
+    "answer": "Olympiastadion (Berlin)",
+    "options": [
+      "Olympiastadion (Berlin)",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "Olympiastadion (Berlin) is in Berlin. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Berlin.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin-Marathontor-msu-2020-3139.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "olympiastadion",
+      "description": "An oval stone stadium with a white canopy, an open entrance gap and paired towers."
+    },
+    "assetIds": [
+      "olympiastadion"
+    ]
+  },
+  {
+    "id": "visual-da-luz",
+    "prompt": "Which stadium is this?",
+    "answer": "Estádio da Luz",
+    "options": [
+      "Estádio da Luz",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "Estádio da Luz is in Lisbon. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Lisbon.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Estadio_da_Luz_2012.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "da-luz",
+      "description": "Red seating beneath sweeping red roof arches, with a green pitch in the foreground."
+    },
+    "assetIds": [
+      "da-luz"
+    ]
   }
 ]
