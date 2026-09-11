@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 const dir = new URL('../src/content/', import.meta.url);
-const credits = JSON.parse(fs.readFileSync(new URL('../assets/visual/credits.json', import.meta.url), 'utf8').replace(/^\uFEFF/, ''));
+const portraits = JSON.parse(fs.readFileSync(new URL('../assets/players/manifest.json', import.meta.url), 'utf8'));
+const credits = [...JSON.parse(fs.readFileSync(new URL('../assets/visual/credits.json', import.meta.url), 'utf8').replace(/^\uFEFF/, '')), ...portraits];
 const additions = [];
 function add(key, kind, category, answer, others, description, hint, explanation, source) {
   additions.push({id:`visual-${key}`,prompt:kind==='portrait'?'Who is this player?':kind==='badge'?'Which club does this badge puzzle represent?':'Which stadium is this?',answer,options:[answer,...others],explanation,hint,category,difficulty:'fan',source,era:kind==='portrait'?'Player gallery · archive portraits':kind==='badge'?'Club colours · reimagined badges':'Stadium tour · visual edition',premium:false,visual:{kind,key,description},assetIds:[key]});
@@ -12,6 +13,10 @@ const players = [
   ['salah','Mohamed Salah','Egypt','Curly-haired, bearded player wearing Egypt’s red shirt.'],
   ['haaland','Erling Haaland','Norway','Fair-haired player with long hair pulled back.'],
 ];
+for (const p of portraits) {
+  if (!p.visualReview || !p.description) throw new Error(`Portrait needs visual review: ${p.id}`);
+  players.push([p.id,p.name,p.country,p.description]);
+}
 for(const [key,name,country,description] of players) add(key,'portrait','portraits',name,players.filter(p=>p[1]!==name).slice(0,3).map(p=>p[1]),description,`This player represents ${country}.`,`${name} represents ${country}. This archive portrait is a visual identity question, not a current-club claim.`,credits.find(c=>c.id===key).source);
 const clubs = [
   ['arsenal','Arsenal','Red shield with a gold cannon and two wheels.','North London · The Gunners','The cannon and red colours point to Arsenal, known as the Gunners.','https://www.arsenal.com/history'],

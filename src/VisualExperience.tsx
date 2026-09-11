@@ -3,9 +3,15 @@ import {AccessibilityInfo, Animated, Image, ImageSourcePropType, Pressable, Styl
 import {LinearGradient} from 'expo-linear-gradient';
 import {C, Icon} from './ui';
 import type {Mode, Profile, Question} from './core/quiz';
-import credits from '../assets/visual/credits.json';
+import baseCredits from '../assets/visual/credits.json';
+import playerCredits from '../assets/players/manifest.json';
+import questions from './content/visual-questions.json';
+import {playerImages} from './playerImages';
+const credits=[...baseCredits,...playerCredits];
+const portraitCount=questions.filter(q=>q.category==='portraits').length;
 
 export const visualImages: Record<string, ImageSourcePropType> = {
+  ...playerImages,
   messi:require('../assets/visual/messi.jpg'), ronaldo:require('../assets/visual/ronaldo.jpg'),
   mbappe:require('../assets/visual/mbappe.jpg'), salah:require('../assets/visual/salah.jpg'),
   haaland:require('../assets/visual/haaland.jpg'), wembley:require('../assets/visual/wembley.png'),
@@ -44,11 +50,11 @@ export function ClubBadge({id,size=130}:{id:string;size?:number}){
 export function VisualHome({onStart,profile,onCredits}:{onStart:(mode:Mode)=>void;profile:Profile;onCredits:()=>void}){
   const completed=profile.seen.filter(id=>id.startsWith('visual-')).length;
   return <View style={{gap:20,marginBottom:24}}>
-    <View style={v.headingRow}><View><Text style={v.eyebrow}>THE VISUAL FOOTBALL QUIZ</Text><Text style={v.heading}>Football in your DNA?</Text></View><View style={v.progressPill}><Icon name="football" size={16}/><Text style={v.progressText}>{completed}/14</Text></View></View>
-    <Reveal identity="spotlight"><Pressable accessibilityRole="button" accessibilityLabel="Guess the player, 5 photo questions" onPress={()=>onStart('portraits')} style={({pressed})=>[v.spotlight,pressed&&v.pressed]}>
+    <View style={v.headingRow}><View><Text style={v.eyebrow}>THE VISUAL FOOTBALL QUIZ</Text><Text style={v.heading}>Football in your DNA?</Text></View><View style={v.progressPill}><Icon name="football" size={16}/><Text style={v.progressText}>{completed}/{questions.length}</Text></View></View>
+    <Reveal identity="spotlight"><Pressable accessibilityRole="button" accessibilityLabel={`Guess the player, ${portraitCount} photo questions`} onPress={()=>onStart('portraits')} style={({pressed})=>[v.spotlight,pressed&&v.pressed]}>
       <Image source={visualImages.wembley} style={StyleSheet.absoluteFill} resizeMode="cover" accessible={false}/>
       <LinearGradient colors={['rgba(7,30,40,.9)','rgba(7,30,40,.56)']} style={StyleSheet.absoluteFill}/>
-      <View style={v.heroCopy}><Text style={v.heroTag}>PLAYER SPOTLIGHT</Text><Text style={v.heroTitle}>Name that{"\n"}legend.</Text><Text style={v.heroSub}>Five stars. No names. All you.</Text><View style={v.playButton}><Text style={v.playText}>Guess the player</Text><Icon name="arrow-forward" size={20}/></View></View>
+      <View style={v.heroCopy}><Text style={v.heroTag}>PLAYER SPOTLIGHT</Text><Text style={v.heroTitle}>Name that{"\n"}legend.</Text><Text style={v.heroSub}>Stars, icons and trailblazers. How many can you name?</Text><View style={v.playButton}><Text style={v.playText}>Guess the player</Text><Icon name="arrow-forward" size={20}/></View></View>
       <View accessible={false} style={v.photoStack}><View style={[v.playerCard,{transform:[{rotate:'12deg'}],right:-12,top:23}]}><Image source={visualImages.ronaldo} style={v.cardPhoto}/></View><View style={[v.playerCard,{transform:[{rotate:'-9deg'}],right:30,top:3}]}><Image source={visualImages.messi} style={v.cardPhoto}/><View style={v.mystery}><Text style={v.mysteryText}>?</Text></View></View></View>
     </Pressable></Reveal>
     <View style={v.headingRow}><Text style={v.sectionTitle}>Pick your challenge</Text><Text style={v.small}>Play free · All levels</Text></View>
@@ -63,7 +69,7 @@ export function VisualHome({onStart,profile,onCredits}:{onStart:(mode:Mode)=>voi
       </Pressable>
     </View>
     <Pressable accessibilityRole="button" accessibilityLabel="Club connections, 6 puzzles" onPress={()=>onStart('connections')} style={({pressed})=>[{backgroundColor:'#103D3B',padding:20,borderRadius:18,gap:10},pressed&&v.pressed]}><View style={v.headingRow}><Icon name="git-branch-outline" color="#F4CF55" size={26}/><Text style={{color:'#F4CF55',fontSize:11,fontWeight:'800'}}>6 CONNECTIONS</Text></View><Text style={[v.cardTitle,{color:'white',fontSize:23}]}>Different shirts. Same player.</Text><Text style={{color:'#C4D6D0',fontSize:13,lineHeight:20}}>Connect the clubs to uncover the footballer.</Text><View style={v.cardFooter}><Text style={{color:'white',fontWeight:'800'}}>Play club connections</Text><Icon name="arrow-forward" color="white" size={23}/></View></Pressable>
-    <View style={v.collection}><View style={v.headingRow}><Text style={v.sectionTitle}>The starting line-up</Text><Icon name="sparkles-outline" size={19}/></View><View style={v.lineup}>{['messi','ronaldo','mbappe','salah','haaland'].map((key,i)=><Pressable key={key} accessibilityRole="button" accessibilityLabel={`Play player gallery, portrait ${i+1}`} onPress={()=>onStart('portraits')} style={v.miniCard}><Image source={visualImages[key]} style={v.miniPhoto} accessible={false}/><View style={v.number}><Text style={v.numberText}>{String(i+1).padStart(2,'0')}</Text></View></Pressable>)}</View><View style={v.headingRow}><Text style={v.small}>A face you know. A name to remember.</Text><Pressable onPress={onCredits} accessibilityRole="button" accessibilityLabel="Artwork credits" style={{minHeight:44,justifyContent:'center'}}><Icon name="information-circle-outline" size={20}/></Pressable></View></View>
+    <View style={v.collection}><View style={v.headingRow}><Text style={v.sectionTitle}>Across the generations</Text><Icon name="sparkles-outline" size={19}/></View><View style={v.lineup}>{['bellingham','bonmati','ronaldinho','kerr','henry'].map((key,i)=><Pressable key={key} accessibilityRole="button" accessibilityLabel={`Play player gallery, portrait ${i+1}`} onPress={()=>onStart('portraits')} style={v.miniCard}><Image source={visualImages[key]} style={v.miniPhoto} accessible={false}/><View style={v.number}><Text style={v.numberText}>{String(i+1).padStart(2,'0')}</Text></View></Pressable>)}</View><View style={v.headingRow}><Text style={v.small}>A face you know. A name to remember.</Text><Pressable onPress={onCredits} accessibilityRole="button" accessibilityLabel="Artwork credits" style={{minHeight:44,justifyContent:'center'}}><Icon name="information-circle-outline" size={20}/></Pressable></View></View>
   </View>;
 }
 
@@ -74,7 +80,7 @@ export function VisualQuestion({question,answered,correct}:{question:Question;an
   const credit=credits.find(c=>c.id===visual.key);
   return <Reveal identity={question.id}><View style={v.visualWrap}>
     <View testID="visual-question" style={[v.visualFrame,visual.kind==='portrait'&&{height:255},visual.kind==='badge'&&{backgroundColor:'#E9EEE9'}]}>
-      {failed||textClue?<View style={v.textClue}><Icon name="bulb-outline" size={30}/><Text style={v.clueText}>{visual.description}</Text><Text style={v.small}>{question.hint}</Text></View>:visual.kind==='badge'?<ClubBadge id={visual.key} size={155}/>:<Image source={visualImages[visual.key]} resizeMode={visual.kind==='portrait'?'contain':'cover'} style={[StyleSheet.absoluteFill,visual.key==='allianz'&&!answered&&{width:'200%',height:'200%',right:undefined,bottom:undefined}]} accessibilityLabel={visual.description} onError={()=>setFailed(true)}/>}
+      {failed||textClue?<View style={v.textClue}><Icon name="bulb-outline" size={30}/><Text style={v.clueText}>{visual.description}</Text><Text style={v.small}>{question.hint}</Text></View>:visual.kind==='badge'?<ClubBadge id={visual.key} size={155}/>:<Image source={visualImages[visual.key]} resizeMode={visual.kind==='portrait'?'contain':'cover'} style={[StyleSheet.absoluteFill,{width:'100%',height:'100%'},visual.key==='allianz'&&!answered&&{width:'200%',height:'200%',right:undefined,bottom:undefined}]} accessibilityLabel={visual.description} onError={()=>setFailed(true)}/>}
       <View style={v.visualLabel}><Text style={v.visualLabelText}>{visual.kind==='portrait'?'NAME THE PLAYER':visual.kind==='badge'?'REIMAGINED CREST':'NAME THE GROUND'}</Text></View>
       {answered&&<View style={[v.answerStamp,{backgroundColor:correct?'#166F66':'#4B6170'}]}><Icon name={correct?'checkmark':'book-outline'} color="white" size={18}/><Text style={v.stampText}>{correct?'NAILED IT':'ONE TO REMEMBER'}</Text></View>}
     </View>

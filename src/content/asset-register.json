@@ -67,6 +67,266 @@
       "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
     },
     {
+      "id": "kane",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "de-bruyne",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "modric",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lewandowski",
+      "status": "review-required",
+      "creator": "Sven Mandel",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "vinicius",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bellingham",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bonmati",
+      "status": "review-required",
+      "creator": "Barcex",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_240422_214032.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "putellas",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:UWCL_2025-26_Final_C16.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kerr",
+      "status": "review-required",
+      "creator": "Liondartois",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Sam_Kerr_(Women_World_Cup_France_2019).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "hegerberg",
+      "status": "review-required",
+      "creator": "crop by User:Benj90",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:AHegerberg.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "renard",
+      "status": "review-required",
+      "creator": "Steffen Prößdorf",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2019-05-17_Fu%C3%9Fball,_Frauen,_UEFA_Women%27s_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0635_LR10_by_Stepro.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bronze",
+      "status": "review-required",
+      "creator": "Katie Chan",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20250510-Lucy_Bronze_(cropped_-_portrait).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "marta",
+      "status": "review-required",
+      "creator": "Hameltion",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ronaldinho",
+      "status": "review-required",
+      "creator": "Marcos Corrêa/PR",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "zidane",
+      "status": "review-required",
+      "creator": "Hadi Abyar",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "henry",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "drogba",
+      "status": "review-required",
+      "creator": "Y.Leclercq©",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped2).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "iniesta",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "buffon",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_44_(Gianluigi_Buffon).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kaka",
+      "status": "review-required",
+      "creator": "Евгений Асмолов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
       "id": "arsenal",
       "status": "review-required",
       "creator": "Original Leoqo preview artwork",

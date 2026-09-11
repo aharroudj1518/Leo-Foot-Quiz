@@ -3083,370 +3083,6 @@
     "aliases": []
   },
   {
-    "id": "visual-messi",
-    "prompt": "Who is this player?",
-    "answer": "Lionel Messi",
-    "options": [
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé",
-      "Mohamed Salah"
-    ],
-    "explanation": "Lionel Messi represents Argentina. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Argentina.",
-    "category": "portraits",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
-    "era": "Player gallery · archive portraits",
-    "premium": false,
-    "visual": {
-      "kind": "portrait",
-      "key": "messi",
-      "description": "Short-haired, bearded player wearing Argentina’s light blue and white stripes."
-    },
-    "assetIds": [
-      "messi"
-    ]
-  },
-  {
-    "id": "visual-ronaldo",
-    "prompt": "Who is this player?",
-    "answer": "Cristiano Ronaldo",
-    "options": [
-      "Cristiano Ronaldo",
-      "Lionel Messi",
-      "Kylian Mbappé",
-      "Mohamed Salah"
-    ],
-    "explanation": "Cristiano Ronaldo represents Portugal. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Portugal.",
-    "category": "portraits",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
-    "era": "Player gallery · archive portraits",
-    "premium": false,
-    "visual": {
-      "kind": "portrait",
-      "key": "ronaldo",
-      "description": "Short dark-haired player wearing Portugal’s red shirt."
-    },
-    "assetIds": [
-      "ronaldo"
-    ]
-  },
-  {
-    "id": "visual-mbappe",
-    "prompt": "Who is this player?",
-    "answer": "Kylian Mbappé",
-    "options": [
-      "Kylian Mbappé",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Mohamed Salah"
-    ],
-    "explanation": "Kylian Mbappé represents France. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents France.",
-    "category": "portraits",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
-    "era": "Player gallery · archive portraits",
-    "premium": false,
-    "visual": {
-      "kind": "portrait",
-      "key": "mbappe",
-      "description": "Young player with close-cropped hair wearing France’s dark blue shirt."
-    },
-    "assetIds": [
-      "mbappe"
-    ]
-  },
-  {
-    "id": "visual-salah",
-    "prompt": "Who is this player?",
-    "answer": "Mohamed Salah",
-    "options": [
-      "Mohamed Salah",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
-    ],
-    "explanation": "Mohamed Salah represents Egypt. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Egypt.",
-    "category": "portraits",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
-    "era": "Player gallery · archive portraits",
-    "premium": false,
-    "visual": {
-      "kind": "portrait",
-      "key": "salah",
-      "description": "Curly-haired, bearded player wearing Egypt’s red shirt."
-    },
-    "assetIds": [
-      "salah"
-    ]
-  },
-  {
-    "id": "visual-haaland",
-    "prompt": "Who is this player?",
-    "answer": "Erling Haaland",
-    "options": [
-      "Erling Haaland",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
-    ],
-    "explanation": "Erling Haaland represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Norway.",
-    "category": "portraits",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
-    "era": "Player gallery · archive portraits",
-    "premium": false,
-    "visual": {
-      "kind": "portrait",
-      "key": "haaland",
-      "description": "Fair-haired player with long hair pulled back."
-    },
-    "assetIds": [
-      "haaland"
-    ]
-  },
-  {
-    "id": "visual-arsenal",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "Arsenal",
-    "options": [
-      "Arsenal",
-      "Real Madrid",
-      "Manchester City",
-      "AC Milan"
-    ],
-    "explanation": "The cannon and red colours point to Arsenal, known as the Gunners. This is an original puzzle illustration, not the official crest.",
-    "hint": "North London · The Gunners",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.arsenal.com/history",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "arsenal",
-      "description": "Red shield with a gold cannon and two wheels."
-    },
-    "assetIds": [
-      "arsenal"
-    ]
-  },
-  {
-    "id": "visual-madrid",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "Real Madrid",
-    "options": [
-      "Real Madrid",
-      "Arsenal",
-      "Manchester City",
-      "AC Milan"
-    ],
-    "explanation": "White, a crown and the Spanish capital point to Real Madrid. This is an original puzzle illustration, not the official crest.",
-    "hint": "Spanish capital · Los Blancos",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.realmadrid.com/en-US/the-club/history",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "madrid",
-      "description": "White shield with a gold crown and diagonal blue band."
-    },
-    "assetIds": [
-      "madrid"
-    ]
-  },
-  {
-    "id": "visual-city",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "Manchester City",
-    "options": [
-      "Manchester City",
-      "Arsenal",
-      "Real Madrid",
-      "AC Milan"
-    ],
-    "explanation": "The ship and sky-blue colours point to Manchester City. This is an original puzzle illustration, not the official crest.",
-    "hint": "Manchester · The sky-blue side",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.mancity.com/club/manchester-city-history",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "city",
-      "description": "Sky-blue round badge with a gold sailing ship."
-    },
-    "assetIds": [
-      "city"
-    ]
-  },
-  {
-    "id": "visual-milan",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "AC Milan",
-    "options": [
-      "AC Milan",
-      "Arsenal",
-      "Real Madrid",
-      "Manchester City"
-    ],
-    "explanation": "Red and black are the colours behind AC Milan’s Rossoneri nickname. This is an original puzzle illustration, not the official crest.",
-    "hint": "Milan · The Rossoneri",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.acmilan.com/en/club/history",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "milan",
-      "description": "Oval shield with alternating red and black stripes."
-    },
-    "assetIds": [
-      "milan"
-    ]
-  },
-  {
-    "id": "visual-juventus",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "Juventus",
-    "options": [
-      "Juventus",
-      "Arsenal",
-      "Real Madrid",
-      "Manchester City"
-    ],
-    "explanation": "Black and white and the city of Turin point to Juventus. This is an original puzzle illustration, not the official crest.",
-    "hint": "Turin · The Bianconeri",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.juventus.com/en/club/history/",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "juventus",
-      "description": "Black and white striped shield with a gold star."
-    },
-    "assetIds": [
-      "juventus"
-    ]
-  },
-  {
-    "id": "visual-barcelona",
-    "prompt": "Which club does this badge puzzle represent?",
-    "answer": "FC Barcelona",
-    "options": [
-      "FC Barcelona",
-      "Arsenal",
-      "Real Madrid",
-      "Manchester City"
-    ],
-    "explanation": "Blue and garnet are the colours behind Barcelona’s Blaugrana nickname. This is an original puzzle illustration, not the official crest.",
-    "hint": "Catalonia · The Blaugrana",
-    "category": "badges",
-    "difficulty": "fan",
-    "source": "https://www.fcbarcelona.com/en/club/history",
-    "era": "Club colours · reimagined badges",
-    "premium": false,
-    "visual": {
-      "kind": "badge",
-      "key": "barcelona",
-      "description": "Blue and garnet shield with a gold football."
-    },
-    "assetIds": [
-      "barcelona"
-    ]
-  },
-  {
-    "id": "visual-wembley",
-    "prompt": "Which stadium is this?",
-    "answer": "Wembley Stadium",
-    "options": [
-      "Wembley Stadium",
-      "Allianz Arena",
-      "Maracanã",
-      "San Siro"
-    ],
-    "explanation": "The arch is the defining feature of Wembley Stadium in London. This image is an illustrative interpretation.",
-    "hint": "London · Look at the great arch.",
-    "category": "stadiums",
-    "difficulty": "fan",
-    "source": "https://www.wembleystadium.com/",
-    "era": "Stadium tour · visual edition",
-    "premium": false,
-    "visual": {
-      "kind": "stadium",
-      "key": "wembley",
-      "description": "A large stadium with a single illuminated arch above the roof."
-    },
-    "assetIds": [
-      "wembley"
-    ]
-  },
-  {
-    "id": "visual-allianz",
-    "prompt": "Which stadium is this?",
-    "answer": "Allianz Arena",
-    "options": [
-      "Allianz Arena",
-      "Wembley Stadium",
-      "Maracanã",
-      "San Siro"
-    ],
-    "explanation": "The Allianz Arena in Munich is known for its illuminated exterior panels.",
-    "hint": "Munich · A luminous outer shell.",
-    "category": "stadiums",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
-    "era": "Stadium tour · visual edition",
-    "premium": false,
-    "visual": {
-      "kind": "stadium",
-      "key": "allianz",
-      "description": "A rounded stadium exterior made of illuminated inflatable-looking panels."
-    },
-    "assetIds": [
-      "allianz"
-    ]
-  },
-  {
-    "id": "visual-maracana",
-    "prompt": "Which stadium is this?",
-    "answer": "Maracanã",
-    "options": [
-      "Maracanã",
-      "Wembley Stadium",
-      "Allianz Arena",
-      "San Siro"
-    ],
-    "explanation": "The Maracanã is a landmark football stadium in Rio de Janeiro.",
-    "hint": "Rio de Janeiro · A Brazilian landmark.",
-    "category": "stadiums",
-    "difficulty": "fan",
-    "source": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
-    "era": "Stadium tour · visual edition",
-    "premium": false,
-    "visual": {
-      "kind": "stadium",
-      "key": "maracana",
-      "description": "A huge oval stadium viewed from above, with a continuous ring of roof and seating."
-    },
-    "assetIds": [
-      "maracana"
-    ]
-  },
-  {
     "id": "connections-ronaldo",
     "prompt": "Which player connects these clubs?",
     "answer": "Cristiano Ronaldo",
@@ -30414,5 +30050,889 @@
     "era": "2026 World Cup · squad archive",
     "premium": false,
     "squadCode": "PAN"
+  },
+  {
+    "id": "visual-messi",
+    "prompt": "Who is this player?",
+    "answer": "Lionel Messi",
+    "options": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ],
+    "explanation": "Lionel Messi represents Argentina. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Argentina.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "messi",
+      "description": "Short-haired, bearded player wearing Argentina’s light blue and white stripes."
+    },
+    "assetIds": [
+      "messi"
+    ]
+  },
+  {
+    "id": "visual-ronaldo",
+    "prompt": "Who is this player?",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Mohamed Salah"
+    ],
+    "explanation": "Cristiano Ronaldo represents Portugal. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Portugal.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "ronaldo",
+      "description": "Short dark-haired player wearing Portugal’s red shirt."
+    },
+    "assetIds": [
+      "ronaldo"
+    ]
+  },
+  {
+    "id": "visual-mbappe",
+    "prompt": "Who is this player?",
+    "answer": "Kylian Mbappé",
+    "options": [
+      "Kylian Mbappé",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Mohamed Salah"
+    ],
+    "explanation": "Kylian Mbappé represents France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "mbappe",
+      "description": "Young player with close-cropped hair wearing France’s dark blue shirt."
+    },
+    "assetIds": [
+      "mbappe"
+    ]
+  },
+  {
+    "id": "visual-salah",
+    "prompt": "Who is this player?",
+    "answer": "Mohamed Salah",
+    "options": [
+      "Mohamed Salah",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Mohamed Salah represents Egypt. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Egypt.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "salah",
+      "description": "Curly-haired, bearded player wearing Egypt’s red shirt."
+    },
+    "assetIds": [
+      "salah"
+    ]
+  },
+  {
+    "id": "visual-haaland",
+    "prompt": "Who is this player?",
+    "answer": "Erling Haaland",
+    "options": [
+      "Erling Haaland",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Erling Haaland represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Norway.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "haaland",
+      "description": "Fair-haired player with long hair pulled back."
+    },
+    "assetIds": [
+      "haaland"
+    ]
+  },
+  {
+    "id": "visual-kane",
+    "prompt": "Who is this player?",
+    "answer": "Harry Kane",
+    "options": [
+      "Harry Kane",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Harry Kane represents England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "kane",
+      "description": "Fair-haired player in a white England number nine shirt."
+    },
+    "assetIds": [
+      "kane"
+    ]
+  },
+  {
+    "id": "visual-de-bruyne",
+    "prompt": "Who is this player?",
+    "answer": "Kevin De Bruyne",
+    "options": [
+      "Kevin De Bruyne",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Kevin De Bruyne represents Belgium. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Belgium.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "de-bruyne",
+      "description": "Fair-haired player with a short beard, wearing a pale blue Belgium jacket."
+    },
+    "assetIds": [
+      "de-bruyne"
+    ]
+  },
+  {
+    "id": "visual-modric",
+    "prompt": "Who is this player?",
+    "answer": "Luka Modrić",
+    "options": [
+      "Luka Modrić",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Luka Modrić represents Croatia. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Croatia.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "modric",
+      "description": "Long-haired player wearing a headband and a blue Croatia number ten shirt."
+    },
+    "assetIds": [
+      "modric"
+    ]
+  },
+  {
+    "id": "visual-lewandowski",
+    "prompt": "Who is this player?",
+    "answer": "Robert Lewandowski",
+    "options": [
+      "Robert Lewandowski",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Robert Lewandowski represents Poland. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Poland.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "lewandowski",
+      "description": "Dark-haired player with a short haircut wearing a red training top."
+    },
+    "assetIds": [
+      "lewandowski"
+    ]
+  },
+  {
+    "id": "visual-vinicius",
+    "prompt": "Who is this player?",
+    "answer": "Vinícius Júnior",
+    "options": [
+      "Vinícius Júnior",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Vinícius Júnior represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "vinicius",
+      "description": "Player with short curled hair wearing a yellow Brazil number seven shirt."
+    },
+    "assetIds": [
+      "vinicius"
+    ]
+  },
+  {
+    "id": "visual-bellingham",
+    "prompt": "Who is this player?",
+    "answer": "Jude Bellingham",
+    "options": [
+      "Jude Bellingham",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Jude Bellingham represents England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "bellingham",
+      "description": "Player with short curled hair wearing a grey England training shirt."
+    },
+    "assetIds": [
+      "bellingham"
+    ]
+  },
+  {
+    "id": "visual-bonmati",
+    "prompt": "Who is this player?",
+    "answer": "Aitana Bonmatí",
+    "options": [
+      "Aitana Bonmatí",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Aitana Bonmatí represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_240422_214032.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "bonmati",
+      "description": "Dark-haired woman in a burgundy dress holding a silver award."
+    },
+    "assetIds": [
+      "bonmati"
+    ]
+  },
+  {
+    "id": "visual-putellas",
+    "prompt": "Who is this player?",
+    "answer": "Alexia Putellas",
+    "options": [
+      "Alexia Putellas",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Alexia Putellas represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:UWCL_2025-26_Final_C16.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "putellas",
+      "description": "Woman with her hair tied back, raising one fist while holding a large trophy in a blue and garnet shirt."
+    },
+    "assetIds": [
+      "putellas"
+    ]
+  },
+  {
+    "id": "visual-kerr",
+    "prompt": "Who is this player?",
+    "answer": "Sam Kerr",
+    "options": [
+      "Sam Kerr",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Sam Kerr represents Australia. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Australia.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Kerr_(Women_World_Cup_France_2019).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "kerr",
+      "description": "Dark-haired woman walking on a pitch in a yellow Australia number twenty kit."
+    },
+    "assetIds": [
+      "kerr"
+    ]
+  },
+  {
+    "id": "visual-hegerberg",
+    "prompt": "Who is this player?",
+    "answer": "Ada Hegerberg",
+    "options": [
+      "Ada Hegerberg",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Ada Hegerberg represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Norway.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:AHegerberg.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "hegerberg",
+      "description": "Fair-haired woman with braided hair wearing a white Lyon shirt."
+    },
+    "assetIds": [
+      "hegerberg"
+    ]
+  },
+  {
+    "id": "visual-renard",
+    "prompt": "Who is this player?",
+    "answer": "Wendie Renard",
+    "options": [
+      "Wendie Renard",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Wendie Renard represents France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:2019-05-17_Fu%C3%9Fball,_Frauen,_UEFA_Women%27s_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0635_LR10_by_Stepro.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "renard",
+      "description": "Woman with dark hair pulled back wearing a red training shirt."
+    },
+    "assetIds": [
+      "renard"
+    ]
+  },
+  {
+    "id": "visual-bronze",
+    "prompt": "Who is this player?",
+    "answer": "Lucy Bronze",
+    "options": [
+      "Lucy Bronze",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Lucy Bronze represents England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents England.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:20250510-Lucy_Bronze_(cropped_-_portrait).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "bronze",
+      "description": "Woman with hair tied back wearing earphones and a blue Chelsea top."
+    },
+    "assetIds": [
+      "bronze"
+    ]
+  },
+  {
+    "id": "visual-marta",
+    "prompt": "Who is this player?",
+    "answer": "Marta",
+    "options": [
+      "Marta",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Marta represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "marta",
+      "description": "Woman with dark hair pulled back wearing an orange Orlando Pride shirt."
+    },
+    "assetIds": [
+      "marta"
+    ]
+  },
+  {
+    "id": "visual-ronaldinho",
+    "prompt": "Who is this player?",
+    "answer": "Ronaldinho",
+    "options": [
+      "Ronaldinho",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Ronaldinho represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "ronaldinho",
+      "description": "Smiling former player wearing a black cap and patterned black and white shirt."
+    },
+    "assetIds": [
+      "ronaldinho"
+    ]
+  },
+  {
+    "id": "visual-zidane",
+    "prompt": "Who is this player?",
+    "answer": "Zinedine Zidane",
+    "options": [
+      "Zinedine Zidane",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Zinedine Zidane represents France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "zidane",
+      "description": "Bald former player wearing a black jacket at a press conference."
+    },
+    "assetIds": [
+      "zidane"
+    ]
+  },
+  {
+    "id": "visual-henry",
+    "prompt": "Who is this player?",
+    "answer": "Thierry Henry",
+    "options": [
+      "Thierry Henry",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Thierry Henry represents France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents France.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "henry",
+      "description": "Former player with a shaved head and short beard wearing a black top and microphone."
+    },
+    "assetIds": [
+      "henry"
+    ]
+  },
+  {
+    "id": "visual-drogba",
+    "prompt": "Who is this player?",
+    "answer": "Didier Drogba",
+    "options": [
+      "Didier Drogba",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Didier Drogba represents Ivory Coast. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Ivory Coast.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped2).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "drogba",
+      "description": "Former player with short hair and a beard wearing a dark blue collarless shirt."
+    },
+    "assetIds": [
+      "drogba"
+    ]
+  },
+  {
+    "id": "visual-iniesta",
+    "prompt": "Who is this player?",
+    "answer": "Andrés Iniesta",
+    "options": [
+      "Andrés Iniesta",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Andrés Iniesta represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Spain.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "iniesta",
+      "description": "Bald former player in a dark blazer holding up the gold World Cup trophy."
+    },
+    "assetIds": [
+      "iniesta"
+    ]
+  },
+  {
+    "id": "visual-buffon",
+    "prompt": "Who is this player?",
+    "answer": "Gianluigi Buffon",
+    "options": [
+      "Gianluigi Buffon",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Gianluigi Buffon represents Italy. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Italy.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_44_(Gianluigi_Buffon).jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "buffon",
+      "description": "Dark-haired former goalkeeper with a beard wearing a suit and red lanyard."
+    },
+    "assetIds": [
+      "buffon"
+    ]
+  },
+  {
+    "id": "visual-kaka",
+    "prompt": "Who is this player?",
+    "answer": "Kaká",
+    "options": [
+      "Kaká",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kylian Mbappé"
+    ],
+    "explanation": "Kaká represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "This player represents Brazil.",
+    "category": "portraits",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
+    "era": "Player gallery · archive portraits",
+    "premium": false,
+    "visual": {
+      "kind": "portrait",
+      "key": "kaka",
+      "description": "Dark-haired former player wearing a burgundy jacket in front of blue stadium seats."
+    },
+    "assetIds": [
+      "kaka"
+    ]
+  },
+  {
+    "id": "visual-arsenal",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Arsenal",
+    "options": [
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City",
+      "AC Milan"
+    ],
+    "explanation": "The cannon and red colours point to Arsenal, known as the Gunners. This is an original puzzle illustration, not the official crest.",
+    "hint": "North London · The Gunners",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.arsenal.com/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "arsenal",
+      "description": "Red shield with a gold cannon and two wheels."
+    },
+    "assetIds": [
+      "arsenal"
+    ]
+  },
+  {
+    "id": "visual-madrid",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Real Madrid",
+    "options": [
+      "Real Madrid",
+      "Arsenal",
+      "Manchester City",
+      "AC Milan"
+    ],
+    "explanation": "White, a crown and the Spanish capital point to Real Madrid. This is an original puzzle illustration, not the official crest.",
+    "hint": "Spanish capital · Los Blancos",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.realmadrid.com/en-US/the-club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "madrid",
+      "description": "White shield with a gold crown and diagonal blue band."
+    },
+    "assetIds": [
+      "madrid"
+    ]
+  },
+  {
+    "id": "visual-city",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Manchester City",
+    "options": [
+      "Manchester City",
+      "Arsenal",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "explanation": "The ship and sky-blue colours point to Manchester City. This is an original puzzle illustration, not the official crest.",
+    "hint": "Manchester · The sky-blue side",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.mancity.com/club/manchester-city-history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "city",
+      "description": "Sky-blue round badge with a gold sailing ship."
+    },
+    "assetIds": [
+      "city"
+    ]
+  },
+  {
+    "id": "visual-milan",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Red and black are the colours behind AC Milan’s Rossoneri nickname. This is an original puzzle illustration, not the official crest.",
+    "hint": "Milan · The Rossoneri",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "milan",
+      "description": "Oval shield with alternating red and black stripes."
+    },
+    "assetIds": [
+      "milan"
+    ]
+  },
+  {
+    "id": "visual-juventus",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "Juventus",
+    "options": [
+      "Juventus",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Black and white and the city of Turin point to Juventus. This is an original puzzle illustration, not the official crest.",
+    "hint": "Turin · The Bianconeri",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/club/history/",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "juventus",
+      "description": "Black and white striped shield with a gold star."
+    },
+    "assetIds": [
+      "juventus"
+    ]
+  },
+  {
+    "id": "visual-barcelona",
+    "prompt": "Which club does this badge puzzle represent?",
+    "answer": "FC Barcelona",
+    "options": [
+      "FC Barcelona",
+      "Arsenal",
+      "Real Madrid",
+      "Manchester City"
+    ],
+    "explanation": "Blue and garnet are the colours behind Barcelona’s Blaugrana nickname. This is an original puzzle illustration, not the official crest.",
+    "hint": "Catalonia · The Blaugrana",
+    "category": "badges",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/club/history",
+    "era": "Club colours · reimagined badges",
+    "premium": false,
+    "visual": {
+      "kind": "badge",
+      "key": "barcelona",
+      "description": "Blue and garnet shield with a gold football."
+    },
+    "assetIds": [
+      "barcelona"
+    ]
+  },
+  {
+    "id": "visual-wembley",
+    "prompt": "Which stadium is this?",
+    "answer": "Wembley Stadium",
+    "options": [
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã",
+      "San Siro"
+    ],
+    "explanation": "The arch is the defining feature of Wembley Stadium in London. This image is an illustrative interpretation.",
+    "hint": "London · Look at the great arch.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://www.wembleystadium.com/",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "wembley",
+      "description": "A large stadium with a single illuminated arch above the roof."
+    },
+    "assetIds": [
+      "wembley"
+    ]
+  },
+  {
+    "id": "visual-allianz",
+    "prompt": "Which stadium is this?",
+    "answer": "Allianz Arena",
+    "options": [
+      "Allianz Arena",
+      "Wembley Stadium",
+      "Maracanã",
+      "San Siro"
+    ],
+    "explanation": "The Allianz Arena in Munich is known for its illuminated exterior panels.",
+    "hint": "Munich · A luminous outer shell.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "allianz",
+      "description": "A rounded stadium exterior made of illuminated inflatable-looking panels."
+    },
+    "assetIds": [
+      "allianz"
+    ]
+  },
+  {
+    "id": "visual-maracana",
+    "prompt": "Which stadium is this?",
+    "answer": "Maracanã",
+    "options": [
+      "Maracanã",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "San Siro"
+    ],
+    "explanation": "The Maracanã is a landmark football stadium in Rio de Janeiro.",
+    "hint": "Rio de Janeiro · A Brazilian landmark.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "maracana",
+      "description": "A huge oval stadium viewed from above, with a continuous ring of roof and seating."
+    },
+    "assetIds": [
+      "maracana"
+    ]
   }
 ]

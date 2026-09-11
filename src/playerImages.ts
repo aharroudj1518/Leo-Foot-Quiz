@@ -1,0 +1,23 @@
+import type {ImageSourcePropType} from 'react-native';
+export const playerImages: Record<string,ImageSourcePropType> = {
+"kane":require('../assets/players/kane.jpg'),
+"de-bruyne":require('../assets/players/de-bruyne.jpg'),
+"modric":require('../assets/players/modric.jpg'),
+"lewandowski":require('../assets/players/lewandowski.jpg'),
+"vinicius":require('../assets/players/vinicius.jpg'),
+"bellingham":require('../assets/players/bellingham.jpg'),
+"bonmati":require('../assets/players/bonmati.jpg'),
+"putellas":require('../assets/players/putellas.jpg'),
+"kerr":require('../assets/players/kerr.jpg'),
+"hegerberg":require('../assets/players/hegerberg.jpg'),
+"renard":require('../assets/players/renard.jpg'),
+"bronze":require('../assets/players/bronze.jpg'),
+"marta":require('../assets/players/marta.jpg'),
+"ronaldinho":require('../assets/players/ronaldinho.jpg'),
+"zidane":require('../assets/players/zidane.jpg'),
+"henry":require('../assets/players/henry.jpg'),
+"drogba":require('../assets/players/drogba.jpg'),
+"iniesta":require('../assets/players/iniesta.jpg'),
+"buffon":require('../assets/players/buffon.jpg'),
+"kaka":require('../assets/players/kaka.jpg'),
+};
