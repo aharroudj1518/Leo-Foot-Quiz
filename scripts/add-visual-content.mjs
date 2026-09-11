@@ -10,14 +10,20 @@ const players = [
   ['messi','Lionel Messi','Argentina','Short-haired, bearded player wearing Argentina’s light blue and white stripes.'],
   ['ronaldo','Cristiano Ronaldo','Portugal','Short dark-haired player wearing Portugal’s red shirt.'],
   ['mbappe','Kylian Mbappé','France','Young player with close-cropped hair wearing France’s dark blue shirt.'],
-  ['salah','Mohamed Salah','Egypt','Curly-haired, bearded player wearing Egypt’s red shirt.'],
+  ['salah','Mohamed Salah','Egypt','Curly-haired, bearded player wearing a dark Egypt training top.'],
   ['haaland','Erling Haaland','Norway','Fair-haired player with long hair pulled back.'],
 ];
 for (const p of portraits) {
   if (!p.visualReview || !p.description) throw new Error(`Portrait needs visual review: ${p.id}`);
   players.push([p.id,p.name,p.country,p.description]);
 }
-for(const [key,name,country,description] of players) add(key,'portrait','portraits',name,players.filter(p=>p[1]!==name).slice(0,3).map(p=>p[1]),description,`This player represents ${country}.`,`${name} represents ${country}. This archive portrait is a visual identity question, not a current-club claim.`,credits.find(c=>c.id===key).source);
+const collectionOf = key => portraits.find(p=>p.id===key)?.collection??'stars';
+for(const [index,[key,name,country,description]] of players.entries()) {
+  const candidates=players.filter(p=>p[1]!==name&&collectionOf(p[0])===collectionOf(key));
+  const alternatives=Array.from({length:3},(_,i)=>candidates[(index+i)%candidates.length][1]);
+  add(key,'portrait','portraits',name,alternatives,description,`International team: ${country}.`,`${name} has represented ${country}. This archive portrait is a visual identity question, not a current-club claim.`,credits.find(c=>c.id===key).source);
+}
+
 const clubs = [
   ['arsenal','Arsenal','Red shield with a gold cannon and two wheels.','North London · The Gunners','The cannon and red colours point to Arsenal, known as the Gunners.','https://www.arsenal.com/history'],
   ['madrid','Real Madrid','White shield with a gold crown and diagonal blue band.','Spanish capital · Los Blancos','White, a crown and the Spanish capital point to Real Madrid.','https://www.realmadrid.com/en-US/the-club/history'],

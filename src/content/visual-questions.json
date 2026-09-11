@@ -9,8 +9,8 @@
       "Kylian Mbappé",
       "Mohamed Salah"
     ],
-    "explanation": "Lionel Messi represents Argentina. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Argentina.",
+    "explanation": "Lionel Messi has represented Argentina. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Argentina.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
@@ -31,12 +31,12 @@
     "answer": "Cristiano Ronaldo",
     "options": [
       "Cristiano Ronaldo",
-      "Lionel Messi",
       "Kylian Mbappé",
-      "Mohamed Salah"
+      "Mohamed Salah",
+      "Erling Haaland"
     ],
-    "explanation": "Cristiano Ronaldo represents Portugal. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Portugal.",
+    "explanation": "Cristiano Ronaldo has represented Portugal. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Portugal.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
@@ -57,12 +57,12 @@
     "answer": "Kylian Mbappé",
     "options": [
       "Kylian Mbappé",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Mohamed Salah"
+      "Mohamed Salah",
+      "Erling Haaland",
+      "Harry Kane"
     ],
-    "explanation": "Kylian Mbappé represents France. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Kylian Mbappé has represented France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: France.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
@@ -83,12 +83,12 @@
     "answer": "Mohamed Salah",
     "options": [
       "Mohamed Salah",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Erling Haaland",
+      "Harry Kane",
+      "Kevin De Bruyne"
     ],
-    "explanation": "Mohamed Salah represents Egypt. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Egypt.",
+    "explanation": "Mohamed Salah has represented Egypt. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Egypt.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
@@ -97,7 +97,7 @@
     "visual": {
       "kind": "portrait",
       "key": "salah",
-      "description": "Curly-haired, bearded player wearing Egypt’s red shirt."
+      "description": "Curly-haired, bearded player wearing a dark Egypt training top."
     },
     "assetIds": [
       "salah"
@@ -109,12 +109,12 @@
     "answer": "Erling Haaland",
     "options": [
       "Erling Haaland",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Harry Kane",
+      "Kevin De Bruyne",
+      "Luka Modrić"
     ],
-    "explanation": "Erling Haaland represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Norway.",
+    "explanation": "Erling Haaland has represented Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Norway.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
@@ -135,12 +135,12 @@
     "answer": "Harry Kane",
     "options": [
       "Harry Kane",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Kevin De Bruyne",
+      "Luka Modrić",
+      "Robert Lewandowski"
     ],
-    "explanation": "Harry Kane represents England. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents England.",
+    "explanation": "Harry Kane has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
@@ -161,12 +161,12 @@
     "answer": "Kevin De Bruyne",
     "options": [
       "Kevin De Bruyne",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Luka Modrić",
+      "Robert Lewandowski",
+      "Vinícius Júnior"
     ],
-    "explanation": "Kevin De Bruyne represents Belgium. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Belgium.",
+    "explanation": "Kevin De Bruyne has represented Belgium. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Belgium.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
@@ -187,12 +187,12 @@
     "answer": "Luka Modrić",
     "options": [
       "Luka Modrić",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Robert Lewandowski",
+      "Vinícius Júnior",
+      "Jude Bellingham"
     ],
-    "explanation": "Luka Modrić represents Croatia. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Croatia.",
+    "explanation": "Luka Modrić has represented Croatia. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Croatia.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
@@ -213,12 +213,12 @@
     "answer": "Robert Lewandowski",
     "options": [
       "Robert Lewandowski",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Vinícius Júnior",
+      "Jude Bellingham",
+      "Lionel Messi"
     ],
-    "explanation": "Robert Lewandowski represents Poland. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Poland.",
+    "explanation": "Robert Lewandowski has represented Poland. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Poland.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_(cropped).jpg",
@@ -239,12 +239,12 @@
     "answer": "Vinícius Júnior",
     "options": [
       "Vinícius Júnior",
+      "Jude Bellingham",
       "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Cristiano Ronaldo"
     ],
-    "explanation": "Vinícius Júnior represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Brazil.",
+    "explanation": "Vinícius Júnior has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
@@ -269,8 +269,8 @@
       "Cristiano Ronaldo",
       "Kylian Mbappé"
     ],
-    "explanation": "Jude Bellingham represents England. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents England.",
+    "explanation": "Jude Bellingham has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
@@ -291,12 +291,12 @@
     "answer": "Aitana Bonmatí",
     "options": [
       "Aitana Bonmatí",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Marta",
+      "Alexia Putellas",
+      "Sam Kerr"
     ],
-    "explanation": "Aitana Bonmatí represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Spain.",
+    "explanation": "Aitana Bonmatí has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_240422_214032.jpg",
@@ -317,12 +317,12 @@
     "answer": "Alexia Putellas",
     "options": [
       "Alexia Putellas",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Aitana Bonmatí",
+      "Sam Kerr",
+      "Ada Hegerberg"
     ],
-    "explanation": "Alexia Putellas represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Spain.",
+    "explanation": "Alexia Putellas has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:UWCL_2025-26_Final_C16.jpg",
@@ -343,12 +343,12 @@
     "answer": "Sam Kerr",
     "options": [
       "Sam Kerr",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Alexia Putellas",
+      "Ada Hegerberg",
+      "Wendie Renard"
     ],
-    "explanation": "Sam Kerr represents Australia. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Australia.",
+    "explanation": "Sam Kerr has represented Australia. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Australia.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Sam_Kerr_(Women_World_Cup_France_2019).jpg",
@@ -369,12 +369,12 @@
     "answer": "Ada Hegerberg",
     "options": [
       "Ada Hegerberg",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Sam Kerr",
+      "Wendie Renard",
+      "Lucy Bronze"
     ],
-    "explanation": "Ada Hegerberg represents Norway. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Norway.",
+    "explanation": "Ada Hegerberg has represented Norway. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Norway.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:AHegerberg.jpg",
@@ -395,12 +395,12 @@
     "answer": "Wendie Renard",
     "options": [
       "Wendie Renard",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Ada Hegerberg",
+      "Lucy Bronze",
+      "Marta"
     ],
-    "explanation": "Wendie Renard represents France. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Wendie Renard has represented France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: France.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:2019-05-17_Fu%C3%9Fball,_Frauen,_UEFA_Women%27s_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0635_LR10_by_Stepro.jpg",
@@ -421,12 +421,12 @@
     "answer": "Lucy Bronze",
     "options": [
       "Lucy Bronze",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Wendie Renard",
+      "Marta",
+      "Aitana Bonmatí"
     ],
-    "explanation": "Lucy Bronze represents England. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents England.",
+    "explanation": "Lucy Bronze has represented England. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: England.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:20250510-Lucy_Bronze_(cropped_-_portrait).jpg",
@@ -447,12 +447,12 @@
     "answer": "Marta",
     "options": [
       "Marta",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Lucy Bronze",
+      "Aitana Bonmatí",
+      "Alexia Putellas"
     ],
-    "explanation": "Marta represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Brazil.",
+    "explanation": "Marta has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
@@ -473,12 +473,12 @@
     "answer": "Ronaldinho",
     "options": [
       "Ronaldinho",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Zinedine Zidane",
+      "Thierry Henry",
+      "Didier Drogba"
     ],
-    "explanation": "Ronaldinho represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Brazil.",
+    "explanation": "Ronaldinho has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg",
@@ -499,12 +499,12 @@
     "answer": "Zinedine Zidane",
     "options": [
       "Zinedine Zidane",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Thierry Henry",
+      "Didier Drogba",
+      "Andrés Iniesta"
     ],
-    "explanation": "Zinedine Zidane represents France. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Zinedine Zidane has represented France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: France.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
@@ -525,12 +525,12 @@
     "answer": "Thierry Henry",
     "options": [
       "Thierry Henry",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Didier Drogba",
+      "Andrés Iniesta",
+      "Gianluigi Buffon"
     ],
-    "explanation": "Thierry Henry represents France. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Thierry Henry has represented France. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: France.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
@@ -551,12 +551,12 @@
     "answer": "Didier Drogba",
     "options": [
       "Didier Drogba",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Andrés Iniesta",
+      "Gianluigi Buffon",
+      "Kaká"
     ],
-    "explanation": "Didier Drogba represents Ivory Coast. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Ivory Coast.",
+    "explanation": "Didier Drogba has represented Ivory Coast. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Ivory Coast.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped2).jpg",
@@ -577,12 +577,12 @@
     "answer": "Andrés Iniesta",
     "options": [
       "Andrés Iniesta",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Gianluigi Buffon",
+      "Kaká",
+      "Ronaldinho"
     ],
-    "explanation": "Andrés Iniesta represents Spain. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Spain.",
+    "explanation": "Andrés Iniesta has represented Spain. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Spain.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
@@ -603,12 +603,12 @@
     "answer": "Gianluigi Buffon",
     "options": [
       "Gianluigi Buffon",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Kaká",
+      "Ronaldinho",
+      "Zinedine Zidane"
     ],
-    "explanation": "Gianluigi Buffon represents Italy. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Italy.",
+    "explanation": "Gianluigi Buffon has represented Italy. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Italy.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_44_(Gianluigi_Buffon).jpg",
@@ -629,12 +629,12 @@
     "answer": "Kaká",
     "options": [
       "Kaká",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-      "Kylian Mbappé"
+      "Ronaldinho",
+      "Zinedine Zidane",
+      "Thierry Henry"
     ],
-    "explanation": "Kaká represents Brazil. This archive portrait is a visual identity question, not a current-club claim.",
-    "hint": "This player represents Brazil.",
+    "explanation": "Kaká has represented Brazil. This archive portrait is a visual identity question, not a current-club claim.",
+    "hint": "International team: Brazil.",
     "category": "portraits",
     "difficulty": "fan",
     "source": "https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",

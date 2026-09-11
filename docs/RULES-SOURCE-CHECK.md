@@ -18,3 +18,5 @@
 Follow-up: an independent editor must check prompts, distractors, hints and explanations, including the two wording findings above, and record hashes of the final records. The `latest` URLs are mutable; the existing era label is 2026/27, so the review deadline must account for the next law edition.
 
 Two sampled constructed FIFA tournament URLs (`/tournaments/mens/worldcup/1930` and `/2022`) could not be retrieved by the browser tool. This is an access finding, not proof of a 404. Resolve canonical source URLs before approving those questions.
+
+11 September follow-up: Rechecked Law 3.1 and corrected rule-1 to ask explicitly for the maximum, and rule-2 to ask about starting a match. Its explanation now distinguishes continuation exceptions. Changes are in the bank and build-content.py. Independent editorial sign-off remains pending. These corrections postdate the cb9f3fd native upload.
