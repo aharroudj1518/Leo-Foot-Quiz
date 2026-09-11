@@ -8,4 +8,4 @@ Validation: TypeScript and web export passed. Sixteen related desktop/phone brow
 
 The release includes the preceding 555-question Premier League expansion (1,802 questions total). Player cartoons, greater photographic breadth and commercial launch readiness remain incomplete. This original shirt drawing is not a substitute for player portraits or licensed official kits.
 
-Deployment and native build status will be recorded once verified.
+Production EmwzLa8ciPtH4QrKZ8x15MPLwLNe is Ready at https://leo-foot-quiz.vercel.app/ from source dbfd4b85a512210e55bd3611b43f6c0252ed0051. Public browser verification showed Slovan Bratislava shirt number 2 with the new illustration, position label and successful answer scoring. The final caption cleanup was re-exported and the four narrow-phone shirt checks passed again. Native job status is in NATIVE-BUILDS-0.5.2.md.

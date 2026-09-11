@@ -50,3 +50,7 @@ The later a90237d correction explicitly names a TypeScript file in the native bu
 ## 11 September — version 0.5.1
 
 Production E4V8dZ1J1ABMBwfkPppg7zg6ERb5 is Ready at the main domain from 394f85ea88f24ff84112289ae976c9e089f59ef3. This supersedes 0.5.0 production APKsupgNMwUSRrCZ3MtnLgb96vVR. Public QA confirmed the 593-question Premier League catalogue and correct scoring in a Chelsea player round. The app bank now has 1,802 questions. See PREMIER-LEAGUE-0.5.1.md for source scope and remaining content work. Native 0.5.0 artifacts are recorded separately and exclude this last player expansion. Commerce remains disabled.
+
+## 11 September — version 0.5.2
+
+Production EmwzLa8ciPtH4QrKZ8x15MPLwLNe is Ready at the main domain from dbfd4b85a512210e55bd3611b43f6c0252ed0051. Public browser QA confirmed the illustrated Slovan Bratislava shirt-number clue and correct scoring. See SHIRT-CLUES-0.5.2.md and NATIVE-BUILDS-0.5.2.md.
