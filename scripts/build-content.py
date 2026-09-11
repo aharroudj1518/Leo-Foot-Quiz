@@ -105,6 +105,8 @@ visual=folder/'visual-questions.json'
 if visual.exists(): bank.extend(json.loads(visual.read_text(encoding='utf8')))
 connections=folder/'connection-questions.json'
 if connections.exists(): bank.extend(json.loads(connections.read_text(encoding='utf8')))
+squads=folder/'squad-questions.json'
+if squads.exists(): bank.extend(json.loads(squads.read_text(encoding='utf8')))
 (folder/'questions.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2),encoding='utf8')
 (folder/'editorial-status.json').write_text(json.dumps({'status':'development-bank','independentEditorialApproval':False,'createdAt':'2026-09-08','questions':len(bank),'note':'Original wording with reference URLs. Verify every linked source and fact independently before enabling paid release. No claim of independent sign-off.'},indent=2),encoding='utf8')
 print(f'Created {len(bank)} questions, {sum(not q["premium"] for q in bank)} free, {sum(q["premium"] for q in bank)} pack questions.')
