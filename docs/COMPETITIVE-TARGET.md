@@ -27,9 +27,6 @@ Required completion evidence:
 - Launch measurement, privacy/support/store materials, physical-device testing,
   signed release builds and functioning distribution. No guarantee of revenue.
 
-Current implementation: 180 questions including five photo portraits, six
-badge puzzles, three stadium images and six club connections. The player
-gallery now defaults to letter assembly, with shuffle, undo, clear and answer
-choice fallback. Larger content, cartoon art, progression and monetization
-requirements remain open. Commerce is disabled and SDK keys are not configured
-in the example environment; merely enabling a boolean is not launch readiness.
+Current implementation (11 September): 1,451 questions, including 25 photo portraits, six badge puzzles, six stadium clues and six club connections. There are 48 squad chapters and three player-album chapters, letter assembly, durable solved progress, daily play and motion. Android 0.3.0 and iOS simulator builds compiled successfully. The main Vercel domain serves tested commit f9cc242; later stadium changes are in preview.
+
+These changes do not establish competitive quality or commercial readiness. Cartoon art is absent, independent editorial/rights review is pending, native device and store sandbox acceptance are incomplete, and commerce remains disabled. See CARTOON-PRODUCTION-BRIEF.md for the concrete artwork procurement scope. Store account setup has been requested from the owner; no credentials or approvals have been invented.
