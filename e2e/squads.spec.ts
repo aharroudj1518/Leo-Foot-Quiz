@@ -1,6 +1,25 @@
 import {test,expect} from '@playwright/test';
 import bank from '../src/content/squad-questions.json';
 import chapters from '../src/content/squad-chapters.json';
+import {initialProfile} from '../src/core/quiz';
+
+test('unfinished filter hides completed clubs and resets when changing competition',async({page})=>{
+ const club=chapters.find(c=>c.competition==='bundesliga')!;
+ await page.addInitScript(p=>localStorage.setItem('leoqo.profile.v1',JSON.stringify(p)),{...initialProfile(),solved:club.questionIds});
+ await page.goto('/');
+ await page.getByRole('button',{name:'Explore Bundesliga 2026/27',exact:true}).click();
+ await expect(page.getByRole('button',{name:/ club, .* solved$/})).toHaveCount(18);
+ await page.getByRole('button',{name:'Still to solve',exact:true}).click();
+ await expect(page.getByRole('button',{name:/ club, .* solved$/})).toHaveCount(17);
+ await expect(page.getByRole('button',{name:`${club.name} club, ${club.questionIds.length} of ${club.questionIds.length} solved`,exact:true})).toHaveCount(0);
+ await page.getByRole('button',{name:'All clubs',exact:true}).click();
+ await expect(page.getByRole('button',{name:/ club, .* solved$/})).toHaveCount(18);
+ await page.getByRole('button',{name:'Still to solve',exact:true}).click();
+ await page.getByRole('button',{name:'Select Serie A',exact:true}).click();
+ await expect(page.getByRole('button',{name:'All clubs',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.setViewportSize({width:320,height:780});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
 test('Champions League searches, starts a club round and restores its answer',async({page},testInfo)=>{
   await page.goto('/');await expect(page.getByRole('button',{name:'Explore World Cup squads',exact:true})).toHaveCount(0);
   await page.screenshot({path:`.expo/competition-home-${testInfo.project.name}.png`});
