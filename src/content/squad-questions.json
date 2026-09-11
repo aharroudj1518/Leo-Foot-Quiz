@@ -31174,6 +31174,706 @@
     "squadCode": "club27-serie-a-juventus"
   },
   {
+    "id": "club27-serie-a-juventus-player-kamil-grabara",
+    "prompt": "Who wears this shirt?",
+    "answer": "Kamil Grabara",
+    "options": [
+      "Kamil Grabara",
+      "Jhon Lucumí",
+      "Pape Matar Sarr",
+      "Douglas Luiz"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Kamil Grabara with Juventus: number 1, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 1,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-carlo-pinsoglio",
+    "prompt": "Who wears this shirt?",
+    "answer": "Carlo Pinsoglio",
+    "options": [
+      "Carlo Pinsoglio",
+      "Mehmet Zeki Çelik",
+      "Federico Gatti",
+      "Nicolas Ivan Gonzalez"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Carlo Pinsoglio with Juventus: number 23, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 23,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-guglielmo-vicario",
+    "prompt": "Who wears this shirt?",
+    "answer": "Guglielmo Vicario",
+    "options": [
+      "Guglielmo Vicario",
+      "Daniele Rugani",
+      "Kamil Grabara",
+      "Pape Matar Sarr"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Guglielmo Vicario with Juventus: number 25, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 25,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-zeki-celik",
+    "prompt": "Who wears this shirt?",
+    "answer": "Mehmet Zeki Çelik",
+    "options": [
+      "Mehmet Zeki Çelik",
+      "Juan David Cabal",
+      "Jhon Lucumí",
+      "Federico Gatti"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Mehmet Zeki Çelik with Juventus: number 2, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 2,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-gleison-bremer",
+    "prompt": "Who wears this shirt?",
+    "answer": "Gleison Bremer",
+    "options": [
+      "Gleison Bremer",
+      "Carlo Pinsoglio",
+      "Pierre Kalulu",
+      "Randal Kolo Muani"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Gleison Bremer with Juventus: number 3, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 3,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-federico-gatti",
+    "prompt": "Who wears this shirt?",
+    "answer": "Federico Gatti",
+    "options": [
+      "Federico Gatti",
+      "Nick Woltemade",
+      "Pierre Kalulu",
+      "Andrea Cambiaso"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Federico Gatti with Juventus: number 4, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 4,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-lloyd-casius-kelly",
+    "prompt": "Who wears this shirt?",
+    "answer": "Lloyd Kelly",
+    "options": [
+      "Lloyd Kelly",
+      "Mehmet Zeki Çelik",
+      "Jhon Lucumí",
+      "Kenan Yildiz"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Lloyd Kelly with Juventus: number 6, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 6,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-pierre-kazeye-rommel-kalulu-kyatengwa",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pierre Kalulu",
+    "options": [
+      "Pierre Kalulu",
+      "Kerim Alajbegović",
+      "Edon Zhegrova",
+      "Jhon Lucumí"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Pierre Kalulu with Juventus: number 15, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 15,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-andrea-cambiaso",
+    "prompt": "Who wears this shirt?",
+    "answer": "Andrea Cambiaso",
+    "options": [
+      "Andrea Cambiaso",
+      "Carlo Pinsoglio",
+      "Jeremie Boga",
+      "Mehmet Zeki Çelik"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Andrea Cambiaso with Juventus: number 20, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 20,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-daniele-rugani",
+    "prompt": "Who wears this shirt?",
+    "answer": "Daniele Rugani",
+    "options": [
+      "Daniele Rugani",
+      "Douglas Luiz",
+      "Federico Gatti",
+      "Francisco Conceição"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Daniele Rugani with Juventus: number 24, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 24,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-jhon-janer-lucumi-bonilla",
+    "prompt": "Who wears this shirt?",
+    "answer": "Jhon Lucumí",
+    "options": [
+      "Jhon Lucumí",
+      "Guglielmo Vicario",
+      "Daniele Rugani",
+      "Andrea Cambiaso"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Jhon Lucumí with Juventus: number 26, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 26,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-juan-david-cabal",
+    "prompt": "Who wears this shirt?",
+    "answer": "Juan David Cabal",
+    "options": [
+      "Juan David Cabal",
+      "Carlo Pinsoglio",
+      "Gleison Bremer",
+      "Teun Koopmeiners"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Juan David Cabal with Juventus: number 32, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 32,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-manuel-locatelli",
+    "prompt": "Who wears this shirt?",
+    "answer": "Manuel Locatelli",
+    "options": [
+      "Manuel Locatelli",
+      "Weston McKennie",
+      "Kenan Yildiz",
+      "Jhon Lucumí"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Manuel Locatelli with Juventus: number 5, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 5,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-teun-koopmeiners",
+    "prompt": "Who wears this shirt?",
+    "answer": "Teun Koopmeiners",
+    "options": [
+      "Teun Koopmeiners",
+      "Kerim Alajbegović",
+      "Pierre Kalulu",
+      "Kenan Yildiz"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Teun Koopmeiners with Juventus: number 8, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 8,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-douglas-luiz-soares-de-paulo",
+    "prompt": "Who wears this shirt?",
+    "answer": "Douglas Luiz",
+    "options": [
+      "Douglas Luiz",
+      "Kamil Grabara",
+      "Edon Zhegrova",
+      "Manuel Locatelli"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Douglas Luiz with Juventus: number 12, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 12,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-kerim-sam-alajbegovic",
+    "prompt": "Who wears this shirt?",
+    "answer": "Kerim Alajbegović",
+    "options": [
+      "Kerim Alajbegović",
+      "Guglielmo Vicario",
+      "Carlo Pinsoglio",
+      "Lloyd Kelly"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Kerim Alajbegović with Juventus: number 17, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 17,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-khephren-thuram",
+    "prompt": "Who wears this shirt?",
+    "answer": "Khéphren Thuram",
+    "options": [
+      "Khéphren Thuram",
+      "Arkadiusz Milik",
+      "Pape Matar Sarr",
+      "Francisco Conceição"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Khéphren Thuram with Juventus: number 19, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 19,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-weston-mckennie",
+    "prompt": "Who wears this shirt?",
+    "answer": "Weston McKennie",
+    "options": [
+      "Weston McKennie",
+      "Randal Kolo Muani",
+      "Manuel Locatelli",
+      "Francisco Conceição"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Weston McKennie with Juventus: number 22, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 22,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-pape-matar-sarr",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pape Matar Sarr",
+    "options": [
+      "Pape Matar Sarr",
+      "Kerim Alajbegović",
+      "Kamil Grabara",
+      "Carlo Pinsoglio"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Pape Matar Sarr with Juventus: number 29, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 29,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-nicolas-ivan-gonzalez",
+    "prompt": "Who wears this shirt?",
+    "answer": "Nicolas Ivan Gonzalez",
+    "options": [
+      "Nicolas Ivan Gonzalez",
+      "Andrea Cambiaso",
+      "Mehmet Zeki Çelik",
+      "Kenan Yildiz"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Nicolas Ivan Gonzalez with Juventus: number 31, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 31,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-francisco-fernandes-da-conceicao",
+    "prompt": "Who wears this shirt?",
+    "answer": "Francisco Conceição",
+    "options": [
+      "Francisco Conceição",
+      "Andrea Cambiaso",
+      "Guglielmo Vicario",
+      "Edon Zhegrova"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Francisco Conceição with Juventus: number 7, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 7,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-randal-kolo-muani",
+    "prompt": "Who wears this shirt?",
+    "answer": "Randal Kolo Muani",
+    "options": [
+      "Randal Kolo Muani",
+      "Kenan Yildiz",
+      "Daniele Rugani",
+      "Nicolas Ivan Gonzalez"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Randal Kolo Muani with Juventus: number 9, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 9,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-kenan-yildiz",
+    "prompt": "Who wears this shirt?",
+    "answer": "Kenan Yildiz",
+    "options": [
+      "Kenan Yildiz",
+      "Francisco Conceição",
+      "Weston McKennie",
+      "Kerim Alajbegović"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Kenan Yildiz with Juventus: number 10, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 10,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-edon-zhegrova",
+    "prompt": "Who wears this shirt?",
+    "answer": "Edon Zhegrova",
+    "options": [
+      "Edon Zhegrova",
+      "Federico Gatti",
+      "Mehmet Zeki Çelik",
+      "Kamil Grabara"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Edon Zhegrova with Juventus: number 11, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 11,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-jeremie-boga",
+    "prompt": "Who wears this shirt?",
+    "answer": "Jeremie Boga",
+    "options": [
+      "Jeremie Boga",
+      "Carlo Pinsoglio",
+      "Andrea Cambiaso",
+      "Mehmet Zeki Çelik"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Jeremie Boga with Juventus: number 13, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 13,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-arkadiusz-milik",
+    "prompt": "Who wears this shirt?",
+    "answer": "Arkadiusz Milik",
+    "options": [
+      "Arkadiusz Milik",
+      "Federico Gatti",
+      "Juan David Cabal",
+      "Douglas Luiz"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Arkadiusz Milik with Juventus: number 14, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 14,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-jeff-ekhator",
+    "prompt": "Who wears this shirt?",
+    "answer": "Jeff Ekhator",
+    "options": [
+      "Jeff Ekhator",
+      "Kamil Grabara",
+      "Lloyd Kelly",
+      "Manuel Locatelli"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Jeff Ekhator with Juventus: number 18, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 18,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-juventus-player-nick-woltemade",
+    "prompt": "Who wears this shirt?",
+    "answer": "Nick Woltemade",
+    "options": [
+      "Nick Woltemade",
+      "Lloyd Kelly",
+      "Gleison Bremer",
+      "Khéphren Thuram"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Nick Woltemade with Juventus: number 27, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-juventus",
+    "squadClue": {
+      "country": "Juventus",
+      "number": 27,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
     "id": "club27-serie-a-lazio-stadium",
     "prompt": "Which ground is listed for Lazio in 2026/27?",
     "answer": "Stadio Olimpico",

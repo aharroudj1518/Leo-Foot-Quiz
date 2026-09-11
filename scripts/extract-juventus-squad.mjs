@@ -1,0 +1,22 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const [input,output]=process.argv.slice(2);
+if(!input||!output)throw Error('Usage: node scripts/extract-juventus-squad.mjs input.html existing-serie-a-snapshot.json');
+const raw=fs.readFileSync(input),html=raw.toString('utf8');
+if(!html.includes('First Team Men')||!html.includes('jcom-player-item'))throw Error('Unexpected squad page');
+const decode=s=>s.replace(/&#x([0-9a-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16))).replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&apos;/g,"'").replace(/&nbsp;/g,' ').trim();
+const positions={Goalkeepers:'Goalkeeper',Defenders:'Defender',Midfielders:'Midfielder',Forwards:'Forward'};
+const groups=[...html.matchAll(/<h2>(Goalkeepers|Defenders|Midfielders|Forwards)<\/h2>/g)];
+if(groups.length!==4)throw Error('Expected four position groups');
+const players=groups.flatMap((group,i)=>{
+ const section=html.slice(group.index,groups[i+1]?.index??html.indexOf('<h2>Coach',group.index));
+ return [...section.matchAll(/<a href="\/en\/teams\/first-team-men\/squad\/([^"/]+)" title="([^"]+)"[^>]*>[\s\S]*?<div class="jcom-player-info__number">(\d+)<\/div>/g)].map(m=>({id:m[1],name:decode(m[2]),number:Number(m[3]),position:positions[group[1]]}));
+});
+if(players.length<18||players.length>40||players.some(p=>!p.name||p.number<1||p.number>99)||new Set(players.map(p=>p.id)).size!==players.length||new Set(players.map(p=>p.number)).size!==players.length)throw Error('Invalid or duplicate player cards');
+const snapshot=JSON.parse(fs.readFileSync(output,'utf8'));
+if(snapshot.season!=='2026/27'||!Array.isArray(snapshot.clubs))throw Error('Unexpected destination season');
+const club={club:'Juventus',season:'2026/27',retrievedAt:new Date().toISOString().slice(0,10),source:'https://www.juventus.com/en/teams/first-team-men/squad/',seasonContext:'https://jacademy.juventus.com/en/news/articles/squad-list-juventus-milan-06-09-26',scope:'Current first-team page retrieved during the season; not a league registration list.',rawSha256:createHash('sha256').update(raw).digest('hex'),players};
+snapshot.clubs=[...snapshot.clubs.filter(c=>c.club!==club.club),club];
+snapshot.retrievedAt=club.retrievedAt;snapshot.independentReview=false;
+fs.writeFileSync(output,JSON.stringify(snapshot,null,2)+'\n');
+console.log(`${players.length} Juventus player cards extracted; ${snapshot.clubs.length} club snapshots retained`);

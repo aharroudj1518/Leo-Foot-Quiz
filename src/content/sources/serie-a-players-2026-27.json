@@ -173,6 +173,185 @@
           "position": "Forward"
         }
       ]
+    },
+    {
+      "club": "Juventus",
+      "season": "2026/27",
+      "retrievedAt": "2026-09-11",
+      "source": "https://www.juventus.com/en/teams/first-team-men/squad/",
+      "seasonContext": "https://jacademy.juventus.com/en/news/articles/squad-list-juventus-milan-06-09-26",
+      "scope": "Current first-team page retrieved during the season; not a league registration list.",
+      "rawSha256": "9b47316b45a9a6bfee35f93a55c2c029ed442a3ac8c24658250ec103495d48c3",
+      "players": [
+        {
+          "id": "kamil-grabara",
+          "name": "Kamil Grabara",
+          "number": 1,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "carlo-pinsoglio",
+          "name": "Carlo Pinsoglio",
+          "number": 23,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "guglielmo-vicario",
+          "name": "Guglielmo Vicario",
+          "number": 25,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "zeki-celik",
+          "name": "Mehmet Zeki Çelik",
+          "number": 2,
+          "position": "Defender"
+        },
+        {
+          "id": "gleison-bremer",
+          "name": "Gleison Bremer",
+          "number": 3,
+          "position": "Defender"
+        },
+        {
+          "id": "federico-gatti",
+          "name": "Federico Gatti",
+          "number": 4,
+          "position": "Defender"
+        },
+        {
+          "id": "lloyd-casius-kelly",
+          "name": "Lloyd Kelly",
+          "number": 6,
+          "position": "Defender"
+        },
+        {
+          "id": "pierre-kazeye-rommel-kalulu-kyatengwa",
+          "name": "Pierre Kalulu",
+          "number": 15,
+          "position": "Defender"
+        },
+        {
+          "id": "andrea-cambiaso",
+          "name": "Andrea Cambiaso",
+          "number": 20,
+          "position": "Defender"
+        },
+        {
+          "id": "daniele-rugani",
+          "name": "Daniele Rugani",
+          "number": 24,
+          "position": "Defender"
+        },
+        {
+          "id": "jhon-janer-lucumi-bonilla",
+          "name": "Jhon Lucumí",
+          "number": 26,
+          "position": "Defender"
+        },
+        {
+          "id": "juan-david-cabal",
+          "name": "Juan David Cabal",
+          "number": 32,
+          "position": "Defender"
+        },
+        {
+          "id": "manuel-locatelli",
+          "name": "Manuel Locatelli",
+          "number": 5,
+          "position": "Midfielder"
+        },
+        {
+          "id": "teun-koopmeiners",
+          "name": "Teun Koopmeiners",
+          "number": 8,
+          "position": "Midfielder"
+        },
+        {
+          "id": "douglas-luiz-soares-de-paulo",
+          "name": "Douglas Luiz",
+          "number": 12,
+          "position": "Midfielder"
+        },
+        {
+          "id": "kerim-sam-alajbegovic",
+          "name": "Kerim Alajbegović",
+          "number": 17,
+          "position": "Midfielder"
+        },
+        {
+          "id": "khephren-thuram",
+          "name": "Khéphren Thuram",
+          "number": 19,
+          "position": "Midfielder"
+        },
+        {
+          "id": "weston-mckennie",
+          "name": "Weston McKennie",
+          "number": 22,
+          "position": "Midfielder"
+        },
+        {
+          "id": "pape-matar-sarr",
+          "name": "Pape Matar Sarr",
+          "number": 29,
+          "position": "Midfielder"
+        },
+        {
+          "id": "nicolas-ivan-gonzalez",
+          "name": "Nicolas Ivan Gonzalez",
+          "number": 31,
+          "position": "Midfielder"
+        },
+        {
+          "id": "francisco-fernandes-da-conceicao",
+          "name": "Francisco Conceição",
+          "number": 7,
+          "position": "Forward"
+        },
+        {
+          "id": "randal-kolo-muani",
+          "name": "Randal Kolo Muani",
+          "number": 9,
+          "position": "Forward"
+        },
+        {
+          "id": "kenan-yildiz",
+          "name": "Kenan Yildiz",
+          "number": 10,
+          "position": "Forward"
+        },
+        {
+          "id": "edon-zhegrova",
+          "name": "Edon Zhegrova",
+          "number": 11,
+          "position": "Forward"
+        },
+        {
+          "id": "jeremie-boga",
+          "name": "Jeremie Boga",
+          "number": 13,
+          "position": "Forward"
+        },
+        {
+          "id": "arkadiusz-milik",
+          "name": "Arkadiusz Milik",
+          "number": 14,
+          "position": "Forward"
+        },
+        {
+          "id": "jeff-ekhator",
+          "name": "Jeff Ekhator",
+          "number": 18,
+          "position": "Forward"
+        },
+        {
+          "id": "nick-woltemade",
+          "name": "Nick Woltemade",
+          "number": 27,
+          "position": "Forward"
+        }
+      ]
     }
   ]
 }

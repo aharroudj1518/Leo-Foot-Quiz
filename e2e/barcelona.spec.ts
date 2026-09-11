@@ -5,7 +5,8 @@ import data from '../src/content/squad-questions.json';
 import {initialProfile,makeSession,type Question} from '../src/core/quiz';
 for(const [club,code,name,competition] of [
  [source.clubs[0],'la-liga-barcelona','Joan García','LA LIGA'],
- [milan.clubs[0],'serie-a-ac-milan','Mike Maignan','SERIE A'],
+ [milan.clubs.find(c=>c.club==='AC Milan')!,'serie-a-ac-milan','Mike Maignan','SERIE A'],
+ [milan.clubs.find(c=>c.club==='Juventus')!,'serie-a-juventus','Kamil Grabara','SERIE A'],
 ] as const){
 test(`${club.club} official player snapshot is playable in ${competition}`,async({page})=>{
  const player=club.players.find(p=>p.name===name)!;
