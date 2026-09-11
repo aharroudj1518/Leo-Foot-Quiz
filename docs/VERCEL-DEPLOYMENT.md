@@ -46,3 +46,7 @@ The observed Vercel team plan is Hobby. Vercel's official documentation restrict
 Production deployment FZnDi981Ac61oAbVsHPLpUWpCSXQ completed Ready from commit e975294 and is aliased to https://leo-foot-quiz.vercel.app. The public URL showed the seven-day activity card. Its saved Ronaldo Nazário round prompted clarification for Ronaldo and accepted R9, verifying the deployed typed-answer change. Career totals and the full progress flows passed the 46-test desktop/phone suite before promotion.
 
 The later a90237d correction explicitly names a TypeScript file in the native build-hook import and enables TypeScript extension imports. The web exports before and after that correction produced the same two bundle filenames (index-928c6eebdeee704d18a442c23bafab8c.js and index-36472518860c96601c3eec260f507410.js); no UI or question content was changed by that correction.
+
+## 11 September — version 0.5.1
+
+Production E4V8dZ1J1ABMBwfkPppg7zg6ERb5 is Ready at the main domain from 394f85ea88f24ff84112289ae976c9e089f59ef3. This supersedes 0.5.0 production APKsupgNMwUSRrCZ3MtnLgb96vVR. Public QA confirmed the 593-question Premier League catalogue and correct scoring in a Chelsea player round. The app bank now has 1,802 questions. See PREMIER-LEAGUE-0.5.1.md for source scope and remaining content work. Native 0.5.0 artifacts are recorded separately and exclude this last player expansion. Commerce remains disabled.
