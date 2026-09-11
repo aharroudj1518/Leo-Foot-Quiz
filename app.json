@@ -2,7 +2,7 @@
   "expo": {
     "name": "Leoqo Football Quiz",
     "slug": "leoqo-football-quiz",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "orientation": "portrait",
     "icon": "./assets/brand/lion-ball.png",
     "userInterfaceStyle": "light",
