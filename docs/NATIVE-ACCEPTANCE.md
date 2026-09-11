@@ -1,4 +1,6 @@
-# Native validation — 9 September 2026
+# Native validation
+
+Version 0.3.0 validation is being built from commit cb9f3fd. It includes the 1,448-question catalogue, 25-photo gallery, player album chapters, lion emblem, letter board, image framing fixes and ownership lifecycle changes. See NATIVE-BUILDS-0.3.0.md for the latest build handles and status. Older artifacts below are historical.
 
 For the newer visual edition 0.2.0, use the build IDs and evidence in [VISUAL-REDESIGN.md](VISUAL-REDESIGN.md). The 0.1.0 builds below are historical foundation-validation artifacts and do not include the new visual modes.
 
@@ -29,6 +31,9 @@ All checks below are pending native execution.
 | Report question, export reports | Message clearly says local storage; export contains the report. No claim that support received it. |
 | Export and reset local progress | Export is readable; reset removes local progress only after the intended confirmation. Record platform share-sheet behavior. |
 | Install update over existing app | Progress and settings survive migration. Do not uninstall first; use a second build with the same identifier and signing credentials. |
+| Open all three player album chapters offline | World stars has 11 players; Game changers and The greats each have 7. Each round stays in the selected chapter. Photos, letters and credits render without downloading content. |
+| Earn a player name, force-close, reopen album | Name remains revealed, chapter progress increases once, and a later wrong answer does not erase it. |
+| Answer the longest gallery names with large text | Letter slots, undo, shuffle and submit fit the screen and work with TalkBack/VoiceOver. |
 | Open paid pack preview and adult gate | Free preview works, full paid content remains locked, and no real-money transaction is offered in these builds. |
 
 ## Separate store acceptance
