@@ -882,5 +882,83 @@
     "assetIds": [
       "maracana"
     ]
+  },
+  {
+    "id": "visual-san-siro",
+    "prompt": "Which stadium is this?",
+    "answer": "San Siro",
+    "options": [
+      "San Siro",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "San Siro is in Milan. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Milan.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "san-siro",
+      "description": "A concrete stadium with spiral access towers and large red roof beams."
+    },
+    "assetIds": [
+      "san-siro"
+    ]
+  },
+  {
+    "id": "visual-camp-nou",
+    "prompt": "Which stadium is this?",
+    "answer": "Camp Nou",
+    "options": [
+      "Camp Nou",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "Camp Nou is in Barcelona. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Barcelona.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "camp-nou",
+      "description": "An archive aerial view of a large open bowl with blue and red seating and one roofed main stand."
+    },
+    "assetIds": [
+      "camp-nou"
+    ]
+  },
+  {
+    "id": "visual-stade-france",
+    "prompt": "Which stadium is this?",
+    "answer": "Stade de France",
+    "options": [
+      "Stade de France",
+      "Wembley Stadium",
+      "Allianz Arena",
+      "Maracanã"
+    ],
+    "explanation": "Stade de France is in Saint-Denis. This archive photograph does not claim to show its current condition.",
+    "hint": "Location: Saint-Denis.",
+    "category": "stadiums",
+    "difficulty": "fan",
+    "source": "https://commons.wikimedia.org/wiki/File:France-Islande_Stade_de_France_03.jpg",
+    "era": "Stadium tour · visual edition",
+    "premium": false,
+    "visual": {
+      "kind": "stadium",
+      "key": "stade-france",
+      "description": "A wide oval stadium interior under floodlights, with a continuous roof and blue track surround."
+    },
+    "assetIds": [
+      "stade-france"
+    ]
   }
 ]

@@ -2,6 +2,8 @@ import fs from 'node:fs';
 const dir = new URL('../src/content/', import.meta.url);
 const portraits = JSON.parse(fs.readFileSync(new URL('../assets/players/manifest.json', import.meta.url), 'utf8'));
 const credits = [...JSON.parse(fs.readFileSync(new URL('../assets/visual/credits.json', import.meta.url), 'utf8').replace(/^\uFEFF/, '')), ...portraits];
+const grounds=JSON.parse(fs.readFileSync(new URL('../assets/stadiums/manifest.json',import.meta.url),'utf8')).filter(p=>p.visualReview);
+credits.push(...grounds);
 const additions = [];
 function add(key, kind, category, answer, others, description, hint, explanation, source) {
   additions.push({id:`visual-${key}`,prompt:kind==='portrait'?'Who is this player?':kind==='badge'?'Which club does this badge puzzle represent?':'Which stadium is this?',answer,options:[answer,...others],explanation,hint,category,difficulty:'fan',source,era:kind==='portrait'?'Player gallery · archive portraits':kind==='badge'?'Club colours · reimagined badges':'Stadium tour · visual edition',premium:false,visual:{kind,key,description},assetIds:[key]});
@@ -38,7 +40,8 @@ const stadiums = [
   ['allianz','Allianz Arena','A rounded stadium exterior made of illuminated inflatable-looking panels.','Munich · A luminous outer shell.','The Allianz Arena in Munich is known for its illuminated exterior panels.',credits.find(c=>c.id==='allianz').source],
   ['maracana','Maracanã','A huge oval stadium viewed from above, with a continuous ring of roof and seating.','Rio de Janeiro · A Brazilian landmark.','The Maracanã is a landmark football stadium in Rio de Janeiro.',credits.find(c=>c.id==='maracana').source],
 ];
-for(const [key,name,description,hint,explanation,source] of stadiums) add(key,'stadium','stadiums',name,['Wembley Stadium','Allianz Arena','Maracanã','San Siro'].filter(n=>n!==name),description,hint,explanation,source);
+for(const p of grounds)stadiums.push([p.id,p.name,p.description,`Location: ${p.country}.`,`${p.name} is in ${p.country}. This archive photograph does not claim to show its current condition.`,p.source]);
+for(const [key,name,description,hint,explanation,source] of stadiums) add(key,'stadium','stadiums',name,stadiums.filter(s=>s[0]!==key).slice(0,3).map(s=>s[1]),description,hint,explanation,source);
 fs.writeFileSync(new URL('visual-questions.json',dir),JSON.stringify(additions,null,2)+'\n');
 const bank=JSON.parse(fs.readFileSync(new URL('questions.json',dir),'utf8')).filter(q=>!q.id.startsWith('visual-'));
 bank.push(...additions);

@@ -26,3 +26,9 @@ The signed-in Vercel project was corrected to use `npx expo export --platform we
 and output `dist`. Redeployment `E9M99GPnrowpTL9HKJkqvUxvntJt` finished successfully
 and the public URL opened the app in the browser. This recovered deployment uses
 the old `128313c` revision; it does not include the local visual edition.
+
+## 11 September — main domain updated
+
+Promoted tested commit f9cc242 from codex/visual-preview to the main URL. Production deployment 61ppUr5ZYg9jkvis9tBb1xihB7fK completed successfully and is aliased to https://leo-foot-quiz.vercel.app. The public URL was opened and the player album rendered successfully. This supersedes earlier notes saying the main domain still serves the old text-led app.
+
+Commerce remains disabled and this web deployment is not evidence of store-launch readiness. Git master was not merged or changed by this promotion. Future preview commits do not automatically update the main domain; promote a tested batch explicitly or complete the PR integration when ready. The stadium expansion was implemented after this promotion and initially remains in the preview branch.

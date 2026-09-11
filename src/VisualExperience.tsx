@@ -7,11 +7,14 @@ import baseCredits from '../assets/visual/credits.json';
 import playerCredits from '../assets/players/manifest.json';
 import questions from './content/visual-questions.json';
 import {playerImages} from './playerImages';
-const credits=[...baseCredits,...playerCredits];
+import stadiumCredits from '../assets/stadiums/manifest.json';
+import {stadiumImages} from './stadiumImages';
+const credits=[...baseCredits,...playerCredits,...stadiumCredits.filter(p=>p.visualReview)];
+const stadiumCount=questions.filter(q=>q.category==='stadiums').length;
 const portraitCount=questions.filter(q=>q.category==='portraits').length;
 
 export const visualImages: Record<string, ImageSourcePropType> = {
-  ...playerImages,
+  ...playerImages,...stadiumImages,
   messi:require('../assets/visual/messi.jpg'), ronaldo:require('../assets/visual/ronaldo.jpg'),
   mbappe:require('../assets/visual/mbappe.jpg'), salah:require('../assets/visual/salah.jpg'),
   haaland:require('../assets/visual/haaland.jpg'), wembley:require('../assets/visual/wembley.png'),
@@ -64,9 +67,9 @@ export function VisualHome({onStart,profile,onCredits,onAlbum,onDaily,dailyDone}
         <View style={v.badgePair}><View style={{transform:[{rotate:'-13deg'}],marginRight:-13}}><ClubBadge id="arsenal" size={67}/></View><View style={{transform:[{rotate:'12deg'}]}}><ClubBadge id="madrid" size={67}/></View></View>
         <Text style={v.cardTitle}>Guess the badge</Text><Text style={v.cardSub}>6 reimagined club crests</Text><View style={v.cardFooter}><Text style={v.cardTag}>CLUB CULTURE</Text><Icon name="arrow-forward-circle" size={27}/></View>
       </Pressable>
-      <Pressable accessibilityRole="button" accessibilityLabel="Stadium tour, 3 visual questions" onPress={()=>onStart('stadiums')} style={({pressed})=>[v.challenge,{backgroundColor:'#DDE9EE'},pressed&&v.pressed]}>
+      <Pressable accessibilityRole="button" accessibilityLabel={`Stadium tour, ${stadiumCount} visual questions`} onPress={()=>onStart('stadiums')} style={({pressed})=>[v.challenge,{backgroundColor:'#DDE9EE'},pressed&&v.pressed]}>
         <Image source={visualImages.wembley} style={v.stadiumThumb} resizeMode="cover" accessible={false}/>
-        <Text style={v.cardTitle}>Stadium tour</Text><Text style={v.cardSub}>3 iconic grounds to name</Text><View style={v.cardFooter}><Text style={v.cardTag}>AWAY DAYS</Text><Icon name="arrow-forward-circle" size={27}/></View>
+        <Text style={v.cardTitle}>Stadium tour</Text><Text style={v.cardSub}>{stadiumCount} iconic grounds to name</Text><View style={v.cardFooter}><Text style={v.cardTag}>AWAY DAYS</Text><Icon name="arrow-forward-circle" size={27}/></View>
       </Pressable>
     </View>
     <Pressable accessibilityRole="button" accessibilityLabel="Club connections, 6 puzzles" onPress={()=>onStart('connections')} style={({pressed})=>[{backgroundColor:'#103D3B',padding:20,borderRadius:18,gap:10},pressed&&v.pressed]}><View style={v.headingRow}><Icon name="git-branch-outline" color="#F4CF55" size={26}/><Text style={{color:'#F4CF55',fontSize:11,fontWeight:'800'}}>6 CONNECTIONS</Text></View><Text style={[v.cardTitle,{color:'white',fontSize:23}]}>Different shirts. Same player.</Text><Text style={{color:'#C4D6D0',fontSize:13,lineHeight:20}}>Connect the clubs to uncover the footballer.</Text><View style={v.cardFooter}><Text style={{color:'white',fontWeight:'800'}}>Play club connections</Text><Icon name="arrow-forward" color="white" size={23}/></View></Pressable>

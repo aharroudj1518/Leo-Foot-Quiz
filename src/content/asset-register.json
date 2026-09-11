@@ -442,6 +442,45 @@
       "commercialUse": false,
       "likenessAndMarksAssessment": "Public-release assessment pending.",
       "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "san-siro",
+      "status": "review-required",
+      "creator": "Prelvini",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "camp-nou",
+      "status": "review-required",
+      "creator": "Oh-Barcelona.com from Barcelona, Spain",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "stade-france",
+      "status": "review-required",
+      "creator": "Zakarie Faibis",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:France-Islande_Stade_de_France_03.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
     }
   ]
 }
