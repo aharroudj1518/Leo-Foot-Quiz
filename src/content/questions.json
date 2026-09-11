@@ -35387,6 +35387,681 @@
     "squadCode": "club27-la-liga-barcelona"
   },
   {
+    "id": "club27-la-liga-barcelona-player-110491",
+    "prompt": "Who wears this shirt?",
+    "answer": "Joan García",
+    "options": [
+      "Joan García",
+      "Roony Bardghji",
+      "Lamine Yamal",
+      "Gabriel Jesus"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Joan García with Barcelona: number 1, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 1,
+      "club": "Goalkeeper",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-3543",
+    "prompt": "Who wears this shirt?",
+    "answer": "Wojciech Szczesny",
+    "options": [
+      "Wojciech Szczesny",
+      "Raphinha",
+      "Jules Koundé",
+      "Brian Fariñas"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Wojciech Szczesny with Barcelona: number 13, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 13,
+      "club": "Goalkeeper",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-16668",
+    "prompt": "Who wears this shirt?",
+    "answer": "Dominik Livakovic",
+    "options": [
+      "Dominik Livakovic",
+      "Joan García",
+      "João Cancelo",
+      "Frenkie de Jong"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Dominik Livakovic with Barcelona: number 25, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 25,
+      "club": "Goalkeeper",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-5051",
+    "prompt": "Who wears this shirt?",
+    "answer": "João Cancelo",
+    "options": [
+      "João Cancelo",
+      "Andreas Christensen",
+      "Jesse Bisiwu",
+      "Alejandro Balde"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists João Cancelo with Barcelona: number 2, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 2,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-68906",
+    "prompt": "Who wears this shirt?",
+    "answer": "Alejandro Balde",
+    "options": [
+      "Alejandro Balde",
+      "Raphinha",
+      "Pau Cubarsí",
+      "Pedri"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Alejandro Balde with Barcelona: number 3, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 3,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-129400",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pau Cubarsí",
+    "options": [
+      "Pau Cubarsí",
+      "Wojciech Szczesny",
+      "Marc Bernal",
+      "Karim Adeyemi"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Pau Cubarsí with Barcelona: number 5, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 5,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-141001",
+    "prompt": "Who wears this shirt?",
+    "answer": "Xavi Espart",
+    "options": [
+      "Xavi Espart",
+      "Gabriel Jesus",
+      "Raphinha",
+      "Jules Koundé"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Xavi Espart with Barcelona: number 12, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 12,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-4495",
+    "prompt": "Who wears this shirt?",
+    "answer": "Andreas Christensen",
+    "options": [
+      "Andreas Christensen",
+      "Gabriel Jesus",
+      "Alejandro Balde",
+      "Karim Adeyemi"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Andreas Christensen with Barcelona: number 15, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 15,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-111861",
+    "prompt": "Who wears this shirt?",
+    "answer": "Gerard Martín",
+    "options": [
+      "Gerard Martín",
+      "Andreas Christensen",
+      "Karim Adeyemi",
+      "Pau Cubarsí"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Gerard Martín with Barcelona: number 18, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 18,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-15552",
+    "prompt": "Who wears this shirt?",
+    "answer": "Jules Koundé",
+    "options": [
+      "Jules Koundé",
+      "Gavi",
+      "Andreas Christensen",
+      "Dominik Livakovic"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Jules Koundé with Barcelona: number 23, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 23,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-24635",
+    "prompt": "Who wears this shirt?",
+    "answer": "Eric García",
+    "options": [
+      "Eric García",
+      "Wojciech Szczesny",
+      "Xavi Espart",
+      "Joan García"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Eric García with Barcelona: number 24, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 24,
+      "club": "Defender",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-140515",
+    "prompt": "Who wears this shirt?",
+    "answer": "Brian Fariñas",
+    "options": [
+      "Brian Fariñas",
+      "Lamine Yamal",
+      "Pedri",
+      "Dominik Livakovic"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Brian Fariñas with Barcelona: number 4, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 4,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-116719",
+    "prompt": "Who wears this shirt?",
+    "answer": "Gavi",
+    "options": [
+      "Gavi",
+      "Gabriel Jesus",
+      "Frenkie de Jong",
+      "Rodri"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Gavi with Barcelona: number 6, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 6,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-118929",
+    "prompt": "Who wears this shirt?",
+    "answer": "Fermín López",
+    "options": [
+      "Fermín López",
+      "Lamine Yamal",
+      "Xavi Espart",
+      "Pau Cubarsí"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Fermín López with Barcelona: number 7, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 7,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-70486",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pedri",
+    "options": [
+      "Pedri",
+      "Gavi",
+      "Alejandro Balde",
+      "Frenkie de Jong"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Pedri with Barcelona: number 8, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 8,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-16286",
+    "prompt": "Who wears this shirt?",
+    "answer": "Rodri",
+    "options": [
+      "Rodri",
+      "Gavi",
+      "Pedri",
+      "Joan García"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Rodri with Barcelona: number 16, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 16,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-16677",
+    "prompt": "Who wears this shirt?",
+    "answer": "Dani Olmo",
+    "options": [
+      "Dani Olmo",
+      "Anthony Gordon",
+      "Gavi",
+      "Jesse Bisiwu"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Dani Olmo with Barcelona: number 20, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 20,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-16291",
+    "prompt": "Who wears this shirt?",
+    "answer": "Frenkie de Jong",
+    "options": [
+      "Frenkie de Jong",
+      "Xavi Espart",
+      "Eric García",
+      "Alejandro Balde"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Frenkie de Jong with Barcelona: number 21, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 21,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-141411",
+    "prompt": "Who wears this shirt?",
+    "answer": "Marc Bernal",
+    "options": [
+      "Marc Bernal",
+      "Gavi",
+      "Joan García",
+      "Roony Bardghji"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Marc Bernal with Barcelona: number 22, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 22,
+      "club": "Midfielder",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-19680",
+    "prompt": "Who wears this shirt?",
+    "answer": "Gabriel Jesus",
+    "options": [
+      "Gabriel Jesus",
+      "Gavi",
+      "Jules Koundé",
+      "Wojciech Szczesny"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Gabriel Jesus with Barcelona: number 9, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 9,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-129404",
+    "prompt": "Who wears this shirt?",
+    "answer": "Lamine Yamal",
+    "options": [
+      "Lamine Yamal",
+      "Alejandro Balde",
+      "Dani Olmo",
+      "Frenkie de Jong"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Lamine Yamal with Barcelona: number 10, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 10,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-24156",
+    "prompt": "Who wears this shirt?",
+    "answer": "Raphinha",
+    "options": [
+      "Raphinha",
+      "Karim Adeyemi",
+      "Pau Cubarsí",
+      "Jules Koundé"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Raphinha with Barcelona: number 11, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 11,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-52163",
+    "prompt": "Who wears this shirt?",
+    "answer": "Karim Adeyemi",
+    "options": [
+      "Karim Adeyemi",
+      "Joan García",
+      "Alejandro Balde",
+      "João Cancelo"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Karim Adeyemi with Barcelona: number 14, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 14,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-23747",
+    "prompt": "Who wears this shirt?",
+    "answer": "Anthony Gordon",
+    "options": [
+      "Anthony Gordon",
+      "Joan García",
+      "Xavi Espart",
+      "Pedri"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Anthony Gordon with Barcelona: number 17, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 17,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-123727",
+    "prompt": "Who wears this shirt?",
+    "answer": "Roony Bardghji",
+    "options": [
+      "Roony Bardghji",
+      "Marc Bernal",
+      "Rodri",
+      "Jules Koundé"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Roony Bardghji with Barcelona: number 19, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 19,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-136745",
+    "prompt": "Who wears this shirt?",
+    "answer": "Jesse Bisiwu",
+    "options": [
+      "Jesse Bisiwu",
+      "Wojciech Szczesny",
+      "Eric García",
+      "Lamine Yamal"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Jesse Bisiwu with Barcelona: number 27, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 27,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
+    "id": "club27-la-liga-barcelona-player-572280",
+    "prompt": "Who wears this shirt?",
+    "answer": "Hamza Mohamed Abdelkarim Elsayed Selim",
+    "options": [
+      "Hamza Mohamed Abdelkarim Elsayed Selim",
+      "Pau Cubarsí",
+      "Pedri",
+      "Dominik Livakovic"
+    ],
+    "explanation": "The 2026/27 La Liga club-page snapshot lists Hamza Mohamed Abdelkarim Elsayed Selim with Barcelona: number 29, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.fcbarcelona.com/en/football/first-team/players",
+    "era": "La Liga · 2026/27",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "squadClue": {
+      "country": "Barcelona",
+      "number": 29,
+      "club": "Forward",
+      "competition": "LA LIGA · 2026/27"
+    }
+  },
+  {
     "id": "club27-la-liga-celta-vigo-stadium",
     "prompt": "Which ground is listed for Celta Vigo in 2026/27?",
     "answer": "Estadio ABANCA Balaídos",
