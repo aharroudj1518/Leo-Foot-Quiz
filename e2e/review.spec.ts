@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 import bank from '../src/content/questions.json';
 import {initialProfile} from '../src/core/quiz';
 test('a visual mistake shows its clue and a successful retry clears it',async({page})=>{
- await page.goto('/');await page.getByRole('button',{name:'Guess the player, 25 photo questions',exact:true}).click();
+ await page.goto('/');await page.getByRole('button',{name:'Guess the player, 50 photo questions',exact:true}).click();
  const id=await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session.questionIds[0]);
  const question=bank.find(q=>q.id===id)!;
  await page.getByRole('button',{name:'Skip question',exact:true}).click();

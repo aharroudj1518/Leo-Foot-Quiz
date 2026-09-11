@@ -19,6 +19,7 @@ for (const p of portraits) {
   if (!p.visualReview || !p.description) throw new Error(`Portrait needs visual review: ${p.id}`);
   players.push([p.id,p.name,p.country,p.description]);
 }
+fs.writeFileSync(new URL('../src/playerImages.ts',import.meta.url),`import type {ImageSourcePropType} from 'react-native';\n// Generated from the reviewed portrait manifest by add-visual-content.mjs.\nexport const playerImages: Record<string,ImageSourcePropType> = {\n${portraits.map(p=>`${JSON.stringify(p.id)}:require('../assets/players/${p.id}.jpg'),`).join('\n')}\n};\n`);
 const collectionOf = key => portraits.find(p=>p.id===key)?.collection??'stars';
 for(const [index,[key,name,country,description]] of players.entries()) {
   const candidates=players.filter(p=>p[1]!==name&&collectionOf(p[0])===collectionOf(key));

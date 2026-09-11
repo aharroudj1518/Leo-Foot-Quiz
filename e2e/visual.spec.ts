@@ -4,7 +4,7 @@ import bank from '../src/content/questions.json';
 test('player images load, text alternatives work, and the complete visual round persists',async({page})=>{
   test.setTimeout(60000); // Ten full names require substantially more taps than the original five.
   await page.goto('/');
-  await page.getByRole('button',{name:'Guess the player, 25 photo questions',exact:true}).click();
+  await page.getByRole('button',{name:'Guess the player, 50 photo questions',exact:true}).click();
   await expect(page.getByTestId('visual-question')).toBeVisible();
   const photo=page.getByTestId('visual-question').locator('img').first();
   await expect(photo).toHaveJSProperty('complete',true);
@@ -30,9 +30,9 @@ test('player images load, text alternatives work, and the complete visual round 
   }
   await expect(page.getByText('TOP BINS.',{exact:true})).toBeVisible();
   await page.getByRole('button',{name:'Leoqo home',exact:true}).click();
-  await expect(page.getByRole('button',{name:'Player album, 10 of 25 solved',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Player album, 10 of 50 solved',exact:true})).toBeVisible();
   await page.reload();
-  await expect(page.getByRole('button',{name:'Player album, 10 of 25 solved',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Player album, 10 of 50 solved',exact:true})).toBeVisible();
   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).history.at(-1).answers.every((a:any)=>a.correct))).toBe(true);
 });
 
@@ -50,6 +50,6 @@ test('visual home and answer grid fit a small phone with reduced motion',async({
   await page.emulateMedia({reducedMotion:'reduce'});await page.setViewportSize({width:320,height:780});
   await page.goto('/');await expect(page.getByRole('button',{name:'Guess the badge, 6 club puzzles',exact:true})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  await page.getByRole('button',{name:'Guess the player, 25 photo questions',exact:true}).click();
+  await page.getByRole('button',{name:'Guess the player, 50 photo questions',exact:true}).click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
