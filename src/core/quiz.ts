@@ -18,12 +18,19 @@ export type Session = {
   index: number; seed: string; daily: boolean; family: boolean; completed: boolean;
 };
 export type Profile = {
+  totals?: {rounds:number;answered:number;correct:number};
   dailyCompleted?: string[]; latestDaily?: Session|null;
   version: 1; solved?: string[]; seen: string[]; mistakes: string[]; history: Session[]; session: Session | null;
   largeText: boolean; sound: boolean; timed: boolean; difficulty: Difficulty; reports: { questionId: string; reason: string; at: string }[];
 };
 export const TIMER_SECONDS = 20;
 export const initialProfile = (): Profile => ({ version: 1, solved: [], seen: [], mistakes: [], history: [], session: null, largeText: false, sound: false, timed: false, difficulty: 'fan', reports: [] });
+export function careerTotals(profile:Profile){
+ if(profile.totals)return profile.totals;
+ const sessions=new Map([...profile.history,...(profile.latestDaily?[profile.latestDaily]:[]),...(profile.session?.completed?[profile.session]:[])].map(s=>[s.id,s]));
+ const answers=[...sessions.values()].flatMap(s=>s.answers);
+ return {rounds:sessions.size,answered:answers.length,correct:answers.filter(a=>a.correct).length};
+}
 export function mastery(profile: Profile, bank: Question[]): { category: Question['category']; correct: number; total: number }[] {
   const byId = new Map(bank.map(q => [q.id, q.category]));
   const tally = new Map<Question['category'], { correct: number; total: number }>();
@@ -69,7 +76,9 @@ export function advance(profile: Profile): Profile {
   if (!s || s.completed || s.answers.length <= s.index) return profile;
   if (s.index < s.questionIds.length - 1) return { ...profile, session: { ...s, index: s.index + 1 } };
   const done = { ...s, completed: true };
-  const retained=retainDailyProgress({...profile,session:done,history:[...profile.history.filter(h=>h.id!==done.id),done]});
+  const previous=profile.history.find(h=>h.id===done.id)??(profile.latestDaily?.id===done.id?profile.latestDaily:null);
+  const old=careerTotals(profile),totals={rounds:old.rounds+(previous?0:1),answered:old.answered+done.answers.length-(previous?.answers.length??0),correct:old.correct+done.answers.filter(a=>a.correct).length-(previous?.answers.filter(a=>a.correct).length??0)};
+  const retained=retainDailyProgress({...profile,totals,session:done,history:[...profile.history.filter(h=>h.id!==done.id),done]});
   return {...retained,history:retained.history.slice(-100)};
 }
 export function validateBank(bank: Question[]): string[] {
@@ -96,13 +105,14 @@ export function hydrate(raw: string | null, bank: Question[]): Profile {
     throw new Error('Saved data could not be read. Export it before resetting.');
   }
   if (p.solved !== undefined && !strings(p.solved)) throw new Error('Saved collection progress could not be read.');
+  if(p.totals!==undefined&&(!record(p.totals)||![p.totals.rounds,p.totals.answered,p.totals.correct].every(n=>typeof n==='number'&&Number.isSafeInteger(n)&&n>=0)||Number(p.totals.correct)>Number(p.totals.answered)||Number(p.totals.rounds)>Number(p.totals.answered)))throw new Error('Saved career totals could not be read.');
   if(p.dailyCompleted!==undefined&&(!strings(p.dailyCompleted)||!p.dailyCompleted.every(isUtcDate)))throw new Error('Saved daily progress could not be read.');
   if(p.latestDaily!=null&&(!validSession(p.latestDaily)||dailyDate(p.latestDaily)===null))throw new Error('Saved daily result could not be read.');
   const profile = p as unknown as Profile;
   const valid = new Set(bank.map(q => q.id));
   if (!validSession(profile.session) || profile.session.questionIds.some(id => !valid.has(id))) profile.session = null;
   const solved = Array.from(new Set([...(profile.solved ?? []), ...profile.history.flatMap(h => h.answers.filter(a => a.correct).map(a => a.questionId)), ...(profile.session?.answers.filter(a => a.correct).map(a => a.questionId) ?? [])])).filter(id => valid.has(id));
-  return retainDailyProgress({ ...initialProfile(), ...profile, solved });
+  return retainDailyProgress({ ...initialProfile(), ...profile, solved,totals:careerTotals(profile) });
 }
 
 function record(value: unknown): value is Record<string, unknown> {
