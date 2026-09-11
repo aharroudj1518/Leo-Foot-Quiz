@@ -8,7 +8,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import data from './src/content/questions.json';
 import {advance,correctAnswer,Difficulty,hydrate,initialProfile,makeSession,mastery,Mode,Profile,Question,Session,shuffled,submit,TIMER_SECONDS} from './src/core/quiz';
 import {readProfile,writeProfile} from './src/services/storage';
-import {buy,loadShop,restore,Shop} from './src/services/billing';
+import {buy,loadShop,restore,Shop,observeOwnership,refreshOwnership} from './src/services/billing';
 import {Button,C,Icon,Kicker,s} from './src/ui';
 import {t} from './src/i18n';
 import {useUtcDay,utcDay} from './src/useUtcDay';
@@ -49,7 +49,8 @@ const today=useUtcDay(),dailyDone=profile.history.find(h=>h.daily&&h.seed===`dai
 useEffect(()=>{if(Platform.OS!=='android')return;const sub=BackHandler.addEventListener('hardwareBackPress',()=>{if(busy)return true;if(screen==='tabs'&&tab==='play')return false;home();return true;});return()=>sub.remove();},[screen,tab,busy]);
 useEffect(()=>{readProfile().then(raw=>{const p=hydrate(raw,bank);profileRef.current=p;setProfile(p);setReady(true);}).catch(()=>{setFatal(true);setNotice(t('notice_hydrate_failed'));setReady(true);});},[]);
 useEffect(()=>{scroll.current?.scrollTo({y:0,animated:false});},[screen,tab,session?.index]);
-useEffect(()=>{const sub=AppState.addEventListener('change',state=>{if(state!=='active'){setAdult(false);setAdultChecked(false);setGateInput('');}});return()=>sub.remove();},[]);
+useEffect(()=>observeOwnership(owned=>setShop(p=>({available:p?.available??false,product:p?.product??null,message:p?.message??'',owned}))),[]);
+useEffect(()=>{const sub=AppState.addEventListener('change',state=>{if(state==='active')void refreshOwnership();if(state!=='active'){setAdult(false);setAdultChecked(false);setGateInput('');}});return()=>sub.remove();},[]);
 const [left,setLeft]=useState(TIMER_SECONDS),ticking=profile.timed&&screen==='quiz'&&!!session&&!answer;
 useEffect(()=>{if(!ticking)return;setLeft(TIMER_SECONDS);const id=setInterval(()=>setLeft(l=>l-1),1000);return()=>clearInterval(id);},[ticking,session?.id,session?.index]);
 useEffect(()=>{if(ticking&&left<=0)void choose('__timed_out__');},[left]);
@@ -74,7 +75,7 @@ async function report(reason:string){if(!q)return;const p=profileRef.current;if(
 function adultStep(action:()=>void){if(adult){action();return;}gateAction.current=action;setGateCode(String(100+Math.floor(Math.random()*900)));setGateInput('');setAdultChecked(false);setNotice('');setScreen('gate');}
 async function refreshShop(){setScreen('shop');setBusy(true);setShop(await loadShop());setBusy(false);}
 function openShop(){adultStep(()=>{void refreshShop();});}
-async function purchase(){if(!shop?.product||!adult||busy)return;setBusy(true);setNotice('');try{const ok=await buy(shop.product);setShop({...shop,owned:ok});setNotice(t('notice_pack_unlocked'));}catch(e:any){setNotice(e.userCancelled?t('notice_purchase_cancelled'):e.message??t('notice_purchase_store_error'));}finally{setBusy(false);}}
+async function purchase(){if(!shop?.product||!adult||busy)return;setBusy(true);setNotice('');try{const ok=await buy(shop.product);setShop(p=>({...p!,owned:ok}));setNotice(t('notice_pack_unlocked'));}catch(e:any){setNotice(e.userCancelled?t('notice_purchase_cancelled'):e.message??t('notice_purchase_store_error'));}finally{setBusy(false);}}
 async function restorePurchase(){if(!adult||busy)return;setBusy(true);try{const unlocked=await restore();setShop(p=>({available:p?.available??false,product:p?.product??null,message:p?.message??'',owned:unlocked}));setNotice(unlocked?t('notice_restore_success'):t('notice_restore_none'));}catch(e:any){setNotice(e.message??t('notice_restore_unavailable'));}finally{setBusy(false);}}
 async function shareText(text:string,title:string){try{if(Platform.OS==='web'){const file=new Blob([text],{type:'text/plain'}),url=URL.createObjectURL(file),a=document.createElement('a');a.href=url;a.download=`${title}.txt`;a.click();URL.revokeObjectURL(url);setNotice(t('notice_share_downloaded'));}else await Share.share({message:text,title});}catch{setNotice(t('notice_share_unavailable'));}}
 function difficultyPicker(){return <View style={s.levels}>{(['starter','fan','expert'] as Difficulty[]).map(level=><Pressable key={level} accessibilityRole="button" accessibilityLabel={`${t(`difficulty_${level}`)} difficulty`} accessibilityState={{selected:profile.difficulty===level}} onPress={()=>{void commit({...profileRef.current,difficulty:level});}} style={[s.level,profile.difficulty===level&&s.levelActive]}><Text style={[s.levelText,profile.difficulty===level&&{color:C.white}]}>{t(`difficulty_${level}`)}</Text></Pressable>)}</View>;}
