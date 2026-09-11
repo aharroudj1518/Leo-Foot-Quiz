@@ -23,6 +23,10 @@
     },
     "assetIds": [
       "messi"
+    ],
+    "aliases": [
+      "Messi",
+      "Leo Messi"
     ]
   },
   {
@@ -49,6 +53,12 @@
     },
     "assetIds": [
       "ronaldo"
+    ],
+    "aliases": [
+      "CR7"
+    ],
+    "ambiguousAliases": [
+      "Ronaldo"
     ]
   },
   {
@@ -75,6 +85,9 @@
     },
     "assetIds": [
       "mbappe"
+    ],
+    "aliases": [
+      "Mbappé"
     ]
   },
   {
@@ -101,6 +114,10 @@
     },
     "assetIds": [
       "salah"
+    ],
+    "aliases": [
+      "Salah",
+      "Mo Salah"
     ]
   },
   {
@@ -127,6 +144,9 @@
     },
     "assetIds": [
       "haaland"
+    ],
+    "aliases": [
+      "Haaland"
     ]
   },
   {
@@ -153,6 +173,9 @@
     },
     "assetIds": [
       "kane"
+    ],
+    "aliases": [
+      "Kane"
     ]
   },
   {
@@ -179,6 +202,9 @@
     },
     "assetIds": [
       "de-bruyne"
+    ],
+    "aliases": [
+      "De Bruyne"
     ]
   },
   {
@@ -205,6 +231,9 @@
     },
     "assetIds": [
       "modric"
+    ],
+    "aliases": [
+      "Modrić"
     ]
   },
   {
@@ -231,6 +260,9 @@
     },
     "assetIds": [
       "lewandowski"
+    ],
+    "aliases": [
+      "Lewandowski"
     ]
   },
   {
@@ -257,6 +289,11 @@
     },
     "assetIds": [
       "vinicius"
+    ],
+    "aliases": [
+      "Vinícius",
+      "Vinícius Junior",
+      "Vini Jr"
     ]
   },
   {
@@ -283,6 +320,9 @@
     },
     "assetIds": [
       "bellingham"
+    ],
+    "aliases": [
+      "Bellingham"
     ]
   },
   {
@@ -309,6 +349,9 @@
     },
     "assetIds": [
       "bonmati"
+    ],
+    "aliases": [
+      "Bonmatí"
     ]
   },
   {
@@ -335,6 +378,9 @@
     },
     "assetIds": [
       "putellas"
+    ],
+    "aliases": [
+      "Putellas"
     ]
   },
   {
@@ -361,6 +407,9 @@
     },
     "assetIds": [
       "kerr"
+    ],
+    "aliases": [
+      "Kerr"
     ]
   },
   {
@@ -387,6 +436,9 @@
     },
     "assetIds": [
       "hegerberg"
+    ],
+    "aliases": [
+      "Hegerberg"
     ]
   },
   {
@@ -413,6 +465,9 @@
     },
     "assetIds": [
       "renard"
+    ],
+    "aliases": [
+      "Renard"
     ]
   },
   {
@@ -439,6 +494,9 @@
     },
     "assetIds": [
       "bronze"
+    ],
+    "aliases": [
+      "Bronze"
     ]
   },
   {
@@ -465,7 +523,8 @@
     },
     "assetIds": [
       "marta"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": "visual-ronaldinho",
@@ -491,7 +550,8 @@
     },
     "assetIds": [
       "ronaldinho"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": "visual-zidane",
@@ -517,6 +577,9 @@
     },
     "assetIds": [
       "zidane"
+    ],
+    "aliases": [
+      "Zidane"
     ]
   },
   {
@@ -543,6 +606,9 @@
     },
     "assetIds": [
       "henry"
+    ],
+    "aliases": [
+      "Henry"
     ]
   },
   {
@@ -569,6 +635,9 @@
     },
     "assetIds": [
       "drogba"
+    ],
+    "aliases": [
+      "Drogba"
     ]
   },
   {
@@ -595,6 +664,9 @@
     },
     "assetIds": [
       "iniesta"
+    ],
+    "aliases": [
+      "Iniesta"
     ]
   },
   {
@@ -621,6 +693,9 @@
     },
     "assetIds": [
       "buffon"
+    ],
+    "aliases": [
+      "Buffon"
     ]
   },
   {
@@ -647,7 +722,8 @@
     },
     "assetIds": [
       "kaka"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": "visual-neymar",
@@ -673,6 +749,10 @@
     },
     "assetIds": [
       "neymar"
+    ],
+    "aliases": [
+      "Neymar Jr",
+      "Neymar Junior"
     ]
   },
   {
@@ -699,6 +779,9 @@
     },
     "assetIds": [
       "suarez"
+    ],
+    "aliases": [
+      "Suárez"
     ]
   },
   {
@@ -725,6 +808,9 @@
     },
     "assetIds": [
       "griezmann"
+    ],
+    "aliases": [
+      "Griezmann"
     ]
   },
   {
@@ -751,6 +837,9 @@
     },
     "assetIds": [
       "saka"
+    ],
+    "aliases": [
+      "Saka"
     ]
   },
   {
@@ -777,6 +866,9 @@
     },
     "assetIds": [
       "foden"
+    ],
+    "aliases": [
+      "Foden"
     ]
   },
   {
@@ -803,6 +895,11 @@
     },
     "assetIds": [
       "son"
+    ],
+    "aliases": [
+      "Son",
+      "Heung-min Son",
+      "Son Heungmin"
     ]
   },
   {
@@ -829,6 +926,9 @@
     },
     "assetIds": [
       "mane"
+    ],
+    "aliases": [
+      "Mané"
     ]
   },
   {
@@ -855,6 +955,9 @@
     },
     "assetIds": [
       "osimhen"
+    ],
+    "aliases": [
+      "Osimhen"
     ]
   },
   {
@@ -881,7 +984,8 @@
     },
     "assetIds": [
       "rodri"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": "visual-rice",
@@ -907,6 +1011,9 @@
     },
     "assetIds": [
       "rice"
+    ],
+    "aliases": [
+      "Rice"
     ]
   },
   {
@@ -933,6 +1040,9 @@
     },
     "assetIds": [
       "palmer"
+    ],
+    "aliases": [
+      "Palmer"
     ]
   },
   {
@@ -959,6 +1069,9 @@
     },
     "assetIds": [
       "dembele"
+    ],
+    "aliases": [
+      "Dembélé"
     ]
   },
   {
@@ -985,6 +1098,10 @@
     },
     "assetIds": [
       "lautaro"
+    ],
+    "aliases": [
+      "Martínez",
+      "Lautaro"
     ]
   },
   {
@@ -1011,6 +1128,9 @@
     },
     "assetIds": [
       "fernandes"
+    ],
+    "aliases": [
+      "Fernandes"
     ]
   },
   {
@@ -1037,6 +1157,9 @@
     },
     "assetIds": [
       "van-dijk"
+    ],
+    "aliases": [
+      "Van Dijk"
     ]
   },
   {
@@ -1063,6 +1186,9 @@
     },
     "assetIds": [
       "mead"
+    ],
+    "aliases": [
+      "Mead"
     ]
   },
   {
@@ -1089,6 +1215,9 @@
     },
     "assetIds": [
       "williamson"
+    ],
+    "aliases": [
+      "Williamson"
     ]
   },
   {
@@ -1115,6 +1244,9 @@
     },
     "assetIds": [
       "rapinoe"
+    ],
+    "aliases": [
+      "Rapinoe"
     ]
   },
   {
@@ -1141,6 +1273,9 @@
     },
     "assetIds": [
       "morgan"
+    ],
+    "aliases": [
+      "Morgan"
     ]
   },
   {
@@ -1167,6 +1302,9 @@
     },
     "assetIds": [
       "lavelle"
+    ],
+    "aliases": [
+      "Lavelle"
     ]
   },
   {
@@ -1193,7 +1331,8 @@
     },
     "assetIds": [
       "pele"
-    ]
+    ],
+    "aliases": []
   },
   {
     "id": "visual-maradona",
@@ -1219,6 +1358,9 @@
     },
     "assetIds": [
       "maradona"
+    ],
+    "aliases": [
+      "Maradona"
     ]
   },
   {
@@ -1245,6 +1387,12 @@
     },
     "assetIds": [
       "ronaldo-brazil"
+    ],
+    "aliases": [
+      "R9"
+    ],
+    "ambiguousAliases": [
+      "Ronaldo"
     ]
   },
   {
@@ -1271,6 +1419,9 @@
     },
     "assetIds": [
       "beckham"
+    ],
+    "aliases": [
+      "Beckham"
     ]
   },
   {
@@ -1297,6 +1448,9 @@
     },
     "assetIds": [
       "gerrard"
+    ],
+    "aliases": [
+      "Gerrard"
     ]
   },
   {

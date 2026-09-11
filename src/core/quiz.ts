@@ -2,6 +2,7 @@ export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends'
 export type Difficulty = 'starter' | 'fan' | 'expert';
 export type Question = {
   id: string; prompt: string; answer: string; options: string[]; aliases?: string[];
+  ambiguousAliases?: string[];
   explanation: string; hint: string; category: Exclude<Mode, 'mixed'>;
   difficulty: Difficulty; source: string; era: string; premium?: boolean;
   visual?: { kind: 'portrait' | 'badge' | 'stadium'; key: string; description: string };
@@ -32,6 +33,7 @@ export function mastery(profile: Profile, bank: Question[]): { category: Questio
 }
 export function normalize(value: string) { return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim(); }
 export function correctAnswer(q: Question, value: string) { return [q.answer, ...(q.aliases ?? [])].some(a => normalize(a) === normalize(value)); }
+export function needsMoreSpecificAnswer(q: Question, value: string) { return (q.ambiguousAliases??[]).some(a=>normalize(a)===normalize(value)); }
 export function hash(seed: string) { let h = 2166136261; for (const c of seed) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; }
 export function shuffled<T>(values: T[], seed: string): T[] {
   const result = [...values]; let h = hash(seed);
@@ -55,6 +57,7 @@ export function submit(profile: Profile, bank: Question[], value: string, hinted
   if (!s || s.completed || s.answers.length > s.index) return profile;
   const q = bank.find(q => q.id === s.questionIds[s.index]);
   if (!q) throw new Error('This question is no longer available. Start a new round.');
+  if (needsMoreSpecificAnswer(q,value)) return profile;
   const answer = { questionId: q.id, value, correct: correctAnswer(q, value), hinted };
   const mistakes = answer.correct ? profile.mistakes.filter(id => id !== q.id) : Array.from(new Set([...profile.mistakes, q.id]));
   return { ...profile, solved: Array.from(new Set([...(profile.solved ?? []), ...(answer.correct ? [q.id] : [])])), mistakes, seen: Array.from(new Set([...profile.seen, q.id])), session: { ...s, answers: [...s.answers, answer] } };
@@ -72,6 +75,7 @@ export function validateBank(bank: Question[]): string[] {
     if (ids.has(q.id)) errors.push(`Duplicate id: ${q.id}`); ids.add(q.id);
     if (q.options.length !== 4 || new Set(q.options.map(normalize)).size !== 4) errors.push(`Invalid options: ${q.id}`);
     if (q.options.filter(o => correctAnswer(q, o)).length !== 1) errors.push(`Expected exactly one correct option: ${q.id}`);
+    if ((q.ambiguousAliases??[]).some(a=>correctAnswer(q,a))) errors.push(`Ambiguous alias also accepted: ${q.id}`);
     if (!q.explanation || !q.hint || !q.era || !q.source.startsWith('https://')) errors.push(`Missing provenance: ${q.id}`);
     if (normalize(q.prompt).includes(normalize(q.answer))) errors.push(`Answer leaked in prompt: ${q.id}`);
   }

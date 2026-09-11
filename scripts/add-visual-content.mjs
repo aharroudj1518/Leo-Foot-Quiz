@@ -5,6 +5,8 @@ const credits = [...JSON.parse(fs.readFileSync(new URL('../assets/visual/credits
 const grounds=JSON.parse(fs.readFileSync(new URL('../assets/stadiums/manifest.json',import.meta.url),'utf8')).filter(p=>p.visualReview);
 credits.push(...grounds);
 const additions = [];
+const playerAliases=JSON.parse(fs.readFileSync(new URL('player-aliases.json',dir),'utf8'));
+const normalized=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 function add(key, kind, category, answer, others, description, hint, explanation, source) {
   additions.push({id:`visual-${key}`,prompt:kind==='portrait'?'Who is this player?':kind==='badge'?'Which club does this badge puzzle represent?':'Which stadium is this?',answer,options:[answer,...others],explanation,hint,category,difficulty:'fan',source,era:kind==='portrait'?'Player gallery · archive portraits':kind==='badge'?'Club colours · reimagined badges':'Stadium tour · visual edition',premium:false,visual:{kind,key,description},assetIds:[key]});
 }
@@ -25,6 +27,15 @@ for(const [index,[key,name,country,description]] of players.entries()) {
   const candidates=players.filter(p=>p[1]!==name&&collectionOf(p[0])===collectionOf(key));
   const alternatives=Array.from({length:3},(_,i)=>candidates[(index+i)%candidates.length][1]);
   add(key,'portrait','portraits',name,alternatives,description,`International team: ${country}.`,`${name} has represented ${country}. This archive portrait is a visual identity question, not a current-club claim.`,credits.find(c=>c.id===key).source);
+}
+// A shared surname prompts clarification instead of awarding or deducting a point.
+const aliasOwners=new Map();
+for(const q of additions){for(const name of [q.answer,...(playerAliases[q.visual.key]??[])]){const key=normalized(name);const owners=aliasOwners.get(key)??new Set();owners.add(q.id);aliasOwners.set(key,owners);}}
+for(const q of additions){
+ const aliases=playerAliases[q.visual.key]??[];
+ q.aliases=aliases.filter(name=>aliasOwners.get(normalized(name)).size===1);
+ const ambiguous=aliases.filter(name=>aliasOwners.get(normalized(name)).size>1);
+ if(ambiguous.length)q.ambiguousAliases=ambiguous;
 }
 
 const clubs = [
