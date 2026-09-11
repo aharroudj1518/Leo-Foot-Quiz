@@ -7,3 +7,5 @@ The generator compares normalized names across the full gallery. If an alias bel
 References for nicknames: UEFA uses CR7 for Cristiano Ronaldo at https://www.uefa.com/uefachampionsleague/news/0253-0d81fbde63ad-f5b196790e3d-1000--cristiano-ronaldo-tous-ses-records-uefa/ . Ronaldo's R9 name is documented at https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer) . The remaining entries are shortened or alternate forms of the stored player names. These are answer acceptance rules, not independent editorial or commercial clearance.
 
 Validation: TypeScript and 72 unit tests pass. The 28 relevant desktop/phone browser tests pass, covering typed surnames, saved-answer reload, ambiguous-name clarification, nickname resolution, complete visual rounds and existing game flows. The previous 0.4.0 APK and live deployment do not contain this follow-up patch; it is prepared for the next combined release.
+
+Release update: this feature is now live on the main web URL in 0.4.1. Corrected native 0.4.1 jobs are tracked in NATIVE-BUILDS-0.4.1.md; completion is not yet claimed.

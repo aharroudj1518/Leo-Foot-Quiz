@@ -11,3 +11,5 @@ The saved data adds one compact date per completed day and one retained daily re
 Validation: TypeScript and all 77 unit tests pass. Regression coverage completes a daily round followed by 100 practice rounds, reloads the save and verifies the original result and streak. It also covers migration, duplicate days, missed days, month boundaries and invalid leap dates. All 26 relevant phone/desktop browser checks pass, including the new three-day activity strip, result reopening beside an unfinished practice round and UTC-midnight rollover. The 360px card screenshot was visually reviewed. Expo web export succeeds.
 
 This patch follows the typed-answer update on the preview branch. The main website and downloadable native packages remain at the previously tested 0.4.0 source until the next combined release is published.
+
+Release update: this feature is now live on the main web URL in 0.4.1. Corrected native 0.4.1 jobs are tracked in NATIVE-BUILDS-0.4.1.md; completion is not yet claimed.

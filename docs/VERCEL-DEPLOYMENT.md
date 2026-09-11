@@ -40,3 +40,9 @@ Production deployment EFQJrKNEjo5U9MK6R2YN2Q5LzdAs completed Ready from tested c
 The first promotion attempt was rejected by automatic approval review after a deployment-list filter labelled Error was interpreted as build status. A fresh deployment-detail snapshot and screenshot both confirmed Ready for the exact commit. The same promotion workflow then passed and completed; no alternate execution path was used.
 
 The observed Vercel team plan is Hobby. Vercel's official documentation restricts Hobby to non-commercial personal use (https://vercel.com/docs/plans/hobby and https://vercel.com/docs/limits/fair-use-guidelines). Commercial hosting must be arranged as part of monetized launch. No paid plan was purchased or billing setting changed.
+
+## 11 September — progress release 0.4.1
+
+Production deployment FZnDi981Ac61oAbVsHPLpUWpCSXQ completed Ready from commit e975294 and is aliased to https://leo-foot-quiz.vercel.app. The public URL showed the seven-day activity card. Its saved Ronaldo Nazário round prompted clarification for Ronaldo and accepted R9, verifying the deployed typed-answer change. Career totals and the full progress flows passed the 46-test desktop/phone suite before promotion.
+
+The later a90237d correction explicitly names a TypeScript file in the native build-hook import and enables TypeScript extension imports. The web exports before and after that correction produced the same two bundle filenames (index-928c6eebdeee704d18a442c23bafab8c.js and index-36472518860c96601c3eec260f507410.js); no UI or question content was changed by that correction.
