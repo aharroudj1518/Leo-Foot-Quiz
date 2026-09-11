@@ -1,0 +1,5426 @@
+[
+  {
+    "code": "ucl27-50129",
+    "name": "AEK Athens FC",
+    "country": "GRE",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50129--aek-athens/squad/",
+    "players": [
+      {
+        "name": "Thomas Strakosha",
+        "number": 1,
+        "nationality": "ALB",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Alberto Brignoli",
+        "number": 91,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Harold Moukoudi",
+        "number": 2,
+        "nationality": "CMR",
+        "position": "Defender"
+      },
+      {
+        "name": "Stavros Pilios",
+        "number": 3,
+        "nationality": "ALB",
+        "position": "Defender"
+      },
+      {
+        "name": "Lazaros Rota",
+        "number": 12,
+        "nationality": "GRE",
+        "position": "Defender"
+      },
+      {
+        "name": "Domagoj Vida",
+        "number": 21,
+        "nationality": "CRO",
+        "position": "Defender"
+      },
+      {
+        "name": "Charalampos Lykogiannis",
+        "number": 22,
+        "nationality": "GRE",
+        "position": "Defender"
+      },
+      {
+        "name": "Filipe Relvas",
+        "number": 44,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Kaan Kairinen",
+        "number": 6,
+        "nationality": "FIN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mijat Gaćinović",
+        "number": 8,
+        "nationality": "SRB",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lovro Majer",
+        "number": 14,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kervin Arriaga",
+        "number": 16,
+        "nationality": "HON",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Răzvan Marin",
+        "number": 18,
+        "nationality": "ROU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Petros Mantalos",
+        "number": 20,
+        "nationality": "GRE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Milán Vitális",
+        "number": 27,
+        "nationality": "HUN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Luka Jović",
+        "number": 9,
+        "nationality": "SRB",
+        "position": "Forward"
+      },
+      {
+        "name": "Oleksandr Zubkov",
+        "number": 10,
+        "nationality": "UKR",
+        "position": "Forward"
+      },
+      {
+        "name": "Aboubakary Koita",
+        "number": 11,
+        "nationality": "MTN",
+        "position": "Forward"
+      },
+      {
+        "name": "Barnabás Varga",
+        "number": 19,
+        "nationality": "HUN",
+        "position": "Forward"
+      },
+      {
+        "name": "João Mário",
+        "number": 23,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Zini",
+        "number": 90,
+        "nationality": "ANG",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52683",
+    "name": "Aston Villa",
+    "country": "ENG",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52683--aston-villa/squad/",
+    "players": [
+      {
+        "name": "Zion Suzuki",
+        "number": 1,
+        "nationality": "JPN",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Marco Bizot",
+        "number": 40,
+        "nationality": "NED",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "James Wright",
+        "number": 42,
+        "nationality": "ENG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Matty Cash",
+        "number": 2,
+        "nationality": "POL",
+        "position": "Defender"
+      },
+      {
+        "name": "Victor Lindelöf",
+        "number": 3,
+        "nationality": "SWE",
+        "position": "Defender"
+      },
+      {
+        "name": "Tyrone Mings",
+        "number": 5,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Matteo Ruggeri",
+        "number": 13,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Pau Torres",
+        "number": 14,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Ian Maatsen",
+        "number": 22,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Lamare Bogarde",
+        "number": 26,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "number": 29,
+        "nationality": "COD",
+        "position": "Defender"
+      },
+      {
+        "name": "Ross Barkley",
+        "number": 6,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "John McGinn",
+        "number": 7,
+        "nationality": "SCO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Boubacar Kamara",
+        "number": 8,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Leon Goretzka",
+        "number": 27,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "João Gomes",
+        "number": 35,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Johan Manzambi",
+        "number": 44,
+        "nationality": "SUI",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Emiliano Buendía",
+        "number": 10,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Nicolas Jackson",
+        "number": 11,
+        "nationality": "SEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Alejandro Garnacho",
+        "number": 17,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Tammy Abraham",
+        "number": 18,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Ibrahim Mbaye",
+        "number": 19,
+        "nationality": "SEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Alysson",
+        "number": 47,
+        "nationality": "BRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50124",
+    "name": "Atlético de Madrid",
+    "country": "ESP",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50124--atleti/squad/",
+    "players": [
+      {
+        "name": "Juan Musso",
+        "number": 1,
+        "nationality": "ARG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Jan Oblak",
+        "number": 13,
+        "nationality": "SVN",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dávid Hancko",
+        "number": 17,
+        "nationality": "SVK",
+        "position": "Defender"
+      },
+      {
+        "name": "Marc Pubill",
+        "number": 18,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Cristian Romero",
+        "number": 21,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Robin Le Normand",
+        "number": 24,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Dani Martínez",
+        "number": 30,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Arnau Solà",
+        "number": 32,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Obed Vargas",
+        "number": 3,
+        "nationality": "MEX",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rodrigo Mendoza",
+        "number": 4,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Johnny Cardoso",
+        "number": 5,
+        "nationality": "USA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Koke",
+        "number": 6,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kang-in Lee",
+        "number": 7,
+        "nationality": "KOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pablo Barrios",
+        "number": 8,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Álex Baena",
+        "number": 10,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marcos Llorente",
+        "number": 14,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "number": 23,
+        "nationality": "DEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alexander Sørloth",
+        "number": 9,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Ademola Lookman",
+        "number": 11,
+        "nationality": "NGA",
+        "position": "Forward"
+      },
+      {
+        "name": "Jonathan David",
+        "number": 15,
+        "nationality": "CAN",
+        "position": "Forward"
+      },
+      {
+        "name": "Arnau Ortiz",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Julián Alvarez",
+        "number": 19,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Giuliano Simeone",
+        "number": 20,
+        "nationality": "ARG",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52758",
+    "name": "Borussia Dortmund",
+    "country": "GER",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52758--b-dortmund/squad/",
+    "players": [
+      {
+        "name": "Gregor Kobel",
+        "number": 1,
+        "nationality": "SUI",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Patrick Drewes",
+        "number": 30,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Silas Ostrzinski",
+        "number": 31,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Alexander Meyer",
+        "number": 33,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Waldemar Anton",
+        "number": 3,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "number": 4,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "number": 5,
+        "nationality": "ALG",
+        "position": "Defender"
+      },
+      {
+        "name": "Joane Gadou",
+        "number": 22,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Daniel Svensson",
+        "number": 24,
+        "nationality": "SWE",
+        "position": "Defender"
+      },
+      {
+        "name": "Julian Ryerson",
+        "number": 26,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Kauã Prates",
+        "number": 36,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Filippo Mane",
+        "number": 39,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Jobe Bellingham",
+        "number": 7,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Felix Nmecha",
+        "number": 8,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Carney Chukwuemeka",
+        "number": 17,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ethan Nwaneri",
+        "number": 18,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "number": 20,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Joey Veerman",
+        "number": 25,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Enzo Duarte",
+        "number": 44,
+        "nationality": "LUX",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mussa Kaba",
+        "number": 48,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Serhou Guirassy",
+        "number": 9,
+        "nationality": "GUI",
+        "position": "Forward"
+      },
+      {
+        "name": "Maximilian Beier",
+        "number": 14,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Konstantinos Karetsas",
+        "number": 19,
+        "nationality": "GRE",
+        "position": "Forward"
+      },
+      {
+        "name": "Fábio Silva",
+        "number": 21,
+        "nationality": "POR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50080",
+    "name": "FC Barcelona",
+    "country": "ESP",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50080--barcelona/squad/",
+    "players": [
+      {
+        "name": "Joan García",
+        "number": 1,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Wojciech Szczęsny",
+        "number": 13,
+        "nationality": "POL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dominik Livaković",
+        "number": 25,
+        "nationality": "CRO",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "João Cancelo",
+        "number": 2,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Alejandro Balde",
+        "number": 3,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Pau Cubarsí",
+        "number": 5,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Xavi Espart",
+        "number": 12,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Andreas Christensen",
+        "number": 15,
+        "nationality": "DEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Gerard Martín",
+        "number": 18,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Jules Koundé",
+        "number": 23,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Eric García",
+        "number": 24,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Gavi",
+        "number": 6,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pedri",
+        "number": 8,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rodri",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "number": 21,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marc Bernal",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Fermín López",
+        "number": 7,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Gabriel Jesus",
+        "number": 9,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Lamine Yamal",
+        "number": 10,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Raphinha",
+        "number": 11,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Karim Adeyemi",
+        "number": 14,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Anthony Gordon",
+        "number": 17,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Dani Olmo",
+        "number": 20,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Jesse Bisiwu",
+        "number": 27,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Hamza Abdelkarim",
+        "number": 29,
+        "nationality": "EGY",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-59333",
+    "name": "FK Bodø/Glimt",
+    "country": "NOR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/59333--bodo-glimt/squad/",
+    "players": [
+      {
+        "name": "Julian Faye Lund",
+        "number": 1,
+        "nationality": "NOR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Nikita Haikin",
+        "number": 12,
+        "nationality": "RUS",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Villads Nielsen",
+        "number": 2,
+        "nationality": "DEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Odin Bjørtuft",
+        "number": 4,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Haitam Aleesami",
+        "number": 5,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Jostein Gundersen",
+        "number": 6,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Fredrik Bjørkan",
+        "number": 15,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Patrick Berg",
+        "number": 7,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sondre Auklend",
+        "number": 8,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ulrik Saltnes",
+        "number": 14,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Joshua Kitolano",
+        "number": 16,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sondre Brunstad Fet",
+        "number": 19,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Fredrik Sjøvold",
+        "number": 20,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Magnus Riisnæs",
+        "number": 23,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Håkon Evjen",
+        "number": 26,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Assan Sanyang",
+        "number": 28,
+        "nationality": "GAM",
+        "position": "Midfielder"
+      },
+      {
+        "name": "August Mikkelsen",
+        "number": 94,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Andreas Helmersen",
+        "number": 9,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Jens Petter Hauge",
+        "number": 10,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Ole Didrik Blomberg",
+        "number": 11,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Ola Brynhildsen",
+        "number": 17,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Joel Mvuka",
+        "number": 22,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Isak Määttä",
+        "number": 25,
+        "nationality": "NOR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50043",
+    "name": "Club Brugge KV",
+    "country": "BEL",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50043--club-brugge/squad/",
+    "players": [
+      {
+        "name": "Yann Sommer",
+        "number": 1,
+        "nationality": "SUI",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Nordin Jackers",
+        "number": 29,
+        "nationality": "BEL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Han-beom Lee",
+        "number": 3,
+        "nationality": "KOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Joel Ordóñez",
+        "number": 4,
+        "nationality": "ECU",
+        "position": "Defender"
+      },
+      {
+        "name": "Matteo Dams",
+        "number": 32,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Hugo Siquet",
+        "number": 41,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Brandon Mechele",
+        "number": 44,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Samba Coulibaly",
+        "number": 54,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Samuel Van Hoogen",
+        "number": 82,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Andre Garcia",
+        "number": 90,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Freddie Potts",
+        "number": 8,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Hugo Vetlesen",
+        "number": 10,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Cheveyo Tsawa",
+        "number": 16,
+        "nationality": "SUI",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Hans Vanaken",
+        "number": 20,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lynnt Audoor",
+        "number": 62,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Félix Lemaréchal",
+        "number": 80,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tian Koren",
+        "number": 85,
+        "nationality": "SVN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nicolò Tresoldi",
+        "number": 7,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Carlos Forbs",
+        "number": 9,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Jan Virgili",
+        "number": 11,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Romeo Vermant",
+        "number": 17,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Wisdom Mike",
+        "number": 27,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Milan Robberechts",
+        "number": 39,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Mamadou Diakhon",
+        "number": 67,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Andrej Vasović",
+        "number": 77,
+        "nationality": "SUI",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-79946",
+    "name": "Como 1907",
+    "country": "ITA",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/79946--como/squad/",
+    "players": [
+      {
+        "name": "Jean Butez",
+        "number": 1,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Robert Sánchez",
+        "number": 97,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Marc-Oliver Kempf",
+        "number": 2,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Àlex Valle",
+        "number": 3,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Jacobo Ramón",
+        "number": 4,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Alberto Dossena",
+        "number": 13,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Kaiki Bruno",
+        "number": 16,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Yan Couto",
+        "number": 27,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Ivan Smolčić",
+        "number": 28,
+        "nationality": "CRO",
+        "position": "Defender"
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "number": 99,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Máximo Perrone",
+        "number": 5,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Luis Milla",
+        "number": 6,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lucas Da Cunha",
+        "number": 7,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nicolás Paz",
+        "number": 10,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Martin Baturina",
+        "number": 20,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Samuele Ricci",
+        "number": 21,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mattia Liberali",
+        "number": 30,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tasos Douvikas",
+        "number": 9,
+        "nationality": "GRE",
+        "position": "Forward"
+      },
+      {
+        "name": "Assane Diao",
+        "number": 11,
+        "nationality": "SEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Jesús Rodríguez",
+        "number": 17,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Moise Kean",
+        "number": 90,
+        "nationality": "ITA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52692",
+    "name": "Fenerbahçe SK",
+    "country": "TUR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52692--fenerbahce/squad/",
+    "players": [
+      {
+        "name": "Tarık Çetin",
+        "number": 13,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Ederson",
+        "number": 31,
+        "nationality": "BRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Mert Günok",
+        "number": 34,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Yiğit Efe Demir",
+        "number": 14,
+        "nationality": "TUR",
+        "position": "Defender"
+      },
+      {
+        "name": "Nathan Aké",
+        "number": 15,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Mert Müldür",
+        "number": 18,
+        "nationality": "TUR",
+        "position": "Defender"
+      },
+      {
+        "name": "Kojo Peprah Oppong",
+        "number": 21,
+        "nationality": "GHA",
+        "position": "Defender"
+      },
+      {
+        "name": "Nélson Semedo",
+        "number": 27,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Milan Škriniar",
+        "number": 37,
+        "nationality": "SVK",
+        "position": "Defender"
+      },
+      {
+        "name": "Ognjen Mimović",
+        "number": 77,
+        "nationality": "SRB",
+        "position": "Defender"
+      },
+      {
+        "name": "Archie Brown",
+        "number": 3,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "İsmail Yüksek",
+        "number": 5,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mattéo Guendouzi",
+        "number": 6,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "İrfan Can Kahveci",
+        "number": 17,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Levent Mercan",
+        "number": 22,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bartuğ Elmaz",
+        "number": 28,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Oğuz Aydın",
+        "number": 70,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "N'Golo Kanté",
+        "number": 91,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "number": 7,
+        "nationality": "TUR",
+        "position": "Forward"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "number": 9,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Marco Asensio",
+        "number": 10,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Mason Greenwood",
+        "number": 11,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "number": 19,
+        "nationality": "KOS",
+        "position": "Forward"
+      },
+      {
+        "name": "Dorgeles Nene",
+        "number": 45,
+        "nationality": "MLI",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52749",
+    "name": "Feyenoord",
+    "country": "NED",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52749--feyenoord/squad/",
+    "players": [
+      {
+        "name": "Tjark Ernst",
+        "number": 1,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Florian Kastenmeier",
+        "number": 33,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Mannou Berger",
+        "number": 37,
+        "nationality": "NED",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Liam Bossin",
+        "number": 39,
+        "nationality": "IRL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Bart Nieuwkoop",
+        "number": 2,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Tsuyoshi Watanabe",
+        "number": 4,
+        "nationality": "JPN",
+        "position": "Defender"
+      },
+      {
+        "name": "Gijs Smal",
+        "number": 5,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Jerry",
+        "number": 6,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Jordan Bos",
+        "number": 15,
+        "nationality": "AUS",
+        "position": "Defender"
+      },
+      {
+        "name": "Javi López",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Mats Deijl",
+        "number": 20,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Mika Mármol",
+        "number": 35,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Jakub Moder",
+        "number": 7,
+        "nationality": "POL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Gjivai Zechiël",
+        "number": 8,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Luciano Valente",
+        "number": 10,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sem Steijn",
+        "number": 14,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Oussama Targhalline",
+        "number": 28,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Charles Vanhoutte",
+        "number": 34,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Gonçalo Borges",
+        "number": 11,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Reiss Nelson",
+        "number": 17,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Nacho Ferri",
+        "number": 19,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Anis Hadj Moussa",
+        "number": 23,
+        "nationality": "ALG",
+        "position": "Forward"
+      },
+      {
+        "name": "Gaoussou Diarra",
+        "number": 27,
+        "nationality": "MLI",
+        "position": "Forward"
+      },
+      {
+        "name": "Jerayno Schaken",
+        "number": 57,
+        "nationality": "NED",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-63405",
+    "name": "LASK",
+    "country": "AUT",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/63405--lask/squad/",
+    "players": [
+      {
+        "name": "Lukas Jungwirth",
+        "number": 1,
+        "nationality": "AUT",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Tobias Schützenauer",
+        "number": 33,
+        "nationality": "AUT",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Fabian Schillinger",
+        "number": 50,
+        "nationality": "AUT",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "George Bello",
+        "number": 2,
+        "nationality": "USA",
+        "position": "Defender"
+      },
+      {
+        "name": "Miguel Freckleton",
+        "number": 3,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Xavier Mbuyamba",
+        "number": 4,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Andrés Andrade",
+        "number": 16,
+        "nationality": "PAN",
+        "position": "Defender"
+      },
+      {
+        "name": "Kasper Jørgensen",
+        "number": 20,
+        "nationality": "DEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Manoël Verhaeghe",
+        "number": 21,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Daniel Elfadli",
+        "number": 23,
+        "nationality": "LBY",
+        "position": "Defender"
+      },
+      {
+        "name": "Yvan Dibango",
+        "number": 25,
+        "nationality": "CMR",
+        "position": "Defender"
+      },
+      {
+        "name": "João Victor Tornich",
+        "number": 43,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Melayro Bogarde",
+        "number": 6,
+        "nationality": "SUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kryštof Daněk",
+        "number": 9,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Robert Ljubičić",
+        "number": 10,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alessandro Schöpf",
+        "number": 18,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Christoph Lang",
+        "number": 27,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Florian Flecker",
+        "number": 29,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sascha Horvath",
+        "number": 30,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Samuel Adeniran",
+        "number": 7,
+        "nationality": "USA",
+        "position": "Forward"
+      },
+      {
+        "name": "Moses Usor",
+        "number": 8,
+        "nationality": "NGA",
+        "position": "Forward"
+      },
+      {
+        "name": "Sasa Kalajdzic",
+        "number": 11,
+        "nationality": "AUT",
+        "position": "Forward"
+      },
+      {
+        "name": "Nael Kane",
+        "number": 45,
+        "nationality": "CAN",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-2603790",
+    "name": "RB Leipzig",
+    "country": "GER",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/2603790--leipzig/squad/",
+    "players": [
+      {
+        "name": "Ørjan Nyland",
+        "number": 1,
+        "nationality": "NOR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Maarten Vandevoordt",
+        "number": 26,
+        "nationality": "BEL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Willi Orbán",
+        "number": 4,
+        "nationality": "HUN",
+        "position": "Defender"
+      },
+      {
+        "name": "Lukas Klostermann",
+        "number": 16,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "David Raum",
+        "number": 22,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Castello Lukeba",
+        "number": 23,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Max Finkgräfe",
+        "number": 35,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Benjamin Henrichs",
+        "number": 39,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Maxime Estève",
+        "number": 3,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ezechiel Banzuzi",
+        "number": 6,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "number": 13,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "number": 14,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ridle Baku",
+        "number": 17,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rocco Reitz",
+        "number": 20,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "number": 21,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Christopher Nkunku",
+        "number": 28,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Andrija Maksimović",
+        "number": 30,
+        "nationality": "SRB",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marc Guiu",
+        "number": 9,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Brajan Gruda",
+        "number": 10,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "number": 11,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Tidiam Gomis",
+        "number": 27,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Rômulo Cardoso",
+        "number": 40,
+        "nationality": "BRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-75797",
+    "name": "LOSC Lille",
+    "country": "FRA",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/75797--lille/squad/",
+    "players": [
+      {
+        "name": "Berke Özer",
+        "number": 1,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Orlando Gill",
+        "number": 12,
+        "nationality": "PAR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Loun Srdanović",
+        "number": 2,
+        "nationality": "SUI",
+        "position": "Defender"
+      },
+      {
+        "name": "Nathan Ngoy",
+        "number": 3,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Alexsandro",
+        "number": 4,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Romain Perraud",
+        "number": 15,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Tiago Santos",
+        "number": 22,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Tanguy Nianzou",
+        "number": 23,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Calvin Verdonk",
+        "number": 24,
+        "nationality": "IDN",
+        "position": "Defender"
+      },
+      {
+        "name": "Isaac Cossier",
+        "number": 26,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Maxima Goffi",
+        "number": 38,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Nabil Bentaleb",
+        "number": 6,
+        "nationality": "ALG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ethan Mbappé",
+        "number": 8,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Hákon Arnar Haraldsson",
+        "number": 10,
+        "nationality": "ISL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Osame Sahraoui",
+        "number": 11,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Maurits Kjærgaard",
+        "number": 14,
+        "nationality": "DEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ngal'Ayel Mukau",
+        "number": 17,
+        "nationality": "COD",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Başar Önal",
+        "number": 19,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Benjamin André",
+        "number": 21,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Dilane Bakwa",
+        "number": 7,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Olivier Giroud",
+        "number": 9,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Ayase Ueda",
+        "number": 18,
+        "nationality": "JPN",
+        "position": "Forward"
+      },
+      {
+        "name": "Gaëtan Perrin",
+        "number": 28,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Soriba Diaoune",
+        "number": 35,
+        "nationality": "FRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-7889",
+    "name": "Liverpool FC",
+    "country": "ENG",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/7889--liverpool/squad/",
+    "players": [
+      {
+        "name": "Alisson Becker",
+        "number": 1,
+        "nationality": "BRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Giorgi Mamardashvili",
+        "number": 25,
+        "nationality": "GEO",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Freddie Woodman",
+        "number": 28,
+        "nationality": "ENG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Vítězslav Jaroš",
+        "number": 56,
+        "nationality": "CZE",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Joe Gomez",
+        "number": 2,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "number": 4,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Jérémy Jacquet",
+        "number": 5,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Milos Kerkez",
+        "number": 6,
+        "nationality": "HUN",
+        "position": "Defender"
+      },
+      {
+        "name": "Conor Bradley",
+        "number": 12,
+        "nationality": "NIR",
+        "position": "Defender"
+      },
+      {
+        "name": "Giovanni Leoni",
+        "number": 15,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Kostas Tsimikas",
+        "number": 21,
+        "nationality": "GRE",
+        "position": "Defender"
+      },
+      {
+        "name": "Jeremie Frimpong",
+        "number": 30,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Ronald Araújo",
+        "number": 33,
+        "nationality": "URU",
+        "position": "Defender"
+      },
+      {
+        "name": "Luke Chambers",
+        "number": 44,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Isaac Mabaya",
+        "number": 52,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Florian Wirtz",
+        "number": 7,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "number": 8,
+        "nationality": "HUN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "number": 10,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Víctor Muñoz",
+        "number": 23,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "number": 38,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "James McConnell",
+        "number": 53,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alexander Isak",
+        "number": 9,
+        "nationality": "SWE",
+        "position": "Forward"
+      },
+      {
+        "name": "Cody Gakpo",
+        "number": 18,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Hugo Ekitiké",
+        "number": 22,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Bradley Barcola",
+        "number": 29,
+        "nationality": "FRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52919",
+    "name": "Manchester City",
+    "country": "ENG",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52919--man-city/squad/",
+    "players": [
+      {
+        "name": "Gianluigi Donnarumma",
+        "number": 1,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Marcus Bettinelli",
+        "number": 13,
+        "nationality": "ENG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Gerónimo Rulli",
+        "number": 28,
+        "nationality": "ARG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Max-Edgar Chabot",
+        "number": 94,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 3,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Marc Guéhi",
+        "number": 6,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Rayan Aït-Nouri",
+        "number": 21,
+        "nationality": "ALG",
+        "position": "Defender"
+      },
+      {
+        "name": "Vitor Reis",
+        "number": 22,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "number": 24,
+        "nationality": "CRO",
+        "position": "Defender"
+      },
+      {
+        "name": "Abdukodir Khusanov",
+        "number": 45,
+        "nationality": "UZB",
+        "position": "Defender"
+      },
+      {
+        "name": "Rico Lewis",
+        "number": 82,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Elliot Anderson",
+        "number": 5,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mateo Kovačić",
+        "number": 8,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rayan Cherki",
+        "number": 10,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Jeremy Doku",
+        "number": 11,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Enzo Fernández",
+        "number": 17,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Matheus Nunes",
+        "number": 27,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ayyoub Bouaddi",
+        "number": 32,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Phil Foden",
+        "number": 47,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "number": 7,
+        "nationality": "SEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Erling Haaland",
+        "number": 9,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Allan Elias",
+        "number": 37,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Antoine Semenyo",
+        "number": 42,
+        "nationality": "GHA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52682",
+    "name": "Manchester United",
+    "country": "ENG",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52682--man-utd/squad/",
+    "players": [
+      {
+        "name": "Senne Lammens",
+        "number": 1,
+        "nationality": "BEL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Karl Darlow",
+        "number": 12,
+        "nationality": "WAL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Tom Heaton",
+        "number": 22,
+        "nationality": "ENG",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dermot Mee",
+        "number": 45,
+        "nationality": "NIR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Diogo Dalot",
+        "number": 2,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "number": 3,
+        "nationality": "MAR",
+        "position": "Defender"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "number": 4,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Harry Maguire",
+        "number": 5,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Lisandro Martínez",
+        "number": 6,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Patrick Dorgu",
+        "number": 13,
+        "nationality": "DEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Luke Shaw",
+        "number": 23,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Mason Mount",
+        "number": 7,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 8,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Andrey Santos",
+        "number": 17,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Youri Tielemans",
+        "number": 18,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Carlos Baleba",
+        "number": 20,
+        "nationality": "CMR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Manuel Ugarte",
+        "number": 25,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ayden Heaven",
+        "number": 26,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marcus Rashford",
+        "number": 9,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Matheus Cunha",
+        "number": 10,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Joshua Zirkzee",
+        "number": 11,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Amad Diallo",
+        "number": 16,
+        "nationality": "CIV",
+        "position": "Forward"
+      },
+      {
+        "name": "Bryan Mbeumo",
+        "number": 19,
+        "nationality": "CMR",
+        "position": "Forward"
+      },
+      {
+        "name": "Tynan Thompson",
+        "number": 27,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Benjamin Šeško",
+        "number": 30,
+        "nationality": "SVN",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50136",
+    "name": "SSC Napoli",
+    "country": "ITA",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50136--napoli/squad/",
+    "players": [
+      {
+        "name": "Alex Meret",
+        "number": 1,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Nikita Contini",
+        "number": 14,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Vanja Milinković-Savić",
+        "number": 32,
+        "nationality": "SRB",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Costantino Favasuli",
+        "number": 2,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Benoît Badiashile",
+        "number": 5,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Amir Rrahmani",
+        "number": 13,
+        "nationality": "KOS",
+        "position": "Defender"
+      },
+      {
+        "name": "Rafa Marín",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Mathías Olivera",
+        "number": 17,
+        "nationality": "URU",
+        "position": "Defender"
+      },
+      {
+        "name": "Giovanni Di Lorenzo",
+        "number": 22,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Sam Beukema",
+        "number": 31,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Leonardo Spinazzola",
+        "number": 37,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Billy Gilmour",
+        "number": 6,
+        "nationality": "SCO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Scott McTominay",
+        "number": 8,
+        "nationality": "SCO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "number": 11,
+        "nationality": "BEL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Stanislav Lobotka",
+        "number": 68,
+        "nationality": "SVK",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Frank Anguissa",
+        "number": 99,
+        "nationality": "CMR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "David Neres",
+        "number": 7,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "number": 19,
+        "nationality": "DEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Lorenzo Lucca",
+        "number": 20,
+        "nationality": "ITA",
+        "position": "Forward"
+      },
+      {
+        "name": "Matteo Politano",
+        "number": 21,
+        "nationality": "ITA",
+        "position": "Forward"
+      },
+      {
+        "name": "Antonio Vergara",
+        "number": 26,
+        "nationality": "ITA",
+        "position": "Forward"
+      },
+      {
+        "name": "Alisson Santos",
+        "number": 27,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Noa Lang",
+        "number": 70,
+        "nationality": "NED",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52747",
+    "name": "Paris Saint-Germain",
+    "country": "FRA",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52747--paris/squad/",
+    "players": [
+      {
+        "name": "Alessandro Longoni",
+        "number": 16,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Lucas Chevalier",
+        "number": 30,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Matvei Safonov",
+        "number": 39,
+        "nationality": "RUS",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "number": 2,
+        "nationality": "MAR",
+        "position": "Defender"
+      },
+      {
+        "name": "Lucas Beraldo",
+        "number": 4,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Marquinhos",
+        "number": 5,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Illia Zabarnyi",
+        "number": 6,
+        "nationality": "UKR",
+        "position": "Defender"
+      },
+      {
+        "name": "Lucas Digne",
+        "number": 12,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Lucas Hernández",
+        "number": 21,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 25,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Willian Pacho",
+        "number": 51,
+        "nationality": "ECU",
+        "position": "Defender"
+      },
+      {
+        "name": "Fabián Ruiz",
+        "number": 8,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Maghnes Akliouche",
+        "number": 11,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Vitinha",
+        "number": 17,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Senny Mayulu",
+        "number": 24,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Dro Fernández",
+        "number": 27,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Warren Zaïre-Emery",
+        "number": 33,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "João Neves",
+        "number": 87,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "number": 7,
+        "nationality": "GEO",
+        "position": "Forward"
+      },
+      {
+        "name": "Ferran Torres",
+        "number": 9,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "number": 10,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Désiré Doué",
+        "number": 14,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Mika Godts",
+        "number": 22,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Quentin Ndjantou",
+        "number": 47,
+        "nationality": "FRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50064",
+    "name": "FC Porto",
+    "country": "POR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50064--porto/squad/",
+    "players": [
+      {
+        "name": "Cláudio Ramos",
+        "number": 14,
+        "nationality": "POR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "João Costa",
+        "number": 24,
+        "nationality": "POR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "João Afonso",
+        "number": 50,
+        "nationality": "POR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Diogo Costa",
+        "number": 99,
+        "nationality": "POR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Jakub Kiwior",
+        "number": 4,
+        "nationality": "POL",
+        "position": "Defender"
+      },
+      {
+        "name": "Jan Bednarek",
+        "number": 5,
+        "nationality": "POL",
+        "position": "Defender"
+      },
+      {
+        "name": "Zaidu Sanusi",
+        "number": 12,
+        "nationality": "NGA",
+        "position": "Defender"
+      },
+      {
+        "name": "Nehuén Pérez",
+        "number": 18,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Alberto Costa",
+        "number": 20,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Souza",
+        "number": 33,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Francisco Moura",
+        "number": 74,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Victor Froholdt",
+        "number": 8,
+        "nationality": "DEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pablo Rosario",
+        "number": 13,
+        "nationality": "DOM",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Inbeom Hwang",
+        "number": 16,
+        "nationality": "KOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alan Varela",
+        "number": 22,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Seko Fofana",
+        "number": 42,
+        "nationality": "CIV",
+        "position": "Midfielder"
+      },
+      {
+        "name": "William Gomes",
+        "number": 7,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Samu",
+        "number": 9,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Gabriel Veiga",
+        "number": 10,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Pepê",
+        "number": 11,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Borja Sainz",
+        "number": 17,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "André Silva",
+        "number": 19,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Santiago Giménez",
+        "number": 29,
+        "nationality": "MEX",
+        "position": "Forward"
+      },
+      {
+        "name": "Oskar Pietuszewski",
+        "number": 77,
+        "nationality": "POL",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52265",
+    "name": "Real Betis Balompié",
+    "country": "ESP",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52265--real-betis/squad/",
+    "players": [
+      {
+        "name": "Álvaro Vallés",
+        "number": 1,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Diego Conde",
+        "number": 13,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Héctor Bellerín",
+        "number": 2,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Diego Llorente",
+        "number": 3,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Natan",
+        "number": 4,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Marc Bartra",
+        "number": 5,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Fran García",
+        "number": 11,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Ángel Ortiz",
+        "number": 12,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Valentín Gómez",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Junior Firpo",
+        "number": 23,
+        "nationality": "DOM",
+        "position": "Defender"
+      },
+      {
+        "name": "Facundo Bernal",
+        "number": 6,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pablo Fornals",
+        "number": 8,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Iker Losada",
+        "number": 14,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Álvaro Fidalgo",
+        "number": 15,
+        "nationality": "MEX",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rodrigo Riquelme",
+        "number": 17,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nelson Deossa",
+        "number": 18,
+        "nationality": "COL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "number": 20,
+        "nationality": "ARG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marc Roca",
+        "number": 21,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Isco",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Dani Ceballos",
+        "number": 25,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Antony",
+        "number": 7,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Cucho Hernández",
+        "number": 9,
+        "nationality": "COL",
+        "position": "Forward"
+      },
+      {
+        "name": "Abde Ezzalzouli",
+        "number": 10,
+        "nationality": "MAR",
+        "position": "Forward"
+      },
+      {
+        "name": "Troy Parrott",
+        "number": 19,
+        "nationality": "IRL",
+        "position": "Forward"
+      },
+      {
+        "name": "Aitor Ruibal",
+        "number": 24,
+        "nationality": "ESP",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50051",
+    "name": "Real Madrid C.F.",
+    "country": "ESP",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50051--real-madrid/squad/",
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "number": 1,
+        "nationality": "BEL",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Andriy Lunin",
+        "number": 13,
+        "nationality": "UKR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Raúl Asencio",
+        "number": 2,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Éder Militão",
+        "number": 3,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Dean Huijsen",
+        "number": 4,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "number": 12,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Ibrahima Konaté",
+        "number": 16,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Marc Cucurella",
+        "number": 17,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Álvaro Carreras",
+        "number": 18,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "number": 22,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Denzel Dumfries",
+        "number": 24,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Jude Bellingham",
+        "number": 5,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "number": 6,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Federico Valverde",
+        "number": 8,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "number": 14,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Arda Güler",
+        "number": 15,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bernardo Silva",
+        "number": 20,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Yan Diomande",
+        "number": 25,
+        "nationality": "CIV",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sergio Martínez",
+        "number": 38,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "number": 7,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Endrick",
+        "number": 9,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "number": 10,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Rodrygo",
+        "number": 11,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Carlos Espí",
+        "number": 19,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Brahim Díaz",
+        "number": 21,
+        "nationality": "MAR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50137",
+    "name": "AS Roma",
+    "country": "ITA",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50137--roma/squad/",
+    "players": [
+      {
+        "name": "Pierluigi Gollini",
+        "number": 95,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Mile Svilar",
+        "number": 99,
+        "nationality": "SRB",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Devyne Rensch",
+        "number": 2,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Konstantinos Koulierakis",
+        "number": 3,
+        "nationality": "GRE",
+        "position": "Defender"
+      },
+      {
+        "name": "Evan N'Dicka",
+        "number": 5,
+        "nationality": "CIV",
+        "position": "Defender"
+      },
+      {
+        "name": "Nahuel Molina",
+        "number": 20,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Mario Hermoso",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Gianluca Mancini",
+        "number": 23,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Leonardo Balerdi",
+        "number": 26,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Wesley França",
+        "number": 43,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Emanuele Lulli",
+        "number": 77,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Daniele Ghilardi",
+        "number": 87,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Bryan Cristante",
+        "number": 4,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "number": 7,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marten de Roon",
+        "number": 15,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Manu Koné",
+        "number": 17,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Niccolò Pisilli",
+        "number": 61,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Santiago Castro",
+        "number": 9,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Donyell Malen",
+        "number": 14,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Matías Soulé",
+        "number": 18,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Paulo Dybala",
+        "number": 21,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Antonio Arena",
+        "number": 68,
+        "nationality": "ITA",
+        "position": "Forward"
+      },
+      {
+        "name": "Rodrigo Mora",
+        "number": 86,
+        "nationality": "POR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52797",
+    "name": "ŠK Slovan Bratislava",
+    "country": "SVK",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52797--s-bratislava/squad/",
+    "players": [
+      {
+        "name": "Aleksandar Popović",
+        "number": 1,
+        "nationality": "SRB",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Matúš Macík",
+        "number": 44,
+        "nationality": "SVK",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dominik Takáč",
+        "number": 71,
+        "nationality": "SVK",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Samuel Kozlovský",
+        "number": 2,
+        "nationality": "SVK",
+        "position": "Defender"
+      },
+      {
+        "name": "Kevin Wimmer",
+        "number": 6,
+        "nationality": "AUT",
+        "position": "Defender"
+      },
+      {
+        "name": "Kenan Bajrić",
+        "number": 12,
+        "nationality": "SVN",
+        "position": "Defender"
+      },
+      {
+        "name": "Svetozar Marković",
+        "number": 15,
+        "nationality": "SRB",
+        "position": "Defender"
+      },
+      {
+        "name": "César Blackman",
+        "number": 28,
+        "nationality": "PAN",
+        "position": "Defender"
+      },
+      {
+        "name": "Sahmkou Camara",
+        "number": 49,
+        "nationality": "GUI",
+        "position": "Defender"
+      },
+      {
+        "name": "Sandro Cruz",
+        "number": 57,
+        "nationality": "ANG",
+        "position": "Defender"
+      },
+      {
+        "name": "Peter Pokorný",
+        "number": 3,
+        "nationality": "SVK",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rahim Ibrahim",
+        "number": 5,
+        "nationality": "GHA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Artur Gajdoš",
+        "number": 8,
+        "nationality": "SVK",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tigran Barseghyan",
+        "number": 11,
+        "nationality": "ARM",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alen Mustafić",
+        "number": 20,
+        "nationality": "BIH",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Cristian Martínez",
+        "number": 70,
+        "nationality": "PAN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Danylo Ihnatenko",
+        "number": 77,
+        "nationality": "UKR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Daiki Matsuoka",
+        "number": 88,
+        "nationality": "JPN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Roman Čerepkai",
+        "number": 13,
+        "nationality": "SVK",
+        "position": "Forward"
+      },
+      {
+        "name": "Alasana Yirajang",
+        "number": 14,
+        "nationality": "GAM",
+        "position": "Forward"
+      },
+      {
+        "name": "Suleiman Camara",
+        "number": 21,
+        "nationality": "GAM",
+        "position": "Forward"
+      },
+      {
+        "name": "Andraž Šporar",
+        "number": 99,
+        "nationality": "SVN",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-2609356",
+    "name": "Sabah FC",
+    "country": "AZE",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/2609356--sabah/squad/",
+    "players": [
+      {
+        "name": "Amin Ramazanov",
+        "number": 1,
+        "nationality": "AZE",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Stas Pokatilov",
+        "number": 92,
+        "nationality": "KAZ",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Steve Solvet",
+        "number": 3,
+        "nationality": "GLP",
+        "position": "Defender"
+      },
+      {
+        "name": "Aden McCarthy",
+        "number": 4,
+        "nationality": "RSA",
+        "position": "Defender"
+      },
+      {
+        "name": "Rahman Dashdamirov",
+        "number": 5,
+        "nationality": "AZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Tellur Mutallimov",
+        "number": 17,
+        "nationality": "AZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Tymoteusz Puchacz",
+        "number": 27,
+        "nationality": "POL",
+        "position": "Defender"
+      },
+      {
+        "name": "Erivaldo Almeida",
+        "number": 33,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Akim Zedadka",
+        "number": 80,
+        "nationality": "ALG",
+        "position": "Defender"
+      },
+      {
+        "name": "Abdulakh Khaibulaev",
+        "number": 6,
+        "nationality": "AZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Umarali Rakhmonaliev",
+        "number": 7,
+        "nationality": "UZB",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Khayal Aliyev",
+        "number": 9,
+        "nationality": "AZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Aleksey Isaev",
+        "number": 10,
+        "nationality": "AZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kaheem Parris",
+        "number": 11,
+        "nationality": "JAM",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ivan Lepinjica",
+        "number": 13,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rauf Rustamli",
+        "number": 16,
+        "nationality": "AZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Du Queiroz",
+        "number": 37,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rodrigo Fernandes",
+        "number": 88,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Jafar Mukhtarov",
+        "number": 89,
+        "nationality": "AZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Christian Nwachukwu",
+        "number": 8,
+        "nationality": "NGA",
+        "position": "Forward"
+      },
+      {
+        "name": "Joy-Lance Mickels",
+        "number": 20,
+        "nationality": "RWA",
+        "position": "Forward"
+      },
+      {
+        "name": "Veljko Simić",
+        "number": 21,
+        "nationality": "SRB",
+        "position": "Forward"
+      },
+      {
+        "name": "Xander Severina",
+        "number": 34,
+        "nationality": "CUW",
+        "position": "Forward"
+      },
+      {
+        "name": "Orphé Mbina",
+        "number": 99,
+        "nationality": "GAB",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52498",
+    "name": "SK Slavia Praha",
+    "country": "CZE",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52498--slavia-praha/squad/",
+    "players": [
+      {
+        "name": "Nazar Domchak",
+        "number": 29,
+        "nationality": "UKR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Jakub Markovič",
+        "number": 35,
+        "nationality": "CZE",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Štěpán Chaloupek",
+        "number": 2,
+        "nationality": "CZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Tomáš Holeš",
+        "number": 3,
+        "nationality": "CZE",
+        "position": "Defender"
+      },
+      {
+        "name": "David Zima",
+        "number": 4,
+        "nationality": "CZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Ange N'Guessan",
+        "number": 6,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Tomáš Vlček",
+        "number": 27,
+        "nationality": "CZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Mikuláš Konečný",
+        "number": 42,
+        "nationality": "CZE",
+        "position": "Defender"
+      },
+      {
+        "name": "Oskar Kubiak",
+        "number": 8,
+        "nationality": "POL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Danijel Šturm",
+        "number": 10,
+        "nationality": "SVN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Samuel Isife",
+        "number": 14,
+        "nationality": "NGA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mubarak Suleiman",
+        "number": 15,
+        "nationality": "NGA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "David Moses",
+        "number": 16,
+        "nationality": "NGA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lukáš Provod",
+        "number": 17,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Emmanuel Ayaosi",
+        "number": 20,
+        "nationality": "NGA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Toumani Diakité",
+        "number": 22,
+        "nationality": "CIV",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Michal Sadílek",
+        "number": 23,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ivan Schranz",
+        "number": 26,
+        "nationality": "SVK",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Wiktor Nowak",
+        "number": 30,
+        "nationality": "POL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pavel Kačor",
+        "number": 32,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "David Jurásek",
+        "number": 39,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Eliáš Piták",
+        "number": 43,
+        "nationality": "CZE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mojmír Chytil",
+        "number": 13,
+        "nationality": "CZE",
+        "position": "Forward"
+      },
+      {
+        "name": "Adonija Ouanda",
+        "number": 18,
+        "nationality": "CAN",
+        "position": "Forward"
+      },
+      {
+        "name": "Tomáš Chorý",
+        "number": 25,
+        "nationality": "CZE",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50149",
+    "name": "Sporting Clube de Portugal",
+    "country": "POR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50149--sporting-cp/squad/",
+    "players": [
+      {
+        "name": "Rui Silva",
+        "number": 1,
+        "nationality": "POR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Kaique Pereira",
+        "number": 30,
+        "nationality": "BRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Diego Callai",
+        "number": 41,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Sergi Altimira",
+        "number": 5,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Zeno Debast",
+        "number": 6,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Giorgos Vagiannidis",
+        "number": 13,
+        "nationality": "GRE",
+        "position": "Defender"
+      },
+      {
+        "name": "Moncef Zekri",
+        "number": 18,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Iván Fresneda",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Gonçalo Inácio",
+        "number": 25,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Ibrahima Ba",
+        "number": 55,
+        "nationality": "SEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Eduardo Quaresma",
+        "number": 72,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Silas Andersen",
+        "number": 4,
+        "nationality": "DEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Rodrigo Zalazar",
+        "number": 17,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Maximiliano Araújo",
+        "number": 20,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pedro Lima",
+        "number": 21,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Issa Doumbia",
+        "number": 77,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Samuel Justo",
+        "number": 96,
+        "nationality": "POR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Fotis Ioannidis",
+        "number": 7,
+        "nationality": "GRE",
+        "position": "Forward"
+      },
+      {
+        "name": "Geny Catamo",
+        "number": 10,
+        "nationality": "MOZ",
+        "position": "Forward"
+      },
+      {
+        "name": "Nuno Santos",
+        "number": 11,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Nestory Irankunda",
+        "number": 19,
+        "nationality": "AUS",
+        "position": "Forward"
+      },
+      {
+        "name": "Jesse Derry",
+        "number": 28,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Luis Guilherme",
+        "number": 31,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Rodrigo Rodrigues",
+        "number": 76,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Luis Suárez",
+        "number": 97,
+        "nationality": "COL",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50107",
+    "name": "VfB Stuttgart",
+    "country": "GER",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50107--stuttgart/squad/",
+    "players": [
+      {
+        "name": "Fabian Bredlow",
+        "number": 1,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Marius Funk",
+        "number": 33,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Ameen Al-Dakhil",
+        "number": 2,
+        "nationality": "BEL",
+        "position": "Defender"
+      },
+      {
+        "name": "Ramon Hendriks",
+        "number": 3,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Josha Vagnoman",
+        "number": 4,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "number": 7,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Luca Jaquez",
+        "number": 14,
+        "nationality": "SUI",
+        "position": "Defender"
+      },
+      {
+        "name": "Lorenz Assignon",
+        "number": 22,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Jeff Chabot",
+        "number": 24,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Alexander Groiß",
+        "number": 58,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Dominik Nothnagel",
+        "number": 59,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Angelo Stiller",
+        "number": 6,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ermedin Demirović",
+        "number": 9,
+        "nationality": "BIH",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Chris Führich",
+        "number": 10,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bilal El Khannouss",
+        "number": 11,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Atakan Karazor",
+        "number": 16,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Grischa Prömel",
+        "number": 21,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nikolas Nartey",
+        "number": 28,
+        "nationality": "DEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Finn Jeltsch",
+        "number": 29,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Leo Sauer",
+        "number": 44,
+        "nationality": "SVK",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tiago Tomás",
+        "number": 8,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Dženan Pejčinović",
+        "number": 17,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Jamie Leweling",
+        "number": 18,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Deniz Undav",
+        "number": 26,
+        "nationality": "GER",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52319",
+    "name": "Viking FK",
+    "country": "NOR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52319--viking/squad/",
+    "players": [
+      {
+        "name": "Arild Østbø",
+        "number": 1,
+        "nationality": "NOR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Erlend Jacobsen",
+        "number": 12,
+        "nationality": "NOR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Ľubomír Belko",
+        "number": 30,
+        "nationality": "SVK",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Herman Haugen",
+        "number": 2,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Viljar Vevatne",
+        "number": 3,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Martin Ove Roseth",
+        "number": 4,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Henrik Heggheim",
+        "number": 5,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Gianni Stensness",
+        "number": 6,
+        "nationality": "NZL",
+        "position": "Defender"
+      },
+      {
+        "name": "Essiën Bassey",
+        "number": 17,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Sondre Bjørshol",
+        "number": 18,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Anders Baertelsen",
+        "number": 21,
+        "nationality": "DEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Henrik Falchener",
+        "number": 25,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Jesper Daland",
+        "number": 27,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Kristoffer Haugen",
+        "number": 28,
+        "nationality": "NOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Kristoffer Askildsen",
+        "number": 7,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Joe Bell",
+        "number": 8,
+        "nationality": "NZL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Zlatko Tripić",
+        "number": 10,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Henrik Bjørdal",
+        "number": 16,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Amin Cosic",
+        "number": 19,
+        "nationality": "ISL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nick D'Agostino",
+        "number": 9,
+        "nationality": "AUS",
+        "position": "Forward"
+      },
+      {
+        "name": "Romano Postema",
+        "number": 11,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Veton Berisha",
+        "number": 14,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Peter Christiansen",
+        "number": 20,
+        "nationality": "DEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Erik Botheim",
+        "number": 22,
+        "nationality": "NOR",
+        "position": "Forward"
+      },
+      {
+        "name": "Simen Kvia-Egeskog",
+        "number": 26,
+        "nationality": "NOR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-70691",
+    "name": "Villarreal CF",
+    "country": "ESP",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/70691--villarreal/squad/",
+    "players": [
+      {
+        "name": "Luiz Júnior",
+        "number": 1,
+        "nationality": "BRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Rubén Gómez",
+        "number": 13,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Péter Gulácsi",
+        "number": 25,
+        "nationality": "HUN",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Yakiv Kinareikin",
+        "number": 35,
+        "nationality": "UKR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Logan Costa",
+        "number": 2,
+        "nationality": "CPV",
+        "position": "Defender"
+      },
+      {
+        "name": "Alex Freeman",
+        "number": 3,
+        "nationality": "USA",
+        "position": "Defender"
+      },
+      {
+        "name": "Pau Navarro",
+        "number": 6,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Juan Foyth",
+        "number": 8,
+        "nationality": "ARG",
+        "position": "Defender"
+      },
+      {
+        "name": "Renato Veiga",
+        "number": 12,
+        "nationality": "POR",
+        "position": "Defender"
+      },
+      {
+        "name": "Santiago Mouriño",
+        "number": 15,
+        "nationality": "URU",
+        "position": "Defender"
+      },
+      {
+        "name": "Carlos Romero",
+        "number": 20,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Sergi Cardona",
+        "number": 23,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Alberto Moleiro",
+        "number": 10,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Santi Comesaña",
+        "number": 14,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Carlos Macià",
+        "number": 16,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pape Gueye",
+        "number": 18,
+        "nationality": "SEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tani Oluwaseyi",
+        "number": 21,
+        "nationality": "CAN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nathan Saliba",
+        "number": 24,
+        "nationality": "CAN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nizar El Jmili",
+        "number": 27,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Gerard Moreno",
+        "number": 7,
+        "nationality": "ESP",
+        "position": "Forward"
+      },
+      {
+        "name": "Georges Mikautadze",
+        "number": 9,
+        "nationality": "GEO",
+        "position": "Forward"
+      },
+      {
+        "name": "Ilias Akhomach",
+        "number": 11,
+        "nationality": "MAR",
+        "position": "Forward"
+      },
+      {
+        "name": "Tajon Buchanan",
+        "number": 17,
+        "nationality": "CAN",
+        "position": "Forward"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "number": 19,
+        "nationality": "CIV",
+        "position": "Forward"
+      },
+      {
+        "name": "Ayoze Pérez",
+        "number": 22,
+        "nationality": "ESP",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50037",
+    "name": "FC Bayern München",
+    "country": "GER",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50037--bayern-munchen/squad/",
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "number": 1,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Sven Ulreich",
+        "number": 26,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Jonas Urbig",
+        "number": 40,
+        "nationality": "GER",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dayot Upamecano",
+        "number": 2,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Minjae Kim",
+        "number": 3,
+        "nationality": "KOR",
+        "position": "Defender"
+      },
+      {
+        "name": "Jonathan Tah",
+        "number": 4,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Nathaniel Brown",
+        "number": 11,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Hiroki Ito",
+        "number": 21,
+        "nationality": "JPN",
+        "position": "Defender"
+      },
+      {
+        "name": "Sacha Boey",
+        "number": 23,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Josip Stanišić",
+        "number": 44,
+        "nationality": "CRO",
+        "position": "Defender"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "number": 6,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Tom Bischof",
+        "number": 8,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Jamal Musiala",
+        "number": 10,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Michael Olise",
+        "number": 17,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alphonso Davies",
+        "number": 19,
+        "nationality": "CAN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Konrad Laimer",
+        "number": 27,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ismael Saibari",
+        "number": 34,
+        "nationality": "MAR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bara Sapoko Ndiaye",
+        "number": 39,
+        "nationality": "SEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "number": 45,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Serge Gnabry",
+        "number": 7,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Harry Kane",
+        "number": 9,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 14,
+        "nationality": "COL",
+        "position": "Forward"
+      },
+      {
+        "name": "Bastian Assomo",
+        "number": 33,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Maycon Cardozo",
+        "number": 49,
+        "nationality": "GER",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50067",
+    "name": "Galatasaray A.Ş.",
+    "country": "TUR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/squad/",
+    "players": [
+      {
+        "name": "Uğurcan Çakır",
+        "number": 1,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Günay Güvenç",
+        "number": 19,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Jankat Yılmaz",
+        "number": 24,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Enes Büyük",
+        "number": 70,
+        "nationality": "TUR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "El Chadaille Bitshiabu",
+        "number": 3,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Ismail Jakobs",
+        "number": 4,
+        "nationality": "SEN",
+        "position": "Defender"
+      },
+      {
+        "name": "Davinson Sánchez",
+        "number": 6,
+        "nationality": "COL",
+        "position": "Defender"
+      },
+      {
+        "name": "Roland Sallai",
+        "number": 7,
+        "nationality": "HUN",
+        "position": "Defender"
+      },
+      {
+        "name": "Eren Elmalı",
+        "number": 17,
+        "nationality": "TUR",
+        "position": "Defender"
+      },
+      {
+        "name": "Abdülkerim Bardakcı",
+        "number": 42,
+        "nationality": "TUR",
+        "position": "Defender"
+      },
+      {
+        "name": "Wilfried Singo",
+        "number": 90,
+        "nationality": "CIV",
+        "position": "Defender"
+      },
+      {
+        "name": "Gabriel Sara",
+        "number": 8,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lesley Ugochukwu",
+        "number": 18,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "number": 20,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lucas Torreira",
+        "number": 34,
+        "nationality": "URU",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Renato Nhaga",
+        "number": 74,
+        "nationality": "GNB",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Aleksei Batrakov",
+        "number": 83,
+        "nationality": "RUS",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mario Lemina",
+        "number": 99,
+        "nationality": "GAB",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Leroy Sané",
+        "number": 10,
+        "nationality": "GER",
+        "position": "Forward"
+      },
+      {
+        "name": "Yunus Akgün",
+        "number": 11,
+        "nationality": "TUR",
+        "position": "Forward"
+      },
+      {
+        "name": "Deniz Gül",
+        "number": 21,
+        "nationality": "TUR",
+        "position": "Forward"
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 27,
+        "nationality": "POR",
+        "position": "Forward"
+      },
+      {
+        "name": "Victor Osimhen",
+        "number": 45,
+        "nationality": "NGA",
+        "position": "Forward"
+      },
+      {
+        "name": "Barış Alper Yılmaz",
+        "number": 53,
+        "nationality": "TUR",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50062",
+    "name": "PSV Eindhoven",
+    "country": "NED",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/50062--psv/squad/",
+    "players": [
+      {
+        "name": "Nick Olij",
+        "number": 1,
+        "nationality": "NED",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Matěj Kovář",
+        "number": 32,
+        "nationality": "CZE",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Lutsharel Geertruida",
+        "number": 2,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Yarek Gasiorowski",
+        "number": 3,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Armando Obispo",
+        "number": 4,
+        "nationality": "CUW",
+        "position": "Defender"
+      },
+      {
+        "name": "Ryan Flamingo",
+        "number": 6,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Sergiño Dest",
+        "number": 8,
+        "nationality": "USA",
+        "position": "Defender"
+      },
+      {
+        "name": "Mauro Júnior",
+        "number": 17,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Filip Kostić",
+        "number": 18,
+        "nationality": "SRB",
+        "position": "Defender"
+      },
+      {
+        "name": "Kiliann Sildillia",
+        "number": 25,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Paul Wanner",
+        "number": 10,
+        "nationality": "AUT",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Guus Til",
+        "number": 20,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Sven Mijnans",
+        "number": 21,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kodai Sano",
+        "number": 24,
+        "nationality": "JPN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ayoni Santos",
+        "number": 35,
+        "nationality": "NED",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ivan Perišić",
+        "number": 5,
+        "nationality": "CRO",
+        "position": "Forward"
+      },
+      {
+        "name": "Ruben van Bommel",
+        "number": 7,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Ricardo Pepi",
+        "number": 9,
+        "nationality": "USA",
+        "position": "Forward"
+      },
+      {
+        "name": "Sami Ouaissa",
+        "number": 11,
+        "nationality": "NED",
+        "position": "Forward"
+      },
+      {
+        "name": "Alassane Pléa",
+        "number": 14,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Esmir Bajraktarević",
+        "number": 19,
+        "nationality": "BIH",
+        "position": "Forward"
+      },
+      {
+        "name": "Dennis Man",
+        "number": 27,
+        "nationality": "ROU",
+        "position": "Forward"
+      },
+      {
+        "name": "Sam Lammers",
+        "number": 29,
+        "nationality": "NED",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52707",
+    "name": "FC Shakhtar Donetsk",
+    "country": "UKR",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52707--shakhtar/squad/",
+    "players": [
+      {
+        "name": "Kiril Fesiun",
+        "number": 23,
+        "nationality": "UKR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Dmytro Riznyk",
+        "number": 31,
+        "nationality": "UKR",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Marlon Santos",
+        "number": 4,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Valeriy Bondar",
+        "number": 5,
+        "nationality": "UKR",
+        "position": "Defender"
+      },
+      {
+        "name": "Pedro Henrique",
+        "number": 13,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Irakli Azarov",
+        "number": 16,
+        "nationality": "GEO",
+        "position": "Defender"
+      },
+      {
+        "name": "Vinícius Tobías",
+        "number": 17,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Alaa Ghram",
+        "number": 18,
+        "nationality": "TUN",
+        "position": "Defender"
+      },
+      {
+        "name": "Oleksandr Karavaiev",
+        "number": 20,
+        "nationality": "UKR",
+        "position": "Defender"
+      },
+      {
+        "name": "Mykola Matviyenko",
+        "number": 22,
+        "nationality": "UKR",
+        "position": "Defender"
+      },
+      {
+        "name": "Marlon Gomes",
+        "number": 6,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Dmytro Kryskiv",
+        "number": 8,
+        "nationality": "UKR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Pedrinho",
+        "number": 10,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Isaque",
+        "number": 14,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Gabriel Carvalho",
+        "number": 25,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Oleh Ocheretko",
+        "number": 27,
+        "nationality": "UKR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Yehor Nazaryna",
+        "number": 29,
+        "nationality": "UKR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Alisson Santana",
+        "number": 30,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lucas Ferreira",
+        "number": 37,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Ryan Roberto",
+        "number": 71,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Gleiker Mendoza",
+        "number": 77,
+        "nationality": "VEN",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bruninho",
+        "number": 99,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Lassina Traoré",
+        "number": 2,
+        "nationality": "BFA",
+        "position": "Forward"
+      },
+      {
+        "name": "Kauã Elias",
+        "number": 9,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Luca Meirelles",
+        "number": 49,
+        "nationality": "BRA",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52280",
+    "name": "Arsenal FC",
+    "country": "ENG",
+    "source": "https://www.uefa.com/uefachampionsleague/clubs/52280--arsenal/squad/",
+    "players": [
+      {
+        "name": "David Raya",
+        "number": 1,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Kepa Arrizabalaga",
+        "number": 13,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Illan Meslier",
+        "number": 30,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "William Saliba",
+        "number": 2,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Cristhian Mosquera",
+        "number": 3,
+        "nationality": "ESP",
+        "position": "Defender"
+      },
+      {
+        "name": "Ben White",
+        "number": 4,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Piero Hincapié",
+        "number": 5,
+        "nationality": "ECU",
+        "position": "Defender"
+      },
+      {
+        "name": "Gabriel",
+        "number": 6,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Jurriën Timber",
+        "number": 12,
+        "nationality": "NED",
+        "position": "Defender"
+      },
+      {
+        "name": "Ezri Konsa",
+        "number": 15,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Riccardo Calafiori",
+        "number": 33,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Martin Ødegaard",
+        "number": 8,
+        "nationality": "NOR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Eberechi Eze",
+        "number": 10,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Noni Madueke",
+        "number": 20,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mikel Merino",
+        "number": 23,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Kai Havertz",
+        "number": 29,
+        "nationality": "GER",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Martín Zubimendi",
+        "number": 36,
+        "nationality": "ESP",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bruno Guimarães",
+        "number": 39,
+        "nationality": "BRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Declan Rice",
+        "number": 41,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Bukayo Saka",
+        "number": 7,
+        "nationality": "ENG",
+        "position": "Forward"
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "number": 14,
+        "nationality": "SWE",
+        "position": "Forward"
+      },
+      {
+        "name": "Christos Tzolis",
+        "number": 17,
+        "nationality": "GRE",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-50138",
+    "name": "FC Internazionale Milano",
+    "country": "ITA",
+    "source": "https://fr.uefa.com/uefachampionsleague/clubs/50138--inter/squad/",
+    "players": [
+      {
+        "name": "Josep Martínez",
+        "number": 1,
+        "nationality": "ESP",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Raffaele Di Gennaro",
+        "number": 12,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Ivan Provedel",
+        "number": 49,
+        "nationality": "ITA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "John Stones",
+        "number": 6,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Manuel Akanji",
+        "number": 25,
+        "nationality": "SUI",
+        "position": "Defender"
+      },
+      {
+        "name": "Benjamin Pavard",
+        "number": 28,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Carlos Augusto",
+        "number": 30,
+        "nationality": "BRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Yann Bisseck",
+        "number": 31,
+        "nationality": "GER",
+        "position": "Defender"
+      },
+      {
+        "name": "Federico Dimarco",
+        "number": 32,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Mattia Marello",
+        "number": 54,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "number": 95,
+        "nationality": "ITA",
+        "position": "Defender"
+      },
+      {
+        "name": "Djed Spence",
+        "number": 99,
+        "nationality": "ENG",
+        "position": "Defender"
+      },
+      {
+        "name": "Piotr Zieliński",
+        "number": 7,
+        "nationality": "POL",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Petar Sučić",
+        "number": 8,
+        "nationality": "CRO",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Andy Diouf",
+        "number": 17,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "number": 20,
+        "nationality": "TUR",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Curtis Jones",
+        "number": 21,
+        "nationality": "ENG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Henrikh Mkhitaryan",
+        "number": 22,
+        "nationality": "ARM",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Nicolò Barella",
+        "number": 23,
+        "nationality": "ITA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Marcus Thuram",
+        "number": 9,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "number": 10,
+        "nationality": "ARG",
+        "position": "Forward"
+      },
+      {
+        "name": "Luis Henrique",
+        "number": 11,
+        "nationality": "BRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Ange-Yoan Bonny",
+        "number": 14,
+        "nationality": "CIV",
+        "position": "Forward"
+      }
+    ]
+  },
+  {
+    "code": "ucl27-52277",
+    "name": "RC Lens",
+    "country": "FRA",
+    "source": "https://fr.uefa.com/uefachampionsleague/clubs/52277--lens/squad/",
+    "players": [
+      {
+        "name": "Régis Gurtner",
+        "number": 1,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Mathieu Gorgelin",
+        "number": 16,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Robin Risser",
+        "number": 40,
+        "nationality": "FRA",
+        "position": "Goalkeeper"
+      },
+      {
+        "name": "Ruben Aguilar",
+        "number": 2,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Nidal Čelik",
+        "number": 4,
+        "nationality": "BIH",
+        "position": "Defender"
+      },
+      {
+        "name": "Samson Baidoo",
+        "number": 6,
+        "nationality": "AUT",
+        "position": "Defender"
+      },
+      {
+        "name": "Matthieu Udol",
+        "number": 14,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Jean-Clair Todibo",
+        "number": 20,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Michał Skóraś",
+        "number": 22,
+        "nationality": "POL",
+        "position": "Defender"
+      },
+      {
+        "name": "Saud Abdulhamid",
+        "number": 23,
+        "nationality": "KSA",
+        "position": "Defender"
+      },
+      {
+        "name": "Jonathan Gradit",
+        "number": 24,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Ismaëlo Ganiou",
+        "number": 25,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Souleymane Sagnan",
+        "number": 31,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Kyllian Antonio",
+        "number": 32,
+        "nationality": "FRA",
+        "position": "Defender"
+      },
+      {
+        "name": "Andrija Bulatović",
+        "number": 5,
+        "nationality": "MNE",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Yacine Titraoui",
+        "number": 8,
+        "nationality": "ALG",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Amadou Haidara",
+        "number": 21,
+        "nationality": "MLI",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Mickaël Cuisance",
+        "number": 27,
+        "nationality": "FRA",
+        "position": "Midfielder"
+      },
+      {
+        "name": "Florian Sotoca",
+        "number": 7,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Thorgan Hazard",
+        "number": 9,
+        "nationality": "BEL",
+        "position": "Forward"
+      },
+      {
+        "name": "Florian Thauvin",
+        "number": 10,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Odsonne Édouard",
+        "number": 11,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Abdallah Sima",
+        "number": 19,
+        "nationality": "SEN",
+        "position": "Forward"
+      },
+      {
+        "name": "Junior Kadile",
+        "number": 28,
+        "nationality": "FRA",
+        "position": "Forward"
+      },
+      {
+        "name": "Franjo Ivanović",
+        "number": 29,
+        "nationality": "CRO",
+        "position": "Forward"
+      }
+    ]
+  }
+]

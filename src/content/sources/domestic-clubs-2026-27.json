@@ -1,0 +1,498 @@
+[
+  {
+    "id": "premier-league",
+    "name": "Premier League",
+    "season": "2026/27",
+    "clubs": [
+      {
+        "name": "Arsenal",
+        "location": "London",
+        "stadium": "Emirates Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Aston Villa",
+        "location": "Birmingham",
+        "stadium": "Villa Park",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Bournemouth",
+        "location": "Bournemouth",
+        "stadium": "Dean Court",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Brentford",
+        "location": "London",
+        "stadium": "Brentford Community Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Brighton & Hove Albion",
+        "location": "Brighton and Hove",
+        "stadium": "Falmer Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Chelsea",
+        "location": "London",
+        "stadium": "Stamford Bridge",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Coventry City",
+        "location": "Coventry",
+        "stadium": "Coventry Building Society Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Crystal Palace",
+        "location": "London",
+        "stadium": "Selhurst Park",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Everton",
+        "location": "Liverpool",
+        "stadium": "Hill Dickinson Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Fulham",
+        "location": "London",
+        "stadium": "Craven Cottage",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Hull City",
+        "location": "Kingston upon Hull",
+        "stadium": "MKM Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Ipswich Town",
+        "location": "Ipswich",
+        "stadium": "Portman Road",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Leeds United",
+        "location": "Leeds",
+        "stadium": "Elland Road",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Liverpool",
+        "location": "Liverpool",
+        "stadium": "Anfield",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Manchester City",
+        "location": "Manchester",
+        "stadium": "City of Manchester Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Manchester United",
+        "location": "Manchester",
+        "stadium": "Old Trafford",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Newcastle United",
+        "location": "Newcastle upon Tyne",
+        "stadium": "St James' Park",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Nottingham Forest",
+        "location": "West Bridgford",
+        "stadium": "City Ground",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Sunderland",
+        "location": "Sunderland",
+        "stadium": "Stadium of Light",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      },
+      {
+        "name": "Tottenham Hotspur",
+        "location": "London",
+        "stadium": "Tottenham Hotspur Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+      }
+    ]
+  },
+  {
+    "id": "la-liga",
+    "name": "La Liga",
+    "season": "2026/27",
+    "clubs": [
+      {
+        "name": "Alavés",
+        "location": "Vitoria-Gasteiz",
+        "stadium": "Campo de Fútbol de Mendizorrotza",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Athletic Bilbao",
+        "location": "Bilbao",
+        "stadium": "Estadio San Mamés",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Atlético Madrid",
+        "location": "Madrid",
+        "stadium": "Estadio Riyadh Air Metropolitano",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Barcelona",
+        "location": "Barcelona",
+        "stadium": "Camp Nou",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Celta Vigo",
+        "location": "Vigo",
+        "stadium": "Estadio ABANCA Balaídos",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Deportivo A Coruña",
+        "location": "A Coruña",
+        "stadium": "Estadio ABANCA Riazor",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Elche",
+        "location": "Elche",
+        "stadium": "Estadio Martínez Valero",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Espanyol",
+        "location": "Cornellà de Llobregat",
+        "stadium": "RCDE Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Getafe",
+        "location": "Getafe",
+        "stadium": "Estadio Coliseum",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Levante",
+        "location": "Valencia",
+        "stadium": "Estadio Ciutat de València",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Málaga",
+        "location": "Málaga",
+        "stadium": "La Rosaleda Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Osasuna",
+        "location": "Pamplona",
+        "stadium": "Estadio El Sadar",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Racing Santander",
+        "location": "Santander",
+        "stadium": "Campos de Sport de El Sardinero",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Rayo Vallecano",
+        "location": "Madrid",
+        "stadium": "Estadio Ontime Butarque",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Real Betis",
+        "location": "Seville",
+        "stadium": "Estadio Olímpico de la Cartuja",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Real Madrid",
+        "location": "Madrid",
+        "stadium": "Bernabéu",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Real Sociedad",
+        "location": "San Sebastián",
+        "stadium": "Reale Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Sevilla",
+        "location": "Seville",
+        "stadium": "Estadio Ramón Sánchez-Pizjuán",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Valencia",
+        "location": "Valencia",
+        "stadium": "Camp de Mestalla",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      },
+      {
+        "name": "Villarreal",
+        "location": "Villarreal",
+        "stadium": "Estadio de la Cerámica",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga"
+      }
+    ]
+  },
+  {
+    "id": "serie-a",
+    "name": "Serie A",
+    "season": "2026/27",
+    "clubs": [
+      {
+        "name": "Atalanta",
+        "location": "Bergamo",
+        "stadium": "New Balance Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Bologna",
+        "location": "Bologna",
+        "stadium": "Stadio Renato Dall'Ara",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Cagliari",
+        "location": "Cagliari",
+        "stadium": "Unipol Domus",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Como",
+        "location": "Como",
+        "stadium": "Stadio Giuseppe Sinigaglia",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Fiorentina",
+        "location": "Florence",
+        "stadium": "Stadio Artemio Franchi",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Frosinone",
+        "location": "Frosinone",
+        "stadium": "Stadio Benito Stirpe",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Genoa",
+        "location": "Genoa",
+        "stadium": "Stadio Luigi Ferraris",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Inter Milan",
+        "location": "Milan",
+        "stadium": "Stadio Giuseppe Meazza",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Juventus",
+        "location": "Turin",
+        "stadium": "Allianz Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Lazio",
+        "location": "Rome",
+        "stadium": "Stadio Olimpico",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Lecce",
+        "location": "Lecce",
+        "stadium": "Stadio Via del Mare-Ettore Giardiniero",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "AC Milan",
+        "location": "Milan",
+        "stadium": "San Siro",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Monza",
+        "location": "Monza",
+        "stadium": "Stadio Brianteo",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Napoli",
+        "location": "Naples",
+        "stadium": "Stadio Diego Armando Maradona",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Parma",
+        "location": "Parma",
+        "stadium": "Stadio Ennio Tardini",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Roma",
+        "location": "Rome",
+        "stadium": "Stadio Olimpico",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Sassuolo",
+        "location": "Reggio Emilia",
+        "stadium": "Mapei Stadium – Città del Tricolore",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Torino",
+        "location": "Turin",
+        "stadium": "Stadio Olimpico Grande Torino",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Udinese",
+        "location": "Udine",
+        "stadium": "Bluenergy Stadium",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      },
+      {
+        "name": "Venezia",
+        "location": "Venice",
+        "stadium": "Stadio Pier Luigi Penzo",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A"
+      }
+    ]
+  },
+  {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "season": "2026/27",
+    "clubs": [
+      {
+        "name": "FC Augsburg",
+        "location": "Augsburg",
+        "stadium": "WWK Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Union Berlin",
+        "location": "Berlin",
+        "stadium": "Stadion An der Alten Försterei",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Werder Bremen",
+        "location": "Bremen",
+        "stadium": "Weserstadion",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Borussia Dortmund",
+        "location": "Dortmund",
+        "stadium": "Signal Iduna Park",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "SV Elversberg",
+        "location": "Spiesen-Elversberg",
+        "stadium": "URSAPHARM-Arena",
+        "source": "https://www.bundesliga.com/en/bundesliga/clubs"
+      },
+      {
+        "name": "Eintracht Frankfurt",
+        "location": "Frankfurt",
+        "stadium": "Deutsche Bank Park",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "SC Freiburg",
+        "location": "Freiburg im Breisgau",
+        "stadium": "Europa-Park Stadion",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Hamburger SV",
+        "location": "Hamburg",
+        "stadium": "Volksparkstadion",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "TSG Hoffenheim",
+        "location": "Sinsheim",
+        "stadium": "SNP Arena",
+        "source": "https://www.bundesliga.com/en/bundesliga/clubs"
+      },
+      {
+        "name": "1. FC Köln",
+        "location": "Cologne",
+        "stadium": "RheinEnergieStadion",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "RB Leipzig",
+        "location": "Leipzig",
+        "stadium": "Red Bull Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Bayer Leverkusen",
+        "location": "Leverkusen",
+        "stadium": "BayArena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Mainz 05",
+        "location": "Mainz",
+        "stadium": "MEWA Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Borussia Mönchengladbach",
+        "location": "Mönchengladbach",
+        "stadium": "ista-Borussia-Park",
+        "source": "https://www.bundesliga.com/en/bundesliga/clubs"
+      },
+      {
+        "name": "Bayern Munich",
+        "location": "Munich",
+        "stadium": "Allianz Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "SC Paderborn",
+        "location": "Paderborn",
+        "stadium": "Home Deluxe Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "Schalke 04",
+        "location": "Gelsenkirchen",
+        "stadium": "Veltins-Arena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      },
+      {
+        "name": "VfB Stuttgart",
+        "location": "Stuttgart",
+        "stadium": "MHPArena",
+        "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga"
+      }
+    ]
+  }
+]

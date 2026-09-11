@@ -1,0 +1,20 @@
+{
+  "season": "2026/27",
+  "retrievedAt": "2026-09-11",
+  "championsLeagueClubs": 36,
+  "domesticClubs": 78,
+  "questions": 1009,
+  "independentReview": false,
+  "commercialClearance": false,
+  "scope": "UEFA named List A players only; domestic grounds and locations. Not complete domestic player squads.",
+  "sources": [
+    {
+      "file": "sources/champions-league-2026-27.json",
+      "sha256": "d452d69c29745526c9fadd3076a95f36e7bf4c0a13e17d07c87e19e1f2226d7f"
+    },
+    {
+      "file": "sources/domestic-clubs-2026-27.json",
+      "sha256": "7e255d8311fc94b6f4fbdec06cdaaecdd4ecf7a3973c28a99966ca1e3bbf9495"
+    }
+  ]
+}

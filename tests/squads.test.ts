@@ -1,15 +1,28 @@
 import {expect,it} from 'vitest';
 import questions from '../src/content/squad-questions.json';
 import chapters from '../src/content/squad-chapters.json';
-import {hydrate,initialProfile,makeSession,Question,validateBank} from '../src/core/quiz';
-it('covers 48 disjoint squads with one question per player and valid options',()=>{
-  expect(chapters).toHaveLength(48);expect(questions).toHaveLength(1248);
-  const ids=chapters.flatMap(c=>c.questionIds);expect(new Set(ids).size).toBe(1248);
+import {advance,careerTotals,correctAnswer,hydrate,initialProfile,makeSession,Question,submit,validateBank} from '../src/core/quiz';
+it('replaces the World Cup with all Champions League clubs and four complete domestic club lists',()=>{
+  for(const [competition,total] of [['champions-league',36],['premier-league',20],['la-liga',20],['serie-a',20],['bundesliga',18]] as const)expect(chapters.filter(c=>c.competition===competition)).toHaveLength(total);
+  const ids=chapters.flatMap(c=>c.questionIds);expect(new Set(ids).size).toBe(questions.length);
+  expect(questions.some(q=>q.id.startsWith('squad26-')||q.era.includes('World Cup'))).toBe(false);
   expect(validateBank(questions as Question[])).toEqual([]);
-  for(const c of chapters){expect(c.questionIds).toHaveLength(26);expect(questions.filter(q=>q.squadCode===c.code).map(q=>q.id)).toEqual(c.questionIds);}
+  for(const c of chapters){expect(c.questionIds.length).toBeGreaterThan(0);expect(questions.filter(q=>q.squadCode===c.code).map(q=>q.id)).toEqual(c.questionIds);}
 });
-it('plays unseen country questions at all levels and restores the country round',()=>{
-  const pool=questions.filter(q=>q.squadCode==='FRA') as Question[];
+it('never presents a stadium alias as an incorrect choice',()=>{
+ for(const q of questions as Question[])expect(q.options.filter(option=>correctAnswer(q,option)),q.id).toHaveLength(1);
+});
+it('retains earned career totals when the retired World Cup catalogue leaves the app',()=>{
+ const retired=[{...questions[0],id:'squad26-retired-player'}] as Question[];
+ let p=initialProfile();p.session=makeSession(retired,'squads','fan',[],'old-season');
+ p=advance(submit(p,retired,retired[0].answer,false));
+ const restored=hydrate(JSON.stringify(p),questions as Question[]);
+ expect(careerTotals(restored)).toEqual({rounds:1,answered:1,correct:1});
+ expect(restored.session).toBeNull();
+ expect(restored.solved).not.toContain(retired[0].id);
+});
+it('plays unseen club questions at all levels and restores the club round',()=>{
+  const pool=questions.filter(q=>q.squadCode==='ucl27-52280') as Question[];
   for(const level of ['starter','fan','expert'] as const){
     const p=initialProfile();p.session=makeSession(pool,'squads',level,[],'archive');
     const first=p.session.questionIds;

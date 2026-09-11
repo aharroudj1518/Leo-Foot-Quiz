@@ -10,7 +10,7 @@ export type Question = {
   assetIds?: string[];
   clubConnections?: string[];
   squadCode?: string;
-  squadClue?: {country:string;number:number;club:string};
+  squadClue?: {country:string;number:number;club:string;competition?:string};
 };
 export type Answer = { questionId: string; value: string; correct: boolean; hinted: boolean };
 export type Session = {
