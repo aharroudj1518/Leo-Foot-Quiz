@@ -3,10 +3,10 @@
   "retrievedAt": "2026-09-11",
   "championsLeagueClubs": 36,
   "domesticClubs": 78,
-  "questions": 1564,
+  "questions": 2096,
   "independentReview": false,
   "commercialClearance": false,
-  "scope": "UEFA List A players; selected official FPL players; domestic grounds and locations. Not complete domestic registration lists.",
+  "scope": "UEFA List A players; selected official FPL players; official Bundesliga club-page players; domestic grounds and locations. Not complete domestic registration lists.",
   "sources": [
     {
       "file": "sources/champions-league-2026-27.json",
@@ -19,6 +19,10 @@
     {
       "file": "sources/premier-league-players-2026-27.json",
       "sha256": "87a6ca3c7436a6a8cdcfc55c44d1eaf1e1bc8948cd0f54eba52fafee5fb721ce"
+    },
+    {
+      "file": "sources/bundesliga-players-2026-27.json",
+      "sha256": "3ce6ebd9d4473638a4eef02e93b27574c01428fd42f0994d21b1cab34eeeb601"
     }
   ]
 }

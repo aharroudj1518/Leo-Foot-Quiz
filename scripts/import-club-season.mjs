@@ -7,6 +7,7 @@ const write=(name,value)=>fs.writeFileSync(new URL(name,dir),JSON.stringify(valu
 const teams=read('sources/champions-league-2026-27.json');
 const leagues=read('sources/domestic-clubs-2026-27.json');
 const premier=read('sources/premier-league-players-2026-27.json');
+const bundesliga=read('sources/bundesliga-players-2026-27.json');
 if(teams.length!==36||new Set(teams.map(t=>t.code)).size!==36)throw new Error('Expected 36 Champions League clubs');
 const questions=[],chapters=[];
 const allPlayers=[...new Set(teams.flatMap(t=>t.players.map(p=>p.name)))];
@@ -52,12 +53,21 @@ for(const league of leagues){
     ids.push(id);
    }
   }
-  chapters.push({code,name:club.name,competition:league.id,kind:roster?'Players & grounds':'Clubs & grounds',questionIds:ids});
+  if(league.id==='bundesliga'){
+   const squad=bundesliga.clubs.find(c=>c.club===club.name);
+   if(!squad||squad.season!=='2026/27'||new Set(squad.players.map(p=>p.number)).size!==squad.players.length)throw new Error(`Invalid Bundesliga roster: ${club.name}`);
+   for(const p of squad.players){
+    const id=code+'-player-'+p.id;
+    questions.push({id,prompt:'Who wears this shirt?',answer:p.name,options:choices(p.name,squad.players.map(other=>other.name),id),explanation:`The 2026/27 Bundesliga club-page snapshot lists ${p.name} with ${club.name}: number ${p.number}, ${p.position.toLowerCase()}.`,hint:`Position: ${p.position}.`,category:'squads',difficulty:'fan',source:squad.source,era:'Bundesliga · 2026/27',premium:false,squadCode:code,squadClue:{country:club.name,number:p.number,club:p.position,competition:'BUNDESLIGA · 2026/27'}});
+    ids.push(id);
+   }
+  }
+  chapters.push({code,name:club.name,competition:league.id,kind:roster||league.id==='bundesliga'?'Players & grounds':'Clubs & grounds',questionIds:ids});
  }
 }
 const bank=[...read('questions.json').filter(q=>q.category!=='squads'),...questions];
 const issues=validateBank(bank);if(issues.length)throw new Error(issues.join('\n'));
 write('squad-questions.json',questions);write('squad-chapters.json',chapters);write('questions.json',bank);
 const editorial=read('editorial-status.json');editorial.questions=bank.length;editorial.independentEditorialApproval=false;write('editorial-status.json',editorial);
-write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA List A players; selected official FPL players; domestic grounds and locations. Not complete domestic registration lists.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json','sources/premier-league-players-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
+write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA List A players; selected official FPL players; official Bundesliga club-page players; domestic grounds and locations. Not complete domestic registration lists.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json','sources/premier-league-players-2026-27.json','sources/bundesliga-players-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
 console.log(`${questions.length} season questions; ${chapters.length} club chapters; ${bank.length} total questions.`);
