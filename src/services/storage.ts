@@ -4,7 +4,14 @@ let database: Promise<import('expo-sqlite').SQLiteDatabase> | undefined;
 async function db() {
   if (!database) database = import('expo-sqlite').then(async ({ openDatabaseAsync }) => {
     const connection = await openDatabaseAsync('leoqo.db');
-    await connection.execAsync('PRAGMA journal_mode = WAL; CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY NOT NULL, value TEXT NOT NULL);');
+    try {
+      await connection.execAsync('PRAGMA journal_mode = WAL; CREATE TABLE IF NOT EXISTS kv (key TEXT PRIMARY KEY NOT NULL, value TEXT NOT NULL);');
+    } catch (error) {
+      // Release the failed initialization handle before a user retries opening the database.
+      // Cleanup failure must not hide the original error or prevent the next attempt.
+      try { await connection.closeAsync(); } catch {}
+      throw error;
+    }
     return connection;
   }).catch(error => {
     // A temporary open failure must not poison every subsequent Retry attempt.
