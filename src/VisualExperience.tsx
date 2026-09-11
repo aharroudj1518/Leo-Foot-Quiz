@@ -47,7 +47,7 @@ export function ClubBadge({id,size=130}:{id:string;size?:number}){
   </View>;
 }
 
-export function VisualHome({onStart,profile,onCredits}:{onStart:(mode:Mode)=>void;profile:Profile;onCredits:()=>void}){
+export function VisualHome({onStart,profile,onCredits,onAlbum}:{onAlbum:()=>void;onStart:(mode:Mode)=>void;profile:Profile;onCredits:()=>void}){
   const completed=profile.seen.filter(id=>id.startsWith('visual-')).length;
   return <View style={{gap:20,marginBottom:24}}>
     <View style={v.headingRow}><View><Text style={v.eyebrow}>THE VISUAL FOOTBALL QUIZ</Text><Text style={v.heading}>Football in your DNA?</Text></View><View style={v.progressPill}><Icon name="football" size={16}/><Text style={v.progressText}>{completed}/{questions.length}</Text></View></View>
@@ -69,6 +69,7 @@ export function VisualHome({onStart,profile,onCredits}:{onStart:(mode:Mode)=>voi
       </Pressable>
     </View>
     <Pressable accessibilityRole="button" accessibilityLabel="Club connections, 6 puzzles" onPress={()=>onStart('connections')} style={({pressed})=>[{backgroundColor:'#103D3B',padding:20,borderRadius:18,gap:10},pressed&&v.pressed]}><View style={v.headingRow}><Icon name="git-branch-outline" color="#F4CF55" size={26}/><Text style={{color:'#F4CF55',fontSize:11,fontWeight:'800'}}>6 CONNECTIONS</Text></View><Text style={[v.cardTitle,{color:'white',fontSize:23}]}>Different shirts. Same player.</Text><Text style={{color:'#C4D6D0',fontSize:13,lineHeight:20}}>Connect the clubs to uncover the footballer.</Text><View style={v.cardFooter}><Text style={{color:'white',fontWeight:'800'}}>Play club connections</Text><Icon name="arrow-forward" color="white" size={23}/></View></Pressable>
+    <Pressable accessibilityRole="button" onPress={onAlbum} accessibilityLabel="Open player album" style={{paddingVertical:16,flexDirection:'row',justifyContent:'space-between',alignItems:'center',borderBottomWidth:1,borderColor:C.line}}><View style={{gap:5}}><Text style={v.sectionTitle}>Fill your player album</Text><Text style={v.small}>World stars · Game changers · The greats</Text></View><Icon name="albums-outline" size={27}/></Pressable>
     <View style={v.collection}><View style={v.headingRow}><Text style={v.sectionTitle}>Across the generations</Text><Icon name="sparkles-outline" size={19}/></View><View style={v.lineup}>{['bellingham','bonmati','ronaldinho','kerr','henry'].map((key,i)=><Pressable key={key} accessibilityRole="button" accessibilityLabel={`Play player gallery, portrait ${i+1}`} onPress={()=>onStart('portraits')} style={v.miniCard}><Image source={visualImages[key]} style={v.miniPhoto} accessible={false}/><View style={v.number}><Text style={v.numberText}>{String(i+1).padStart(2,'0')}</Text></View></Pressable>)}</View><View style={v.headingRow}><Text style={v.small}>A face you know. A name to remember.</Text><Pressable onPress={onCredits} accessibilityRole="button" accessibilityLabel="Artwork credits" style={{minHeight:44,justifyContent:'center'}}><Icon name="information-circle-outline" size={20}/></Pressable></View></View>
   </View>;
 }

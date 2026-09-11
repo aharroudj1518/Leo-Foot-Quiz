@@ -11,7 +11,7 @@ export function CollectionProgress({bank,profile,onStart}:{bank:Question[];profi
       const complete=items.length>0&&count===items.length;
       return <Pressable key={mode} accessibilityRole="button" accessibilityLabel={`${title}, ${count} of ${items.length} solved`} onPress={()=>onStart(mode)} style={({pressed})=>({backgroundColor:complete?'#FFF2C6':'white',padding:16,borderRadius:14,gap:12,opacity:pressed?.8:1})}>
         <View style={{flexDirection:'row',alignItems:'center',gap:12}}><Icon name={complete?'trophy':'ribbon-outline'} color={complete?'#976C12':C.green}/><Text style={{flex:1,fontSize:16,fontWeight:'700',color:C.ink}}>{title}</Text><Text style={{fontWeight:'800',color:C.green,fontVariant:['tabular-nums']}}>{count}/{items.length}</Text></View>
-        <View accessibilityRole="progressbar" accessibilityValue={{min:0,max:items.length,now:count}} accessibilityLabel={title} style={{height:6,backgroundColor:C.line,borderRadius:3,overflow:'hidden'}}><View style={{width:`${items.length?count/items.length*100:0}%`,height:6,backgroundColor:complete?'#C79725':C.green}}/></View>
+        <View accessibilityRole="progressbar" accessibilityValue={{min:0,max:items.length,now:count}} aria-valuemin={0} aria-valuemax={items.length} aria-valuenow={count} accessibilityLabel={title} style={{height:6,backgroundColor:C.line,borderRadius:3,overflow:'hidden'}}><View style={{width:`${items.length?count/items.length*100:0}%`,height:6,backgroundColor:complete?'#C79725':C.green}}/></View>
         {complete&&<Text style={{fontSize:12,fontWeight:'700',color:'#76540D'}}>Collection complete · Play again</Text>}
       </Pressable>;
     })}
