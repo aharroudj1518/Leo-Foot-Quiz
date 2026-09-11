@@ -4,7 +4,7 @@ We are developing Leoqo Football Quiz for Android, iOS and web and would like a 
 
 Could you quote separately for:
 1. A three-player pilot: Lionel Messi, Aitana Bonmatí and Ronaldinho.
-2. A complete 25-player collection, following approval of the pilot.
+2. A complete 50-player collection, following approval of the pilot.
 
 The intended uses include offline distribution in a free app with ads and in-app purchases, a web app, store screenshots and marketing. Please specify commercial-use terms, attribution, permitted modifications, any recurring fees, revisions, delivery schedule and the source/editable files included. Please also identify what reference images you would use and any rights or permissions that are not included in your offer.
 

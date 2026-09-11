@@ -32,3 +32,11 @@ the old `128313c` revision; it does not include the local visual edition.
 Promoted tested commit f9cc242 from codex/visual-preview to the main URL. Production deployment 61ppUr5ZYg9jkvis9tBb1xihB7fK completed successfully and is aliased to https://leo-foot-quiz.vercel.app. The public URL was opened and the player album rendered successfully. This supersedes earlier notes saying the main domain still serves the old text-led app.
 
 Commerce remains disabled and this web deployment is not evidence of store-launch readiness. Git master was not merged or changed by this promotion. Future preview commits do not automatically update the main domain; promote a tested batch explicitly or complete the PR integration when ready. The stadium expansion was implemented after this promotion and initially remains in the preview branch.
+
+## 11 September — version 0.4.0
+
+Production deployment EFQJrKNEjo5U9MK6R2YN2Q5LzdAs completed Ready from tested commit 6fe9f1d and is aliased to https://leo-foot-quiz.vercel.app. The live player album showed twelve Greats and started a ten-question chapter round; the new Ronaldo Nazário photograph rendered with credit and the letter board. This release contains 50 portraits, six stadium clues and visual mistake review.
+
+The first promotion attempt was rejected by automatic approval review after a deployment-list filter labelled Error was interpreted as build status. A fresh deployment-detail snapshot and screenshot both confirmed Ready for the exact commit. The same promotion workflow then passed and completed; no alternate execution path was used.
+
+The observed Vercel team plan is Hobby. Vercel's official documentation restricts Hobby to non-commercial personal use (https://vercel.com/docs/plans/hobby and https://vercel.com/docs/limits/fair-use-guidelines). Commercial hosting must be arranged as part of monetized launch. No paid plan was purchased or billing setting changed.
