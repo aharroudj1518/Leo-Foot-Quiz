@@ -43,7 +43,15 @@ const players=[
  ['caicedo','Linda Caicedo','Colombia','women'],['graham-hansen','Caroline Graham Hansen','Norway','women'],
  ['pirlo','Andrea Pirlo','Italy','legends'],['totti','Francesco Totti','Italy','legends'],
  ['puyol','Carles Puyol','Spain','legends'],['zlatan','Zlatan Ibrahimović','Sweden','legends'],
- ['rivaldo','Rivaldo','Brazil','legends'],['roberto-carlos','Roberto Carlos','Brazil','legends']
+ ['rivaldo','Rivaldo','Brazil','legends'],['roberto-carlos','Roberto Carlos','Brazil','legends'],
+ ['casillas','Iker Casillas','Spain','legends'],['kahn','Oliver Kahn','Germany','legends'],
+ ['cech','Petr Čech','Czech Republic','legends'],['schmeichel','Peter Schmeichel','Denmark','legends'],
+ ['van-der-sar','Edwin van der Sar','Netherlands','legends'],['ramos','Sergio Ramos','Spain','stars'],
+ ['oblak','Jan Oblak','Slovenia','stars'],['wirtz','Florian Wirtz','Germany','stars'],
+ ['earps','Mary Earps','England','women'],['hampton','Hannah Hampton','England','women'],
+ ['hemp','Lauren Hemp','England','women'],['stanway','Georgia Stanway','England','women'],
+ ['walsh','Keira Walsh','England','women'],['miedema','Vivianne Miedema','Netherlands','women'],
+ ['harder','Pernille Harder','Denmark','women'],['shaw','Khadija Shaw','Jamaica','women']
 ].filter(([id])=>!records.some(p=>p.id===id));
 if(!players.length){console.log('All roster portraits are already imported.');process.exit(0);}
 const headers={'User-Agent':'LeoFootQuizContent/0.2 (https://github.com/aharroudj1518/Leo-Foot-Quiz)'};
