@@ -22,6 +22,8 @@ notice_purchase_store_error:'The store could not confirm your purchase. Try Rest
 notice_restore_success:'Your Legends Pack has been restored.',
 notice_restore_none:'No Legends Pack purchase was found for this store account.',
 notice_restore_unavailable:'Restore is unavailable. Please try again.',
+shop_pending_price:'Awaiting store confirmation',
+shop_pending_check:'Check purchase status',
 notice_share_downloaded:'Your file has been downloaded.',
 notice_share_unavailable:'Sharing isn’t available right now. Please try again.',
 notice_source_open_failed:'The source could not be opened.',
