@@ -14,7 +14,10 @@ test('player images load, text alternatives work, and the complete visual round 
   for(let i=0;i<5;i++){
     const id=await page.evaluate(()=>{const s=JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session;return s.questionIds[s.index];});
     const question=bank.find(q=>q.id===id)!;
-    await page.getByRole('button',{name:question.answer,exact:true}).click();
+    const name=question.answer.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z]/g,'');
+    for(const letter of name){await page.getByRole('button',{name:new RegExp('^Letter '+letter+', tile ')}).and(page.locator(':enabled')).first().click();}
+    await page.getByRole('button',{name:'Shuffle letters',exact:true}).click();
+    await page.getByRole('button',{name:'Check name',exact:true}).click();
     await expect(page.getByText('NAILED IT',{exact:true})).toBeVisible();
     await page.getByRole('button',{name:i===4?'See my result':'Next question',exact:true}).click();
   }
