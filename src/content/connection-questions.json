@@ -1,7 +1,7 @@
 [
   {
     "id": "connections-ronaldo",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Cristiano Ronaldo",
     "options": [
       "Cristiano Ronaldo",
@@ -24,7 +24,7 @@
   },
   {
     "id": "connections-modric",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Luka Modrić",
     "options": [
       "Luka Modrić",
@@ -47,7 +47,7 @@
   },
   {
     "id": "connections-lewandowski",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Robert Lewandowski",
     "options": [
       "Robert Lewandowski",
@@ -70,13 +70,13 @@
   },
   {
     "id": "connections-reina",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Pepe Reina",
     "options": [
       "Pepe Reina",
       "Lionel Messi",
       "Erling Haaland",
-      "Cristiano Ronaldo"
+      "Gianluigi Buffon"
     ],
     "explanation": "Pepe Reina played for all the clubs shown. This selection is not a complete career history.",
     "hint": "This player represented Spain.",
@@ -93,13 +93,13 @@
   },
   {
     "id": "connections-messi",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Lionel Messi",
     "options": [
       "Lionel Messi",
       "Erling Haaland",
-      "Cristiano Ronaldo",
-      "Luka Modrić"
+      "Gianluigi Buffon",
+      "Clarence Seedorf"
     ],
     "explanation": "Lionel Messi played for all the clubs shown. This selection is not a complete career history.",
     "hint": "This player represented Argentina.",
@@ -115,13 +115,13 @@
   },
   {
     "id": "connections-haaland",
-    "prompt": "Which player connects these clubs?",
+    "prompt": "Which of these players connects these clubs?",
     "answer": "Erling Haaland",
     "options": [
       "Erling Haaland",
-      "Cristiano Ronaldo",
-      "Luka Modrić",
-      "Robert Lewandowski"
+      "Gianluigi Buffon",
+      "Clarence Seedorf",
+      "João Moutinho"
     ],
     "explanation": "Erling Haaland played for all the clubs shown. This selection is not a complete career history.",
     "hint": "This player represented Norway.",
@@ -134,6 +134,236 @@
       "Molde",
       "Red Bull Salzburg",
       "Manchester City"
+    ]
+  },
+  {
+    "id": "connections-buffon",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Gianluigi Buffon",
+    "options": [
+      "Gianluigi Buffon",
+      "Clarence Seedorf",
+      "João Moutinho",
+      "Henrikh Mkhitaryan"
+    ],
+    "explanation": "Gianluigi Buffon played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Italy.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Parma",
+      "Juventus",
+      "Paris Saint-Germain"
+    ]
+  },
+  {
+    "id": "connections-seedorf",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Clarence Seedorf",
+    "options": [
+      "Clarence Seedorf",
+      "João Moutinho",
+      "Henrikh Mkhitaryan",
+      "Edin Džeko"
+    ],
+    "explanation": "Clarence Seedorf played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Netherlands.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Ajax",
+      "Real Madrid",
+      "AC Milan"
+    ]
+  },
+  {
+    "id": "connections-moutinho",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "João Moutinho",
+    "options": [
+      "João Moutinho",
+      "Henrikh Mkhitaryan",
+      "Edin Džeko",
+      "Dani Alves"
+    ],
+    "explanation": "João Moutinho played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Portugal.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Sporting CP",
+      "Monaco",
+      "Wolverhampton Wanderers"
+    ]
+  },
+  {
+    "id": "connections-mkhitaryan",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Henrikh Mkhitaryan",
+    "options": [
+      "Henrikh Mkhitaryan",
+      "Edin Džeko",
+      "Dani Alves",
+      "Ángel Di María"
+    ],
+    "explanation": "Henrikh Mkhitaryan played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Armenia.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Shakhtar Donetsk",
+      "Arsenal",
+      "Roma"
+    ]
+  },
+  {
+    "id": "connections-dzeko",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Edin Džeko",
+    "options": [
+      "Edin Džeko",
+      "Dani Alves",
+      "Ángel Di María",
+      "Sergio Ramos"
+    ],
+    "explanation": "Edin Džeko played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Bosnia and Herzegovina.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Wolfsburg",
+      "Manchester City",
+      "Fenerbahçe"
+    ]
+  },
+  {
+    "id": "connections-alves",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Dani Alves",
+    "options": [
+      "Dani Alves",
+      "Ángel Di María",
+      "Sergio Ramos",
+      "Ivan Rakitić"
+    ],
+    "explanation": "Dani Alves played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Brazil.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Sevilla",
+      "Barcelona",
+      "Juventus"
+    ]
+  },
+  {
+    "id": "connections-di-maria",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Ángel Di María",
+    "options": [
+      "Ángel Di María",
+      "Sergio Ramos",
+      "Ivan Rakitić",
+      "Zlatan Ibrahimović"
+    ],
+    "explanation": "Ángel Di María played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Argentina.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Benfica",
+      "Real Madrid",
+      "Manchester United"
+    ]
+  },
+  {
+    "id": "connections-ramos",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Sergio Ramos",
+    "options": [
+      "Sergio Ramos",
+      "Ivan Rakitić",
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo"
+    ],
+    "explanation": "Sergio Ramos played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Spain.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Sevilla",
+      "Real Madrid",
+      "Paris Saint-Germain"
+    ]
+  },
+  {
+    "id": "connections-rakitic",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Ivan Rakitić",
+    "options": [
+      "Ivan Rakitić",
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Luka Modrić"
+    ],
+    "explanation": "Ivan Rakitić played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Croatia.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Basel",
+      "Schalke 04",
+      "Barcelona"
+    ]
+  },
+  {
+    "id": "connections-ibrahimovic",
+    "prompt": "Which of these players connects these clubs?",
+    "answer": "Zlatan Ibrahimović",
+    "options": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Luka Modrić",
+      "Robert Lewandowski"
+    ],
+    "explanation": "Zlatan Ibrahimović played for all the clubs shown. This selection is not a complete career history.",
+    "hint": "This player represented Sweden.",
+    "category": "connections",
+    "difficulty": "fan",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e9a0f70e31c-e6f6d51eef60-1000--most-uefa-club-appearances/",
+    "era": "Club connections · historical memberships",
+    "premium": false,
+    "clubConnections": [
+      "Ajax",
+      "Juventus",
+      "Inter Milan"
     ]
   }
 ]

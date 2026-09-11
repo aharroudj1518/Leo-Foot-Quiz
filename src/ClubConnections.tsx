@@ -11,15 +11,13 @@ export function ClubConnections({clubs,identity}:{clubs:string[];identity:string
       <Text style={styles.club}>{club}</Text>
       <Icon name="shirt-outline" size={22} color="#C4D6D0"/>
     </View>)}
-    <Text style={styles.caption}>Find the player who represented every club shown.</Text>
   </View></Reveal>;
 }
 const styles=StyleSheet.create({
-  board:{backgroundColor:'#103D3B',padding:20,borderRadius:18,gap:12,marginBottom:20},
+  board:{backgroundColor:'#103D3B',padding:16,borderRadius:18,gap:6,marginBottom:14},
   label:{fontSize:10,fontWeight:'800',letterSpacing:1.3,color:'#F4CF55',marginBottom:4},
-  stop:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:12,borderBottomWidth:1,borderBottomColor:'#3F6461'},
+  stop:{flexDirection:'row',alignItems:'center',gap:12,paddingVertical:7,borderBottomWidth:1,borderBottomColor:'#3F6461'},
   number:{width:32,height:32,borderRadius:16,backgroundColor:'#F4CF55',alignItems:'center',justifyContent:'center'},
   numberText:{fontSize:12,fontWeight:'900',color:'#103D3B',fontVariant:['tabular-nums']},
-  club:{flex:1,color:'#FFFFFF',fontWeight:'700',fontSize:19,lineHeight:26},
-  caption:{color:'#C4D6D0',fontSize:12,lineHeight:18,marginTop:4}
+  club:{flex:1,color:'#FFFFFF',fontWeight:'700',fontSize:17,lineHeight:23}
 });

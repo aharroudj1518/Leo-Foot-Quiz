@@ -9,7 +9,7 @@ Corrected source: a90237d4a964418f2f4e0a683ee9262cade0921d. Validation profile, 
 - iOS simulator: 20b4fd30-4148-4339-ae19-d9f82a6cf062
   https://expo.dev/accounts/amoharroudj/projects/leoqo-football-quiz/builds/20b4fd30-4148-4339-ae19-d9f82a6cf062
 
-At the last initial check Android was IN_QUEUE and iOS IN_PROGRESS. Recheck these exact jobs; do not start duplicates because a status query is slow. A job link is not proof of a completed downloadable artifact.
+Latest verified results: Android remains IN_QUEUE with no download artifact; iOS simulator is FINISHED. Successful iOS simulator archive: https://expo.dev/artifacts/eas/rTs-9lUQRlwrAy0Asexh_Jm0T61G0yFW29Sl1CJe21U.tar.gz . Recheck the exact Android job; do not start duplicates because a status query is slow. A job link is not proof of a completed downloadable artifact.
 
 ## Failed first attempt
 
@@ -22,3 +22,4 @@ TypeScript, the 81-test unit suite plus the new Node hook test, all 46 desktop/p
 The public 0.4.1 site completed a daily round at 1/5, showed a one-day streak and recorded one completed round with 20% accuracy. It also clarified Ronaldo and accepted R9 in the saved portrait round.
 
 Native compilation does not prove real-device acceptance. The iOS archive is for a Mac simulator, not iPhone/TestFlight. Cartoon delivery, store setup, independent content/rights approval, native acceptance and the iOS encryption declaration remain outstanding.
+
