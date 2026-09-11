@@ -9,6 +9,7 @@ const leagues=read('sources/domestic-clubs-2026-27.json');
 const premier=read('sources/premier-league-players-2026-27.json');
 const bundesliga=read('sources/bundesliga-players-2026-27.json');
 const laliga=read('sources/la-liga-players-2026-27.json');
+const seriea=read('sources/serie-a-players-2026-27.json');
 if(teams.length!==36||new Set(teams.map(t=>t.code)).size!==36)throw new Error('Expected 36 Champions League clubs');
 const questions=[],chapters=[];
 const allPlayers=[...new Set(teams.flatMap(t=>t.players.map(p=>p.name)))];
@@ -54,7 +55,7 @@ for(const league of leagues){
     ids.push(id);
    }
   }
-  const squad=(league.id==='bundesliga'?bundesliga:league.id==='la-liga'?laliga:undefined)?.clubs.find(c=>c.club===club.name);
+  const squad=(league.id==='bundesliga'?bundesliga:league.id==='la-liga'?laliga:league.id==='serie-a'?seriea:undefined)?.clubs.find(c=>c.club===club.name);
   if(league.id==='bundesliga'&&!squad)throw new Error(`Missing Bundesliga roster: ${club.name}`);
   if(squad){
    if(!squad||squad.season!=='2026/27'||new Set(squad.players.map(p=>p.number)).size!==squad.players.length)throw new Error(`Invalid shirt roster: ${club.name}`);
@@ -71,5 +72,5 @@ const bank=[...read('questions.json').filter(q=>q.category!=='squads'),...questi
 const issues=validateBank(bank);if(issues.length)throw new Error(issues.join('\n'));
 write('squad-questions.json',questions);write('squad-chapters.json',chapters);write('questions.json',bank);
 const editorial=read('editorial-status.json');editorial.questions=bank.length;editorial.independentEditorialApproval=false;write('editorial-status.json',editorial);
-write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA List A players; selected official FPL players; official Bundesliga and selected La Liga club-page players; domestic grounds and locations. Not complete domestic registration lists.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json','sources/premier-league-players-2026-27.json','sources/bundesliga-players-2026-27.json','sources/la-liga-players-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
+write('sources/club-season-import.json',{season:'2026/27',retrievedAt:'2026-09-11',championsLeagueClubs:36,domesticClubs:78,questions:questions.length,independentReview:false,commercialClearance:false,scope:'UEFA List A players; selected official FPL players; official Bundesliga and selected La Liga/Serie A club-page players; domestic grounds and locations. Not complete domestic registration lists.',sources:['sources/champions-league-2026-27.json','sources/domestic-clubs-2026-27.json','sources/premier-league-players-2026-27.json','sources/bundesliga-players-2026-27.json','sources/la-liga-players-2026-27.json','sources/serie-a-players-2026-27.json'].map(file=>({file,sha256:createHash('sha256').update(fs.readFileSync(new URL(file,dir))).digest('hex')}))});
 console.log(`${questions.length} season questions; ${chapters.length} club chapters; ${bank.length} total questions.`);

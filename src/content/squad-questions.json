@@ -31296,6 +31296,681 @@
     "squadCode": "club27-serie-a-ac-milan"
   },
   {
+    "id": "club27-serie-a-ac-milan-player-d0ag3rk2mc50gwbo5famdzaqc",
+    "prompt": "Who wears this shirt?",
+    "answer": "Lorenzo Torriani",
+    "options": [
+      "Lorenzo Torriani",
+      "Ruben Loftus-Cheek",
+      "Mike Maignan",
+      "Fikayo Tomori"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Lorenzo Torriani with AC Milan: number 96, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 96,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-3fpnfgoy4lbpapv2th6g60cet",
+    "prompt": "Who wears this shirt?",
+    "answer": "Mike Maignan",
+    "options": [
+      "Mike Maignan",
+      "Sankhoun Diawara",
+      "Christian Pulisic",
+      "Samuel Chukwueze"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Mike Maignan with AC Milan: number 16, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 16,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-2udciji4n7tr07ft7twe2r9w5",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pietro Terracciano",
+    "options": [
+      "Pietro Terracciano",
+      "Mario Gila",
+      "Samuel Chukwueze",
+      "Valeri Ivanov Vladimirov"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Pietro Terracciano with AC Milan: number 1, goalkeeper.",
+    "hint": "Position: Goalkeeper.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 1,
+      "club": "Goalkeeper",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-7odl8qgd0qak6w4ox0t3kg3kk",
+    "prompt": "Who wears this shirt?",
+    "answer": "Davide Bartesaghi",
+    "options": [
+      "Davide Bartesaghi",
+      "Christian Pulisic",
+      "Adrien Rabiot",
+      "Gonçalo Ramos"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Davide Bartesaghi with AC Milan: number 33, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 33,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-3sezchmdtivxl4kusvgc6j7x1",
+    "prompt": "Who wears this shirt?",
+    "answer": "Fikayo Tomori",
+    "options": [
+      "Fikayo Tomori",
+      "Mario Gila",
+      "Alexis Saelemaekers",
+      "Pietro Terracciano"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Fikayo Tomori with AC Milan: number 23, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 23,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-20f5apcbciifqyln8hp3cziwa",
+    "prompt": "Who wears this shirt?",
+    "answer": "Filippo Terracciano",
+    "options": [
+      "Filippo Terracciano",
+      "Ardon Jashari",
+      "Fikayo Tomori",
+      "Pervis Estupiñan"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Filippo Terracciano with AC Milan: number 42, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 42,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-95r0jtkw03vjohzwc8os8ielm",
+    "prompt": "Who wears this shirt?",
+    "answer": "Koni De Winter",
+    "options": [
+      "Koni De Winter",
+      "Pietro Terracciano",
+      "Filippo Terracciano",
+      "Lorenzo Torriani"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Koni De Winter with AC Milan: number 5, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 5,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-5gond4ss348863bc1768s4q",
+    "prompt": "Who wears this shirt?",
+    "answer": "Mario Gila",
+    "options": [
+      "Mario Gila",
+      "Koni De Winter",
+      "Pietro Terracciano",
+      "Davide Bartesaghi"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Mario Gila with AC Milan: number 34, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 34,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-enqcaecpt5hy0qv9x5pzmkjc9",
+    "prompt": "Who wears this shirt?",
+    "answer": "Matteo Gabbia",
+    "options": [
+      "Matteo Gabbia",
+      "Pervis Estupiñan",
+      "Pietro Terracciano",
+      "Mike Maignan"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Matteo Gabbia with AC Milan: number 46, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 46,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-87g6qlasqe627i5g7ir30j2sp",
+    "prompt": "Who wears this shirt?",
+    "answer": "Pervis Estupiñan",
+    "options": [
+      "Pervis Estupiñan",
+      "Fikayo Tomori",
+      "Adrien Rabiot",
+      "Alexis Saelemaekers"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Pervis Estupiñan with AC Milan: number 2, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 2,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-3vs3f8vdnyfkmtwc3h0z920wk",
+    "prompt": "Who wears this shirt?",
+    "answer": "Sankhoun Diawara",
+    "options": [
+      "Sankhoun Diawara",
+      "Mike Maignan",
+      "Mario Gila",
+      "Pervis Estupiñan"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Sankhoun Diawara with AC Milan: number 13, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 13,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-7wjdqyl3bkhsfca5cu4riwley",
+    "prompt": "Who wears this shirt?",
+    "answer": "Strahinja Pavlović",
+    "options": [
+      "Strahinja Pavlović",
+      "Luka Modrić",
+      "Samuel Chukwueze",
+      "Pietro Terracciano"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Strahinja Pavlović with AC Milan: number 31, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 31,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-bt9jevjip0izkg5b1bu0yhxjo",
+    "prompt": "Who wears this shirt?",
+    "answer": "Valeri Ivanov Vladimirov",
+    "options": [
+      "Valeri Ivanov Vladimirov",
+      "Gonçalo Ramos",
+      "Sankhoun Diawara",
+      "Fikayo Tomori"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Valeri Ivanov Vladimirov with AC Milan: number 35, defender.",
+    "hint": "Position: Defender.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 35,
+      "club": "Defender",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-2nddcty9qris2mmeldon0ogd1",
+    "prompt": "Who wears this shirt?",
+    "answer": "Adrien Rabiot",
+    "options": [
+      "Adrien Rabiot",
+      "Luka Modrić",
+      "Fikayo Tomori",
+      "Ardon Jashari"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Adrien Rabiot with AC Milan: number 12, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 12,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-498kxii7w64hmki575xdur28k",
+    "prompt": "Who wears this shirt?",
+    "answer": "Alphadjo Cisse",
+    "options": [
+      "Alphadjo Cisse",
+      "Valeri Ivanov Vladimirov",
+      "Filippo Terracciano",
+      "Samuel Chukwueze"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Alphadjo Cisse with AC Milan: number 70, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 70,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-94sln58zt76ydfvs4pl7xkqy2",
+    "prompt": "Who wears this shirt?",
+    "answer": "Ardon Jashari",
+    "options": [
+      "Ardon Jashari",
+      "Diego Moreira",
+      "Koni De Winter",
+      "Davide Bartesaghi"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Ardon Jashari with AC Milan: number 30, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 30,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-esbo3h6pmw3kpxp8153iilr10",
+    "prompt": "Who wears this shirt?",
+    "answer": "Christian Comotto",
+    "options": [
+      "Christian Comotto",
+      "Diego Moreira",
+      "Fikayo Tomori",
+      "Mike Maignan"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Christian Comotto with AC Milan: number 28, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 28,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-93soe2rjn0z874cc9ofcesgkp",
+    "prompt": "Who wears this shirt?",
+    "answer": "Christian Pulisic",
+    "options": [
+      "Christian Pulisic",
+      "Pietro Terracciano",
+      "Koni De Winter",
+      "Valeri Ivanov Vladimirov"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Christian Pulisic with AC Milan: number 11, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 11,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-8hg7sqlb5o3duhbhm31oifjhm",
+    "prompt": "Who wears this shirt?",
+    "answer": "Diego Moreira",
+    "options": [
+      "Diego Moreira",
+      "Mike Maignan",
+      "Luka Modrić",
+      "Samuel Chukwueze"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Diego Moreira with AC Milan: number 22, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 22,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-diod1hv5hv7v7z7mfleev1txx",
+    "prompt": "Who wears this shirt?",
+    "answer": "Luka Modrić",
+    "options": [
+      "Luka Modrić",
+      "Lorenzo Torriani",
+      "Diego Moreira",
+      "Fikayo Tomori"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Luka Modrić with AC Milan: number 14, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 14,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-71bbzkvxtah61qhi34m9n79ck",
+    "prompt": "Who wears this shirt?",
+    "answer": "Omari Hutchinson",
+    "options": [
+      "Omari Hutchinson",
+      "Mario Gila",
+      "Ardon Jashari",
+      "Sankhoun Diawara"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Omari Hutchinson with AC Milan: number 20, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 20,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-e6jaaazxqeczj6ziaj0qnqpxx",
+    "prompt": "Who wears this shirt?",
+    "answer": "Ruben Loftus-Cheek",
+    "options": [
+      "Ruben Loftus-Cheek",
+      "Pietro Terracciano",
+      "Christian Pulisic",
+      "Lorenzo Torriani"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Ruben Loftus-Cheek with AC Milan: number 8, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 8,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-9vnr9uog5fmggich2i4vjxwbt",
+    "prompt": "Who wears this shirt?",
+    "answer": "Alexis Saelemaekers",
+    "options": [
+      "Alexis Saelemaekers",
+      "Christian Comotto",
+      "Koni De Winter",
+      "Adrien Rabiot"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Alexis Saelemaekers with AC Milan: number 56, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 56,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-b2e12l3s3dxgyr8d2rk5qb9ey",
+    "prompt": "Who wears this shirt?",
+    "answer": "Yunus Musah",
+    "options": [
+      "Yunus Musah",
+      "Lorenzo Torriani",
+      "Pietro Terracciano",
+      "Matteo Gabbia"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Yunus Musah with AC Milan: number 80, midfielder.",
+    "hint": "Position: Midfielder.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 80,
+      "club": "Midfielder",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-5vz3ahy53htjc8pk4wzvytzbo",
+    "prompt": "Who wears this shirt?",
+    "answer": "Francesco Camarda",
+    "options": [
+      "Francesco Camarda",
+      "Pietro Terracciano",
+      "Alphadjo Cisse",
+      "Koni De Winter"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Francesco Camarda with AC Milan: number 73, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 73,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-9v4l7ic3ve6d22c0gs9p1oe3u",
+    "prompt": "Who wears this shirt?",
+    "answer": "Gonçalo Ramos",
+    "options": [
+      "Gonçalo Ramos",
+      "Francesco Camarda",
+      "Mike Maignan",
+      "Matteo Gabbia"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Gonçalo Ramos with AC Milan: number 9, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 9,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
+    "id": "club27-serie-a-ac-milan-player-3bm08rp9rgzh6cjhk0picxs6h",
+    "prompt": "Who wears this shirt?",
+    "answer": "Samuel Chukwueze",
+    "options": [
+      "Samuel Chukwueze",
+      "Diego Moreira",
+      "Ruben Loftus-Cheek",
+      "Fikayo Tomori"
+    ],
+    "explanation": "The 2026/27 Serie A club-page snapshot lists Samuel Chukwueze with AC Milan: number 21, forward.",
+    "hint": "Position: Forward.",
+    "category": "squads",
+    "difficulty": "fan",
+    "source": "https://www.acmilan.com/en/teams/men-first-team",
+    "era": "Serie A · 2026/27",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "squadClue": {
+      "country": "AC Milan",
+      "number": 21,
+      "club": "Forward",
+      "competition": "SERIE A · 2026/27"
+    }
+  },
+  {
     "id": "club27-serie-a-monza-stadium",
     "prompt": "Which ground is listed for Monza in 2026/27?",
     "answer": "Stadio Brianteo",

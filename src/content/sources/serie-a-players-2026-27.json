@@ -1,0 +1,178 @@
+{
+  "season": "2026/27",
+  "retrievedAt": "2026-09-11",
+  "scope": "Selected official club-page player snapshots; not complete Serie A registration lists.",
+  "independentReview": false,
+  "clubs": [
+    {
+      "club": "AC Milan",
+      "season": "2026/27",
+      "source": "https://www.acmilan.com/en/teams/men-first-team",
+      "rawSha256": "af1b7132ae10ed6544bdca5213cc54ad846db77c4fc3f00bb59b4b973474ff1a",
+      "players": [
+        {
+          "id": "d0ag3rk2mc50gwbo5famdzaqc",
+          "name": "Lorenzo Torriani",
+          "number": 96,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "3fpnfgoy4lbpapv2th6g60cet",
+          "name": "Mike Maignan",
+          "number": 16,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "2udciji4n7tr07ft7twe2r9w5",
+          "name": "Pietro Terracciano",
+          "number": 1,
+          "position": "Goalkeeper"
+        },
+        {
+          "id": "7odl8qgd0qak6w4ox0t3kg3kk",
+          "name": "Davide Bartesaghi",
+          "number": 33,
+          "position": "Defender"
+        },
+        {
+          "id": "3sezchmdtivxl4kusvgc6j7x1",
+          "name": "Fikayo Tomori",
+          "number": 23,
+          "position": "Defender"
+        },
+        {
+          "id": "20f5apcbciifqyln8hp3cziwa",
+          "name": "Filippo Terracciano",
+          "number": 42,
+          "position": "Defender"
+        },
+        {
+          "id": "95r0jtkw03vjohzwc8os8ielm",
+          "name": "Koni De Winter",
+          "number": 5,
+          "position": "Defender"
+        },
+        {
+          "id": "5gond4ss348863bc1768s4q",
+          "name": "Mario Gila",
+          "number": 34,
+          "position": "Defender"
+        },
+        {
+          "id": "enqcaecpt5hy0qv9x5pzmkjc9",
+          "name": "Matteo Gabbia",
+          "number": 46,
+          "position": "Defender"
+        },
+        {
+          "id": "87g6qlasqe627i5g7ir30j2sp",
+          "name": "Pervis Estupiñan",
+          "number": 2,
+          "position": "Defender"
+        },
+        {
+          "id": "3vs3f8vdnyfkmtwc3h0z920wk",
+          "name": "Sankhoun Diawara",
+          "number": 13,
+          "position": "Defender"
+        },
+        {
+          "id": "7wjdqyl3bkhsfca5cu4riwley",
+          "name": "Strahinja Pavlović",
+          "number": 31,
+          "position": "Defender"
+        },
+        {
+          "id": "bt9jevjip0izkg5b1bu0yhxjo",
+          "name": "Valeri Ivanov Vladimirov",
+          "number": 35,
+          "position": "Defender"
+        },
+        {
+          "id": "2nddcty9qris2mmeldon0ogd1",
+          "name": "Adrien Rabiot",
+          "number": 12,
+          "position": "Midfielder"
+        },
+        {
+          "id": "498kxii7w64hmki575xdur28k",
+          "name": "Alphadjo Cisse",
+          "number": 70,
+          "position": "Midfielder"
+        },
+        {
+          "id": "94sln58zt76ydfvs4pl7xkqy2",
+          "name": "Ardon Jashari",
+          "number": 30,
+          "position": "Midfielder"
+        },
+        {
+          "id": "esbo3h6pmw3kpxp8153iilr10",
+          "name": "Christian Comotto",
+          "number": 28,
+          "position": "Midfielder"
+        },
+        {
+          "id": "93soe2rjn0z874cc9ofcesgkp",
+          "name": "Christian Pulisic",
+          "number": 11,
+          "position": "Midfielder"
+        },
+        {
+          "id": "8hg7sqlb5o3duhbhm31oifjhm",
+          "name": "Diego Moreira",
+          "number": 22,
+          "position": "Midfielder"
+        },
+        {
+          "id": "diod1hv5hv7v7z7mfleev1txx",
+          "name": "Luka Modrić",
+          "number": 14,
+          "position": "Midfielder"
+        },
+        {
+          "id": "71bbzkvxtah61qhi34m9n79ck",
+          "name": "Omari Hutchinson",
+          "number": 20,
+          "position": "Midfielder"
+        },
+        {
+          "id": "e6jaaazxqeczj6ziaj0qnqpxx",
+          "name": "Ruben Loftus-Cheek",
+          "number": 8,
+          "position": "Midfielder"
+        },
+        {
+          "id": "9vnr9uog5fmggich2i4vjxwbt",
+          "name": "Alexis Saelemaekers",
+          "number": 56,
+          "position": "Midfielder"
+        },
+        {
+          "id": "b2e12l3s3dxgyr8d2rk5qb9ey",
+          "name": "Yunus Musah",
+          "number": 80,
+          "position": "Midfielder"
+        },
+        {
+          "id": "5vz3ahy53htjc8pk4wzvytzbo",
+          "name": "Francesco Camarda",
+          "number": 73,
+          "position": "Forward"
+        },
+        {
+          "id": "9v4l7ic3ve6d22c0gs9p1oe3u",
+          "name": "Gonçalo Ramos",
+          "number": 9,
+          "position": "Forward"
+        },
+        {
+          "id": "3bm08rp9rgzh6cjhk0picxs6h",
+          "name": "Samuel Chukwueze",
+          "number": 21,
+          "position": "Forward"
+        }
+      ]
+    }
+  ]
+}
