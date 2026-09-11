@@ -46,14 +46,16 @@ const clubs = [
   ['juventus','Juventus','Black and white striped shield with a gold star.','Turin · The Bianconeri','Black and white and the city of Turin point to Juventus.','https://www.juventus.com/en/club/history/'],
   ['barcelona','FC Barcelona','Blue and garnet shield with a gold football.','Catalonia · The Blaugrana','Blue and garnet are the colours behind Barcelona’s Blaugrana nickname.','https://www.fcbarcelona.com/en/club/history'],
 ];
-for(const [key,name,description,hint,explanation,source] of clubs) add(key,'badge','badges',name,clubs.filter(c=>c[1]!==name).slice(0,3).map(c=>c[1]),description,hint,`${explanation} This is an original puzzle illustration, not the official crest.`,source);
+// Rotate alternatives through the whole collection rather than repeating its first three entries.
+const alternativesFor=(roster,index)=>[1,2,3].map(offset=>roster[(index+offset)%roster.length][1]);
+for(const [index,[key,name,description,hint,explanation,source]] of clubs.entries()) add(key,'badge','badges',name,alternativesFor(clubs,index),description,hint,`${explanation} This is an original puzzle illustration, not the official crest.`,source);
 const stadiums = [
   ['wembley','Wembley Stadium','A large stadium with a single illuminated arch above the roof.','London · Look at the great arch.','The arch is the defining feature of Wembley Stadium in London. This image is an illustrative interpretation.','https://www.wembleystadium.com/'],
   ['allianz','Allianz Arena','A rounded stadium exterior made of illuminated inflatable-looking panels.','Munich · A luminous outer shell.','The Allianz Arena in Munich is known for its illuminated exterior panels.',credits.find(c=>c.id==='allianz').source],
   ['maracana','Maracanã','A huge oval stadium viewed from above, with a continuous ring of roof and seating.','Rio de Janeiro · A Brazilian landmark.','The Maracanã is a landmark football stadium in Rio de Janeiro.',credits.find(c=>c.id==='maracana').source],
 ];
 for(const p of grounds)stadiums.push([p.id,p.name,p.description,`Location: ${p.country}.`,`${p.name} is in ${p.country}. This archive photograph does not claim to show its current condition.`,p.source]);
-for(const [key,name,description,hint,explanation,source] of stadiums) add(key,'stadium','stadiums',name,stadiums.filter(s=>s[0]!==key).slice(0,3).map(s=>s[1]),description,hint,explanation,source);
+for(const [index,[key,name,description,hint,explanation,source]] of stadiums.entries()) add(key,'stadium','stadiums',name,alternativesFor(stadiums,index),description,hint,explanation,source);
 fs.writeFileSync(new URL('visual-questions.json',dir),JSON.stringify(additions,null,2)+'\n');
 const existing=JSON.parse(fs.readFileSync(new URL('questions.json',dir),'utf8'));
 const replacements=new Map(additions.map(q=>[q.id,q]));

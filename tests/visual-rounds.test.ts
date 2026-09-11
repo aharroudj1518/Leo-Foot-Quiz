@@ -4,6 +4,22 @@ import assets from '../src/content/asset-register.json';
 import {makeSession,hydrate,initialProfile,Question} from '../src/core/quiz';
 const bank=data as Question[];
 describe('visual rounds',()=>{
+  it('varies badge and stadium distractors across their complete collections',()=>{
+    for(const category of ['badges','stadiums']){
+      const collection=bank.filter(q=>q.category===category);
+      const appearances=new Map(collection.map(q=>[q.answer,0]));
+      for(const q of collection){
+        expect(new Set(q.options).size).toBe(4);
+        expect(q.options).toContain(q.answer);
+        for(const option of q.options.filter(o=>o!==q.answer)){
+          expect(appearances.has(option)).toBe(true);
+          appearances.set(option,appearances.get(option)!+1);
+        }
+      }
+      expect(Math.min(...appearances.values())).toBeGreaterThan(0);
+      expect(Math.max(...appearances.values())-Math.min(...appearances.values())).toBeLessThanOrEqual(1);
+    }
+  });
   it('has a playable visual-only set at every selected level',()=>{
     for(const mode of ['portraits','badges','stadiums'] as const)for(const level of ['starter','fan','expert'] as const){
       const round=makeSession(bank,mode,level,[],'visual-test');
