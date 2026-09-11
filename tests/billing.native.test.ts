@@ -72,3 +72,33 @@ it('sanitizes restore failures and keeps previously verified access',async()=>{
  expect(failure.kind).toBe('restore');expect(failure.message).not.toContain('SDK_INTERNAL');
  store.infoFail=true;expect((await loadShop()).owned).toBe(true);
 });
+
+it('requires an explicit successful restore before retrying an uncertain purchase',async()=>{
+ store.packages=[pkg];store.purchase.mockRejectedValue({code:'2'});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'restore'});
+ expect(await loadShop()).toMatchObject({available:false,owned:false,pending:false,needsRestore:true});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'restore'});
+ expect(store.purchase).toHaveBeenCalledTimes(1);
+ store.restore.mockRejectedValueOnce({code:'10'});
+ await expect(restore()).rejects.toMatchObject({kind:'restore'});
+ expect((await loadShop()).needsRestore).toBe(true);
+ expect(await restore()).toBe(false);
+ expect(await loadShop()).toMatchObject({available:true,needsRestore:false});
+ store.owned=true;
+ store.purchase.mockResolvedValueOnce({customerInfo:info()});
+ expect(await buy(pkg)).toBe(true);
+});
+
+it('a confirmed entitlement clears uncertain checkout recovery without another purchase',async()=>{
+ await loadShop();store.purchase.mockRejectedValue({code:'2'});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'restore'});
+ store.owned=true;store.listener!(info());
+ expect(await loadShop()).toMatchObject({owned:true,needsRestore:false,pending:false});
+ expect(store.purchase).toHaveBeenCalledTimes(1);
+});
+
+it('cancellation leaves checkout available and does not demand restore',async()=>{
+ store.packages=[pkg];store.purchase.mockRejectedValue({code:'1'});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'cancelled'});
+ expect(await loadShop()).toMatchObject({available:true,needsRestore:false,pending:false});
+});

@@ -5,7 +5,8 @@ Submitted once on 11 September 2026 with the existing validation profile and rem
 - Job: https://expo.dev/accounts/amoharroudj/projects/leoqo-football-quiz/builds/81a88b97-f51d-4bfc-a295-583c673bb104
 - Verified appVersion: 0.5.4
 - Verified source: eb7adf145c45db970e855e30129ed501520e5f66
-- Status after submission: IN_QUEUE; no artifact yet. Poll this job rather than submitting another after a timeout.
+- Status verified 11 September 2026: FINISHED.
+- APK: https://expo.dev/artifacts/eas/5kbBmtCgFUYy4YzG8CV7zq5K4VliwMu_xJOmApdJhbo.apk
 
 Includes 2,357 questions, all 18 Bundesliga clubs with 532 player questions and 36 ground questions, 70 player photographs, nine stadium photo questions, varied stadium/badge distractors, SQLite setup recovery and the club replay fix. No new cartoon artwork is included. Commerce remains disabled.
 

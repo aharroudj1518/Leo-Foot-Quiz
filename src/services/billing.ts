@@ -4,7 +4,7 @@ import type { CustomerInfo, PurchasesPackage } from 'react-native-purchases';
 import editorial from '../content/editorial-status.json';
 
 export const ENTITLEMENT = 'legends';
-export type Shop = { available: boolean; owned: boolean; pending: boolean; product: PurchasesPackage | null; message: string };
+export type Shop = { available: boolean; owned: boolean; pending: boolean; needsRestore: boolean; product: PurchasesPackage | null; message: string };
 export class BillingFailure extends Error {
   constructor(public kind:'pending'|'cancelled'|'restore'|'unavailable',message:string){super(message);this.name='BillingFailure';}
   get userCancelled(){return this.kind==='cancelled';}
@@ -14,10 +14,12 @@ let configured = false;
 let lastOwnership = false;
 let pending = false;
 let buying = false;
+let needsRestore = false;
+const restoreMessage='The store could not confirm your purchase. Use Restore purchases to check its status before trying to buy again.';
 const ownershipListeners = new Set<(value: boolean) => void>();
 function receiveInfo(info: CustomerInfo) {
   lastOwnership = owned(info);
-  if(lastOwnership)pending=false;
+  if(lastOwnership){pending=false;needsRestore=false;}
   ownershipListeners.forEach(listener => listener(lastOwnership));
   return lastOwnership;
 }
@@ -48,7 +50,7 @@ async function sdk() {
 }
 function owned(info: CustomerInfo) { return !!info.entitlements.active[ENTITLEMENT]; }
 function shopState(product:PurchasesPackage|null,message=''):Shop {
-  return {available:!!product&&!pending,owned:lastOwnership,pending,product,message:pending?pendingMessage:message};
+  return {available:!!product&&!pending&&!needsRestore,owned:lastOwnership,pending,needsRestore,product,message:pending?pendingMessage:needsRestore?restoreMessage:message};
 }
 function storeFailure(error:unknown,codes:typeof import('react-native-purchases').PURCHASES_ERROR_CODE):BillingFailure {
   if(error instanceof BillingFailure)return error;
@@ -72,11 +74,12 @@ export async function loadShop(): Promise<Shop> {
     catch { return shopState(null,'The store catalogue could not be reached. Your verified pack access is unchanged. Try again later.'); }
     const product = offerings.current?.availablePackages.find(p => p.product.identifier === 'leoqo_legends_lifetime') ?? null;
     return shopState(product,product ? '' : 'The Legends Pack is not available from your store yet. No payment has been taken.');
-  } catch (error) { return {available:false,owned:false,pending:false,product:null,message:error instanceof BillingFailure?error.message:'The store could not be reached. Please try again.'}; }
+  } catch (error) { return {available:false,owned:false,pending:false,needsRestore:false,product:null,message:error instanceof BillingFailure?error.message:'The store could not be reached. Please try again.'}; }
 }
 export async function buy(product: PurchasesPackage): Promise<boolean> {
   if(buying)throw new BillingFailure('unavailable','A store request is already running. Wait for it to finish.');
   if(pending)throw new BillingFailure('pending',pendingMessage);
+  if(needsRestore)throw new BillingFailure('restore',restoreMessage);
   buying=true;
   try {
     const purchases = await sdk();
@@ -84,11 +87,11 @@ export async function buy(product: PurchasesPackage): Promise<boolean> {
       const result = await purchases.purchasePackage(product);
       if (!receiveInfo(result.customerInfo)){pending=true;throw new BillingFailure('pending',pendingMessage);}
       return true;
-    }catch(error){throw storeFailure(error,purchases.PURCHASES_ERROR_CODE);}
+    }catch(error){const failure=storeFailure(error,purchases.PURCHASES_ERROR_CODE);if(failure.kind==='restore')needsRestore=true;throw failure;}
   }finally{buying=false;}
 }
 export async function restore(): Promise<boolean> {
   const purchases = await sdk();
-  try{return receiveInfo(await purchases.restorePurchases());}
+  try{const info=await purchases.restorePurchases();needsRestore=false;return receiveInfo(info);}
   catch(error){throw storeFailure(error,purchases.PURCHASES_ERROR_CODE);}
 }

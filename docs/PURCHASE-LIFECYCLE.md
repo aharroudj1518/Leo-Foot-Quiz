@@ -23,3 +23,9 @@ Billing tests now isolate module state between cases. Nine new cases cover pendi
 This change is prepared for the next native release. The running Android 0.5.2 build and completed iOS simulator 0.5.2 artifact use source dbfd4b85a512210e55bd3611b43f6c0252ed0051 and do not contain these later purchase changes.
 
 Error semantics checked against the installed react-native-purchases 10.9 type declarations and https://www.revenuecat.com/docs/test-and-launch/errors.
+
+## Uncertain checkout recovery — 11 September
+
+A purchase error that directs the player to restore now disables checkout in both the shop UI and billing service. A failed restore keeps that restriction. A successful restore or confirmed active entitlement clears it; cancellation alone does not require restoration. The recovery state is in process memory and does not prove receipt reconciliation after process death.
+
+Validation: TypeScript, 106 unit tests, Expo web export, and two phone-browser adult-shop/free-play checks passed. Three new SDK-mock cases cover blocked repeat checkout, failed and successful restore, entitlement confirmation, and cancellation. Real store transactions remain untested and commerce remains disabled.

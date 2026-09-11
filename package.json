@@ -1,6 +1,6 @@
 {
   "name": "leoqo",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "main": "index.ts",
   "dependencies": {
     "@expo/metro-runtime": "~57.0.15",
