@@ -1,0 +1,193 @@
+{
+  "club": "Bayern Munich",
+  "season": "2026/27",
+  "source": "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+  "sourceSha256": "1fdaef9d0bee6b54af3023b3c86775d3e76f8580b0ffcf4bf155b569369c94f6",
+  "retrievedAt": "2026-09-11",
+  "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+  "independentReview": false,
+  "players": [
+    {
+      "id": "manuel-neuer",
+      "name": "Manuel Neuer",
+      "number": 1,
+      "position": "Goalkeeper",
+      "source": "https://www.bundesliga.com/en/player/manuel-neuer"
+    },
+    {
+      "id": "sven-ulreich",
+      "name": "Sven Ulreich",
+      "number": 26,
+      "position": "Goalkeeper",
+      "source": "https://www.bundesliga.com/en/player/sven-ulreich"
+    },
+    {
+      "id": "jonas-urbig",
+      "name": "Jonas Urbig",
+      "number": 40,
+      "position": "Goalkeeper",
+      "source": "https://www.bundesliga.com/en/player/jonas-urbig"
+    },
+    {
+      "id": "dayot-upamecano",
+      "name": "Dayot Upamecano",
+      "number": 2,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/dayot-upamecano"
+    },
+    {
+      "id": "minjae-kim",
+      "name": "Minjae Kim",
+      "number": 3,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/minjae-kim"
+    },
+    {
+      "id": "jonathan-tah",
+      "name": "Jonathan Tah",
+      "number": 4,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/jonathan-tah"
+    },
+    {
+      "id": "nathaniel-brown",
+      "name": "Nathaniel Brown",
+      "number": 11,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/nathaniel-brown"
+    },
+    {
+      "id": "alphonso-davies",
+      "name": "Alphonso Davies",
+      "number": 19,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/alphonso-davies"
+    },
+    {
+      "id": "hiroki-ito",
+      "name": "Hiroki Ito",
+      "number": 21,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/hiroki-ito"
+    },
+    {
+      "id": "sacha-boey",
+      "name": "Sacha Boey",
+      "number": 23,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/sacha-boey"
+    },
+    {
+      "id": "josip-stanisic",
+      "name": "Josip Stanišić",
+      "number": 44,
+      "position": "Defender",
+      "source": "https://www.bundesliga.com/en/player/josip-stanisic"
+    },
+    {
+      "id": "joshua-kimmich",
+      "name": "Joshua Kimmich",
+      "number": 6,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/joshua-kimmich"
+    },
+    {
+      "id": "tom-bischof",
+      "name": "Tom Bischof",
+      "number": 8,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/tom-bischof"
+    },
+    {
+      "id": "jamal-musiala",
+      "name": "Jamal Musiala",
+      "number": 10,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/jamal-musiala"
+    },
+    {
+      "id": "konrad-laimer",
+      "name": "Konrad Laimer",
+      "number": 27,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/konrad-laimer"
+    },
+    {
+      "id": "ismael-saibari",
+      "name": "Ismael Saibari",
+      "number": 34,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/ismael-saibari"
+    },
+    {
+      "id": "bara-sapoko-ndiaye",
+      "name": "Bara Sapoko Ndiaye",
+      "number": 39,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/bara-sapoko-ndiaye"
+    },
+    {
+      "id": "lennart-karl",
+      "name": "Lennart Karl",
+      "number": 42,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/lennart-karl"
+    },
+    {
+      "id": "aleksandar-pavlovic",
+      "name": "Aleksandar Pavlović",
+      "number": 45,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/aleksandar-pavlovic"
+    },
+    {
+      "id": "david-santos-daiber",
+      "name": "David Santos Daiber",
+      "number": 47,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/david-santos-daiber"
+    },
+    {
+      "id": "maycon-douglas-cardozo",
+      "name": "Maycon Douglas Cardozo",
+      "number": 49,
+      "position": "Midfielder",
+      "source": "https://www.bundesliga.com/en/player/maycon-douglas-cardozo"
+    },
+    {
+      "id": "serge-gnabry",
+      "name": "Serge Gnabry",
+      "number": 7,
+      "position": "Forward",
+      "source": "https://www.bundesliga.com/en/player/serge-gnabry"
+    },
+    {
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "number": 9,
+      "position": "Forward",
+      "source": "https://www.bundesliga.com/en/player/harry-kane"
+    },
+    {
+      "id": "luis-diaz",
+      "name": "Luis Díaz",
+      "number": 14,
+      "position": "Forward",
+      "source": "https://www.bundesliga.com/en/player/luis-diaz"
+    },
+    {
+      "id": "michael-olise",
+      "name": "Michael Olise",
+      "number": 17,
+      "position": "Forward",
+      "source": "https://www.bundesliga.com/en/player/michael-olise"
+    },
+    {
+      "id": "bastian-assomo",
+      "name": "Bastian Assomo",
+      "number": 33,
+      "position": "Forward",
+      "source": "https://www.bundesliga.com/en/player/bastian-assomo"
+    }
+  ]
+}
