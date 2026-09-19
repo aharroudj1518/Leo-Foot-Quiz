@@ -49,3 +49,6 @@ playwright-report/
 audit.json
 preview-debug.png
 debug.log
+
+# Local assistant settings
+.claude/
