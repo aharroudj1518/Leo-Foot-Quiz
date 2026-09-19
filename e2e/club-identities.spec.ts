@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+import questions from '../src/content/squad-questions.json';
+import {initialProfile,makeSession,type Question} from '../src/core/quiz';
+test('Milan’s numbered shirt uses red and black and its real crest loads',async({page},testInfo)=>{
+ await page.emulateMedia({reducedMotion:'reduce'});
+ const question=(questions as Question[]).find(q=>q.squadClue?.country==='AC Milan'&&q.squadClue.number===96)!;
+ expect(question).toBeDefined();
+ const profile=initialProfile();profile.session=makeSession([question],'squads','fan',[],'milan-shirt');
+ await page.addInitScript(p=>localStorage.setItem('leoqo.profile.v1',JSON.stringify(p)),profile);
+ await page.goto('/');await page.getByRole('button',{name:/Continue your round/}).click();
+ await expect(page.getByRole('img',{name:'AC Milan club-colour shirt: red and black stripes, number 96',exact:true})).toBeVisible();
+ const card=page.getByTestId('squad-clue');const crest=card.locator('img');
+ await expect(crest).toHaveJSProperty('complete',true);
+ expect(await crest.evaluate((img:HTMLImageElement)=>img.naturalWidth)).toBeGreaterThan(40);
+ const colours=await card.evaluate(el=>Array.from(el.querySelectorAll('div')).map(e=>getComputedStyle(e).backgroundColor));
+ expect(colours).toContain('rgb(196, 18, 48)');expect(colours).toContain('rgb(21, 21, 21)');
+ await page.screenshot({path:`.expo/milan-club-shirt-${testInfo.project.name}.png`});
+ await page.getByRole('button',{name:question.answer,exact:true}).click();
+ await expect(page.getByText(question.explanation,{exact:true})).toBeVisible();
+});

@@ -1,10 +1,11 @@
 import {test,expect} from '@playwright/test';
 import bank from '../src/content/questions.json';
+const portraitCount=bank.filter(q=>q.category==='portraits').length;
 
 test('player images load, text alternatives work, and the complete visual round persists',async({page})=>{
   test.setTimeout(60000); // Ten full names require substantially more taps than the original five.
   await page.goto('/');
-  await page.getByRole('button',{name:'Guess the player, 70 photo questions',exact:true}).click();
+  await page.getByRole('button',{name:`Guess the player, ${portraitCount} photo questions`,exact:true}).click();
   await expect(page.getByTestId('visual-question')).toBeVisible();
   const photo=page.getByTestId('visual-question').locator('img').first();
   await expect(photo).toHaveJSProperty('complete',true);
@@ -30,16 +31,17 @@ test('player images load, text alternatives work, and the complete visual round 
   }
   await expect(page.getByText('TOP BINS.',{exact:true})).toBeVisible();
   await page.getByRole('button',{name:'Leoqo home',exact:true}).click();
-  await expect(page.getByRole('button',{name:'Player album, 10 of 70 solved',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:`Player album, 10 of ${portraitCount} solved`,exact:true})).toBeVisible();
   await page.reload();
-  await expect(page.getByRole('button',{name:'Player album, 10 of 70 solved',exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:`Player album, 10 of ${portraitCount} solved`,exact:true})).toBeVisible();
   expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).history.at(-1).answers.every((a:any)=>a.correct))).toBe(true);
 });
 
-test('badge and stadium rounds open and survive a reload',async({page})=>{
+test('badge and stadium rounds open and survive a reload',async({page},testInfo)=>{
   for(const label of ['Guess the badge, 6 club puzzles','Stadium tour, 9 visual questions']){
     await page.goto('/');await page.getByRole('button',{name:label,exact:true}).click();
     await expect(page.getByTestId('visual-question')).toBeVisible();
+    if(label.startsWith('Guess the badge')){const crest=page.getByTestId('visual-question').locator('img').first();await expect(crest).toHaveJSProperty('complete',true);expect(await crest.evaluate((img:HTMLImageElement)=>img.naturalWidth)).toBeGreaterThan(40);await page.screenshot({path:`.expo/real-crest-${testInfo.project.name}.png`});}
     await page.getByRole('button',{name:'Skip question',exact:true}).click();
     await page.reload();await page.getByRole('button',{name:/Continue your round/}).click();
     await expect(page.getByText('ONE TO REMEMBER',{exact:true})).toBeVisible();
@@ -50,6 +52,6 @@ test('visual home and answer grid fit a small phone with reduced motion',async({
   await page.emulateMedia({reducedMotion:'reduce'});await page.setViewportSize({width:320,height:780});
   await page.goto('/');await expect(page.getByRole('button',{name:'Guess the badge, 6 club puzzles',exact:true})).toBeVisible();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
-  await page.getByRole('button',{name:'Guess the player, 70 photo questions',exact:true}).click();
+  await page.getByRole('button',{name:`Guess the player, ${portraitCount} photo questions`,exact:true}).click();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });

@@ -1,5 +1,6 @@
+import {Text} from './Typography';
 import React,{useState} from 'react';
-import {Text,View} from 'react-native';
+import {View} from 'react-native';
 import type {Question} from './core/quiz';
 import {Button,C,s} from './ui';
 import {VisualQuestion} from './VisualExperience';
@@ -10,7 +11,7 @@ export function MistakeReview({items,largeText,onPractise,onSource}:{items:Quest
  const [limit,setLimit]=useState(6);
  const text={fontSize:largeText?20:16,lineHeight:largeText?30:24};
  return <View style={{gap:24}}>
-  {items.slice(0,limit).map(item=><View key={item.id} testID={`review-${item.id}`} style={{backgroundColor:'white',borderRadius:16,padding:16,gap:12}}>
+  {items.slice(0,limit).map(item=><View key={item.id} testID={`review-${item.id}`} style={{backgroundColor:C.panel,borderRadius:16,padding:16,gap:12}}>
    <Text style={s.tiny}>{item.era}</Text>
    {item.visual&&<VisualQuestion question={item} answered correct={false}/>}
    {item.clubConnections&&<ClubConnections clubs={item.clubConnections} identity={`review-${item.id}`}/>}

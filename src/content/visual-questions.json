@@ -2497,7 +2497,7 @@
   },
   {
     "id": "visual-arsenal",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "Arsenal",
     "options": [
       "Arsenal",
@@ -2505,17 +2505,17 @@
       "Manchester City",
       "AC Milan"
     ],
-    "explanation": "The cannon and red colours point to Arsenal, known as the Gunners. This is an original puzzle illustration, not the official crest.",
+    "explanation": "The cannon and red colours point to Arsenal, known as the Gunners. This is the club’s actual crest.",
     "hint": "North London · The Gunners",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.arsenal.com/history",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "arsenal",
-      "description": "Red shield with a gold cannon and two wheels."
+      "description": "Red shield with a gold cannon and the club name."
     },
     "assetIds": [
       "arsenal"
@@ -2523,7 +2523,7 @@
   },
   {
     "id": "visual-madrid",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "Real Madrid",
     "options": [
       "Real Madrid",
@@ -2531,17 +2531,17 @@
       "AC Milan",
       "Juventus"
     ],
-    "explanation": "White, a crown and the Spanish capital point to Real Madrid. This is an original puzzle illustration, not the official crest.",
+    "explanation": "White, a crown and the Spanish capital point to Real Madrid. This is the club’s actual crest.",
     "hint": "Spanish capital · Los Blancos",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.realmadrid.com/en-US/the-club/history",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "madrid",
-      "description": "White shield with a gold crown and diagonal blue band."
+      "description": "Circular blue-and-white monogram topped by a royal crown."
     },
     "assetIds": [
       "madrid"
@@ -2549,7 +2549,7 @@
   },
   {
     "id": "visual-city",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "Manchester City",
     "options": [
       "Manchester City",
@@ -2557,17 +2557,17 @@
       "Juventus",
       "FC Barcelona"
     ],
-    "explanation": "The ship and sky-blue colours point to Manchester City. This is an original puzzle illustration, not the official crest.",
+    "explanation": "The ship and sky-blue colours point to Manchester City. This is the club’s actual crest.",
     "hint": "Manchester · The sky-blue side",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.mancity.com/club/manchester-city-history",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "city",
-      "description": "Sky-blue round badge with a gold sailing ship."
+      "description": "Round sky-blue crest containing a sailing ship and red rose."
     },
     "assetIds": [
       "city"
@@ -2575,7 +2575,7 @@
   },
   {
     "id": "visual-milan",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "AC Milan",
     "options": [
       "AC Milan",
@@ -2583,17 +2583,17 @@
       "FC Barcelona",
       "Arsenal"
     ],
-    "explanation": "Red and black are the colours behind AC Milan’s Rossoneri nickname. This is an original puzzle illustration, not the official crest.",
+    "explanation": "Red and black are the colours behind AC Milan’s Rossoneri nickname. This is the club’s actual crest.",
     "hint": "Milan · The Rossoneri",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.acmilan.com/en/club/history",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "milan",
-      "description": "Oval shield with alternating red and black stripes."
+      "description": "Oval crest with red-and-black stripes and the red cross of Milan."
     },
     "assetIds": [
       "milan"
@@ -2601,7 +2601,7 @@
   },
   {
     "id": "visual-juventus",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "Juventus",
     "options": [
       "Juventus",
@@ -2609,17 +2609,17 @@
       "Arsenal",
       "Real Madrid"
     ],
-    "explanation": "Black and white and the city of Turin point to Juventus. This is an original puzzle illustration, not the official crest.",
+    "explanation": "Black and white and the city of Turin point to Juventus. This is the club’s actual crest.",
     "hint": "Turin · The Bianconeri",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.juventus.com/en/club/history/",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "juventus",
-      "description": "Black and white striped shield with a gold star."
+      "description": "A minimal black, double-stroke J-shaped club emblem."
     },
     "assetIds": [
       "juventus"
@@ -2627,7 +2627,7 @@
   },
   {
     "id": "visual-barcelona",
-    "prompt": "Which club does this badge puzzle represent?",
+    "prompt": "Which club uses this crest?",
     "answer": "FC Barcelona",
     "options": [
       "FC Barcelona",
@@ -2635,17 +2635,17 @@
       "Real Madrid",
       "Manchester City"
     ],
-    "explanation": "Blue and garnet are the colours behind Barcelona’s Blaugrana nickname. This is an original puzzle illustration, not the official crest.",
+    "explanation": "Blue and garnet are the colours behind Barcelona’s Blaugrana nickname. This is the club’s actual crest.",
     "hint": "Catalonia · The Blaugrana",
     "category": "badges",
     "difficulty": "fan",
     "source": "https://www.fcbarcelona.com/en/club/history",
-    "era": "Club colours · reimagined badges",
+    "era": "Club crests",
     "premium": false,
     "visual": {
       "kind": "badge",
       "key": "barcelona",
-      "description": "Blue and garnet shield with a gold football."
+      "description": "Shield combining the St George cross, Catalan stripes, a football and blue-and-garnet stripes."
     },
     "assetIds": [
       "barcelona"

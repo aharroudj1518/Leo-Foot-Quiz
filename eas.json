@@ -27,7 +27,8 @@
       "env": {
         "EXPO_PUBLIC_COMMERCE_READY": "false"
       },
-      "node": "22.20.0"
+      "node": "22.20.0",
+      "autoIncrement": true
     },
     "device-validation": {
       "extends": "validation",

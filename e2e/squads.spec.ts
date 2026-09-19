@@ -33,6 +33,13 @@ test('Champions League searches, starts a club round and restores its answer',as
   await page.getByRole('button',{name:label,exact:true}).click();
   const ids=await page.evaluate(()=>JSON.parse(localStorage.getItem('leoqo.profile.v1')!).session.questionIds as string[]);
   expect(ids.every(id=>bank.find(q=>q.id===id)?.squadCode==='ucl27-52280')).toBe(true);
+  const selected=ids.map(id=>bank.find(q=>q.id===id)!);
+  expect(selected[0].clubTopic).not.toBe('players');
+  expect(selected.filter(q=>q.clubTopic==='players').length).toBeLessThanOrEqual(2);
+  expect(new Set(selected.map(q=>q.clubTopic)).size).toBeGreaterThanOrEqual(3);
+  await expect(page.getByTestId('club-story-header')).toBeVisible();
+  await expect(page.getByRole('img',{name:'Arsenal FC crest',exact:true})).toBeVisible();
+  await page.screenshot({path:`.expo/club-history-${testInfo.project.name}.png`});
   const q=bank.find(q=>q.id===ids[0])!;
   await page.getByRole('button',{name:q.answer,exact:true}).click();
   await page.reload();await page.getByRole('button',{name:/Continue your round/}).click();

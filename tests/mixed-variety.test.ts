@@ -22,7 +22,7 @@ test('daily five covers five free topics and stays identical across player setti
  expect(a.questionIds.every(id=>!bank.find(q=>q.id===id)!.premium)).toBe(true);
 });
 test('variety never reintroduces seen questions when only one topic remains unseen',()=>{
- const available=bank.filter(q=>q.category==='squads').slice(0,3);
+ const available=bank.filter(q=>q.category==='squads'&&!q.retired).slice(0,3);
  const unseen=new Set(available.map(q=>q.id));
  const round=makeSession(bank,'mixed','fan',bank.filter(q=>!unseen.has(q.id)).map(q=>q.id),'almost-done');
  expect(new Set(round.questionIds)).toEqual(unseen);

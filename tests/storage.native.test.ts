@@ -23,6 +23,14 @@ it('shares one database initialization between concurrent reads', async () => {
   await Promise.all([storage.readProfile(), storage.readProfile()]);
   expect(mock.open).toHaveBeenCalledTimes(1);
 });
+it('stores purchase recovery separately from progress and profile resets',async()=>{
+ const storage=await import('../src/services/storage');
+ await storage.writePurchaseRecovery('pending');
+ await storage.writeProfile('{}');
+ expect(mock.write.mock.calls.map(call=>call.slice(1))).toEqual([['leoqo.purchase-recovery.v1','pending'],['leoqo.profile.v1','{}']]);
+ await storage.readPurchaseRecovery();
+ expect(mock.read).toHaveBeenLastCalledWith('SELECT value FROM kv WHERE key = ?','leoqo.purchase-recovery.v1');
+});
 it.each([false,true])('releases failed setup and preserves progress on retry, cleanup failure %s', async cleanupFails => {
   mock.exec.mockRejectedValueOnce(new Error('setup failed'));
   if (cleanupFails) mock.close.mockRejectedValueOnce(new Error('close failed'));

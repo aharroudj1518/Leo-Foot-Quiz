@@ -1,0 +1,1370 @@
+[
+  {
+    "name": "AEK Athens FC",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did AEK begin?",
+        "answer": "1924",
+        "wrong": [
+          "1904",
+          "1914",
+          "1934"
+        ],
+        "hint": "Between the world wars.",
+        "explanation": "AEK was established in 1924.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0193-0e6a685603db-7f788e7b28ea-1000--aek-challenge-endures/"
+      },
+      {
+        "key": "origins",
+        "topic": "identity",
+        "prompt": "AEK’s founders had emigrated from which city?",
+        "answer": "Constantinople",
+        "wrong": [
+          "Alexandria",
+          "Thessaloniki",
+          "Rome"
+        ],
+        "hint": "The name preserves a Byzantine connection.",
+        "explanation": "Immigrants from Constantinople founded AEK in Athens.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0193-0e6a685603db-7f788e7b28ea-1000--aek-challenge-endures/"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colour pair expresses AEK’s Byzantine heritage?",
+        "answer": "Black and yellow",
+        "wrong": [
+          "Blue and white",
+          "Red and black",
+          "Green and white"
+        ],
+        "hint": "One colour is yellow.",
+        "explanation": "AEK adopted black and yellow.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0193-0e6a685603db-7f788e7b28ea-1000--aek-challenge-endures/"
+      },
+      {
+        "key": "first-cup",
+        "topic": "honours",
+        "prompt": "Which club did AEK defeat for their first Greek Cup in 1932?",
+        "answer": "Aris Thessaloniki",
+        "wrong": [
+          "Olympiacos",
+          "Panathinaikos",
+          "PAOK"
+        ],
+        "hint": "Another club associated with yellow and black.",
+        "explanation": "Aris were the beaten finalists in 1932.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0193-0e6a685603db-7f788e7b28ea-1000--aek-challenge-endures/"
+      },
+      {
+        "key": "six-draws",
+        "topic": "records",
+        "prompt": "What unusual result did AEK record in all six 2002/03 Champions League group games?",
+        "answer": "A draw",
+        "wrong": [
+          "A win",
+          "A defeat",
+          "A goalless defeat"
+        ],
+        "hint": "They were unbeaten but never won.",
+        "explanation": "All six of AEK’s group matches ended level.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0193-0e6a685603db-7f788e7b28ea-1000--aek-challenge-endures/"
+      }
+    ]
+  },
+  {
+    "name": "FK Bodø/Glimt",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "When did Bodø/Glimt win their first Norwegian league title?",
+        "answer": "2020",
+        "wrong": [
+          "1990",
+          "2000",
+          "2010"
+        ],
+        "hint": "It came in the pandemic year.",
+        "explanation": "Their first Norwegian championship arrived in 2020.",
+        "source": "https://www.uefa.com/news-media/news/02a3-201463c02c67-18afed0c3b18-1000--bodo-glimt-s-sensational-six-year-european-rise/"
+      },
+      {
+        "key": "ground",
+        "topic": "grounds",
+        "prompt": "Which stadium hosted Bodø/Glimt’s rise through Europe?",
+        "answer": "Aspmyra Stadion",
+        "wrong": [
+          "Brann Stadion",
+          "Ullevaal Stadion",
+          "Lerkendal"
+        ],
+        "hint": "Its name begins with A.",
+        "explanation": "Aspmyra is Glimt’s home stadium.",
+        "source": "https://www.uefa.com/news-media/news/02a3-201463c02c67-18afed0c3b18-1000--bodo-glimt-s-sensational-six-year-european-rise/"
+      },
+      {
+        "key": "arctic",
+        "topic": "identity",
+        "prompt": "Which geographic circle is associated with Bodø/Glimt’s northern home?",
+        "answer": "Arctic Circle",
+        "wrong": [
+          "Antarctic Circle",
+          "Tropic of Cancer",
+          "Equator"
+        ],
+        "hint": "Think of polar nights.",
+        "explanation": "Bodø lies in the Arctic region.",
+        "source": "https://www.uefa.com/news-media/news/02a3-201463c02c67-18afed0c3b18-1000--bodo-glimt-s-sensational-six-year-european-rise/"
+      },
+      {
+        "key": "coach-rise",
+        "topic": "managers",
+        "prompt": "Who coached Glimt during their 2025 Europa League semi-final campaign?",
+        "answer": "Kjetil Knutsen",
+        "wrong": [
+          "Ole Gunnar Solskjær",
+          "Ståle Solbakken",
+          "Åge Hareide"
+        ],
+        "hint": "His initials are KK.",
+        "explanation": "Knutsen led Glimt’s European rise.",
+        "source": "https://www.uefa.com/news-media/news/02a3-201463c02c67-18afed0c3b18-1000--bodo-glimt-s-sensational-six-year-european-rise/"
+      },
+      {
+        "key": "europa-semi",
+        "topic": "records",
+        "prompt": "How far did Glimt go in the 2024/25 Europa League?",
+        "answer": "Semi-finals",
+        "wrong": [
+          "Final",
+          "Quarter-finals",
+          "Round of 16"
+        ],
+        "hint": "Four clubs remained.",
+        "explanation": "Glimt reached the semi-finals before losing to Tottenham.",
+        "source": "https://www.uefa.com/news-media/news/02a3-201463c02c67-18afed0c3b18-1000--bodo-glimt-s-sensational-six-year-european-rise/"
+      }
+    ]
+  },
+  {
+    "name": "Club Brugge KV",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which year marks the founding of Club Brugge?",
+        "answer": "1891",
+        "wrong": [
+          "1871",
+          "1901",
+          "1921"
+        ],
+        "hint": "Late in the nineteenth century.",
+        "explanation": "Club Brugge began in 1891.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0253-0e7556a61230-2252aad12079-1000--club-brugge-facts/"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Club Brugge’s nickname Blauw-Zwart mean?",
+        "answer": "Blue and Blacks",
+        "wrong": [
+          "Red Devils",
+          "White Stars",
+          "Golden Lions"
+        ],
+        "hint": "It names two kit colours.",
+        "explanation": "Blauw-Zwart means Blue and Blacks.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0253-0e7556a61230-2252aad12079-1000--club-brugge-facts/"
+      },
+      {
+        "key": "floriana-eight",
+        "topic": "records",
+        "prompt": "How many goals did Brugge score against Floriana at home in 1973?",
+        "answer": "Eight",
+        "wrong": [
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "hint": "Two more than six.",
+        "explanation": "Brugge defeated Floriana 8–0.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0253-0e7556a61230-2252aad12079-1000--club-brugge-facts/"
+      },
+      {
+        "key": "europa-2015",
+        "topic": "history",
+        "prompt": "Which round did Brugge reach in the 2014/15 Europa League?",
+        "answer": "Quarter-finals",
+        "wrong": [
+          "Final",
+          "Semi-finals",
+          "Round of 32"
+        ],
+        "hint": "Eight clubs remained.",
+        "explanation": "Brugge reached the quarter-finals that season.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0253-0e7556a61230-2252aad12079-1000--club-brugge-facts/"
+      },
+      {
+        "key": "porto-away",
+        "topic": "records",
+        "prompt": "Which Portuguese club lost 4–0 at home to Brugge in September 2022?",
+        "answer": "Porto",
+        "wrong": [
+          "Benfica",
+          "Sporting CP",
+          "Braga"
+        ],
+        "hint": "The match was at the Dragão.",
+        "explanation": "Brugge won 4–0 away to Porto.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0253-0e7556a61230-2252aad12079-1000--club-brugge-facts/"
+      }
+    ]
+  },
+  {
+    "name": "Fenerbahçe SK",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Fenerbahçe’s founding year appears on its crest. What is it?",
+        "answer": "1907",
+        "wrong": [
+          "1887",
+          "1897",
+          "1917"
+        ],
+        "hint": "Early in the twentieth century.",
+        "explanation": "Fenerbahçe was founded in 1907.",
+        "source": "https://www.uefa.com/uefaconferenceleague/news/0277-158ca3e8dca7-a9d6dc020092-1000--club-facts-fenerbahce/"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which birds feature in Fenerbahçe’s Yellow nickname?",
+        "answer": "Canaries",
+        "wrong": [
+          "Eagles",
+          "Owls",
+          "Swans"
+        ],
+        "hint": "Small songbirds.",
+        "explanation": "Sarı Kanaryalar means Yellow Canaries.",
+        "source": "https://www.uefa.com/uefaconferenceleague/news/0277-158ca3e8dca7-a9d6dc020092-1000--club-facts-fenerbahce/"
+      },
+      {
+        "key": "district",
+        "topic": "identity",
+        "prompt": "Which Istanbul district is Fenerbahçe’s home district?",
+        "answer": "Kadıköy",
+        "wrong": [
+          "Beşiktaş",
+          "Beyoğlu",
+          "Fatih"
+        ],
+        "hint": "It lies on the Asian side.",
+        "explanation": "The club statutes identify Kadıköy as its base.",
+        "source": "https://www.fenerbahce.org/FB/files/31/3168bf02-6677-464a-8265-5a74c700fee0.pdf"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which dark colour accompanies yellow in Fenerbahçe’s traditional kit?",
+        "answer": "Navy blue",
+        "wrong": [
+          "Black",
+          "Maroon",
+          "Green"
+        ],
+        "hint": "A deep shade of blue.",
+        "explanation": "Yellow and navy are the club colours.",
+        "source": "https://www.fenercell.com/kurumsal/kulubumuz/19"
+      },
+      {
+        "key": "mtk-five",
+        "topic": "records",
+        "prompt": "Which Hungarian club lost 5–0 at home to Fenerbahçe in 2008 qualifying?",
+        "answer": "MTK Budapest",
+        "wrong": [
+          "Ferencváros",
+          "Újpest",
+          "Debrecen"
+        ],
+        "hint": "The answer includes three initials.",
+        "explanation": "Fenerbahçe defeated MTK Budapest 5–0.",
+        "source": "https://www.uefa.com/uefaconferenceleague/news/0277-158ca3e8dca7-a9d6dc020092-1000--club-facts-fenerbahce/"
+      }
+    ]
+  },
+  {
+    "name": "Feyenoord",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Feyenoord founded?",
+        "answer": "1908",
+        "wrong": [
+          "1888",
+          "1898",
+          "1928"
+        ],
+        "hint": "The first decade of the twentieth century.",
+        "explanation": "Feyenoord began in 1908.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/023a-0e973231ec78-63a6966bd752-1000--club-facts-feyenoord/"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Feyenoord’s De Trots van Zuid nickname means what?",
+        "answer": "The Pride of South",
+        "wrong": [
+          "The Flying Dutchmen",
+          "The White Eagles",
+          "The Harbour Kings"
+        ],
+        "hint": "It points to part of Rotterdam.",
+        "explanation": "The nickname means The Pride of South.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/023a-0e973231ec78-63a6966bd752-1000--club-facts-feyenoord/"
+      },
+      {
+        "key": "rumelange-twelve",
+        "topic": "records",
+        "prompt": "How many goals did Feyenoord score away to Rumelange in 1972?",
+        "answer": "Twelve",
+        "wrong": [
+          "Seven",
+          "Nine",
+          "Ten"
+        ],
+        "hint": "A dozen.",
+        "explanation": "Feyenoord won the UEFA Cup game 12–0.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/023a-0e973231ec78-63a6966bd752-1000--club-facts-feyenoord/"
+      },
+      {
+        "key": "conference-final",
+        "topic": "honours",
+        "prompt": "Feyenoord reached the first final of which new competition in 2022?",
+        "answer": "UEFA Conference League",
+        "wrong": [
+          "Intertoto Cup",
+          "Cup Winners’ Cup",
+          "Nations League"
+        ],
+        "hint": "UEFA’s third men’s club competition.",
+        "explanation": "Feyenoord were the inaugural Conference League runners-up.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/023a-0e973231ec78-63a6966bd752-1000--club-facts-feyenoord/"
+      },
+      {
+        "key": "intercontinental",
+        "topic": "honours",
+        "prompt": "In which year did Feyenoord win the European/South American Cup?",
+        "answer": "1970",
+        "wrong": [
+          "1960",
+          "1980",
+          "1990"
+        ],
+        "hint": "The same year as their European Cup.",
+        "explanation": "Feyenoord also won the intercontinental trophy in 1970.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/023a-0e973231ec78-63a6966bd752-1000--club-facts-feyenoord/"
+      }
+    ]
+  },
+  {
+    "name": "LASK",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which founding year does LASK officially celebrate?",
+        "answer": "1908",
+        "wrong": [
+          "1888",
+          "1928",
+          "1948"
+        ],
+        "hint": "The football roots date to the early twentieth century.",
+        "explanation": "LASK celebrates its football founding in 1908.",
+        "source": "https://www.lask.at/de/m/club"
+      },
+      {
+        "key": "original-name",
+        "topic": "identity",
+        "prompt": "What did the original LSK initials stand for?",
+        "answer": "Linzer Sport Klub",
+        "wrong": [
+          "Linzer Ski Klub",
+          "Landes Sport Kreis",
+          "Linz Stadt Kicker"
+        ],
+        "hint": "The city appears in the first word.",
+        "explanation": "The football club began as Linzer Sport Klub.",
+        "source": "https://www.lask.at/de/m/club"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which two colours belong to LASK?",
+        "answer": "Black and white",
+        "wrong": [
+          "Red and white",
+          "Blue and yellow",
+          "Green and black"
+        ],
+        "hint": "Think of monochrome stripes.",
+        "explanation": "LASK’s official colours are black and white.",
+        "source": "https://www.lask.at/de/m/club"
+      },
+      {
+        "key": "promotion-2017",
+        "topic": "history",
+        "prompt": "Which year brought LASK back into Austria’s top division after their lower-league rebuilding?",
+        "answer": "2017",
+        "wrong": [
+          "2009",
+          "2011",
+          "2021"
+        ],
+        "hint": "It came three years after their 2014 promotion.",
+        "explanation": "LASK returned to the Bundesliga in 2017.",
+        "source": "https://www.lask.at/de/m/club"
+      },
+      {
+        "key": "europe-2020",
+        "topic": "records",
+        "prompt": "Which English club faced LASK in the 2019/20 Europa League round of 16?",
+        "answer": "Manchester United",
+        "wrong": [
+          "Arsenal",
+          "Chelsea",
+          "Leicester City"
+        ],
+        "hint": "Old Trafford is the clue.",
+        "explanation": "LASK’s 2020 knockout run met Manchester United.",
+        "source": "https://www.lask.at/de/m/club"
+      }
+    ]
+  },
+  {
+    "name": "LOSC Lille",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did the merger creating LOSC take place?",
+        "answer": "1944",
+        "wrong": [
+          "1924",
+          "1934",
+          "1954"
+        ],
+        "hint": "Near the end of the Second World War.",
+        "explanation": "The Lille clubs merged in 1944.",
+        "source": "https://www.losc.fr/actualites-foot-lille/1944-2014-souvenez-vous-il-y-70-ans"
+      },
+      {
+        "key": "merger",
+        "topic": "identity",
+        "prompt": "Which two clubs merged to create LOSC?",
+        "answer": "Olympique Lillois and SC Fives",
+        "wrong": [
+          "RC Lens and US Boulogne",
+          "Roubaix and Tourcoing",
+          "Valenciennes and Dunkerque"
+        ],
+        "hint": "Both were local Lille rivals.",
+        "explanation": "Olympique Lillois joined Sporting Club Fivois.",
+        "source": "https://www.losc.fr/actualites-foot-lille/1944-2014-souvenez-vous-il-y-70-ans"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which animal gives Lille their Les Dogues nickname?",
+        "answer": "Mastiffs",
+        "wrong": [
+          "Foxes",
+          "Eagles",
+          "Wolves"
+        ],
+        "hint": "A large breed of dog.",
+        "explanation": "Dogues are mastiff-type dogs.",
+        "source": "https://losc.fr/en/node/14883"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "When did LOSC win its first post-merger French championship?",
+        "answer": "1946",
+        "wrong": [
+          "1936",
+          "1956",
+          "1966"
+        ],
+        "hint": "Two years after the merger.",
+        "explanation": "LOSC won the 1946 championship.",
+        "source": "https://www.losc.fr/palmares"
+      },
+      {
+        "key": "cup-hattrick",
+        "topic": "records",
+        "prompt": "How many consecutive French Cups did Lille win from 1946 to 1948?",
+        "answer": "Three",
+        "wrong": [
+          "Two",
+          "Four",
+          "Five"
+        ],
+        "hint": "Count the three years inclusively.",
+        "explanation": "Lille won the cup in 1946, 1947 and 1948.",
+        "source": "https://www.losc.fr/palmares"
+      }
+    ]
+  },
+  {
+    "name": "Paris Saint-Germain",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Paris Saint-Germain created?",
+        "answer": "1970",
+        "wrong": [
+          "1950",
+          "1960",
+          "1980"
+        ],
+        "hint": "The decade of disco was beginning.",
+        "explanation": "PSG was created in 1970.",
+        "source": "https://www.psg.fr/en/content/the-paris-derby-where-it-all-began-psg-history-ligue-1-2025-2026"
+      },
+      {
+        "key": "ground",
+        "topic": "grounds",
+        "prompt": "Which stadium became PSG’s permanent home in 1974?",
+        "answer": "Parc des Princes",
+        "wrong": [
+          "Stade de France",
+          "Stade Vélodrome",
+          "Stade Gerland"
+        ],
+        "hint": "Its name translates as Park of the Princes.",
+        "explanation": "PSG settled at the Parc des Princes in 1974.",
+        "source": "https://www.psg.fr/en/the-club/facilities/parc-des-princes/history"
+      },
+      {
+        "key": "ground-roots",
+        "topic": "grounds",
+        "prompt": "Which sport was the original Parc des Princes built for in 1897?",
+        "answer": "Cycling",
+        "wrong": [
+          "Tennis",
+          "Cricket",
+          "Ice hockey"
+        ],
+        "hint": "It was a velodrome.",
+        "explanation": "The first Parc was a cycling venue.",
+        "source": "https://www.psg.fr/en/the-club/facilities/parc-des-princes/history"
+      },
+      {
+        "key": "architect",
+        "topic": "grounds",
+        "prompt": "Who designed the modern Parc des Princes?",
+        "answer": "Roger Taillibert",
+        "wrong": [
+          "Gustave Eiffel",
+          "Norman Foster",
+          "Santiago Calatrava"
+        ],
+        "hint": "A French architect with initials RT.",
+        "explanation": "Roger Taillibert designed the modern stadium.",
+        "source": "https://www.psg.fr/en/the-club/facilities/parc-des-princes/history"
+      },
+      {
+        "key": "guingamp-nine",
+        "topic": "records",
+        "prompt": "Which club suffered PSG’s 9–0 home league win in January 2019?",
+        "answer": "Guingamp",
+        "wrong": [
+          "Rennes",
+          "Nantes",
+          "Lorient"
+        ],
+        "hint": "A Breton club with a red-and-black identity.",
+        "explanation": "PSG beat Guingamp 9–0.",
+        "source": "https://en.psg.fr/teams/club/content/50-years-at-the-parc-in-numbers"
+      }
+    ]
+  },
+  {
+    "name": "FC Porto",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which year does Porto recognise as its founding year?",
+        "answer": "1893",
+        "wrong": [
+          "1873",
+          "1903",
+          "1923"
+        ],
+        "hint": "Late in the nineteenth century.",
+        "explanation": "Porto recognises 28 September 1893.",
+        "source": "https://www.fcporto.pt/pt/noticias/20240928-pt-seremos-sempre-um-clube-dos-socios-e-para-os-socios"
+      },
+      {
+        "key": "founder",
+        "topic": "identity",
+        "prompt": "Who founded FC Porto in 1893?",
+        "answer": "António Nicolau d’Almeida",
+        "wrong": [
+          "Cosme Damião",
+          "José Alvalade",
+          "Herbert Kilpin"
+        ],
+        "hint": "His surname is d’Almeida.",
+        "explanation": "António Nicolau d’Almeida founded the club.",
+        "source": "https://www.fcporto.pt/pt/noticias/20240928-pt-seremos-sempre-um-clube-dos-socios-e-para-os-socios"
+      },
+      {
+        "key": "revival",
+        "topic": "history",
+        "prompt": "Who revived Porto in 1906?",
+        "answer": "José Monteiro da Costa",
+        "wrong": [
+          "Eusébio",
+          "Fernando Peyroteo",
+          "Béla Guttmann"
+        ],
+        "hint": "His name includes Monteiro.",
+        "explanation": "José Monteiro da Costa relaunched Porto in 1906.",
+        "source": "https://www.fcporto.pt/pt/noticias/20240928-pt-seremos-sempre-um-clube-dos-socios-e-para-os-socios"
+      },
+      {
+        "key": "ground-predecessor",
+        "topic": "grounds",
+        "prompt": "Which ground did the Estádio do Dragão replace?",
+        "answer": "Estádio das Antas",
+        "wrong": [
+          "Estádio da Luz",
+          "Estádio do Restelo",
+          "Estádio do Bessa"
+        ],
+        "hint": "Its name begins with Antas.",
+        "explanation": "The Dragão succeeded the Antas stadium.",
+        "source": "https://ligaportugalstorage.blob.core.windows.net/backoffice/assets/FC_Porto_Guia_do_Adepto_2025_26_7d4ba8f106.pdf"
+      },
+      {
+        "key": "ground-opening",
+        "topic": "grounds",
+        "prompt": "In which year did Porto’s Dragão stadium open?",
+        "answer": "2003",
+        "wrong": [
+          "1993",
+          "1998",
+          "2008"
+        ],
+        "hint": "Just before Portugal hosted EURO 2004.",
+        "explanation": "The Dragão opened in 2003.",
+        "source": "https://www.fcporto.pt/pt/noticias/20230928-pt-130-o-aniversario-do-fc-porto-assinalado-com-o-hastear-da-bandeira"
+      }
+    ]
+  },
+  {
+    "name": "ŠK Slovan Bratislava",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did Slovan Bratislava begin?",
+        "answer": "1919",
+        "wrong": [
+          "1899",
+          "1909",
+          "1939"
+        ],
+        "hint": "Just after the First World War.",
+        "explanation": "Slovan was formed in 1919.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Slovan’s Belasí nickname mean?",
+        "answer": "Sky blues",
+        "wrong": [
+          "Red Stars",
+          "White Eagles",
+          "Black Wolves"
+        ],
+        "hint": "A light colour.",
+        "explanation": "Belasí means Sky blues.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/"
+      },
+      {
+        "key": "traditional-ground",
+        "topic": "grounds",
+        "prompt": "What is the name of Slovan’s traditional Bratislava home?",
+        "answer": "Tehelné pole",
+        "wrong": [
+          "Letná",
+          "Eden",
+          "Strahov"
+        ],
+        "hint": "The name refers to a brickfield.",
+        "explanation": "Tehelné pole is Slovan’s traditional home.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/"
+      },
+      {
+        "key": "temporary-ground",
+        "topic": "grounds",
+        "prompt": "Which ground hosted Slovan during the redevelopment of Tehelné pole?",
+        "answer": "Štadión Pasienky",
+        "wrong": [
+          "Ernst Happel Stadion",
+          "Stadion Maksimir",
+          "Puskás Aréna"
+        ],
+        "hint": "A nearby Bratislava ground.",
+        "explanation": "Slovan temporarily played at Pasienky.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/"
+      },
+      {
+        "key": "popluhar-award",
+        "topic": "records",
+        "prompt": "Which Slovan defender became Slovakia’s footballer of the twentieth century?",
+        "answer": "Ján Popluhár",
+        "wrong": [
+          "Martin Škrtel",
+          "Milan Škriniar",
+          "Peter Pekarík"
+        ],
+        "hint": "He played in the 1962 World Cup final.",
+        "explanation": "Popluhár received Slovakia’s century honour.",
+        "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/"
+      }
+    ]
+  },
+  {
+    "name": "Sabah FC",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "first-top-flight",
+        "topic": "history",
+        "prompt": "Which season was Sabah’s first in Azerbaijan’s Premier League?",
+        "answer": "2018/19",
+        "wrong": [
+          "2016/17",
+          "2020/21",
+          "2022/23"
+        ],
+        "hint": "The season after their formation campaign.",
+        "explanation": "Sabah entered the top flight in 2018/19.",
+        "source": "https://sabahfc.az/club/history"
+      },
+      {
+        "key": "first-top-flight-win",
+        "topic": "history",
+        "prompt": "Who were Sabah’s opponents in their first Premier League victory?",
+        "answer": "Keşlə",
+        "wrong": [
+          "Neftçi",
+          "Qarabağ",
+          "Zirə"
+        ],
+        "hint": "The club was later renamed Shamakhi.",
+        "explanation": "Sabah won their first top-flight match 1–0 against Keşlə.",
+        "source": "https://sabahfc.az/club/history"
+      },
+      {
+        "key": "first-european-tie",
+        "topic": "records",
+        "prompt": "Which Latvian club did Sabah eliminate on their European debut?",
+        "answer": "RFS",
+        "wrong": [
+          "Riga FC",
+          "Liepāja",
+          "Ventspils"
+        ],
+        "hint": "Three initials.",
+        "explanation": "Sabah beat RFS in both legs in 2023.",
+        "source": "https://sabahfc.az/club/history"
+      },
+      {
+        "key": "european-home",
+        "topic": "grounds",
+        "prompt": "Which ground hosted Sabah’s home European debut in Masazır?",
+        "answer": "Bank Respublika Arena",
+        "wrong": [
+          "Tofiq Bahramov Stadium",
+          "Dalga Arena",
+          "Bakcell Arena"
+        ],
+        "hint": "Its name includes a bank.",
+        "explanation": "The RFS return match was at Bank Respublika Arena.",
+        "source": "https://sabahfc.az/club/history"
+      },
+      {
+        "key": "first-trophy",
+        "topic": "honours",
+        "prompt": "Which trophy became Sabah’s first major title in 2025?",
+        "answer": "Azerbaijan Cup",
+        "wrong": [
+          "Azerbaijan Premier League",
+          "UEFA Conference League",
+          "Azerbaijan Super Cup"
+        ],
+        "hint": "They beat Qarabağ in the final.",
+        "explanation": "Sabah won the 2025 Azerbaijan Cup.",
+        "source": "https://sabahfc.az/club/history"
+      }
+    ]
+  },
+  {
+    "name": "SK Slavia Praha",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which year marks Slavia Prague’s founding?",
+        "answer": "1892",
+        "wrong": [
+          "1872",
+          "1902",
+          "1922"
+        ],
+        "hint": "Before the twentieth century.",
+        "explanation": "Slavia was founded in November 1892.",
+        "source": "https://www.slavia.cz/eng/article/slavia-celebrates-the-125th-anniversary-30179"
+      },
+      {
+        "key": "first-sport",
+        "topic": "identity",
+        "prompt": "Slavia began with which sport before football?",
+        "answer": "Cycling",
+        "wrong": [
+          "Rowing",
+          "Cricket",
+          "Tennis"
+        ],
+        "hint": "Two wheels, no motor.",
+        "explanation": "Slavia originated as a student cycling club.",
+        "source": "https://www.slavia.cz/eng/article/slavia-celebrates-the-125th-anniversary-30179"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which pair forms Slavia’s traditional divided shirt?",
+        "answer": "Red and white",
+        "wrong": [
+          "Blue and black",
+          "Green and white",
+          "Yellow and blue"
+        ],
+        "hint": "A red star accompanies it.",
+        "explanation": "Slavia’s traditional shirt is red and white.",
+        "source": "https://www.slavia.cz/eng/article/slavia-celebrates-the-125th-anniversary-30179"
+      },
+      {
+        "key": "mitropa",
+        "topic": "honours",
+        "prompt": "In which year did Slavia win the Central European (Mitropa) Cup?",
+        "answer": "1938",
+        "wrong": [
+          "1928",
+          "1948",
+          "1958"
+        ],
+        "hint": "Just before the Second World War.",
+        "explanation": "Slavia won the Central European Cup in 1938.",
+        "source": "https://www.slavia.cz/eng/article/slavia-celebrates-the-125th-anniversary-30179"
+      },
+      {
+        "key": "first-ucl-group",
+        "topic": "records",
+        "prompt": "Which season brought Slavia’s first Champions League group-stage appearance?",
+        "answer": "2007/08",
+        "wrong": [
+          "1997/98",
+          "2002/03",
+          "2012/13"
+        ],
+        "hint": "Arsenal were among their opponents.",
+        "explanation": "Slavia debuted in the groups in 2007/08.",
+        "source": "https://www.slavia.cz/eng/article/slavia-celebrates-the-125th-anniversary-30179"
+      }
+    ]
+  },
+  {
+    "name": "Sporting Clube de Portugal",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Sporting Clube de Portugal founded?",
+        "answer": "1906",
+        "wrong": [
+          "1886",
+          "1896",
+          "1926"
+        ],
+        "hint": "Early in the twentieth century.",
+        "explanation": "Sporting was founded in 1906.",
+        "source": "https://www.sporting.pt/en/club/history/Founding-members"
+      },
+      {
+        "key": "founder",
+        "topic": "identity",
+        "prompt": "Which Sporting founding figure gives his name to the club’s stadium?",
+        "answer": "José Alvalade",
+        "wrong": [
+          "Cosme Damião",
+          "Pinto da Costa",
+          "Luís Figo"
+        ],
+        "hint": "His first name was José.",
+        "explanation": "José Alvalade was a founding figure.",
+        "source": "https://www.sporting.pt/en/club/history/Founding-members"
+      },
+      {
+        "key": "crest-animal",
+        "topic": "identity",
+        "prompt": "Which animal has long stood on Sporting’s badge?",
+        "answer": "Lion",
+        "wrong": [
+          "Eagle",
+          "Dragon",
+          "Wolf"
+        ],
+        "hint": "A big cat.",
+        "explanation": "A rampant lion is Sporting’s traditional emblem.",
+        "source": "https://backoffice.sporting.pt/en/club/history/the-badge"
+      },
+      {
+        "key": "kit-colours",
+        "topic": "identity",
+        "prompt": "Which two colours make Sporting’s famous hoops?",
+        "answer": "Green and white",
+        "wrong": [
+          "Blue and white",
+          "Red and black",
+          "Yellow and navy"
+        ],
+        "hint": "The first colour represents hope.",
+        "explanation": "Sporting wear green and white.",
+        "source": "https://backoffice.sporting.pt/en/club/history/the-kit"
+      },
+      {
+        "key": "new-ground-year",
+        "topic": "grounds",
+        "prompt": "When did Sporting’s present José Alvalade stadium open?",
+        "answer": "2003",
+        "wrong": [
+          "1983",
+          "1993",
+          "2013"
+        ],
+        "hint": "The year before EURO 2004.",
+        "explanation": "The new ground opened in August 2003.",
+        "source": "https://www.sporting.pt/en/club/history/stadium-history"
+      }
+    ]
+  },
+  {
+    "name": "Viking FK",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Viking founded?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1909",
+          "1929"
+        ],
+        "hint": "The final year of the 1800s.",
+        "explanation": "Viking began in August 1899.",
+        "source": "https://www.vikingfotball.no/om-klubben/engelsk/history-of-viking-football-club"
+      },
+      {
+        "key": "home-city",
+        "topic": "identity",
+        "prompt": "Which Norwegian city is Viking’s home?",
+        "answer": "Stavanger",
+        "wrong": [
+          "Bergen",
+          "Trondheim",
+          "Tromsø"
+        ],
+        "hint": "A city associated with Norway’s oil industry.",
+        "explanation": "Viking was founded in Stavanger.",
+        "source": "https://www.vikingfotball.no/om-klubben/engelsk/history-of-viking-football-club"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Viking’s De mørkeblå nickname mean?",
+        "answer": "The Dark Blues",
+        "wrong": [
+          "The Red Army",
+          "The White Knights",
+          "The Golden Eagles"
+        ],
+        "hint": "It describes their shirt colour.",
+        "explanation": "The nickname means The Dark Blues.",
+        "source": "https://www.vikingfotball.no/om-klubben/engelsk/history-of-viking-football-club"
+      },
+      {
+        "key": "original-kit",
+        "topic": "identity",
+        "prompt": "What colour were Viking’s original shirts before they switched to dark blue?",
+        "answer": "White",
+        "wrong": [
+          "Green",
+          "Red",
+          "Black"
+        ],
+        "hint": "The badge caused problems during washing.",
+        "explanation": "Viking originally wore white shirts.",
+        "source": "https://www.vikingfotball.no/om-klubben/engelsk/history-of-viking-football-club"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Viking win their first Norwegian league championship?",
+        "answer": "1958",
+        "wrong": [
+          "1938",
+          "1948",
+          "1968"
+        ],
+        "hint": "Late in the 1950s.",
+        "explanation": "Viking’s first league title came in 1958.",
+        "source": "https://www.vikingfotball.no/om-klubben/engelsk/history-of-viking-football-club"
+      }
+    ]
+  },
+  {
+    "name": "Galatasaray A.Ş.",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which year marks Galatasaray’s founding?",
+        "answer": "1905",
+        "wrong": [
+          "1885",
+          "1895",
+          "1915"
+        ],
+        "hint": "Early in the twentieth century.",
+        "explanation": "Galatasaray was founded in 1905.",
+        "source": "https://www.galatasaray.org/en/s/general-information/185"
+      },
+      {
+        "key": "founder",
+        "topic": "identity",
+        "prompt": "Who was Galatasaray’s founding president?",
+        "answer": "Ali Sami Yen",
+        "wrong": [
+          "Şükrü Saracoğlu",
+          "Süleyman Seba",
+          "Ziya Songülen"
+        ],
+        "hint": "The old stadium carried his name.",
+        "explanation": "Ali Sami Yen was the first president.",
+        "source": "https://www.galatasaray.org/en/s/galatasaray-spor-kulubu-1905/3"
+      },
+      {
+        "key": "school-roots",
+        "topic": "identity",
+        "prompt": "What institution brought Galatasaray’s founders together?",
+        "answer": "Galatasaray High School",
+        "wrong": [
+          "A naval academy",
+          "A railway company",
+          "A mining company"
+        ],
+        "hint": "They were classmates.",
+        "explanation": "The club grew from Galatasaray High School.",
+        "source": "https://www.galatasaray.org/en/s/galatasaray-spor-kulubu-1905/3"
+      },
+      {
+        "key": "kit-colours",
+        "topic": "identity",
+        "prompt": "Which pair became Galatasaray’s famous colours?",
+        "answer": "Red and yellow",
+        "wrong": [
+          "Blue and white",
+          "Green and black",
+          "Purple and white"
+        ],
+        "hint": "One colour is associated with gold.",
+        "explanation": "Galatasaray adopted red and yellow.",
+        "source": "https://www.galatasaray.org/en/s/story-of-our-colors/186"
+      },
+      {
+        "key": "colours-debut",
+        "topic": "history",
+        "prompt": "Against whose football team did Galatasaray first wear red and yellow in 1908?",
+        "answer": "The cruiser Barham",
+        "wrong": [
+          "A Paris school",
+          "An Athens university",
+          "A Vienna factory"
+        ],
+        "hint": "Their opponents came from a British ship.",
+        "explanation": "The colour debut was against Barham’s team.",
+        "source": "https://www.galatasaray.org/en/s/story-of-our-colors/186"
+      }
+    ]
+  },
+  {
+    "name": "PSV Eindhoven",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was PSV officially founded?",
+        "answer": "1913",
+        "wrong": [
+          "1893",
+          "1903",
+          "1923"
+        ],
+        "hint": "One year before the First World War.",
+        "explanation": "PSV was founded in August 1913.",
+        "source": "https://www.psv.nl/en/club/history/overview"
+      },
+      {
+        "key": "company-roots",
+        "topic": "identity",
+        "prompt": "Which company’s workers formed PSV?",
+        "answer": "Philips",
+        "wrong": [
+          "Shell",
+          "Heineken",
+          "KLM"
+        ],
+        "hint": "An electronics company.",
+        "explanation": "PSV began as a sports club for Philips employees.",
+        "source": "https://www.psv.nl/en/club/history/overview"
+      },
+      {
+        "key": "ground",
+        "topic": "grounds",
+        "prompt": "Which stadium is PSV’s traditional home?",
+        "answer": "Philips Stadion",
+        "wrong": [
+          "De Kuip",
+          "Johan Cruijff ArenA",
+          "De Grolsch Veste"
+        ],
+        "hint": "It shares the founding company’s name.",
+        "explanation": "PSV play at Philips Stadion.",
+        "source": "https://www.psv.nl/en/club/history/overview"
+      },
+      {
+        "key": "first-european-title",
+        "topic": "honours",
+        "prompt": "Which European trophy did PSV win in 1978?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners’ Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "The Europa League’s predecessor.",
+        "explanation": "PSV won the 1978 UEFA Cup.",
+        "source": "https://www.psv.nl/en/media/article/the-final-from-78-that-was-no-final-at-all"
+      },
+      {
+        "key": "rijvers",
+        "topic": "managers",
+        "prompt": "Who coached PSV to their first European trophy in 1978?",
+        "answer": "Kees Rijvers",
+        "wrong": [
+          "Guus Hiddink",
+          "Dick Advocaat",
+          "Bobby Robson"
+        ],
+        "hint": "His first name was Kees.",
+        "explanation": "Kees Rijvers led PSV’s 1978 winners.",
+        "source": "https://www.psv.nl/en/media/article/the-team-of-78"
+      }
+    ]
+  },
+  {
+    "name": "FC Shakhtar Donetsk",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did Shakhtar’s story begin?",
+        "answer": "1936",
+        "wrong": [
+          "1916",
+          "1926",
+          "1946"
+        ],
+        "hint": "In the middle of the 1930s.",
+        "explanation": "The team was created in 1936.",
+        "source": "https://shakhtar.com/en/club/timeline/"
+      },
+      {
+        "key": "original-name",
+        "topic": "history",
+        "prompt": "What was Shakhtar originally called?",
+        "answer": "Stakhanovets",
+        "wrong": [
+          "Dynamo Donetsk",
+          "Metalist Donetsk",
+          "Spartak Donetsk"
+        ],
+        "hint": "Named after miner Aleksei Stakhanov.",
+        "explanation": "The original club name was Stakhanovets.",
+        "source": "https://shakhtar.com/en/club/timeline/"
+      },
+      {
+        "key": "name-meaning",
+        "topic": "identity",
+        "prompt": "What does Shakhtar mean in Ukrainian?",
+        "answer": "Miner",
+        "wrong": [
+          "Sailor",
+          "Soldier",
+          "Farmer"
+        ],
+        "hint": "The Donbas coalfields are the clue.",
+        "explanation": "Shakhtar means miner.",
+        "source": "https://shakhtar.com/en/club/timeline/"
+      },
+      {
+        "key": "kit-colours",
+        "topic": "identity",
+        "prompt": "Which two colours are associated with Shakhtar’s kit?",
+        "answer": "Orange and black",
+        "wrong": [
+          "Green and white",
+          "Blue and yellow",
+          "Purple and gold"
+        ],
+        "hint": "One resembles a glowing coal.",
+        "explanation": "Orange and black are the club colours.",
+        "source": "https://shakhtar.com/en/club/timeline/"
+      },
+      {
+        "key": "donbas-arena",
+        "topic": "grounds",
+        "prompt": "Which Donetsk stadium was built as Shakhtar’s home?",
+        "answer": "Donbas Arena",
+        "wrong": [
+          "Olympic Stadium Kyiv",
+          "Metalist Stadium",
+          "Arena Lviv"
+        ],
+        "hint": "It is named after the region.",
+        "explanation": "The Donbas Arena was built for Shakhtar in Donetsk.",
+        "source": "https://shakhtar.com/en/club/timeline/"
+      }
+    ]
+  },
+  {
+    "name": "RC Lens",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Racing Club de Lens founded?",
+        "answer": "1906",
+        "wrong": [
+          "1886",
+          "1896",
+          "1926"
+        ],
+        "hint": "Early in the twentieth century.",
+        "explanation": "Lens began in 1906.",
+        "source": "https://www.rclens.fr/fr/club/rclens-depuis-1906"
+      },
+      {
+        "key": "kit-colours",
+        "topic": "identity",
+        "prompt": "What does Lens’ Sang et Or identity mean?",
+        "answer": "Blood and Gold",
+        "wrong": [
+          "Blue and Black",
+          "Green and White",
+          "Silver and Red"
+        ],
+        "hint": "The second colour is a precious metal.",
+        "explanation": "Sang et Or means Blood and Gold.",
+        "source": "https://www.rclens.fr/fr/club/rclens-depuis-1906"
+      },
+      {
+        "key": "ground",
+        "topic": "grounds",
+        "prompt": "Which stadium has been Lens’ home since 1933?",
+        "answer": "Bollaert-Delelis",
+        "wrong": [
+          "Pierre-Mauroy",
+          "Stade Océane",
+          "Stade de la Meinau"
+        ],
+        "hint": "Its name honours Bollaert and Delelis.",
+        "explanation": "The stadium opened in June 1933.",
+        "source": "https://www.rclens.fr/fr/club/rclens-depuis-1906"
+      },
+      {
+        "key": "mining-crest",
+        "topic": "identity",
+        "prompt": "Which piece of mining equipment appears on Lens’ crest?",
+        "answer": "A miner’s lamp",
+        "wrong": [
+          "A drilling rig",
+          "A railway wagon",
+          "A winding wheel"
+        ],
+        "hint": "It lights the way underground.",
+        "explanation": "The badge includes a miner’s lamp.",
+        "source": "https://www.rclens.fr/fr/club/rclens-depuis-1906"
+      },
+      {
+        "key": "league-cup",
+        "topic": "honours",
+        "prompt": "Which trophy did Lens win in 1999, one year after their league title?",
+        "answer": "Coupe de la Ligue",
+        "wrong": [
+          "Coupe de France",
+          "UEFA Cup",
+          "Champions League"
+        ],
+        "hint": "France’s former league cup.",
+        "explanation": "Lens won the 1999 Coupe de la Ligue.",
+        "source": "https://www.rclens.fr/fr/club/rclens-depuis-1906"
+      }
+    ]
+  }
+]

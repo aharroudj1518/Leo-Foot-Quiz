@@ -2,7 +2,7 @@
   "expo": {
     "name": "Leoqo Football Quiz",
     "slug": "leoqo-football-quiz",
-    "version": "0.5.5",
+    "version": "0.5.8",
     "orientation": "portrait",
     "icon": "./assets/brand/lion-ball.png",
     "userInterfaceStyle": "light",
@@ -22,8 +22,8 @@
       "favicon": "./assets/brand/lion-ball.png",
       "name": "Leoqo Football Quiz",
       "shortName": "Leoqo",
-      "themeColor": "#16382E",
-      "backgroundColor": "#F4F6F2",
+      "themeColor": "#087F78",
+      "backgroundColor": "#F2F8F7",
       "bundler": "metro"
     },
     "plugins": [

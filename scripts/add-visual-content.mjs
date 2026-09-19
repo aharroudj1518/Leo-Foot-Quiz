@@ -8,7 +8,7 @@ const additions = [];
 const playerAliases=JSON.parse(fs.readFileSync(new URL('player-aliases.json',dir),'utf8'));
 const normalized=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’']/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 function add(key, kind, category, answer, others, description, hint, explanation, source) {
-  additions.push({id:`visual-${key}`,prompt:kind==='portrait'?'Who is this player?':kind==='badge'?'Which club does this badge puzzle represent?':'Which stadium is this?',answer,options:[answer,...others],explanation,hint,category,difficulty:'fan',source,era:kind==='portrait'?'Player gallery · archive portraits':kind==='badge'?'Club colours · reimagined badges':'Stadium tour · visual edition',premium:false,visual:{kind,key,description},assetIds:[key]});
+  additions.push({id:`visual-${key}`,prompt:kind==='portrait'?'Who is this player?':kind==='badge'?'Which club uses this crest?':'Which stadium is this?',answer,options:[answer,...others],explanation,hint,category,difficulty:'fan',source,era:kind==='portrait'?'Player gallery · archive portraits':kind==='badge'?'Club crests':'Stadium tour · visual edition',premium:false,visual:{kind,key,description},assetIds:[key]});
 }
 const players = [
   ['messi','Lionel Messi','Argentina','Short-haired, bearded player wearing Argentina’s light blue and white stripes.'],
@@ -39,16 +39,16 @@ for(const q of additions){
 }
 
 const clubs = [
-  ['arsenal','Arsenal','Red shield with a gold cannon and two wheels.','North London · The Gunners','The cannon and red colours point to Arsenal, known as the Gunners.','https://www.arsenal.com/history'],
-  ['madrid','Real Madrid','White shield with a gold crown and diagonal blue band.','Spanish capital · Los Blancos','White, a crown and the Spanish capital point to Real Madrid.','https://www.realmadrid.com/en-US/the-club/history'],
-  ['city','Manchester City','Sky-blue round badge with a gold sailing ship.','Manchester · The sky-blue side','The ship and sky-blue colours point to Manchester City.','https://www.mancity.com/club/manchester-city-history'],
-  ['milan','AC Milan','Oval shield with alternating red and black stripes.','Milan · The Rossoneri','Red and black are the colours behind AC Milan’s Rossoneri nickname.','https://www.acmilan.com/en/club/history'],
-  ['juventus','Juventus','Black and white striped shield with a gold star.','Turin · The Bianconeri','Black and white and the city of Turin point to Juventus.','https://www.juventus.com/en/club/history/'],
-  ['barcelona','FC Barcelona','Blue and garnet shield with a gold football.','Catalonia · The Blaugrana','Blue and garnet are the colours behind Barcelona’s Blaugrana nickname.','https://www.fcbarcelona.com/en/club/history'],
+  ['arsenal','Arsenal','Red shield with a gold cannon and the club name.','North London · The Gunners','The cannon and red colours point to Arsenal, known as the Gunners.','https://www.arsenal.com/history'],
+  ['madrid','Real Madrid','Circular blue-and-white monogram topped by a royal crown.','Spanish capital · Los Blancos','White, a crown and the Spanish capital point to Real Madrid.','https://www.realmadrid.com/en-US/the-club/history'],
+  ['city','Manchester City','Round sky-blue crest containing a sailing ship and red rose.','Manchester · The sky-blue side','The ship and sky-blue colours point to Manchester City.','https://www.mancity.com/club/manchester-city-history'],
+  ['milan','AC Milan','Oval crest with red-and-black stripes and the red cross of Milan.','Milan · The Rossoneri','Red and black are the colours behind AC Milan’s Rossoneri nickname.','https://www.acmilan.com/en/club/history'],
+  ['juventus','Juventus','A minimal black, double-stroke J-shaped club emblem.','Turin · The Bianconeri','Black and white and the city of Turin point to Juventus.','https://www.juventus.com/en/club/history/'],
+  ['barcelona','FC Barcelona','Shield combining the St George cross, Catalan stripes, a football and blue-and-garnet stripes.','Catalonia · The Blaugrana','Blue and garnet are the colours behind Barcelona’s Blaugrana nickname.','https://www.fcbarcelona.com/en/club/history'],
 ];
 // Rotate alternatives through the whole collection rather than repeating its first three entries.
 const alternativesFor=(roster,index)=>[1,2,3].map(offset=>roster[(index+offset)%roster.length][1]);
-for(const [index,[key,name,description,hint,explanation,source]] of clubs.entries()) add(key,'badge','badges',name,alternativesFor(clubs,index),description,hint,`${explanation} This is an original puzzle illustration, not the official crest.`,source);
+for(const [index,[key,name,description,hint,explanation,source]] of clubs.entries()) add(key,'badge','badges',name,alternativesFor(clubs,index),description,hint,`${explanation} This is the club’s actual crest.`,source);
 const stadiums = [
   ['wembley','Wembley Stadium','A large stadium with a single illuminated arch above the roof.','London · Look at the great arch.','The arch is the defining feature of Wembley Stadium in London. This image is an illustrative interpretation.','https://www.wembleystadium.com/'],
   ['allianz','Allianz Arena','A rounded stadium exterior made of illuminated inflatable-looking panels.','Munich · A luminous outer shell.','The Allianz Arena in Munich is known for its illuminated exterior panels.',credits.find(c=>c.id==='allianz').source],
@@ -66,8 +66,9 @@ fs.writeFileSync(new URL('questions.json',dir),JSON.stringify(bank,null,2)+'\n')
 const editorial=JSON.parse(fs.readFileSync(new URL('editorial-status.json',dir),'utf8'));
 editorial.questions=bank.length;editorial.independentEditorialApproval=false;
 fs.writeFileSync(new URL('editorial-status.json',dir),JSON.stringify(editorial,null,2)+'\n');
+const crests=JSON.parse(fs.readFileSync(new URL('../assets/crests/manifest.json',import.meta.url),'utf8'));
 const register=JSON.parse(fs.readFileSync(new URL('asset-register.json',dir),'utf8'));
 register.assets=register.assets.filter(a=>!additions.some(q=>q.assetIds.includes(a.id)));
-for(const q of additions){const credit=credits.find(c=>c.id===q.visual.key);register.assets.push({id:q.visual.key,status:'review-required',creator:credit?.creator??'Original Leoqo preview artwork',licenseEvidence:credit?`${credit.license}: ${credit.source}`:'Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md',platforms:['ios','android'],commercialUse:false,likenessAndMarksAssessment:'Public-release assessment pending.',referenceImageAssessment:credit?'Commons licence recorded; unchanged source file or Commons thumbnail.':'No reference image supplied.'});}
+for(const q of additions){const credit=credits.find(c=>c.id===q.visual.key);const crest=q.visual.kind==='badge'?crests.find(c=>c.name===q.answer):undefined;if(crest){register.assets.push({id:q.visual.key,status:'review-required',creator:crest.name,licenseEvidence:crest.source,platforms:['ios','android'],commercialUse:false,likenessAndMarksAssessment:'Authentic club mark; public-release assessment pending.',referenceImageAssessment:`Unmodified PNG; SHA-256 ${crest.sha256}`});continue;}register.assets.push({id:q.visual.key,status:'review-required',creator:credit?.creator??'Original Leoqo preview artwork',licenseEvidence:credit?`${credit.license}: ${credit.source}`:'Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md',platforms:['ios','android'],commercialUse:false,likenessAndMarksAssessment:'Public-release assessment pending.',referenceImageAssessment:credit?'Commons licence recorded; unchanged source file or Commons thumbnail.':'No reference image supplied.'});}
 fs.writeFileSync(new URL('asset-register.json',dir),JSON.stringify(register,null,2)+'\n');
 console.log(`Added ${additions.length} visual questions; ${bank.length} total.`);

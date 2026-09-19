@@ -1,3 +1,4 @@
+import {validLineupProgress,type LineupProgress} from './lineup-progress.ts';
 export type Mode = 'mixed' | 'world' | 'clubs' | 'players' | 'rules' | 'legends' | 'portraits' | 'badges' | 'stadiums' | 'connections' | 'squads';
 import {dailyDate,isUtcDate,retainDailyProgress} from './daily.ts';
 export type Difficulty = 'starter' | 'fan' | 'expert';
@@ -10,6 +11,9 @@ export type Question = {
   assetIds?: string[];
   clubConnections?: string[];
   squadCode?: string;
+  clubTopic?: 'history' | 'identity' | 'grounds' | 'honours' | 'managers' | 'records' | 'players';
+  factId?: string;
+  retired?: boolean;
   squadClue?: {country:string;number:number;club:string;competition?:string};
 };
 export type Answer = { questionId: string; value: string; correct: boolean; hinted: boolean };
@@ -18,6 +22,7 @@ export type Session = {
   index: number; seed: string; daily: boolean; family: boolean; completed: boolean;
 };
 export type Profile = {
+  lineupProgress?: LineupProgress;
   totals?: {rounds:number;answered:number;correct:number};
   dailyCompleted?: string[]; latestDaily?: Session|null;
   version: 1; solved?: string[]; seen: string[]; mistakes: string[]; history: Session[]; session: Session | null;
@@ -49,18 +54,48 @@ export function shuffled<T>(values: T[], seed: string): T[] {
   for (let i = result.length - 1; i > 0; i--) { h = (Math.imul(h, 1664525) + 1013904223) >>> 0; const j = h % (i + 1); [result[i], result[j]] = [result[j], result[i]]; }
   return result;
 }
+export function questionFact(q:Question):string {return q.factId??`${normalize(q.prompt)}|${normalize(q.answer)}`;}
+/** Expand seen IDs before narrowing to one competition or chapter. */
+export function seenQuestionIds(bank:Question[],seen:string[]):string[]{
+  const ids=new Set(seen),facts=new Set(bank.filter(q=>ids.has(q.id)).map(questionFact));
+  return [...new Set([...seen,...bank.filter(q=>facts.has(questionFact(q))).map(q=>q.id)])];
+}
 export function makeSession(bank: Question[], mode: Mode, difficulty: Difficulty, seen: string[], seed: string, options: { daily?: boolean; family?: boolean; premium?: boolean; revision?: string[] } = {}): Session {
   // The shared daily challenge must not change when a player buys a pack.
-  let pool = bank.filter(q => (!q.premium || (options.premium && !options.daily)) && (mode === 'mixed' || q.category === mode));
+  let pool = bank.filter(q => (!q.retired || !!options.revision) && (!q.premium || (options.premium && !options.daily)) && (mode === 'mixed' || q.category === mode));
   if (options.revision) pool = pool.filter(q => options.revision!.includes(q.id));
-  if (!options.daily && !options.revision && !['portraits','badges','stadiums','connections','squads'].includes(mode)) pool = pool.filter(q => q.difficulty === difficulty);
-  const ordered = shuffled(pool, seed);
-  const unseen = options.daily || options.revision ? ordered : ordered.filter(q => !seen.includes(q.id));
+  // Themed collections expose their complete contents at every preference.
+  // In particular, a paid Legends pack must not be empty for Starter/Fan buyers.
+  if (!options.daily && !options.revision && !['portraits','badges','stadiums','connections','squads','legends'].includes(mode)) pool = pool.filter(q => q.difficulty === difficulty);
+  const facts=new Set<string>();
+  const ordered = shuffled(pool, seed).filter(q=>{if(options.revision)return true;const key=questionFact(q);if(facts.has(key))return false;facts.add(key);return true;});
+  const seenIds=new Set(seenQuestionIds(bank,seen));
+  const unseen = options.daily || options.revision ? ordered : ordered.filter(q => !seenIds.has(q.id));
   // Finish the unseen pool before offering deliberate revision. No silent repeats to pad a round.
   const candidates = unseen.length ? unseen : ordered;
-  const selected = (mode === 'mixed' && !options.revision ? interleaveTopics(candidates, seed) : candidates).slice(0, options.daily ? 5 : 10);
+  const selected = (mode === 'mixed' && !options.revision ? interleaveTopics(candidates, seed) : mode === 'squads' && !options.revision ? interleaveClubStories(candidates) : candidates).slice(0, options.daily ? 5 : 10);
   if (!selected.length) throw new Error('No questions at this level yet. Try a different level or topic.');
   return { id: seed, mode, difficulty, questionIds: selected.map(q => q.id), answers: [], index: 0, seed, daily: !!options.daily, family: !!options.family, completed: false };
+}
+function interleaveClubStories(questions: Question[]): Question[] {
+  const groups=new Map<string,Question[]>();
+  for(const q of questions){const topic=q.clubTopic??(q.squadClue?'players':'history');const group=groups.get(topic)??[];group.push(q);groups.set(topic,group);}
+  // Cycle through editorial topics instead of letting a large roster dominate.
+  const topics=[...groups.keys()].filter(t=>t!=='players');
+  if(groups.has('players'))topics.push('players');
+  const result: Question[] = [];
+  let players=0;
+  while(result.length<10){
+    let added=false;
+    for(const topic of topics){
+      if(result.length===10)break;
+      if(topic==='players'&&(players===2||result.at(-1)?.clubTopic==='players'||result.at(-1)?.squadClue))continue;
+      const q=groups.get(topic)?.shift();if(!q)continue;
+      result.push(q);added=true;if(topic==='players')players++;
+    }
+    if(!added)break;
+  }
+  return result;
 }
 function interleaveTopics(questions: Question[], seed: string): Question[] {
   const groups = new Map<Question['category'], Question[]>();
@@ -124,6 +159,7 @@ export function hydrate(raw: string | null, bank: Question[]): Profile {
     || (p.timed !== undefined && typeof p.timed !== 'boolean')) {
     throw new Error('Saved data could not be read. Export it before resetting.');
   }
+  if(p.lineupProgress!==undefined&&!validLineupProgress(p.lineupProgress))throw new Error('Saved lineup progress could not be read.');
   if (p.solved !== undefined && !strings(p.solved)) throw new Error('Saved collection progress could not be read.');
   if(p.totals!==undefined&&(!record(p.totals)||![p.totals.rounds,p.totals.answered,p.totals.correct].every(n=>typeof n==='number'&&Number.isSafeInteger(n)&&n>=0)||Number(p.totals.correct)>Number(p.totals.answered)||Number(p.totals.rounds)>Number(p.totals.answered)))throw new Error('Saved career totals could not be read.');
   if(p.dailyCompleted!==undefined&&(!strings(p.dailyCompleted)||!p.dailyCompleted.every(isUtcDate)))throw new Error('Saved daily progress could not be read.');

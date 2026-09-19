@@ -20,12 +20,18 @@ async function db() {
   });
   return database;
 }
-export async function readProfile(): Promise<string | null> {
-  if (Platform.OS === 'web') return globalThis.localStorage.getItem(KEY);
-  const row = await (await db()).getFirstAsync<{ value: string }>('SELECT value FROM kv WHERE key = ?', KEY);
+async function readValue(key: string): Promise<string | null> {
+  if (Platform.OS === 'web') return globalThis.localStorage.getItem(key);
+  const row = await (await db()).getFirstAsync<{ value: string }>('SELECT value FROM kv WHERE key = ?', key);
   return row?.value ?? null;
 }
-export async function writeProfile(value: string): Promise<void> {
-  if (Platform.OS === 'web') { globalThis.localStorage.setItem(KEY, value); return; }
-  await (await db()).runAsync('INSERT INTO kv (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value', KEY, value);
+async function writeValue(key: string, value: string): Promise<void> {
+  if (Platform.OS === 'web') { globalThis.localStorage.setItem(key, value); return; }
+  await (await db()).runAsync('INSERT INTO kv (key, value) VALUES (?, ?) ON CONFLICT(key) DO UPDATE SET value = excluded.value', key, value);
 }
+export const readProfile = () => readValue(KEY);
+export const writeProfile = (value: string) => writeValue(KEY,value);
+// Separate from progress exports/resets; this marker never grants paid access.
+const RECOVERY_KEY='leoqo.purchase-recovery.v1';
+export const readPurchaseRecovery = () => readValue(RECOVERY_KEY);
+export const writePurchaseRecovery = (value: string) => writeValue(RECOVERY_KEY,value);

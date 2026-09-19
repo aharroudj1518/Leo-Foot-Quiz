@@ -16,7 +16,7 @@ test(`${club.club} official player snapshot is playable in ${competition}`,async
  await page.addInitScript(p=>localStorage.setItem('leoqo.profile.v1',JSON.stringify(p)),{...initialProfile(),session:makeSession([q],'squads','fan',[],'barcelona-qa')});
  await page.goto('/');
  await page.getByRole('button',{name:/Continue your round/}).click();
- await expect(page.getByRole('img',{name:`Football shirt number ${player.number}`,exact:true})).toBeVisible();
+ await expect(page.getByTestId('squad-clue').getByRole('img',{name:new RegExp(`club-colour shirt:.*number ${player.number}$`)})).toBeVisible();
  await expect(page.getByText(`${competition} · 2026/27`,{exact:true})).toBeVisible();
  await page.getByRole('button',{name:player.name,exact:true}).click();
  await expect(page.getByText(q.explanation,{exact:true})).toBeVisible();

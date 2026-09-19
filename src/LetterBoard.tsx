@@ -1,5 +1,6 @@
+import {Text} from './Typography';
 import React,{useMemo,useState} from 'react';
-import {Pressable,StyleSheet,Text,View} from 'react-native';
+import {Pressable,StyleSheet,View} from 'react-native';
 import {answerWords,assembleAnswer,letterPool} from './core/letters';
 import {shuffled} from './core/quiz';
 import {Button,C,Icon} from './ui';
@@ -35,9 +36,18 @@ export function LetterBoard({answer,seed,disabled,onSubmit}:{answer:string;seed:
   </View>;
 }
 const styles=StyleSheet.create({
-  board:{gap:16},instruction:{color:C.muted,fontSize:14},words:{flexDirection:'row',flexWrap:'wrap',gap:12},word:{flexDirection:'row',flexWrap:'wrap',gap:4},
-  slot:{width:30,minHeight:44,borderBottomWidth:2,borderColor:C.green,backgroundColor:'#E3ECE8',alignItems:'center',justifyContent:'center',borderRadius:5},filled:{backgroundColor:'#F4CF55'},
-  letter:{fontSize:19,fontWeight:'800',color:C.ink},progress:{fontSize:12,color:C.muted},pool:{flexDirection:'row',flexWrap:'wrap',gap:7},
-  tile:{minWidth:44,minHeight:48,alignItems:'center',justifyContent:'center',backgroundColor:'white',borderRadius:9,borderWidth:1,borderBottomWidth:3,borderColor:'#CBD8D2'},used:{backgroundColor:'#E5EBE7',borderBottomWidth:1},
-  actions:{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-between',gap:8},action:{minHeight:44,flexDirection:'row',alignItems:'center',gap:6},actionText:{fontSize:13,fontWeight:'700',color:C.ink}
+  board:{gap:14},
+  instruction:{color:C.muted,fontSize:13,textAlign:'center'},
+  words:{flexDirection:'row',flexWrap:'wrap',justifyContent:'center',gap:9},
+  word:{flexDirection:'row',flexWrap:'wrap',justifyContent:'center',gap:4,maxWidth:'100%',flexShrink:1},
+  slot:{width:30,minHeight:42,borderWidth:2,borderBottomWidth:4,borderColor:'#8ECEDF',borderBottomColor:'#052E4D',backgroundColor:'#286484',alignItems:'center',justifyContent:'center',borderRadius:9},
+  filled:{backgroundColor:'#FFF7DF'},
+  letter:{fontSize:22,fontWeight:'900',color:C.navy},
+  progress:{fontSize:11,color:C.muted,textAlign:'center'},
+  pool:{flexDirection:'row',flexWrap:'wrap',justifyContent:'center',gap:7},
+  tile:{minWidth:43,minHeight:48,alignItems:'center',justifyContent:'center',backgroundColor:'#FFFEF4',borderRadius:11,borderWidth:1,borderBottomWidth:4,borderColor:'#FFFFFF',borderBottomColor:'#8AAEBE'},
+  used:{backgroundColor:'#194E68',borderColor:'#316882',borderBottomWidth:1},
+  actions:{flexDirection:'row',flexWrap:'wrap',justifyContent:'space-around',gap:8},
+  action:{minHeight:44,flexDirection:'row',alignItems:'center',gap:6,paddingHorizontal:10,borderRadius:10,backgroundColor:'#174C70'},
+  actionText:{fontSize:12,fontWeight:'800',color:C.white}
 });

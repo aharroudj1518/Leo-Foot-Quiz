@@ -12,7 +12,7 @@ test('Bundesliga shirt round shows sourced details and restores a correct answer
  await page.addInitScript(p=>{if(!localStorage.getItem('leoqo.profile.v1'))localStorage.setItem('leoqo.profile.v1',JSON.stringify(p));},profile);
  await page.emulateMedia({reducedMotion:'reduce'});
  await page.goto('/');await page.getByRole('button',{name:/Continue your round/}).click();
- await expect(page.getByRole('img',{name:`Football shirt number ${player.number}`,exact:true})).toBeVisible();
+ await expect(page.getByTestId('squad-clue').getByRole('img',{name:new RegExp(`club-colour shirt:.*number ${player.number}$`)})).toBeVisible();
  await expect(page.getByText('BUNDESLIGA · 2026/27',{exact:true})).toBeVisible();
  await page.screenshot({path:'.expo/bundesliga-shirt.png'});
  await page.getByRole('button',{name:player.name,exact:true}).click();

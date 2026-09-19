@@ -2,6 +2,8 @@
 
 The purchase code and a playable three-question pack preview are implemented, but revenue is not enabled. These identifiers are already used by the app; store records must match them rather than creating different IDs:
 
+Update, 11 September 2026: checkout intent and approval-pending state now persist separately from quiz progress. New module-restart fixtures verify restore-required and pending recovery, including storage failures. These changes are in the working source after APK 0.5.6; native/store sandbox validation remains pending. See [finish-and-monetize status](FINISH-AND-MONETIZE.md).
+
 | Record | Expected value |
 | --- | --- |
 | Android package | com.leoqo.footballquiz |
@@ -20,3 +22,9 @@ On 11 September the owner was asked which Google Play, App Store Connect and Rev
 Once the records and an authorized testing route are available, verify on both platforms: successful purchase and restore, cancellation, approval-required/pending payment, foreground grant, process-death recovery, offline launch, refunded entitlement and store-account switching. Record the build ID, platform, product and observed outcome without payment details. Current simulator compilation and mocked SDK tests do not satisfy this acceptance.
 
 Commerce remains false in EAS profiles and the independent editorial gate remains closed. Content/imagery approval, privacy/support operations and device acceptance are still needed before launch. The existing price/pack-value hypotheses are documented in LAUNCH-REVIEW-2026-09-09.md; this handoff does not approve prices or promise revenue.
+
+## Google Play account update — 12 September 2026
+
+Direct console inspection confirms the personal Amo Harroudj developer account exists. Identity documents are under Google review. The console says review may take a few days and the owner will receive email. Create app is disabled until account verification is complete. The phone-verification details page also disables its next action until identity documents are approved. Do not repeat signup or assume the app/store products exist. Resume with phone verification after approval, then create the Leoqo app record. The prior public-disclosure question is superseded by the completed account registration observed in Console.
+
+RevenueCat dashboard opens at login. Automatic approval review rejected entering the owner's email because permission to share it with this separate service was not specific. Owner authorization was requested; do not retry that entry until authorized. No RevenueCat project or product has been created or verified in this session.

@@ -1,4 +1,10 @@
 import {describe,it,expect,vi,beforeEach} from 'vitest';
+const recovery=vi.hoisted(()=>({value:null as string|null,readFail:false,writeFail:false,writes:[] as string[]}));
+vi.mock('../src/services/storage',()=>({
+ readPurchaseRecovery:async()=>{if(recovery.readFail)throw Error('storage read failed');return recovery.value;},
+ writePurchaseRecovery:async(value:string)=>{if(recovery.writeFail)throw Error('storage write failed');recovery.value=value;recovery.writes.push(value);},
+}));
+beforeEach(()=>{recovery.value=null;recovery.readFail=false;recovery.writeFail=false;recovery.writes=[];});
 const store=vi.hoisted(()=>({owned:false,offeringsFail:false,packages:[] as any[],infoFail:false,listener:null as null|((info:any)=>void),configure:vi.fn(),purchase:vi.fn(),restore:vi.fn()}));
 const info=()=>({entitlements:{active:store.owned?{legends:{}}:{}}});
 vi.mock('react-native',()=>({Platform:{OS:'android'}}));
@@ -6,7 +12,7 @@ vi.mock('expo-constants',()=>({default:{appOwnership:'standalone'}}));
 vi.mock('../src/content/editorial-status.json',()=>({default:{independentEditorialApproval:true}}));
 vi.mock('react-native-purchases',async()=>({default:{PURCHASES_ERROR_CODE:(await import('@revenuecat/purchases-typescript-internal')).PURCHASES_ERROR_CODE,configure:store.configure,addCustomerInfoUpdateListener:(listener:any)=>{store.listener=listener;},getCustomerInfo:async()=>{if(store.infoFail)throw Error("offline");return info();},getOfferings:async()=>{if(store.offeringsFail)throw new Error('offline');return {current:{availablePackages:store.packages}};},purchasePackage:store.purchase,restorePurchases:store.restore}}));
 let {buy,loadShop,restore,observeOwnership,refreshOwnership}=await import('../src/services/billing');
-const pkg={product:{identifier:'leoqo_legends_lifetime',priceString:'£2.99'}} as any;
+const pkg={packageType:'LIFETIME',product:{identifier:'leoqo_legends_lifetime',priceString:'£2.99',productCategory:'NON_SUBSCRIPTION',productType:'UNKNOWN',subscriptionPeriod:null}} as any;
 beforeEach(async()=>{vi.resetModules();({buy,loadShop,restore,observeOwnership,refreshOwnership}=await import('../src/services/billing'));store.configure.mockClear();store.purchase.mockReset().mockImplementation(async()=>({customerInfo:info()}));store.restore.mockReset().mockImplementation(async()=>info());store.listener=null;store.owned=false;store.infoFail=false;store.offeringsFail=false;store.packages=[];vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','true');vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','goog_live_key');});
 describe('store build purchase path',()=>{
 it('stays closed until the commerce flag is set, even with editorial approval',async()=>{vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','false');const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.message).toContain('not open');});
@@ -101,4 +107,75 @@ it('cancellation leaves checkout available and does not demand restore',async()=
  store.packages=[pkg];store.purchase.mockRejectedValue({code:'1'});
  await expect(buy(pkg)).rejects.toMatchObject({kind:'cancelled'});
  expect(await loadShop()).toMatchObject({available:true,needsRestore:false,pending:false});
+});
+
+it('persists an intent before opening checkout and recovers an interrupted process',async()=>{
+ store.purchase.mockImplementationOnce(()=>{expect(recovery.value).toBe('1');throw {code:'2'};});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'restore'});
+ vi.resetModules();
+ const restarted=await import('../src/services/billing');
+ await expect(restarted.buy(pkg)).rejects.toMatchObject({kind:'restore'});
+ expect(store.purchase).toHaveBeenCalledTimes(1);
+ expect(await restarted.restore()).toBe(false);
+ expect(recovery.value).toBe('0');
+ store.owned=true;
+ expect(await restarted.buy(pkg)).toBe(true);
+});
+
+it('preserves an approval-pending payment after process restart and empty restore',async()=>{
+ store.purchase.mockRejectedValueOnce({code:'20'});
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'pending'});
+ expect(recovery.value).toBe('pending');
+ vi.resetModules();
+ const restarted=await import('../src/services/billing');
+ await expect(restarted.buy(pkg)).rejects.toMatchObject({kind:'pending'});
+ expect(await restarted.restore()).toBe(false);
+ expect(recovery.value).toBe('pending');
+ await expect(restarted.buy(pkg)).rejects.toMatchObject({kind:'pending'});
+ expect(store.purchase).toHaveBeenCalledTimes(1);
+ store.owned=true;
+ expect(await restarted.restore()).toBe(true);
+ expect(recovery.value).toBe('0');
+});
+
+it('never opens checkout when the durable intent cannot be saved',async()=>{
+ recovery.writeFail=true;
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'unavailable'});
+ expect(store.purchase).not.toHaveBeenCalled();
+});
+
+it('retries a failed recovery read without starting a payment',async()=>{
+ recovery.readFail=true;
+ await expect(buy(pkg)).rejects.toMatchObject({kind:'unavailable'});
+ expect(store.purchase).not.toHaveBeenCalled();
+ recovery.readFail=false;store.owned=true;
+ expect(await buy(pkg)).toBe(true);
+});
+
+it('a stored recovery marker is never treated as a paid entitlement',async()=>{
+ recovery.value='1';store.packages=[pkg];
+ expect(await loadShop()).toMatchObject({owned:false,available:false,needsRestore:true});
+});
+
+it.each([
+ {productCategory:'SUBSCRIPTION',productType:'AUTO_RENEWABLE_SUBSCRIPTION',subscriptionPeriod:'P1M'},
+ {productType:'CONSUMABLE'},
+ {identifier:'different_product'},
+ {productCategory:null},
+])('rejects a mismatched product before any checkout',async changes=>{
+ const wrong={...pkg,product:{...pkg.product,...changes}};
+ await expect(buy(wrong)).rejects.toMatchObject({kind:'unavailable'});
+ expect(store.purchase).not.toHaveBeenCalled();
+ expect(recovery.writes).toEqual([]);
+});
+it('does not present recurring billing under the one-time pack promise',async()=>{
+ store.owned=true;
+ store.packages=[{...pkg,packageType:'MONTHLY',product:{...pkg.product,productCategory:'SUBSCRIPTION',subscriptionPeriod:'P1M'}}];
+ const shop=await loadShop();
+ expect(shop).toMatchObject({available:false,owned:true,product:null});
+ expect(shop.message).toContain('one-time pack');
+});
+it('accepts a non-consumable lifetime item in a custom offering package',async()=>{
+ store.packages=[{...pkg,packageType:'CUSTOM',product:{...pkg.product,productType:'NON_CONSUMABLE'}}];
+ expect(await loadShop()).toMatchObject({available:true});
 });
