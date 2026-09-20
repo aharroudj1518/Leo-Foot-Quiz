@@ -63,8 +63,8 @@ for i,(name,clue,nation,url) in enumerate(players):
  group=[x[0] for x in players[:12] if x[0]!=name] if i<12 else [x[0] for x in players[12:] if x[0]!=name]
  add(f'player-{i+1}',f'Who is this player?\n\n{clue}',name,distract(name,group,i),f'{name} represents {nation}. '+('These are selected stops in their club career, in order; the path is not a current-club claim.' if '→' in clue else 'The clue describes this player’s historical achievement.'),f'This player represents {nation}.','players',url,'Career / achievements through 2024',aliases=[name.split()[-1]] if name not in ['Luis Suárez'] else ['Luis Suarez'])
 rules=[
-('In a standard eleven-a-side match, how many players can one team have on the field?','11',['9','10','12'],'A team has at most eleven players on the field, including one goalkeeper.','Include the goalkeeper.','the-players'),
-('What is the minimum number of players a team must have for a match to start or continue?','7',['5','6','8'],'A match may not start or continue if either team has fewer than seven players.','It is fewer than eleven but more than six.','the-players'),
+('In standard eleven-a-side football, what is the maximum number of players one team may have on the field?','11',['9','10','12'],'A team has at most eleven players on the field, including one goalkeeper.','Include the goalkeeper.','the-players'),
+('What is the minimum number of players each team needs to start a standard eleven-a-side match?','7',['5','6','8'],'Each team needs at least seven players to start. Rules for continuing play also account for specified temporary absences and advantage.','It is fewer than eleven but more than six.','the-players'),
 ('How long is each half in a standard adult match, before added time?','45 minutes',['30 minutes','40 minutes','60 minutes'],'A standard match consists of two equal halves of 45 minutes, subject to permitted modifications.','Two halves make 90 minutes.','the-duration-of-the-match'),
 ('How long may the half-time interval normally last at most?','15 minutes',['5 minutes','25 minutes','30 minutes'],'The half-time interval must not exceed 15 minutes.','A quarter of an hour.','the-duration-of-the-match'),
 ('Which card normally signals a player is sent off?','Red',['Yellow','Green','Blue'],'A red card communicates a sending-off.','It is the colour often used for stop.','fouls-and-misconduct'),
@@ -101,6 +101,12 @@ for q in bank:
  elif q['category']=='legends':
   year=int(q['id'].split('-')[-1]);q['difficulty']='starter' if year>=1984 else 'fan' if year>=1969 else 'expert';q['hint']='The winning club is from '+club_countries[q['answer']]+'.'
 folder=root/'src/content';folder.mkdir(parents=True,exist_ok=True)
+visual=folder/'visual-questions.json'
+if visual.exists(): bank.extend(json.loads(visual.read_text(encoding='utf8')))
+connections=folder/'connection-questions.json'
+if connections.exists(): bank.extend(json.loads(connections.read_text(encoding='utf8')))
+squads=folder/'squad-questions.json'
+if squads.exists(): bank.extend(json.loads(squads.read_text(encoding='utf8')))
 (folder/'questions.json').write_text(json.dumps(bank,ensure_ascii=False,indent=2),encoding='utf8')
 (folder/'editorial-status.json').write_text(json.dumps({'status':'development-bank','independentEditorialApproval':False,'createdAt':'2026-09-08','questions':len(bank),'note':'Original wording with reference URLs. Verify every linked source and fact independently before enabling paid release. No claim of independent sign-off.'},indent=2),encoding='utf8')
 print(f'Created {len(bank)} questions, {sum(not q["premium"] for q in bank)} free, {sum(q["premium"] for q in bank)} pack questions.')

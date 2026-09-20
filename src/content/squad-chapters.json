@@ -1,0 +1,2294 @@
+[
+  {
+    "code": "ucl27-50129",
+    "name": "AEK Athens FC",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50129-c29a7a961c19",
+      "ucl27-50129-839453021506",
+      "ucl27-50129-story-1",
+      "ucl27-50129-story-2",
+      "ucl27-50129-story-3",
+      "ucl27-50129-fact-founded",
+      "ucl27-50129-fact-origins",
+      "ucl27-50129-fact-colours",
+      "ucl27-50129-fact-first-cup",
+      "ucl27-50129-fact-six-draws"
+    ]
+  },
+  {
+    "code": "ucl27-52683",
+    "name": "Aston Villa",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52683-c061a5b64ff0",
+      "ucl27-52683-74e5c7693fba",
+      "ucl27-52683-story-1",
+      "ucl27-52683-story-2",
+      "ucl27-52683-story-3",
+      "ucl27-52683-fact-founded",
+      "ucl27-52683-fact-nickname",
+      "ucl27-52683-fact-home-colours",
+      "ucl27-52683-fact-heritage-1",
+      "ucl27-52683-fact-heritage-2",
+      "ucl27-52683-fact-heritage-3",
+      "ucl27-52683-fact-heritage-4",
+      "ucl27-52683-fact-heritage-5",
+      "ucl27-52683-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50124",
+    "name": "Atlético de Madrid",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50124-c06c0f1028d0",
+      "ucl27-50124-44942e91b5c6",
+      "ucl27-50124-story-1",
+      "ucl27-50124-story-2",
+      "ucl27-50124-story-3",
+      "ucl27-50124-fact-founded",
+      "ucl27-50124-fact-nickname",
+      "ucl27-50124-fact-home-colours",
+      "ucl27-50124-fact-heritage-1",
+      "ucl27-50124-fact-heritage-2",
+      "ucl27-50124-fact-heritage-3",
+      "ucl27-50124-fact-heritage-4",
+      "ucl27-50124-fact-heritage-5",
+      "ucl27-50124-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-52758",
+    "name": "Borussia Dortmund",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52758-ee7569b5aa5c",
+      "ucl27-52758-34c93146a786",
+      "ucl27-52758-story-1",
+      "ucl27-52758-story-2",
+      "ucl27-52758-story-3",
+      "ucl27-52758-fact-founded",
+      "ucl27-52758-fact-colours",
+      "ucl27-52758-fact-terrace",
+      "ucl27-52758-fact-derby",
+      "ucl27-52758-fact-first-european",
+      "ucl27-52758-fact-1966-opponent",
+      "ucl27-52758-fact-double-coach",
+      "ucl27-52758-fact-stadium-open"
+    ]
+  },
+  {
+    "code": "ucl27-50080",
+    "name": "FC Barcelona",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50080-49b058beac58",
+      "ucl27-50080-de6732dd527e",
+      "ucl27-50080-story-1",
+      "ucl27-50080-story-2",
+      "ucl27-50080-story-3",
+      "ucl27-50080-fact-founded",
+      "ucl27-50080-fact-nickname",
+      "ucl27-50080-fact-home-colours",
+      "ucl27-50080-fact-heritage-1",
+      "ucl27-50080-fact-heritage-2",
+      "ucl27-50080-fact-heritage-3",
+      "ucl27-50080-fact-heritage-4",
+      "ucl27-50080-fact-heritage-5",
+      "ucl27-50080-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-59333",
+    "name": "FK Bodø/Glimt",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-59333-c7fa2065e976",
+      "ucl27-59333-40a8497195c7",
+      "ucl27-59333-story-1",
+      "ucl27-59333-story-2",
+      "ucl27-59333-story-3",
+      "ucl27-59333-fact-first-title",
+      "ucl27-59333-fact-ground",
+      "ucl27-59333-fact-arctic",
+      "ucl27-59333-fact-coach-rise",
+      "ucl27-59333-fact-europa-semi"
+    ]
+  },
+  {
+    "code": "ucl27-50043",
+    "name": "Club Brugge KV",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50043-4c58ef0fea21",
+      "ucl27-50043-901c9c8035de",
+      "ucl27-50043-story-1",
+      "ucl27-50043-story-2",
+      "ucl27-50043-story-3",
+      "ucl27-50043-fact-founded",
+      "ucl27-50043-fact-nickname",
+      "ucl27-50043-fact-floriana-eight",
+      "ucl27-50043-fact-europa-2015",
+      "ucl27-50043-fact-porto-away"
+    ]
+  },
+  {
+    "code": "ucl27-79946",
+    "name": "Como 1907",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-79946-33d8faaf4713",
+      "ucl27-79946-cbba818f6cad",
+      "ucl27-79946-story-1",
+      "ucl27-79946-story-2",
+      "ucl27-79946-story-3",
+      "ucl27-79946-fact-colours",
+      "ucl27-79946-fact-nickname",
+      "ucl27-79946-fact-founding-place",
+      "ucl27-79946-fact-first-seriea",
+      "ucl27-79946-fact-return-2024",
+      "ucl27-79946-fact-investor",
+      "ucl27-79946-fact-restart",
+      "ucl27-79946-fact-first-return-finish"
+    ]
+  },
+  {
+    "code": "ucl27-52692",
+    "name": "Fenerbahçe SK",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52692-8ffb3b31095c",
+      "ucl27-52692-e8b994e38ce6",
+      "ucl27-52692-story-1",
+      "ucl27-52692-story-2",
+      "ucl27-52692-story-3",
+      "ucl27-52692-fact-founded",
+      "ucl27-52692-fact-nickname",
+      "ucl27-52692-fact-district",
+      "ucl27-52692-fact-colours",
+      "ucl27-52692-fact-mtk-five"
+    ]
+  },
+  {
+    "code": "ucl27-52749",
+    "name": "Feyenoord",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52749-062316725fef",
+      "ucl27-52749-007ef3350a82",
+      "ucl27-52749-story-1",
+      "ucl27-52749-story-2",
+      "ucl27-52749-story-3",
+      "ucl27-52749-fact-founded",
+      "ucl27-52749-fact-nickname",
+      "ucl27-52749-fact-rumelange-twelve",
+      "ucl27-52749-fact-conference-final",
+      "ucl27-52749-fact-intercontinental"
+    ]
+  },
+  {
+    "code": "ucl27-63405",
+    "name": "LASK",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-63405-a21594dcc649",
+      "ucl27-63405-d449f9a1fb47",
+      "ucl27-63405-story-1",
+      "ucl27-63405-story-2",
+      "ucl27-63405-story-3",
+      "ucl27-63405-fact-founded",
+      "ucl27-63405-fact-original-name",
+      "ucl27-63405-fact-colours",
+      "ucl27-63405-fact-promotion-2017",
+      "ucl27-63405-fact-europe-2020"
+    ]
+  },
+  {
+    "code": "ucl27-2603790",
+    "name": "RB Leipzig",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-2603790-1af4b67ce46b",
+      "ucl27-2603790-11ecb63bb37b",
+      "ucl27-2603790-story-1",
+      "ucl27-2603790-story-2",
+      "ucl27-2603790-story-3",
+      "ucl27-2603790-fact-founded",
+      "ucl27-2603790-fact-name",
+      "ucl27-2603790-fact-predecessor",
+      "ucl27-2603790-fact-first-bundesliga",
+      "ucl27-2603790-fact-debut-finish",
+      "ucl27-2603790-fact-first-cup",
+      "ucl27-2603790-fact-cup-coach",
+      "ucl27-2603790-fact-supercup-hattrick"
+    ]
+  },
+  {
+    "code": "ucl27-75797",
+    "name": "LOSC Lille",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-75797-265f15b56ac4",
+      "ucl27-75797-fe7a04475b68",
+      "ucl27-75797-story-1",
+      "ucl27-75797-story-2",
+      "ucl27-75797-story-3",
+      "ucl27-75797-fact-founded",
+      "ucl27-75797-fact-merger",
+      "ucl27-75797-fact-nickname",
+      "ucl27-75797-fact-first-title",
+      "ucl27-75797-fact-cup-hattrick"
+    ]
+  },
+  {
+    "code": "ucl27-7889",
+    "name": "Liverpool FC",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-7889-ae6f16667d13",
+      "ucl27-7889-f8c4bedc7b27",
+      "ucl27-7889-story-1",
+      "ucl27-7889-story-2",
+      "ucl27-7889-story-3",
+      "ucl27-7889-fact-founded",
+      "ucl27-7889-fact-nickname",
+      "ucl27-7889-fact-distinct-extra",
+      "ucl27-7889-fact-heritage-1",
+      "ucl27-7889-fact-heritage-2",
+      "ucl27-7889-fact-heritage-3",
+      "ucl27-7889-fact-heritage-4",
+      "ucl27-7889-fact-heritage-5",
+      "ucl27-7889-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-52919",
+    "name": "Manchester City",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52919-dae0213350ba",
+      "ucl27-52919-fdf02ffd74dc",
+      "ucl27-52919-story-1",
+      "ucl27-52919-story-2",
+      "ucl27-52919-story-3",
+      "ucl27-52919-fact-founded",
+      "ucl27-52919-fact-nickname",
+      "ucl27-52919-fact-home-colours",
+      "ucl27-52919-fact-heritage-1",
+      "ucl27-52919-fact-heritage-2",
+      "ucl27-52919-fact-heritage-3",
+      "ucl27-52919-fact-heritage-4",
+      "ucl27-52919-fact-heritage-5",
+      "ucl27-52919-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-52682",
+    "name": "Manchester United",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52682-72fc581165a1",
+      "ucl27-52682-ee6644d057e2",
+      "ucl27-52682-story-1",
+      "ucl27-52682-story-2",
+      "ucl27-52682-story-3",
+      "ucl27-52682-fact-founded",
+      "ucl27-52682-fact-nickname",
+      "ucl27-52682-fact-home-colours",
+      "ucl27-52682-fact-heritage-1",
+      "ucl27-52682-fact-heritage-2",
+      "ucl27-52682-fact-heritage-3",
+      "ucl27-52682-fact-heritage-4",
+      "ucl27-52682-fact-heritage-5",
+      "ucl27-52682-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50136",
+    "name": "SSC Napoli",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50136-3cf92057e1b0",
+      "ucl27-50136-ccbfa31fd91b",
+      "ucl27-50136-story-1",
+      "ucl27-50136-story-2",
+      "ucl27-50136-story-3",
+      "ucl27-50136-fact-founded",
+      "ucl27-50136-fact-colour",
+      "ucl27-50136-fact-mascot",
+      "ucl27-50136-fact-first-title",
+      "ucl27-50136-fact-first-cup",
+      "ucl27-50136-fact-third-title-coach",
+      "ucl27-50136-fact-old-ground-name",
+      "ucl27-50136-fact-third-title-gap"
+    ]
+  },
+  {
+    "code": "ucl27-52747",
+    "name": "Paris Saint-Germain",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52747-b996819fb475",
+      "ucl27-52747-22ddac5206c4",
+      "ucl27-52747-story-1",
+      "ucl27-52747-story-2",
+      "ucl27-52747-story-3",
+      "ucl27-52747-fact-founded",
+      "ucl27-52747-fact-ground",
+      "ucl27-52747-fact-ground-roots",
+      "ucl27-52747-fact-architect",
+      "ucl27-52747-fact-guingamp-nine"
+    ]
+  },
+  {
+    "code": "ucl27-50064",
+    "name": "FC Porto",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50064-7537f4e6b162",
+      "ucl27-50064-8c26ceccea70",
+      "ucl27-50064-story-1",
+      "ucl27-50064-story-2",
+      "ucl27-50064-story-3",
+      "ucl27-50064-fact-founded",
+      "ucl27-50064-fact-founder",
+      "ucl27-50064-fact-revival",
+      "ucl27-50064-fact-ground-predecessor",
+      "ucl27-50064-fact-ground-opening"
+    ]
+  },
+  {
+    "code": "ucl27-52265",
+    "name": "Real Betis Balompié",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52265-2949b788455a",
+      "ucl27-52265-89d76e6b8b94",
+      "ucl27-52265-story-1",
+      "ucl27-52265-story-2",
+      "ucl27-52265-story-3",
+      "ucl27-52265-fact-founded",
+      "ucl27-52265-fact-nickname",
+      "ucl27-52265-fact-home-colours",
+      "ucl27-52265-fact-heritage-1",
+      "ucl27-52265-fact-heritage-2",
+      "ucl27-52265-fact-heritage-3",
+      "ucl27-52265-fact-heritage-4",
+      "ucl27-52265-fact-heritage-5",
+      "ucl27-52265-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50051",
+    "name": "Real Madrid C.F.",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50051-ffff3c814d27",
+      "ucl27-50051-3747739df49a",
+      "ucl27-50051-story-1",
+      "ucl27-50051-story-2",
+      "ucl27-50051-story-3",
+      "ucl27-50051-fact-founded",
+      "ucl27-50051-fact-nickname",
+      "ucl27-50051-fact-home-colours",
+      "ucl27-50051-fact-heritage-1",
+      "ucl27-50051-fact-heritage-2",
+      "ucl27-50051-fact-heritage-3",
+      "ucl27-50051-fact-heritage-4",
+      "ucl27-50051-fact-heritage-5",
+      "ucl27-50051-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50137",
+    "name": "AS Roma",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50137-7df82a6a6b81",
+      "ucl27-50137-a76153a8ae98",
+      "ucl27-50137-story-1",
+      "ucl27-50137-story-2",
+      "ucl27-50137-story-3",
+      "ucl27-50137-fact-founded",
+      "ucl27-50137-fact-colours",
+      "ucl27-50137-fact-crest",
+      "ucl27-50137-fact-derby",
+      "ucl27-50137-fact-first-title",
+      "ucl27-50137-fact-title-2001",
+      "ucl27-50137-fact-long-serving",
+      "ucl27-50137-fact-final-1984"
+    ]
+  },
+  {
+    "code": "ucl27-52797",
+    "name": "ŠK Slovan Bratislava",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52797-e7601d916789",
+      "ucl27-52797-72cb5131d3c4",
+      "ucl27-52797-story-1",
+      "ucl27-52797-story-2",
+      "ucl27-52797-story-3",
+      "ucl27-52797-fact-founded",
+      "ucl27-52797-fact-nickname",
+      "ucl27-52797-fact-traditional-ground",
+      "ucl27-52797-fact-temporary-ground",
+      "ucl27-52797-fact-popluhar-award"
+    ]
+  },
+  {
+    "code": "ucl27-2609356",
+    "name": "Sabah FC",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-2609356-b3838a154206",
+      "ucl27-2609356-9b3737e661ce",
+      "ucl27-2609356-story-1",
+      "ucl27-2609356-story-2",
+      "ucl27-2609356-story-3",
+      "ucl27-2609356-fact-first-top-flight",
+      "ucl27-2609356-fact-first-top-flight-win",
+      "ucl27-2609356-fact-first-european-tie",
+      "ucl27-2609356-fact-european-home",
+      "ucl27-2609356-fact-first-trophy"
+    ]
+  },
+  {
+    "code": "ucl27-52498",
+    "name": "SK Slavia Praha",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52498-3d4732a963ce",
+      "ucl27-52498-534d33290df1",
+      "ucl27-52498-story-1",
+      "ucl27-52498-story-2",
+      "ucl27-52498-story-3",
+      "ucl27-52498-fact-founded",
+      "ucl27-52498-fact-first-sport",
+      "ucl27-52498-fact-colours",
+      "ucl27-52498-fact-mitropa",
+      "ucl27-52498-fact-first-ucl-group"
+    ]
+  },
+  {
+    "code": "ucl27-50149",
+    "name": "Sporting Clube de Portugal",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50149-0fd5750ac81b",
+      "ucl27-50149-eb672e36abba",
+      "ucl27-50149-story-1",
+      "ucl27-50149-story-2",
+      "ucl27-50149-story-3",
+      "ucl27-50149-fact-founded",
+      "ucl27-50149-fact-founder",
+      "ucl27-50149-fact-crest-animal",
+      "ucl27-50149-fact-kit-colours",
+      "ucl27-50149-fact-new-ground-year"
+    ]
+  },
+  {
+    "code": "ucl27-50107",
+    "name": "VfB Stuttgart",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50107-316d324b4173",
+      "ucl27-50107-ba3c1a96cdb8",
+      "ucl27-50107-story-1",
+      "ucl27-50107-story-2",
+      "ucl27-50107-story-3",
+      "ucl27-50107-fact-origins",
+      "ucl27-50107-fact-original-sport",
+      "ucl27-50107-fact-merger",
+      "ucl27-50107-fact-shirt",
+      "ucl27-50107-fact-first-title",
+      "ucl27-50107-fact-title-coach-2007",
+      "ucl27-50107-fact-europe-final",
+      "ucl27-50107-fact-cup-coach-1997"
+    ]
+  },
+  {
+    "code": "ucl27-52319",
+    "name": "Viking FK",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52319-be3ed22800a9",
+      "ucl27-52319-325ae543043d",
+      "ucl27-52319-story-1",
+      "ucl27-52319-story-2",
+      "ucl27-52319-story-3",
+      "ucl27-52319-fact-founded",
+      "ucl27-52319-fact-home-city",
+      "ucl27-52319-fact-nickname",
+      "ucl27-52319-fact-original-kit",
+      "ucl27-52319-fact-first-title"
+    ]
+  },
+  {
+    "code": "ucl27-70691",
+    "name": "Villarreal CF",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-70691-99c7e56f9db5",
+      "ucl27-70691-d06a64f673b7",
+      "ucl27-70691-story-1",
+      "ucl27-70691-story-2",
+      "ucl27-70691-story-3",
+      "ucl27-70691-fact-founded",
+      "ucl27-70691-fact-nickname",
+      "ucl27-70691-fact-distinct-extra",
+      "ucl27-70691-fact-heritage-1",
+      "ucl27-70691-fact-heritage-2",
+      "ucl27-70691-fact-heritage-3",
+      "ucl27-70691-fact-heritage-4",
+      "ucl27-70691-fact-heritage-5",
+      "ucl27-70691-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50037",
+    "name": "FC Bayern München",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50037-0b025d89c7f5",
+      "ucl27-50037-4abcf52dfcaf",
+      "ucl27-50037-story-1",
+      "ucl27-50037-story-2",
+      "ucl27-50037-story-3",
+      "ucl27-50037-fact-founded",
+      "ucl27-50037-fact-founder",
+      "ucl27-50037-fact-first-title",
+      "ucl27-50037-fact-bundesliga-entry",
+      "ucl27-50037-fact-european-threepeat",
+      "ucl27-50037-fact-first-final",
+      "ucl27-50037-fact-new-ground",
+      "ucl27-50037-fact-treble-2020"
+    ]
+  },
+  {
+    "code": "ucl27-50067",
+    "name": "Galatasaray A.Ş.",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50067-0c78cdd5b096",
+      "ucl27-50067-2c85b4c8f448",
+      "ucl27-50067-story-1",
+      "ucl27-50067-story-2",
+      "ucl27-50067-story-3",
+      "ucl27-50067-fact-founded",
+      "ucl27-50067-fact-founder",
+      "ucl27-50067-fact-school-roots",
+      "ucl27-50067-fact-kit-colours",
+      "ucl27-50067-fact-colours-debut"
+    ]
+  },
+  {
+    "code": "ucl27-50062",
+    "name": "PSV Eindhoven",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50062-56f73e7c4a18",
+      "ucl27-50062-07b8b980ca0d",
+      "ucl27-50062-story-1",
+      "ucl27-50062-story-2",
+      "ucl27-50062-story-3",
+      "ucl27-50062-fact-founded",
+      "ucl27-50062-fact-company-roots",
+      "ucl27-50062-fact-ground",
+      "ucl27-50062-fact-first-european-title",
+      "ucl27-50062-fact-rijvers"
+    ]
+  },
+  {
+    "code": "ucl27-52707",
+    "name": "FC Shakhtar Donetsk",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52707-1f8c535b1f79",
+      "ucl27-52707-9c2418d08b2e",
+      "ucl27-52707-story-1",
+      "ucl27-52707-story-2",
+      "ucl27-52707-story-3",
+      "ucl27-52707-fact-founded",
+      "ucl27-52707-fact-original-name",
+      "ucl27-52707-fact-name-meaning",
+      "ucl27-52707-fact-kit-colours",
+      "ucl27-52707-fact-donbas-arena"
+    ]
+  },
+  {
+    "code": "ucl27-52280",
+    "name": "Arsenal FC",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52280-17fd0ca38d67",
+      "ucl27-52280-2c82b25d2947",
+      "ucl27-52280-story-1",
+      "ucl27-52280-story-2",
+      "ucl27-52280-story-3",
+      "ucl27-52280-fact-founded",
+      "ucl27-52280-fact-nickname",
+      "ucl27-52280-fact-home-colours",
+      "ucl27-52280-fact-heritage-1",
+      "ucl27-52280-fact-heritage-2",
+      "ucl27-52280-fact-heritage-3",
+      "ucl27-52280-fact-heritage-4",
+      "ucl27-52280-fact-heritage-5",
+      "ucl27-52280-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "ucl27-50138",
+    "name": "FC Internazionale Milano",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-50138-1d074414a66d",
+      "ucl27-50138-b9dbf96d946e",
+      "ucl27-50138-story-1",
+      "ucl27-50138-story-2",
+      "ucl27-50138-story-3",
+      "ucl27-50138-fact-founded",
+      "ucl27-50138-fact-name-origin",
+      "ucl27-50138-fact-colours",
+      "ucl27-50138-fact-first-title",
+      "ucl27-50138-fact-great-coach",
+      "ucl27-50138-fact-europe-first",
+      "ucl27-50138-fact-crest-animal",
+      "ucl27-50138-fact-first-captain"
+    ]
+  },
+  {
+    "code": "ucl27-52277",
+    "name": "RC Lens",
+    "competition": "champions-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "ucl27-52277-2cc64741d926",
+      "ucl27-52277-39292b5abd67",
+      "ucl27-52277-story-1",
+      "ucl27-52277-story-2",
+      "ucl27-52277-story-3",
+      "ucl27-52277-fact-founded",
+      "ucl27-52277-fact-kit-colours",
+      "ucl27-52277-fact-ground",
+      "ucl27-52277-fact-mining-crest",
+      "ucl27-52277-fact-league-cup"
+    ]
+  },
+  {
+    "code": "club27-premier-league-arsenal",
+    "name": "Arsenal",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-arsenal-stadium",
+      "club27-premier-league-arsenal-location",
+      "club27-premier-league-arsenal-player-154561",
+      "club27-premier-league-arsenal-player-109745",
+      "club27-premier-league-arsenal-story-1",
+      "club27-premier-league-arsenal-story-2",
+      "club27-premier-league-arsenal-story-3",
+      "club27-premier-league-arsenal-fact-founded",
+      "club27-premier-league-arsenal-fact-nickname",
+      "club27-premier-league-arsenal-fact-home-colours",
+      "club27-premier-league-arsenal-fact-heritage-1",
+      "club27-premier-league-arsenal-fact-heritage-2",
+      "club27-premier-league-arsenal-fact-heritage-3",
+      "club27-premier-league-arsenal-fact-heritage-4",
+      "club27-premier-league-arsenal-fact-heritage-5",
+      "club27-premier-league-arsenal-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-aston-villa",
+    "name": "Aston Villa",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-aston-villa-stadium",
+      "club27-premier-league-aston-villa-location",
+      "club27-premier-league-aston-villa-player-72147",
+      "club27-premier-league-aston-villa-player-199796",
+      "club27-premier-league-aston-villa-story-1",
+      "club27-premier-league-aston-villa-story-2",
+      "club27-premier-league-aston-villa-story-3",
+      "club27-premier-league-aston-villa-fact-founded",
+      "club27-premier-league-aston-villa-fact-nickname",
+      "club27-premier-league-aston-villa-fact-home-colours",
+      "club27-premier-league-aston-villa-fact-heritage-1",
+      "club27-premier-league-aston-villa-fact-heritage-2",
+      "club27-premier-league-aston-villa-fact-heritage-3",
+      "club27-premier-league-aston-villa-fact-heritage-4",
+      "club27-premier-league-aston-villa-fact-heritage-5",
+      "club27-premier-league-aston-villa-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-bournemouth",
+    "name": "Bournemouth",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-bournemouth-stadium",
+      "club27-premier-league-bournemouth-location",
+      "club27-premier-league-bournemouth-player-457569",
+      "club27-premier-league-bournemouth-player-40383",
+      "club27-premier-league-bournemouth-fact-founded",
+      "club27-premier-league-bournemouth-fact-nickname",
+      "club27-premier-league-bournemouth-fact-home-colours",
+      "club27-premier-league-bournemouth-fact-heritage-1",
+      "club27-premier-league-bournemouth-fact-heritage-2",
+      "club27-premier-league-bournemouth-fact-heritage-3",
+      "club27-premier-league-bournemouth-fact-heritage-4",
+      "club27-premier-league-bournemouth-fact-heritage-5",
+      "club27-premier-league-bournemouth-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-brentford",
+    "name": "Brentford",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-brentford-stadium",
+      "club27-premier-league-brentford-location",
+      "club27-premier-league-brentford-player-200720",
+      "club27-premier-league-brentford-player-507433",
+      "club27-premier-league-brentford-fact-founded",
+      "club27-premier-league-brentford-fact-nickname",
+      "club27-premier-league-brentford-fact-home-colours",
+      "club27-premier-league-brentford-fact-heritage-1",
+      "club27-premier-league-brentford-fact-heritage-2",
+      "club27-premier-league-brentford-fact-heritage-3",
+      "club27-premier-league-brentford-fact-heritage-4",
+      "club27-premier-league-brentford-fact-heritage-5",
+      "club27-premier-league-brentford-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-brighton-hove-albion",
+    "name": "Brighton & Hove Albion",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-brighton-hove-albion-stadium",
+      "club27-premier-league-brighton-hove-albion-location",
+      "club27-premier-league-brighton-hove-albion-player-489639",
+      "club27-premier-league-brighton-hove-albion-player-49262",
+      "club27-premier-league-brighton-hove-albion-fact-founded",
+      "club27-premier-league-brighton-hove-albion-fact-nickname",
+      "club27-premier-league-brighton-hove-albion-fact-home-colours",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-1",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-2",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-3",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-4",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-5",
+      "club27-premier-league-brighton-hove-albion-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-chelsea",
+    "name": "Chelsea",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-chelsea-stadium",
+      "club27-premier-league-chelsea-location",
+      "club27-premier-league-chelsea-player-98980",
+      "club27-premier-league-chelsea-player-244850",
+      "club27-premier-league-chelsea-fact-founded",
+      "club27-premier-league-chelsea-fact-nickname",
+      "club27-premier-league-chelsea-fact-distinct-extra",
+      "club27-premier-league-chelsea-fact-heritage-1",
+      "club27-premier-league-chelsea-fact-heritage-2",
+      "club27-premier-league-chelsea-fact-heritage-3",
+      "club27-premier-league-chelsea-fact-heritage-4",
+      "club27-premier-league-chelsea-fact-heritage-5",
+      "club27-premier-league-chelsea-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-coventry-city",
+    "name": "Coventry City",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-coventry-city-stadium",
+      "club27-premier-league-coventry-city-player-231065",
+      "club27-premier-league-coventry-city-player-428580",
+      "club27-premier-league-coventry-city-fact-founded",
+      "club27-premier-league-coventry-city-fact-nickname",
+      "club27-premier-league-coventry-city-fact-distinct-extra",
+      "club27-premier-league-coventry-city-fact-heritage-1",
+      "club27-premier-league-coventry-city-fact-heritage-2",
+      "club27-premier-league-coventry-city-fact-heritage-3",
+      "club27-premier-league-coventry-city-fact-heritage-4",
+      "club27-premier-league-coventry-city-fact-heritage-5",
+      "club27-premier-league-coventry-city-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-crystal-palace",
+    "name": "Crystal Palace",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-crystal-palace-stadium",
+      "club27-premier-league-crystal-palace-location",
+      "club27-premier-league-crystal-palace-player-485337",
+      "club27-premier-league-crystal-palace-player-220362",
+      "club27-premier-league-crystal-palace-fact-founded",
+      "club27-premier-league-crystal-palace-fact-nickname",
+      "club27-premier-league-crystal-palace-fact-home-colours",
+      "club27-premier-league-crystal-palace-fact-heritage-1",
+      "club27-premier-league-crystal-palace-fact-heritage-2",
+      "club27-premier-league-crystal-palace-fact-heritage-3",
+      "club27-premier-league-crystal-palace-fact-heritage-4",
+      "club27-premier-league-crystal-palace-fact-heritage-5",
+      "club27-premier-league-crystal-palace-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-everton",
+    "name": "Everton",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-everton-stadium",
+      "club27-premier-league-everton-location",
+      "club27-premier-league-everton-player-128295",
+      "club27-premier-league-everton-player-242898",
+      "club27-premier-league-everton-fact-founded",
+      "club27-premier-league-everton-fact-nickname",
+      "club27-premier-league-everton-fact-home-colours",
+      "club27-premier-league-everton-fact-heritage-1",
+      "club27-premier-league-everton-fact-heritage-2",
+      "club27-premier-league-everton-fact-heritage-3",
+      "club27-premier-league-everton-fact-heritage-4",
+      "club27-premier-league-everton-fact-heritage-5",
+      "club27-premier-league-everton-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-fulham",
+    "name": "Fulham",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-fulham-stadium",
+      "club27-premier-league-fulham-location",
+      "club27-premier-league-fulham-player-80201",
+      "club27-premier-league-fulham-player-86873",
+      "club27-premier-league-fulham-fact-founded",
+      "club27-premier-league-fulham-fact-nickname",
+      "club27-premier-league-fulham-fact-home-colours",
+      "club27-premier-league-fulham-fact-heritage-1",
+      "club27-premier-league-fulham-fact-heritage-2",
+      "club27-premier-league-fulham-fact-heritage-3",
+      "club27-premier-league-fulham-fact-heritage-4",
+      "club27-premier-league-fulham-fact-heritage-5",
+      "club27-premier-league-fulham-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-hull-city",
+    "name": "Hull City",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-hull-city-stadium",
+      "club27-premier-league-hull-city-location",
+      "club27-premier-league-hull-city-player-490094",
+      "club27-premier-league-hull-city-player-167825",
+      "club27-premier-league-hull-city-fact-founded",
+      "club27-premier-league-hull-city-fact-nickname",
+      "club27-premier-league-hull-city-fact-home-colours",
+      "club27-premier-league-hull-city-fact-heritage-1",
+      "club27-premier-league-hull-city-fact-heritage-2",
+      "club27-premier-league-hull-city-fact-heritage-3",
+      "club27-premier-league-hull-city-fact-heritage-4",
+      "club27-premier-league-hull-city-fact-heritage-5",
+      "club27-premier-league-hull-city-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-ipswich-town",
+    "name": "Ipswich Town",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-ipswich-town-stadium",
+      "club27-premier-league-ipswich-town-location",
+      "club27-premier-league-ipswich-town-player-219924",
+      "club27-premier-league-ipswich-town-player-212314",
+      "club27-premier-league-ipswich-town-fact-founded",
+      "club27-premier-league-ipswich-town-fact-nickname",
+      "club27-premier-league-ipswich-town-fact-home-colours",
+      "club27-premier-league-ipswich-town-fact-heritage-1",
+      "club27-premier-league-ipswich-town-fact-heritage-2",
+      "club27-premier-league-ipswich-town-fact-heritage-3",
+      "club27-premier-league-ipswich-town-fact-heritage-4",
+      "club27-premier-league-ipswich-town-fact-heritage-5",
+      "club27-premier-league-ipswich-town-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-leeds-united",
+    "name": "Leeds United",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-leeds-united-stadium",
+      "club27-premier-league-leeds-united-location",
+      "club27-premier-league-leeds-united-player-153682",
+      "club27-premier-league-leeds-united-player-434752",
+      "club27-premier-league-leeds-united-fact-founded",
+      "club27-premier-league-leeds-united-fact-nickname",
+      "club27-premier-league-leeds-united-fact-distinct-extra",
+      "club27-premier-league-leeds-united-fact-heritage-1",
+      "club27-premier-league-leeds-united-fact-heritage-2",
+      "club27-premier-league-leeds-united-fact-heritage-3",
+      "club27-premier-league-leeds-united-fact-heritage-4",
+      "club27-premier-league-leeds-united-fact-heritage-5",
+      "club27-premier-league-leeds-united-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-liverpool",
+    "name": "Liverpool",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-liverpool-stadium",
+      "club27-premier-league-liverpool-location",
+      "club27-premier-league-liverpool-player-116535",
+      "club27-premier-league-liverpool-player-449027",
+      "club27-premier-league-liverpool-story-1",
+      "club27-premier-league-liverpool-story-2",
+      "club27-premier-league-liverpool-story-3",
+      "club27-premier-league-liverpool-fact-founded",
+      "club27-premier-league-liverpool-fact-nickname",
+      "club27-premier-league-liverpool-fact-distinct-extra",
+      "club27-premier-league-liverpool-fact-heritage-1",
+      "club27-premier-league-liverpool-fact-heritage-2",
+      "club27-premier-league-liverpool-fact-heritage-3",
+      "club27-premier-league-liverpool-fact-heritage-4",
+      "club27-premier-league-liverpool-fact-heritage-5",
+      "club27-premier-league-liverpool-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-manchester-city",
+    "name": "Manchester City",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-manchester-city-stadium",
+      "club27-premier-league-manchester-city-player-448047",
+      "club27-premier-league-manchester-city-player-440993",
+      "club27-premier-league-manchester-city-story-1",
+      "club27-premier-league-manchester-city-story-2",
+      "club27-premier-league-manchester-city-story-3",
+      "club27-premier-league-manchester-city-fact-founded",
+      "club27-premier-league-manchester-city-fact-nickname",
+      "club27-premier-league-manchester-city-fact-home-colours",
+      "club27-premier-league-manchester-city-fact-heritage-1",
+      "club27-premier-league-manchester-city-fact-heritage-2",
+      "club27-premier-league-manchester-city-fact-heritage-3",
+      "club27-premier-league-manchester-city-fact-heritage-4",
+      "club27-premier-league-manchester-city-fact-heritage-5",
+      "club27-premier-league-manchester-city-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-manchester-united",
+    "name": "Manchester United",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-manchester-united-stadium",
+      "club27-premier-league-manchester-united-location",
+      "club27-premier-league-manchester-united-player-166989",
+      "club27-premier-league-manchester-united-player-535301",
+      "club27-premier-league-manchester-united-story-1",
+      "club27-premier-league-manchester-united-story-2",
+      "club27-premier-league-manchester-united-story-3",
+      "club27-premier-league-manchester-united-fact-founded",
+      "club27-premier-league-manchester-united-fact-nickname",
+      "club27-premier-league-manchester-united-fact-home-colours",
+      "club27-premier-league-manchester-united-fact-heritage-1",
+      "club27-premier-league-manchester-united-fact-heritage-2",
+      "club27-premier-league-manchester-united-fact-heritage-3",
+      "club27-premier-league-manchester-united-fact-heritage-4",
+      "club27-premier-league-manchester-united-fact-heritage-5",
+      "club27-premier-league-manchester-united-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-newcastle-united",
+    "name": "Newcastle United",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-newcastle-united-stadium",
+      "club27-premier-league-newcastle-united-location",
+      "club27-premier-league-newcastle-united-player-465694",
+      "club27-premier-league-newcastle-united-player-98747",
+      "club27-premier-league-newcastle-united-fact-founded",
+      "club27-premier-league-newcastle-united-fact-nickname",
+      "club27-premier-league-newcastle-united-fact-home-colours",
+      "club27-premier-league-newcastle-united-fact-heritage-1",
+      "club27-premier-league-newcastle-united-fact-heritage-2",
+      "club27-premier-league-newcastle-united-fact-heritage-3",
+      "club27-premier-league-newcastle-united-fact-heritage-4",
+      "club27-premier-league-newcastle-united-fact-heritage-5",
+      "club27-premier-league-newcastle-united-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-nottingham-forest",
+    "name": "Nottingham Forest",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-nottingham-forest-stadium",
+      "club27-premier-league-nottingham-forest-location",
+      "club27-premier-league-nottingham-forest-player-463034",
+      "club27-premier-league-nottingham-forest-player-247348",
+      "club27-premier-league-nottingham-forest-fact-founded",
+      "club27-premier-league-nottingham-forest-fact-nickname",
+      "club27-premier-league-nottingham-forest-fact-home-colours",
+      "club27-premier-league-nottingham-forest-fact-heritage-1",
+      "club27-premier-league-nottingham-forest-fact-heritage-2",
+      "club27-premier-league-nottingham-forest-fact-heritage-3",
+      "club27-premier-league-nottingham-forest-fact-heritage-4",
+      "club27-premier-league-nottingham-forest-fact-heritage-5",
+      "club27-premier-league-nottingham-forest-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-sunderland",
+    "name": "Sunderland",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-sunderland-stadium",
+      "club27-premier-league-sunderland-location",
+      "club27-premier-league-sunderland-player-135720",
+      "club27-premier-league-sunderland-player-498016",
+      "club27-premier-league-sunderland-fact-founded",
+      "club27-premier-league-sunderland-fact-nickname",
+      "club27-premier-league-sunderland-fact-home-colours",
+      "club27-premier-league-sunderland-fact-heritage-1",
+      "club27-premier-league-sunderland-fact-heritage-2",
+      "club27-premier-league-sunderland-fact-heritage-3",
+      "club27-premier-league-sunderland-fact-heritage-4",
+      "club27-premier-league-sunderland-fact-heritage-5",
+      "club27-premier-league-sunderland-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-premier-league-tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "competition": "premier-league",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-premier-league-tottenham-hotspur-stadium",
+      "club27-premier-league-tottenham-hotspur-location",
+      "club27-premier-league-tottenham-hotspur-player-469142",
+      "club27-premier-league-tottenham-hotspur-player-109646",
+      "club27-premier-league-tottenham-hotspur-fact-founded",
+      "club27-premier-league-tottenham-hotspur-fact-nickname",
+      "club27-premier-league-tottenham-hotspur-fact-distinct-extra",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-1",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-2",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-3",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-4",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-5",
+      "club27-premier-league-tottenham-hotspur-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-alaves",
+    "name": "Alavés",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-alaves-stadium",
+      "club27-la-liga-alaves-location",
+      "club27-la-liga-alaves-fact-founded",
+      "club27-la-liga-alaves-fact-nickname",
+      "club27-la-liga-alaves-fact-home-colours",
+      "club27-la-liga-alaves-fact-heritage-1",
+      "club27-la-liga-alaves-fact-heritage-2",
+      "club27-la-liga-alaves-fact-heritage-3",
+      "club27-la-liga-alaves-fact-heritage-4",
+      "club27-la-liga-alaves-fact-heritage-5",
+      "club27-la-liga-alaves-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-athletic-bilbao",
+    "name": "Athletic Bilbao",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-athletic-bilbao-stadium",
+      "club27-la-liga-athletic-bilbao-location",
+      "club27-la-liga-athletic-bilbao-fact-founded",
+      "club27-la-liga-athletic-bilbao-fact-nickname",
+      "club27-la-liga-athletic-bilbao-fact-home-colours",
+      "club27-la-liga-athletic-bilbao-fact-heritage-1",
+      "club27-la-liga-athletic-bilbao-fact-heritage-2",
+      "club27-la-liga-athletic-bilbao-fact-heritage-3",
+      "club27-la-liga-athletic-bilbao-fact-heritage-4",
+      "club27-la-liga-athletic-bilbao-fact-heritage-5",
+      "club27-la-liga-athletic-bilbao-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-atletico-madrid",
+    "name": "Atlético Madrid",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-atletico-madrid-stadium",
+      "club27-la-liga-atletico-madrid-location",
+      "club27-la-liga-atletico-madrid-story-1",
+      "club27-la-liga-atletico-madrid-story-2",
+      "club27-la-liga-atletico-madrid-story-3",
+      "club27-la-liga-atletico-madrid-fact-founded",
+      "club27-la-liga-atletico-madrid-fact-nickname",
+      "club27-la-liga-atletico-madrid-fact-home-colours",
+      "club27-la-liga-atletico-madrid-fact-heritage-1",
+      "club27-la-liga-atletico-madrid-fact-heritage-2",
+      "club27-la-liga-atletico-madrid-fact-heritage-3",
+      "club27-la-liga-atletico-madrid-fact-heritage-4",
+      "club27-la-liga-atletico-madrid-fact-heritage-5",
+      "club27-la-liga-atletico-madrid-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-barcelona",
+    "name": "Barcelona",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-barcelona-stadium",
+      "club27-la-liga-barcelona-location",
+      "club27-la-liga-barcelona-player-110491",
+      "club27-la-liga-barcelona-player-3543",
+      "club27-la-liga-barcelona-story-1",
+      "club27-la-liga-barcelona-story-2",
+      "club27-la-liga-barcelona-story-3",
+      "club27-la-liga-barcelona-fact-founded",
+      "club27-la-liga-barcelona-fact-nickname",
+      "club27-la-liga-barcelona-fact-home-colours",
+      "club27-la-liga-barcelona-fact-heritage-1",
+      "club27-la-liga-barcelona-fact-heritage-2",
+      "club27-la-liga-barcelona-fact-heritage-3",
+      "club27-la-liga-barcelona-fact-heritage-4",
+      "club27-la-liga-barcelona-fact-heritage-5",
+      "club27-la-liga-barcelona-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-celta-vigo",
+    "name": "Celta Vigo",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-celta-vigo-stadium",
+      "club27-la-liga-celta-vigo-location",
+      "club27-la-liga-celta-vigo-fact-founded",
+      "club27-la-liga-celta-vigo-fact-nickname",
+      "club27-la-liga-celta-vigo-fact-distinct-extra",
+      "club27-la-liga-celta-vigo-fact-heritage-1",
+      "club27-la-liga-celta-vigo-fact-heritage-2",
+      "club27-la-liga-celta-vigo-fact-heritage-3",
+      "club27-la-liga-celta-vigo-fact-heritage-4",
+      "club27-la-liga-celta-vigo-fact-heritage-5",
+      "club27-la-liga-celta-vigo-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-deportivo-a-coruna",
+    "name": "Deportivo A Coruña",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-deportivo-a-coruna-stadium",
+      "club27-la-liga-deportivo-a-coruna-location",
+      "club27-la-liga-deportivo-a-coruna-fact-founded",
+      "club27-la-liga-deportivo-a-coruna-fact-nickname",
+      "club27-la-liga-deportivo-a-coruna-fact-home-colours",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-1",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-2",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-3",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-4",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-5",
+      "club27-la-liga-deportivo-a-coruna-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-elche",
+    "name": "Elche",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-elche-stadium",
+      "club27-la-liga-elche-location",
+      "club27-la-liga-elche-fact-founded",
+      "club27-la-liga-elche-fact-nickname",
+      "club27-la-liga-elche-fact-home-colours",
+      "club27-la-liga-elche-fact-heritage-1",
+      "club27-la-liga-elche-fact-heritage-2",
+      "club27-la-liga-elche-fact-heritage-3",
+      "club27-la-liga-elche-fact-heritage-4",
+      "club27-la-liga-elche-fact-heritage-5",
+      "club27-la-liga-elche-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-espanyol",
+    "name": "Espanyol",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-espanyol-stadium",
+      "club27-la-liga-espanyol-location",
+      "club27-la-liga-espanyol-fact-founded",
+      "club27-la-liga-espanyol-fact-nickname",
+      "club27-la-liga-espanyol-fact-home-colours",
+      "club27-la-liga-espanyol-fact-heritage-1",
+      "club27-la-liga-espanyol-fact-heritage-2",
+      "club27-la-liga-espanyol-fact-heritage-3",
+      "club27-la-liga-espanyol-fact-heritage-4",
+      "club27-la-liga-espanyol-fact-heritage-5",
+      "club27-la-liga-espanyol-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-getafe",
+    "name": "Getafe",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-getafe-stadium",
+      "club27-la-liga-getafe-location",
+      "club27-la-liga-getafe-fact-founded",
+      "club27-la-liga-getafe-fact-nickname",
+      "club27-la-liga-getafe-fact-distinct-extra",
+      "club27-la-liga-getafe-fact-heritage-1",
+      "club27-la-liga-getafe-fact-heritage-2",
+      "club27-la-liga-getafe-fact-heritage-3",
+      "club27-la-liga-getafe-fact-heritage-4",
+      "club27-la-liga-getafe-fact-heritage-5",
+      "club27-la-liga-getafe-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-levante",
+    "name": "Levante",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-levante-stadium",
+      "club27-la-liga-levante-fact-founded",
+      "club27-la-liga-levante-fact-nickname",
+      "club27-la-liga-levante-fact-home-colours",
+      "club27-la-liga-levante-fact-heritage-1",
+      "club27-la-liga-levante-fact-heritage-2",
+      "club27-la-liga-levante-fact-heritage-3",
+      "club27-la-liga-levante-fact-heritage-4",
+      "club27-la-liga-levante-fact-heritage-5",
+      "club27-la-liga-levante-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-malaga",
+    "name": "Málaga",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-malaga-stadium",
+      "club27-la-liga-malaga-location",
+      "club27-la-liga-malaga-fact-founded",
+      "club27-la-liga-malaga-fact-nickname",
+      "club27-la-liga-malaga-fact-home-colours",
+      "club27-la-liga-malaga-fact-heritage-1",
+      "club27-la-liga-malaga-fact-heritage-2",
+      "club27-la-liga-malaga-fact-heritage-3",
+      "club27-la-liga-malaga-fact-heritage-4",
+      "club27-la-liga-malaga-fact-heritage-5",
+      "club27-la-liga-malaga-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-osasuna",
+    "name": "Osasuna",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-osasuna-stadium",
+      "club27-la-liga-osasuna-location",
+      "club27-la-liga-osasuna-fact-founded",
+      "club27-la-liga-osasuna-fact-nickname",
+      "club27-la-liga-osasuna-fact-distinct-extra",
+      "club27-la-liga-osasuna-fact-heritage-1",
+      "club27-la-liga-osasuna-fact-heritage-2",
+      "club27-la-liga-osasuna-fact-heritage-3",
+      "club27-la-liga-osasuna-fact-heritage-4",
+      "club27-la-liga-osasuna-fact-heritage-5",
+      "club27-la-liga-osasuna-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-racing-santander",
+    "name": "Racing Santander",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-racing-santander-stadium",
+      "club27-la-liga-racing-santander-location",
+      "club27-la-liga-racing-santander-fact-founded",
+      "club27-la-liga-racing-santander-fact-nickname",
+      "club27-la-liga-racing-santander-fact-home-colours",
+      "club27-la-liga-racing-santander-fact-heritage-1",
+      "club27-la-liga-racing-santander-fact-heritage-2",
+      "club27-la-liga-racing-santander-fact-heritage-3",
+      "club27-la-liga-racing-santander-fact-heritage-4",
+      "club27-la-liga-racing-santander-fact-heritage-5",
+      "club27-la-liga-racing-santander-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-rayo-vallecano-stadium",
+      "club27-la-liga-rayo-vallecano-location",
+      "club27-la-liga-rayo-vallecano-fact-founded",
+      "club27-la-liga-rayo-vallecano-fact-nickname",
+      "club27-la-liga-rayo-vallecano-fact-home-colours",
+      "club27-la-liga-rayo-vallecano-fact-heritage-1",
+      "club27-la-liga-rayo-vallecano-fact-heritage-2",
+      "club27-la-liga-rayo-vallecano-fact-heritage-3",
+      "club27-la-liga-rayo-vallecano-fact-heritage-4",
+      "club27-la-liga-rayo-vallecano-fact-heritage-5",
+      "club27-la-liga-rayo-vallecano-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-real-betis",
+    "name": "Real Betis",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-real-betis-stadium",
+      "club27-la-liga-real-betis-location",
+      "club27-la-liga-real-betis-story-1",
+      "club27-la-liga-real-betis-story-2",
+      "club27-la-liga-real-betis-story-3",
+      "club27-la-liga-real-betis-fact-founded",
+      "club27-la-liga-real-betis-fact-nickname",
+      "club27-la-liga-real-betis-fact-home-colours",
+      "club27-la-liga-real-betis-fact-heritage-1",
+      "club27-la-liga-real-betis-fact-heritage-2",
+      "club27-la-liga-real-betis-fact-heritage-3",
+      "club27-la-liga-real-betis-fact-heritage-4",
+      "club27-la-liga-real-betis-fact-heritage-5",
+      "club27-la-liga-real-betis-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-real-madrid",
+    "name": "Real Madrid",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-real-madrid-stadium",
+      "club27-la-liga-real-madrid-location",
+      "club27-la-liga-real-madrid-story-1",
+      "club27-la-liga-real-madrid-story-2",
+      "club27-la-liga-real-madrid-story-3",
+      "club27-la-liga-real-madrid-fact-founded",
+      "club27-la-liga-real-madrid-fact-nickname",
+      "club27-la-liga-real-madrid-fact-home-colours",
+      "club27-la-liga-real-madrid-fact-heritage-1",
+      "club27-la-liga-real-madrid-fact-heritage-2",
+      "club27-la-liga-real-madrid-fact-heritage-3",
+      "club27-la-liga-real-madrid-fact-heritage-4",
+      "club27-la-liga-real-madrid-fact-heritage-5",
+      "club27-la-liga-real-madrid-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-real-sociedad",
+    "name": "Real Sociedad",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-real-sociedad-stadium",
+      "club27-la-liga-real-sociedad-location",
+      "club27-la-liga-real-sociedad-fact-founded",
+      "club27-la-liga-real-sociedad-fact-nickname",
+      "club27-la-liga-real-sociedad-fact-distinct-extra",
+      "club27-la-liga-real-sociedad-fact-heritage-1",
+      "club27-la-liga-real-sociedad-fact-heritage-2",
+      "club27-la-liga-real-sociedad-fact-heritage-3",
+      "club27-la-liga-real-sociedad-fact-heritage-4",
+      "club27-la-liga-real-sociedad-fact-heritage-5",
+      "club27-la-liga-real-sociedad-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-sevilla",
+    "name": "Sevilla",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-sevilla-stadium",
+      "club27-la-liga-sevilla-location",
+      "club27-la-liga-sevilla-fact-founded",
+      "club27-la-liga-sevilla-fact-nickname",
+      "club27-la-liga-sevilla-fact-home-colours",
+      "club27-la-liga-sevilla-fact-heritage-1",
+      "club27-la-liga-sevilla-fact-heritage-2",
+      "club27-la-liga-sevilla-fact-heritage-3",
+      "club27-la-liga-sevilla-fact-heritage-4",
+      "club27-la-liga-sevilla-fact-heritage-5",
+      "club27-la-liga-sevilla-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-valencia",
+    "name": "Valencia",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-valencia-stadium",
+      "club27-la-liga-valencia-location",
+      "club27-la-liga-valencia-fact-founded",
+      "club27-la-liga-valencia-fact-nickname",
+      "club27-la-liga-valencia-fact-home-colours",
+      "club27-la-liga-valencia-fact-heritage-1",
+      "club27-la-liga-valencia-fact-heritage-2",
+      "club27-la-liga-valencia-fact-heritage-3",
+      "club27-la-liga-valencia-fact-heritage-4",
+      "club27-la-liga-valencia-fact-heritage-5",
+      "club27-la-liga-valencia-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-la-liga-villarreal",
+    "name": "Villarreal",
+    "competition": "la-liga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-la-liga-villarreal-stadium",
+      "club27-la-liga-villarreal-location",
+      "club27-la-liga-villarreal-story-1",
+      "club27-la-liga-villarreal-story-2",
+      "club27-la-liga-villarreal-story-3",
+      "club27-la-liga-villarreal-fact-founded",
+      "club27-la-liga-villarreal-fact-nickname",
+      "club27-la-liga-villarreal-fact-distinct-extra",
+      "club27-la-liga-villarreal-fact-heritage-1",
+      "club27-la-liga-villarreal-fact-heritage-2",
+      "club27-la-liga-villarreal-fact-heritage-3",
+      "club27-la-liga-villarreal-fact-heritage-4",
+      "club27-la-liga-villarreal-fact-heritage-5",
+      "club27-la-liga-villarreal-fact-heritage-6"
+    ]
+  },
+  {
+    "code": "club27-serie-a-atalanta",
+    "name": "Atalanta",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-atalanta-stadium",
+      "club27-serie-a-atalanta-location",
+      "club27-serie-a-atalanta-fact-founded",
+      "club27-serie-a-atalanta-fact-name-origin",
+      "club27-serie-a-atalanta-fact-colours",
+      "club27-serie-a-atalanta-fact-cup-1963",
+      "club27-serie-a-atalanta-fact-cup-hattrick",
+      "club27-serie-a-atalanta-fact-second-tier-europe",
+      "club27-serie-a-atalanta-fact-topscorer-1997",
+      "club27-serie-a-atalanta-fact-first-ucl-knockout"
+    ]
+  },
+  {
+    "code": "club27-serie-a-bologna",
+    "name": "Bologna",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-bologna-stadium",
+      "club27-serie-a-bologna-location",
+      "club27-serie-a-bologna-fact-founded",
+      "club27-serie-a-bologna-fact-colours",
+      "club27-serie-a-bologna-fact-nickname",
+      "club27-serie-a-bologna-fact-founder",
+      "club27-serie-a-bologna-fact-first-match",
+      "club27-serie-a-bologna-fact-title-1964",
+      "club27-serie-a-bologna-fact-ground-since",
+      "club27-serie-a-bologna-fact-cups-1970s"
+    ]
+  },
+  {
+    "code": "club27-serie-a-cagliari",
+    "name": "Cagliari",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-cagliari-stadium",
+      "club27-serie-a-cagliari-location",
+      "club27-serie-a-cagliari-fact-founded",
+      "club27-serie-a-cagliari-fact-island",
+      "club27-serie-a-cagliari-fact-colours",
+      "club27-serie-a-cagliari-fact-first-title",
+      "club27-serie-a-cagliari-fact-title-star",
+      "club27-serie-a-cagliari-fact-europe-1994",
+      "club27-serie-a-cagliari-fact-europe-opponent",
+      "club27-serie-a-cagliari-fact-local-name"
+    ]
+  },
+  {
+    "code": "club27-serie-a-como",
+    "name": "Como",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-como-location",
+      "club27-serie-a-como-story-1",
+      "club27-serie-a-como-story-2",
+      "club27-serie-a-como-story-3",
+      "club27-serie-a-como-fact-colours",
+      "club27-serie-a-como-fact-nickname",
+      "club27-serie-a-como-fact-founding-place",
+      "club27-serie-a-como-fact-first-seriea",
+      "club27-serie-a-como-fact-return-2024",
+      "club27-serie-a-como-fact-investor",
+      "club27-serie-a-como-fact-restart",
+      "club27-serie-a-como-fact-first-return-finish"
+    ]
+  },
+  {
+    "code": "club27-serie-a-fiorentina",
+    "name": "Fiorentina",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-fiorentina-stadium",
+      "club27-serie-a-fiorentina-location",
+      "club27-serie-a-fiorentina-fact-founded",
+      "club27-serie-a-fiorentina-fact-colour",
+      "club27-serie-a-fiorentina-fact-crest",
+      "club27-serie-a-fiorentina-fact-first-title",
+      "club27-serie-a-fiorentina-fact-second-title",
+      "club27-serie-a-fiorentina-fact-european-cup",
+      "club27-serie-a-fiorentina-fact-first-final",
+      "club27-serie-a-fiorentina-fact-rebirth"
+    ]
+  },
+  {
+    "code": "club27-serie-a-frosinone",
+    "name": "Frosinone",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-frosinone-stadium",
+      "club27-serie-a-frosinone-location",
+      "club27-serie-a-frosinone-fact-nickname",
+      "club27-serie-a-frosinone-fact-colours",
+      "club27-serie-a-frosinone-fact-first-promotion",
+      "club27-serie-a-frosinone-fact-promotion-opponent",
+      "club27-serie-a-frosinone-fact-serie-b-title",
+      "club27-serie-a-frosinone-fact-old-ground",
+      "club27-serie-a-frosinone-fact-original-colours",
+      "club27-serie-a-frosinone-fact-first-name"
+    ]
+  },
+  {
+    "code": "club27-serie-a-genoa",
+    "name": "Genoa",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-genoa-stadium",
+      "club27-serie-a-genoa-location",
+      "club27-serie-a-genoa-fact-founded",
+      "club27-serie-a-genoa-fact-other-sport",
+      "club27-serie-a-genoa-fact-nickname",
+      "club27-serie-a-genoa-fact-colours",
+      "club27-serie-a-genoa-fact-derby",
+      "club27-serie-a-genoa-fact-first-championship",
+      "club27-serie-a-genoa-fact-early-pioneer",
+      "club27-serie-a-genoa-fact-original-shirts"
+    ]
+  },
+  {
+    "code": "club27-serie-a-inter-milan",
+    "name": "Inter Milan",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-inter-milan-stadium",
+      "club27-serie-a-inter-milan-location",
+      "club27-serie-a-inter-milan-story-1",
+      "club27-serie-a-inter-milan-story-2",
+      "club27-serie-a-inter-milan-story-3",
+      "club27-serie-a-inter-milan-fact-founded",
+      "club27-serie-a-inter-milan-fact-name-origin",
+      "club27-serie-a-inter-milan-fact-colours",
+      "club27-serie-a-inter-milan-fact-first-title",
+      "club27-serie-a-inter-milan-fact-great-coach",
+      "club27-serie-a-inter-milan-fact-europe-first",
+      "club27-serie-a-inter-milan-fact-crest-animal",
+      "club27-serie-a-inter-milan-fact-first-captain"
+    ]
+  },
+  {
+    "code": "club27-serie-a-juventus",
+    "name": "Juventus",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-juventus-stadium",
+      "club27-serie-a-juventus-location",
+      "club27-serie-a-juventus-player-kamil-grabara",
+      "club27-serie-a-juventus-player-carlo-pinsoglio",
+      "club27-serie-a-juventus-fact-founded",
+      "club27-serie-a-juventus-fact-nickname",
+      "club27-serie-a-juventus-fact-founders",
+      "club27-serie-a-juventus-fact-derby",
+      "club27-serie-a-juventus-fact-shirt-inspiration",
+      "club27-serie-a-juventus-fact-old-colour",
+      "club27-serie-a-juventus-fact-stadium-open",
+      "club27-serie-a-juventus-fact-three-european"
+    ]
+  },
+  {
+    "code": "club27-serie-a-lazio",
+    "name": "Lazio",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-lazio-stadium",
+      "club27-serie-a-lazio-location",
+      "club27-serie-a-lazio-fact-founded",
+      "club27-serie-a-lazio-fact-colours",
+      "club27-serie-a-lazio-fact-animal",
+      "club27-serie-a-lazio-fact-derby",
+      "club27-serie-a-lazio-fact-first-title",
+      "club27-serie-a-lazio-fact-second-title",
+      "club27-serie-a-lazio-fact-european-trophy",
+      "club27-serie-a-lazio-fact-title-coach"
+    ]
+  },
+  {
+    "code": "club27-serie-a-lecce",
+    "name": "Lecce",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-lecce-stadium",
+      "club27-serie-a-lecce-location",
+      "club27-serie-a-lecce-fact-founded",
+      "club27-serie-a-lecce-fact-colours",
+      "club27-serie-a-lecce-fact-animal",
+      "club27-serie-a-lecce-fact-debut",
+      "club27-serie-a-lecce-fact-best-1989",
+      "club27-serie-a-lecce-fact-second-tier-title",
+      "club27-serie-a-lecce-fact-original-colours",
+      "club27-serie-a-lecce-fact-international-cup"
+    ]
+  },
+  {
+    "code": "club27-serie-a-ac-milan",
+    "name": "AC Milan",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-ac-milan-stadium",
+      "club27-serie-a-ac-milan-location",
+      "club27-serie-a-ac-milan-player-d0ag3rk2mc50gwbo5famdzaqc",
+      "club27-serie-a-ac-milan-player-3fpnfgoy4lbpapv2th6g60cet",
+      "club27-serie-a-ac-milan-story-1",
+      "club27-serie-a-ac-milan-story-2",
+      "club27-serie-a-ac-milan-story-3",
+      "club27-serie-a-ac-milan-story-4",
+      "club27-serie-a-ac-milan-fact-founded",
+      "club27-serie-a-ac-milan-fact-colours",
+      "club27-serie-a-ac-milan-fact-nickname",
+      "club27-serie-a-ac-milan-fact-derby-name",
+      "club27-serie-a-ac-milan-fact-first-title",
+      "club27-serie-a-ac-milan-fact-record-defender",
+      "club27-serie-a-ac-milan-fact-athens-1994",
+      "club27-serie-a-ac-milan-fact-athens-2007"
+    ]
+  },
+  {
+    "code": "club27-serie-a-monza",
+    "name": "Monza",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-monza-stadium",
+      "club27-serie-a-monza-location",
+      "club27-serie-a-monza-fact-founded",
+      "club27-serie-a-monza-fact-colours",
+      "club27-serie-a-monza-fact-original-colours",
+      "club27-serie-a-monza-fact-first-promotion",
+      "club27-serie-a-monza-fact-owner-2018",
+      "club27-serie-a-monza-fact-ground-since",
+      "club27-serie-a-monza-fact-cup-record",
+      "club27-serie-a-monza-fact-formation"
+    ]
+  },
+  {
+    "code": "club27-serie-a-napoli",
+    "name": "Napoli",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-napoli-stadium",
+      "club27-serie-a-napoli-location",
+      "club27-serie-a-napoli-story-1",
+      "club27-serie-a-napoli-story-2",
+      "club27-serie-a-napoli-story-3",
+      "club27-serie-a-napoli-fact-founded",
+      "club27-serie-a-napoli-fact-colour",
+      "club27-serie-a-napoli-fact-mascot",
+      "club27-serie-a-napoli-fact-first-title",
+      "club27-serie-a-napoli-fact-first-cup",
+      "club27-serie-a-napoli-fact-third-title-coach",
+      "club27-serie-a-napoli-fact-old-ground-name",
+      "club27-serie-a-napoli-fact-third-title-gap"
+    ]
+  },
+  {
+    "code": "club27-serie-a-parma",
+    "name": "Parma",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-parma-stadium",
+      "club27-serie-a-parma-location",
+      "club27-serie-a-parma-fact-founded",
+      "club27-serie-a-parma-fact-shirt-symbol",
+      "club27-serie-a-parma-fact-europe-1993",
+      "club27-serie-a-parma-fact-uefa-years",
+      "club27-serie-a-parma-fact-europe-coach",
+      "club27-serie-a-parma-fact-restart",
+      "club27-serie-a-parma-fact-comeback",
+      "club27-serie-a-parma-fact-1999-final"
+    ]
+  },
+  {
+    "code": "club27-serie-a-roma",
+    "name": "Roma",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-roma-stadium",
+      "club27-serie-a-roma-location",
+      "club27-serie-a-roma-story-1",
+      "club27-serie-a-roma-story-2",
+      "club27-serie-a-roma-story-3",
+      "club27-serie-a-roma-fact-founded",
+      "club27-serie-a-roma-fact-colours",
+      "club27-serie-a-roma-fact-crest",
+      "club27-serie-a-roma-fact-derby",
+      "club27-serie-a-roma-fact-first-title",
+      "club27-serie-a-roma-fact-title-2001",
+      "club27-serie-a-roma-fact-long-serving",
+      "club27-serie-a-roma-fact-final-1984"
+    ]
+  },
+  {
+    "code": "club27-serie-a-sassuolo",
+    "name": "Sassuolo",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-sassuolo-stadium",
+      "club27-serie-a-sassuolo-location",
+      "club27-serie-a-sassuolo-fact-founded",
+      "club27-serie-a-sassuolo-fact-colours",
+      "club27-serie-a-sassuolo-fact-first-promotion",
+      "club27-serie-a-sassuolo-fact-promotion-coach",
+      "club27-serie-a-sassuolo-fact-first-goal",
+      "club27-serie-a-sassuolo-fact-four-goal-game",
+      "club27-serie-a-sassuolo-fact-first-win",
+      "club27-serie-a-sassuolo-fact-european-debut"
+    ]
+  },
+  {
+    "code": "club27-serie-a-torino",
+    "name": "Torino",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-torino-stadium",
+      "club27-serie-a-torino-location",
+      "club27-serie-a-torino-fact-founded",
+      "club27-serie-a-torino-fact-colour",
+      "club27-serie-a-torino-fact-animal",
+      "club27-serie-a-torino-fact-derby",
+      "club27-serie-a-torino-fact-grande-era",
+      "club27-serie-a-torino-fact-title-1976",
+      "club27-serie-a-torino-fact-friendship",
+      "club27-serie-a-torino-fact-old-home"
+    ]
+  },
+  {
+    "code": "club27-serie-a-udinese",
+    "name": "Udinese",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-udinese-stadium",
+      "club27-serie-a-udinese-location",
+      "club27-serie-a-udinese-fact-sports-origin",
+      "club27-serie-a-udinese-fact-colours",
+      "club27-serie-a-udinese-fact-nickname",
+      "club27-serie-a-udinese-fact-scoring-2010",
+      "club27-serie-a-udinese-fact-europe-2009",
+      "club27-serie-a-udinese-fact-coach-2012",
+      "club27-serie-a-udinese-fact-ucl-2011",
+      "club27-serie-a-udinese-fact-first-sports"
+    ]
+  },
+  {
+    "code": "club27-serie-a-venezia",
+    "name": "Venezia",
+    "competition": "serie-a",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-serie-a-venezia-stadium",
+      "club27-serie-a-venezia-location",
+      "club27-serie-a-venezia-fact-founded",
+      "club27-serie-a-venezia-fact-colours",
+      "club27-serie-a-venezia-fact-animal",
+      "club27-serie-a-venezia-fact-cup",
+      "club27-serie-a-venezia-fact-cup-opponent",
+      "club27-serie-a-venezia-fact-best-finish",
+      "club27-serie-a-venezia-fact-coach-rise",
+      "club27-serie-a-venezia-fact-historic-duo"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-fc-augsburg",
+    "name": "FC Augsburg",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-fc-augsburg-stadium",
+      "club27-bundesliga-fc-augsburg-location",
+      "club27-bundesliga-fc-augsburg-player-finn-dahmen",
+      "club27-bundesliga-fc-augsburg-player-nediljko-labrovic",
+      "club27-bundesliga-fc-augsburg-fact-founded",
+      "club27-bundesliga-fc-augsburg-fact-nickname-origin",
+      "club27-bundesliga-fc-augsburg-fact-first-promotion",
+      "club27-bundesliga-fc-augsburg-fact-europe-finish",
+      "club27-bundesliga-fc-augsburg-fact-europe-coach",
+      "club27-bundesliga-fc-augsburg-fact-europe-opponent",
+      "club27-bundesliga-fc-augsburg-fact-group-escape",
+      "club27-bundesliga-fc-augsburg-fact-original-name"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-union-berlin",
+    "name": "Union Berlin",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-union-berlin-stadium",
+      "club27-bundesliga-union-berlin-location",
+      "club27-bundesliga-union-berlin-player-frederik-ronnow",
+      "club27-bundesliga-union-berlin-player-carl-klaus",
+      "club27-bundesliga-union-berlin-fact-founded",
+      "club27-bundesliga-union-berlin-fact-nickname",
+      "club27-bundesliga-union-berlin-fact-colours",
+      "club27-bundesliga-union-berlin-fact-east-cup",
+      "club27-bundesliga-union-berlin-fact-cup-opponent",
+      "club27-bundesliga-union-berlin-fact-first-bundesliga",
+      "club27-bundesliga-union-berlin-fact-promotion-coach",
+      "club27-bundesliga-union-berlin-fact-supporters-ground"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-werder-bremen",
+    "name": "Werder Bremen",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-werder-bremen-stadium",
+      "club27-bundesliga-werder-bremen-location",
+      "club27-bundesliga-werder-bremen-player-karl-hein",
+      "club27-bundesliga-werder-bremen-player-markus-kolke",
+      "club27-bundesliga-werder-bremen-fact-founded",
+      "club27-bundesliga-werder-bremen-fact-colours",
+      "club27-bundesliga-werder-bremen-fact-northern-derby",
+      "club27-bundesliga-werder-bremen-fact-first-title",
+      "club27-bundesliga-werder-bremen-fact-european-cup",
+      "club27-bundesliga-werder-bremen-fact-europe-final",
+      "club27-bundesliga-werder-bremen-fact-double",
+      "club27-bundesliga-werder-bremen-fact-double-coach"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-borussia-dortmund-stadium",
+      "club27-bundesliga-borussia-dortmund-location",
+      "club27-bundesliga-borussia-dortmund-player-gregor-kobel",
+      "club27-bundesliga-borussia-dortmund-player-patrick-drewes",
+      "club27-bundesliga-borussia-dortmund-story-1",
+      "club27-bundesliga-borussia-dortmund-story-2",
+      "club27-bundesliga-borussia-dortmund-story-3",
+      "club27-bundesliga-borussia-dortmund-fact-founded",
+      "club27-bundesliga-borussia-dortmund-fact-colours",
+      "club27-bundesliga-borussia-dortmund-fact-terrace",
+      "club27-bundesliga-borussia-dortmund-fact-derby",
+      "club27-bundesliga-borussia-dortmund-fact-first-european",
+      "club27-bundesliga-borussia-dortmund-fact-1966-opponent",
+      "club27-bundesliga-borussia-dortmund-fact-double-coach",
+      "club27-bundesliga-borussia-dortmund-fact-stadium-open"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-sv-elversberg",
+    "name": "SV Elversberg",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-sv-elversberg-stadium",
+      "club27-bundesliga-sv-elversberg-location",
+      "club27-bundesliga-sv-elversberg-player-frank-lehmann",
+      "club27-bundesliga-sv-elversberg-player-elias-etringer",
+      "club27-bundesliga-sv-elversberg-fact-founded",
+      "club27-bundesliga-sv-elversberg-fact-original-name",
+      "club27-bundesliga-sv-elversberg-fact-colours",
+      "club27-bundesliga-sv-elversberg-fact-rise-coach",
+      "club27-bundesliga-sv-elversberg-fact-third-tier-title",
+      "club27-bundesliga-sv-elversberg-fact-promotion-2013",
+      "club27-bundesliga-sv-elversberg-fact-playoff-2017",
+      "club27-bundesliga-sv-elversberg-fact-debut-finish"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-eintracht-frankfurt",
+    "name": "Eintracht Frankfurt",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-eintracht-frankfurt-stadium",
+      "club27-bundesliga-eintracht-frankfurt-location",
+      "club27-bundesliga-eintracht-frankfurt-player-noah-atubolu",
+      "club27-bundesliga-eintracht-frankfurt-player-jens-grahl",
+      "club27-bundesliga-eintracht-frankfurt-fact-founded",
+      "club27-bundesliga-eintracht-frankfurt-fact-name-meaning",
+      "club27-bundesliga-eintracht-frankfurt-fact-animal",
+      "club27-bundesliga-eintracht-frankfurt-fact-german-title",
+      "club27-bundesliga-eintracht-frankfurt-fact-title-final",
+      "club27-bundesliga-eintracht-frankfurt-fact-europe-1960",
+      "club27-bundesliga-eintracht-frankfurt-fact-uefa-1980",
+      "club27-bundesliga-eintracht-frankfurt-fact-europe-coach"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-sc-freiburg",
+    "name": "SC Freiburg",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-sc-freiburg-stadium",
+      "club27-bundesliga-sc-freiburg-location",
+      "club27-bundesliga-sc-freiburg-player-mio-backhaus",
+      "club27-bundesliga-sc-freiburg-player-florian-muller",
+      "club27-bundesliga-sc-freiburg-fact-founded",
+      "club27-bundesliga-sc-freiburg-fact-first-bundesliga",
+      "club27-bundesliga-sc-freiburg-fact-first-coach",
+      "club27-bundesliga-sc-freiburg-fact-second-season",
+      "club27-bundesliga-sc-freiburg-fact-long-coach",
+      "club27-bundesliga-sc-freiburg-fact-cup-final",
+      "club27-bundesliga-sc-freiburg-fact-new-ground",
+      "club27-bundesliga-sc-freiburg-fact-old-ground"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-hamburger-sv",
+    "name": "Hamburger SV",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-hamburger-sv-stadium",
+      "club27-bundesliga-hamburger-sv-location",
+      "club27-bundesliga-hamburger-sv-player-daniel-heuer-fernandes",
+      "club27-bundesliga-hamburger-sv-player-sander-tangvik",
+      "club27-bundesliga-hamburger-sv-fact-formation",
+      "club27-bundesliga-hamburger-sv-fact-derby",
+      "club27-bundesliga-hamburger-sv-fact-european-cup",
+      "club27-bundesliga-hamburger-sv-fact-final-scorer",
+      "club27-bundesliga-hamburger-sv-fact-final-opponent",
+      "club27-bundesliga-hamburger-sv-fact-europe-coach",
+      "club27-bundesliga-hamburger-sv-fact-cup-winners",
+      "club27-bundesliga-hamburger-sv-fact-first-relegation"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-tsg-hoffenheim",
+    "name": "TSG Hoffenheim",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-tsg-hoffenheim-stadium",
+      "club27-bundesliga-tsg-hoffenheim-location",
+      "club27-bundesliga-tsg-hoffenheim-player-oliver-baumann",
+      "club27-bundesliga-tsg-hoffenheim-player-lukas-petersson",
+      "club27-bundesliga-tsg-hoffenheim-fact-founding-sport",
+      "club27-bundesliga-tsg-hoffenheim-fact-modern-merger",
+      "club27-bundesliga-tsg-hoffenheim-fact-backer",
+      "club27-bundesliga-tsg-hoffenheim-fact-first-promotion",
+      "club27-bundesliga-tsg-hoffenheim-fact-promotion-coach",
+      "club27-bundesliga-tsg-hoffenheim-fact-ucl-finish",
+      "club27-bundesliga-tsg-hoffenheim-fact-young-coach",
+      "club27-bundesliga-tsg-hoffenheim-fact-stadium-move"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-1-fc-koln",
+    "name": "1. FC Köln",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-1-fc-koln-stadium",
+      "club27-bundesliga-1-fc-koln-location",
+      "club27-bundesliga-1-fc-koln-player-marvin-schwabe",
+      "club27-bundesliga-1-fc-koln-player-ron-robert-zieler",
+      "club27-bundesliga-1-fc-koln-fact-founded",
+      "club27-bundesliga-1-fc-koln-fact-mascot-animal",
+      "club27-bundesliga-1-fc-koln-fact-mascot-name",
+      "club27-bundesliga-1-fc-koln-fact-first-bundesliga",
+      "club27-bundesliga-1-fc-koln-fact-double",
+      "club27-bundesliga-1-fc-koln-fact-double-coach",
+      "club27-bundesliga-1-fc-koln-fact-europe-final",
+      "club27-bundesliga-1-fc-koln-fact-first-relegation"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-rb-leipzig",
+    "name": "RB Leipzig",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-rb-leipzig-stadium",
+      "club27-bundesliga-rb-leipzig-location",
+      "club27-bundesliga-rb-leipzig-player-orjan-nyland",
+      "club27-bundesliga-rb-leipzig-player-leopold-zingerle",
+      "club27-bundesliga-rb-leipzig-story-1",
+      "club27-bundesliga-rb-leipzig-story-2",
+      "club27-bundesliga-rb-leipzig-story-3",
+      "club27-bundesliga-rb-leipzig-fact-founded",
+      "club27-bundesliga-rb-leipzig-fact-name",
+      "club27-bundesliga-rb-leipzig-fact-predecessor",
+      "club27-bundesliga-rb-leipzig-fact-first-bundesliga",
+      "club27-bundesliga-rb-leipzig-fact-debut-finish",
+      "club27-bundesliga-rb-leipzig-fact-first-cup",
+      "club27-bundesliga-rb-leipzig-fact-cup-coach",
+      "club27-bundesliga-rb-leipzig-fact-supercup-hattrick"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-bayer-leverkusen",
+    "name": "Bayer Leverkusen",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-bayer-leverkusen-stadium",
+      "club27-bundesliga-bayer-leverkusen-location",
+      "club27-bundesliga-bayer-leverkusen-player-mark-flekken",
+      "club27-bundesliga-bayer-leverkusen-player-janis-blaswich",
+      "club27-bundesliga-bayer-leverkusen-fact-founded",
+      "club27-bundesliga-bayer-leverkusen-fact-factory-origin",
+      "club27-bundesliga-bayer-leverkusen-fact-nickname",
+      "club27-bundesliga-bayer-leverkusen-fact-colours",
+      "club27-bundesliga-bayer-leverkusen-fact-uefa-cup",
+      "club27-bundesliga-bayer-leverkusen-fact-first-title",
+      "club27-bundesliga-bayer-leverkusen-fact-title-coach",
+      "club27-bundesliga-bayer-leverkusen-fact-unbeaten"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-mainz-05",
+    "name": "Mainz 05",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-mainz-05-stadium",
+      "club27-bundesliga-mainz-05-location",
+      "club27-bundesliga-mainz-05-player-alexander-schwolow",
+      "club27-bundesliga-mainz-05-player-robin-zentner",
+      "club27-bundesliga-mainz-05-fact-founded",
+      "club27-bundesliga-mainz-05-fact-first-promotion",
+      "club27-bundesliga-mainz-05-fact-first-coach",
+      "club27-bundesliga-mainz-05-fact-fair-play",
+      "club27-bundesliga-mainz-05-fact-first-europe-exit",
+      "club27-bundesliga-mainz-05-fact-amateur-title",
+      "club27-bundesliga-mainz-05-fact-defensive-pioneer",
+      "club27-bundesliga-mainz-05-fact-tuchel-years"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-borussia-monchengladbach",
+    "name": "Borussia Mönchengladbach",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-borussia-monchengladbach-stadium",
+      "club27-bundesliga-borussia-monchengladbach-location",
+      "club27-bundesliga-borussia-monchengladbach-player-moritz-nicolas",
+      "club27-bundesliga-borussia-monchengladbach-player-tobias-sippel",
+      "club27-bundesliga-borussia-monchengladbach-fact-founded",
+      "club27-bundesliga-borussia-monchengladbach-fact-nickname",
+      "club27-bundesliga-borussia-monchengladbach-fact-name-meaning",
+      "club27-bundesliga-borussia-monchengladbach-fact-first-promotion",
+      "club27-bundesliga-borussia-monchengladbach-fact-first-title-coach",
+      "club27-bundesliga-borussia-monchengladbach-fact-five-titles",
+      "club27-bundesliga-borussia-monchengladbach-fact-european-trophies",
+      "club27-bundesliga-borussia-monchengladbach-fact-final-1977"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-bayern-munich",
+    "name": "Bayern Munich",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-bayern-munich-stadium",
+      "club27-bundesliga-bayern-munich-location",
+      "club27-bundesliga-bayern-munich-player-manuel-neuer",
+      "club27-bundesliga-bayern-munich-player-sven-ulreich",
+      "club27-bundesliga-bayern-munich-story-1",
+      "club27-bundesliga-bayern-munich-story-2",
+      "club27-bundesliga-bayern-munich-story-3",
+      "club27-bundesliga-bayern-munich-fact-founded",
+      "club27-bundesliga-bayern-munich-fact-founder",
+      "club27-bundesliga-bayern-munich-fact-first-title",
+      "club27-bundesliga-bayern-munich-fact-bundesliga-entry",
+      "club27-bundesliga-bayern-munich-fact-european-threepeat",
+      "club27-bundesliga-bayern-munich-fact-first-final",
+      "club27-bundesliga-bayern-munich-fact-new-ground",
+      "club27-bundesliga-bayern-munich-fact-treble-2020"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-sc-paderborn",
+    "name": "SC Paderborn",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-sc-paderborn-stadium",
+      "club27-bundesliga-sc-paderborn-location",
+      "club27-bundesliga-sc-paderborn-player-markus-schubert",
+      "club27-bundesliga-sc-paderborn-player-nahuel-noll",
+      "club27-bundesliga-sc-paderborn-fact-merger",
+      "club27-bundesliga-sc-paderborn-fact-current-name",
+      "club27-bundesliga-sc-paderborn-fact-first-promotion",
+      "club27-bundesliga-sc-paderborn-fact-promotion-coach",
+      "club27-bundesliga-sc-paderborn-fact-long-goal",
+      "club27-bundesliga-sc-paderborn-fact-long-goal-opponent",
+      "club27-bundesliga-sc-paderborn-fact-comeback-coach",
+      "club27-bundesliga-sc-paderborn-fact-reprieve"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-schalke-04",
+    "name": "Schalke 04",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-schalke-04-stadium",
+      "club27-bundesliga-schalke-04-location",
+      "club27-bundesliga-schalke-04-player-loris-karius",
+      "club27-bundesliga-schalke-04-player-kevin-muller",
+      "club27-bundesliga-schalke-04-fact-founded",
+      "club27-bundesliga-schalke-04-fact-colours",
+      "club27-bundesliga-schalke-04-fact-mining",
+      "club27-bundesliga-schalke-04-fact-derby",
+      "club27-bundesliga-schalke-04-fact-uefa-cup",
+      "club27-bundesliga-schalke-04-fact-europe-coach",
+      "club27-bundesliga-schalke-04-fact-europe-final",
+      "club27-bundesliga-schalke-04-fact-europe-nickname"
+    ]
+  },
+  {
+    "code": "club27-bundesliga-vfb-stuttgart",
+    "name": "VfB Stuttgart",
+    "competition": "bundesliga",
+    "kind": "Club stories",
+    "questionIds": [
+      "club27-bundesliga-vfb-stuttgart-stadium",
+      "club27-bundesliga-vfb-stuttgart-location",
+      "club27-bundesliga-vfb-stuttgart-player-fabian-bredlow",
+      "club27-bundesliga-vfb-stuttgart-player-marius-funk",
+      "club27-bundesliga-vfb-stuttgart-story-1",
+      "club27-bundesliga-vfb-stuttgart-story-2",
+      "club27-bundesliga-vfb-stuttgart-story-3",
+      "club27-bundesliga-vfb-stuttgart-fact-origins",
+      "club27-bundesliga-vfb-stuttgart-fact-original-sport",
+      "club27-bundesliga-vfb-stuttgart-fact-merger",
+      "club27-bundesliga-vfb-stuttgart-fact-shirt",
+      "club27-bundesliga-vfb-stuttgart-fact-first-title",
+      "club27-bundesliga-vfb-stuttgart-fact-title-coach-2007",
+      "club27-bundesliga-vfb-stuttgart-fact-europe-final",
+      "club27-bundesliga-vfb-stuttgart-fact-cup-coach-1997"
+    ]
+  }
+]

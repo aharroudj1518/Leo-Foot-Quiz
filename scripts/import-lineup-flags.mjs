@@ -1,0 +1,11 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+import {nationalityFlag} from '../src/core/nationalities.ts';
+import squads from '../src/content/sources/champions-league-2026-27.json' with {type:'json'};
+const codes=[...new Set(squads.flatMap(c=>c.players.map(p=>p.nationality)))].filter(c=>nationalityFlag(c)!==c).sort();
+await mkdir('assets/flags',{recursive:true});
+const queue=[...codes];
+await Promise.all(Array.from({length:8},async()=>{while(queue.length){const code=queue.shift();const hex=[...nationalityFlag(code)].map(c=>c.codePointAt(0).toString(16)).join('-');const url=`https://raw.githubusercontent.com/jdecked/twemoji/main/assets/72x72/${hex}.png`;const res=await fetch(url);if(!res.ok)throw new Error(`${code}: ${res.status}`);await writeFile(`assets/flags/${code}.png`,Buffer.from(await res.arrayBuffer()));}}));
+await writeFile('src/flagImages.ts',`import type {ImageSourcePropType} from 'react-native';\nexport const flagImages:Record<string,ImageSourcePropType>={\n${codes.map(c=>` '${c}':require('../assets/flags/${c}.png'),`).join('\n')}\n};\n`);
+const license=await fetch('https://raw.githubusercontent.com/jdecked/twemoji/main/LICENSE-GRAPHICS');if(!license.ok)throw new Error('Licence download failed');await writeFile('assets/flags/LICENSE-GRAPHICS',await license.text());
+await writeFile('assets/flags/README.md','# Nationality flags\n\nUnmodified Twemoji flag PNGs by Twitter, Inc. and other contributors. Graphics licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/\n\nSource: https://github.com/jdecked/twemoji/tree/main/assets/72x72\n\nRetrieved 11 September 2026 using scripts/import-lineup-flags.mjs. No changes to source artwork.\n');
+console.log(`Imported ${codes.length} offline flag images.`);

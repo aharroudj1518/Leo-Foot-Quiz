@@ -1,0 +1,2800 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "crest-ucl27-50129",
+      "status": "review-required",
+      "creator": "AEK Athens FC",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50129.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 d98e7aa12a3310664116b86df656585f474b8465430fb2a0bee426dcec7e9e69"
+    },
+    {
+      "id": "crest-ucl27-52683",
+      "status": "review-required",
+      "creator": "Aston Villa",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52683.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 798f4f435779b5ed47150f0a517d0f6725bedff2ea1512f8d67cd495d1732001"
+    },
+    {
+      "id": "crest-ucl27-50124",
+      "status": "review-required",
+      "creator": "Atlético de Madrid",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50124.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 39863d2c61f2f75a39a684f8496531d6a991e0116fbc2e682ce2785fab72e5d5"
+    },
+    {
+      "id": "crest-ucl27-52758",
+      "status": "review-required",
+      "creator": "Borussia Dortmund",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52758.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 16b8d7623e072cf08f885de81e7fd4cbe9ddc4ab78af97a569be37a5c195678a"
+    },
+    {
+      "id": "crest-ucl27-50080",
+      "status": "review-required",
+      "creator": "FC Barcelona",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50080.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 c940115df3d5c01e15c35de2b349ca09b1e8736c46cad32dae7a13890e4fb25d"
+    },
+    {
+      "id": "crest-ucl27-59333",
+      "status": "review-required",
+      "creator": "FK Bodø/Glimt",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/59333.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 5e073f4b097fc00f99e6614e21bf9d21eb529f02ca0fda7cc37d4cc81d775f23"
+    },
+    {
+      "id": "crest-ucl27-50043",
+      "status": "review-required",
+      "creator": "Club Brugge KV",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50043.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 050625f1e9bc02d12fc5c8f7d01713dbe961b1063a9ec91ce6bb20b12db43e07"
+    },
+    {
+      "id": "crest-ucl27-79946",
+      "status": "review-required",
+      "creator": "Como 1907",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/79946.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9b48715e0708bebec6cdebc3bb9eaa1787658c2f05c84a7a8a1e08505b81023d"
+    },
+    {
+      "id": "crest-ucl27-52692",
+      "status": "review-required",
+      "creator": "Fenerbahçe SK",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52692.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 afd8175cf111572c4c17438d4e2d1cb3e25238142bc7640abaec7a45bebff9c0"
+    },
+    {
+      "id": "crest-ucl27-52749",
+      "status": "review-required",
+      "creator": "Feyenoord",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52749.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 523bfc3e534d2a91cce75a4c87377c3b8d852f1d651bfaaf3b9392c0c4a5a1f5"
+    },
+    {
+      "id": "crest-ucl27-63405",
+      "status": "review-required",
+      "creator": "LASK",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/63405.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 95469d3bbe1aac0df50df99cae1c9ea3e30a7b3c189d16b8f0ef108b0bdba009"
+    },
+    {
+      "id": "crest-ucl27-2603790",
+      "status": "review-required",
+      "creator": "RB Leipzig",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2603790.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 82fddfb4df2aa1197602541bb7f49024e28764d494f09b4d60209bce71e98180"
+    },
+    {
+      "id": "crest-ucl27-75797",
+      "status": "review-required",
+      "creator": "LOSC Lille",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/75797.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 8d42a8907a8ebcc1bda37b6463b667913d6e24261af65f49186a1943ccf9918d"
+    },
+    {
+      "id": "crest-ucl27-7889",
+      "status": "review-required",
+      "creator": "Liverpool FC",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/7889.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 8d84cac10c382f50457fdca84817d97d1b28836a4a924a18ee60c654314592e8"
+    },
+    {
+      "id": "crest-ucl27-52919",
+      "status": "review-required",
+      "creator": "Manchester City",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52919.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 e3d61192d558eb556c4e73f4e9b6a495b12409b5bb1606d857847acb86f6e843"
+    },
+    {
+      "id": "crest-ucl27-52682",
+      "status": "review-required",
+      "creator": "Manchester United",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52682.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9209db62375ec0f0bb2e9833ad9d9bd03e2fb312e48673ac0d29cfc3a0a5d31b"
+    },
+    {
+      "id": "crest-ucl27-50136",
+      "status": "review-required",
+      "creator": "SSC Napoli",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50136.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 72f72b8b7e91d573f28e2f74bed34d78aa3e7ca4fdd37ac9738e8eefd0dfcfaa"
+    },
+    {
+      "id": "crest-ucl27-52747",
+      "status": "review-required",
+      "creator": "Paris Saint-Germain",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52747.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 5d1e7fc0129dbcf34866a63509f7b2e4c1b34e91d6dec3729ddcffc4e2a83b46"
+    },
+    {
+      "id": "crest-ucl27-50064",
+      "status": "review-required",
+      "creator": "FC Porto",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50064.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 73037462c3fdabefdc1b8f0b42b60d833821e46f6a5228095e12408548e75ee3"
+    },
+    {
+      "id": "crest-ucl27-52265",
+      "status": "review-required",
+      "creator": "Real Betis Balompié",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52265.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 f860be2683770944ff06181bb831a424f0bdb39ffd6d23b878bc07dbe20acf5d"
+    },
+    {
+      "id": "crest-ucl27-50051",
+      "status": "review-required",
+      "creator": "Real Madrid C.F.",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50051.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ec29b9620a25a2438f4ab6a839f68f2f0d3528763449298b2137418ef7ad4294"
+    },
+    {
+      "id": "crest-ucl27-50137",
+      "status": "review-required",
+      "creator": "AS Roma",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50137.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cafddb407e9b63c93f60ddfce20fe36900b2e0134e98a446b84773e5c90f189e"
+    },
+    {
+      "id": "crest-ucl27-52797",
+      "status": "review-required",
+      "creator": "ŠK Slovan Bratislava",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52797.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 58bfe7c4f12f2e1c5aad498f0570915b8bf853a42ecd988742b95c4c1cf1dbd4"
+    },
+    {
+      "id": "crest-ucl27-2609356",
+      "status": "review-required",
+      "creator": "Sabah FC",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2609356.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ec83054abfb93f4df48727fc1d8edd6b47e7a57b16764f9f5541cd6eeab91aad"
+    },
+    {
+      "id": "crest-ucl27-52498",
+      "status": "review-required",
+      "creator": "SK Slavia Praha",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52498.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 41654d70dbde04ed1a98e2a933c641ead8386c231aea7768f788e1f5dc7b0158"
+    },
+    {
+      "id": "crest-ucl27-50149",
+      "status": "review-required",
+      "creator": "Sporting Clube de Portugal",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50149.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 3dfa42f201bff216cc39b7778555cb7b642e1a4c53a9c086450a5fc296f7f1f2"
+    },
+    {
+      "id": "crest-ucl27-50107",
+      "status": "review-required",
+      "creator": "VfB Stuttgart",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50107.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 62ff9c23776d767142a65ecf763878ac722a9b261eb131c8f1ab72ac957ecad5"
+    },
+    {
+      "id": "crest-ucl27-52319",
+      "status": "review-required",
+      "creator": "Viking FK",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52319.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 97a345e7b8f47081681253a175021056b2bef2f06a4a6aa9226d0b2dc37d8551"
+    },
+    {
+      "id": "crest-ucl27-70691",
+      "status": "review-required",
+      "creator": "Villarreal CF",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/70691.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9ce5ae71e88ce953e501d620945348e0369956a7d7990d5f3be3a7688c3f89bb"
+    },
+    {
+      "id": "crest-ucl27-50037",
+      "status": "review-required",
+      "creator": "FC Bayern München",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 0623494a5737efccd113ff4da5a24ec6c9a18a3772bda0c08e189982b1a1255c"
+    },
+    {
+      "id": "crest-ucl27-50067",
+      "status": "review-required",
+      "creator": "Galatasaray A.Ş.",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50067.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 6e557411f5a5875e78c65ebc1c13b8d05c929fcc8977cf638150b5b4a10253f8"
+    },
+    {
+      "id": "crest-ucl27-50062",
+      "status": "review-required",
+      "creator": "PSV Eindhoven",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50062.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 3107b3e11372bd5bd4ff7f3422163a31fe9027dcc8b8da7527a62fce5c66ff8e"
+    },
+    {
+      "id": "crest-ucl27-52707",
+      "status": "review-required",
+      "creator": "FC Shakhtar Donetsk",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52707.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 0ebe2565864135cfdb3aa42eeea173ca13924f52456a85d1249b7afc2c63456b"
+    },
+    {
+      "id": "crest-ucl27-52280",
+      "status": "review-required",
+      "creator": "Arsenal FC",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52280.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 26a2266d73c5437831f310ef4f7a1936baead2f206d4f431c9d226bae130d4bc"
+    },
+    {
+      "id": "crest-ucl27-50138",
+      "status": "review-required",
+      "creator": "FC Internazionale Milano",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50138.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cdde8798a1194d0de7fabd64a36ee09bf9736e1fd925c87c94aea4357ee172ae"
+    },
+    {
+      "id": "crest-ucl27-52277",
+      "status": "review-required",
+      "creator": "RC Lens",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52277.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 61f4d3a9f21133c2da0d88ef3fcfda11b78396814c92b33aa399099951754dc7"
+    },
+    {
+      "id": "crest-club27-premier-league-arsenal",
+      "status": "review-required",
+      "creator": "Arsenal",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52280.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 26a2266d73c5437831f310ef4f7a1936baead2f206d4f431c9d226bae130d4bc"
+    },
+    {
+      "id": "crest-club27-premier-league-aston-villa",
+      "status": "review-required",
+      "creator": "Aston Villa",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52683.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 798f4f435779b5ed47150f0a517d0f6725bedff2ea1512f8d67cd495d1732001"
+    },
+    {
+      "id": "crest-club27-premier-league-bournemouth",
+      "status": "review-required",
+      "creator": "Bournemouth",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 657f52dfba612dfaa8523f5da73ae67034c109301d65d1c144502acac87d7522"
+    },
+    {
+      "id": "crest-club27-premier-league-brentford",
+      "status": "review-required",
+      "creator": "Brentford",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 04be6116091082ae1354a645202d91394a0e0e9f36cedef4961b643c40b49749"
+    },
+    {
+      "id": "crest-club27-premier-league-brighton-hove-albion",
+      "status": "review-required",
+      "creator": "Brighton & Hove Albion",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 bb32a56a98c55d52b3412e24bdb8f3c067bb93fe7d51f1e0178f530f268885ac"
+    },
+    {
+      "id": "crest-club27-premier-league-chelsea",
+      "status": "review-required",
+      "creator": "Chelsea",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b330a1ee83b2a9cc89fc3317abd9f9da5ad4d8a5edc9e88677aaa5e99b02971b"
+    },
+    {
+      "id": "crest-club27-premier-league-coventry-city",
+      "status": "review-required",
+      "creator": "Coventry City",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Coventry%20City.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b853dcff0f1dd4e125f8df9f3abadbbd26795966dd641abbe8ab7cfa1abdbe50"
+    },
+    {
+      "id": "crest-club27-premier-league-crystal-palace",
+      "status": "review-required",
+      "creator": "Crystal Palace",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 2cfc4952b29b007eeacca2324e94546c4c6257776a565733d17a66f5dd436e61"
+    },
+    {
+      "id": "crest-club27-premier-league-everton",
+      "status": "review-required",
+      "creator": "Everton",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 0ed1e5572f1feaa2a2da0e6c6df1265129a2d09de44f9c7367e11c0ee8b3479b"
+    },
+    {
+      "id": "crest-club27-premier-league-fulham",
+      "status": "review-required",
+      "creator": "Fulham",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 59c7c54d578e6dbc4fde4eaae88b6312f1b899da4542f86705b2b9f15917658d"
+    },
+    {
+      "id": "crest-club27-premier-league-hull-city",
+      "status": "review-required",
+      "creator": "Hull City",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Hull%20City.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 581f82057f8732388be5f8f3c59cf151e9530c25c1a0960315920e26b5e357c7"
+    },
+    {
+      "id": "crest-club27-premier-league-ipswich-town",
+      "status": "review-required",
+      "creator": "Ipswich Town",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 63d763119728296c3eea019d60386f9441e66f15ba71eb32183037a394ca2563"
+    },
+    {
+      "id": "crest-club27-premier-league-leeds-united",
+      "status": "review-required",
+      "creator": "Leeds United",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 2c45671a5212b74e47f7a87635e1121c84ad3971c2a700b0f925b9bb0c8bf08f"
+    },
+    {
+      "id": "crest-club27-premier-league-liverpool",
+      "status": "review-required",
+      "creator": "Liverpool",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/7889.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 8d84cac10c382f50457fdca84817d97d1b28836a4a924a18ee60c654314592e8"
+    },
+    {
+      "id": "crest-club27-premier-league-manchester-city",
+      "status": "review-required",
+      "creator": "Manchester City",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52919.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 e3d61192d558eb556c4e73f4e9b6a495b12409b5bb1606d857847acb86f6e843"
+    },
+    {
+      "id": "crest-club27-premier-league-manchester-united",
+      "status": "review-required",
+      "creator": "Manchester United",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52682.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9209db62375ec0f0bb2e9833ad9d9bd03e2fb312e48673ac0d29cfc3a0a5d31b"
+    },
+    {
+      "id": "crest-club27-premier-league-newcastle-united",
+      "status": "review-required",
+      "creator": "Newcastle United",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 8285f36ea4c9de20cd08d568222e2c74941b1f5a01d093c4853c44abfc5a3dd7"
+    },
+    {
+      "id": "crest-club27-premier-league-nottingham-forest",
+      "status": "review-required",
+      "creator": "Nottingham Forest",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9e3dd7742337dad9922bacf188f2f93ed1ac188e280a883dc1306a19d9f955e7"
+    },
+    {
+      "id": "crest-club27-premier-league-sunderland",
+      "status": "review-required",
+      "creator": "Sunderland",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 81e31932e3b05179fd9c78d6b86ce804147a945cbe4a8bc4e83842d81b8cbd62"
+    },
+    {
+      "id": "crest-club27-premier-league-tottenham-hotspur",
+      "status": "review-required",
+      "creator": "Tottenham Hotspur",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 33b6b4f1baafcecd88f8499b250fe28ee55eaf60f67020c716b12418d4b6f555"
+    },
+    {
+      "id": "crest-club27-la-liga-alaves",
+      "status": "review-required",
+      "creator": "Alavés",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cdb3725c224c1bd5742f084845ed6a14f407aac37807758191f225146dd47378"
+    },
+    {
+      "id": "crest-club27-la-liga-athletic-bilbao",
+      "status": "review-required",
+      "creator": "Athletic Bilbao",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 1b14204cc3afd47bea3f1588e5b26594cfd8395c628e61cdd537825188b1b57c"
+    },
+    {
+      "id": "crest-club27-la-liga-atletico-madrid",
+      "status": "review-required",
+      "creator": "Atlético Madrid",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 a111593f6c1570ce496624628233e84568741397d6d9764cc089f4fc1074b696"
+    },
+    {
+      "id": "crest-club27-la-liga-barcelona",
+      "status": "review-required",
+      "creator": "Barcelona",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50080.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 c940115df3d5c01e15c35de2b349ca09b1e8736c46cad32dae7a13890e4fb25d"
+    },
+    {
+      "id": "crest-club27-la-liga-celta-vigo",
+      "status": "review-required",
+      "creator": "Celta Vigo",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 f357757a53ab9f9c4deac5e0a38d4764be3b214f961c17910bc93dea6067366d"
+    },
+    {
+      "id": "crest-club27-la-liga-deportivo-a-coruna",
+      "status": "review-required",
+      "creator": "Deportivo A Coruña",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 22ee580495bf3be69dd5110f872506cdd7330754ba207017025489ac364a5a23"
+    },
+    {
+      "id": "crest-club27-la-liga-elche",
+      "status": "review-required",
+      "creator": "Elche",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b68b21d6583b6d791d02dba0263881516c1d9cb08c46dfd6605ad8097dfaa7c6"
+    },
+    {
+      "id": "crest-club27-la-liga-espanyol",
+      "status": "review-required",
+      "creator": "Espanyol",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 d49b8ba301783bd542a0eff399817e61b10681c71a9289a60fce50941a3fdc78"
+    },
+    {
+      "id": "crest-club27-la-liga-getafe",
+      "status": "review-required",
+      "creator": "Getafe",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 769ba589d7ef3ff337077d1c9304a11aba9d7a409d164f15953e2b2b7cb747b3"
+    },
+    {
+      "id": "crest-club27-la-liga-levante",
+      "status": "review-required",
+      "creator": "Levante",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9d752afe8575ec174b6e381e449bc21bf78981655eb23d0b6fc3d200e1ac1e35"
+    },
+    {
+      "id": "crest-club27-la-liga-malaga",
+      "status": "review-required",
+      "creator": "Málaga",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 27a8d41feb034d30f7131eaa6107a86a30d891b6aa0b7a698424009f4d73f7d4"
+    },
+    {
+      "id": "crest-club27-la-liga-osasuna",
+      "status": "review-required",
+      "creator": "Osasuna",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 dfb35b76146380f642c9f7c5d95474711a2901eb5cc8157a9bf3dea418a49239"
+    },
+    {
+      "id": "crest-club27-la-liga-racing-santander",
+      "status": "review-required",
+      "creator": "Racing Santander",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 c36769dab38d666f2bfa601c4bf40a5fd86b18bc867c68a7ee1b42fbf6afbab3"
+    },
+    {
+      "id": "crest-club27-la-liga-rayo-vallecano",
+      "status": "review-required",
+      "creator": "Rayo Vallecano",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 76b7905594cf985cd131cfc5501cb268f6b83981c026f2092abcfca3d503b9f3"
+    },
+    {
+      "id": "crest-club27-la-liga-real-betis",
+      "status": "review-required",
+      "creator": "Real Betis",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cacc73be2c05879f7d7bd063e1deb72cf3b48d01de2c3c4cddfb0aa6ef2d6e3b"
+    },
+    {
+      "id": "crest-club27-la-liga-real-madrid",
+      "status": "review-required",
+      "creator": "Real Madrid",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50051.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ec29b9620a25a2438f4ab6a839f68f2f0d3528763449298b2137418ef7ad4294"
+    },
+    {
+      "id": "crest-club27-la-liga-real-sociedad",
+      "status": "review-required",
+      "creator": "Real Sociedad",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 bf13daf42bab04cb88c67d73a5c7ef044fecb8ee9f65490260d92c0c24217c28"
+    },
+    {
+      "id": "crest-club27-la-liga-sevilla",
+      "status": "review-required",
+      "creator": "Sevilla",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 202dc4bc55bb7d7675d23ba69f67b753332cf6789311b8b15b0706167fe052f0"
+    },
+    {
+      "id": "crest-club27-la-liga-valencia",
+      "status": "review-required",
+      "creator": "Valencia",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 280f4c7f1611c8332c3edd31403dc6542581b338cf4bf5093bfae8cd64c33008"
+    },
+    {
+      "id": "crest-club27-la-liga-villarreal",
+      "status": "review-required",
+      "creator": "Villarreal",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/70691.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9ce5ae71e88ce953e501d620945348e0369956a7d7990d5f3be3a7688c3f89bb"
+    },
+    {
+      "id": "crest-club27-serie-a-atalanta",
+      "status": "review-required",
+      "creator": "Atalanta",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 4c349dfb0de734061a42cbcd220235ede0f28fc3d738aa9312cb0faf692cec15"
+    },
+    {
+      "id": "crest-club27-serie-a-bologna",
+      "status": "review-required",
+      "creator": "Bologna",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b467aaf0a4a898996d961e973cbfdf56c6b63fa50f0f973fd19131a6a734a93b"
+    },
+    {
+      "id": "crest-club27-serie-a-cagliari",
+      "status": "review-required",
+      "creator": "Cagliari",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b22ce1ef7507ac5c325557c441672343a46ae25e98ee14e791e99f601e1709cd"
+    },
+    {
+      "id": "crest-club27-serie-a-como",
+      "status": "review-required",
+      "creator": "Como",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/79946.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9b48715e0708bebec6cdebc3bb9eaa1787658c2f05c84a7a8a1e08505b81023d"
+    },
+    {
+      "id": "crest-club27-serie-a-fiorentina",
+      "status": "review-required",
+      "creator": "Fiorentina",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 b1c2b9cc12b26e6187dbe761c9cb6c3cd8a07ec88ece0533e847de29f0c3f9e2"
+    },
+    {
+      "id": "crest-club27-serie-a-frosinone",
+      "status": "review-required",
+      "creator": "Frosinone",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 2ea743ce8a708e5c15fc9b0c9893787dfaf19ce2f3bec83510bee9342ec0013a"
+    },
+    {
+      "id": "crest-club27-serie-a-genoa",
+      "status": "review-required",
+      "creator": "Genoa",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 9c61641924d84cd845beee535f83ab453f9186a6d4b7200cf5570279f761cd5b"
+    },
+    {
+      "id": "crest-club27-serie-a-inter-milan",
+      "status": "review-required",
+      "creator": "Inter Milan",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50138.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cdde8798a1194d0de7fabd64a36ee09bf9736e1fd925c87c94aea4357ee172ae"
+    },
+    {
+      "id": "crest-club27-serie-a-juventus",
+      "status": "review-required",
+      "creator": "Juventus",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 145a255a90898096f04a4152ebc3f9799ce0b676cf0dbcf72037dcdeb9129e17"
+    },
+    {
+      "id": "crest-club27-serie-a-lazio",
+      "status": "review-required",
+      "creator": "Lazio",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 eb3114c7f704cda4f726d9f6d9840946ef7778cb65eb33e6a4a25ad114bdf94a"
+    },
+    {
+      "id": "crest-club27-serie-a-lecce",
+      "status": "review-required",
+      "creator": "Lecce",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 03a7d871273c0a92acc4f870d1c2ef4d2bff2c0597949cfe17d4befc67a7da6b"
+    },
+    {
+      "id": "crest-club27-serie-a-ac-milan",
+      "status": "review-required",
+      "creator": "AC Milan",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 2dbf7c00965ede1ba39186bfc2d90e90cca069fe1129dc8f41f26b7d60a5f416"
+    },
+    {
+      "id": "crest-club27-serie-a-monza",
+      "status": "review-required",
+      "creator": "Monza",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 bdc83a6328cead062473b161e4318b8e272ad9c664f3183da6c390c86443f8a2"
+    },
+    {
+      "id": "crest-club27-serie-a-napoli",
+      "status": "review-required",
+      "creator": "Napoli",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50136.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 72f72b8b7e91d573f28e2f74bed34d78aa3e7ca4fdd37ac9738e8eefd0dfcfaa"
+    },
+    {
+      "id": "crest-club27-serie-a-parma",
+      "status": "review-required",
+      "creator": "Parma",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 a2997db4c885d5656f1a267226a2aa9e567ad836c3b8a184f6b21267c41958b9"
+    },
+    {
+      "id": "crest-club27-serie-a-roma",
+      "status": "review-required",
+      "creator": "Roma",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50137.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 cafddb407e9b63c93f60ddfce20fe36900b2e0134e98a446b84773e5c90f189e"
+    },
+    {
+      "id": "crest-club27-serie-a-sassuolo",
+      "status": "review-required",
+      "creator": "Sassuolo",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 af2818ffebbfc0fd6e024971599df3426991a3d7fa50573539e8a37a9609f5dc"
+    },
+    {
+      "id": "crest-club27-serie-a-torino",
+      "status": "review-required",
+      "creator": "Torino",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 5f3e8d1fec7fa15e12231d6889b778ad7fc95da9b30d89b2b44103b18fb679bd"
+    },
+    {
+      "id": "crest-club27-serie-a-udinese",
+      "status": "review-required",
+      "creator": "Udinese",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 224904b9168115284cc74aa6c6c4de71ff797eec93718dfe9601fd841d0a4281"
+    },
+    {
+      "id": "crest-club27-serie-a-venezia",
+      "status": "review-required",
+      "creator": "Venezia",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 143991066aa669cf5e44bcf339c9216e62af75a0b454e5bd53f76156f5cf8911"
+    },
+    {
+      "id": "crest-club27-bundesliga-fc-augsburg",
+      "status": "review-required",
+      "creator": "FC Augsburg",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 4518b403505b7d71624f5a73538cefaa3c839f848df87cf4bd4e6dcb351c5f32"
+    },
+    {
+      "id": "crest-club27-bundesliga-union-berlin",
+      "status": "review-required",
+      "creator": "Union Berlin",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 feae734c99d0c15d9d6eaf146914bc09650715130ff04faa91bbfbc82efdde95"
+    },
+    {
+      "id": "crest-club27-bundesliga-werder-bremen",
+      "status": "review-required",
+      "creator": "Werder Bremen",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 76754f64c85552f78846117ddf82a29993f7d529edf180aa2828615aced21812"
+    },
+    {
+      "id": "crest-club27-bundesliga-borussia-dortmund",
+      "status": "review-required",
+      "creator": "Borussia Dortmund",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52758.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 16b8d7623e072cf08f885de81e7fd4cbe9ddc4ab78af97a569be37a5c195678a"
+    },
+    {
+      "id": "crest-club27-bundesliga-sv-elversberg",
+      "status": "review-required",
+      "creator": "SV Elversberg",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%2007%20Elversberg.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 de4b6e7e2373eb0a10d09351bf9ebcbb9bbb5e83facf697832707497dbc1ce8e"
+    },
+    {
+      "id": "crest-club27-bundesliga-eintracht-frankfurt",
+      "status": "review-required",
+      "creator": "Eintracht Frankfurt",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 66f935b1709bb9ad9b04c2a3d54c1fc98e8faa513a8c187022a996a0f11ac407"
+    },
+    {
+      "id": "crest-club27-bundesliga-sc-freiburg",
+      "status": "review-required",
+      "creator": "SC Freiburg",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ff998a845de9f53ad21f33326d125717bb018a2a69c26678f533e28ff357f346"
+    },
+    {
+      "id": "crest-club27-bundesliga-hamburger-sv",
+      "status": "review-required",
+      "creator": "Hamburger SV",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 7fde65e3c32c050041f0442649e9e8230692c252ea5e72f48590db5b89366b80"
+    },
+    {
+      "id": "crest-club27-bundesliga-tsg-hoffenheim",
+      "status": "review-required",
+      "creator": "TSG Hoffenheim",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 44664799e2df09cb8413e9f6b773435f1f16b926b02c322cf3f40c470da47204"
+    },
+    {
+      "id": "crest-club27-bundesliga-1-fc-koln",
+      "status": "review-required",
+      "creator": "1. FC Köln",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 524dda6b95899ca20ffd70367fe69dee94b56aadba6c6920c9759d134aa97fb0"
+    },
+    {
+      "id": "crest-club27-bundesliga-rb-leipzig",
+      "status": "review-required",
+      "creator": "RB Leipzig",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2603790.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 82fddfb4df2aa1197602541bb7f49024e28764d494f09b4d60209bce71e98180"
+    },
+    {
+      "id": "crest-club27-bundesliga-bayer-leverkusen",
+      "status": "review-required",
+      "creator": "Bayer Leverkusen",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ae01f5b056005b708bfc6ec54710984ec1536520a0a0c4c1954462db69273398"
+    },
+    {
+      "id": "crest-club27-bundesliga-mainz-05",
+      "status": "review-required",
+      "creator": "Mainz 05",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 3b7bc54f1a701f3c17d64084ca4d34634da48c7fb6781bfed4409f101f74a838"
+    },
+    {
+      "id": "crest-club27-bundesliga-borussia-monchengladbach",
+      "status": "review-required",
+      "creator": "Borussia Mönchengladbach",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 3f6c21f0df011c65f54df1eccfd4e6edc336f4ff897e05961034f98231efd925"
+    },
+    {
+      "id": "crest-club27-bundesliga-bayern-munich",
+      "status": "review-required",
+      "creator": "Bayern Munich",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 0623494a5737efccd113ff4da5a24ec6c9a18a3772bda0c08e189982b1a1255c"
+    },
+    {
+      "id": "crest-club27-bundesliga-sc-paderborn",
+      "status": "review-required",
+      "creator": "SC Paderborn",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Paderborn%2007.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 07a80ece1364af5ed0bbc750e14c3c67951d14e7400bddc0bf89e34fe3642d99"
+    },
+    {
+      "id": "crest-club27-bundesliga-schalke-04",
+      "status": "review-required",
+      "creator": "Schalke 04",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 eaf1163ccdf2b17f38a96e6b5be5ad7f7df7e5d3345efda1c950b93251dcc58c"
+    },
+    {
+      "id": "crest-club27-bundesliga-vfb-stuttgart",
+      "status": "review-required",
+      "creator": "VfB Stuttgart",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50107.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 62ff9c23776d767142a65ecf763878ac722a9b261eb131c8f1ab72ac957ecad5"
+    },
+    {
+      "id": "messi",
+      "status": "review-required",
+      "creator": "Кирилл Венедиктов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ronaldo",
+      "status": "review-required",
+      "creator": "Анна Нэсси",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "mbappe",
+      "status": "review-required",
+      "creator": "Антон Зайцев",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "salah",
+      "status": "review-required",
+      "creator": "Анна Нэсси",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "haaland",
+      "status": "review-required",
+      "creator": "Jacek Stanislawek",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kane",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "de-bruyne",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "modric",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lewandowski",
+      "status": "review-required",
+      "creator": "Sven Mandel",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2019147183134_2019-05-27_Fussball_1.FC_Kaiserslautern_vs_FC_Bayern_M%C3%BCnchen_-_Sven_-_1D_X_MK_II_-_0228_-_B70I8527_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "vinicius",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bellingham",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bonmati",
+      "status": "review-required",
+      "creator": "Barcex",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_240422_214032.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "putellas",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:UWCL_2025-26_Final_C16.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kerr",
+      "status": "review-required",
+      "creator": "Liondartois",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Sam_Kerr_(Women_World_Cup_France_2019).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "hegerberg",
+      "status": "review-required",
+      "creator": "crop by User:Benj90",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:AHegerberg.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "renard",
+      "status": "review-required",
+      "creator": "Steffen Prößdorf",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2019-05-17_Fu%C3%9Fball,_Frauen,_UEFA_Women%27s_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0635_LR10_by_Stepro.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bronze",
+      "status": "review-required",
+      "creator": "Katie Chan",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20250510-Lucy_Bronze_(cropped_-_portrait).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "marta",
+      "status": "review-required",
+      "creator": "Hameltion",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ronaldinho",
+      "status": "review-required",
+      "creator": "Marcos Corrêa/PR",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "zidane",
+      "status": "review-required",
+      "creator": "Hadi Abyar",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "henry",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "drogba",
+      "status": "review-required",
+      "creator": "Y.Leclercq©",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Didier_Drogba_(2019)_(cropped2).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "iniesta",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "buffon",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_44_(Gianluigi_Buffon).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kaka",
+      "status": "review-required",
+      "creator": "Евгений Асмолов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "neymar",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "suarez",
+      "status": "review-required",
+      "creator": "The White House",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Luis_Su%C3%A1rez_2026_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "griezmann",
+      "status": "review-required",
+      "creator": "Антон Зайцев",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:FRA-ARG_(10)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "saka",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Ghana_23_June_2026-057_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "foden",
+      "status": "review-required",
+      "creator": "Steffen Prößdorf",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2613,_Phil_Foden.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "son",
+      "status": "review-required",
+      "creator": "Ujishadow",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "mane",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Sadio_Mane_France_v_Senegal_16_June_2026-450.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "osimhen",
+      "status": "review-required",
+      "creator": "Fédération Guinéenne Football",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Victor-osimhen-nigeria-2024-3-4.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "rodri",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Rodri_Argentina_v_Spain_19_July_2026-187_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "rice",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Declan_Rice_England_v_Ghana_23_June_2026-150.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "palmer",
+      "status": "review-required",
+      "creator": "The White House",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "dembele",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Ousmane_Dembele_France_v_Senegal_16_June_2026-341_(cropped)_2.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lautaro",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "fernandes",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "van-dijk",
+      "status": "review-required",
+      "creator": "Ailura",
+      "licenseEvidence": "CC BY-SA 3.0 at: https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "mead",
+      "status": "review-required",
+      "creator": "James Boyes from UK",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Eng_Women_0_Czech_Rep_0_11_10_2022-225_(52426070932)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "williamson",
+      "status": "review-required",
+      "creator": "Department for Culture, Media and Sport",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Lionesses_Victory_Parade_2025_(54687088710)_(cropped_-_Williamson).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "rapinoe",
+      "status": "review-required",
+      "creator": "Lorie Shaull from St Paul, United States",
+      "licenseEvidence": "CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Megan_Rapinoe_(48675274817)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "morgan",
+      "status": "review-required",
+      "creator": "Jamie Smed",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Alex_Morgan_May19.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lavelle",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Rose_Lavelle_USWNT_vs_Italy_Nov_28_2025-186_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "pele",
+      "status": "review-required",
+      "creator": "Unknown authorUnknown author",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "maradona",
+      "status": "review-required",
+      "creator": "Unknown authorUnknown author",
+      "licenseEvidence": "Public domain: https://commons.wikimedia.org/wiki/File:Argentina_celebrando_copa_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ronaldo-brazil",
+      "status": "review-required",
+      "creator": "Lula Oficial",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_(cropped2).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "beckham",
+      "status": "review-required",
+      "creator": "Soccer Aid for Unicef",
+      "licenseEvidence": "CC BY 3.0: https://commons.wikimedia.org/wiki/File:David_Beckham_UNICEF_(cropped2).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "gerrard",
+      "status": "review-required",
+      "creator": "Эдгар Брещанов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "benzema",
+      "status": "review-required",
+      "creator": "Zack",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Karim_Benzema_Pick.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kroos",
+      "status": "review-required",
+      "creator": "https://www.youtube.com/@realmadrid",
+      "licenseEvidence": "CC BY 3.0: https://commons.wikimedia.org/wiki/File:Toni_Kroos_Real_Madrid_2021.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "neuer",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Manuel_Neuer_Ecuador_v_Germany_25_June_2026-148.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "courtois",
+      "status": "review-required",
+      "creator": "Кирилл Венедиктов",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Thibaut_Courtois_at_the_2018_World_Cup_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "alisson",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "pedri",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "musiala",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "yamal",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Lamine_Yamal_France_v_Spain_7.24.26-142.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "lauren-james",
+      "status": "review-required",
+      "creator": "James Boyes from UK",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Lauren_James_Eng_Women_0_Czech_Rep_0_11_10_2022-488_(52426864234)_(cropped_-_James).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "chloe-kelly",
+      "status": "review-required",
+      "creator": "Raph_PH",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:On_29.07.England_Lionesses_Bus_Celebration_-_The_Mall,_Lond2025_11_(cropped-J1).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "alessia-russo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Valerenga-Arsenal_WUCL_12-12-2024_CG3A4421_05_(cropped-J1).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "paralluelo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A6178_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "caicedo",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Valerenga_v_Real_Madrid,_2023_-_A_06.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "graham-hansen",
+      "status": "review-required",
+      "creator": "MichaelEmilio",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A7081_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "pirlo",
+      "status": "review-required",
+      "creator": "Clément Bucco-Lechat",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "totti",
+      "status": "review-required",
+      "creator": "Антон Зайцев",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:KL-2018_(4).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "puyol",
+      "status": "review-required",
+      "creator": "Pedro J Pacheco",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Premios_Goya_2020_-_Carles_Pujol.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "zlatan",
+      "status": "review-required",
+      "creator": "Colleen Sturtevant",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "rivaldo",
+      "status": "review-required",
+      "creator": "Laura Cortizo/Portal da Copa",
+      "licenseEvidence": "CC BY 3.0 br: https://commons.wikimedia.org/wiki/File:Rivaldo.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "roberto-carlos",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:LS3_1288_(53332367864)_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "casillas",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Iker-Casillas-SportsTrade-2021-cropped.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "kahn",
+      "status": "review-required",
+      "creator": "Steffen Prößdorf",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:2022-07-30_Fu%C3%9Fball,_M%C3%A4nner,_DFL-Supercup,_RB_Leipzig_-_FC_Bayern_M%C3%BCnchen_1DX_3179_by_Stepro.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "cech",
+      "status": "review-required",
+      "creator": "Amir Hosseini",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Arsenal_players_training_before_2019_UEFA_Europa_League_final_07_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "schmeichel",
+      "status": "review-required",
+      "creator": "Carlsberg",
+      "licenseEvidence": "CC BY 3.0: https://commons.wikimedia.org/wiki/File:Peter_Schmeichel_2012-01-25_001.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "van-der-sar",
+      "status": "review-required",
+      "creator": "Web Summit",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Edwin_van_der_Sar_2015.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "ramos",
+      "status": "review-required",
+      "creator": "Real Madrid",
+      "licenseEvidence": "CC BY 3.0: https://commons.wikimedia.org/wiki/File:Sergio_Ramos_Interview_2021_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "oblak",
+      "status": "review-required",
+      "creator": "Анна Нэсси",
+      "licenseEvidence": "CC BY-SA 3.0: https://commons.wikimedia.org/wiki/File:Jan_Oblak_2019.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "wirtz",
+      "status": "review-required",
+      "creator": "Bryan Berlin",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_(cropped).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "earps",
+      "status": "review-required",
+      "creator": "James Boyes from UK",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Mary_Earps_Man_Utd.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "hampton",
+      "status": "review-required",
+      "creator": "Katie Chan",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20250510-Hannah_Hampton_(cropped_-_portrait).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "hemp",
+      "status": "review-required",
+      "creator": "Katie Chan",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20250905-Lauren_Hemp.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "stanway",
+      "status": "review-required",
+      "creator": "Raph_PH",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:England_Lionesses_Bus_Celebration_-_The_Mall,_London_-_Tuesday_29th_July_2025_28_(cropped_-_Stanway).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "walsh",
+      "status": "review-required",
+      "creator": "Katie Chan",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20250510-Keira_Walsh_(cropped_-_portrait).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "miedema",
+      "status": "review-required",
+      "creator": "Suzanne Lycett",
+      "licenseEvidence": "CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Miedemavliverpool.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "harder",
+      "status": "review-required",
+      "creator": "Granada",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:20170706_OEFB_AUT-DEN_Pernille_Harder_DSC_8228.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "shaw",
+      "status": "review-required",
+      "creator": "Dianaatflourish",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Khadija_Shaw.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "arsenal",
+      "status": "review-required",
+      "creator": "Arsenal",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52280.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 26a2266d73c5437831f310ef4f7a1936baead2f206d4f431c9d226bae130d4bc"
+    },
+    {
+      "id": "madrid",
+      "status": "review-required",
+      "creator": "Real Madrid",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50051.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 ec29b9620a25a2438f4ab6a839f68f2f0d3528763449298b2137418ef7ad4294"
+    },
+    {
+      "id": "city",
+      "status": "review-required",
+      "creator": "Manchester City",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52919.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 e3d61192d558eb556c4e73f4e9b6a495b12409b5bb1606d857847acb86f6e843"
+    },
+    {
+      "id": "milan",
+      "status": "review-required",
+      "creator": "AC Milan",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 2dbf7c00965ede1ba39186bfc2d90e90cca069fe1129dc8f41f26b7d60a5f416"
+    },
+    {
+      "id": "juventus",
+      "status": "review-required",
+      "creator": "Juventus",
+      "licenseEvidence": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 145a255a90898096f04a4152ebc3f9799ce0b676cf0dbcf72037dcdeb9129e17"
+    },
+    {
+      "id": "barcelona",
+      "status": "review-required",
+      "creator": "FC Barcelona",
+      "licenseEvidence": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50080.png",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Authentic club mark; public-release assessment pending.",
+      "referenceImageAssessment": "Unmodified PNG; SHA-256 c940115df3d5c01e15c35de2b349ca09b1e8736c46cad32dae7a13890e4fb25d"
+    },
+    {
+      "id": "wembley",
+      "status": "review-required",
+      "creator": "Original Leoqo preview artwork",
+      "licenseEvidence": "Original generated stadium art or code-drawn badge puzzle; see docs/VISUAL-REDESIGN.md",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "No reference image supplied."
+    },
+    {
+      "id": "allianz",
+      "status": "review-required",
+      "creator": "Rudi Riet from Washington, DC, United States",
+      "licenseEvidence": "CC BY-SA 2.0: https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "maracana",
+      "status": "review-required",
+      "creator": "Daniel Basil",
+      "licenseEvidence": "CC BY 3.0 br: https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "san-siro",
+      "status": "review-required",
+      "creator": "Prelvini",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "camp-nou",
+      "status": "review-required",
+      "creator": "Oh-Barcelona.com from Barcelona, Spain",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "stade-france",
+      "status": "review-required",
+      "creator": "Zakarie Faibis",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:France-Islande_Stade_de_France_03.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "bernabeu",
+      "status": "review-required",
+      "creator": "Zoser",
+      "licenseEvidence": "CC BY 4.0: https://commons.wikimedia.org/wiki/File:Estadio_Santiago_Bernab%C3%A9u_Madrid.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "olympiastadion",
+      "status": "review-required",
+      "creator": "Matthias Süßen",
+      "licenseEvidence": "CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin-Marathontor-msu-2020-3139.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    },
+    {
+      "id": "da-luz",
+      "status": "review-required",
+      "creator": "Florent Dusonchet",
+      "licenseEvidence": "CC BY 2.0: https://commons.wikimedia.org/wiki/File:Estadio_da_Luz_2012.jpg",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "commercialUse": false,
+      "likenessAndMarksAssessment": "Public-release assessment pending.",
+      "referenceImageAssessment": "Commons licence recorded; unchanged source file or Commons thumbnail."
+    }
+  ]
+}

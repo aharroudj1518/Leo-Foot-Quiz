@@ -1,0 +1,4510 @@
+[
+  {
+    "name": "Atalanta",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Atalanta founded?",
+        "answer": "1907",
+        "wrong": [
+          "1897",
+          "1927",
+          "1947"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "Atalanta began in 1907.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "name-origin",
+        "topic": "identity",
+        "prompt": "Atalanta takes its name from which tradition?",
+        "answer": "Greek mythology",
+        "wrong": [
+          "Roman emperors",
+          "Italian opera",
+          "Norse mythology"
+        ],
+        "hint": "Think of a legendary runner.",
+        "explanation": "The name honours the mythological athlete Atalanta.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Atalanta?",
+        "answer": "Black and blue",
+        "wrong": [
+          "Red and white",
+          "Green and black",
+          "Purple and white"
+        ],
+        "hint": "Their nickname is Nerazzurri.",
+        "explanation": "Atalanta adopted black and blue after its 1920 merger.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "cup-1963",
+        "topic": "honours",
+        "prompt": "Which trophy did Atalanta win in 1963?",
+        "answer": "Coppa Italia",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Serie A"
+        ],
+        "hint": "A domestic knockout competition.",
+        "explanation": "The 1963 Coppa Italia was Atalanta's first major trophy.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "cup-hattrick",
+        "topic": "history",
+        "prompt": "Who hit Atalanta's hat-trick in the 1963 Coppa Italia final?",
+        "answer": "Angelo Domenghini",
+        "wrong": [
+          "Sandro Mazzola",
+          "Gigi Riva",
+          "Gianni Rivera"
+        ],
+        "hint": "His first name was Angelo.",
+        "explanation": "Domenghini scored all three against Torino.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "second-tier-europe",
+        "topic": "records",
+        "prompt": "Which division were Atalanta in during their 1988 European semi-final run?",
+        "answer": "Serie B",
+        "wrong": [
+          "Serie A",
+          "Serie C1",
+          "Serie D"
+        ],
+        "hint": "They were outside the top flight.",
+        "explanation": "Atalanta reached the Cup Winners' Cup semi-finals from Serie B.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "topscorer-1997",
+        "topic": "records",
+        "prompt": "Which Atalanta striker topped Serie A's scoring in 1996–97?",
+        "answer": "Filippo Inzaghi",
+        "wrong": [
+          "Christian Vieri",
+          "Roberto Baggio",
+          "Alessandro Del Piero"
+        ],
+        "hint": "Later a prolific Milan striker.",
+        "explanation": "Inzaghi scored 24 league goals.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      },
+      {
+        "key": "first-ucl-knockout",
+        "topic": "history",
+        "prompt": "Who did Atalanta eliminate in the 2020 Champions League last 16?",
+        "answer": "Valencia",
+        "wrong": [
+          "Sevilla",
+          "Porto",
+          "Lyon"
+        ],
+        "hint": "A Spanish club with a bat on its crest.",
+        "explanation": "Atalanta beat Valencia in both legs.",
+        "source": "https://en.wikipedia.org/wiki/Atalanta_BC"
+      }
+    ]
+  },
+  {
+    "name": "Bologna",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Bologna founded?",
+        "answer": "1909",
+        "wrong": [
+          "1889",
+          "1929",
+          "1949"
+        ],
+        "hint": "The year appears in the club's full name.",
+        "explanation": "Bologna was founded in October 1909.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which two colours traditionally feature on Bologna's shirts?",
+        "answer": "Red and blue",
+        "wrong": [
+          "Black and white",
+          "Green and white",
+          "Purple and gold"
+        ],
+        "hint": "The nickname Rossoblù gives a clue.",
+        "explanation": "Bologna's traditional colours are red and blue.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Bologna's nickname I Veltri means which animals?",
+        "answer": "Greyhounds",
+        "wrong": [
+          "Eagles",
+          "Bulls",
+          "Wolves"
+        ],
+        "hint": "They are fast dogs.",
+        "explanation": "I Veltri translates as the Greyhounds.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "founder",
+        "topic": "history",
+        "prompt": "Which Austrian helped establish Bologna?",
+        "answer": "Emilio Arnstein",
+        "wrong": [
+          "Herbert Kilpin",
+          "James Spensley",
+          "Franz John"
+        ],
+        "hint": "His surname begins with A.",
+        "explanation": "Emilio Arnstein organised Bologna's formation.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "first-match",
+        "topic": "history",
+        "prompt": "What was Bologna's score in their first match in 1910?",
+        "answer": "9–1 win",
+        "wrong": [
+          "1–0 win",
+          "0–0 draw",
+          "2–1 defeat"
+        ],
+        "hint": "They scored nine.",
+        "explanation": "Bologna beat Virtus 9–1.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "title-1964",
+        "topic": "honours",
+        "prompt": "In which year did Bologna win their seventh league title?",
+        "answer": "1964",
+        "wrong": [
+          "1954",
+          "1974",
+          "1984"
+        ],
+        "hint": "The year of the Tokyo Olympics.",
+        "explanation": "Bologna's seventh Italian championship came in 1964.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "ground-since",
+        "topic": "grounds",
+        "prompt": "Bologna have played at the Dall'Ara since which year?",
+        "answer": "1927",
+        "wrong": [
+          "1907",
+          "1957",
+          "1977"
+        ],
+        "hint": "Between the world wars.",
+        "explanation": "Bologna moved into the stadium in 1927.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      },
+      {
+        "key": "cups-1970s",
+        "topic": "honours",
+        "prompt": "Which domestic trophy did Bologna win twice during the 1970s?",
+        "answer": "Coppa Italia",
+        "wrong": [
+          "Serie A",
+          "Supercoppa Italiana",
+          "Serie B"
+        ],
+        "hint": "A knockout trophy.",
+        "explanation": "Bologna won the Coppa Italia in 1970 and 1974.",
+        "source": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+      }
+    ]
+  },
+  {
+    "name": "Cagliari",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Cagliari founded?",
+        "answer": "1920",
+        "wrong": [
+          "1900",
+          "1940",
+          "1960"
+        ],
+        "hint": "Soon after the First World War.",
+        "explanation": "Cagliari began in May 1920.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "island",
+        "topic": "identity",
+        "prompt": "Which island does Cagliari represent?",
+        "answer": "Sardinia",
+        "wrong": [
+          "Sicily",
+          "Elba",
+          "Capri"
+        ],
+        "hint": "Its local name is Sardegna.",
+        "explanation": "Cagliari is a Sardinian club.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Cagliari?",
+        "answer": "Red and blue",
+        "wrong": [
+          "Black and white",
+          "Green and yellow",
+          "Purple and white"
+        ],
+        "hint": "They are called Rossoblù.",
+        "explanation": "Cagliari's colours are red and blue.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which season did Cagliari first win Serie A?",
+        "answer": "1969–70",
+        "wrong": [
+          "1959–60",
+          "1979–80",
+          "1989–90"
+        ],
+        "hint": "At the turn of the 1970s.",
+        "explanation": "Cagliari won the 1969–70 championship.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "title-star",
+        "topic": "history",
+        "prompt": "Which Italy striker starred in Cagliari's 1970 title team?",
+        "answer": "Gigi Riva",
+        "wrong": [
+          "Paolo Rossi",
+          "Roberto Baggio",
+          "Christian Vieri"
+        ],
+        "hint": "Nicknamed the Roar of Thunder.",
+        "explanation": "Riva led Cagliari's title-winning attack.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "europe-1994",
+        "topic": "records",
+        "prompt": "How far did Cagliari go in the 1993–94 UEFA Cup?",
+        "answer": "Semi-finals",
+        "wrong": [
+          "Final",
+          "Quarter-finals",
+          "Second round"
+        ],
+        "hint": "One round short of the final.",
+        "explanation": "Cagliari reached the semi-finals.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "europe-opponent",
+        "topic": "history",
+        "prompt": "Who knocked Cagliari out of the 1994 UEFA Cup?",
+        "answer": "Inter Milan",
+        "wrong": [
+          "Parma",
+          "Juventus",
+          "Napoli"
+        ],
+        "hint": "The eventual winners wore black and blue.",
+        "explanation": "Inter defeated Cagliari in the semi-finals.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      },
+      {
+        "key": "local-name",
+        "topic": "identity",
+        "prompt": "What does Casteddu refer to in Cagliari's identity?",
+        "answer": "Cagliari's Sardinian name",
+        "wrong": [
+          "A former goalkeeper",
+          "A trophy",
+          "A mountain"
+        ],
+        "hint": "It is a local-language name.",
+        "explanation": "Casteddu is the Sardinian name for Cagliari.",
+        "source": "https://en.wikipedia.org/wiki/Cagliari_Calcio"
+      }
+    ]
+  },
+  {
+    "name": "Como",
+    "aliases": [
+      "Como 1907"
+    ],
+    "facts": [
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "What is Como's traditional main shirt colour?",
+        "answer": "Royal blue",
+        "wrong": [
+          "Claret",
+          "Orange",
+          "Purple"
+        ],
+        "hint": "A shade associated with water.",
+        "explanation": "Como traditionally play in royal blue.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Como's nickname I Lariani refers to what?",
+        "answer": "Lake Como",
+        "wrong": [
+          "The Alps",
+          "Silk workers",
+          "Roman soldiers"
+        ],
+        "hint": "Think of the club's lakeside setting.",
+        "explanation": "Lariani refers to people from Lake Como.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "founding-place",
+        "topic": "history",
+        "prompt": "What kind of venue hosted Como's founding meeting?",
+        "answer": "A bar",
+        "wrong": [
+          "A theatre",
+          "A railway station",
+          "A school"
+        ],
+        "hint": "It was called Taroni.",
+        "explanation": "Como's founders met at the Taroni bar.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "first-seriea",
+        "topic": "history",
+        "prompt": "In which season did Como first play in the modern Serie A?",
+        "answer": "1949–50",
+        "wrong": [
+          "1929–30",
+          "1969–70",
+          "1989–90"
+        ],
+        "hint": "Shortly after the Second World War.",
+        "explanation": "Como debuted in Serie A in 1949–50.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "return-2024",
+        "topic": "history",
+        "prompt": "Como returned to Serie A in 2024 after how many years away?",
+        "answer": "21",
+        "wrong": [
+          "5",
+          "10",
+          "35"
+        ],
+        "hint": "Just over two decades.",
+        "explanation": "Their previous top-flight season was 2002–03.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "investor",
+        "topic": "history",
+        "prompt": "Which French World Cup winner became a Como shareholder in 2022?",
+        "answer": "Thierry Henry",
+        "wrong": [
+          "Zinedine Zidane",
+          "Didier Deschamps",
+          "Laurent Blanc"
+        ],
+        "hint": "An Arsenal scoring legend.",
+        "explanation": "Henry invested in Como in 2022.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "restart",
+        "topic": "history",
+        "prompt": "Which division did the reformed Como enter in 2017?",
+        "answer": "Serie D",
+        "wrong": [
+          "Serie A",
+          "Serie B",
+          "Serie C"
+        ],
+        "hint": "Italy's leading amateur tier.",
+        "explanation": "The reformed club restarted in Serie D.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      },
+      {
+        "key": "first-return-finish",
+        "topic": "records",
+        "prompt": "Where did Como finish in Serie A in 2024–25?",
+        "answer": "10th",
+        "wrong": [
+          "3rd",
+          "6th",
+          "17th"
+        ],
+        "hint": "Exactly midway in a 20-team table.",
+        "explanation": "Como finished tenth in their first season back.",
+        "source": "https://en.wikipedia.org/wiki/Como_1907"
+      }
+    ]
+  },
+  {
+    "name": "Fiorentina",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was the original Fiorentina founded?",
+        "answer": "1926",
+        "wrong": [
+          "1906",
+          "1946",
+          "1966"
+        ],
+        "hint": "Between the world wars.",
+        "explanation": "Fiorentina was formed in August 1926.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "colour",
+        "topic": "identity",
+        "prompt": "Which colour gives Fiorentina their famous identity?",
+        "answer": "Purple",
+        "wrong": [
+          "Orange",
+          "Green",
+          "Sky blue"
+        ],
+        "hint": "Their nickname is Viola.",
+        "explanation": "Purple is Fiorentina's signature colour.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "crest",
+        "topic": "identity",
+        "prompt": "Which flower is associated with Fiorentina's crest?",
+        "answer": "Lily",
+        "wrong": [
+          "Rose",
+          "Sunflower",
+          "Tulip"
+        ],
+        "hint": "Their nickname includes Gigliati.",
+        "explanation": "Fiorentina's emblem features a stylised lily.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "When did Fiorentina win their first Serie A title?",
+        "answer": "1955–56",
+        "wrong": [
+          "1935–36",
+          "1975–76",
+          "1995–96"
+        ],
+        "hint": "In the middle of the 1950s.",
+        "explanation": "Their first championship came in 1955–56.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "second-title",
+        "topic": "honours",
+        "prompt": "Which season brought Fiorentina their second league title?",
+        "answer": "1968–69",
+        "wrong": [
+          "1958–59",
+          "1978–79",
+          "1988–89"
+        ],
+        "hint": "The season ending before the Moon landing.",
+        "explanation": "Fiorentina won their second title in 1968–69.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "european-cup",
+        "topic": "honours",
+        "prompt": "Which European trophy did Fiorentina win in 1961?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "It was contested by domestic cup winners.",
+        "explanation": "Fiorentina won the inaugural Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "first-final",
+        "topic": "records",
+        "prompt": "Which European final did Fiorentina reach in 1957?",
+        "answer": "European Cup",
+        "wrong": [
+          "UEFA Cup",
+          "Conference League",
+          "Intertoto Cup"
+        ],
+        "hint": "The predecessor of the Champions League.",
+        "explanation": "They became the first Italian European Cup finalists.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      },
+      {
+        "key": "rebirth",
+        "topic": "history",
+        "prompt": "What name did Fiorentina use after their 2002 rebirth?",
+        "answer": "Florentia Viola",
+        "wrong": [
+          "Firenze United",
+          "Toscana Calcio",
+          "Viola Athletic"
+        ],
+        "hint": "The Latin form of Florence appears.",
+        "explanation": "The reformed club initially used Florentia Viola.",
+        "source": "https://en.wikipedia.org/wiki/ACF_Fiorentina"
+      }
+    ]
+  },
+  {
+    "name": "Frosinone",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which bird gives Frosinone their Canarini nickname?",
+        "answer": "Canary",
+        "wrong": [
+          "Eagle",
+          "Owl",
+          "Falcon"
+        ],
+        "hint": "A small yellow songbird.",
+        "explanation": "Canarini means Canaries.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Frosinone?",
+        "answer": "Yellow and blue",
+        "wrong": [
+          "Red and black",
+          "Green and white",
+          "Purple and gold"
+        ],
+        "hint": "Think of a yellow shirt with blue details.",
+        "explanation": "Frosinone wear yellow and blue.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Frosinone first earn Serie A promotion?",
+        "answer": "2015",
+        "wrong": [
+          "1995",
+          "2005",
+          "2020"
+        ],
+        "hint": "Midway through the 2010s.",
+        "explanation": "Their first promotion came in May 2015.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "promotion-opponent",
+        "topic": "history",
+        "prompt": "Who did Frosinone beat to seal their first Serie A promotion?",
+        "answer": "Crotone",
+        "wrong": [
+          "Pisa",
+          "Como",
+          "Brescia"
+        ],
+        "hint": "Another club from southern Italy.",
+        "explanation": "A 3–1 win over Crotone secured promotion.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "serie-b-title",
+        "topic": "honours",
+        "prompt": "Which league did Frosinone win in 2022–23?",
+        "answer": "Serie B",
+        "wrong": [
+          "Serie A",
+          "Serie C",
+          "Serie D"
+        ],
+        "hint": "Italy's second tier.",
+        "explanation": "Frosinone won the 2022–23 Serie B title.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "old-ground",
+        "topic": "grounds",
+        "prompt": "What was Frosinone's old stadium nicknamed?",
+        "answer": "Matusa",
+        "wrong": [
+          "Marassi",
+          "San Siro",
+          "La Favorita"
+        ],
+        "hint": "A nickname alluding to its age.",
+        "explanation": "Their former municipal ground was called Matusa.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "original-colours",
+        "topic": "history",
+        "prompt": "What colours did Frosinone wear before yellow and blue?",
+        "answer": "Red and blue",
+        "wrong": [
+          "Black and white",
+          "Green and gold",
+          "Orange and black"
+        ],
+        "hint": "They retained the blue.",
+        "explanation": "The early club wore red and blue.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      },
+      {
+        "key": "first-name",
+        "topic": "history",
+        "prompt": "What name did Frosinone's 1906 predecessor use?",
+        "answer": "Unione Sportiva Frusinate",
+        "wrong": [
+          "Sporting Ciociaria",
+          "Lazio Sud",
+          "Frusinate Athletic"
+        ],
+        "hint": "It used the local adjective Frusinate.",
+        "explanation": "The predecessor was Unione Sportiva Frusinate.",
+        "source": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+      }
+    ]
+  },
+  {
+    "name": "Genoa",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Genoa founded?",
+        "answer": "1893",
+        "wrong": [
+          "1903",
+          "1913",
+          "1923"
+        ],
+        "hint": "Before the 20th century.",
+        "explanation": "Genoa was founded in September 1893.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "other-sport",
+        "topic": "history",
+        "prompt": "Which other sport appears in Genoa's full name?",
+        "answer": "Cricket",
+        "wrong": [
+          "Rugby",
+          "Tennis",
+          "Hockey"
+        ],
+        "hint": "A bat-and-ball sport.",
+        "explanation": "Genoa is a Cricket and Football Club.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which mythical creature represents Genoa?",
+        "answer": "Griffin",
+        "wrong": [
+          "Dragon",
+          "Phoenix",
+          "Unicorn"
+        ],
+        "hint": "Their nickname is Grifone.",
+        "explanation": "The griffin is Genoa's emblematic creature.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Genoa?",
+        "answer": "Red and blue",
+        "wrong": [
+          "Black and white",
+          "Green and yellow",
+          "Purple and white"
+        ],
+        "hint": "The nickname is Rossoblù.",
+        "explanation": "Genoa traditionally wear red and blue.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who are Genoa's Derby della Lanterna rivals?",
+        "answer": "Sampdoria",
+        "wrong": [
+          "Spezia",
+          "Torino",
+          "Parma"
+        ],
+        "hint": "They share the Luigi Ferraris.",
+        "explanation": "Genoa contest the derby against Sampdoria.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "first-championship",
+        "topic": "honours",
+        "prompt": "In which year did Genoa win the inaugural Italian championship?",
+        "answer": "1898",
+        "wrong": [
+          "1888",
+          "1908",
+          "1918"
+        ],
+        "hint": "Five years after the club was founded.",
+        "explanation": "Genoa won the inaugural Italian championship.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "early-pioneer",
+        "topic": "history",
+        "prompt": "Which English doctor helped develop Genoa's football team?",
+        "answer": "James Richardson Spensley",
+        "wrong": [
+          "Herbert Kilpin",
+          "William Garbutt",
+          "Vittorio Pozzo"
+        ],
+        "hint": "His surname starts with S.",
+        "explanation": "Spensley was a key early Genoa figure.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      },
+      {
+        "key": "original-shirts",
+        "topic": "history",
+        "prompt": "What colour were Genoa's earliest shirts?",
+        "answer": "White",
+        "wrong": [
+          "Purple",
+          "Orange",
+          "Green"
+        ],
+        "hint": "It reflected their cricket origins.",
+        "explanation": "The original Genoa shirts were white.",
+        "source": "https://en.wikipedia.org/wiki/Genoa_CFC"
+      }
+    ]
+  },
+  {
+    "name": "Inter Milan",
+    "aliases": [
+      "FC Internazionale Milano",
+      "Inter"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Inter founded?",
+        "answer": "1908",
+        "wrong": [
+          "1898",
+          "1918",
+          "1928"
+        ],
+        "hint": "In the first decade of the 20th century.",
+        "explanation": "Inter was founded in March 1908.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "name-origin",
+        "topic": "identity",
+        "prompt": "What founding principle inspired the name Internazionale?",
+        "answer": "Welcoming foreign players",
+        "wrong": [
+          "Playing only overseas",
+          "Representing diplomats",
+          "Recruiting only Italians"
+        ],
+        "hint": "The name means international.",
+        "explanation": "The founders wanted Italians and foreigners to play together.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Inter?",
+        "answer": "Black and blue",
+        "wrong": [
+          "Red and black",
+          "Green and white",
+          "Yellow and red"
+        ],
+        "hint": "Their nickname is Nerazzurri.",
+        "explanation": "Inter's colours are black and blue.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Inter win their first championship?",
+        "answer": "1910",
+        "wrong": [
+          "1920",
+          "1930",
+          "1940"
+        ],
+        "hint": "Two years after foundation.",
+        "explanation": "Inter's first league title came in 1910.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "great-coach",
+        "topic": "managers",
+        "prompt": "Which coach led the Grande Inter side of the 1960s?",
+        "answer": "Helenio Herrera",
+        "wrong": [
+          "Arrigo Sacchi",
+          "Fabio Capello",
+          "Marcello Lippi"
+        ],
+        "hint": "An Argentine-born tactical innovator.",
+        "explanation": "Herrera built the celebrated Grande Inter.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "europe-first",
+        "topic": "honours",
+        "prompt": "In which year did Inter first win the European Cup?",
+        "answer": "1964",
+        "wrong": [
+          "1954",
+          "1974",
+          "1984"
+        ],
+        "hint": "In the Grande Inter era.",
+        "explanation": "Inter's first European Cup came in 1964.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "crest-animal",
+        "topic": "identity",
+        "prompt": "Which animal is linked to Inter's Biscione nickname?",
+        "answer": "Snake",
+        "wrong": [
+          "Wolf",
+          "Bull",
+          "Eagle"
+        ],
+        "hint": "It is a reptile.",
+        "explanation": "Biscione refers to a large snake.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      },
+      {
+        "key": "first-captain",
+        "topic": "history",
+        "prompt": "Who captained and coached Inter's first title-winning team?",
+        "answer": "Virgilio Fossati",
+        "wrong": [
+          "Giuseppe Meazza",
+          "Giacinto Facchetti",
+          "Sandro Mazzola"
+        ],
+        "hint": "His first name was Virgilio.",
+        "explanation": "Fossati led the 1910 champions.",
+        "source": "https://en.wikipedia.org/wiki/Inter_Milan"
+      }
+    ]
+  },
+  {
+    "name": "Juventus",
+    "aliases": [
+      "Juventus"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Juventus founded?",
+        "answer": "1897",
+        "wrong": [
+          "1887",
+          "1907",
+          "1917"
+        ],
+        "hint": "Before the 20th century.",
+        "explanation": "Students founded Juventus in 1897.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Juventus's nickname Vecchia Signora mean?",
+        "answer": "Old Lady",
+        "wrong": [
+          "Young Queen",
+          "White Eagle",
+          "Great Bull"
+        ],
+        "hint": "A female figure.",
+        "explanation": "Vecchia Signora means Old Lady.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "founders",
+        "topic": "history",
+        "prompt": "Who founded Juventus?",
+        "answer": "School students",
+        "wrong": [
+          "Railway workers",
+          "Factory owners",
+          "Army officers"
+        ],
+        "hint": "They attended a Turin lyceum.",
+        "explanation": "Juventus began with a group of students.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who face Juventus in the Derby della Mole?",
+        "answer": "Torino",
+        "wrong": [
+          "Inter Milan",
+          "AC Milan",
+          "Genoa"
+        ],
+        "hint": "Their city rivals.",
+        "explanation": "Juventus and Torino contest the Turin derby.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "shirt-inspiration",
+        "topic": "history",
+        "prompt": "Which English club inspired Juventus's black-and-white stripes?",
+        "answer": "Notts County",
+        "wrong": [
+          "Newcastle United",
+          "Fulham",
+          "Derby County"
+        ],
+        "hint": "A Nottingham club.",
+        "explanation": "Juventus adopted shirts linked to Notts County.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "old-colour",
+        "topic": "history",
+        "prompt": "Which colour did Juventus wear before black-and-white stripes?",
+        "answer": "Pink",
+        "wrong": [
+          "Purple",
+          "Green",
+          "Orange"
+        ],
+        "hint": "A pale shade of red.",
+        "explanation": "Juventus originally wore pink shirts.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "stadium-open",
+        "topic": "grounds",
+        "prompt": "In which year did Juventus move into their new stadium?",
+        "answer": "2011",
+        "wrong": [
+          "1991",
+          "2001",
+          "2021"
+        ],
+        "hint": "Early in the 2010s.",
+        "explanation": "Juventus Stadium opened in 2011.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      },
+      {
+        "key": "three-european",
+        "topic": "managers",
+        "prompt": "Who coached Juventus to all three major UEFA trophies by 1985?",
+        "answer": "Giovanni Trapattoni",
+        "wrong": [
+          "Marcello Lippi",
+          "Carlo Ancelotti",
+          "Antonio Conte"
+        ],
+        "hint": "Often called Trap.",
+        "explanation": "Trapattoni won the UEFA, Cup Winners' and European Cups.",
+        "source": "https://en.wikipedia.org/wiki/Juventus_FC"
+      }
+    ]
+  },
+  {
+    "name": "Lazio",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Lazio founded?",
+        "answer": "1900",
+        "wrong": [
+          "1880",
+          "1920",
+          "1940"
+        ],
+        "hint": "The opening year of a new century.",
+        "explanation": "Lazio was founded in January 1900.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Lazio?",
+        "answer": "Sky blue and white",
+        "wrong": [
+          "Red and yellow",
+          "Black and blue",
+          "Green and white"
+        ],
+        "hint": "Their nickname is Biancocelesti.",
+        "explanation": "Lazio wear sky blue and white.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "animal",
+        "topic": "identity",
+        "prompt": "Which bird represents Lazio?",
+        "answer": "Eagle",
+        "wrong": [
+          "Owl",
+          "Canary",
+          "Swan"
+        ],
+        "hint": "Their nickname is Aquile.",
+        "explanation": "The eagle is Lazio's symbol.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who face Lazio in the Derby della Capitale?",
+        "answer": "Roma",
+        "wrong": [
+          "Napoli",
+          "Fiorentina",
+          "Torino"
+        ],
+        "hint": "The other major Rome club.",
+        "explanation": "Lazio and Roma contest the capital derby.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Lazio win their first Serie A title?",
+        "answer": "1974",
+        "wrong": [
+          "1954",
+          "1984",
+          "1994"
+        ],
+        "hint": "In the 1970s.",
+        "explanation": "Lazio first became champions in 1974.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "second-title",
+        "topic": "honours",
+        "prompt": "Which year brought Lazio their second Serie A title?",
+        "answer": "2000",
+        "wrong": [
+          "1990",
+          "2010",
+          "2020"
+        ],
+        "hint": "The millennium year.",
+        "explanation": "Lazio won their second title in 2000.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "european-trophy",
+        "topic": "honours",
+        "prompt": "Which European trophy did Lazio win in 1999?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "Champions League",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "It was the last edition of this competition.",
+        "explanation": "Lazio won the final Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      },
+      {
+        "key": "title-coach",
+        "topic": "managers",
+        "prompt": "Who coached Lazio to the 1999–2000 league-and-cup double?",
+        "answer": "Sven-Göran Eriksson",
+        "wrong": [
+          "Fabio Capello",
+          "Marcello Lippi",
+          "Carlo Ancelotti"
+        ],
+        "hint": "A Swedish manager.",
+        "explanation": "Eriksson led Lazio to the domestic double.",
+        "source": "https://en.wikipedia.org/wiki/SS_Lazio"
+      }
+    ]
+  },
+  {
+    "name": "Lecce",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did Sporting Club Lecce begin?",
+        "answer": "1908",
+        "wrong": [
+          "1888",
+          "1928",
+          "1948"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "Lecce's origins date to 1908.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Lecce?",
+        "answer": "Yellow and red",
+        "wrong": [
+          "Black and blue",
+          "Green and white",
+          "Purple and gold"
+        ],
+        "hint": "Their nickname is Giallorossi.",
+        "explanation": "Lecce wear yellow and red.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "animal",
+        "topic": "identity",
+        "prompt": "Which animal gives Lecce their Lupi nickname?",
+        "answer": "Wolf",
+        "wrong": [
+          "Bull",
+          "Lion",
+          "Eagle"
+        ],
+        "hint": "A pack animal.",
+        "explanation": "Lupi means Wolves.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "debut",
+        "topic": "history",
+        "prompt": "In which season did Lecce make their Serie A debut?",
+        "answer": "1985–86",
+        "wrong": [
+          "1965–66",
+          "1975–76",
+          "1995–96"
+        ],
+        "hint": "In the middle of the 1980s.",
+        "explanation": "Lecce debuted in Serie A in 1985–86.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "best-1989",
+        "topic": "records",
+        "prompt": "Where did Lecce finish in Serie A in 1988–89?",
+        "answer": "Ninth",
+        "wrong": [
+          "Third",
+          "Sixth",
+          "Sixteenth"
+        ],
+        "hint": "One position above tenth.",
+        "explanation": "Lecce finished ninth that season.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "second-tier-title",
+        "topic": "honours",
+        "prompt": "Which league did Lecce win in 2009–10?",
+        "answer": "Serie B",
+        "wrong": [
+          "Serie A",
+          "Serie C",
+          "Serie D"
+        ],
+        "hint": "The second tier.",
+        "explanation": "Lecce won the 2009–10 Serie B title.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "original-colours",
+        "topic": "history",
+        "prompt": "Which colours did the earliest Lecce team wear?",
+        "answer": "Black and white",
+        "wrong": [
+          "Blue and gold",
+          "Purple and white",
+          "Orange and green"
+        ],
+        "hint": "A striped combination also worn by Juventus.",
+        "explanation": "Early Lecce shirts were black and white.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      },
+      {
+        "key": "international-cup",
+        "topic": "honours",
+        "prompt": "Which cross-border competition did Lecce win in 1976?",
+        "answer": "Anglo-Italian Cup",
+        "wrong": [
+          "Mitropa Cup",
+          "Intertoto Cup",
+          "Balkan Cup"
+        ],
+        "hint": "It linked Italy with England.",
+        "explanation": "Lecce won the semi-professional Anglo-Italian Cup.",
+        "source": "https://en.wikipedia.org/wiki/US_Lecce"
+      }
+    ]
+  },
+  {
+    "name": "AC Milan",
+    "aliases": [
+      "AC Milan"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was AC Milan founded?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1919",
+          "1939"
+        ],
+        "hint": "The final year before 1900.",
+        "explanation": "Milan was founded in December 1899.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify AC Milan?",
+        "answer": "Red and black",
+        "wrong": [
+          "Blue and black",
+          "White and green",
+          "Yellow and red"
+        ],
+        "hint": "Their nickname is Rossoneri.",
+        "explanation": "Milan wear red and black.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Milan's nickname Diavoli mean?",
+        "answer": "Devils",
+        "wrong": [
+          "Eagles",
+          "Knights",
+          "Wolves"
+        ],
+        "hint": "A fiery supernatural figure.",
+        "explanation": "Diavoli means Devils.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "derby-name",
+        "topic": "identity",
+        "prompt": "What is the Milan–Inter derby called?",
+        "answer": "Derby della Madonnina",
+        "wrong": [
+          "Derby della Mole",
+          "Derby del Sole",
+          "Derby della Lanterna"
+        ],
+        "hint": "Named for a famous Milan statue.",
+        "explanation": "Milan and Inter contest the Derby della Madonnina.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Milan win their first Italian championship?",
+        "answer": "1901",
+        "wrong": [
+          "1911",
+          "1921",
+          "1931"
+        ],
+        "hint": "Two years after foundation.",
+        "explanation": "Milan first became champions in 1901.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "record-defender",
+        "topic": "records",
+        "prompt": "Which Milan defender made 902 official club appearances?",
+        "answer": "Paolo Maldini",
+        "wrong": [
+          "Franco Baresi",
+          "Alessandro Nesta",
+          "Alessandro Costacurta"
+        ],
+        "hint": "His father Cesare also played for Milan.",
+        "explanation": "Maldini made 902 competitive appearances.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "athens-1994",
+        "topic": "history",
+        "prompt": "Who did Milan beat 4–0 in the 1994 Champions League final?",
+        "answer": "Barcelona",
+        "wrong": [
+          "Real Madrid",
+          "Ajax",
+          "Benfica"
+        ],
+        "hint": "A Spanish club.",
+        "explanation": "Milan defeated Barcelona in Athens.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      },
+      {
+        "key": "athens-2007",
+        "topic": "history",
+        "prompt": "Which striker scored both Milan goals in the 2007 Champions League final?",
+        "answer": "Filippo Inzaghi",
+        "wrong": [
+          "Andriy Shevchenko",
+          "Kaká",
+          "Clarence Seedorf"
+        ],
+        "hint": "Nicknamed Pippo.",
+        "explanation": "Inzaghi scored twice against Liverpool.",
+        "source": "https://en.wikipedia.org/wiki/AC_Milan"
+      }
+    ]
+  },
+  {
+    "name": "Monza",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Monza founded?",
+        "answer": "1912",
+        "wrong": [
+          "1892",
+          "1932",
+          "1952"
+        ],
+        "hint": "Shortly before the First World War.",
+        "explanation": "Monza was founded in September 1912.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Monza?",
+        "answer": "Red and white",
+        "wrong": [
+          "Blue and black",
+          "Green and yellow",
+          "Purple and white"
+        ],
+        "hint": "They are the Biancorossi.",
+        "explanation": "Monza wear red and white.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "original-colours",
+        "topic": "history",
+        "prompt": "What colours did Monza wear originally?",
+        "answer": "Blue and white",
+        "wrong": [
+          "Red and black",
+          "Green and gold",
+          "Orange and black"
+        ],
+        "hint": "They retained white when changing in 1932.",
+        "explanation": "Monza's original kit was blue and white.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Monza first reach Serie A?",
+        "answer": "2022",
+        "wrong": [
+          "1982",
+          "2002",
+          "2012"
+        ],
+        "hint": "Exactly 110 years after foundation.",
+        "explanation": "Monza earned first promotion in 2022.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "owner-2018",
+        "topic": "history",
+        "prompt": "Who acquired Monza in 2018?",
+        "answer": "Silvio Berlusconi",
+        "wrong": [
+          "Massimo Moratti",
+          "Andrea Agnelli",
+          "Aurelio De Laurentiis"
+        ],
+        "hint": "A former Milan owner.",
+        "explanation": "Berlusconi bought Monza in 2018.",
+        "source": "https://en.wikipedia.org/wiki/AC_Monza"
+      },
+      {
+        "key": "ground-since",
+        "topic": "grounds",
+        "prompt": "In which year did Monza begin playing at the Brianteo?",
+        "answer": "1988",
+        "wrong": [
+          "1958",
+          "1968",
+          "2008"
+        ],
+        "hint": "Late in the 1980s.",
+        "explanation": "Monza moved into the Brianteo in 1988.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "cup-record",
+        "topic": "honours",
+        "prompt": "How many Coppa Italia Serie C titles did Monza win between 1974 and 1991?",
+        "answer": "Four",
+        "wrong": [
+          "One",
+          "Two",
+          "Six"
+        ],
+        "hint": "Twice two.",
+        "explanation": "Monza won in 1974, 1975, 1988 and 1991.",
+        "source": "https://www.acmonza.com/en/storia/"
+      },
+      {
+        "key": "formation",
+        "topic": "history",
+        "prompt": "Which two clubs merged to create Monza?",
+        "answer": "Pro Italia and Pro Monza",
+        "wrong": [
+          "Como and Pro Sesto",
+          "Milan and Ausonia",
+          "Seregno and Lecco"
+        ],
+        "hint": "Both were based in Monza.",
+        "explanation": "Pro Italia and Pro Monza merged in 1912.",
+        "source": "https://www.acmonza.com/it/storia/"
+      }
+    ]
+  },
+  {
+    "name": "Napoli",
+    "aliases": [
+      "SSC Napoli"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Associazione Calcio Napoli established?",
+        "answer": "1926",
+        "wrong": [
+          "1906",
+          "1946",
+          "1966"
+        ],
+        "hint": "Between the world wars.",
+        "explanation": "AC Napoli was established in 1926.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "colour",
+        "topic": "identity",
+        "prompt": "What is Napoli's traditional main shirt colour?",
+        "answer": "Sky blue",
+        "wrong": [
+          "Maroon",
+          "Purple",
+          "Orange"
+        ],
+        "hint": "Their nickname is Azzurri.",
+        "explanation": "Napoli traditionally play in blue.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "mascot",
+        "topic": "identity",
+        "prompt": "Which animal is Napoli's traditional Ciuccio mascot?",
+        "answer": "Donkey",
+        "wrong": [
+          "Bull",
+          "Wolf",
+          "Eagle"
+        ],
+        "hint": "A working animal.",
+        "explanation": "Ciuccio means Donkey.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which season did Napoli first win Serie A?",
+        "answer": "1986–87",
+        "wrong": [
+          "1966–67",
+          "1976–77",
+          "1996–97"
+        ],
+        "hint": "During the Maradona era.",
+        "explanation": "Napoli won their first league title in 1986–87.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "first-cup",
+        "topic": "honours",
+        "prompt": "Which trophy did Napoli win while in Serie B in 1962?",
+        "answer": "Coppa Italia",
+        "wrong": [
+          "UEFA Cup",
+          "Serie A",
+          "Supercoppa Italiana"
+        ],
+        "hint": "A domestic knockout competition.",
+        "explanation": "Napoli won the Coppa Italia from the second tier.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "third-title-coach",
+        "topic": "managers",
+        "prompt": "Who coached Napoli to the 2022–23 league title?",
+        "answer": "Luciano Spalletti",
+        "wrong": [
+          "Carlo Ancelotti",
+          "Maurizio Sarri",
+          "Rafael Benítez"
+        ],
+        "hint": "An Italian coach with a shaved head.",
+        "explanation": "Spalletti led Napoli's 2023 champions.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "old-ground-name",
+        "topic": "grounds",
+        "prompt": "What was Napoli's stadium called before it honoured Maradona?",
+        "answer": "San Paolo",
+        "wrong": [
+          "San Nicola",
+          "San Siro",
+          "San Vito"
+        ],
+        "hint": "Named after Saint Paul.",
+        "explanation": "The stadium was formerly San Paolo.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      },
+      {
+        "key": "third-title-gap",
+        "topic": "records",
+        "prompt": "Napoli's 2023 title ended a league-title wait of how many years?",
+        "answer": "33",
+        "wrong": [
+          "13",
+          "23",
+          "43"
+        ],
+        "hint": "Since 1990.",
+        "explanation": "Napoli waited 33 years between titles.",
+        "source": "https://en.wikipedia.org/wiki/SSC_Napoli"
+      }
+    ]
+  },
+  {
+    "name": "Parma",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was the original Parma club founded?",
+        "answer": "1913",
+        "wrong": [
+          "1893",
+          "1933",
+          "1953"
+        ],
+        "hint": "It is part of the name.",
+        "explanation": "Parma's original club was founded in 1913.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "shirt-symbol",
+        "topic": "identity",
+        "prompt": "What symbol traditionally appears on Parma's white home shirt?",
+        "answer": "Black cross",
+        "wrong": [
+          "Red chevron",
+          "Blue star",
+          "Green diagonal sash"
+        ],
+        "hint": "Their nickname is Crociati.",
+        "explanation": "Parma's traditional shirt carries a black cross.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "europe-1993",
+        "topic": "honours",
+        "prompt": "Which European trophy did Parma win in 1993?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "A competition for domestic cup winners.",
+        "explanation": "Parma won the 1992–93 Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "uefa-years",
+        "topic": "honours",
+        "prompt": "In which pair of years did Parma win the UEFA Cup?",
+        "answer": "1995 and 1999",
+        "wrong": [
+          "1985 and 1989",
+          "2005 and 2009",
+          "1993 and 1997"
+        ],
+        "hint": "Both were in the 1990s.",
+        "explanation": "Parma won the UEFA Cup twice in that decade.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "europe-coach",
+        "topic": "managers",
+        "prompt": "Which coach led Parma's rise and 1993 European success?",
+        "answer": "Nevio Scala",
+        "wrong": [
+          "Fabio Capello",
+          "Arrigo Sacchi",
+          "Marcello Lippi"
+        ],
+        "hint": "He later became club president.",
+        "explanation": "Scala coached Parma's first major European triumph.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "restart",
+        "topic": "history",
+        "prompt": "Which division did Parma restart in after the 2015 bankruptcy?",
+        "answer": "Serie D",
+        "wrong": [
+          "Serie A",
+          "Serie B",
+          "Serie C"
+        ],
+        "hint": "The amateur fourth tier.",
+        "explanation": "The reformed Parma entered Serie D.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "comeback",
+        "topic": "records",
+        "prompt": "How many consecutive promotions returned Parma to Serie A in 2018?",
+        "answer": "Three",
+        "wrong": [
+          "One",
+          "Two",
+          "Four"
+        ],
+        "hint": "From the fourth tier to the first.",
+        "explanation": "Parma earned three straight promotions.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      },
+      {
+        "key": "1999-final",
+        "topic": "history",
+        "prompt": "Who did Parma beat in the 1999 UEFA Cup final?",
+        "answer": "Marseille",
+        "wrong": [
+          "Monaco",
+          "Lyon",
+          "Bordeaux"
+        ],
+        "hint": "A French Mediterranean club.",
+        "explanation": "Parma beat Marseille 3–0.",
+        "source": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+      }
+    ]
+  },
+  {
+    "name": "Roma",
+    "aliases": [
+      "AS Roma"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Roma founded?",
+        "answer": "1927",
+        "wrong": [
+          "1907",
+          "1947",
+          "1967"
+        ],
+        "hint": "Between the world wars.",
+        "explanation": "Roma was formed in 1927.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Roma?",
+        "answer": "Red and yellow",
+        "wrong": [
+          "Blue and white",
+          "Black and green",
+          "Purple and gold"
+        ],
+        "hint": "The nickname is Giallorossi.",
+        "explanation": "Roma's colours are red and yellow.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "crest",
+        "topic": "identity",
+        "prompt": "Which animal appears with the twins on Roma's crest?",
+        "answer": "She-wolf",
+        "wrong": [
+          "Eagle",
+          "Lion",
+          "Bull"
+        ],
+        "hint": "It recalls Rome's foundation legend.",
+        "explanation": "The crest depicts the she-wolf with Romulus and Remus.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who are Roma's Derby della Capitale rivals?",
+        "answer": "Lazio",
+        "wrong": [
+          "Napoli",
+          "Fiorentina",
+          "Juventus"
+        ],
+        "hint": "They also play in Rome.",
+        "explanation": "Roma face Lazio in the capital derby.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which season did Roma first win Serie A?",
+        "answer": "1941–42",
+        "wrong": [
+          "1929–30",
+          "1961–62",
+          "1981–82"
+        ],
+        "hint": "During the Second World War.",
+        "explanation": "Roma's first championship came in 1941–42.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "title-2001",
+        "topic": "managers",
+        "prompt": "Who coached Roma to the 2000–01 league title?",
+        "answer": "Fabio Capello",
+        "wrong": [
+          "Carlo Ancelotti",
+          "Claudio Ranieri",
+          "Luciano Spalletti"
+        ],
+        "hint": "He also won titles coaching Milan.",
+        "explanation": "Capello led Roma to the 2001 championship.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "long-serving",
+        "topic": "records",
+        "prompt": "Which Roma legend made 786 competitive appearances for the club?",
+        "answer": "Francesco Totti",
+        "wrong": [
+          "Daniele De Rossi",
+          "Bruno Conti",
+          "Giuseppe Giannini"
+        ],
+        "hint": "The famous number ten.",
+        "explanation": "Totti played 786 official matches for Roma.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      },
+      {
+        "key": "final-1984",
+        "topic": "history",
+        "prompt": "Who faced Roma in the 1984 European Cup final?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Nottingham Forest",
+          "Aston Villa",
+          "Hamburger SV"
+        ],
+        "hint": "An English club in red.",
+        "explanation": "Roma lost the final to Liverpool on penalties.",
+        "source": "https://en.wikipedia.org/wiki/AS_Roma"
+      }
+    ]
+  },
+  {
+    "name": "Sassuolo",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Sassuolo founded?",
+        "answer": "1920",
+        "wrong": [
+          "1900",
+          "1940",
+          "1960"
+        ],
+        "hint": "Shortly after the First World War.",
+        "explanation": "Sassuolo's origins date to 1920.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Sassuolo?",
+        "answer": "Black and green",
+        "wrong": [
+          "Red and blue",
+          "White and purple",
+          "Yellow and red"
+        ],
+        "hint": "Their nickname is Neroverdi.",
+        "explanation": "Sassuolo wear black and green.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Sassuolo first win promotion to Serie A?",
+        "answer": "2013",
+        "wrong": [
+          "1993",
+          "2003",
+          "2023"
+        ],
+        "hint": "Early in the 2010s.",
+        "explanation": "Sassuolo won Serie B in 2013.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "promotion-coach",
+        "topic": "managers",
+        "prompt": "Who coached Sassuolo to their first Serie A promotion?",
+        "answer": "Eusebio Di Francesco",
+        "wrong": [
+          "Roberto De Zerbi",
+          "Stefano Pioli",
+          "Massimiliano Allegri"
+        ],
+        "hint": "A former Roma midfielder.",
+        "explanation": "Di Francesco led the 2013 promotion.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "first-goal",
+        "topic": "history",
+        "prompt": "Who scored Sassuolo's first Serie A goal?",
+        "answer": "Simone Zaza",
+        "wrong": [
+          "Domenico Berardi",
+          "Francesco Caputo",
+          "Giacomo Raspadori"
+        ],
+        "hint": "He later played for Juventus.",
+        "explanation": "Zaza scored against Livorno in 2013.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "four-goal-game",
+        "topic": "records",
+        "prompt": "Who scored four for Sassuolo against Milan in January 2014?",
+        "answer": "Domenico Berardi",
+        "wrong": [
+          "Simone Zaza",
+          "Nicola Sansone",
+          "Antonio Floro Flores"
+        ],
+        "hint": "A long-serving Sassuolo winger.",
+        "explanation": "Berardi scored all four in the 4–3 win.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "first-win",
+        "topic": "history",
+        "prompt": "Who did Sassuolo beat for their first Serie A victory?",
+        "answer": "Bologna",
+        "wrong": [
+          "Torino",
+          "Parma",
+          "Genoa"
+        ],
+        "hint": "Another Emilia-Romagna club.",
+        "explanation": "Sassuolo beat Bologna 2–1 in October 2013.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      },
+      {
+        "key": "european-debut",
+        "topic": "history",
+        "prompt": "Which European competition did Sassuolo enter in 2016?",
+        "answer": "Europa League",
+        "wrong": [
+          "Champions League",
+          "Cup Winners' Cup",
+          "Conference League"
+        ],
+        "hint": "Europe's second-tier competition.",
+        "explanation": "Sassuolo qualified for the 2016–17 Europa League.",
+        "source": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio"
+      }
+    ]
+  },
+  {
+    "name": "Torino",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Torino founded?",
+        "answer": "1906",
+        "wrong": [
+          "1886",
+          "1926",
+          "1946"
+        ],
+        "hint": "Early in the 20th century.",
+        "explanation": "Torino was founded in December 1906.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "colour",
+        "topic": "identity",
+        "prompt": "Which colour gives Torino their Granata nickname?",
+        "answer": "Maroon",
+        "wrong": [
+          "Sky blue",
+          "Green",
+          "Purple"
+        ],
+        "hint": "A deep reddish shade.",
+        "explanation": "Torino are identified by maroon.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "animal",
+        "topic": "identity",
+        "prompt": "Which animal appears on Torino's crest?",
+        "answer": "Bull",
+        "wrong": [
+          "Wolf",
+          "Eagle",
+          "Lion"
+        ],
+        "hint": "It is also a symbol of Turin.",
+        "explanation": "Torino's crest features a bull.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who face Torino in the Derby della Mole?",
+        "answer": "Juventus",
+        "wrong": [
+          "Genoa",
+          "Inter Milan",
+          "Bologna"
+        ],
+        "hint": "Their city rivals.",
+        "explanation": "Torino and Juventus contest the Turin derby.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "grande-era",
+        "topic": "history",
+        "prompt": "Which decade is most associated with Grande Torino?",
+        "answer": "1940s",
+        "wrong": [
+          "1920s",
+          "1960s",
+          "1980s"
+        ],
+        "hint": "Before the Superga tragedy.",
+        "explanation": "Grande Torino dominated the 1940s.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "title-1976",
+        "topic": "honours",
+        "prompt": "In which season did Torino win their post-Superga league title?",
+        "answer": "1975–76",
+        "wrong": [
+          "1965–66",
+          "1985–86",
+          "1995–96"
+        ],
+        "hint": "In the middle of the 1970s.",
+        "explanation": "Torino won Serie A in 1975–76.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "friendship",
+        "topic": "identity",
+        "prompt": "Which Argentine club has a historic friendship with Torino?",
+        "answer": "River Plate",
+        "wrong": [
+          "Boca Juniors",
+          "Racing Club",
+          "Independiente"
+        ],
+        "hint": "They played a benefit match after Superga.",
+        "explanation": "River Plate supported Torino after the 1949 disaster.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      },
+      {
+        "key": "old-home",
+        "topic": "grounds",
+        "prompt": "Which historic ground was home to Grande Torino?",
+        "answer": "Filadelfia",
+        "wrong": [
+          "San Siro",
+          "Marassi",
+          "Flaminio"
+        ],
+        "hint": "It shares a name with an American city.",
+        "explanation": "Grande Torino played at the Filadelfia.",
+        "source": "https://en.wikipedia.org/wiki/Torino_FC"
+      }
+    ]
+  },
+  {
+    "name": "Udinese",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "sports-origin",
+        "topic": "history",
+        "prompt": "In which year was Udinese's original sports society founded?",
+        "answer": "1896",
+        "wrong": [
+          "1906",
+          "1916",
+          "1926"
+        ],
+        "hint": "Before the 20th century.",
+        "explanation": "The sports society began in 1896.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Udinese?",
+        "answer": "Black and white",
+        "wrong": [
+          "Red and blue",
+          "Green and gold",
+          "Purple and white"
+        ],
+        "hint": "They match Udine's civic colours.",
+        "explanation": "Udinese traditionally wear black and white.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Udinese's nickname Zebrette mean?",
+        "answer": "Little zebras",
+        "wrong": [
+          "Young wolves",
+          "Golden eagles",
+          "Wild bulls"
+        ],
+        "hint": "Striped animals.",
+        "explanation": "Zebrette means Little Zebras.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "scoring-2010",
+        "topic": "records",
+        "prompt": "Which Udinese striker topped Serie A's scoring in 2010 and 2011?",
+        "answer": "Antonio Di Natale",
+        "wrong": [
+          "Fabio Quagliarella",
+          "Vincenzo Iaquinta",
+          "Alexis Sánchez"
+        ],
+        "hint": "Known as Totò.",
+        "explanation": "Di Natale won consecutive scoring crowns.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "europe-2009",
+        "topic": "history",
+        "prompt": "Who eliminated Udinese from the 2009 UEFA Cup quarter-finals?",
+        "answer": "Werder Bremen",
+        "wrong": [
+          "Hamburger SV",
+          "Bayern Munich",
+          "Wolfsburg"
+        ],
+        "hint": "A German club in green.",
+        "explanation": "Werder won 6–4 on aggregate.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "coach-2012",
+        "topic": "managers",
+        "prompt": "Who coached Udinese to third in Serie A in 2011–12?",
+        "answer": "Francesco Guidolin",
+        "wrong": [
+          "Luciano Spalletti",
+          "Pasquale Marino",
+          "Alberto Zaccheroni"
+        ],
+        "hint": "His surname starts with G.",
+        "explanation": "Guidolin led Udinese's third-place finish.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "ucl-2011",
+        "topic": "history",
+        "prompt": "Who eliminated Udinese from Champions League qualifying in 2011?",
+        "answer": "Arsenal",
+        "wrong": [
+          "Chelsea",
+          "Liverpool",
+          "Manchester City"
+        ],
+        "hint": "A north London club.",
+        "explanation": "Arsenal won both legs.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      },
+      {
+        "key": "first-sports",
+        "topic": "history",
+        "prompt": "Udinese's original society combined gymnastics with which sport?",
+        "answer": "Fencing",
+        "wrong": [
+          "Cricket",
+          "Rugby",
+          "Rowing"
+        ],
+        "hint": "A combat sport using blades.",
+        "explanation": "The founding society practised gymnastics and fencing.",
+        "source": "https://en.wikipedia.org/wiki/Udinese_Calcio"
+      }
+    ]
+  },
+  {
+    "name": "Venezia",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Venezia originally founded?",
+        "answer": "1907",
+        "wrong": [
+          "1887",
+          "1927",
+          "1947"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "Venezia was founded in December 1907.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which trio of colours identifies Venezia?",
+        "answer": "Orange, black and green",
+        "wrong": [
+          "Red, white and blue",
+          "Purple, white and gold",
+          "Yellow, blue and red"
+        ],
+        "hint": "Their nickname is Arancioneroverdi.",
+        "explanation": "Venezia's colours are orange, black and green.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "animal",
+        "topic": "identity",
+        "prompt": "Which creature represents Venezia?",
+        "answer": "Winged lion",
+        "wrong": [
+          "Two-headed eagle",
+          "Sea serpent",
+          "Golden wolf"
+        ],
+        "hint": "A symbol of Venice.",
+        "explanation": "Venezia are known as the Winged Lions.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "cup",
+        "topic": "honours",
+        "prompt": "Which major trophy did Venezia win in 1941?",
+        "answer": "Coppa Italia",
+        "wrong": [
+          "Serie A",
+          "European Cup",
+          "UEFA Cup"
+        ],
+        "hint": "An Italian knockout cup.",
+        "explanation": "Venezia won the 1940–41 Coppa Italia.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "cup-opponent",
+        "topic": "history",
+        "prompt": "Who did Venezia beat in the 1941 Coppa Italia final?",
+        "answer": "Roma",
+        "wrong": [
+          "Lazio",
+          "Torino",
+          "Milan"
+        ],
+        "hint": "A capital club in red and yellow.",
+        "explanation": "Venezia defeated Roma over two legs.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "best-finish",
+        "topic": "records",
+        "prompt": "Where did Venezia finish in Serie A in 1941–42?",
+        "answer": "Third",
+        "wrong": [
+          "First",
+          "Seventh",
+          "Tenth"
+        ],
+        "hint": "A podium position.",
+        "explanation": "Venezia finished third behind Roma and Torino.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "coach-rise",
+        "topic": "managers",
+        "prompt": "Who coached Venezia to promotion to Serie B in 2017?",
+        "answer": "Filippo Inzaghi",
+        "wrong": [
+          "Simone Inzaghi",
+          "Andrea Pirlo",
+          "Gennaro Gattuso"
+        ],
+        "hint": "A former Milan striker.",
+        "explanation": "Filippo Inzaghi led Venezia's 2017 promotion.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      },
+      {
+        "key": "historic-duo",
+        "topic": "history",
+        "prompt": "Which Venezia duo moved to Torino in 1942?",
+        "answer": "Loik and Mazzola",
+        "wrong": [
+          "Rivera and Mazzola",
+          "Riva and Boninsegna",
+          "Vialli and Mancini"
+        ],
+        "hint": "They became central to Grande Torino.",
+        "explanation": "Ezio Loik and Valentino Mazzola joined Torino.",
+        "source": "https://en.wikipedia.org/wiki/Venezia_FC"
+      }
+    ]
+  },
+  {
+    "name": "FC Augsburg",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year do Augsburg's club roots begin?",
+        "answer": "1907",
+        "wrong": [
+          "1887",
+          "1927",
+          "1947"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "The predecessor Alemannia Augsburg began in 1907.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "nickname-origin",
+        "topic": "identity",
+        "prompt": "Augsburg's traditional nickname honours which merchant family?",
+        "answer": "Fugger",
+        "wrong": [
+          "Borgia",
+          "Medici",
+          "Rothschild"
+        ],
+        "hint": "A famous Augsburg merchant dynasty.",
+        "explanation": "The nickname refers to the Fugger family.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Augsburg first reach the Bundesliga?",
+        "answer": "2011",
+        "wrong": [
+          "1991",
+          "2001",
+          "2021"
+        ],
+        "hint": "Early in the 2010s.",
+        "explanation": "Augsburg earned promotion in 2011.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "europe-finish",
+        "topic": "records",
+        "prompt": "Which league position earned Augsburg European football in 2015?",
+        "answer": "Fifth",
+        "wrong": [
+          "Second",
+          "Eighth",
+          "Twelfth"
+        ],
+        "hint": "Just outside the top four.",
+        "explanation": "Fifth place secured Europa League qualification.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "europe-coach",
+        "topic": "managers",
+        "prompt": "Who coached Augsburg to European qualification in 2015?",
+        "answer": "Markus Weinzierl",
+        "wrong": [
+          "Thomas Tuchel",
+          "Jürgen Klopp",
+          "Julian Nagelsmann"
+        ],
+        "hint": "He later moved to Schalke.",
+        "explanation": "Weinzierl led Augsburg's fifth-place finish.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "europe-opponent",
+        "topic": "history",
+        "prompt": "Who eliminated Augsburg from the 2015–16 Europa League?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Tottenham Hotspur",
+          "Manchester United",
+          "Chelsea"
+        ],
+        "hint": "They play at Anfield.",
+        "explanation": "Liverpool won the tie 1–0 on aggregate.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "group-escape",
+        "topic": "history",
+        "prompt": "Which club did Augsburg beat 3–1 away to escape their 2015 European group?",
+        "answer": "Partizan",
+        "wrong": [
+          "Dinamo Zagreb",
+          "Red Star Belgrade",
+          "Olympiacos"
+        ],
+        "hint": "A Belgrade club in black and white.",
+        "explanation": "The win at Partizan secured progress.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      },
+      {
+        "key": "original-name",
+        "topic": "history",
+        "prompt": "Which name did Augsburg's predecessor use in 1907?",
+        "answer": "Alemannia Augsburg",
+        "wrong": [
+          "Bavaria Augsburg",
+          "Germania Augsburg",
+          "Viktoria Augsburg"
+        ],
+        "hint": "It begins with A.",
+        "explanation": "The original club was Fußball-Klub Alemannia Augsburg.",
+        "source": "https://en.wikipedia.org/wiki/FC_Augsburg"
+      }
+    ]
+  },
+  {
+    "name": "Union Berlin",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was 1. FC Union Berlin formed under that name?",
+        "answer": "1966",
+        "wrong": [
+          "1946",
+          "1956",
+          "1976"
+        ],
+        "hint": "During the East German era.",
+        "explanation": "The football club was established in 1966.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Union Berlin's Eisern nickname evoke?",
+        "answer": "Iron",
+        "wrong": [
+          "Gold",
+          "Lightning",
+          "Eagles"
+        ],
+        "hint": "Think of metalworking.",
+        "explanation": "Eisern means Iron.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Union Berlin?",
+        "answer": "Red and white",
+        "wrong": [
+          "Blue and black",
+          "Green and gold",
+          "Purple and white"
+        ],
+        "hint": "Both feature in their badge.",
+        "explanation": "Union's traditional colours are red and white.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "east-cup",
+        "topic": "honours",
+        "prompt": "Which trophy did Union Berlin win in 1968?",
+        "answer": "East German Cup",
+        "wrong": [
+          "European Cup",
+          "West German Cup",
+          "UEFA Cup"
+        ],
+        "hint": "The FDGB-Pokal.",
+        "explanation": "Union won the East German Cup.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "cup-opponent",
+        "topic": "history",
+        "prompt": "Who did Union beat in the 1968 East German Cup final?",
+        "answer": "Carl Zeiss Jena",
+        "wrong": [
+          "Dynamo Dresden",
+          "BFC Dynamo",
+          "Hansa Rostock"
+        ],
+        "hint": "A club associated with optical equipment.",
+        "explanation": "Union beat Jena 2–1.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "first-bundesliga",
+        "topic": "history",
+        "prompt": "In which year did Union first reach the Bundesliga?",
+        "answer": "2019",
+        "wrong": [
+          "1999",
+          "2009",
+          "2023"
+        ],
+        "hint": "Just before the 2020s.",
+        "explanation": "Union earned promotion in 2019.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "promotion-coach",
+        "topic": "managers",
+        "prompt": "Who coached Union to their first Bundesliga promotion?",
+        "answer": "Urs Fischer",
+        "wrong": [
+          "Christian Streich",
+          "Thomas Tuchel",
+          "Ralf Rangnick"
+        ],
+        "hint": "A Swiss coach.",
+        "explanation": "Fischer led the 2019 promotion.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+      },
+      {
+        "key": "supporters-ground",
+        "topic": "grounds",
+        "prompt": "How did Union supporters help renovate their ground in 2008–09?",
+        "answer": "Volunteered construction work",
+        "wrong": [
+          "Moved the stadium",
+          "Built a railway",
+          "Designed a retractable roof"
+        ],
+        "hint": "They gave their time and labour.",
+        "explanation": "Supporters helped rebuild the Alte Försterei.",
+        "source": "https://www.bundesliga.com/en/bundesliga/news/union-berlin-club-by-club-historical-guide-24212"
+      }
+    ]
+  },
+  {
+    "name": "Werder Bremen",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Werder Bremen founded?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1919",
+          "1939"
+        ],
+        "hint": "Just before 1900.",
+        "explanation": "Werder was founded in February 1899.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Werder Bremen?",
+        "answer": "Green and white",
+        "wrong": [
+          "Red and black",
+          "Blue and gold",
+          "Purple and white"
+        ],
+        "hint": "Their nickname includes Grün-Weißen.",
+        "explanation": "Werder wear green and white.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "northern-derby",
+        "topic": "identity",
+        "prompt": "Who are Werder's traditional Nordderby rivals?",
+        "answer": "Hamburger SV",
+        "wrong": [
+          "Bayern Munich",
+          "Mainz 05",
+          "Freiburg"
+        ],
+        "hint": "A fellow northern port-city club.",
+        "explanation": "Werder contest the Nordderby against Hamburg.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which season did Werder first win the Bundesliga?",
+        "answer": "1964–65",
+        "wrong": [
+          "1974–75",
+          "1984–85",
+          "1994–95"
+        ],
+        "hint": "The Bundesliga's second season.",
+        "explanation": "Werder won the 1964–65 title.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "european-cup",
+        "topic": "honours",
+        "prompt": "Which European trophy did Werder win in 1992?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "For domestic cup winners.",
+        "explanation": "Werder won the Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "europe-final",
+        "topic": "history",
+        "prompt": "Who did Werder beat in the 1992 European final?",
+        "answer": "Monaco",
+        "wrong": [
+          "Marseille",
+          "Auxerre",
+          "Paris Saint-Germain"
+        ],
+        "hint": "A principality club.",
+        "explanation": "Werder beat Monaco 2–0.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "double",
+        "topic": "honours",
+        "prompt": "In which season did Werder win the league-and-cup double?",
+        "answer": "2003–04",
+        "wrong": [
+          "1993–94",
+          "2013–14",
+          "1983–84"
+        ],
+        "hint": "Early in the 2000s.",
+        "explanation": "Werder won both domestic trophies in 2004.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      },
+      {
+        "key": "double-coach",
+        "topic": "managers",
+        "prompt": "Who coached Werder's 2004 double-winning team?",
+        "answer": "Thomas Schaaf",
+        "wrong": [
+          "Otto Rehhagel",
+          "Felix Magath",
+          "Jupp Heynckes"
+        ],
+        "hint": "A former Werder player.",
+        "explanation": "Schaaf led the 2004 double.",
+        "source": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+      }
+    ]
+  },
+  {
+    "name": "Borussia Dortmund",
+    "aliases": [
+      "Borussia Dortmund"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Borussia Dortmund founded?",
+        "answer": "1909",
+        "wrong": [
+          "1889",
+          "1929",
+          "1949"
+        ],
+        "hint": "The year is in BVB 09.",
+        "explanation": "Dortmund was founded in December 1909.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Dortmund?",
+        "answer": "Black and yellow",
+        "wrong": [
+          "Blue and white",
+          "Red and black",
+          "Green and gold"
+        ],
+        "hint": "Their nickname is Schwarzgelben.",
+        "explanation": "Dortmund wear black and yellow.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "terrace",
+        "topic": "grounds",
+        "prompt": "What is Dortmund's famous south terrace called?",
+        "answer": "Yellow Wall",
+        "wrong": [
+          "Red Sea",
+          "Blue Mountain",
+          "Green Fortress"
+        ],
+        "hint": "Its name matches the club colour.",
+        "explanation": "The Südtribüne is known as the Yellow Wall.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who face Dortmund in the Revierderby?",
+        "answer": "Schalke 04",
+        "wrong": [
+          "Bayern Munich",
+          "Hamburger SV",
+          "Werder Bremen"
+        ],
+        "hint": "Neighbours from Gelsenkirchen.",
+        "explanation": "Dortmund contest the derby against Schalke.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "first-european",
+        "topic": "honours",
+        "prompt": "Which European trophy did Dortmund win in 1966?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "Their first European trophy.",
+        "explanation": "Dortmund won the Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "1966-opponent",
+        "topic": "history",
+        "prompt": "Who did Dortmund beat in the 1966 European final?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Everton",
+          "Manchester United",
+          "Chelsea"
+        ],
+        "hint": "An English club in red.",
+        "explanation": "Dortmund beat Liverpool after extra time.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "double-coach",
+        "topic": "managers",
+        "prompt": "Who coached Dortmund's 2011–12 domestic double?",
+        "answer": "Jürgen Klopp",
+        "wrong": [
+          "Thomas Tuchel",
+          "Ottmar Hitzfeld",
+          "Matthias Sammer"
+        ],
+        "hint": "Later a Liverpool manager.",
+        "explanation": "Klopp led Dortmund's league-and-cup double.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      },
+      {
+        "key": "stadium-open",
+        "topic": "grounds",
+        "prompt": "In which year did Dortmund's Westfalenstadion open?",
+        "answer": "1974",
+        "wrong": [
+          "1954",
+          "1964",
+          "1984"
+        ],
+        "hint": "Germany hosted the World Cup that year.",
+        "explanation": "The stadium opened in 1974.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+      }
+    ]
+  },
+  {
+    "name": "SV Elversberg",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Elversberg's predecessor founded?",
+        "answer": "1907",
+        "wrong": [
+          "1887",
+          "1927",
+          "1947"
+        ],
+        "hint": "The club uses 07 in its name.",
+        "explanation": "FC Germania Elversberg began in 1907.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "original-name",
+        "topic": "history",
+        "prompt": "What was Elversberg's original club name?",
+        "answer": "FC Germania Elversberg",
+        "wrong": [
+          "Bavaria Elversberg",
+          "Viktoria Elversberg",
+          "Eintracht Elversberg"
+        ],
+        "hint": "A Latin name for Germany.",
+        "explanation": "The club began as FC Germania Elversberg.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Elversberg?",
+        "answer": "Black and white",
+        "wrong": [
+          "Red and blue",
+          "Green and gold",
+          "Purple and white"
+        ],
+        "hint": "Their nickname is Schwarz und Weiß.",
+        "explanation": "Elversberg wear black and white.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "rise-coach",
+        "topic": "managers",
+        "prompt": "Who coached Elversberg's 2022 and 2023 promotions?",
+        "answer": "Horst Steffen",
+        "wrong": [
+          "Steffen Baumgart",
+          "Frank Schmidt",
+          "Uwe Neuhaus"
+        ],
+        "hint": "His first name is Horst.",
+        "explanation": "Steffen led the consecutive promotions.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "third-tier-title",
+        "topic": "honours",
+        "prompt": "Which national division did Elversberg win in 2022–23?",
+        "answer": "3. Liga",
+        "wrong": [
+          "Bundesliga",
+          "2. Bundesliga",
+          "Oberliga"
+        ],
+        "hint": "Germany's third tier.",
+        "explanation": "Elversberg won the 2022–23 3. Liga.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "promotion-2013",
+        "topic": "history",
+        "prompt": "Whose reserve side did Elversberg beat to win promotion in 2013?",
+        "answer": "1860 Munich",
+        "wrong": [
+          "Bayern Munich",
+          "Borussia Dortmund",
+          "Stuttgart"
+        ],
+        "hint": "The Munich club known as the Lions.",
+        "explanation": "Elversberg beat 1860 Munich II in the playoff.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "playoff-2017",
+        "topic": "history",
+        "prompt": "Who denied Elversberg promotion in the 2017 playoff?",
+        "answer": "Unterhaching",
+        "wrong": [
+          "Zwickau",
+          "Kiel",
+          "Mannheim"
+        ],
+        "hint": "A club from near Munich.",
+        "explanation": "Unterhaching won 5–2 on aggregate.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      },
+      {
+        "key": "debut-finish",
+        "topic": "records",
+        "prompt": "Where did Elversberg finish in their first 2. Bundesliga season?",
+        "answer": "11th",
+        "wrong": [
+          "3rd",
+          "7th",
+          "18th"
+        ],
+        "hint": "Just below the top ten.",
+        "explanation": "Elversberg finished eleventh in 2023–24.",
+        "source": "https://en.wikipedia.org/wiki/SV_Elversberg"
+      }
+    ]
+  },
+  {
+    "name": "Eintracht Frankfurt",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year do Eintracht Frankfurt's club origins begin?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1919",
+          "1939"
+        ],
+        "hint": "Just before 1900.",
+        "explanation": "The founding predecessor clubs date to 1899.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "name-meaning",
+        "topic": "identity",
+        "prompt": "What does Eintracht mean in English?",
+        "answer": "Harmony",
+        "wrong": [
+          "Victory",
+          "Courage",
+          "Speed"
+        ],
+        "hint": "A word for unity.",
+        "explanation": "Eintracht means harmony or concord.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "animal",
+        "topic": "identity",
+        "prompt": "Which bird represents Eintracht Frankfurt?",
+        "answer": "Eagle",
+        "wrong": [
+          "Owl",
+          "Canary",
+          "Swan"
+        ],
+        "hint": "The club are known as the Adler.",
+        "explanation": "The eagle is Frankfurt's emblem.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "german-title",
+        "topic": "honours",
+        "prompt": "In which year did Frankfurt win the German championship?",
+        "answer": "1959",
+        "wrong": [
+          "1939",
+          "1969",
+          "1979"
+        ],
+        "hint": "Before the Bundesliga began.",
+        "explanation": "Frankfurt won the 1959 championship.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "title-final",
+        "topic": "history",
+        "prompt": "Who faced Frankfurt in the 1959 championship final?",
+        "answer": "Kickers Offenbach",
+        "wrong": [
+          "Hamburger SV",
+          "Schalke 04",
+          "Kaiserslautern"
+        ],
+        "hint": "Their near neighbours.",
+        "explanation": "Frankfurt beat Offenbach 5–3 after extra time.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "europe-1960",
+        "topic": "history",
+        "prompt": "Who faced Frankfurt in the 1960 European Cup final?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Benfica",
+          "AC Milan"
+        ],
+        "hint": "The reigning European champions.",
+        "explanation": "Real Madrid won the final at Hampden Park.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "uefa-1980",
+        "topic": "honours",
+        "prompt": "Which European trophy did Frankfurt win in 1980?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "Now called the Europa League.",
+        "explanation": "Frankfurt won the 1979–80 UEFA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      },
+      {
+        "key": "europe-coach",
+        "topic": "managers",
+        "prompt": "Who coached Frankfurt to the 2022 Europa League trophy?",
+        "answer": "Oliver Glasner",
+        "wrong": [
+          "Adi Hütter",
+          "Niko Kovač",
+          "Armin Veh"
+        ],
+        "hint": "An Austrian coach.",
+        "explanation": "Glasner led the 2022 European triumph.",
+        "source": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+      }
+    ]
+  },
+  {
+    "name": "SC Freiburg",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year do Freiburg's club origins begin?",
+        "answer": "1904",
+        "wrong": [
+          "1884",
+          "1924",
+          "1944"
+        ],
+        "hint": "Early in the 20th century.",
+        "explanation": "Freiburg traces its origins to 1904.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "first-bundesliga",
+        "topic": "history",
+        "prompt": "In which season did Freiburg first play Bundesliga football?",
+        "answer": "1993–94",
+        "wrong": [
+          "1973–74",
+          "1983–84",
+          "2003–04"
+        ],
+        "hint": "Early in the 1990s.",
+        "explanation": "Freiburg debuted in 1993–94.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "first-coach",
+        "topic": "managers",
+        "prompt": "Who coached Freiburg to their first Bundesliga promotion?",
+        "answer": "Volker Finke",
+        "wrong": [
+          "Christian Streich",
+          "Robin Dutt",
+          "Marcus Sorg"
+        ],
+        "hint": "He coached the club for 16 years.",
+        "explanation": "Finke led the 1993 promotion.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "second-season",
+        "topic": "records",
+        "prompt": "Where did Freiburg finish in their second Bundesliga season?",
+        "answer": "Third",
+        "wrong": [
+          "First",
+          "Eighth",
+          "Sixteenth"
+        ],
+        "hint": "A podium finish.",
+        "explanation": "Freiburg finished third in 1994–95.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "long-coach",
+        "topic": "managers",
+        "prompt": "Which coach led Freiburg from late 2011 until 2024?",
+        "answer": "Christian Streich",
+        "wrong": [
+          "Volker Finke",
+          "Robin Dutt",
+          "Thomas Tuchel"
+        ],
+        "hint": "Known for his candid interviews.",
+        "explanation": "Streich served for more than twelve years.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "cup-final",
+        "topic": "history",
+        "prompt": "Who faced Freiburg in their first DFB-Pokal final in 2022?",
+        "answer": "RB Leipzig",
+        "wrong": [
+          "Bayern Munich",
+          "Dortmund",
+          "Frankfurt"
+        ],
+        "hint": "A club founded in 2009.",
+        "explanation": "Freiburg faced Leipzig in Berlin.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "new-ground",
+        "topic": "grounds",
+        "prompt": "In which year did Freiburg move to the Europa-Park Stadion?",
+        "answer": "2021",
+        "wrong": [
+          "2001",
+          "2011",
+          "2016"
+        ],
+        "hint": "Early in the 2020s.",
+        "explanation": "Freiburg moved in 2021.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      },
+      {
+        "key": "old-ground",
+        "topic": "grounds",
+        "prompt": "Which ground did Freiburg leave when moving in 2021?",
+        "answer": "Dreisamstadion",
+        "wrong": [
+          "Bökelbergstadion",
+          "Waldstadion",
+          "Rheinstadion"
+        ],
+        "hint": "Named for a local river.",
+        "explanation": "The old home was the Dreisamstadion.",
+        "source": "https://en.wikipedia.org/wiki/SC_Freiburg"
+      }
+    ]
+  },
+  {
+    "name": "Hamburger SV",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "formation",
+        "topic": "history",
+        "prompt": "In which year did the merger creating Hamburger SV take place?",
+        "answer": "1919",
+        "wrong": [
+          "1899",
+          "1939",
+          "1959"
+        ],
+        "hint": "Just after the First World War.",
+        "explanation": "The modern HSV was formed by a 1919 merger.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who are Hamburg's city-derby rivals?",
+        "answer": "FC St. Pauli",
+        "wrong": [
+          "Werder Bremen",
+          "Hannover 96",
+          "Holstein Kiel"
+        ],
+        "hint": "Known for brown-and-white colours.",
+        "explanation": "HSV contest the Hamburg derby against St. Pauli.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "european-cup",
+        "topic": "honours",
+        "prompt": "In which year did Hamburg win the European Cup?",
+        "answer": "1983",
+        "wrong": [
+          "1973",
+          "1993",
+          "2003"
+        ],
+        "hint": "Early in the 1980s.",
+        "explanation": "Hamburg won in 1983.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "final-scorer",
+        "topic": "history",
+        "prompt": "Who scored Hamburg's winner in the 1983 European Cup final?",
+        "answer": "Felix Magath",
+        "wrong": [
+          "Horst Hrubesch",
+          "Kevin Keegan",
+          "Uwe Seeler"
+        ],
+        "hint": "Later a title-winning coach.",
+        "explanation": "Magath scored the only goal.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "final-opponent",
+        "topic": "history",
+        "prompt": "Who did Hamburg beat in the 1983 European Cup final?",
+        "answer": "Juventus",
+        "wrong": [
+          "Milan",
+          "Inter",
+          "Roma"
+        ],
+        "hint": "An Italian club in black and white.",
+        "explanation": "Hamburg beat Juventus 1–0.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "europe-coach",
+        "topic": "managers",
+        "prompt": "Who coached Hamburg to their 1983 European Cup win?",
+        "answer": "Ernst Happel",
+        "wrong": [
+          "Udo Lattek",
+          "Jupp Heynckes",
+          "Dettmar Cramer"
+        ],
+        "hint": "An Austrian coach.",
+        "explanation": "Happel led the European champions.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "cup-winners",
+        "topic": "honours",
+        "prompt": "Which European trophy did Hamburg win in 1977?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "For domestic cup winners.",
+        "explanation": "Hamburg won the 1977 Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      },
+      {
+        "key": "first-relegation",
+        "topic": "history",
+        "prompt": "In which year were Hamburg first relegated from the Bundesliga?",
+        "answer": "2018",
+        "wrong": [
+          "1998",
+          "2008",
+          "2023"
+        ],
+        "hint": "After 55 consecutive Bundesliga seasons.",
+        "explanation": "Hamburg's first relegation came in 2018.",
+        "source": "https://en.wikipedia.org/wiki/Hamburger_SV"
+      }
+    ]
+  },
+  {
+    "name": "TSG Hoffenheim",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founding-sport",
+        "topic": "history",
+        "prompt": "Hoffenheim's 1899 predecessor was founded for which sport?",
+        "answer": "Gymnastics",
+        "wrong": [
+          "Cricket",
+          "Rowing",
+          "Ice hockey"
+        ],
+        "hint": "A sport using bars and rings.",
+        "explanation": "The predecessor was a gymnastics club.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "modern-merger",
+        "topic": "history",
+        "prompt": "In which year did Hoffenheim's gymnastics and football clubs merge?",
+        "answer": "1945",
+        "wrong": [
+          "1925",
+          "1965",
+          "1985"
+        ],
+        "hint": "At the end of the Second World War.",
+        "explanation": "The modern club took shape in 1945.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "backer",
+        "topic": "history",
+        "prompt": "Which software entrepreneur financed Hoffenheim's rise?",
+        "answer": "Dietmar Hopp",
+        "wrong": [
+          "Dietrich Mateschitz",
+          "Klaus-Michael Kühne",
+          "Martin Kind"
+        ],
+        "hint": "A co-founder of SAP.",
+        "explanation": "Dietmar Hopp backed his former youth club.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Hoffenheim first reach the Bundesliga?",
+        "answer": "2008",
+        "wrong": [
+          "1988",
+          "1998",
+          "2018"
+        ],
+        "hint": "Late in the 2000s.",
+        "explanation": "Hoffenheim earned promotion in 2008.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "promotion-coach",
+        "topic": "managers",
+        "prompt": "Who coached Hoffenheim's first Bundesliga promotion?",
+        "answer": "Ralf Rangnick",
+        "wrong": [
+          "Julian Nagelsmann",
+          "Huub Stevens",
+          "Markus Gisdol"
+        ],
+        "hint": "Later associated with RB Leipzig.",
+        "explanation": "Rangnick led the 2008 promotion.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "ucl-finish",
+        "topic": "records",
+        "prompt": "Which Bundesliga position earned Hoffenheim direct Champions League entry in 2018?",
+        "answer": "Third",
+        "wrong": [
+          "First",
+          "Fifth",
+          "Seventh"
+        ],
+        "hint": "A podium position.",
+        "explanation": "Hoffenheim finished third in 2017–18.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "young-coach",
+        "topic": "managers",
+        "prompt": "Which young coach took charge of Hoffenheim in February 2016?",
+        "answer": "Julian Nagelsmann",
+        "wrong": [
+          "Thomas Tuchel",
+          "Jürgen Klopp",
+          "Sebastian Hoeneß"
+        ],
+        "hint": "He later coached Bayern.",
+        "explanation": "Nagelsmann became coach aged 28.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      },
+      {
+        "key": "stadium-move",
+        "topic": "grounds",
+        "prompt": "In which year did Hoffenheim move to their Rhein-Neckar-Arena?",
+        "answer": "2009",
+        "wrong": [
+          "1989",
+          "1999",
+          "2019"
+        ],
+        "hint": "The season after first promotion.",
+        "explanation": "The new ground opened in 2009.",
+        "source": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+      }
+    ]
+  },
+  {
+    "name": "1. FC Köln",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was 1. FC Köln formed?",
+        "answer": "1948",
+        "wrong": [
+          "1908",
+          "1928",
+          "1968"
+        ],
+        "hint": "After the Second World War.",
+        "explanation": "Köln was formed by a merger in 1948.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "mascot-animal",
+        "topic": "identity",
+        "prompt": "Which animal is Köln's living mascot?",
+        "answer": "Goat",
+        "wrong": [
+          "Eagle",
+          "Bull",
+          "Lion"
+        ],
+        "hint": "The nickname is Billy Goats.",
+        "explanation": "Köln's mascot is a billy goat.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "mascot-name",
+        "topic": "identity",
+        "prompt": "What name is traditionally given to Köln's goat mascot?",
+        "answer": "Hennes",
+        "wrong": [
+          "Fritz",
+          "Otto",
+          "Franz"
+        ],
+        "hint": "Named after Weisweiler.",
+        "explanation": "The goat is named Hennes.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "first-bundesliga",
+        "topic": "honours",
+        "prompt": "In which season did Köln win the inaugural Bundesliga title?",
+        "answer": "1963–64",
+        "wrong": [
+          "1953–54",
+          "1968–69",
+          "1973–74"
+        ],
+        "hint": "The league began in the early 1960s.",
+        "explanation": "Köln won the first Bundesliga title.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "double",
+        "topic": "honours",
+        "prompt": "In which season did Köln win the domestic double?",
+        "answer": "1977–78",
+        "wrong": [
+          "1967–68",
+          "1987–88",
+          "1997–98"
+        ],
+        "hint": "Late in the 1970s.",
+        "explanation": "Köln won league and cup in 1978.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "double-coach",
+        "topic": "managers",
+        "prompt": "Who coached Köln's 1978 double winners?",
+        "answer": "Hennes Weisweiler",
+        "wrong": [
+          "Udo Lattek",
+          "Ernst Happel",
+          "Helmut Schön"
+        ],
+        "hint": "The mascot shares his name.",
+        "explanation": "Weisweiler led the double.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "europe-final",
+        "topic": "history",
+        "prompt": "Who faced Köln in the 1986 UEFA Cup final?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Inter Milan",
+          "Tottenham Hotspur"
+        ],
+        "hint": "A Spanish club in white.",
+        "explanation": "Köln lost to Real Madrid.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      },
+      {
+        "key": "first-relegation",
+        "topic": "history",
+        "prompt": "In which year were Köln first relegated from the Bundesliga?",
+        "answer": "1998",
+        "wrong": [
+          "1978",
+          "1988",
+          "2008"
+        ],
+        "hint": "Late in the 1990s.",
+        "explanation": "Köln's first Bundesliga relegation came in 1998.",
+        "source": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+      }
+    ]
+  },
+  {
+    "name": "RB Leipzig",
+    "aliases": [
+      "RB Leipzig"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was RB Leipzig founded?",
+        "answer": "2009",
+        "wrong": [
+          "1989",
+          "1999",
+          "2019"
+        ],
+        "hint": "A notably young club.",
+        "explanation": "Leipzig was founded in May 2009.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "name",
+        "topic": "identity",
+        "prompt": "What does RB officially stand for in RB Leipzig?",
+        "answer": "RasenBallsport",
+        "wrong": [
+          "Rote Bären",
+          "Rheinischer Bund",
+          "Rennbahn Berlin"
+        ],
+        "hint": "It translates as lawn ball sports.",
+        "explanation": "RB stands for RasenBallsport.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "predecessor",
+        "topic": "history",
+        "prompt": "Whose fifth-tier playing rights did Leipzig acquire in 2009?",
+        "answer": "SSV Markranstädt",
+        "wrong": [
+          "Chemie Leipzig",
+          "Dynamo Dresden",
+          "Hallescher FC"
+        ],
+        "hint": "A club from nearby Markranstädt.",
+        "explanation": "Leipzig began using SSV Markranstädt's playing rights.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "first-bundesliga",
+        "topic": "history",
+        "prompt": "In which year did Leipzig first reach the Bundesliga?",
+        "answer": "2016",
+        "wrong": [
+          "2010",
+          "2013",
+          "2019"
+        ],
+        "hint": "Seven years after foundation.",
+        "explanation": "Leipzig earned promotion in 2016.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "debut-finish",
+        "topic": "records",
+        "prompt": "Where did Leipzig finish in their first Bundesliga season?",
+        "answer": "Second",
+        "wrong": [
+          "Fifth",
+          "Tenth",
+          "Sixteenth"
+        ],
+        "hint": "Only Bayern finished higher.",
+        "explanation": "Leipzig were runners-up in 2016–17.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "first-cup",
+        "topic": "honours",
+        "prompt": "In which year did Leipzig first win the DFB-Pokal?",
+        "answer": "2022",
+        "wrong": [
+          "2012",
+          "2016",
+          "2019"
+        ],
+        "hint": "They beat Freiburg on penalties.",
+        "explanation": "Leipzig won their first German Cup in 2022.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "cup-coach",
+        "topic": "managers",
+        "prompt": "Who coached Leipzig to their first DFB-Pokal win?",
+        "answer": "Domenico Tedesco",
+        "wrong": [
+          "Julian Nagelsmann",
+          "Ralph Hasenhüttl",
+          "Marco Rose"
+        ],
+        "hint": "An Italian-born German coach.",
+        "explanation": "Tedesco led the 2022 cup winners.",
+        "source": "https://en.wikipedia.org/wiki/RB_Leipzig"
+      },
+      {
+        "key": "supercup-hattrick",
+        "topic": "records",
+        "prompt": "Who scored Leipzig's hat-trick in the 2023 German Supercup?",
+        "answer": "Dani Olmo",
+        "wrong": [
+          "Timo Werner",
+          "Loïs Openda",
+          "Emil Forsberg"
+        ],
+        "hint": "A Spanish attacking midfielder.",
+        "explanation": "Olmo scored all three against Bayern.",
+        "source": "https://www.dfb.de/news/detail/dreimal-olmo-rb-leipzig-gewinnt-supercup-254043"
+      }
+    ]
+  },
+  {
+    "name": "Bayer Leverkusen",
+    "aliases": [
+      "Bayer 04 Leverkusen"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Bayer Leverkusen founded?",
+        "answer": "1904",
+        "wrong": [
+          "1884",
+          "1924",
+          "1944"
+        ],
+        "hint": "The year appears as 04.",
+        "explanation": "The sports club began in 1904.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "factory-origin",
+        "topic": "history",
+        "prompt": "Leverkusen's founders worked for which company?",
+        "answer": "Bayer",
+        "wrong": [
+          "Volkswagen",
+          "Siemens",
+          "Adidas"
+        ],
+        "hint": "It is part of the club name.",
+        "explanation": "Bayer employees established the club.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Leverkusen's Werkself nickname mean?",
+        "answer": "Factory Eleven",
+        "wrong": [
+          "River Eagles",
+          "Young Lions",
+          "Royal Blues"
+        ],
+        "hint": "It reflects the club's industrial roots.",
+        "explanation": "Werkself means Factory Eleven.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Leverkusen?",
+        "answer": "Red and black",
+        "wrong": [
+          "Blue and white",
+          "Green and gold",
+          "Purple and white"
+        ],
+        "hint": "Their nickname includes Schwarzroten.",
+        "explanation": "Leverkusen's colours are red and black.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "uefa-cup",
+        "topic": "honours",
+        "prompt": "In which year did Leverkusen win the UEFA Cup?",
+        "answer": "1988",
+        "wrong": [
+          "1968",
+          "1978",
+          "1998"
+        ],
+        "hint": "Late in the 1980s.",
+        "explanation": "Leverkusen won the 1987–88 UEFA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which season did Leverkusen first win the Bundesliga?",
+        "answer": "2023–24",
+        "wrong": [
+          "2001–02",
+          "2013–14",
+          "2018–19"
+        ],
+        "hint": "A historic unbeaten campaign.",
+        "explanation": "Their first Bundesliga title came in 2024.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "title-coach",
+        "topic": "managers",
+        "prompt": "Who coached Leverkusen's first Bundesliga champions?",
+        "answer": "Xabi Alonso",
+        "wrong": [
+          "Jupp Heynckes",
+          "Roger Schmidt",
+          "Peter Bosz"
+        ],
+        "hint": "A former Spain midfielder.",
+        "explanation": "Alonso led the 2024 champions.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      },
+      {
+        "key": "unbeaten",
+        "topic": "records",
+        "prompt": "How many league defeats did Leverkusen suffer in 2023–24?",
+        "answer": "Zero",
+        "wrong": [
+          "One",
+          "Two",
+          "Three"
+        ],
+        "hint": "They made Bundesliga history.",
+        "explanation": "Leverkusen completed the league season unbeaten.",
+        "source": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+      }
+    ]
+  },
+  {
+    "name": "Mainz 05",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which founding year does the 05 in Mainz's name represent?",
+        "answer": "1905",
+        "wrong": [
+          "1805",
+          "1955",
+          "2005"
+        ],
+        "hint": "Early in the 20th century.",
+        "explanation": "Mainz was founded in 1905.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Mainz first reach the Bundesliga?",
+        "answer": "2004",
+        "wrong": [
+          "1984",
+          "1994",
+          "2014"
+        ],
+        "hint": "Early in the 2000s.",
+        "explanation": "Mainz earned promotion in 2004.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "first-coach",
+        "topic": "managers",
+        "prompt": "Who coached Mainz's first Bundesliga promotion?",
+        "answer": "Jürgen Klopp",
+        "wrong": [
+          "Thomas Tuchel",
+          "Jörn Andersen",
+          "Bo Svensson"
+        ],
+        "hint": "Later a Liverpool manager.",
+        "explanation": "Klopp led the 2004 promotion.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "fair-play",
+        "topic": "history",
+        "prompt": "How did Mainz qualify for the 2005–06 UEFA Cup?",
+        "answer": "Fair Play entry",
+        "wrong": [
+          "Winning the cup",
+          "Finishing third",
+          "Winning a playoff"
+        ],
+        "hint": "Good sporting conduct was rewarded.",
+        "explanation": "Mainz qualified through the Fair Play draw.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "first-europe-exit",
+        "topic": "history",
+        "prompt": "Who eliminated Mainz from the 2005–06 UEFA Cup?",
+        "answer": "Sevilla",
+        "wrong": [
+          "Valencia",
+          "Villarreal",
+          "Deportivo La Coruña"
+        ],
+        "hint": "The eventual tournament winners.",
+        "explanation": "Sevilla won 2–0 on aggregate.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "amateur-title",
+        "topic": "honours",
+        "prompt": "Which title did Mainz win in 1982?",
+        "answer": "German amateur championship",
+        "wrong": [
+          "Bundesliga",
+          "DFB-Pokal",
+          "UEFA Cup"
+        ],
+        "hint": "Before their top-flight years.",
+        "explanation": "Mainz became German amateur champions.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "defensive-pioneer",
+        "topic": "managers",
+        "prompt": "Which Mainz coach introduced a pioneering flat back four in the 1990s?",
+        "answer": "Wolfgang Frank",
+        "wrong": [
+          "Otto Rehhagel",
+          "Felix Magath",
+          "Udo Lattek"
+        ],
+        "hint": "His surname is Frank.",
+        "explanation": "Wolfgang Frank modernised Mainz's defending.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      },
+      {
+        "key": "tuchel-years",
+        "topic": "managers",
+        "prompt": "Who became Mainz head coach in 2009?",
+        "answer": "Thomas Tuchel",
+        "wrong": [
+          "Jürgen Klopp",
+          "Christian Streich",
+          "Ralf Rangnick"
+        ],
+        "hint": "Later a Champions League winner with Chelsea.",
+        "explanation": "Tuchel led Mainz from 2009 to 2014.",
+        "source": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+      }
+    ]
+  },
+  {
+    "name": "Borussia Mönchengladbach",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Borussia Mönchengladbach founded?",
+        "answer": "1900",
+        "wrong": [
+          "1880",
+          "1920",
+          "1940"
+        ],
+        "hint": "The turn of the century.",
+        "explanation": "Gladbach was founded in August 1900.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "What does Gladbach's nickname Fohlen mean?",
+        "answer": "Foals",
+        "wrong": [
+          "Wolves",
+          "Eagles",
+          "Bulls"
+        ],
+        "hint": "Young horses.",
+        "explanation": "Fohlen means Foals.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "name-meaning",
+        "topic": "identity",
+        "prompt": "Borussia is a Latinised name for which historical region?",
+        "answer": "Prussia",
+        "wrong": [
+          "Bavaria",
+          "Saxony",
+          "Swabia"
+        ],
+        "hint": "A former German kingdom.",
+        "explanation": "Borussia refers to Prussia.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Gladbach first join the Bundesliga?",
+        "answer": "1965",
+        "wrong": [
+          "1963",
+          "1975",
+          "1985"
+        ],
+        "hint": "The same year as Bayern.",
+        "explanation": "Gladbach entered the Bundesliga in 1965.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "first-title-coach",
+        "topic": "managers",
+        "prompt": "Who coached Gladbach to their first Bundesliga title?",
+        "answer": "Hennes Weisweiler",
+        "wrong": [
+          "Udo Lattek",
+          "Jupp Heynckes",
+          "Berti Vogts"
+        ],
+        "hint": "The academy for German coaches bears his name.",
+        "explanation": "Weisweiler led the 1970 champions.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "five-titles",
+        "topic": "records",
+        "prompt": "In which decade did Gladbach win five Bundesliga titles?",
+        "answer": "1970s",
+        "wrong": [
+          "1950s",
+          "1960s",
+          "1980s"
+        ],
+        "hint": "The great Foals era.",
+        "explanation": "All five titles came during the 1970s.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "european-trophies",
+        "topic": "honours",
+        "prompt": "Which European trophy did Gladbach win in 1975 and 1979?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "Now known as the Europa League.",
+        "explanation": "Gladbach won two UEFA Cups.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      },
+      {
+        "key": "final-1977",
+        "topic": "history",
+        "prompt": "Who faced Gladbach in the 1977 European Cup final?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Manchester United",
+          "Nottingham Forest",
+          "Leeds United"
+        ],
+        "hint": "A Merseyside club.",
+        "explanation": "Liverpool won the final in Rome.",
+        "source": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+      }
+    ]
+  },
+  {
+    "name": "Bayern Munich",
+    "aliases": [
+      "FC Bayern München",
+      "Bayern München"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Bayern Munich founded?",
+        "answer": "1900",
+        "wrong": [
+          "1880",
+          "1920",
+          "1940"
+        ],
+        "hint": "The turn of the century.",
+        "explanation": "Bayern was founded in February 1900.",
+        "source": "https://fcbayern.com/en/club/history/mile-stones/1900-to-1932-success-from-the-start"
+      },
+      {
+        "key": "founder",
+        "topic": "history",
+        "prompt": "Who was Bayern's founding president?",
+        "answer": "Franz John",
+        "wrong": [
+          "Kurt Landauer",
+          "Wilhelm Neudecker",
+          "Uli Hoeneß"
+        ],
+        "hint": "His surname is John.",
+        "explanation": "Franz John led Bayern's founding group.",
+        "source": "https://fcbayern.com/en/club/history/mile-stones/1900-to-1932-success-from-the-start"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Bayern first become German champions?",
+        "answer": "1932",
+        "wrong": [
+          "1912",
+          "1952",
+          "1972"
+        ],
+        "hint": "Before the Bundesliga era.",
+        "explanation": "Bayern won the 1932 championship.",
+        "source": "https://fcbayern.com/en/club/history/mile-stones/1900-to-1932-success-from-the-start"
+      },
+      {
+        "key": "bundesliga-entry",
+        "topic": "history",
+        "prompt": "In which year did Bayern join the Bundesliga?",
+        "answer": "1965",
+        "wrong": [
+          "1963",
+          "1975",
+          "1985"
+        ],
+        "hint": "Two years after the league began.",
+        "explanation": "Bayern earned promotion in 1965.",
+        "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+      },
+      {
+        "key": "european-threepeat",
+        "topic": "records",
+        "prompt": "How many consecutive European Cups did Bayern win from 1974?",
+        "answer": "Three",
+        "wrong": [
+          "Two",
+          "Four",
+          "Five"
+        ],
+        "hint": "They retained it in 1975 and 1976.",
+        "explanation": "Bayern won three successive European Cups.",
+        "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+      },
+      {
+        "key": "first-final",
+        "topic": "history",
+        "prompt": "Who did Bayern beat in the replayed 1974 European Cup final?",
+        "answer": "Atlético Madrid",
+        "wrong": [
+          "Real Madrid",
+          "Barcelona",
+          "Benfica"
+        ],
+        "hint": "A Madrid club in red and white.",
+        "explanation": "Bayern beat Atlético 4–0 in the replay.",
+        "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+      },
+      {
+        "key": "new-ground",
+        "topic": "grounds",
+        "prompt": "In which year did Bayern move to the Allianz Arena?",
+        "answer": "2005",
+        "wrong": [
+          "1985",
+          "1995",
+          "2015"
+        ],
+        "hint": "Before Germany's 2006 World Cup.",
+        "explanation": "Bayern moved in 2005.",
+        "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+      },
+      {
+        "key": "treble-2020",
+        "topic": "managers",
+        "prompt": "Who coached Bayern's 2020 treble-winning team?",
+        "answer": "Hansi Flick",
+        "wrong": [
+          "Jupp Heynckes",
+          "Pep Guardiola",
+          "Carlo Ancelotti"
+        ],
+        "hint": "Later Germany's national coach.",
+        "explanation": "Flick led the 2020 treble.",
+        "source": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+      }
+    ]
+  },
+  {
+    "name": "SC Paderborn",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "merger",
+        "topic": "history",
+        "prompt": "In which year did the merger creating today's Paderborn club occur?",
+        "answer": "1985",
+        "wrong": [
+          "1965",
+          "1975",
+          "1995"
+        ],
+        "hint": "Midway through the 1980s.",
+        "explanation": "TuS Paderborn/Neuhaus formed in 1985.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "current-name",
+        "topic": "history",
+        "prompt": "In which year did the club adopt the name SC Paderborn 07?",
+        "answer": "1997",
+        "wrong": [
+          "1977",
+          "1987",
+          "2007"
+        ],
+        "hint": "Late in the 1990s.",
+        "explanation": "The current name was adopted in 1997.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "first-promotion",
+        "topic": "history",
+        "prompt": "In which year did Paderborn first reach the Bundesliga?",
+        "answer": "2014",
+        "wrong": [
+          "1994",
+          "2004",
+          "2019"
+        ],
+        "hint": "Germany won the World Cup that summer.",
+        "explanation": "Paderborn earned promotion in 2014.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "promotion-coach",
+        "topic": "managers",
+        "prompt": "Who coached Paderborn to their first Bundesliga promotion?",
+        "answer": "André Breitenreiter",
+        "wrong": [
+          "Steffen Baumgart",
+          "Stefan Effenberg",
+          "Roger Schmidt"
+        ],
+        "hint": "Later a coach of Schalke.",
+        "explanation": "Breitenreiter led the 2014 promotion.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "long-goal",
+        "topic": "records",
+        "prompt": "Who scored Paderborn's famous 83-metre goal in 2014?",
+        "answer": "Moritz Stoppelkamp",
+        "wrong": [
+          "Marvin Ducksch",
+          "Alban Meha",
+          "Sven Michel"
+        ],
+        "hint": "His surname begins with S.",
+        "explanation": "Stoppelkamp scored from 83 metres.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "long-goal-opponent",
+        "topic": "history",
+        "prompt": "Which side conceded Paderborn's 83-metre goal in 2014?",
+        "answer": "Hannover 96",
+        "wrong": [
+          "Hamburger SV",
+          "Werder Bremen",
+          "Wolfsburg"
+        ],
+        "hint": "A Lower Saxony club with 96 in its name.",
+        "explanation": "Stoppelkamp scored against Hannover.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "comeback-coach",
+        "topic": "managers",
+        "prompt": "Who led Paderborn's consecutive promotions in 2018 and 2019?",
+        "answer": "Steffen Baumgart",
+        "wrong": [
+          "André Breitenreiter",
+          "Stefan Effenberg",
+          "Markus Gellhaus"
+        ],
+        "hint": "Known for wearing a flat cap.",
+        "explanation": "Baumgart brought Paderborn back to the Bundesliga.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      },
+      {
+        "key": "reprieve",
+        "topic": "history",
+        "prompt": "Which club's licensing failure spared Paderborn relegation in 2017?",
+        "answer": "1860 Munich",
+        "wrong": [
+          "Kaiserslautern",
+          "Duisburg",
+          "Karlsruhe"
+        ],
+        "hint": "Munich's Lions.",
+        "explanation": "1860's licensing failure kept Paderborn in the 3. Liga.",
+        "source": "https://en.wikipedia.org/wiki/SC_Paderborn_07"
+      }
+    ]
+  },
+  {
+    "name": "Schalke 04",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which founding year does Schalke's 04 represent?",
+        "answer": "1904",
+        "wrong": [
+          "1804",
+          "1944",
+          "2004"
+        ],
+        "hint": "Early in the 20th century.",
+        "explanation": "Schalke was founded in 1904.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "colours",
+        "topic": "identity",
+        "prompt": "Which colours traditionally identify Schalke?",
+        "answer": "Royal blue and white",
+        "wrong": [
+          "Red and black",
+          "Green and gold",
+          "Yellow and black"
+        ],
+        "hint": "They are called the Royal Blues.",
+        "explanation": "Schalke wear blue and white.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "mining",
+        "topic": "identity",
+        "prompt": "Schalke's nickname Knappen reflects which occupation?",
+        "answer": "Miners",
+        "wrong": [
+          "Sailors",
+          "Farmers",
+          "Bakers"
+        ],
+        "hint": "A key Ruhr industry.",
+        "explanation": "Knappen refers to the mining tradition.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "derby",
+        "topic": "identity",
+        "prompt": "Who are Schalke's Revierderby rivals?",
+        "answer": "Borussia Dortmund",
+        "wrong": [
+          "Bayern Munich",
+          "Hamburger SV",
+          "Freiburg"
+        ],
+        "hint": "The black-and-yellow club.",
+        "explanation": "Schalke face Dortmund in the Revierderby.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "uefa-cup",
+        "topic": "honours",
+        "prompt": "In which year did Schalke win the UEFA Cup?",
+        "answer": "1997",
+        "wrong": [
+          "1977",
+          "1987",
+          "2007"
+        ],
+        "hint": "Their Euro Fighters era.",
+        "explanation": "Schalke won the 1996–97 UEFA Cup.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "europe-coach",
+        "topic": "managers",
+        "prompt": "Who coached Schalke's 1997 UEFA Cup winners?",
+        "answer": "Huub Stevens",
+        "wrong": [
+          "Ralf Rangnick",
+          "Jupp Heynckes",
+          "Felix Magath"
+        ],
+        "hint": "A Dutch coach.",
+        "explanation": "Stevens led the Euro Fighters.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "europe-final",
+        "topic": "history",
+        "prompt": "Who did Schalke beat in the 1997 UEFA Cup final?",
+        "answer": "Inter Milan",
+        "wrong": [
+          "Juventus",
+          "Parma",
+          "Lazio"
+        ],
+        "hint": "An Italian club in black and blue.",
+        "explanation": "Schalke beat Inter on penalties.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      },
+      {
+        "key": "europe-nickname",
+        "topic": "identity",
+        "prompt": "What nickname did Schalke's 1997 European winners earn?",
+        "answer": "Euro Fighters",
+        "wrong": [
+          "Busby Babes",
+          "Invincibles",
+          "Dream Team"
+        ],
+        "hint": "It highlights their battling spirit.",
+        "explanation": "The team became known as the Euro Fighters.",
+        "source": "https://en.wikipedia.org/wiki/FC_Schalke_04"
+      }
+    ]
+  },
+  {
+    "name": "VfB Stuttgart",
+    "aliases": [
+      "VfB Stuttgart"
+    ],
+    "facts": [
+      {
+        "key": "origins",
+        "topic": "history",
+        "prompt": "In which year was Stuttgart's FV predecessor founded?",
+        "answer": "1893",
+        "wrong": [
+          "1903",
+          "1913",
+          "1923"
+        ],
+        "hint": "Before the 20th century.",
+        "explanation": "FV Stuttgart was founded in 1893.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "original-sport",
+        "topic": "history",
+        "prompt": "Which sport did FV Stuttgart initially play?",
+        "answer": "Rugby",
+        "wrong": [
+          "Cricket",
+          "Rowing",
+          "Ice hockey"
+        ],
+        "hint": "An oval-ball sport.",
+        "explanation": "The predecessor began as a rugby club.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "merger",
+        "topic": "history",
+        "prompt": "In which year did the merger forming VfB Stuttgart occur?",
+        "answer": "1912",
+        "wrong": [
+          "1892",
+          "1932",
+          "1952"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "FV Stuttgart and Krone Cannstatt merged in 1912.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "shirt",
+        "topic": "identity",
+        "prompt": "What distinctive feature marks Stuttgart's white home shirt?",
+        "answer": "Red chest band",
+        "wrong": [
+          "Blue diagonal sash",
+          "Green hoops",
+          "Black chevron"
+        ],
+        "hint": "A horizontal band.",
+        "explanation": "Stuttgart's shirt features a red chest band.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "first-title",
+        "topic": "honours",
+        "prompt": "In which year did Stuttgart first become German champions?",
+        "answer": "1950",
+        "wrong": [
+          "1930",
+          "1960",
+          "1970"
+        ],
+        "hint": "Soon after the Second World War.",
+        "explanation": "Stuttgart won their first national title in 1950.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "title-coach-2007",
+        "topic": "managers",
+        "prompt": "Who coached Stuttgart's 2007 Bundesliga champions?",
+        "answer": "Armin Veh",
+        "wrong": [
+          "Felix Magath",
+          "Christoph Daum",
+          "Joachim Löw"
+        ],
+        "hint": "His first name is Armin.",
+        "explanation": "Veh led the 2006–07 title winners.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "europe-final",
+        "topic": "history",
+        "prompt": "Who faced Stuttgart in the 1998 Cup Winners' Cup final?",
+        "answer": "Chelsea",
+        "wrong": [
+          "Arsenal",
+          "Liverpool",
+          "Manchester United"
+        ],
+        "hint": "A west London club.",
+        "explanation": "Chelsea beat Stuttgart 1–0.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      },
+      {
+        "key": "cup-coach-1997",
+        "topic": "managers",
+        "prompt": "Who coached Stuttgart to the 1997 DFB-Pokal?",
+        "answer": "Joachim Löw",
+        "wrong": [
+          "Jürgen Klinsmann",
+          "Ralf Rangnick",
+          "Thomas Tuchel"
+        ],
+        "hint": "Later Germany's World Cup-winning coach.",
+        "explanation": "Löw led Stuttgart's 1997 cup win.",
+        "source": "https://en.wikipedia.org/wiki/VfB_Stuttgart"
+      }
+    ]
+  }
+]

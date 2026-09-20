@@ -1,0 +1,1028 @@
+[
+  {
+    "code": "ucl27-50129",
+    "name": "AEK Athens FC",
+    "file": "assets/crests/50129.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50129.png",
+    "sha256": "d98e7aa12a3310664116b86df656585f474b8465430fb2a0bee426dcec7e9e69",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52683",
+    "name": "Aston Villa",
+    "file": "assets/crests/52683.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52683.png",
+    "sha256": "798f4f435779b5ed47150f0a517d0f6725bedff2ea1512f8d67cd495d1732001",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50124",
+    "name": "Atlético de Madrid",
+    "file": "assets/crests/50124.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50124.png",
+    "sha256": "39863d2c61f2f75a39a684f8496531d6a991e0116fbc2e682ce2785fab72e5d5",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52758",
+    "name": "Borussia Dortmund",
+    "file": "assets/crests/52758.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52758.png",
+    "sha256": "16b8d7623e072cf08f885de81e7fd4cbe9ddc4ab78af97a569be37a5c195678a",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50080",
+    "name": "FC Barcelona",
+    "file": "assets/crests/50080.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50080.png",
+    "sha256": "c940115df3d5c01e15c35de2b349ca09b1e8736c46cad32dae7a13890e4fb25d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-59333",
+    "name": "FK Bodø/Glimt",
+    "file": "assets/crests/59333.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/59333.png",
+    "sha256": "5e073f4b097fc00f99e6614e21bf9d21eb529f02ca0fda7cc37d4cc81d775f23",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50043",
+    "name": "Club Brugge KV",
+    "file": "assets/crests/50043.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50043.png",
+    "sha256": "050625f1e9bc02d12fc5c8f7d01713dbe961b1063a9ec91ce6bb20b12db43e07",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-79946",
+    "name": "Como 1907",
+    "file": "assets/crests/79946.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/79946.png",
+    "sha256": "9b48715e0708bebec6cdebc3bb9eaa1787658c2f05c84a7a8a1e08505b81023d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52692",
+    "name": "Fenerbahçe SK",
+    "file": "assets/crests/52692.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52692.png",
+    "sha256": "afd8175cf111572c4c17438d4e2d1cb3e25238142bc7640abaec7a45bebff9c0",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52749",
+    "name": "Feyenoord",
+    "file": "assets/crests/52749.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52749.png",
+    "sha256": "523bfc3e534d2a91cce75a4c87377c3b8d852f1d651bfaaf3b9392c0c4a5a1f5",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-63405",
+    "name": "LASK",
+    "file": "assets/crests/63405.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/63405.png",
+    "sha256": "95469d3bbe1aac0df50df99cae1c9ea3e30a7b3c189d16b8f0ef108b0bdba009",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-2603790",
+    "name": "RB Leipzig",
+    "file": "assets/crests/2603790.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2603790.png",
+    "sha256": "82fddfb4df2aa1197602541bb7f49024e28764d494f09b4d60209bce71e98180",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-75797",
+    "name": "LOSC Lille",
+    "file": "assets/crests/75797.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/75797.png",
+    "sha256": "8d42a8907a8ebcc1bda37b6463b667913d6e24261af65f49186a1943ccf9918d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-7889",
+    "name": "Liverpool FC",
+    "file": "assets/crests/7889.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/7889.png",
+    "sha256": "8d84cac10c382f50457fdca84817d97d1b28836a4a924a18ee60c654314592e8",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52919",
+    "name": "Manchester City",
+    "file": "assets/crests/52919.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52919.png",
+    "sha256": "e3d61192d558eb556c4e73f4e9b6a495b12409b5bb1606d857847acb86f6e843",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52682",
+    "name": "Manchester United",
+    "file": "assets/crests/52682.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52682.png",
+    "sha256": "9209db62375ec0f0bb2e9833ad9d9bd03e2fb312e48673ac0d29cfc3a0a5d31b",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50136",
+    "name": "SSC Napoli",
+    "file": "assets/crests/50136.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50136.png",
+    "sha256": "72f72b8b7e91d573f28e2f74bed34d78aa3e7ca4fdd37ac9738e8eefd0dfcfaa",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52747",
+    "name": "Paris Saint-Germain",
+    "file": "assets/crests/52747.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52747.png",
+    "sha256": "5d1e7fc0129dbcf34866a63509f7b2e4c1b34e91d6dec3729ddcffc4e2a83b46",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50064",
+    "name": "FC Porto",
+    "file": "assets/crests/50064.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50064.png",
+    "sha256": "73037462c3fdabefdc1b8f0b42b60d833821e46f6a5228095e12408548e75ee3",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52265",
+    "name": "Real Betis Balompié",
+    "file": "assets/crests/52265.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52265.png",
+    "sha256": "f860be2683770944ff06181bb831a424f0bdb39ffd6d23b878bc07dbe20acf5d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50051",
+    "name": "Real Madrid C.F.",
+    "file": "assets/crests/50051.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50051.png",
+    "sha256": "ec29b9620a25a2438f4ab6a839f68f2f0d3528763449298b2137418ef7ad4294",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50137",
+    "name": "AS Roma",
+    "file": "assets/crests/50137.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50137.png",
+    "sha256": "cafddb407e9b63c93f60ddfce20fe36900b2e0134e98a446b84773e5c90f189e",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52797",
+    "name": "ŠK Slovan Bratislava",
+    "file": "assets/crests/52797.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52797.png",
+    "sha256": "58bfe7c4f12f2e1c5aad498f0570915b8bf853a42ecd988742b95c4c1cf1dbd4",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-2609356",
+    "name": "Sabah FC",
+    "file": "assets/crests/2609356.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2609356.png",
+    "sha256": "ec83054abfb93f4df48727fc1d8edd6b47e7a57b16764f9f5541cd6eeab91aad",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52498",
+    "name": "SK Slavia Praha",
+    "file": "assets/crests/52498.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52498.png",
+    "sha256": "41654d70dbde04ed1a98e2a933c641ead8386c231aea7768f788e1f5dc7b0158",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50149",
+    "name": "Sporting Clube de Portugal",
+    "file": "assets/crests/50149.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50149.png",
+    "sha256": "3dfa42f201bff216cc39b7778555cb7b642e1a4c53a9c086450a5fc296f7f1f2",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50107",
+    "name": "VfB Stuttgart",
+    "file": "assets/crests/50107.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50107.png",
+    "sha256": "62ff9c23776d767142a65ecf763878ac722a9b261eb131c8f1ab72ac957ecad5",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52319",
+    "name": "Viking FK",
+    "file": "assets/crests/52319.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52319.png",
+    "sha256": "97a345e7b8f47081681253a175021056b2bef2f06a4a6aa9226d0b2dc37d8551",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-70691",
+    "name": "Villarreal CF",
+    "file": "assets/crests/70691.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/70691.png",
+    "sha256": "9ce5ae71e88ce953e501d620945348e0369956a7d7990d5f3be3a7688c3f89bb",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50037",
+    "name": "FC Bayern München",
+    "file": "assets/crests/50037.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png",
+    "sha256": "0623494a5737efccd113ff4da5a24ec6c9a18a3772bda0c08e189982b1a1255c",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50067",
+    "name": "Galatasaray A.Ş.",
+    "file": "assets/crests/50067.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50067.png",
+    "sha256": "6e557411f5a5875e78c65ebc1c13b8d05c929fcc8977cf638150b5b4a10253f8",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50062",
+    "name": "PSV Eindhoven",
+    "file": "assets/crests/50062.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50062.png",
+    "sha256": "3107b3e11372bd5bd4ff7f3422163a31fe9027dcc8b8da7527a62fce5c66ff8e",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52707",
+    "name": "FC Shakhtar Donetsk",
+    "file": "assets/crests/52707.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52707.png",
+    "sha256": "0ebe2565864135cfdb3aa42eeea173ca13924f52456a85d1249b7afc2c63456b",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52280",
+    "name": "Arsenal FC",
+    "file": "assets/crests/52280.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52280.png",
+    "sha256": "26a2266d73c5437831f310ef4f7a1936baead2f206d4f431c9d226bae130d4bc",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-50138",
+    "name": "FC Internazionale Milano",
+    "file": "assets/crests/50138.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50138.png",
+    "sha256": "cdde8798a1194d0de7fabd64a36ee09bf9736e1fd925c87c94aea4357ee172ae",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "ucl27-52277",
+    "name": "RC Lens",
+    "file": "assets/crests/52277.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52277.png",
+    "sha256": "61f4d3a9f21133c2da0d88ef3fcfda11b78396814c92b33aa399099951754dc7",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-arsenal",
+    "name": "Arsenal",
+    "file": "assets/crests/52280.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52280.png",
+    "sha256": "26a2266d73c5437831f310ef4f7a1936baead2f206d4f431c9d226bae130d4bc",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-aston-villa",
+    "name": "Aston Villa",
+    "file": "assets/crests/52683.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52683.png",
+    "sha256": "798f4f435779b5ed47150f0a517d0f6725bedff2ea1512f8d67cd495d1732001",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-bournemouth",
+    "name": "Bournemouth",
+    "file": "assets/crests/bournemouth.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/AFC%20Bournemouth.png",
+    "sha256": "657f52dfba612dfaa8523f5da73ae67034c109301d65d1c144502acac87d7522",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-brentford",
+    "name": "Brentford",
+    "file": "assets/crests/brentford.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brentford%20FC.png",
+    "sha256": "04be6116091082ae1354a645202d91394a0e0e9f36cedef4961b643c40b49749",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-brighton-hove-albion",
+    "name": "Brighton & Hove Albion",
+    "file": "assets/crests/brightonhovealbion.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Brighton%20%26%20Hove%20Albion.png",
+    "sha256": "bb32a56a98c55d52b3412e24bdb8f3c067bb93fe7d51f1e0178f530f268885ac",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-chelsea",
+    "name": "Chelsea",
+    "file": "assets/crests/chelsea.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Chelsea%20FC.png",
+    "sha256": "b330a1ee83b2a9cc89fc3317abd9f9da5ad4d8a5edc9e88677aaa5e99b02971b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-coventry-city",
+    "name": "Coventry City",
+    "file": "assets/crests/coventrycity.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Coventry%20City.png",
+    "sha256": "b853dcff0f1dd4e125f8df9f3abadbbd26795966dd641abbe8ab7cfa1abdbe50",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-crystal-palace",
+    "name": "Crystal Palace",
+    "file": "assets/crests/crystalpalace.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Crystal%20Palace.png",
+    "sha256": "2cfc4952b29b007eeacca2324e94546c4c6257776a565733d17a66f5dd436e61",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-everton",
+    "name": "Everton",
+    "file": "assets/crests/everton.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Everton%20FC.png",
+    "sha256": "0ed1e5572f1feaa2a2da0e6c6df1265129a2d09de44f9c7367e11c0ee8b3479b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-fulham",
+    "name": "Fulham",
+    "file": "assets/crests/fulham.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Fulham%20FC.png",
+    "sha256": "59c7c54d578e6dbc4fde4eaae88b6312f1b899da4542f86705b2b9f15917658d",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-hull-city",
+    "name": "Hull City",
+    "file": "assets/crests/hullcity.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Hull%20City.png",
+    "sha256": "581f82057f8732388be5f8f3c59cf151e9530c25c1a0960315920e26b5e357c7",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-ipswich-town",
+    "name": "Ipswich Town",
+    "file": "assets/crests/ipswichtown.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Ipswich%20Town.png",
+    "sha256": "63d763119728296c3eea019d60386f9441e66f15ba71eb32183037a394ca2563",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-leeds-united",
+    "name": "Leeds United",
+    "file": "assets/crests/leedsunited.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Leeds%20United.png",
+    "sha256": "2c45671a5212b74e47f7a87635e1121c84ad3971c2a700b0f925b9bb0c8bf08f",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-liverpool",
+    "name": "Liverpool",
+    "file": "assets/crests/7889.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/7889.png",
+    "sha256": "8d84cac10c382f50457fdca84817d97d1b28836a4a924a18ee60c654314592e8",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-manchester-city",
+    "name": "Manchester City",
+    "file": "assets/crests/52919.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52919.png",
+    "sha256": "e3d61192d558eb556c4e73f4e9b6a495b12409b5bb1606d857847acb86f6e843",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-manchester-united",
+    "name": "Manchester United",
+    "file": "assets/crests/52682.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52682.png",
+    "sha256": "9209db62375ec0f0bb2e9833ad9d9bd03e2fb312e48673ac0d29cfc3a0a5d31b",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-premier-league-newcastle-united",
+    "name": "Newcastle United",
+    "file": "assets/crests/newcastleunited.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Newcastle%20United.png",
+    "sha256": "8285f36ea4c9de20cd08d568222e2c74941b1f5a01d093c4853c44abfc5a3dd7",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-nottingham-forest",
+    "name": "Nottingham Forest",
+    "file": "assets/crests/nottinghamforest.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png",
+    "sha256": "9e3dd7742337dad9922bacf188f2f93ed1ac188e280a883dc1306a19d9f955e7",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-sunderland",
+    "name": "Sunderland",
+    "file": "assets/crests/sunderland.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Sunderland%20AFC.png",
+    "sha256": "81e31932e3b05179fd9c78d6b86ce804147a945cbe4a8bc4e83842d81b8cbd62",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-premier-league-tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "file": "assets/crests/tottenhamhotspur.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Tottenham%20Hotspur.png",
+    "sha256": "33b6b4f1baafcecd88f8499b250fe28ee55eaf60f67020c716b12418d4b6f555",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-alaves",
+    "name": "Alavés",
+    "file": "assets/crests/deportivoalaves.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20Alav%C3%A9s.png",
+    "sha256": "cdb3725c224c1bd5742f084845ed6a14f407aac37807758191f225146dd47378",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-athletic-bilbao",
+    "name": "Athletic Bilbao",
+    "file": "assets/crests/athleticbilbao.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Athletic%20Bilbao.png",
+    "sha256": "1b14204cc3afd47bea3f1588e5b26594cfd8395c628e61cdd537825188b1b57c",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-atletico-madrid",
+    "name": "Atlético Madrid",
+    "file": "assets/crests/atleticodemadrid.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Atl%C3%A9tico%20de%20Madrid.png",
+    "sha256": "a111593f6c1570ce496624628233e84568741397d6d9764cc089f4fc1074b696",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-barcelona",
+    "name": "Barcelona",
+    "file": "assets/crests/50080.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50080.png",
+    "sha256": "c940115df3d5c01e15c35de2b349ca09b1e8736c46cad32dae7a13890e4fb25d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-la-liga-celta-vigo",
+    "name": "Celta Vigo",
+    "file": "assets/crests/celtadevigo.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Celta%20de%20Vigo.png",
+    "sha256": "f357757a53ab9f9c4deac5e0a38d4764be3b214f961c17910bc93dea6067366d",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-deportivo-a-coruna",
+    "name": "Deportivo A Coruña",
+    "file": "assets/crests/deportivoacoruna.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Deportivo%20A%20Coru%C3%B1a.png",
+    "sha256": "22ee580495bf3be69dd5110f872506cdd7330754ba207017025489ac364a5a23",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-elche",
+    "name": "Elche",
+    "file": "assets/crests/elche.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Elche%20CF.png",
+    "sha256": "b68b21d6583b6d791d02dba0263881516c1d9cb08c46dfd6605ad8097dfaa7c6",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-espanyol",
+    "name": "Espanyol",
+    "file": "assets/crests/rcdespanyolbarcelona.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/RCD%20Espanyol%20Barcelona.png",
+    "sha256": "d49b8ba301783bd542a0eff399817e61b10681c71a9289a60fce50941a3fdc78",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-getafe",
+    "name": "Getafe",
+    "file": "assets/crests/getafe.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Getafe%20CF.png",
+    "sha256": "769ba589d7ef3ff337077d1c9304a11aba9d7a409d164f15953e2b2b7cb747b3",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-levante",
+    "name": "Levante",
+    "file": "assets/crests/levanteud.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Levante%20UD.png",
+    "sha256": "9d752afe8575ec174b6e381e449bc21bf78981655eb23d0b6fc3d200e1ac1e35",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-malaga",
+    "name": "Málaga",
+    "file": "assets/crests/malaga.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/M%C3%A1laga%20CF.png",
+    "sha256": "27a8d41feb034d30f7131eaa6107a86a30d891b6aa0b7a698424009f4d73f7d4",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-osasuna",
+    "name": "Osasuna",
+    "file": "assets/crests/caosasuna.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/CA%20Osasuna.png",
+    "sha256": "dfb35b76146380f642c9f7c5d95474711a2901eb5cc8157a9bf3dea418a49239",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-racing-santander",
+    "name": "Racing Santander",
+    "file": "assets/crests/racingsantander.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Racing%20Santander.png",
+    "sha256": "c36769dab38d666f2bfa601c4bf40a5fd86b18bc867c68a7ee1b42fbf6afbab3",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "file": "assets/crests/rayovallecano.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Rayo%20Vallecano.png",
+    "sha256": "76b7905594cf985cd131cfc5501cb268f6b83981c026f2092abcfca3d503b9f3",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-real-betis",
+    "name": "Real Betis",
+    "file": "assets/crests/realbetisbalompie.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Betis%20Balompi%C3%A9.png",
+    "sha256": "cacc73be2c05879f7d7bd063e1deb72cf3b48d01de2c3c4cddfb0aa6ef2d6e3b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-real-madrid",
+    "name": "Real Madrid",
+    "file": "assets/crests/50051.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50051.png",
+    "sha256": "ec29b9620a25a2438f4ab6a839f68f2f0d3528763449298b2137418ef7ad4294",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-la-liga-real-sociedad",
+    "name": "Real Sociedad",
+    "file": "assets/crests/realsociedad.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Real%20Sociedad.png",
+    "sha256": "bf13daf42bab04cb88c67d73a5c7ef044fecb8ee9f65490260d92c0c24217c28",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-sevilla",
+    "name": "Sevilla",
+    "file": "assets/crests/sevilla.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Sevilla%20FC.png",
+    "sha256": "202dc4bc55bb7d7675d23ba69f67b753332cf6789311b8b15b0706167fe052f0",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-valencia",
+    "name": "Valencia",
+    "file": "assets/crests/valencia.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Spain%20-%20LaLiga/Valencia%20CF.png",
+    "sha256": "280f4c7f1611c8332c3edd31403dc6542581b338cf4bf5093bfae8cd64c33008",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-la-liga-villarreal",
+    "name": "Villarreal",
+    "file": "assets/crests/70691.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/70691.png",
+    "sha256": "9ce5ae71e88ce953e501d620945348e0369956a7d7990d5f3be3a7688c3f89bb",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-serie-a-atalanta",
+    "name": "Atalanta",
+    "file": "assets/crests/atalantabc.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Atalanta%20BC.png",
+    "sha256": "4c349dfb0de734061a42cbcd220235ede0f28fc3d738aa9312cb0faf692cec15",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-bologna",
+    "name": "Bologna",
+    "file": "assets/crests/bologna1909.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Bologna%20FC%201909.png",
+    "sha256": "b467aaf0a4a898996d961e973cbfdf56c6b63fa50f0f973fd19131a6a734a93b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-cagliari",
+    "name": "Cagliari",
+    "file": "assets/crests/cagliaricalcio.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Cagliari%20Calcio.png",
+    "sha256": "b22ce1ef7507ac5c325557c441672343a46ae25e98ee14e791e99f601e1709cd",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-como",
+    "name": "Como",
+    "file": "assets/crests/79946.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/79946.png",
+    "sha256": "9b48715e0708bebec6cdebc3bb9eaa1787658c2f05c84a7a8a1e08505b81023d",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-serie-a-fiorentina",
+    "name": "Fiorentina",
+    "file": "assets/crests/acffiorentina.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/ACF%20Fiorentina.png",
+    "sha256": "b1c2b9cc12b26e6187dbe761c9cb6c3cd8a07ec88ece0533e847de29f0c3f9e2",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-frosinone",
+    "name": "Frosinone",
+    "file": "assets/crests/frosinonecalcio.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Frosinone%20Calcio.png",
+    "sha256": "2ea743ce8a708e5c15fc9b0c9893787dfaf19ce2f3bec83510bee9342ec0013a",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-genoa",
+    "name": "Genoa",
+    "file": "assets/crests/genoacfc.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Genoa%20CFC.png",
+    "sha256": "9c61641924d84cd845beee535f83ab453f9186a6d4b7200cf5570279f761cd5b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-inter-milan",
+    "name": "Inter Milan",
+    "file": "assets/crests/50138.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50138.png",
+    "sha256": "cdde8798a1194d0de7fabd64a36ee09bf9736e1fd925c87c94aea4357ee172ae",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-serie-a-juventus",
+    "name": "Juventus",
+    "file": "assets/crests/juventus.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Juventus%20FC.png",
+    "sha256": "145a255a90898096f04a4152ebc3f9799ce0b676cf0dbcf72037dcdeb9129e17",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-lazio",
+    "name": "Lazio",
+    "file": "assets/crests/sslazio.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/SS%20Lazio.png",
+    "sha256": "eb3114c7f704cda4f726d9f6d9840946ef7778cb65eb33e6a4a25ad114bdf94a",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-lecce",
+    "name": "Lecce",
+    "file": "assets/crests/uslecce.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Lecce.png",
+    "sha256": "03a7d871273c0a92acc4f870d1c2ef4d2bff2c0597949cfe17d4befc67a7da6b",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-ac-milan",
+    "name": "AC Milan",
+    "file": "assets/crests/milan.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Milan.png",
+    "sha256": "2dbf7c00965ede1ba39186bfc2d90e90cca069fe1129dc8f41f26b7d60a5f416",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-monza",
+    "name": "Monza",
+    "file": "assets/crests/monza.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/AC%20Monza.png",
+    "sha256": "bdc83a6328cead062473b161e4318b8e272ad9c664f3183da6c390c86443f8a2",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-napoli",
+    "name": "Napoli",
+    "file": "assets/crests/50136.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50136.png",
+    "sha256": "72f72b8b7e91d573f28e2f74bed34d78aa3e7ca4fdd37ac9738e8eefd0dfcfaa",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-serie-a-parma",
+    "name": "Parma",
+    "file": "assets/crests/parmacalcio1913.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Parma%20Calcio%201913.png",
+    "sha256": "a2997db4c885d5656f1a267226a2aa9e567ad836c3b8a184f6b21267c41958b9",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-roma",
+    "name": "Roma",
+    "file": "assets/crests/50137.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50137.png",
+    "sha256": "cafddb407e9b63c93f60ddfce20fe36900b2e0134e98a446b84773e5c90f189e",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-serie-a-sassuolo",
+    "name": "Sassuolo",
+    "file": "assets/crests/ussassuolo.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/US%20Sassuolo.png",
+    "sha256": "af2818ffebbfc0fd6e024971599df3426991a3d7fa50573539e8a37a9609f5dc",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-torino",
+    "name": "Torino",
+    "file": "assets/crests/torino.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Torino%20FC.png",
+    "sha256": "5f3e8d1fec7fa15e12231d6889b778ad7fc95da9b30d89b2b44103b18fb679bd",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-udinese",
+    "name": "Udinese",
+    "file": "assets/crests/udinesecalcio.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Udinese%20Calcio.png",
+    "sha256": "224904b9168115284cc74aa6c6c4de71ff797eec93718dfe9601fd841d0a4281",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-serie-a-venezia",
+    "name": "Venezia",
+    "file": "assets/crests/venezia.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Italy%20-%20Serie%20A/Venezia%20FC.png",
+    "sha256": "143991066aa669cf5e44bcf339c9216e62af75a0b454e5bd53f76156f5cf8911",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-fc-augsburg",
+    "name": "FC Augsburg",
+    "file": "assets/crests/augsburg.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Augsburg.png",
+    "sha256": "4518b403505b7d71624f5a73538cefaa3c839f848df87cf4bd4e6dcb351c5f32",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-union-berlin",
+    "name": "Union Berlin",
+    "file": "assets/crests/1unionberlin.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20Union%20Berlin.png",
+    "sha256": "feae734c99d0c15d9d6eaf146914bc09650715130ff04faa91bbfbc82efdde95",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-werder-bremen",
+    "name": "Werder Bremen",
+    "file": "assets/crests/werderbremen.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%20Werder%20Bremen.png",
+    "sha256": "76754f64c85552f78846117ddf82a29993f7d529edf180aa2828615aced21812",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "file": "assets/crests/52758.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/52758.png",
+    "sha256": "16b8d7623e072cf08f885de81e7fd4cbe9ddc4ab78af97a569be37a5c195678a",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-bundesliga-sv-elversberg",
+    "name": "SV Elversberg",
+    "file": "assets/crests/07elversberg.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SV%2007%20Elversberg.png",
+    "sha256": "de4b6e7e2373eb0a10d09351bf9ebcbb9bbb5e83facf697832707497dbc1ce8e",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-eintracht-frankfurt",
+    "name": "Eintracht Frankfurt",
+    "file": "assets/crests/eintrachtfrankfurt.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Eintracht%20Frankfurt.png",
+    "sha256": "66f935b1709bb9ad9b04c2a3d54c1fc98e8faa513a8c187022a996a0f11ac407",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-sc-freiburg",
+    "name": "SC Freiburg",
+    "file": "assets/crests/freiburg.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Freiburg.png",
+    "sha256": "ff998a845de9f53ad21f33326d125717bb018a2a69c26678f533e28ff357f346",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-hamburger-sv",
+    "name": "Hamburger SV",
+    "file": "assets/crests/hamburger.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Hamburger%20SV.png",
+    "sha256": "7fde65e3c32c050041f0442649e9e8230692c252ea5e72f48590db5b89366b80",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-tsg-hoffenheim",
+    "name": "TSG Hoffenheim",
+    "file": "assets/crests/tsg1899hoffenheim.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/TSG%201899%20Hoffenheim.png",
+    "sha256": "44664799e2df09cb8413e9f6b773435f1f16b926b02c322cf3f40c470da47204",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-1-fc-koln",
+    "name": "1. FC Köln",
+    "file": "assets/crests/1koln.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FC%20K%C3%B6ln.png",
+    "sha256": "524dda6b95899ca20ffd70367fe69dee94b56aadba6c6920c9759d134aa97fb0",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-rb-leipzig",
+    "name": "RB Leipzig",
+    "file": "assets/crests/2603790.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/2603790.png",
+    "sha256": "82fddfb4df2aa1197602541bb7f49024e28764d494f09b4d60209bce71e98180",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-bundesliga-bayer-leverkusen",
+    "name": "Bayer Leverkusen",
+    "file": "assets/crests/bayer04leverkusen.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Bayer%2004%20Leverkusen.png",
+    "sha256": "ae01f5b056005b708bfc6ec54710984ec1536520a0a0c4c1954462db69273398",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-mainz-05",
+    "name": "Mainz 05",
+    "file": "assets/crests/1fsvmainz05.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/1.FSV%20Mainz%2005.png",
+    "sha256": "3b7bc54f1a701f3c17d64084ca4d34634da48c7fb6781bfed4409f101f74a838",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-borussia-monchengladbach",
+    "name": "Borussia Mönchengladbach",
+    "file": "assets/crests/borussiamonchengladbach.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/Borussia%20M%C3%B6nchengladbach.png",
+    "sha256": "3f6c21f0df011c65f54df1eccfd4e6edc336f4ff897e05961034f98231efd925",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-bayern-munich",
+    "name": "Bayern Munich",
+    "file": "assets/crests/50037.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png",
+    "sha256": "0623494a5737efccd113ff4da5a24ec6c9a18a3772bda0c08e189982b1a1255c",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  },
+  {
+    "code": "club27-bundesliga-sc-paderborn",
+    "name": "SC Paderborn",
+    "file": "assets/crests/paderborn07.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/SC%20Paderborn%2007.png",
+    "sha256": "07a80ece1364af5ed0bbc750e14c3c67951d14e7400bddc0bf89e34fe3642d99",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-schalke-04",
+    "name": "Schalke 04",
+    "file": "assets/crests/schalke04.png",
+    "source": "https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Germany%20-%20Bundesliga/FC%20Schalke%2004.png",
+    "sha256": "eaf1163ccdf2b17f38a96e6b5be5ad7f7df7e5d3345efda1c950b93251dcc58c",
+    "status": "review-required",
+    "note": "Authentic club mark; source repository is not a commercial licence."
+  },
+  {
+    "code": "club27-bundesliga-vfb-stuttgart",
+    "name": "VfB Stuttgart",
+    "file": "assets/crests/50107.png",
+    "source": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50107.png",
+    "sha256": "62ff9c23776d767142a65ecf763878ac722a9b261eb131c8f1ab72ac957ecad5",
+    "status": "review-required",
+    "note": "Authentic club mark; rights remain with the club."
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "season": "2026/27",
+  "retrievedAt": "2026-09-17",
+  "championsLeagueClubs": 36,
+  "domesticClubs": 78,
+  "questions": 2504,
+  "activeQuestions": 1380,
+  "retiredQuestions": 1124,
+  "independentReview": false,
+  "commercialClearance": false,
+  "scope": "Source-backed club identity, grounds, honours, history, managers and records with at most two active roster clues per chapter. Original season snapshots are preserved for saved sessions; repetitive roster clues are retired from new rounds. Not complete domestic registration lists.",
+  "sources": [
+    {
+      "file": "club-history.json",
+      "sha256": "274828861a5db112b76a2a4482c9565ea5adb0789114f1f18bc96e800e8f3796"
+    },
+    {
+      "file": "sources/club-legacy-questions.json",
+      "sha256": "db6184b22b5b56135a3ad0c2877c7526087d2ed79a1bfe584d83670976ac0355"
+    },
+    {
+      "file": "club-facts-england-spain.json",
+      "sha256": "6a1c5283a475bfb71e8c1e56eed06b0e0d4f2aa37206a2d1bba8659cffc48016"
+    },
+    {
+      "file": "club-facts-europe.json",
+      "sha256": "d04ef826fe971fefaf04dd29f6d0e56873d588f21cfb9aa367509c9a381dc808"
+    },
+    {
+      "file": "club-facts-italy-germany.json",
+      "sha256": "a90a79b79e75a4968470ba0329bb885530102f850357273b09e0e69dff4b0d2d"
+    },
+    {
+      "file": "sources/champions-league-2026-27.json",
+      "sha256": "d452d69c29745526c9fadd3076a95f36e7bf4c0a13e17d07c87e19e1f2226d7f"
+    },
+    {
+      "file": "sources/domestic-clubs-2026-27.json",
+      "sha256": "7e255d8311fc94b6f4fbdec06cdaaecdd4ecf7a3973c28a99966ca1e3bbf9495"
+    },
+    {
+      "file": "sources/premier-league-players-2026-27.json",
+      "sha256": "87a6ca3c7436a6a8cdcfc55c44d1eaf1e1bc8948cd0f54eba52fafee5fb721ce"
+    },
+    {
+      "file": "sources/bundesliga-players-2026-27.json",
+      "sha256": "3ce6ebd9d4473638a4eef02e93b27574c01428fd42f0994d21b1cab34eeeb601"
+    },
+    {
+      "file": "sources/la-liga-players-2026-27.json",
+      "sha256": "3be9ee616fa27bf8f872c8f584885a65df303a0cb13339ffa2feb510a95105f7"
+    },
+    {
+      "file": "sources/serie-a-players-2026-27.json",
+      "sha256": "4ab9049c48ffd33be8da348672512ba67521086979c60403c8f2b95eb3fda28b"
+    }
+  ]
+}

@@ -1,0 +1,5296 @@
+[
+  {
+    "name": "Arsenal",
+    "aliases": [
+      "Arsenal FC"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Arsenal founded?",
+        "answer": "1886",
+        "wrong": [
+          "1866",
+          "1876",
+          "1896"
+        ],
+        "hint": "Think of the 1880s.",
+        "explanation": "Arsenal's recognised foundation year is 1886.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Arsenal?",
+        "answer": "The Gunners",
+        "wrong": [
+          "The Black Cats",
+          "The Seagulls",
+          "The Bees"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Arsenal are known as The Gunners.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Arsenal's traditional home-shirt colours?",
+        "answer": "Red with white sleeves",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Arsenal's traditional home colours are red with white sleeves.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Arsenal's first name?",
+        "answer": "Dial Square",
+        "wrong": [
+          "Royal Engineers",
+          "London Athletic",
+          "North End"
+        ],
+        "hint": "Think of a workshop.",
+        "explanation": "The founders first called the team Dial Square.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Who face Arsenal in the North London derby?",
+        "answer": "Tottenham Hotspur",
+        "wrong": [
+          "Chelsea",
+          "West Ham United",
+          "Fulham"
+        ],
+        "hint": "Their neighbours are known as Spurs.",
+        "explanation": "Arsenal and Tottenham contest the North London derby.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "grounds",
+        "prompt": "In which year did Arsenal move to the Emirates?",
+        "answer": "2006",
+        "wrong": [
+          "1996",
+          "2000",
+          "2010"
+        ],
+        "hint": "It followed their 2006 European final.",
+        "explanation": "Arsenal left Highbury for the Emirates in 2006.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which season brought Arsenal their first league-and-FA-Cup double?",
+        "answer": "1970/71",
+        "wrong": [
+          "1960/61",
+          "1980/81",
+          "1990/91"
+        ],
+        "hint": "It was early in the seventies.",
+        "explanation": "Arsenal completed their first domestic double in 1970/71.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "managers",
+        "prompt": "Who managed Arsenal to their first league title in 1931?",
+        "answer": "Herbert Chapman",
+        "wrong": [
+          "George Graham",
+          "Arsène Wenger",
+          "Bertie Mee"
+        ],
+        "hint": "His statue honours a 1930s pioneer.",
+        "explanation": "Chapman led Arsenal to the 1930/31 championship.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "What does Arsenal's motto Victoria Concordia Crescit mean?",
+        "answer": "Victory through harmony",
+        "wrong": [
+          "To dare is to do",
+          "Nothing but the best",
+          "Strength through speed"
+        ],
+        "hint": "It stresses togetherness.",
+        "explanation": "The Latin motto celebrates victory through harmony.",
+        "source": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Aston Villa",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Aston Villa founded?",
+        "answer": "1874",
+        "wrong": [
+          "1854",
+          "1864",
+          "1884"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Aston Villa's recognised foundation year is 1874.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Aston Villa?",
+        "answer": "The Villans",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Aston Villa are known as The Villans.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Aston Villa's traditional home-shirt colours?",
+        "answer": "Claret and blue",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Aston Villa's traditional home colours are claret and blue.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who face Villa in the Second City derby?",
+        "answer": "Birmingham City",
+        "wrong": [
+          "Coventry City",
+          "Wolverhampton Wanderers",
+          "Leicester City"
+        ],
+        "hint": "They share Birmingham.",
+        "explanation": "Villa's city derby is against Birmingham City.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "grounds",
+        "prompt": "In which year did Aston Villa begin playing at Villa Park?",
+        "answer": "1897",
+        "wrong": [
+          "1877",
+          "1917",
+          "1937"
+        ],
+        "hint": "Before the twentieth century.",
+        "explanation": "Villa moved to Villa Park in 1897.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "history",
+        "prompt": "Which Villa director founded the Football League in 1888?",
+        "answer": "William McGregor",
+        "wrong": [
+          "Herbert Chapman",
+          "Matt Busby",
+          "Stanley Rous"
+        ],
+        "hint": "He was a Scottish businessman.",
+        "explanation": "McGregor organised the world's first Football League.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Which long-serving Villa manager won six league titles and six FA Cups?",
+        "answer": "George Ramsay",
+        "wrong": [
+          "Ron Saunders",
+          "Brian Little",
+          "Graham Taylor"
+        ],
+        "hint": "His work began in the Victorian era.",
+        "explanation": "Ramsay's Villa teams won six championships and six FA Cups.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "records",
+        "prompt": "How many league goals did Villa score in 1930/31?",
+        "answer": "128",
+        "wrong": [
+          "98",
+          "108",
+          "148"
+        ],
+        "hint": "More than three per game across 42 matches.",
+        "explanation": "Villa scored 128 league goals in 1930/31.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which competition's first edition did Aston Villa win in 1960/61?",
+        "answer": "League Cup",
+        "wrong": [
+          "FA Cup",
+          "European Cup",
+          "UEFA Cup"
+        ],
+        "hint": "England's second major domestic cup competition.",
+        "explanation": "Villa were the inaugural League Cup winners.",
+        "source": "https://en.wikipedia.org/wiki/Aston_Villa_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Bournemouth",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Bournemouth founded?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1889",
+          "1909"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "Bournemouth's recognised foundation year is 1899.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Bournemouth?",
+        "answer": "The Cherries",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Bournemouth are known as The Cherries.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Bournemouth's traditional home-shirt colours?",
+        "answer": "Red and black",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Bournemouth's traditional home colours are red and black.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Bournemouth's original club name?",
+        "answer": "Boscombe",
+        "wrong": [
+          "Poole Athletic",
+          "Dorset United",
+          "South Coast Rovers"
+        ],
+        "hint": "A district in the town.",
+        "explanation": "Bournemouth began as Boscombe FC.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "When did the club adopt the name AFC Bournemouth?",
+        "answer": "1971",
+        "wrong": [
+          "1951",
+          "1961",
+          "1981"
+        ],
+        "hint": "Early in the seventies.",
+        "explanation": "The AFC Bournemouth name dates from 1971.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "grounds",
+        "prompt": "When did Bournemouth first move into Dean Court?",
+        "answer": "1910",
+        "wrong": [
+          "1890",
+          "1930",
+          "1950"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "Dean Court became their home in 1910.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who managed Bournemouth to their first Premier League promotion?",
+        "answer": "Eddie Howe",
+        "wrong": [
+          "Harry Redknapp",
+          "Scott Parker",
+          "Sean Dyche"
+        ],
+        "hint": "A former Cherries defender.",
+        "explanation": "Howe led the 2014/15 promotion campaign.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which division did Bournemouth win in 2014/15?",
+        "answer": "Championship",
+        "wrong": [
+          "League One",
+          "League Two",
+          "Premier League"
+        ],
+        "hint": "England's second tier.",
+        "explanation": "Bournemouth went up as Championship winners.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which trophy did Bournemouth win in 1984?",
+        "answer": "Associate Members' Cup",
+        "wrong": [
+          "FA Cup",
+          "League Cup",
+          "European Cup"
+        ],
+        "hint": "It was for lower-division clubs.",
+        "explanation": "Bournemouth won the inaugural Associate Members' Cup.",
+        "source": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      }
+    ]
+  },
+  {
+    "name": "Brentford",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Brentford founded?",
+        "answer": "1889",
+        "wrong": [
+          "1869",
+          "1879",
+          "1899"
+        ],
+        "hint": "Think of the 1880s.",
+        "explanation": "Brentford's recognised foundation year is 1889.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Brentford?",
+        "answer": "The Bees",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Brentford are known as The Bees.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Brentford's traditional home-shirt colours?",
+        "answer": "Red and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Brentford's traditional home colours are red and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "grounds",
+        "prompt": "Which ground did Brentford leave in 2020?",
+        "answer": "Griffin Park",
+        "wrong": [
+          "Boothferry Park",
+          "Highfield Road",
+          "Roker Park"
+        ],
+        "hint": "A mythical creature starts its name.",
+        "explanation": "Griffin Park was Brentford's home from 1904 to 2020.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Members of which sporting club helped establish Brentford?",
+        "answer": "A rowing club",
+        "wrong": [
+          "A skiing club",
+          "A baseball club",
+          "A fencing club"
+        ],
+        "hint": "Their sport took place on water.",
+        "explanation": "Brentford's founders included local rowing-club members.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which division's title did Brentford win in 1934/35?",
+        "answer": "Second Division",
+        "wrong": [
+          "First Division",
+          "Fourth Division",
+          "Southern League"
+        ],
+        "hint": "It brought top-flight promotion.",
+        "explanation": "Brentford won the Second Division in 1934/35.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "records",
+        "prompt": "Where did Brentford finish in the 1935/36 First Division?",
+        "answer": "Fifth",
+        "wrong": [
+          "First",
+          "Second",
+          "Tenth"
+        ],
+        "hint": "Just outside the top four.",
+        "explanation": "Brentford finished fifth in that top-flight campaign.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year were Brentford elected to the Football League?",
+        "answer": "1920",
+        "wrong": [
+          "1900",
+          "1910",
+          "1930"
+        ],
+        "hint": "Just after the First World War.",
+        "explanation": "Brentford entered the Football League in 1920.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "In which year did Brentford win the play-offs to reach the Premier League?",
+        "answer": "2021",
+        "wrong": [
+          "2011",
+          "2015",
+          "2018"
+        ],
+        "hint": "Their first season there was 2021/22.",
+        "explanation": "Brentford won the 2021 Championship play-off final.",
+        "source": "https://en.wikipedia.org/wiki/Brentford_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Brighton & Hove Albion",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Brighton & Hove Albion founded?",
+        "answer": "1901",
+        "wrong": [
+          "1881",
+          "1891",
+          "1911"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Brighton & Hove Albion's recognised foundation year is 1901.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Brighton & Hove Albion?",
+        "answer": "The Seagulls",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Bees"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Brighton & Hove Albion are known as The Seagulls.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Brighton & Hove Albion's traditional home-shirt colours?",
+        "answer": "Blue and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Brighton & Hove Albion's traditional home colours are blue and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Which club is Brighton's fierce rival from south London?",
+        "answer": "Crystal Palace",
+        "wrong": [
+          "Fulham",
+          "Brentford",
+          "Chelsea"
+        ],
+        "hint": "Their nickname is the Eagles.",
+        "explanation": "Brighton's rivalry with Palace grew in the 1970s.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Who faced Brighton in the 1983 FA Cup final?",
+        "answer": "Manchester United",
+        "wrong": [
+          "Liverpool",
+          "Everton",
+          "Arsenal"
+        ],
+        "hint": "The final needed a replay.",
+        "explanation": "Manchester United defeated Brighton after a replay.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which trophy did Brighton win in 1910?",
+        "answer": "Charity Shield",
+        "wrong": [
+          "FA Cup",
+          "League Cup",
+          "European Cup"
+        ],
+        "hint": "The modern name is Community Shield.",
+        "explanation": "Brighton won the Charity Shield in 1910.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who led Brighton to their first top-flight promotion in 1979?",
+        "answer": "Alan Mullery",
+        "wrong": [
+          "Brian Clough",
+          "Jimmy Melia",
+          "Chris Hughton"
+        ],
+        "hint": "He was a former England midfielder.",
+        "explanation": "Mullery's Brighton gained promotion in 1979.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year did Brighton first reach the Premier League?",
+        "answer": "2017",
+        "wrong": [
+          "2007",
+          "2010",
+          "2014"
+        ],
+        "hint": "Thirty-four years after their previous top-flight spell.",
+        "explanation": "Brighton earned Premier League promotion in 2017.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which European competition did Brighton first enter in 2023/24?",
+        "answer": "Europa League",
+        "wrong": [
+          "Champions League",
+          "Conference League",
+          "Intertoto Cup"
+        ],
+        "hint": "The middle of UEFA's three main competitions.",
+        "explanation": "Their sixth-place finish qualified Brighton for the Europa League.",
+        "source": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Chelsea",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Chelsea founded?",
+        "answer": "1905",
+        "wrong": [
+          "1885",
+          "1895",
+          "1915"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Chelsea's recognised foundation year is 1905.",
+        "source": "https://www.chelseafc.com/en/news/article/founders-day-the-birth-of-the-blues"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Chelsea?",
+        "answer": "The Blues",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Chelsea are known as The Blues.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "history",
+        "prompt": "Which businessman founded Chelsea?",
+        "answer": "Gus Mears",
+        "wrong": [
+          "Ken Bates",
+          "John Houlding",
+          "William McGregor"
+        ],
+        "hint": "He acquired the Stamford Bridge site.",
+        "explanation": "Gus Mears founded Chelsea to play at Stamford Bridge.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "In what type of building was Chelsea founded?",
+        "answer": "A pub",
+        "wrong": [
+          "A railway station",
+          "A cathedral",
+          "A school"
+        ],
+        "hint": "The meeting was at the Rising Sun.",
+        "explanation": "Chelsea was founded at the Rising Sun pub.",
+        "source": "https://www.chelseafc.com/en/news/article/founders-day-the-birth-of-the-blues"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Who did Chelsea beat in the 1970 FA Cup final replay?",
+        "answer": "Leeds United",
+        "wrong": [
+          "Everton",
+          "Arsenal",
+          "Tottenham Hotspur"
+        ],
+        "hint": "Their opponents wore white.",
+        "explanation": "Chelsea beat Leeds 2–1 in the replay.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which club did Chelsea beat to win the 1971 Cup Winners' Cup?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Juventus",
+          "Bayern Munich"
+        ],
+        "hint": "The opposition came from Spain's capital.",
+        "explanation": "Chelsea defeated Real Madrid after a replay.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who coached Chelsea to their 1970 FA Cup win?",
+        "answer": "Dave Sexton",
+        "wrong": [
+          "Ted Drake",
+          "José Mourinho",
+          "Carlo Ancelotti"
+        ],
+        "hint": "He followed Tommy Docherty.",
+        "explanation": "Sexton managed Chelsea's first FA Cup-winning side.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "identity",
+        "prompt": "Which song became Chelsea's famous 1972 anthem?",
+        "answer": "Blue Is the Colour",
+        "wrong": [
+          "Blue Moon",
+          "You'll Never Walk Alone",
+          "I'm Forever Blowing Bubbles"
+        ],
+        "hint": "Its title names their shirt colour.",
+        "explanation": "Blue Is the Colour was recorded by Chelsea's squad.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Who acquired Chelsea for a nominal £1 in 1982?",
+        "answer": "Ken Bates",
+        "wrong": [
+          "Roman Abramovich",
+          "Gus Mears",
+          "Shahid Khan"
+        ],
+        "hint": "He later chaired Leeds.",
+        "explanation": "Bates acquired the club for £1 in 1982.",
+        "source": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Coventry City",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Coventry City founded?",
+        "answer": "1883",
+        "wrong": [
+          "1863",
+          "1873",
+          "1893"
+        ],
+        "hint": "Think of the 1880s.",
+        "explanation": "Coventry City's recognised foundation year is 1883.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Coventry City?",
+        "answer": "The Sky Blues",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Coventry City are known as The Sky Blues.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "history",
+        "prompt": "In which year did Singers FC become Coventry City?",
+        "answer": "1898",
+        "wrong": [
+          "1888",
+          "1908",
+          "1918"
+        ],
+        "hint": "Just before Highfield Road opened.",
+        "explanation": "Singers FC adopted the Coventry City name in 1898.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Coventry City's original name?",
+        "answer": "Singers FC",
+        "wrong": [
+          "Coventry Rovers",
+          "Bantams United",
+          "Midlands Athletic"
+        ],
+        "hint": "A bicycle manufacturer supplied the name.",
+        "explanation": "Coventry started as Singers FC.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "grounds",
+        "prompt": "Which ground was Coventry's home from 1899 to 2005?",
+        "answer": "Highfield Road",
+        "wrong": [
+          "Filbert Street",
+          "Roker Park",
+          "The Dell"
+        ],
+        "hint": "Its name ends in Road.",
+        "explanation": "Coventry played at Highfield Road for 106 years.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "managers",
+        "prompt": "Who led Coventry to the First Division in 1967?",
+        "answer": "Jimmy Hill",
+        "wrong": [
+          "Bobby Robson",
+          "Brian Clough",
+          "Don Revie"
+        ],
+        "hint": "Famous for his chin and television work.",
+        "explanation": "Hill guided Coventry to the Second Division title.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which club did Coventry beat in the 1987 FA Cup final?",
+        "answer": "Tottenham Hotspur",
+        "wrong": [
+          "Arsenal",
+          "Everton",
+          "Liverpool"
+        ],
+        "hint": "A north London opponent.",
+        "explanation": "Coventry beat Tottenham 3–2 after extra time.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which trophy did Coventry win at Wembley in 2017?",
+        "answer": "EFL Trophy",
+        "wrong": [
+          "FA Cup",
+          "League Cup",
+          "Community Shield"
+        ],
+        "hint": "A cup for clubs in the lower divisions.",
+        "explanation": "Coventry lifted the EFL Trophy in 2017.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which German club did Coventry beat at home in the 1970/71 Fairs Cup?",
+        "answer": "Bayern Munich",
+        "wrong": [
+          "Borussia Dortmund",
+          "Hamburg",
+          "Werder Bremen"
+        ],
+        "hint": "The Bavarian giants.",
+        "explanation": "Coventry won the home leg 2–1 but lost the tie.",
+        "source": "https://en.wikipedia.org/wiki/Coventry_City_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Palace",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was the professional Crystal Palace club formed?",
+        "answer": "1905",
+        "wrong": [
+          "1885",
+          "1895",
+          "1915"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Palace's professional club was formed in 1905.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Crystal Palace?",
+        "answer": "The Eagles",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Crystal Palace are known as The Eagles.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Crystal Palace's traditional home-shirt colours?",
+        "answer": "Red and blue",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Crystal Palace's traditional home colours are red and blue.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "grounds",
+        "prompt": "In which year did Palace move into Selhurst Park?",
+        "answer": "1924",
+        "wrong": [
+          "1904",
+          "1944",
+          "1964"
+        ],
+        "hint": "Between the two World Wars.",
+        "explanation": "Palace began playing at Selhurst Park in 1924.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which coastal club has a fierce rivalry with Palace?",
+        "answer": "Brighton & Hove Albion",
+        "wrong": [
+          "Bournemouth",
+          "Southampton",
+          "Portsmouth"
+        ],
+        "hint": "They are the Seagulls.",
+        "explanation": "Palace and Brighton developed their rivalry in the 1970s.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "history",
+        "prompt": "Which club's assistant secretary Edmund Goodman helped establish Palace?",
+        "answer": "Aston Villa",
+        "wrong": [
+          "Everton",
+          "Arsenal",
+          "Sunderland"
+        ],
+        "hint": "A Birmingham club.",
+        "explanation": "Goodman came from Aston Villa.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which division did Palace win in their first Football League season?",
+        "answer": "Third Division",
+        "wrong": [
+          "First Division",
+          "Second Division",
+          "Fourth Division"
+        ],
+        "hint": "It was the new third tier in 1920/21.",
+        "explanation": "Palace won the Third Division in 1920/21.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Which FA Cup holders did non-league Palace eliminate in 1909?",
+        "answer": "Wolverhampton Wanderers",
+        "wrong": [
+          "Chelsea",
+          "Liverpool",
+          "Blackburn Rovers"
+        ],
+        "hint": "Their short name is Wolves.",
+        "explanation": "Palace knocked holders Wolves out in 1909.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "Which colours did Palace wear before adopting red and blue in 1973?",
+        "answer": "Claret and blue",
+        "wrong": [
+          "Green and white",
+          "Black and amber",
+          "Purple and gold"
+        ],
+        "hint": "They matched Aston Villa's colours.",
+        "explanation": "Palace's earlier kit colours were claret and blue.",
+        "source": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Everton",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Everton founded?",
+        "answer": "1878",
+        "wrong": [
+          "1858",
+          "1868",
+          "1888"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Everton's recognised foundation year is 1878.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Everton?",
+        "answer": "The Toffees",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Everton are known as The Toffees.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Everton's traditional home-shirt colours?",
+        "answer": "Royal blue",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Everton's traditional home colours are royal blue.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Everton called when the club began?",
+        "answer": "St Domingo's",
+        "wrong": [
+          "St Mark's",
+          "Dial Square",
+          "Newton Heath"
+        ],
+        "hint": "The name came from a chapel.",
+        "explanation": "Everton started as St Domingo's FC.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which rival faces Everton in the Merseyside derby?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Manchester City",
+          "Tranmere Rovers",
+          "Bolton Wanderers"
+        ],
+        "hint": "They play at Anfield.",
+        "explanation": "Everton and Liverpool contest the Merseyside derby.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which season did Everton win their first league championship?",
+        "answer": "1890/91",
+        "wrong": [
+          "1900/01",
+          "1910/11",
+          "1920/21"
+        ],
+        "hint": "It came in the league's third season.",
+        "explanation": "Everton first won the league in 1890/91.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which European trophy did Everton win in 1985?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "Entry followed a domestic cup win.",
+        "explanation": "Everton won the 1985 Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which trophy did Everton win in 1995?",
+        "answer": "FA Cup",
+        "wrong": [
+          "League Cup",
+          "Premier League",
+          "UEFA Cup"
+        ],
+        "hint": "The final was at Wembley.",
+        "explanation": "Everton won the 1995 FA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "In which country is the club Everton de Viña del Mar based?",
+        "answer": "Chile",
+        "wrong": [
+          "Argentina",
+          "Peru",
+          "Uruguay"
+        ],
+        "hint": "A long country on South America's Pacific coast.",
+        "explanation": "The Chilean club was named after Everton.",
+        "source": "https://en.wikipedia.org/wiki/Everton_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Fulham",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Fulham founded?",
+        "answer": "1879",
+        "wrong": [
+          "1859",
+          "1869",
+          "1889"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Fulham's recognised foundation year is 1879.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Fulham?",
+        "answer": "The Cottagers",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Fulham are known as The Cottagers.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "Which combination describes Fulham's traditional home shirts and shorts?",
+        "answer": "White shirts and black shorts",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Fulham's traditional home colours are white shirts and black shorts.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "grounds",
+        "prompt": "In which year did Fulham begin playing at Craven Cottage?",
+        "answer": "1896",
+        "wrong": [
+          "1876",
+          "1916",
+          "1936"
+        ],
+        "hint": "Late in the Victorian era.",
+        "explanation": "Fulham moved to Craven Cottage in 1896.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Which European competition's final did Fulham reach in 2010?",
+        "answer": "Europa League",
+        "wrong": [
+          "Champions League",
+          "Cup Winners' Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "Its predecessor was the UEFA Cup.",
+        "explanation": "Fulham reached the 2010 Europa League final.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which year did Fulham first reach the FA Cup final?",
+        "answer": "1975",
+        "wrong": [
+          "1955",
+          "1965",
+          "1985"
+        ],
+        "hint": "The middle of the seventies.",
+        "explanation": "Fulham were FA Cup finalists in 1975.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which European trophy did Fulham win in 2002?",
+        "answer": "Intertoto Cup",
+        "wrong": [
+          "UEFA Cup",
+          "Champions League",
+          "Super Cup"
+        ],
+        "hint": "It was a summer competition.",
+        "explanation": "Fulham were among the 2002 Intertoto Cup winners.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Who took over Fulham in 1997?",
+        "answer": "Mohamed Al-Fayed",
+        "wrong": [
+          "Ken Bates",
+          "Jack Walker",
+          "Dave Whelan"
+        ],
+        "hint": "He was associated with Harrods.",
+        "explanation": "Al-Fayed bought Fulham in 1997.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Fulham helped found a team in which other sport in 1980?",
+        "answer": "Rugby league",
+        "wrong": [
+          "Ice hockey",
+          "Basketball",
+          "Baseball"
+        ],
+        "hint": "The team later became the London Broncos.",
+        "explanation": "Fulham Rugby League began at Craven Cottage.",
+        "source": "https://en.wikipedia.org/wiki/Fulham_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Hull City",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Hull City founded?",
+        "answer": "1904",
+        "wrong": [
+          "1884",
+          "1894",
+          "1914"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Hull City's recognised foundation year is 1904.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Hull City?",
+        "answer": "The Tigers",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Hull City are known as The Tigers.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Hull City's traditional home-shirt colours?",
+        "answer": "Black and amber",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Hull City's traditional home colours are black and amber.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "grounds",
+        "prompt": "Which ground did Hull leave in 2002?",
+        "answer": "Boothferry Park",
+        "wrong": [
+          "Highfield Road",
+          "Griffin Park",
+          "Roker Park"
+        ],
+        "hint": "Its name includes a ferry.",
+        "explanation": "Hull moved from Boothferry Park in 2002.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Who did Hull beat in the 2008 promotion play-off final?",
+        "answer": "Bristol City",
+        "wrong": [
+          "Derby County",
+          "Reading",
+          "Watford"
+        ],
+        "hint": "The other club also has City in its name.",
+        "explanation": "Hull beat Bristol City to reach the Premier League.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which club beat Hull in the 2014 FA Cup final?",
+        "answer": "Arsenal",
+        "wrong": [
+          "Chelsea",
+          "Liverpool",
+          "Manchester City"
+        ],
+        "hint": "The Gunners recovered from 2–0 down.",
+        "explanation": "Arsenal beat Hull 3–2 after extra time.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who led Hull to the 1948/49 Third Division North title?",
+        "answer": "Raich Carter",
+        "wrong": [
+          "Brian Clough",
+          "Bobby Robson",
+          "Don Revie"
+        ],
+        "hint": "A famous pre-war Sunderland forward.",
+        "explanation": "Carter guided Hull to the 1948/49 title.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Which sport made establishing Hull City difficult in 1904?",
+        "answer": "Rugby league",
+        "wrong": [
+          "Cricket",
+          "Tennis",
+          "Ice hockey"
+        ],
+        "hint": "Hull FC and Hull KR already had strong support.",
+        "explanation": "Rugby league was deeply established in the city.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Who were Hull's opponents in their first match in 1904?",
+        "answer": "Notts County",
+        "wrong": [
+          "Lincoln City",
+          "York City",
+          "Grimsby Town"
+        ],
+        "hint": "An old Nottingham club.",
+        "explanation": "Hull's first fixture ended 2–2 against Notts County.",
+        "source": "https://en.wikipedia.org/wiki/Hull_City_A.F.C."
+      }
+    ]
+  },
+  {
+    "name": "Ipswich Town",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Ipswich Town founded?",
+        "answer": "1878",
+        "wrong": [
+          "1858",
+          "1868",
+          "1888"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Ipswich Town's recognised foundation year is 1878.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Ipswich Town?",
+        "answer": "The Tractor Boys",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Ipswich Town are known as The Tractor Boys.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "Which combination describes Ipswich Town's traditional home shirts and shorts?",
+        "answer": "Blue shirts and white shorts",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Ipswich Town's traditional home colours are blue shirts and white shorts.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who play Ipswich in the East Anglian derby?",
+        "answer": "Norwich City",
+        "wrong": [
+          "Cambridge United",
+          "Colchester United",
+          "Peterborough United"
+        ],
+        "hint": "The Canaries.",
+        "explanation": "Ipswich's regional derby is against Norwich.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "In which season did Ipswich win the league in their top-flight debut?",
+        "answer": "1961/62",
+        "wrong": [
+          "1951/52",
+          "1971/72",
+          "1981/82"
+        ],
+        "hint": "Early in the sixties.",
+        "explanation": "Ipswich won the First Division at their first attempt in 1961/62.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which European trophy did Ipswich win in 1981?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Super Cup"
+        ],
+        "hint": "The Europa League's old name.",
+        "explanation": "Ipswich lifted the UEFA Cup in 1981.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did Ipswich win the FA Cup?",
+        "answer": "1978",
+        "wrong": [
+          "1968",
+          "1988",
+          "1998"
+        ],
+        "hint": "Late in the seventies.",
+        "explanation": "Ipswich won the 1978 FA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year did Ipswich turn professional?",
+        "answer": "1936",
+        "wrong": [
+          "1916",
+          "1926",
+          "1946"
+        ],
+        "hint": "Between the World Wars.",
+        "explanation": "Ipswich became a professional club in 1936.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "grounds",
+        "prompt": "When did Ipswich first begin using Portman Road?",
+        "answer": "1884",
+        "wrong": [
+          "1904",
+          "1924",
+          "1944"
+        ],
+        "hint": "Only six years after formation.",
+        "explanation": "Portman Road has been Ipswich's home since 1884.",
+        "source": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Leeds United",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Leeds United founded?",
+        "answer": "1919",
+        "wrong": [
+          "1899",
+          "1909",
+          "1929"
+        ],
+        "hint": "Think of the 1910s.",
+        "explanation": "Leeds United's recognised foundation year is 1919.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Leeds United?",
+        "answer": "The Whites",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Leeds United are known as The Whites.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "managers",
+        "prompt": "Who managed Leeds to the 1991/92 league title?",
+        "answer": "Howard Wilkinson",
+        "wrong": [
+          "Don Revie",
+          "David O'Leary",
+          "George Graham"
+        ],
+        "hint": "Known as Sergeant Wilko.",
+        "explanation": "Wilkinson led Leeds to the final pre-Premier-League championship.",
+        "source": "https://www.leedsunited.com/en/news/jon-howe-building-success-the-howard-wilkinson-way"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Which dissolved club preceded Leeds United?",
+        "answer": "Leeds City",
+        "wrong": [
+          "Leeds Albion",
+          "Yorkshire United",
+          "Leeds Athletic"
+        ],
+        "hint": "Its name ended in City.",
+        "explanation": "Leeds United formed after Leeds City's dissolution.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which flower appears on Leeds United's badge?",
+        "answer": "White rose",
+        "wrong": [
+          "Red rose",
+          "Daffodil",
+          "Thistle"
+        ],
+        "hint": "It is a symbol of Yorkshire.",
+        "explanation": "The badge includes the White Rose of York.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "managers",
+        "prompt": "Who transformed Leeds during the 1960s and early 1970s?",
+        "answer": "Don Revie",
+        "wrong": [
+          "Bill Shankly",
+          "Matt Busby",
+          "Bob Paisley"
+        ],
+        "hint": "He became England manager in 1974.",
+        "explanation": "Revie led Leeds through their great 1960s and 1970s era.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "Which Italian club signed Leeds star John Charles in 1957?",
+        "answer": "Juventus",
+        "wrong": [
+          "Inter Milan",
+          "Roma",
+          "Napoli"
+        ],
+        "hint": "The Turin club wore black and white.",
+        "explanation": "Charles moved from Leeds to Juventus.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Who became Leeds United's first black player in 1957?",
+        "answer": "Gerry Francis",
+        "wrong": [
+          "Albert Johanneson",
+          "Lucas Radebe",
+          "Tony Yeboah"
+        ],
+        "hint": "Not the later QPR manager of the same name.",
+        "explanation": "Gerry Francis made that landmark Leeds appearance in 1957.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which division did Leeds win in 1923/24?",
+        "answer": "Second Division",
+        "wrong": [
+          "First Division",
+          "Third Division",
+          "Fourth Division"
+        ],
+        "hint": "It earned their first top-flight promotion.",
+        "explanation": "Leeds won the Second Division in 1923/24.",
+        "source": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Liverpool",
+    "aliases": [
+      "Liverpool FC"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Liverpool founded?",
+        "answer": "1892",
+        "wrong": [
+          "1872",
+          "1882",
+          "1902"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "Liverpool's recognised foundation year is 1892.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Liverpool?",
+        "answer": "The Reds",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Liverpool are known as The Reds.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "identity",
+        "prompt": "Which song is Liverpool's famous anthem?",
+        "answer": "You'll Never Walk Alone",
+        "wrong": [
+          "Blue Moon",
+          "Blue Is the Colour",
+          "I'm Forever Blowing Bubbles"
+        ],
+        "hint": "Its message promises companionship.",
+        "explanation": "Liverpool supporters adopted You'll Never Walk Alone in the 1960s.",
+        "source": "https://www.liverpoolfc.com/info/why-youll-never-walk-alone-liverpool-fcs-anthem"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Who founded Liverpool FC?",
+        "answer": "John Houlding",
+        "wrong": [
+          "William McGregor",
+          "Gus Mears",
+          "John Henry Davies"
+        ],
+        "hint": "He owned the Anfield site.",
+        "explanation": "Houlding founded Liverpool after Everton left Anfield.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which club faces Liverpool in the Merseyside derby?",
+        "answer": "Everton",
+        "wrong": [
+          "Manchester United",
+          "Manchester City",
+          "Bolton Wanderers"
+        ],
+        "hint": "The Toffees.",
+        "explanation": "Liverpool and Everton contest the Merseyside derby.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which year did Liverpool win their first European Cup?",
+        "answer": "1977",
+        "wrong": [
+          "1967",
+          "1987",
+          "1997"
+        ],
+        "hint": "They retained it the next year.",
+        "explanation": "Liverpool first won the European Cup in 1977.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who succeeded Bill Shankly as Liverpool manager?",
+        "answer": "Bob Paisley",
+        "wrong": [
+          "Joe Fagan",
+          "Kenny Dalglish",
+          "Ronnie Moran"
+        ],
+        "hint": "He had been Shankly's assistant.",
+        "explanation": "Paisley took charge after Shankly retired in 1974.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "In which year did Liverpool win their first FA Cup?",
+        "answer": "1965",
+        "wrong": [
+          "1955",
+          "1975",
+          "1985"
+        ],
+        "hint": "The middle of the sixties.",
+        "explanation": "Liverpool's first FA Cup success came in 1965.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which team did Liverpool beat 7–1 in their first match?",
+        "answer": "Rotherham Town",
+        "wrong": [
+          "Everton",
+          "Preston North End",
+          "Burnley"
+        ],
+        "hint": "A Yorkshire town supplied the opposition.",
+        "explanation": "Liverpool's first match was against Rotherham Town in 1892.",
+        "source": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Manchester City",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Manchester City founded?",
+        "answer": "1880",
+        "wrong": [
+          "1860",
+          "1870",
+          "1890"
+        ],
+        "hint": "Think of the 1880s.",
+        "explanation": "Manchester City's recognised foundation year is 1880.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Manchester City?",
+        "answer": "The Citizens",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Manchester City are known as The Citizens.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Manchester City's traditional home-shirt colours?",
+        "answer": "Sky blue",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Manchester City's traditional home colours are sky blue.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Manchester City's original name?",
+        "answer": "St Mark's (West Gorton)",
+        "wrong": [
+          "Newton Heath",
+          "Dial Square",
+          "St Domingo's"
+        ],
+        "hint": "The club grew from a church.",
+        "explanation": "City began as St Mark's in West Gorton.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which name did City use between St Mark's and Manchester City?",
+        "answer": "Ardwick",
+        "wrong": [
+          "Salford Rovers",
+          "Manchester Central",
+          "Gorton Athletic"
+        ],
+        "hint": "A Manchester district.",
+        "explanation": "The team was known as Ardwick from 1887.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "grounds",
+        "prompt": "Which ground was City's home before the 2003 stadium move?",
+        "answer": "Maine Road",
+        "wrong": [
+          "Hyde Road",
+          "Old Trafford",
+          "Burnden Park"
+        ],
+        "hint": "They moved there in 1923.",
+        "explanation": "City played at Maine Road from 1923 to 2003.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Who did City beat in their first FA Cup final win in 1904?",
+        "answer": "Bolton Wanderers",
+        "wrong": [
+          "Everton",
+          "Aston Villa",
+          "Sunderland"
+        ],
+        "hint": "Another north-west club.",
+        "explanation": "City beat Bolton 1–0 in 1904.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year did the club adopt the name Manchester City?",
+        "answer": "1894",
+        "wrong": [
+          "1874",
+          "1914",
+          "1934"
+        ],
+        "hint": "Before the twentieth century.",
+        "explanation": "Manchester City became the club's name in 1894.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which division did City win in 1898/99?",
+        "answer": "Second Division",
+        "wrong": [
+          "First Division",
+          "Third Division",
+          "Fourth Division"
+        ],
+        "hint": "The title brought top-flight promotion.",
+        "explanation": "City won the Second Division in 1898/99.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Manchester United",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Manchester United founded?",
+        "answer": "1878",
+        "wrong": [
+          "1858",
+          "1868",
+          "1888"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Manchester United's recognised foundation year is 1878.",
+        "source": "https://ir.manutd.com/company-information/history.aspx"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Manchester United?",
+        "answer": "The Red Devils",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Manchester United are known as The Red Devils.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "Which combination describes Manchester United's traditional home shirts and shorts?",
+        "answer": "Red shirts and white shorts",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Manchester United's traditional home colours are red shirts and white shorts.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What was Manchester United's original name?",
+        "answer": "Newton Heath LYR",
+        "wrong": [
+          "St Mark's",
+          "Dial Square",
+          "Ardwick"
+        ],
+        "hint": "The initials referred to a railway.",
+        "explanation": "United began as Newton Heath LYR.",
+        "source": "https://www.manutd.com/en/club/history/history-by-decade/1878-1909"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which industry employed Manchester United's founders?",
+        "answer": "Railways",
+        "wrong": [
+          "Shipbuilding",
+          "Coal mining",
+          "Textiles"
+        ],
+        "hint": "They worked with carriages and wagons.",
+        "explanation": "Railway depot workers formed Newton Heath.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "history",
+        "prompt": "In which year was the name Manchester United adopted?",
+        "answer": "1902",
+        "wrong": [
+          "1882",
+          "1922",
+          "1942"
+        ],
+        "hint": "Early in the twentieth century.",
+        "explanation": "The club changed its name in 1902.",
+        "source": "https://ir.manutd.com/company-information/history.aspx"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did United win their first league title?",
+        "answer": "1908",
+        "wrong": [
+          "1898",
+          "1918",
+          "1928"
+        ],
+        "hint": "Six years after the name change.",
+        "explanation": "United's first league championship came in 1908.",
+        "source": "https://ir.manutd.com/company-information/history.aspx"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Which colours did Newton Heath wear in their first recorded match?",
+        "answer": "Green and gold",
+        "wrong": [
+          "Blue and white",
+          "Red and black",
+          "Claret and blue"
+        ],
+        "hint": "They were the railway company's colours.",
+        "explanation": "Newton Heath wore green and gold against Bolton reserves in 1880.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "grounds",
+        "prompt": "In which year did United move to Old Trafford?",
+        "answer": "1910",
+        "wrong": [
+          "1890",
+          "1930",
+          "1950"
+        ],
+        "hint": "Before the First World War.",
+        "explanation": "Old Trafford became United's home in 1910.",
+        "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Newcastle United",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year did Newcastle adopt the United name?",
+        "answer": "1892",
+        "wrong": [
+          "1872",
+          "1882",
+          "1902"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "The Newcastle United name dates from 1892.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Newcastle United?",
+        "answer": "The Magpies",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Newcastle United are known as The Magpies.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Newcastle United's traditional home-shirt colours?",
+        "answer": "Black and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Newcastle United's traditional home colours are black and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who face Newcastle in the Tyne–Wear derby?",
+        "answer": "Sunderland",
+        "wrong": [
+          "Middlesbrough",
+          "Leeds United",
+          "Carlisle United"
+        ],
+        "hint": "The Black Cats.",
+        "explanation": "Newcastle and Sunderland contest the Tyne–Wear derby.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which local club's ground and assets were absorbed in 1892?",
+        "answer": "Newcastle West End",
+        "wrong": [
+          "Gateshead",
+          "South Shields",
+          "Blyth Spartans"
+        ],
+        "hint": "Think of the opposite of East End.",
+        "explanation": "Newcastle East End took over West End's ground and assets.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which European trophy did Newcastle win in 1969?",
+        "answer": "Inter-Cities Fairs Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Super Cup"
+        ],
+        "hint": "It preceded the UEFA Cup.",
+        "explanation": "Newcastle won the Fairs Cup in 1969.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did Newcastle first win the FA Cup?",
+        "answer": "1910",
+        "wrong": [
+          "1890",
+          "1930",
+          "1950"
+        ],
+        "hint": "The Edwardian era.",
+        "explanation": "Newcastle's first FA Cup win came in 1910.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which division did Newcastle win in both 2010 and 2017?",
+        "answer": "Championship",
+        "wrong": [
+          "League One",
+          "Premier League",
+          "League Two"
+        ],
+        "hint": "Both wins restored top-flight status.",
+        "explanation": "Newcastle won the Championship in those two years.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which name preceded Newcastle East End?",
+        "answer": "Stanley FC",
+        "wrong": [
+          "Tyneside Rovers",
+          "St James FC",
+          "Gosforth United"
+        ],
+        "hint": "A simple personal name.",
+        "explanation": "The club originated as Stanley FC in 1881.",
+        "source": "https://en.wikipedia.org/wiki/Newcastle_United_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Nottingham Forest",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Nottingham Forest founded?",
+        "answer": "1865",
+        "wrong": [
+          "1845",
+          "1855",
+          "1875"
+        ],
+        "hint": "Think of the 1860s.",
+        "explanation": "Nottingham Forest's recognised foundation year is 1865.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Nottingham Forest?",
+        "answer": "The Tricky Trees",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Nottingham Forest are known as The Tricky Trees.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Nottingham Forest's traditional home-shirt colours?",
+        "answer": "Red",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Nottingham Forest's traditional home colours are red.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who face Forest in the East Midlands derby?",
+        "answer": "Derby County",
+        "wrong": [
+          "Leicester City",
+          "Notts County",
+          "Mansfield Town"
+        ],
+        "hint": "Their nickname is the Rams.",
+        "explanation": "Forest's East Midlands derby is against Derby County.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "managers",
+        "prompt": "Who managed Forest to successive European Cup wins?",
+        "answer": "Brian Clough",
+        "wrong": [
+          "Bob Paisley",
+          "Don Revie",
+          "Bill Shankly"
+        ],
+        "hint": "He had also won the league with Derby.",
+        "explanation": "Clough led Forest's European champions.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which two years did Forest win consecutive European Cups?",
+        "answer": "1979 and 1980",
+        "wrong": [
+          "1969 and 1970",
+          "1989 and 1990",
+          "1999 and 2000"
+        ],
+        "hint": "The seventies turned into the eighties.",
+        "explanation": "Forest won the European Cup in 1979 and 1980.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "grounds",
+        "prompt": "In which year did Forest begin playing at the City Ground?",
+        "answer": "1898",
+        "wrong": [
+          "1878",
+          "1918",
+          "1938"
+        ],
+        "hint": "At the end of the nineteenth century.",
+        "explanation": "Forest moved to the City Ground in 1898.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year did Forest end their long Premier League absence through the play-offs?",
+        "answer": "2022",
+        "wrong": [
+          "2012",
+          "2016",
+          "2019"
+        ],
+        "hint": "Their return season was 2022/23.",
+        "explanation": "Forest won the 2022 Championship play-offs.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "Which trophy is contested between Forest and Derby?",
+        "answer": "Brian Clough Trophy",
+        "wrong": [
+          "Stanley Matthews Trophy",
+          "Bobby Moore Trophy",
+          "Bill Shankly Trophy"
+        ],
+        "hint": "It honours a manager of both clubs.",
+        "explanation": "The Brian Clough Trophy was introduced in 2007.",
+        "source": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Sunderland",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Sunderland founded?",
+        "answer": "1879",
+        "wrong": [
+          "1859",
+          "1869",
+          "1889"
+        ],
+        "hint": "Think of the 1870s.",
+        "explanation": "Sunderland's recognised foundation year is 1879.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Sunderland?",
+        "answer": "The Black Cats",
+        "wrong": [
+          "The Gunners",
+          "The Seagulls",
+          "The Bees"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Sunderland are known as The Black Cats.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Sunderland's traditional home-shirt colours?",
+        "answer": "Red and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Sunderland's traditional home colours are red and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What profession did Sunderland's founders share?",
+        "answer": "Teaching",
+        "wrong": [
+          "Mining",
+          "Fishing",
+          "Shipbuilding"
+        ],
+        "hint": "The original name included District Teachers.",
+        "explanation": "The club began as a teachers' team.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "grounds",
+        "prompt": "Which ground did Sunderland leave in 1997?",
+        "answer": "Roker Park",
+        "wrong": [
+          "Ayresome Park",
+          "Boothferry Park",
+          "Burnden Park"
+        ],
+        "hint": "It stood near the coast.",
+        "explanation": "Sunderland moved from Roker Park to the Stadium of Light.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "identity",
+        "prompt": "Who face Sunderland in the Tyne–Wear derby?",
+        "answer": "Newcastle United",
+        "wrong": [
+          "Middlesbrough",
+          "Hartlepool United",
+          "Leeds United"
+        ],
+        "hint": "The Magpies.",
+        "explanation": "Sunderland's Tyne–Wear rivals are Newcastle.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did Sunderland win their first FA Cup?",
+        "answer": "1937",
+        "wrong": [
+          "1917",
+          "1927",
+          "1947"
+        ],
+        "hint": "The year after a league title.",
+        "explanation": "Sunderland first won the FA Cup in 1937.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which year brought Sunderland's famous second FA Cup triumph?",
+        "answer": "1973",
+        "wrong": [
+          "1963",
+          "1983",
+          "1993"
+        ],
+        "hint": "The early seventies.",
+        "explanation": "Sunderland won the 1973 FA Cup as a second-tier club.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which schoolmaster founded Sunderland?",
+        "answer": "James Allan",
+        "wrong": [
+          "William McGregor",
+          "John Houlding",
+          "Gus Mears"
+        ],
+        "hint": "His surname begins with A.",
+        "explanation": "James Allan established the Sunderland club.",
+        "source": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+      }
+    ]
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Tottenham Hotspur founded?",
+        "answer": "1882",
+        "wrong": [
+          "1862",
+          "1872",
+          "1892"
+        ],
+        "hint": "Think of the 1880s.",
+        "explanation": "Tottenham Hotspur's recognised foundation year is 1882.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Tottenham Hotspur?",
+        "answer": "The Lilywhites",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Tottenham Hotspur are known as The Lilywhites.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "grounds",
+        "prompt": "Which stadium was Tottenham's home before the move to their new stadium?",
+        "answer": "White Hart Lane",
+        "wrong": [
+          "Highbury",
+          "The Valley",
+          "Upton Park"
+        ],
+        "hint": "It shared the site of their new home.",
+        "explanation": "White Hart Lane was demolished for the new stadium.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "What bird stands on Tottenham's badge?",
+        "answer": "A cockerel",
+        "wrong": [
+          "An eagle",
+          "An owl",
+          "A seagull"
+        ],
+        "hint": "It is a male chicken.",
+        "explanation": "Tottenham's crest features a cockerel on a football.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "What does Tottenham's motto Audere est Facere mean?",
+        "answer": "To dare is to do",
+        "wrong": [
+          "Victory through harmony",
+          "Nothing but the best",
+          "Together we conquer"
+        ],
+        "hint": "It links courage with action.",
+        "explanation": "Spurs' Latin motto means To dare is to do.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which year did non-league Tottenham win the FA Cup?",
+        "answer": "1901",
+        "wrong": [
+          "1881",
+          "1921",
+          "1941"
+        ],
+        "hint": "At the start of the twentieth century.",
+        "explanation": "Tottenham won the 1901 FA Cup as a non-league side.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which season brought Tottenham the league-and-FA-Cup double?",
+        "answer": "1960/61",
+        "wrong": [
+          "1950/51",
+          "1970/71",
+          "1980/81"
+        ],
+        "hint": "The first such double of the twentieth century.",
+        "explanation": "Spurs completed the double in 1960/61.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which European competition did Tottenham win in 1963?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "It was for domestic cup winners.",
+        "explanation": "Tottenham became the first British UEFA competition winners.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which competition's first edition did Tottenham win in 1972?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Super Cup"
+        ],
+        "hint": "It later became the Europa League.",
+        "explanation": "Tottenham won the inaugural UEFA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+      }
+    ]
+  },
+  {
+    "name": "Alavés",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "Which year is recognised as Alavés' official foundation year?",
+        "answer": "1921",
+        "wrong": [
+          "1901",
+          "1911",
+          "1931"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Alavés's recognised foundation year is 1921.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Alavés?",
+        "answer": "El Glorioso",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Alavés are known as El Glorioso.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Alavés's traditional home-shirt colours?",
+        "answer": "Blue and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Alavés's traditional home colours are blue and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "What English name did Alavés use before taking their present name?",
+        "answer": "Sport Friends",
+        "wrong": [
+          "City Rovers",
+          "United Athletic",
+          "Victoria Wanderers"
+        ],
+        "hint": "It describes companions who play sport.",
+        "explanation": "The club's early name was Sport Friends.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Who faced Alavés in the 2001 UEFA Cup final?",
+        "answer": "Liverpool",
+        "wrong": [
+          "Arsenal",
+          "Chelsea",
+          "Leeds United"
+        ],
+        "hint": "The Reds from Merseyside.",
+        "explanation": "Liverpool beat Alavés in the 2001 final.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "records",
+        "prompt": "What was the score in the extraordinary 2001 UEFA Cup final?",
+        "answer": "5–4 to Liverpool",
+        "wrong": [
+          "3–2 to Liverpool",
+          "4–3 to Alavés",
+          "2–1 to Liverpool"
+        ],
+        "hint": "Nine goals were scored.",
+        "explanation": "Alavés lost 5–4 after a golden goal.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which club beat Alavés in the 2017 Copa del Rey final?",
+        "answer": "Barcelona",
+        "wrong": [
+          "Real Madrid",
+          "Sevilla",
+          "Valencia"
+        ],
+        "hint": "The Catalan giants.",
+        "explanation": "Barcelona won the 2017 final 3–1.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "In which year did Alavés first win promotion to La Liga?",
+        "answer": "1930",
+        "wrong": [
+          "1940",
+          "1950",
+          "1960"
+        ],
+        "hint": "The league was still very young.",
+        "explanation": "Alavés won promotion in 1929/30.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "grounds",
+        "prompt": "What is the name of Alavés' training base?",
+        "answer": "Ibaia",
+        "wrong": [
+          "Lezama",
+          "Zubieta",
+          "La Masia"
+        ],
+        "hint": "Its name begins with I.",
+        "explanation": "Alavés train at Ibaia.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+      }
+    ]
+  },
+  {
+    "name": "Athletic Bilbao",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Athletic Bilbao founded?",
+        "answer": "1898",
+        "wrong": [
+          "1878",
+          "1888",
+          "1908"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "Athletic Bilbao's recognised foundation year is 1898.",
+        "source": "https://www.athletic-club.eus/en/club/history/"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Athletic Bilbao?",
+        "answer": "The Lions",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Athletic Bilbao are known as The Lions.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Athletic Bilbao's traditional home-shirt colours?",
+        "answer": "Red and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Athletic Bilbao's traditional home colours are red and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Which club faces Athletic in the Basque derby?",
+        "answer": "Real Sociedad",
+        "wrong": [
+          "Valencia",
+          "Sevilla",
+          "Villarreal"
+        ],
+        "hint": "Their neighbours are based in San Sebastián.",
+        "explanation": "Athletic and Real Sociedad contest the Basque derby.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Athletic's player policy centres on which region?",
+        "answer": "The Basque Country",
+        "wrong": [
+          "Catalonia",
+          "Andalusia",
+          "Galicia"
+        ],
+        "hint": "It spans parts of Spain and France.",
+        "explanation": "Players must be born in or developed through football in the Basque Country.",
+        "source": "https://www.athletic-club.eus/en/philosophy/what-is-it/"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "grounds",
+        "prompt": "What is Athletic's famous training and academy complex called?",
+        "answer": "Lezama",
+        "wrong": [
+          "La Masia",
+          "Zubieta",
+          "Valdebebas"
+        ],
+        "hint": "It is named for a nearby municipality.",
+        "explanation": "Athletic's academy and training facilities are at Lezama.",
+        "source": "https://www.athletic-club.eus/en/news/2018/06/28/faith-in-the-red-and-whites-homegrown-talent/"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "grounds",
+        "prompt": "In which year did Athletic's new San Mamés open?",
+        "answer": "2013",
+        "wrong": [
+          "1993",
+          "2003",
+          "2023"
+        ],
+        "hint": "It replaced the original century-old ground.",
+        "explanation": "The new San Mamés opened in September 2013.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "grounds",
+        "prompt": "What is San Mamés' traditional nickname?",
+        "answer": "The Cathedral",
+        "wrong": [
+          "The Theatre of Dreams",
+          "The Fortress",
+          "The Garden"
+        ],
+        "hint": "A grand place of worship.",
+        "explanation": "San Mamés is known as La Catedral.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "Who own Athletic Club?",
+        "answer": "The club's members",
+        "wrong": [
+          "The city council",
+          "A royal family",
+          "A stock-market company"
+        ],
+        "hint": "They elect the president.",
+        "explanation": "Athletic is owned by its members.",
+        "source": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+      }
+    ]
+  },
+  {
+    "name": "Atlético Madrid",
+    "aliases": [
+      "Atlético de Madrid"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Atlético Madrid founded?",
+        "answer": "1903",
+        "wrong": [
+          "1883",
+          "1893",
+          "1913"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Atlético Madrid's recognised foundation year is 1903.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Atlético Madrid?",
+        "answer": "Los Colchoneros",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Atlético Madrid are known as Los Colchoneros.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Atlético Madrid's traditional home-shirt colours?",
+        "answer": "Red and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Atlético Madrid's traditional home colours are red and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Atlético began as a Madrid branch of which club?",
+        "answer": "Athletic Club",
+        "wrong": [
+          "Real Sociedad",
+          "Barcelona",
+          "Real Betis"
+        ],
+        "hint": "A club from Bilbao.",
+        "explanation": "Atlético began as Athletic Club's Madrid branch.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "In which year did Atlético win the league-and-cup double?",
+        "answer": "1996",
+        "wrong": [
+          "1986",
+          "2006",
+          "2016"
+        ],
+        "hint": "The middle of the nineties.",
+        "explanation": "Atlético won La Liga and the Copa del Rey in 1996.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which European trophy did Atlético win in 1962?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Super Cup"
+        ],
+        "hint": "It was for domestic cup winners.",
+        "explanation": "Atlético lifted the 1962 Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "identity",
+        "prompt": "Which club faces Atlético in El Derbi Madrileño?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Sevilla",
+          "Valencia"
+        ],
+        "hint": "Their biggest city neighbour.",
+        "explanation": "Atlético and Real Madrid contest the Madrid derby.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Which club merged with Atlético in 1939?",
+        "answer": "Aviación Nacional",
+        "wrong": [
+          "Racing Madrid",
+          "Castilla",
+          "Deportivo Madrid"
+        ],
+        "hint": "The name refers to aviation.",
+        "explanation": "The 1939 merger produced Athletic Aviación.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which intercontinental trophy did Atlético win in 1974?",
+        "answer": "Intercontinental Cup",
+        "wrong": [
+          "Club World Cup",
+          "Intertoto Cup",
+          "Latin Cup"
+        ],
+        "hint": "It matched European and South American representatives.",
+        "explanation": "Atlético won the 1974 Intercontinental Cup.",
+        "source": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+      }
+    ]
+  },
+  {
+    "name": "Barcelona",
+    "aliases": [
+      "FC Barcelona"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Barcelona founded?",
+        "answer": "1899",
+        "wrong": [
+          "1879",
+          "1889",
+          "1909"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "Barcelona's recognised foundation year is 1899.",
+        "source": "https://www.fcbarcelona.com/en/news/643865/1899-1909-foundation-and-survival/amp"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Barcelona?",
+        "answer": "Barça",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Barcelona are known as Barça.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Barcelona's traditional home-shirt colours?",
+        "answer": "Blue and garnet",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Barcelona's traditional home colours are blue and garnet.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Which Swiss-born founder helped establish Barcelona?",
+        "answer": "Joan Gamper",
+        "wrong": [
+          "Johan Cruyff",
+          "László Kubala",
+          "Ferdinand Daučík"
+        ],
+        "hint": "An annual pre-season trophy bears his name.",
+        "explanation": "Joan Gamper led Barcelona's foundation.",
+        "source": "https://www.fcbarcelona.com/en/news/643865/1899-1909-foundation-and-survival/amp"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "What does Barcelona's motto Més que un club mean?",
+        "answer": "More than a club",
+        "wrong": [
+          "To dare is to do",
+          "Victory through harmony",
+          "Always first"
+        ],
+        "hint": "It says the club represents something bigger.",
+        "explanation": "The Catalan motto means More than a club.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "identity",
+        "prompt": "Who are Barcelona's opponents in El Clásico?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Atlético Madrid",
+          "Sevilla",
+          "Valencia"
+        ],
+        "hint": "The rivalry links Catalonia and the capital.",
+        "explanation": "Barcelona and Real Madrid contest El Clásico.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "How many major trophies did Barcelona win in calendar year 2009?",
+        "answer": "Six",
+        "wrong": [
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "hint": "A sextuple.",
+        "explanation": "Barcelona won six major trophies in 2009.",
+        "source": "https://www.fcbarcelona.com/en/futbol/primer-equip/noticies/1537648/10-anys-dun-sextet-historic"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "identity",
+        "prompt": "Who own FC Barcelona?",
+        "answer": "Its members",
+        "wrong": [
+          "The Catalan government",
+          "A royal family",
+          "A private bank"
+        ],
+        "hint": "They are called socios.",
+        "explanation": "Barcelona is a member-owned club.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "What is the title of Barcelona's official anthem?",
+        "answer": "Cant del Barça",
+        "wrong": [
+          "Blue Moon",
+          "Hala Madrid",
+          "You'll Never Walk Alone"
+        ],
+        "hint": "Its title means Barça's song.",
+        "explanation": "The club anthem is Cant del Barça.",
+        "source": "https://en.wikipedia.org/wiki/FC_Barcelona"
+      }
+    ]
+  },
+  {
+    "name": "Celta Vigo",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Celta Vigo founded?",
+        "answer": "1923",
+        "wrong": [
+          "1903",
+          "1913",
+          "1933"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Celta Vigo's recognised foundation year is 1923.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Celta Vigo?",
+        "answer": "Os Celestes",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Celta Vigo are known as Os Celestes.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "records",
+        "prompt": "Where did Celta finish in La Liga in 2002/03?",
+        "answer": "Fourth",
+        "wrong": [
+          "First",
+          "Second",
+          "Sixth"
+        ],
+        "hint": "It secured Champions League qualification.",
+        "explanation": "Celta finished fourth in 2002/03.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Which two clubs merged to form Celta?",
+        "answer": "Real Vigo Sporting and Real Fortuna",
+        "wrong": [
+          "Deportivo and Racing Ferrol",
+          "Pontevedra and Lugo",
+          "Vigo United and Galicia FC"
+        ],
+        "hint": "Both predecessor clubs were from Vigo.",
+        "explanation": "Celta was formed by the merger of Vigo Sporting and Real Fortuna.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which ancient people inspired the name Celta?",
+        "answer": "The Celts",
+        "wrong": [
+          "The Romans",
+          "The Vikings",
+          "The Phoenicians"
+        ],
+        "hint": "Think of Galicia's Celtic heritage.",
+        "explanation": "Celta's name refers to the Celtic peoples of Galicia.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "identity",
+        "prompt": "Who face Celta in the Galician derby?",
+        "answer": "Deportivo A Coruña",
+        "wrong": [
+          "Real Oviedo",
+          "Sporting Gijón",
+          "Racing Santander"
+        ],
+        "hint": "Their home is Riazor.",
+        "explanation": "Celta's Galician rivals are Deportivo.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Who eliminated Celta in the 2003/04 Champions League last 16?",
+        "answer": "Arsenal",
+        "wrong": [
+          "Chelsea",
+          "Liverpool",
+          "Manchester United"
+        ],
+        "hint": "The London Gunners.",
+        "explanation": "Arsenal ended Celta's Champions League campaign.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which club eliminated Celta in the 2017 Europa League semi-finals?",
+        "answer": "Manchester United",
+        "wrong": [
+          "Sevilla",
+          "Ajax",
+          "Liverpool"
+        ],
+        "hint": "The eventual champions were English.",
+        "explanation": "Manchester United edged past Celta in the semi-finals.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which European trophy did Celta share in 2000?",
+        "answer": "Intertoto Cup",
+        "wrong": [
+          "UEFA Cup",
+          "Champions League",
+          "Super Cup"
+        ],
+        "hint": "A summer competition with multiple winners.",
+        "explanation": "Celta were one of the 2000 Intertoto Cup winners.",
+        "source": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+      }
+    ]
+  },
+  {
+    "name": "Deportivo A Coruña",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Deportivo A Coruña founded?",
+        "answer": "1906",
+        "wrong": [
+          "1886",
+          "1896",
+          "1916"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Deportivo A Coruña's recognised foundation year is 1906.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Deportivo A Coruña?",
+        "answer": "The Herculeans",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Deportivo A Coruña are known as The Herculeans.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Deportivo A Coruña's traditional home-shirt colours?",
+        "answer": "Blue and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Deportivo A Coruña's traditional home colours are blue and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who face Deportivo in the Galician derby?",
+        "answer": "Celta Vigo",
+        "wrong": [
+          "Real Oviedo",
+          "Racing Santander",
+          "Sporting Gijón"
+        ],
+        "hint": "Their rivals wear sky blue.",
+        "explanation": "Deportivo and Celta contest the Galician derby.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Which season brought Deportivo their first La Liga title?",
+        "answer": "1999/2000",
+        "wrong": [
+          "1989/90",
+          "2009/10",
+          "1979/80"
+        ],
+        "hint": "At the turn of the millennium.",
+        "explanation": "Deportivo won La Liga in 1999/2000.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "managers",
+        "prompt": "Who coached Deportivo to the 2000 league title?",
+        "answer": "Javier Irureta",
+        "wrong": [
+          "Rafael Benítez",
+          "Vicente del Bosque",
+          "Luis Aragonés"
+        ],
+        "hint": "A Basque coach long associated with Dépor.",
+        "explanation": "Irureta led Deportivo's championship-winning side.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "grounds",
+        "prompt": "In which year did the Riazor stadium open?",
+        "answer": "1944",
+        "wrong": [
+          "1924",
+          "1964",
+          "1984"
+        ],
+        "hint": "During the Second World War.",
+        "explanation": "Deportivo's Riazor stadium opened in 1944.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "How far did Deportivo reach in the 2003/04 Champions League?",
+        "answer": "Semi-finals",
+        "wrong": [
+          "Final",
+          "Quarter-finals",
+          "Round of 16"
+        ],
+        "hint": "Only four teams remained.",
+        "explanation": "Deportivo reached the Champions League semi-finals.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Members of what establishment founded Deportivo?",
+        "answer": "A gymnasium",
+        "wrong": [
+          "A railway depot",
+          "A shipyard",
+          "A monastery"
+        ],
+        "hint": "It was called Sala Calvet.",
+        "explanation": "Members of the Sala Calvet gym founded Deportivo.",
+        "source": "https://en.wikipedia.org/wiki/Deportivo_de_La_Coru%C3%B1a"
+      }
+    ]
+  },
+  {
+    "name": "Elche",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Elche founded?",
+        "answer": "1923",
+        "wrong": [
+          "1903",
+          "1913",
+          "1933"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Elche's recognised foundation year is 1923.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Elche?",
+        "answer": "Los Ilicitanos",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Elche are known as Los Ilicitanos.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Elche's traditional home-shirt colours?",
+        "answer": "White with a green horizontal band",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Elche's traditional home colours are white with a green horizontal band.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "In which year did Elche first win promotion to La Liga?",
+        "answer": "1959",
+        "wrong": [
+          "1939",
+          "1949",
+          "1969"
+        ],
+        "hint": "At the end of the fifties.",
+        "explanation": "Elche first reached La Liga in 1959.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "records",
+        "prompt": "Where did Elche finish in the 1963/64 league season?",
+        "answer": "Fifth",
+        "wrong": [
+          "First",
+          "Third",
+          "Tenth"
+        ],
+        "hint": "Just outside the top four.",
+        "explanation": "Elche finished fifth in 1963/64.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Who beat Elche in the 1969 Spanish Cup final?",
+        "answer": "Athletic Bilbao",
+        "wrong": [
+          "Barcelona",
+          "Real Madrid",
+          "Valencia"
+        ],
+        "hint": "The Lions from the Basque Country.",
+        "explanation": "Athletic beat Elche 1–0 in the final.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which stadium hosted Elche's 1969 cup final?",
+        "answer": "Santiago Bernabéu",
+        "wrong": [
+          "Camp Nou",
+          "Mestalla",
+          "San Mamés"
+        ],
+        "hint": "The final took place in Madrid.",
+        "explanation": "The 1969 final was played at the Bernabéu.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Which opponent did Elche beat 3–0 to secure their 1959 promotion?",
+        "answer": "Tenerife",
+        "wrong": [
+          "Las Palmas",
+          "Cádiz",
+          "Granada"
+        ],
+        "hint": "A club from the Canary Islands.",
+        "explanation": "Elche secured promotion with victory over Tenerife.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "managers",
+        "prompt": "Which Real Madrid legend coached Elche in 1967/68?",
+        "answer": "Alfredo Di Stéfano",
+        "wrong": [
+          "Ferenc Puskás",
+          "Paco Gento",
+          "Raymond Kopa"
+        ],
+        "hint": "He later also coached Valencia.",
+        "explanation": "Di Stéfano had a short spell in charge of Elche.",
+        "source": "https://en.wikipedia.org/wiki/Elche_CF"
+      }
+    ]
+  },
+  {
+    "name": "Espanyol",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Espanyol founded?",
+        "answer": "1900",
+        "wrong": [
+          "1880",
+          "1890",
+          "1910"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Espanyol's recognised foundation year is 1900.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Espanyol?",
+        "answer": "The Parakeets",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Espanyol are known as The Parakeets.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Espanyol's traditional home-shirt colours?",
+        "answer": "Blue and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Espanyol's traditional home colours are blue and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Who founded Espanyol while an engineering student?",
+        "answer": "Ángel Rodríguez",
+        "wrong": [
+          "Joan Gamper",
+          "Santiago Bernabéu",
+          "Luis Aragonés"
+        ],
+        "hint": "His first name means angel.",
+        "explanation": "Ángel Rodríguez Ruiz founded Espanyol.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which king granted Espanyol royal patronage in 1912?",
+        "answer": "Alfonso XIII",
+        "wrong": [
+          "Juan Carlos I",
+          "Felipe VI",
+          "Alfonso XII"
+        ],
+        "hint": "He reigned before the Second Republic.",
+        "explanation": "Alfonso XIII granted the Real title.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "identity",
+        "prompt": "The blue-and-white colours honour which medieval admiral?",
+        "answer": "Roger de Llúria",
+        "wrong": [
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Ferdinand Magellan"
+        ],
+        "hint": "He served the Crown of Aragon.",
+        "explanation": "The colours come from Roger de Llúria's shield.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "In which year did the club adopt the Catalan spelling Espanyol?",
+        "answer": "1995",
+        "wrong": [
+          "1975",
+          "1985",
+          "2005"
+        ],
+        "hint": "The middle of the nineties.",
+        "explanation": "The name's Catalan spelling was adopted in February 1995.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Who beat Espanyol in the 1988 UEFA Cup final?",
+        "answer": "Bayer Leverkusen",
+        "wrong": [
+          "Bayern Munich",
+          "Hamburg",
+          "Werder Bremen"
+        ],
+        "hint": "A German club associated with a pharmaceutical company.",
+        "explanation": "Leverkusen won the 1988 final on penalties.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which Spanish club faced Espanyol in the 2007 UEFA Cup final?",
+        "answer": "Sevilla",
+        "wrong": [
+          "Valencia",
+          "Villarreal",
+          "Atlético Madrid"
+        ],
+        "hint": "The defending champions.",
+        "explanation": "Sevilla defeated Espanyol on penalties in Glasgow.",
+        "source": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+      }
+    ]
+  },
+  {
+    "name": "Getafe",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was the present Getafe CF founded?",
+        "answer": "1983",
+        "wrong": [
+          "1963",
+          "1973",
+          "1993"
+        ],
+        "hint": "Think of the 1980s.",
+        "explanation": "Getafe's recognised foundation year is 1983.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Getafe?",
+        "answer": "Azulones",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Getafe are known as Azulones.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "honours",
+        "prompt": "Who beat Getafe in the 2007 Copa del Rey final?",
+        "answer": "Sevilla",
+        "wrong": [
+          "Real Madrid",
+          "Barcelona",
+          "Valencia"
+        ],
+        "hint": "The Andalusian side won 1–0.",
+        "explanation": "Sevilla defeated Getafe in their first major final.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "In which year did Getafe first reach La Liga?",
+        "answer": "2004",
+        "wrong": [
+          "1994",
+          "2014",
+          "1984"
+        ],
+        "hint": "Early in the new millennium.",
+        "explanation": "Getafe first gained La Liga promotion in 2004.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which nearby club contests the South Madrid derby with Getafe?",
+        "answer": "Leganés",
+        "wrong": [
+          "Valencia",
+          "Celta Vigo",
+          "Osasuna"
+        ],
+        "hint": "Their neighbours are nicknamed the Cucumber Growers.",
+        "explanation": "Getafe's local derby opponent is Leganés.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "grounds",
+        "prompt": "In which year did Getafe begin playing at the Coliseum?",
+        "answer": "1998",
+        "wrong": [
+          "1978",
+          "1988",
+          "2008"
+        ],
+        "hint": "Late in the nineties.",
+        "explanation": "The Coliseum became Getafe's home in 1998.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Which German coach led Getafe to the 2007 Copa del Rey final?",
+        "answer": "Bernd Schuster",
+        "wrong": [
+          "Jupp Heynckes",
+          "Otto Rehhagel",
+          "Ottmar Hitzfeld"
+        ],
+        "hint": "He next moved to Real Madrid.",
+        "explanation": "Schuster coached Getafe's 2007 cup finalists.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "managers",
+        "prompt": "Which Danish legend coached Getafe in 2007/08?",
+        "answer": "Michael Laudrup",
+        "wrong": [
+          "Brian Laudrup",
+          "Morten Olsen",
+          "Jan Mølby"
+        ],
+        "hint": "He had played for Barcelona and Real Madrid.",
+        "explanation": "Michael Laudrup coached Getafe in 2007/08.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which club knocked Getafe out of the 2008 UEFA Cup quarter-finals?",
+        "answer": "Bayern Munich",
+        "wrong": [
+          "Hamburg",
+          "Werder Bremen",
+          "Schalke 04"
+        ],
+        "hint": "The Bavarian giants.",
+        "explanation": "Bayern advanced after a dramatic extra-time second leg.",
+        "source": "https://en.wikipedia.org/wiki/Getafe_CF"
+      }
+    ]
+  },
+  {
+    "name": "Levante",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Levante founded?",
+        "answer": "1909",
+        "wrong": [
+          "1889",
+          "1899",
+          "1919"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Levante's recognised foundation year is 1909.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Levante?",
+        "answer": "The Frogs",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Levante are known as The Frogs.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Levante's traditional home-shirt colours?",
+        "answer": "Blue and garnet",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Levante's traditional home colours are blue and garnet.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who are Levante's main city rivals?",
+        "answer": "Valencia",
+        "wrong": [
+          "Villarreal",
+          "Elche",
+          "Hércules"
+        ],
+        "hint": "They play at Mestalla.",
+        "explanation": "Levante and Valencia share the city derby.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which club merged with Levante FC in 1939?",
+        "answer": "Gimnástico",
+        "wrong": [
+          "Mestalla",
+          "Castellón",
+          "Hércules"
+        ],
+        "hint": "The name resembles gymnastics.",
+        "explanation": "Levante and Gimnástico merged in 1939.",
+        "source": "https://museo.levanteud.com/2020/07/31/agosto-de-1939-levante-y-gimnastico-fusionan-sus-caminos-nace-udlg/"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "history",
+        "prompt": "In which year did Levante first reach La Liga?",
+        "answer": "1963",
+        "wrong": [
+          "1943",
+          "1953",
+          "1973"
+        ],
+        "hint": "Early in the sixties.",
+        "explanation": "Levante gained their first top-flight promotion in 1963.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "Which Dutch superstar played for Levante in 1981?",
+        "answer": "Johan Cruyff",
+        "wrong": [
+          "Ruud Gullit",
+          "Marco van Basten",
+          "Frank Rijkaard"
+        ],
+        "hint": "A three-time Ballon d'Or winner.",
+        "explanation": "Cruyff spent part of 1981 at Levante.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "records",
+        "prompt": "What league position earned Levante European qualification in 2011/12?",
+        "answer": "Sixth",
+        "wrong": [
+          "Second",
+          "Fourth",
+          "Tenth"
+        ],
+        "hint": "Just below fifth.",
+        "explanation": "Levante finished sixth and qualified for the Europa League.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "How far did Levante reach in the 2012/13 Europa League?",
+        "answer": "Round of 16",
+        "wrong": [
+          "Final",
+          "Semi-finals",
+          "Quarter-finals"
+        ],
+        "hint": "Sixteen teams remained at their final stage.",
+        "explanation": "Levante reached the last 16 in their European debut.",
+        "source": "https://en.wikipedia.org/wiki/Levante_UD"
+      }
+    ]
+  },
+  {
+    "name": "Málaga",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Atlético Malagueño, the club later renamed Málaga CF, founded?",
+        "answer": "1948",
+        "wrong": [
+          "1928",
+          "1938",
+          "1958"
+        ],
+        "hint": "Think of the 1940s.",
+        "explanation": "Atlético Malagueño was founded in 1948 and renamed Málaga CF in 1994.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Málaga?",
+        "answer": "The Anchovies",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Málaga are known as The Anchovies.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Málaga's traditional home-shirt colours?",
+        "answer": "Blue and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Málaga's traditional home colours are blue and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "In which year did Atlético Malagueño become Málaga CF?",
+        "answer": "1994",
+        "wrong": [
+          "1974",
+          "1984",
+          "2004"
+        ],
+        "hint": "The middle of the nineties.",
+        "explanation": "Atlético Malagueño became Málaga CF in 1994.",
+        "source": "https://www.malagacf.com/noticias/un-cuarto-de-siglo-como-mcf"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Which European trophy did Málaga win in 2002?",
+        "answer": "Intertoto Cup",
+        "wrong": [
+          "UEFA Cup",
+          "Champions League",
+          "Super Cup"
+        ],
+        "hint": "It was a summer tournament.",
+        "explanation": "Málaga won the Intertoto Cup in 2002.",
+        "source": "https://www.malagacf.com/noticias/la-intertoto-se-hace-mayor-de-edad"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which Portuguese club ended Málaga's 2002/03 UEFA Cup run?",
+        "answer": "Boavista",
+        "wrong": [
+          "Porto",
+          "Benfica",
+          "Sporting CP"
+        ],
+        "hint": "Their shirts are famous for a chequered pattern.",
+        "explanation": "Boavista beat Málaga on penalties in the quarter-finals.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "managers",
+        "prompt": "Who coached Málaga during their 2012/13 Champions League run?",
+        "answer": "Manuel Pellegrini",
+        "wrong": [
+          "Unai Emery",
+          "Rafael Benítez",
+          "Javier Irureta"
+        ],
+        "hint": "A Chilean manager.",
+        "explanation": "Pellegrini led Málaga in their Champions League campaign.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "How far did Málaga reach in the 2012/13 Champions League?",
+        "answer": "Quarter-finals",
+        "wrong": [
+          "Final",
+          "Semi-finals",
+          "Round of 16"
+        ],
+        "hint": "Eight clubs remained.",
+        "explanation": "Málaga reached the quarter-finals.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Who scored a hat-trick in Málaga's 5–1 win over Barcelona in 2003?",
+        "answer": "Salva Ballesta",
+        "wrong": [
+          "Isco",
+          "Joaquín",
+          "Julio Baptista"
+        ],
+        "hint": "His first name is Salva.",
+        "explanation": "Salva Ballesta scored three against Barcelona.",
+        "source": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+      }
+    ]
+  },
+  {
+    "name": "Osasuna",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Osasuna founded?",
+        "answer": "1920",
+        "wrong": [
+          "1900",
+          "1910",
+          "1930"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Osasuna's recognised foundation year is 1920.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Osasuna?",
+        "answer": "The Little Reds",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Osasuna are known as The Little Reds.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "honours",
+        "prompt": "How far did Osasuna reach in the 2006/07 UEFA Cup?",
+        "answer": "Semi-finals",
+        "wrong": [
+          "Final",
+          "Quarter-finals",
+          "Round of 16"
+        ],
+        "hint": "They were one of the last four.",
+        "explanation": "Osasuna reached the semi-finals before losing to Sevilla.",
+        "source": "https://es.uefa.com/uefaeuropaleague/news/01c1-0e6e492bc96f-1c1299b41959-1000--osasuna-cayo-con-orgullo/"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "What does Osasuna mean in Basque?",
+        "answer": "Health",
+        "wrong": [
+          "Mountain",
+          "Victory",
+          "River"
+        ],
+        "hint": "It conveys strength and vigour.",
+        "explanation": "Osasuna is the Basque word for health.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which Spanish region does Osasuna represent?",
+        "answer": "Navarre",
+        "wrong": [
+          "Galicia",
+          "Andalusia",
+          "Cantabria"
+        ],
+        "hint": "Its capital is Pamplona.",
+        "explanation": "Osasuna is based in Navarre.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "In which year did Osasuna first reach the Copa del Rey final?",
+        "answer": "2005",
+        "wrong": [
+          "1985",
+          "1995",
+          "2015"
+        ],
+        "hint": "Early in the new millennium.",
+        "explanation": "Osasuna reached their first final in 2005.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which club beat Osasuna in the 2023 Copa del Rey final?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Sevilla",
+          "Valencia"
+        ],
+        "hint": "The club from the capital in white.",
+        "explanation": "Real Madrid beat Osasuna 2–1 in 2023.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "records",
+        "prompt": "Where did Osasuna finish in La Liga in both 1990/91 and 2005/06?",
+        "answer": "Fourth",
+        "wrong": [
+          "First",
+          "Second",
+          "Sixth"
+        ],
+        "hint": "A Champions League qualifying position in 2006.",
+        "explanation": "Osasuna finished fourth in both seasons.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "Who own and operate Osasuna?",
+        "answer": "The club's members",
+        "wrong": [
+          "The city council",
+          "A royal family",
+          "A private bank"
+        ],
+        "hint": "They elect the president.",
+        "explanation": "Osasuna has retained member ownership.",
+        "source": "https://en.wikipedia.org/wiki/CA_Osasuna"
+      }
+    ]
+  },
+  {
+    "name": "Racing Santander",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Racing Santander founded?",
+        "answer": "1913",
+        "wrong": [
+          "1893",
+          "1903",
+          "1923"
+        ],
+        "hint": "Think of the 1910s.",
+        "explanation": "Racing Santander's recognised foundation year is 1913.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Racing Santander?",
+        "answer": "The Highlanders",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Racing Santander are known as The Highlanders.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What is the predominant colour of Racing Santander's traditional home shirt?",
+        "answer": "White",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Racing's traditional home shirt is predominantly white, with green detailing.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Racing were founding members of which league in 1929?",
+        "answer": "La Liga",
+        "wrong": [
+          "Premier League",
+          "Serie A",
+          "Bundesliga"
+        ],
+        "hint": "Spain's top flight.",
+        "explanation": "Racing were one of La Liga's ten founding clubs.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "records",
+        "prompt": "Where did Racing finish in the 1930/31 Spanish league?",
+        "answer": "Second",
+        "wrong": [
+          "First",
+          "Fourth",
+          "Sixth"
+        ],
+        "hint": "Runners-up.",
+        "explanation": "Racing finished second in 1930/31.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "managers",
+        "prompt": "Which English coach led Racing's 1930/31 runners-up?",
+        "answer": "Robert Firth",
+        "wrong": [
+          "Fred Pentland",
+          "Vic Buckingham",
+          "Bobby Robson"
+        ],
+        "hint": "His surname begins with F.",
+        "explanation": "Robert Firth coached Racing that season.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "Which opponent shared La Liga's first goalless draw with Racing?",
+        "answer": "Athletic Bilbao",
+        "wrong": [
+          "Barcelona",
+          "Real Madrid",
+          "Espanyol"
+        ],
+        "hint": "The Lions.",
+        "explanation": "Racing and Athletic played the league's first 0–0.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "managers",
+        "prompt": "Who led Racing to their first UEFA Cup qualification in 2008?",
+        "answer": "Marcelino",
+        "wrong": [
+          "Rafael Benítez",
+          "Unai Emery",
+          "Javier Irureta"
+        ],
+        "hint": "His surname is García Toral.",
+        "explanation": "Marcelino led Racing to sixth in 2007/08.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which club knocked Racing out of the 2010 Copa del Rey semi-finals?",
+        "answer": "Atlético Madrid",
+        "wrong": [
+          "Real Madrid",
+          "Barcelona",
+          "Valencia"
+        ],
+        "hint": "The Madrid club in red and white.",
+        "explanation": "Atlético ended Racing's 2010 cup run.",
+        "source": "https://en.wikipedia.org/wiki/Racing_de_Santander"
+      }
+    ]
+  },
+  {
+    "name": "Rayo Vallecano",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Rayo Vallecano founded?",
+        "answer": "1924",
+        "wrong": [
+          "1904",
+          "1914",
+          "1934"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Rayo Vallecano's recognised foundation year is 1924.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Rayo Vallecano?",
+        "answer": "The Giant-killer",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Rayo Vallecano are known as The Giant-killer.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Rayo Vallecano's traditional home-shirt colours?",
+        "answer": "White with a red diagonal sash",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Rayo Vallecano's traditional home colours are white with a red diagonal sash.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "What does Rayo mean in Spanish?",
+        "answer": "Lightning bolt",
+        "wrong": [
+          "Falcon",
+          "River",
+          "Mountain"
+        ],
+        "hint": "Think of a thunderstorm.",
+        "explanation": "Rayo means lightning bolt.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Which Argentine club inspired Rayo's diagonal sash?",
+        "answer": "River Plate",
+        "wrong": [
+          "Boca Juniors",
+          "Racing Club",
+          "Independiente"
+        ],
+        "hint": "They also wear a red sash on white.",
+        "explanation": "River Plate inspired Rayo's shirt design.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which division did Rayo win in 2017/18?",
+        "answer": "Segunda División",
+        "wrong": [
+          "La Liga",
+          "Segunda División B",
+          "Tercera División"
+        ],
+        "hint": "Spain's second tier.",
+        "explanation": "Rayo were Segunda División champions in 2017/18.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "Which route gave Rayo entry to the 2000/01 UEFA Cup?",
+        "answer": "Fair play draw",
+        "wrong": [
+          "Winning La Liga",
+          "Winning the Copa del Rey",
+          "Winning the Intertoto Cup"
+        ],
+        "hint": "Sportsmanship helped them qualify.",
+        "explanation": "Rayo qualified through UEFA's fair play draw.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which Spanish club ended Rayo's 2000/01 UEFA Cup run?",
+        "answer": "Alavés",
+        "wrong": [
+          "Celta Vigo",
+          "Valencia",
+          "Barcelona"
+        ],
+        "hint": "Their opponents went on to reach the final.",
+        "explanation": "Alavés beat Rayo in the quarter-finals.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "In which US city did Rayo establish a club in 2015?",
+        "answer": "Oklahoma City",
+        "wrong": [
+          "Miami",
+          "New York",
+          "Los Angeles"
+        ],
+        "hint": "Its abbreviated name was Rayo OKC.",
+        "explanation": "Rayo's American venture was based in Oklahoma City.",
+        "source": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+      }
+    ]
+  },
+  {
+    "name": "Real Betis",
+    "aliases": [
+      "Real Betis Balompié"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Real Betis founded?",
+        "answer": "1907",
+        "wrong": [
+          "1887",
+          "1897",
+          "1917"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Real Betis's recognised foundation year is 1907.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Real Betis?",
+        "answer": "Heliopolitanos",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Real Betis are known as Heliopolitanos.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Real Betis's traditional home-shirt colours?",
+        "answer": "Green and white stripes",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Real Betis's traditional home colours are green and white stripes.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Which city rival faces Betis in El Gran Derbi?",
+        "answer": "Sevilla",
+        "wrong": [
+          "Cádiz",
+          "Málaga",
+          "Granada"
+        ],
+        "hint": "They share Seville.",
+        "explanation": "Betis and Sevilla contest El Gran Derbi.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Betis takes its name from the Roman name of which river?",
+        "answer": "Guadalquivir",
+        "wrong": [
+          "Ebro",
+          "Tagus",
+          "Douro"
+        ],
+        "hint": "It flows through Seville.",
+        "explanation": "Baetis was the Roman name for the Guadalquivir.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "identity",
+        "prompt": "What does Balompié literally mean?",
+        "answer": "Football",
+        "wrong": [
+          "Royal club",
+          "Green and white",
+          "Athletic society"
+        ],
+        "hint": "It combines ball and foot.",
+        "explanation": "Balompié is a Spanish word for football.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "history",
+        "prompt": "In which year did Betis receive royal patronage?",
+        "answer": "1914",
+        "wrong": [
+          "1894",
+          "1934",
+          "1954"
+        ],
+        "hint": "Just before the First World War.",
+        "explanation": "Real was added after royal patronage in 1914.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "Students from which type of academy founded Betis' predecessor?",
+        "answer": "A polytechnic academy",
+        "wrong": [
+          "A military flying school",
+          "A music conservatory",
+          "A naval college"
+        ],
+        "hint": "It taught technical subjects.",
+        "explanation": "Local Polytechnic Academy students founded Balompié.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "What does the saying Viva el Betis manque pierda celebrate?",
+        "answer": "Supporting Betis even when they lose",
+        "wrong": [
+          "Winning every match",
+          "Only signing local players",
+          "Always playing at home"
+        ],
+        "hint": "Loyalty through difficult results.",
+        "explanation": "It means Long live Betis even when they lose.",
+        "source": "https://en.wikipedia.org/wiki/Real_Betis"
+      }
+    ]
+  },
+  {
+    "name": "Real Madrid",
+    "aliases": [
+      "Real Madrid C.F."
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Real Madrid founded?",
+        "answer": "1902",
+        "wrong": [
+          "1882",
+          "1892",
+          "1912"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Real Madrid's recognised foundation year is 1902.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Real Madrid?",
+        "answer": "Los Merengues",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Real Madrid are known as Los Merengues.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Real Madrid's traditional home-shirt colours?",
+        "answer": "All white",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Real Madrid's traditional home colours are all white.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who are Real Madrid's opponents in El Clásico?",
+        "answer": "Barcelona",
+        "wrong": [
+          "Sevilla",
+          "Valencia",
+          "Athletic Bilbao"
+        ],
+        "hint": "The Catalan giants.",
+        "explanation": "Real Madrid and Barcelona contest El Clásico.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "identity",
+        "prompt": "Who face Real Madrid in El Derbi Madrileño?",
+        "answer": "Atlético Madrid",
+        "wrong": [
+          "Getafe",
+          "Leganés",
+          "Rayo Vallecano"
+        ],
+        "hint": "Their city rivals wear red and white.",
+        "explanation": "Real and Atlético contest the Madrid derby.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "How many consecutive European Cups did Madrid win from 1956 to 1960?",
+        "answer": "Five",
+        "wrong": [
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "hint": "They won each of the first editions.",
+        "explanation": "Madrid won the first five European Cups.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "identity",
+        "prompt": "What is Real Madrid's youth academy commonly called?",
+        "answer": "La Fábrica",
+        "wrong": [
+          "La Masia",
+          "Lezama",
+          "Zubieta"
+        ],
+        "hint": "The name means The Factory.",
+        "explanation": "La Fábrica is Madrid's academy nickname.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "history",
+        "prompt": "From which club did Madrid sign Cristiano Ronaldo in 2009?",
+        "answer": "Manchester United",
+        "wrong": [
+          "Sporting CP",
+          "Juventus",
+          "Inter Milan"
+        ],
+        "hint": "The Red Devils.",
+        "explanation": "Ronaldo joined Madrid from Manchester United.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "identity",
+        "prompt": "What nickname describes Madrid's policy of signing global superstars?",
+        "answer": "Galácticos",
+        "wrong": [
+          "Invincibles",
+          "Busby Babes",
+          "Dream Team"
+        ],
+        "hint": "The word suggests stars of the galaxy.",
+        "explanation": "Galácticos describes Madrid's superstar signings.",
+        "source": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      }
+    ]
+  },
+  {
+    "name": "Real Sociedad",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Real Sociedad founded?",
+        "answer": "1909",
+        "wrong": [
+          "1889",
+          "1899",
+          "1919"
+        ],
+        "hint": "Think of the 1900s.",
+        "explanation": "Real Sociedad's recognised foundation year is 1909.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Real Sociedad?",
+        "answer": "Txuri-Urdin",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Real Sociedad are known as Txuri-Urdin.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "grounds",
+        "prompt": "What is Real Sociedad's training and academy base called?",
+        "answer": "Zubieta",
+        "wrong": [
+          "Lezama",
+          "La Masia",
+          "Valdebebas"
+        ],
+        "hint": "Its name starts with Z.",
+        "explanation": "Sociedad's development and training centre is Zubieta.",
+        "source": "https://www.realsociedad.eus/eu/zubieta"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Which club faces Sociedad in the Basque derby?",
+        "answer": "Athletic Bilbao",
+        "wrong": [
+          "Osasuna",
+          "Alavés",
+          "Eibar"
+        ],
+        "hint": "Their nickname is the Lions.",
+        "explanation": "Sociedad's main Basque derby is against Athletic.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "In which two seasons did Sociedad win consecutive league titles?",
+        "answer": "1980/81 and 1981/82",
+        "wrong": [
+          "1970/71 and 1971/72",
+          "1990/91 and 1991/92",
+          "2000/01 and 2001/02"
+        ],
+        "hint": "Early in the eighties.",
+        "explanation": "Sociedad won La Liga in 1981 and 1982.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "history",
+        "prompt": "Which Irish striker joined Sociedad in 1989?",
+        "answer": "John Aldridge",
+        "wrong": [
+          "Robbie Keane",
+          "Tony Cascarino",
+          "Niall Quinn"
+        ],
+        "hint": "He arrived from Liverpool.",
+        "explanation": "Aldridge's signing marked a change in Sociedad's recruitment policy.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did Sociedad win the Spanish Super Cup?",
+        "answer": "1982",
+        "wrong": [
+          "1972",
+          "1992",
+          "2002"
+        ],
+        "hint": "It followed their second league title.",
+        "explanation": "Sociedad won the 1982 Spanish Super Cup.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "identity",
+        "prompt": "What does Real Sociedad mean in English?",
+        "answer": "Royal Society",
+        "wrong": [
+          "Royal City",
+          "Royal Sporting",
+          "Royal Union"
+        ],
+        "hint": "The second word resembles society.",
+        "explanation": "Real Sociedad translates as Royal Society.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which league was Sociedad a founder member of in 1929?",
+        "answer": "La Liga",
+        "wrong": [
+          "Serie A",
+          "Ligue 1",
+          "Bundesliga"
+        ],
+        "hint": "Spain's top division.",
+        "explanation": "Sociedad was among La Liga's founding clubs.",
+        "source": "https://en.wikipedia.org/wiki/Real_Sociedad"
+      }
+    ]
+  },
+  {
+    "name": "Sevilla",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Sevilla founded?",
+        "answer": "1890",
+        "wrong": [
+          "1870",
+          "1880",
+          "1900"
+        ],
+        "hint": "Think of the 1890s.",
+        "explanation": "Sevilla's recognised foundation year is 1890.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Sevilla?",
+        "answer": "Los Nervionenses",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Sevilla are known as Los Nervionenses.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "What are Sevilla's traditional home-shirt colours?",
+        "answer": "White with red trim",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Sevilla's traditional home colours are white with red trim.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "identity",
+        "prompt": "Who are Sevilla's opponents in El Gran Derbi?",
+        "answer": "Real Betis",
+        "wrong": [
+          "Málaga",
+          "Cádiz",
+          "Granada"
+        ],
+        "hint": "They wear green and white.",
+        "explanation": "Sevilla's city derby is against Betis.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which Scottish-born figure was Sevilla's first president?",
+        "answer": "Edward Farquharson Johnston",
+        "wrong": [
+          "Joan Gamper",
+          "William McGregor",
+          "Robert Firth"
+        ],
+        "hint": "His surname is Johnston.",
+        "explanation": "Johnston was a founder and Sevilla's first president.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which season brought Sevilla their first La Liga title?",
+        "answer": "1945/46",
+        "wrong": [
+          "1935/36",
+          "1955/56",
+          "1965/66"
+        ],
+        "hint": "Just after the Second World War.",
+        "explanation": "Sevilla won the league in 1945/46.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "In which year did Sevilla first win the UEFA Cup?",
+        "answer": "2006",
+        "wrong": [
+          "1996",
+          "2010",
+          "2014"
+        ],
+        "hint": "They retained the trophy the following year.",
+        "explanation": "Sevilla's first UEFA Cup win came in 2006.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "records",
+        "prompt": "How many UEFA Cup/Europa League titles had Sevilla won by the end of 2023?",
+        "answer": "Seven",
+        "wrong": [
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "hint": "Their 2023 triumph set another record.",
+        "explanation": "Sevilla's 2023 win was their seventh in the competition.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which UEFA trophy did Sevilla win in 2006 besides the UEFA Cup?",
+        "answer": "UEFA Super Cup",
+        "wrong": [
+          "Champions League",
+          "Intertoto Cup",
+          "Cup Winners' Cup"
+        ],
+        "hint": "It is a match between European trophy winners.",
+        "explanation": "Sevilla also won the 2006 UEFA Super Cup.",
+        "source": "https://en.wikipedia.org/wiki/Sevilla_FC"
+      }
+    ]
+  },
+  {
+    "name": "Valencia",
+    "aliases": [],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Valencia founded?",
+        "answer": "1919",
+        "wrong": [
+          "1899",
+          "1909",
+          "1929"
+        ],
+        "hint": "Think of the 1910s.",
+        "explanation": "Valencia's recognised foundation year is 1919.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Valencia?",
+        "answer": "Los Ches",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Valencia are known as Los Ches.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "home-colours",
+        "topic": "identity",
+        "prompt": "Which combination describes Valencia's traditional home shirts and shorts?",
+        "answer": "White shirts and black shorts",
+        "wrong": [
+          "Purple and gold",
+          "Green and black",
+          "Orange and navy"
+        ],
+        "hint": "Picture the club's usual home kit.",
+        "explanation": "Valencia's traditional home colours are white shirts and black shorts.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "grounds",
+        "prompt": "In which year did Mestalla open?",
+        "answer": "1923",
+        "wrong": [
+          "1903",
+          "1943",
+          "1963"
+        ],
+        "hint": "Four years after the club was founded.",
+        "explanation": "Mestalla opened in 1923.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "honours",
+        "prompt": "Which two consecutive years saw Valencia reach Champions League finals?",
+        "answer": "2000 and 2001",
+        "wrong": [
+          "1990 and 1991",
+          "2010 and 2011",
+          "1995 and 1996"
+        ],
+        "hint": "The turn of the millennium.",
+        "explanation": "Valencia reached the finals in 2000 and 2001.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which European competition did Valencia win in 2004?",
+        "answer": "UEFA Cup",
+        "wrong": [
+          "Champions League",
+          "Cup Winners' Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "The Europa League's predecessor.",
+        "explanation": "Valencia won the 2004 UEFA Cup.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "identity",
+        "prompt": "Which animal appears at the top of Valencia's crest?",
+        "answer": "A bat",
+        "wrong": [
+          "An eagle",
+          "A lion",
+          "A wolf"
+        ],
+        "hint": "A flying mammal.",
+        "explanation": "Valencia's badge includes a bat.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "honours",
+        "prompt": "Which European trophy did Valencia win in 1980?",
+        "answer": "Cup Winners' Cup",
+        "wrong": [
+          "European Cup",
+          "UEFA Cup",
+          "Intertoto Cup"
+        ],
+        "hint": "It followed their domestic cup success.",
+        "explanation": "Valencia lifted the 1980 Cup Winners' Cup.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "honours",
+        "prompt": "Which tournament did Valencia win in both 1962 and 1963?",
+        "answer": "Inter-Cities Fairs Cup",
+        "wrong": [
+          "European Cup",
+          "Cup Winners' Cup",
+          "Super Cup"
+        ],
+        "hint": "Its successor was the UEFA Cup.",
+        "explanation": "Valencia won consecutive Fairs Cups in 1962 and 1963.",
+        "source": "https://en.wikipedia.org/wiki/Valencia_CF"
+      }
+    ]
+  },
+  {
+    "name": "Villarreal",
+    "aliases": [
+      "Villarreal CF"
+    ],
+    "facts": [
+      {
+        "key": "founded",
+        "topic": "history",
+        "prompt": "In which year was Villarreal founded?",
+        "answer": "1923",
+        "wrong": [
+          "1903",
+          "1913",
+          "1933"
+        ],
+        "hint": "Think of the 1920s.",
+        "explanation": "Villarreal's recognised foundation year is 1923.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "nickname",
+        "topic": "identity",
+        "prompt": "Which of these is a nickname of Villarreal?",
+        "answer": "The Yellow Submarine",
+        "wrong": [
+          "The Gunners",
+          "The Black Cats",
+          "The Seagulls"
+        ],
+        "hint": "Think of the club's traditional identity.",
+        "explanation": "Villarreal are known as The Yellow Submarine.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "distinct-extra",
+        "topic": "honours",
+        "prompt": "Who eliminated Villarreal in the 2010/11 Europa League semi-finals?",
+        "answer": "Porto",
+        "wrong": [
+          "Benfica",
+          "Braga",
+          "Sporting CP"
+        ],
+        "hint": "The eventual champions played in blue and white.",
+        "explanation": "Porto beat Villarreal on aggregate.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-1",
+        "topic": "history",
+        "prompt": "Who were Villarreal's opponents in their first La Liga match in 1998?",
+        "answer": "Real Madrid",
+        "wrong": [
+          "Barcelona",
+          "Valencia",
+          "Sevilla"
+        ],
+        "hint": "They travelled to the Bernabéu.",
+        "explanation": "Villarreal made their La Liga debut against Real Madrid.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-2",
+        "topic": "history",
+        "prompt": "Which club did Villarreal overcome in the 1998 promotion play-off?",
+        "answer": "Compostela",
+        "wrong": [
+          "Deportivo A Coruña",
+          "Celta Vigo",
+          "Lugo"
+        ],
+        "hint": "A Galician club from Santiago.",
+        "explanation": "Villarreal earned promotion against Compostela on away goals.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-3",
+        "topic": "honours",
+        "prompt": "Which club ended Villarreal's 2003/04 UEFA Cup run?",
+        "answer": "Valencia",
+        "wrong": [
+          "Sevilla",
+          "Barcelona",
+          "Athletic Bilbao"
+        ],
+        "hint": "Their regional neighbours won the trophy.",
+        "explanation": "Valencia eliminated Villarreal in the semi-finals.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-4",
+        "topic": "honours",
+        "prompt": "Which summer European trophy did Villarreal win in 2003 and 2004?",
+        "answer": "Intertoto Cup",
+        "wrong": [
+          "Super Cup",
+          "UEFA Cup",
+          "Cup Winners' Cup"
+        ],
+        "hint": "It offered a route into the UEFA Cup.",
+        "explanation": "Villarreal won consecutive Intertoto Cups.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-5",
+        "topic": "records",
+        "prompt": "Which Villarreal striker won the 2004/05 Pichichi?",
+        "answer": "Diego Forlán",
+        "wrong": [
+          "Giuseppe Rossi",
+          "Juan Román Riquelme",
+          "Nihat Kahveci"
+        ],
+        "hint": "The Uruguayan scored 25 league goals.",
+        "explanation": "Forlán was La Liga's top scorer in 2004/05.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      },
+      {
+        "key": "heritage-6",
+        "topic": "history",
+        "prompt": "Which colours did Villarreal originally wear in 1923?",
+        "answer": "White shirts and black shorts",
+        "wrong": [
+          "Blue and white stripes",
+          "Red and black stripes",
+          "Green shirts and white shorts"
+        ],
+        "hint": "Their famous yellow came later.",
+        "explanation": "Villarreal's original kit was white and black.",
+        "source": "https://en.wikipedia.org/wiki/Villarreal_CF"
+      }
+    ]
+  }
+]

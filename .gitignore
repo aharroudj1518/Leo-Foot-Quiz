@@ -48,3 +48,7 @@ playwright-report/
 # local debug artifacts
 audit.json
 preview-debug.png
+debug.log
+
+# Local assistant settings
+.claude/

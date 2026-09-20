@@ -1,0 +1,65 @@
+[
+  {
+    "file": "Lionel Messi 20180626.jpg",
+    "id": "messi",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_20180626.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "creator": "Кирилл Венедиктов",
+    "changes": "Original downloaded file unchanged; displayed with layout cropping."
+  },
+  {
+    "file": "Cristiano Ronaldo 2018.jpg",
+    "id": "ronaldo",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_2018.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "creator": "Анна Нэсси",
+    "changes": "Original downloaded file unchanged; displayed with layout cropping."
+  },
+  {
+    "file": "Kylian Mbappé 2018.jpg",
+    "id": "mbappe",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbapp%C3%A9_2018.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "creator": "Антон Зайцев",
+    "changes": "Original downloaded file unchanged; displayed with layout cropping."
+  },
+  {
+    "file": "Mohamed Salah 2018.jpg",
+    "id": "salah",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_2018.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "creator": "Анна Нэсси",
+    "changes": "Original downloaded file unchanged; displayed with layout cropping."
+  },
+  {
+    "file": "Erling Haaland 2023 (cropped square).jpg",
+    "id": "haaland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023_(cropped_square).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "creator": "Jacek Stanislawek",
+    "changes": "Original downloaded file unchanged; displayed with layout cropping."
+  },
+  {
+    "source": "https://commons.wikimedia.org/wiki/File:Allianz_Arena_(403987583).jpg",
+    "id": "allianz",
+    "creator": "Rudi Riet from Washington, DC, United States",
+    "license": "CC BY-SA 2.0",
+    "file": "Allianz Arena (403987583).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "changes": "Wikimedia resized thumbnail, displayed with layout cropping."
+  },
+  {
+    "source": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_2014.jpg",
+    "id": "maracana",
+    "creator": "Daniel Basil",
+    "license": "CC BY 3.0 br",
+    "file": "Maracanã 2014.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "changes": "Wikimedia resized thumbnail, displayed with layout cropping."
+  }
+]

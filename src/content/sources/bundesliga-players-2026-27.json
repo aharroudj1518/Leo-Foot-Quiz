@@ -1,0 +1,3932 @@
+{
+  "competition": "bundesliga",
+  "season": "2026/27",
+  "source": "https://www.bundesliga.com/en/bundesliga/clubs",
+  "directorySha256": "840d396bf18926b5352733c2524ee22cf7cb0473c030f4b8b1a72a81106cd46f",
+  "retrievedAt": "2026-09-11",
+  "independentReview": false,
+  "clubs": [
+    {
+      "club": "Bayern Munich",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/fc-bayern-muenchen",
+      "sourceSha256": "dc7ed9ce85616be6fae7106d6856f5a04368641fa0af67f789d24b8e897a4516",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "manuel-neuer",
+          "name": "Manuel Neuer",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/manuel-neuer"
+        },
+        {
+          "id": "sven-ulreich",
+          "name": "Sven Ulreich",
+          "number": 26,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/sven-ulreich"
+        },
+        {
+          "id": "jonas-urbig",
+          "name": "Jonas Urbig",
+          "number": 40,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/jonas-urbig"
+        },
+        {
+          "id": "dayot-upamecano",
+          "name": "Dayot Upamecano",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/dayot-upamecano"
+        },
+        {
+          "id": "minjae-kim",
+          "name": "Minjae Kim",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/minjae-kim"
+        },
+        {
+          "id": "jonathan-tah",
+          "name": "Jonathan Tah",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jonathan-tah"
+        },
+        {
+          "id": "nathaniel-brown",
+          "name": "Nathaniel Brown",
+          "number": 11,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nathaniel-brown"
+        },
+        {
+          "id": "alphonso-davies",
+          "name": "Alphonso Davies",
+          "number": 19,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/alphonso-davies"
+        },
+        {
+          "id": "hiroki-ito",
+          "name": "Hiroki Ito",
+          "number": 21,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/hiroki-ito"
+        },
+        {
+          "id": "sacha-boey",
+          "name": "Sacha Boey",
+          "number": 23,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/sacha-boey"
+        },
+        {
+          "id": "josip-stanisic",
+          "name": "Josip Stanišić",
+          "number": 44,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/josip-stanisic"
+        },
+        {
+          "id": "joshua-kimmich",
+          "name": "Joshua Kimmich",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/joshua-kimmich"
+        },
+        {
+          "id": "tom-bischof",
+          "name": "Tom Bischof",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tom-bischof"
+        },
+        {
+          "id": "jamal-musiala",
+          "name": "Jamal Musiala",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jamal-musiala"
+        },
+        {
+          "id": "konrad-laimer",
+          "name": "Konrad Laimer",
+          "number": 27,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/konrad-laimer"
+        },
+        {
+          "id": "ismael-saibari",
+          "name": "Ismael Saibari",
+          "number": 34,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ismael-saibari"
+        },
+        {
+          "id": "bara-sapoko-ndiaye",
+          "name": "Bara Sapoko Ndiaye",
+          "number": 39,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/bara-sapoko-ndiaye"
+        },
+        {
+          "id": "lennart-karl",
+          "name": "Lennart Karl",
+          "number": 42,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/lennart-karl"
+        },
+        {
+          "id": "aleksandar-pavlovic",
+          "name": "Aleksandar Pavlović",
+          "number": 45,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/aleksandar-pavlovic"
+        },
+        {
+          "id": "david-santos-daiber",
+          "name": "David Santos Daiber",
+          "number": 47,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/david-santos-daiber"
+        },
+        {
+          "id": "maycon-douglas-cardozo",
+          "name": "Maycon Douglas Cardozo",
+          "number": 49,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/maycon-douglas-cardozo"
+        },
+        {
+          "id": "serge-gnabry",
+          "name": "Serge Gnabry",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/serge-gnabry"
+        },
+        {
+          "id": "harry-kane",
+          "name": "Harry Kane",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/harry-kane"
+        },
+        {
+          "id": "luis-diaz",
+          "name": "Luis Díaz",
+          "number": 14,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/luis-diaz"
+        },
+        {
+          "id": "michael-olise",
+          "name": "Michael Olise",
+          "number": 17,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/michael-olise"
+        },
+        {
+          "id": "bastian-assomo",
+          "name": "Bastian Assomo",
+          "number": 33,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/bastian-assomo"
+        }
+      ]
+    },
+    {
+      "club": "Borussia Dortmund",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/borussia-dortmund",
+      "sourceSha256": "f45bdcf1bac3a4f28c6a810924cc19f1b4b32631b4e0b93eadb5a87a589a1689",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "gregor-kobel",
+          "name": "Gregor Kobel",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/gregor-kobel"
+        },
+        {
+          "id": "patrick-drewes",
+          "name": "Patrick Drewes",
+          "number": 30,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/patrick-drewes"
+        },
+        {
+          "id": "silas-ostrzinski",
+          "name": "Silas Ostrzinski",
+          "number": 31,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/silas-ostrzinski"
+        },
+        {
+          "id": "alexander-meyer",
+          "name": "Alexander Meyer",
+          "number": 33,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/alexander-meyer"
+        },
+        {
+          "id": "waldemar-anton",
+          "name": "Waldemar Anton",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/waldemar-anton"
+        },
+        {
+          "id": "nico-schlotterbeck",
+          "name": "Nico Schlotterbeck",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nico-schlotterbeck"
+        },
+        {
+          "id": "ramy-bensebaini",
+          "name": "Ramy Bensebaini",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ramy-bensebaini"
+        },
+        {
+          "id": "joane-gadou",
+          "name": "Joane Gadou",
+          "number": 22,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/joane-gadou"
+        },
+        {
+          "id": "daniel-svensson",
+          "name": "Daniel Svensson",
+          "number": 24,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/daniel-svensson"
+        },
+        {
+          "id": "julian-ryerson",
+          "name": "Julian Ryerson",
+          "number": 26,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/julian-ryerson"
+        },
+        {
+          "id": "kaua-prates",
+          "name": "Kauã Prates",
+          "number": 36,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/kaua-prates"
+        },
+        {
+          "id": "filippo-mane",
+          "name": "Filippo Mane",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/filippo-mane"
+        },
+        {
+          "id": "luca-reggiani",
+          "name": "Luca Reggiani",
+          "number": 49,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luca-reggiani"
+        },
+        {
+          "id": "jobe-bellingham",
+          "name": "Jobe Bellingham",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jobe-bellingham"
+        },
+        {
+          "id": "felix-nmecha",
+          "name": "Felix Nmecha",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/felix-nmecha"
+        },
+        {
+          "id": "carney-chukwuemeka",
+          "name": "Carney Chukwuemeka",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/carney-chukwuemeka"
+        },
+        {
+          "id": "ethan-nwaneri",
+          "name": "Ethan Nwaneri",
+          "number": 18,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ethan-nwaneri"
+        },
+        {
+          "id": "konstantinos-karetsas",
+          "name": "Konstantinos Karetsas",
+          "number": 19,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/konstantinos-karetsas"
+        },
+        {
+          "id": "marcel-sabitzer",
+          "name": "Marcel Sabitzer",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/marcel-sabitzer"
+        },
+        {
+          "id": "emre-can",
+          "name": "Emre Can",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/emre-can"
+        },
+        {
+          "id": "joey-veerman",
+          "name": "Joey Veerman",
+          "number": 25,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/joey-veerman"
+        },
+        {
+          "id": "justin-lerma",
+          "name": "Justin Lerma",
+          "number": 28,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/justin-lerma"
+        },
+        {
+          "id": "enzo-dos-santos",
+          "name": "Enzo dos Santos",
+          "number": 44,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/enzo-dos-santos"
+        },
+        {
+          "id": "giannis-konstantelias",
+          "name": "Giannis Konstantelias",
+          "number": 45,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/giannis-konstantelias"
+        },
+        {
+          "id": "mussa-kaba",
+          "name": "Mussa Kaba",
+          "number": 48,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mussa-kaba"
+        },
+        {
+          "id": "serhou-guirassy",
+          "name": "Serhou Guirassy",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/serhou-guirassy"
+        },
+        {
+          "id": "maximilian-beier",
+          "name": "Maximilian Beier",
+          "number": 14,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/maximilian-beier"
+        },
+        {
+          "id": "fabio-silva",
+          "name": "Fabio Silva",
+          "number": 21,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/fabio-silva"
+        },
+        {
+          "id": "samuele-inacio",
+          "name": "Samuele Inácio",
+          "number": 40,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/samuele-inacio"
+        },
+        {
+          "id": "mathis-albert",
+          "name": "Mathis Albert",
+          "number": 41,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/mathis-albert"
+        }
+      ]
+    },
+    {
+      "club": "RB Leipzig",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/rb-leipzig",
+      "sourceSha256": "49dbdcc9f1ed0cbece8a3ffb628462f695d5e9cfb22c2a395d899049b27ba983",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "orjan-nyland",
+          "name": "Ørjan Nyland",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/orjan-nyland"
+        },
+        {
+          "id": "leopold-zingerle",
+          "name": "Leopold Zingerle",
+          "number": 25,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/leopold-zingerle"
+        },
+        {
+          "id": "maarten-vandevoordt",
+          "name": "Maarten Vandevoordt",
+          "number": 26,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/maarten-vandevoordt"
+        },
+        {
+          "id": "abdoul-kone",
+          "name": "Abdoul Koné",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/abdoul-kone"
+        },
+        {
+          "id": "maxime-esteve",
+          "name": "Maxime Estève",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/maxime-esteve"
+        },
+        {
+          "id": "willi-orban",
+          "name": "Willi Orbán",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/willi-orban"
+        },
+        {
+          "id": "lukas-klostermann",
+          "name": "Lukas Klostermann",
+          "number": 16,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lukas-klostermann"
+        },
+        {
+          "id": "david-raum",
+          "name": "David Raum",
+          "number": 22,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/david-raum"
+        },
+        {
+          "id": "castello-lukeba",
+          "name": "Castello Lukeba",
+          "number": 23,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/castello-lukeba"
+        },
+        {
+          "id": "max-finkgrafe",
+          "name": "Max Finkgräfe",
+          "number": 35,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/max-finkgrafe"
+        },
+        {
+          "id": "benjamin-henrichs",
+          "name": "Benjamin Henrichs",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/benjamin-henrichs"
+        },
+        {
+          "id": "ezechiel-banzuzi",
+          "name": "Ezechiel Banzuzi",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ezechiel-banzuzi"
+        },
+        {
+          "id": "assan-ouedraogo",
+          "name": "Assan Ouédraogo",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/assan-ouedraogo"
+        },
+        {
+          "id": "brajan-gruda",
+          "name": "Brajan Gruda",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/brajan-gruda"
+        },
+        {
+          "id": "nicolas-seiwald",
+          "name": "Nicolas Seiwald",
+          "number": 13,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nicolas-seiwald"
+        },
+        {
+          "id": "christoph-baumgartner",
+          "name": "Christoph Baumgartner",
+          "number": 14,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/christoph-baumgartner"
+        },
+        {
+          "id": "ridle-baku",
+          "name": "Ridle Baku",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ridle-baku"
+        },
+        {
+          "id": "rocco-reitz",
+          "name": "Rocco Reitz",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/rocco-reitz"
+        },
+        {
+          "id": "neil-el-aynaoui",
+          "name": "Neil El Aynaoui",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/neil-el-aynaoui"
+        },
+        {
+          "id": "andrija-maksimovic",
+          "name": "Andrija Maksimović",
+          "number": 30,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/andrija-maksimovic"
+        },
+        {
+          "id": "benno-kaltefleiter",
+          "name": "Benno Kaltefleiter",
+          "number": 37,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/benno-kaltefleiter"
+        },
+        {
+          "id": "viggo-gebel",
+          "name": "Viggo Gebel",
+          "number": 47,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/viggo-gebel"
+        },
+        {
+          "id": "antonio-nusa",
+          "name": "Antonio Nusa",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/antonio-nusa"
+        },
+        {
+          "id": "marc-guiu",
+          "name": "Marc Guiu",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/marc-guiu"
+        },
+        {
+          "id": "johan-bakayoko",
+          "name": "Johan Bakayoko",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/johan-bakayoko"
+        },
+        {
+          "id": "tidiam-gomis",
+          "name": "Tidiam Gomis",
+          "number": 27,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/tidiam-gomis"
+        },
+        {
+          "id": "christopher-nkunku",
+          "name": "Christopher Nkunku",
+          "number": 28,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/christopher-nkunku"
+        },
+        {
+          "id": "romulo",
+          "name": "Rômulo",
+          "number": 40,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/romulo"
+        },
+        {
+          "id": "samba-konate",
+          "name": "Samba Konaté",
+          "number": 45,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/samba-konate"
+        }
+      ]
+    },
+    {
+      "club": "VfB Stuttgart",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/vfb-stuttgart",
+      "sourceSha256": "5df37a2bdfaaf597b6c47dc5800e42520726f2bb28a8992f73b7f6e8e2655939",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "fabian-bredlow",
+          "name": "Fabian Bredlow",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/fabian-bredlow"
+        },
+        {
+          "id": "marius-funk",
+          "name": "Marius Funk",
+          "number": 33,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/marius-funk"
+        },
+        {
+          "id": "dennis-seimen",
+          "name": "Dennis Seimen",
+          "number": 41,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/dennis-seimen"
+        },
+        {
+          "id": "stefan-drljaca",
+          "name": "Stefan Drljača",
+          "number": 46,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/stefan-drljaca"
+        },
+        {
+          "id": "ameen-al-dakhil",
+          "name": "Ameen Al-Dakhil",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ameen-al-dakhil"
+        },
+        {
+          "id": "ramon-hendriks",
+          "name": "Ramon Hendriks",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ramon-hendriks"
+        },
+        {
+          "id": "josha-vagnoman",
+          "name": "Josha Vagnoman",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/josha-vagnoman"
+        },
+        {
+          "id": "maximilian-mittelstadt",
+          "name": "Maximilian Mittelstädt",
+          "number": 7,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/maximilian-mittelstadt"
+        },
+        {
+          "id": "luca-jaquez",
+          "name": "Luca Jaquez",
+          "number": 14,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luca-jaquez"
+        },
+        {
+          "id": "leonidas-stergiou",
+          "name": "Leonidas Stergiou",
+          "number": 20,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/leonidas-stergiou"
+        },
+        {
+          "id": "lorenz-assignon",
+          "name": "Lorenz Assignon",
+          "number": 22,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lorenz-assignon"
+        },
+        {
+          "id": "dan-axel-zagadou",
+          "name": "Dan-Axel Zagadou",
+          "number": 23,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/dan-axel-zagadou"
+        },
+        {
+          "id": "jeff-chabot",
+          "name": "Jeff Chabot",
+          "number": 24,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jeff-chabot"
+        },
+        {
+          "id": "finn-jeltsch",
+          "name": "Finn Jeltsch",
+          "number": 29,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/finn-jeltsch"
+        },
+        {
+          "id": "alexander-grois",
+          "name": "Alexander Groiß",
+          "number": 58,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/alexander-grois"
+        },
+        {
+          "id": "dominik-nothnagel",
+          "name": "Dominik Nothnagel",
+          "number": 59,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/dominik-nothnagel"
+        },
+        {
+          "id": "angelo-stiller",
+          "name": "Angelo Stiller",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/angelo-stiller"
+        },
+        {
+          "id": "chris-fuhrich",
+          "name": "Chris Führich",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/chris-fuhrich"
+        },
+        {
+          "id": "bilal-el-khannouss",
+          "name": "Bilal El Khannouss",
+          "number": 11,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/bilal-el-khannouss"
+        },
+        {
+          "id": "atakan-karazor",
+          "name": "Atakan Karazor",
+          "number": 16,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/atakan-karazor"
+        },
+        {
+          "id": "grischa-promel",
+          "name": "Grischa Prömel",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/grischa-promel"
+        },
+        {
+          "id": "nikolas-nartey",
+          "name": "Nikolas Nartey",
+          "number": 28,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nikolas-nartey"
+        },
+        {
+          "id": "ertugrul-yigit",
+          "name": "Ertugrul Yigit",
+          "number": 39,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ertugrul-yigit"
+        },
+        {
+          "id": "jarzinho-malanga",
+          "name": "Jarzinho Malanga",
+          "number": 43,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jarzinho-malanga"
+        },
+        {
+          "id": "yanik-spalt",
+          "name": "Yanik Spalt",
+          "number": 47,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/yanik-spalt"
+        },
+        {
+          "id": "tiago-tomas",
+          "name": "Tiago Tomás",
+          "number": 8,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/tiago-tomas"
+        },
+        {
+          "id": "ermedin-demirovic",
+          "name": "Ermedin Demirović",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/ermedin-demirovic"
+        },
+        {
+          "id": "dzenan-pejcinovic",
+          "name": "Dženan Pejčinović",
+          "number": 17,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/dzenan-pejcinovic"
+        },
+        {
+          "id": "jamie-leweling",
+          "name": "Jamie Leweling",
+          "number": 18,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/jamie-leweling"
+        },
+        {
+          "id": "deniz-undav",
+          "name": "Deniz Undav",
+          "number": 26,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/deniz-undav"
+        },
+        {
+          "id": "justin-diehl",
+          "name": "Justin Diehl",
+          "number": 31,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/justin-diehl"
+        },
+        {
+          "id": "leo-sauer",
+          "name": "Leo Sauer",
+          "number": 44,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/leo-sauer"
+        }
+      ]
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/tsg-hoffenheim",
+      "sourceSha256": "6279a04ce2c4a5919743d602e266b6fb4c3ec67af97c3ecadca43c7b1e245acf",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "oliver-baumann",
+          "name": "Oliver Baumann",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/oliver-baumann"
+        },
+        {
+          "id": "lukas-petersson",
+          "name": "Lúkas Petersson",
+          "number": 36,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/lukas-petersson"
+        },
+        {
+          "id": "luca-philipp",
+          "name": "Luca Philipp",
+          "number": 37,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/luca-philipp"
+        },
+        {
+          "id": "robin-hranac",
+          "name": "Robin Hranáč",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/robin-hranac"
+        },
+        {
+          "id": "sean-dulic",
+          "name": "Sean Dulic",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/sean-dulic"
+        },
+        {
+          "id": "ozan-kabak",
+          "name": "Ozan Kabak",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ozan-kabak"
+        },
+        {
+          "id": "bernardo",
+          "name": "Bernardo",
+          "number": 13,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/bernardo"
+        },
+        {
+          "id": "valentin-gendrey",
+          "name": "Valentin Gendrey",
+          "number": 15,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/valentin-gendrey"
+        },
+        {
+          "id": "albian-hajdari",
+          "name": "Albian Hajdari",
+          "number": 21,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/albian-hajdari"
+        },
+        {
+          "id": "koki-machida",
+          "name": "Kōki Machida",
+          "number": 28,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/koki-machida"
+        },
+        {
+          "id": "natnael-abraha",
+          "name": "Natnael Abraha",
+          "number": 29,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/natnael-abraha"
+        },
+        {
+          "id": "vladimir-coufal",
+          "name": "Vladimír Coufal",
+          "number": 34,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/vladimir-coufal"
+        },
+        {
+          "id": "mats-rots",
+          "name": "Mats Rots",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/mats-rots"
+        },
+        {
+          "id": "tristan-spranger",
+          "name": "Tristan Spranger",
+          "number": 40,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tristan-spranger"
+        },
+        {
+          "id": "leon-avdullahu",
+          "name": "Leon Avdullahu",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/leon-avdullahu"
+        },
+        {
+          "id": "patrick-wimmer",
+          "name": "Patrick Wimmer",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/patrick-wimmer"
+        },
+        {
+          "id": "luis-engelns",
+          "name": "Luis Engelns",
+          "number": 16,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/luis-engelns"
+        },
+        {
+          "id": "nathan-de-cat",
+          "name": "Nathan De Cat",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nathan-de-cat"
+        },
+        {
+          "id": "wouter-burger",
+          "name": "Wouter Burger",
+          "number": 18,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/wouter-burger"
+        },
+        {
+          "id": "bambase-conte",
+          "name": "Bambasé Conté",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/bambase-conte"
+        },
+        {
+          "id": "alexander-prass",
+          "name": "Alexander Prass",
+          "number": 22,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/alexander-prass"
+        },
+        {
+          "id": "andrej-kramaric",
+          "name": "Andrej Kramarić",
+          "number": 27,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/andrej-kramaric"
+        },
+        {
+          "id": "cajetan-lenz",
+          "name": "Cajetan Lenz",
+          "number": 32,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/cajetan-lenz"
+        },
+        {
+          "id": "max-moerstedt",
+          "name": "Max Moerstedt",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/max-moerstedt"
+        },
+        {
+          "id": "adam-hlozek",
+          "name": "Adam Hložek",
+          "number": 10,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/adam-hlozek"
+        },
+        {
+          "id": "fisnik-asllani",
+          "name": "Fisnik Asllani",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/fisnik-asllani"
+        },
+        {
+          "id": "adam-daghim",
+          "name": "Adam Daghim",
+          "number": 14,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/adam-daghim"
+        },
+        {
+          "id": "tim-lemperle",
+          "name": "Tim Lemperle",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/tim-lemperle"
+        }
+      ]
+    },
+    {
+      "club": "Bayer Leverkusen",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/bayer-04-leverkusen",
+      "sourceSha256": "6dc669a4812eac4c19a6318283a6b435cfccdc3e335ed9da2cdf9fecbbb879a7",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "mark-flekken",
+          "name": "Mark Flekken",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/mark-flekken"
+        },
+        {
+          "id": "janis-blaswich",
+          "name": "Janis Blaswich",
+          "number": 28,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/janis-blaswich"
+        },
+        {
+          "id": "niklas-lomb",
+          "name": "Niklas Lomb",
+          "number": 36,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/niklas-lomb"
+        },
+        {
+          "id": "facundo-medina",
+          "name": "Facundo Medina",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/facundo-medina"
+        },
+        {
+          "id": "miguel-gutierrez",
+          "name": "Miguel Gutiérrez",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/miguel-gutierrez"
+        },
+        {
+          "id": "jarell-quansah",
+          "name": "Jarell Quansah",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jarell-quansah"
+        },
+        {
+          "id": "loic-bade",
+          "name": "Loïc Badé",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/loic-bade"
+        },
+        {
+          "id": "edmond-tapsoba",
+          "name": "Edmond Tapsoba",
+          "number": 12,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/edmond-tapsoba"
+        },
+        {
+          "id": "tim-oermann",
+          "name": "Tim Oermann",
+          "number": 15,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tim-oermann"
+        },
+        {
+          "id": "lucas-vazquez",
+          "name": "Lucas Vázquez",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lucas-vazquez"
+        },
+        {
+          "id": "guela-doue",
+          "name": "Guéla Doué",
+          "number": 20,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/guela-doue"
+        },
+        {
+          "id": "ezequiel-fernandez",
+          "name": "Ezequiel Fernández",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ezequiel-fernandez"
+        },
+        {
+          "id": "jonas-hofmann",
+          "name": "Jonas Hofmann",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jonas-hofmann"
+        },
+        {
+          "id": "robert-andrich",
+          "name": "Robert Andrich",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/robert-andrich"
+        },
+        {
+          "id": "malik-tillman",
+          "name": "Malik Tillman",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/malik-tillman"
+        },
+        {
+          "id": "kennet-eichhorn",
+          "name": "Kennet Eichhorn",
+          "number": 18,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kennet-eichhorn"
+        },
+        {
+          "id": "aleix-garcia",
+          "name": "Aleix García",
+          "number": 24,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/aleix-garcia"
+        },
+        {
+          "id": "ibrahim-maza",
+          "name": "Ibrahim Maza",
+          "number": 30,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ibrahim-maza"
+        },
+        {
+          "id": "afonso-moreira",
+          "name": "Afonso Moreira",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/afonso-moreira"
+        },
+        {
+          "id": "martin-terrier",
+          "name": "Martin Terrier",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/martin-terrier"
+        },
+        {
+          "id": "patrik-schick",
+          "name": "Patrik Schick",
+          "number": 14,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/patrik-schick"
+        },
+        {
+          "id": "moussa-diaby",
+          "name": "Moussa Diaby",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/moussa-diaby"
+        },
+        {
+          "id": "victor-boniface",
+          "name": "Victor Boniface",
+          "number": 22,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/victor-boniface"
+        },
+        {
+          "id": "nathan-tella",
+          "name": "Nathan Tella",
+          "number": 23,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/nathan-tella"
+        },
+        {
+          "id": "eliesse-ben-seghir",
+          "name": "Eliesse Ben Seghir",
+          "number": 29,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/eliesse-ben-seghir"
+        },
+        {
+          "id": "christian-kofane",
+          "name": "Christian Kofane",
+          "number": 35,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/christian-kofane"
+        },
+        {
+          "id": "montrell-culbreath",
+          "name": "Montrell Culbreath",
+          "number": 42,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/montrell-culbreath"
+        }
+      ]
+    },
+    {
+      "club": "SC Freiburg",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/sport-club-freiburg",
+      "sourceSha256": "9b9ed7cc88a5c1b0025d146fdbfc3d1703661c1ba27c147b6f82d663899fe4d8",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "mio-backhaus",
+          "name": "Mio Backhaus",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/mio-backhaus"
+        },
+        {
+          "id": "florian-muller",
+          "name": "Florian Müller",
+          "number": 21,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/florian-muller"
+        },
+        {
+          "id": "jannik-huth",
+          "name": "Jannik Huth",
+          "number": 24,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/jannik-huth"
+        },
+        {
+          "id": "philipp-lienhart",
+          "name": "Philipp Lienhart",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/philipp-lienhart"
+        },
+        {
+          "id": "anthony-jung",
+          "name": "Anthony Jung",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/anthony-jung"
+        },
+        {
+          "id": "lukas-kubler",
+          "name": "Lukas Kübler",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lukas-kubler"
+        },
+        {
+          "id": "berkay-yilmaz",
+          "name": "Berkay Yilmaz",
+          "number": 27,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/berkay-yilmaz"
+        },
+        {
+          "id": "matthias-ginter",
+          "name": "Matthias Ginter",
+          "number": 28,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/matthias-ginter"
+        },
+        {
+          "id": "philipp-treu",
+          "name": "Philipp Treu",
+          "number": 29,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/philipp-treu"
+        },
+        {
+          "id": "christian-gunter",
+          "name": "Christian Günter",
+          "number": 30,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/christian-gunter"
+        },
+        {
+          "id": "jordy-makengo",
+          "name": "Jordy Makengo",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jordy-makengo"
+        },
+        {
+          "id": "max-rosenfelder",
+          "name": "Max Rosenfelder",
+          "number": 37,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/max-rosenfelder"
+        },
+        {
+          "id": "bruno-ogbus",
+          "name": "Bruno Ogbus",
+          "number": 43,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/bruno-ogbus"
+        },
+        {
+          "id": "patrick-osterhage",
+          "name": "Patrick Osterhage",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/patrick-osterhage"
+        },
+        {
+          "id": "maximilian-eggestein",
+          "name": "Maximilian Eggestein",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/maximilian-eggestein"
+        },
+        {
+          "id": "yuito-suzuki",
+          "name": "Yuito Suzuki",
+          "number": 14,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/yuito-suzuki"
+        },
+        {
+          "id": "yannik-engelhardt",
+          "name": "Yannik Engelhardt",
+          "number": 16,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/yannik-engelhardt"
+        },
+        {
+          "id": "niklas-beste",
+          "name": "Niklas Beste",
+          "number": 19,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/niklas-beste"
+        },
+        {
+          "id": "rihito-yamamoto",
+          "name": "Rihito Yamamoto",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/rihito-yamamoto"
+        },
+        {
+          "id": "florent-muslija",
+          "name": "Florent Muslija",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/florent-muslija"
+        },
+        {
+          "id": "vincenzo-grifo",
+          "name": "Vincenzo Grifo",
+          "number": 32,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/vincenzo-grifo"
+        },
+        {
+          "id": "rouven-tarnutzer",
+          "name": "Rouven Tarnutzer",
+          "number": 39,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/rouven-tarnutzer"
+        },
+        {
+          "id": "derry-scherhant",
+          "name": "Derry Scherhant",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/derry-scherhant"
+        },
+        {
+          "id": "lucas-holer",
+          "name": "Lucas Höler",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/lucas-holer"
+        },
+        {
+          "id": "cyriaque-irie",
+          "name": "Cyriaque Irié",
+          "number": 22,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/cyriaque-irie"
+        },
+        {
+          "id": "igor-matanovic",
+          "name": "Igor Matanović",
+          "number": 31,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/igor-matanovic"
+        },
+        {
+          "id": "keisuke-goto",
+          "name": "Keisuke Gotō",
+          "number": 42,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/keisuke-goto"
+        }
+      ]
+    },
+    {
+      "club": "Eintracht Frankfurt",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/eintracht-frankfurt",
+      "sourceSha256": "f56f2477e190989c487cf668e3472325523a36404a33c737be6916c16f55fabf",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "noah-atubolu",
+          "name": "Noah Atubolu",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/noah-atubolu"
+        },
+        {
+          "id": "jens-grahl",
+          "name": "Jens Grahl",
+          "number": 33,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/jens-grahl"
+        },
+        {
+          "id": "amil-siljevic",
+          "name": "Amil Siljevic",
+          "number": 39,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/amil-siljevic"
+        },
+        {
+          "id": "kaua-santos",
+          "name": "Kauã Santos",
+          "number": 40,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/kaua-santos"
+        },
+        {
+          "id": "elias-baum",
+          "name": "Elias Baum",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/elias-baum"
+        },
+        {
+          "id": "lilian-brassier",
+          "name": "Lilian Brassier",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lilian-brassier"
+        },
+        {
+          "id": "robin-koch",
+          "name": "Robin Koch",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/robin-koch"
+        },
+        {
+          "id": "otavio",
+          "name": "Otávio",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/otavio"
+        },
+        {
+          "id": "keita-kosugi",
+          "name": "Keita Kosugi",
+          "number": 26,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/keita-kosugi"
+        },
+        {
+          "id": "nnamdi-collins",
+          "name": "Nnamdi Collins",
+          "number": 34,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nnamdi-collins"
+        },
+        {
+          "id": "julian-etse",
+          "name": "Julian Etse",
+          "number": 53,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/julian-etse"
+        },
+        {
+          "id": "oscar-hojlund",
+          "name": "Oscar Højlund",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/oscar-hojlund"
+        },
+        {
+          "id": "fares-chaibi",
+          "name": "Farès Chaïbi",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/fares-chaibi"
+        },
+        {
+          "id": "noell-aseko",
+          "name": "Noëll Aséko",
+          "number": 15,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/noell-aseko"
+        },
+        {
+          "id": "ritsu-doan",
+          "name": "Ritsu Dōan",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ritsu-doan"
+        },
+        {
+          "id": "timothy-chandler",
+          "name": "Timothy Chandler",
+          "number": 22,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/timothy-chandler"
+        },
+        {
+          "id": "raphael-onyedika",
+          "name": "Raphael Onyedika",
+          "number": 25,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/raphael-onyedika"
+        },
+        {
+          "id": "mario-gotze",
+          "name": "Mario Götze",
+          "number": 27,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mario-gotze"
+        },
+        {
+          "id": "love-arrhov",
+          "name": "Love Arrhov",
+          "number": 31,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/love-arrhov"
+        },
+        {
+          "id": "jeremiaha-maluze",
+          "name": "Jeremiaha Maluze",
+          "number": 37,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jeremiaha-maluze"
+        },
+        {
+          "id": "can-uzun",
+          "name": "Can Uzun",
+          "number": 42,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/can-uzun"
+        },
+        {
+          "id": "ansgar-knauff",
+          "name": "Ansgar Knauff",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/ansgar-knauff"
+        },
+        {
+          "id": "jonathan-burkardt",
+          "name": "Jonathan Burkardt",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/jonathan-burkardt"
+        },
+        {
+          "id": "younes-ebnoutalib",
+          "name": "Younes Ebnoutalib",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/younes-ebnoutalib"
+        },
+        {
+          "id": "ayoube-amaimouni-echghouyab",
+          "name": "Ayoube Amaimouni-Echghouyab",
+          "number": 29,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/ayoube-amaimouni-echghouyab"
+        },
+        {
+          "id": "malik-pimpong",
+          "name": "Malik Pimpong",
+          "number": 35,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/malik-pimpong"
+        },
+        {
+          "id": "jessic-ngankam",
+          "name": "Jessic Ngankam",
+          "number": 44,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/jessic-ngankam"
+        }
+      ]
+    },
+    {
+      "club": "FC Augsburg",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/fc-augsburg",
+      "sourceSha256": "1223f87c657f1f03a9560511fb6c013c019be3372d6dd9b2025d1589689eb09d",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "finn-dahmen",
+          "name": "Finn Dahmen",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/finn-dahmen"
+        },
+        {
+          "id": "nediljko-labrovic",
+          "name": "Nediljko Labrović",
+          "number": 22,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/nediljko-labrovic"
+        },
+        {
+          "id": "tom-wisbereit",
+          "name": "Tom Wisbereit",
+          "number": 48,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/tom-wisbereit"
+        },
+        {
+          "id": "calvin-brackelmann",
+          "name": "Calvin Brackelmann",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/calvin-brackelmann"
+        },
+        {
+          "id": "chrislain-matsima",
+          "name": "Chrislain Matsima",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/chrislain-matsima"
+        },
+        {
+          "id": "jeffrey-gouweleeuw",
+          "name": "Jeffrey Gouweleeuw",
+          "number": 6,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jeffrey-gouweleeuw"
+        },
+        {
+          "id": "youngwoo-seol",
+          "name": "Youngwoo Seol",
+          "number": 7,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/youngwoo-seol"
+        },
+        {
+          "id": "hennes-behrens",
+          "name": "Hennes Behrens",
+          "number": 16,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/hennes-behrens"
+        },
+        {
+          "id": "marius-wolf",
+          "name": "Marius Wolf",
+          "number": 27,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/marius-wolf"
+        },
+        {
+          "id": "juma-bah",
+          "name": "Juma Bah",
+          "number": 35,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/juma-bah"
+        },
+        {
+          "id": "noahkai-banks",
+          "name": "Noahkai Banks",
+          "number": 40,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/noahkai-banks"
+        },
+        {
+          "id": "han-noah-massengo",
+          "name": "Han-Noah Massengo",
+          "number": 4,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/han-noah-massengo"
+        },
+        {
+          "id": "sima-suso",
+          "name": "Sima Suso",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/sima-suso"
+        },
+        {
+          "id": "mert-komur",
+          "name": "Mert Kömür",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mert-komur"
+        },
+        {
+          "id": "yannik-keitel",
+          "name": "Yannik Keitel",
+          "number": 14,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/yannik-keitel"
+        },
+        {
+          "id": "tim-breithaupt",
+          "name": "Tim Breithaupt",
+          "number": 18,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tim-breithaupt"
+        },
+        {
+          "id": "robin-fellhauer",
+          "name": "Robin Fellhauer",
+          "number": 19,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/robin-fellhauer"
+        },
+        {
+          "id": "alexis-claude-maurice",
+          "name": "Alexis Claude-Maurice",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/alexis-claude-maurice"
+        },
+        {
+          "id": "arijon-ibrahimovic",
+          "name": "Arijon Ibrahimović",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/arijon-ibrahimovic"
+        },
+        {
+          "id": "faik-sakar",
+          "name": "Faik Sakar",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/faik-sakar"
+        },
+        {
+          "id": "anton-kade",
+          "name": "Anton Kade",
+          "number": 30,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/anton-kade"
+        },
+        {
+          "id": "fabian-rieder",
+          "name": "Fabian Rieder",
+          "number": 32,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/fabian-rieder"
+        },
+        {
+          "id": "tim-schnitzer",
+          "name": "Tim Schnitzer",
+          "number": 37,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tim-schnitzer"
+        },
+        {
+          "id": "mahmut-kucuksahin",
+          "name": "Mahmut Küçükşahin",
+          "number": 42,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mahmut-kucuksahin"
+        },
+        {
+          "id": "rodrigo-ribeiro",
+          "name": "Rodrigo Ribeiro",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/rodrigo-ribeiro"
+        },
+        {
+          "id": "michael-gregoritsch",
+          "name": "Michael Gregoritsch",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/michael-gregoritsch"
+        },
+        {
+          "id": "steve-mounie",
+          "name": "Steve Mounié",
+          "number": 15,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/steve-mounie"
+        },
+        {
+          "id": "uchenna-ogundu",
+          "name": "Uchenna Ogundu",
+          "number": 39,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/uchenna-ogundu"
+        }
+      ]
+    },
+    {
+      "club": "Mainz 05",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/1-fsv-mainz-05",
+      "sourceSha256": "07a04757dcea9448aeae60e6504bf896ed26f54ed871a1dfe0d17d654be77b4e",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "alexander-schwolow",
+          "name": "Alexander Schwolow",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/alexander-schwolow"
+        },
+        {
+          "id": "robin-zentner",
+          "name": "Robin Zentner",
+          "number": 27,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/robin-zentner"
+        },
+        {
+          "id": "maximilian-kinzig",
+          "name": "Maximilian Kinzig",
+          "number": 40,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/maximilian-kinzig"
+        },
+        {
+          "id": "phillipp-mwene",
+          "name": "Phillipp Mwene",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/phillipp-mwene"
+        },
+        {
+          "id": "fabio-gruber",
+          "name": "Fabio Gruber",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/fabio-gruber"
+        },
+        {
+          "id": "stefan-posch",
+          "name": "Stefan Posch",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/stefan-posch"
+        },
+        {
+          "id": "eric-martel",
+          "name": "Eric Martel",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/eric-martel"
+        },
+        {
+          "id": "stefan-bell",
+          "name": "Stefan Bell",
+          "number": 16,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/stefan-bell"
+        },
+        {
+          "id": "anthony-caci",
+          "name": "Anthony Caci",
+          "number": 19,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/anthony-caci"
+        },
+        {
+          "id": "danny-da-costa",
+          "name": "Danny da Costa",
+          "number": 21,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/danny-da-costa"
+        },
+        {
+          "id": "silvan-widmer",
+          "name": "Silvan Widmer",
+          "number": 30,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/silvan-widmer"
+        },
+        {
+          "id": "dominik-kohr",
+          "name": "Dominik Kohr",
+          "number": 31,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/dominik-kohr"
+        },
+        {
+          "id": "rael-nakuzola",
+          "name": "Rael Nakuzola",
+          "number": 47,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/rael-nakuzola"
+        },
+        {
+          "id": "kacper-potulski",
+          "name": "Kacper Potulski",
+          "number": 48,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/kacper-potulski"
+        },
+        {
+          "id": "kaishu-sano",
+          "name": "Kaishu Sano",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kaishu-sano"
+        },
+        {
+          "id": "jaesung-lee",
+          "name": "Jaesung Lee",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jaesung-lee"
+        },
+        {
+          "id": "paul-nebel",
+          "name": "Paul Nebel",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/paul-nebel"
+        },
+        {
+          "id": "nadiem-amiri",
+          "name": "Nadiem Amiri",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nadiem-amiri"
+        },
+        {
+          "id": "lennard-maloney",
+          "name": "Lennard Maloney",
+          "number": 15,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/lennard-maloney"
+        },
+        {
+          "id": "otto-ruoppi",
+          "name": "Otto Ruoppi",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/otto-ruoppi"
+        },
+        {
+          "id": "sota-kawasaki",
+          "name": "Sota Kawasaki",
+          "number": 24,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/sota-kawasaki"
+        },
+        {
+          "id": "phillip-tietz",
+          "name": "Phillip Tietz",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/phillip-tietz"
+        },
+        {
+          "id": "ransford-yeboah-konigsdorffer",
+          "name": "Ransford-Yeboah Königsdörffer",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/ransford-yeboah-konigsdorffer"
+        },
+        {
+          "id": "benedict-hollerbach",
+          "name": "Benedict Hollerbach",
+          "number": 17,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/benedict-hollerbach"
+        },
+        {
+          "id": "sheraldo-becker",
+          "name": "Sheraldo Becker",
+          "number": 23,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/sheraldo-becker"
+        },
+        {
+          "id": "silas-katompa-mvumpa",
+          "name": "Silas Katompa Mvumpa",
+          "number": 26,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/silas-katompa-mvumpa"
+        },
+        {
+          "id": "alynho-haidara",
+          "name": "Alynho Haïdara",
+          "number": 39,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/alynho-haidara"
+        }
+      ]
+    },
+    {
+      "club": "Union Berlin",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/1-fc-union-berlin",
+      "sourceSha256": "bae1181df0085a9cb64ccfdb0fec8848c8db2fd8a41e82b3dc91a561f1436ccf",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "frederik-ronnow",
+          "name": "Frederik Rønnow",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/frederik-ronnow"
+        },
+        {
+          "id": "carl-klaus",
+          "name": "Carl Klaus",
+          "number": 25,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/carl-klaus"
+        },
+        {
+          "id": "matheo-raab",
+          "name": "Matheo Raab",
+          "number": 31,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/matheo-raab"
+        },
+        {
+          "id": "fritz-gagzow",
+          "name": "Fritz Gagzow",
+          "number": 48,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/fritz-gagzow"
+        },
+        {
+          "id": "felix-uduokhai",
+          "name": "Felix Uduokhai",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/felix-uduokhai"
+        },
+        {
+          "id": "andrik-markgraf",
+          "name": "Andrik Markgraf",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/andrik-markgraf"
+        },
+        {
+          "id": "zeno-van-den-bosch",
+          "name": "Zeno van den Bosch",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/zeno-van-den-bosch"
+        },
+        {
+          "id": "marvin-friedrich",
+          "name": "Marvin Friedrich",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/marvin-friedrich"
+        },
+        {
+          "id": "leopold-querfeld",
+          "name": "Leopold Querfeld",
+          "number": 14,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/leopold-querfeld"
+        },
+        {
+          "id": "tom-rothe",
+          "name": "Tom Rothe",
+          "number": 15,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tom-rothe"
+        },
+        {
+          "id": "derrick-kohn",
+          "name": "Derrick Köhn",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/derrick-kohn"
+        },
+        {
+          "id": "josip-juranovic",
+          "name": "Josip Juranović",
+          "number": 18,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/josip-juranovic"
+        },
+        {
+          "id": "christopher-trimmel",
+          "name": "Christopher Trimmel",
+          "number": 28,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/christopher-trimmel"
+        },
+        {
+          "id": "stanley-nsoki",
+          "name": "Stanley Nsoki",
+          "number": 34,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/stanley-nsoki"
+        },
+        {
+          "id": "aljoscha-kemlein",
+          "name": "Aljoscha Kemlein",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/aljoscha-kemlein"
+        },
+        {
+          "id": "rani-khedira",
+          "name": "Rani Khedira",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/rani-khedira"
+        },
+        {
+          "id": "woo-yeong-jeong",
+          "name": "Woo-yeong Jeong",
+          "number": 11,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/woo-yeong-jeong"
+        },
+        {
+          "id": "andras-schafer",
+          "name": "András Schäfer",
+          "number": 13,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/andras-schafer"
+        },
+        {
+          "id": "janik-haberer",
+          "name": "Janik Haberer",
+          "number": 19,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/janik-haberer"
+        },
+        {
+          "id": "michel-aebischer",
+          "name": "Michel Aebischer",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/michel-aebischer"
+        },
+        {
+          "id": "tim-skarke",
+          "name": "Tim Skarke",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tim-skarke"
+        },
+        {
+          "id": "robert-skov",
+          "name": "Robert Skov",
+          "number": 24,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/robert-skov"
+        },
+        {
+          "id": "kastriot-imeri",
+          "name": "Kastriot Imeri",
+          "number": 30,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kastriot-imeri"
+        },
+        {
+          "id": "duje-sliskovic",
+          "name": "Duje Slišković",
+          "number": 43,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/duje-sliskovic"
+        },
+        {
+          "id": "linus-guther",
+          "name": "Linus Güther",
+          "number": 49,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/linus-guther"
+        },
+        {
+          "id": "oliver-burke",
+          "name": "Oliver Burke",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/oliver-burke"
+        },
+        {
+          "id": "livan-burcu",
+          "name": "Livan Burcu",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/livan-burcu"
+        },
+        {
+          "id": "andrej-ilic",
+          "name": "Andrej Ilić",
+          "number": 23,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/andrej-ilic"
+        },
+        {
+          "id": "marin-ljubicic",
+          "name": "Marin Ljubičić",
+          "number": 27,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/marin-ljubicic"
+        },
+        {
+          "id": "emmanuel-latte-lath",
+          "name": "Emmanuel Latte Lath",
+          "number": 29,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/emmanuel-latte-lath"
+        },
+        {
+          "id": "mekhi-gray",
+          "name": "Mekhi Gray",
+          "number": 32,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/mekhi-gray"
+        },
+        {
+          "id": "julien-friedrich",
+          "name": "Julien Friedrich",
+          "number": 38,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/julien-friedrich"
+        }
+      ]
+    },
+    {
+      "club": "Borussia Mönchengladbach",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/borussia-moenchengladbach",
+      "sourceSha256": "892ea9481b01a4c3a0c351a629ff7d65744ee1a6486cabba80bc14ac8b27dad6",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "moritz-nicolas",
+          "name": "Moritz Nicolas",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/moritz-nicolas"
+        },
+        {
+          "id": "tobias-sippel",
+          "name": "Tobias Sippel",
+          "number": 21,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/tobias-sippel"
+        },
+        {
+          "id": "jan-olschowsky",
+          "name": "Jan Olschowsky",
+          "number": 23,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/jan-olschowsky"
+        },
+        {
+          "id": "daniel-batz",
+          "name": "Daniel Batz",
+          "number": 33,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/daniel-batz"
+        },
+        {
+          "id": "fabio-chiarodia",
+          "name": "Fabio Chiarodia",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/fabio-chiarodia"
+        },
+        {
+          "id": "kevin-diks",
+          "name": "Kevin Diks",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/kevin-diks"
+        },
+        {
+          "id": "jan-leszczynski",
+          "name": "Jan Leszczyński",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jan-leszczynski"
+        },
+        {
+          "id": "ko-itakura",
+          "name": "Kō Itakura",
+          "number": 6,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ko-itakura"
+        },
+        {
+          "id": "daiki-hashioka",
+          "name": "Daiki Hashioka",
+          "number": 14,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/daiki-hashioka"
+        },
+        {
+          "id": "david-herold",
+          "name": "David Herold",
+          "number": 20,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/david-herold"
+        },
+        {
+          "id": "yukhym-konoplya",
+          "name": "Yukhym Konoplya",
+          "number": 22,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/yukhym-konoplya"
+        },
+        {
+          "id": "lukas-ullrich",
+          "name": "Lukas Ullrich",
+          "number": 26,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lukas-ullrich"
+        },
+        {
+          "id": "joe-scally",
+          "name": "Joe Scally",
+          "number": 29,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/joe-scally"
+        },
+        {
+          "id": "kevin-stoger",
+          "name": "Kevin Stöger",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kevin-stoger"
+        },
+        {
+          "id": "enzo-leopold",
+          "name": "Enzo Leopold",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/enzo-leopold"
+        },
+        {
+          "id": "franck-honorat",
+          "name": "Franck Honorat",
+          "number": 9,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/franck-honorat"
+        },
+        {
+          "id": "florian-neuhaus",
+          "name": "Florian Neuhaus",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/florian-neuhaus"
+        },
+        {
+          "id": "philipp-sander",
+          "name": "Philipp Sander",
+          "number": 16,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/philipp-sander"
+        },
+        {
+          "id": "jens-castrop",
+          "name": "Jens Castrop",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jens-castrop"
+        },
+        {
+          "id": "nicolas-kuhn",
+          "name": "Nicolas Kühn",
+          "number": 19,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nicolas-kuhn"
+        },
+        {
+          "id": "robin-hack",
+          "name": "Robin Hack",
+          "number": 25,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/robin-hack"
+        },
+        {
+          "id": "fritz-fleck",
+          "name": "Fritz Fleck",
+          "number": 27,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/fritz-fleck"
+        },
+        {
+          "id": "mathieu-nguefack",
+          "name": "Mathieu Nguefack",
+          "number": 34,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mathieu-nguefack"
+        },
+        {
+          "id": "wael-mohya",
+          "name": "Wael Mohya",
+          "number": 36,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/wael-mohya"
+        },
+        {
+          "id": "hugo-bolin",
+          "name": "Hugo Bolin",
+          "number": 38,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/hugo-bolin"
+        },
+        {
+          "id": "zento-uno",
+          "name": "Zento Uno",
+          "number": 47,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/zento-uno"
+        },
+        {
+          "id": "isac-lidberg",
+          "name": "Isac Lidberg",
+          "number": 3,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/isac-lidberg"
+        },
+        {
+          "id": "tim-kleindienst",
+          "name": "Tim Kleindienst",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/tim-kleindienst"
+        },
+        {
+          "id": "shuto-machino",
+          "name": "Shūto Machino",
+          "number": 18,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/shuto-machino"
+        },
+        {
+          "id": "iaia-manco-danfa",
+          "name": "Iaia Manco Danfa",
+          "number": 39,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/iaia-manco-danfa"
+        }
+      ]
+    },
+    {
+      "club": "Hamburger SV",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/hamburger-sv",
+      "sourceSha256": "11e83dd73c44ce11140f83cdff26d47b2eed9d926394c8de7a98f93cab1f6436",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "daniel-heuer-fernandes",
+          "name": "Daniel Heuer Fernandes",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/daniel-heuer-fernandes"
+        },
+        {
+          "id": "sander-tangvik",
+          "name": "Sander Tangvik",
+          "number": 12,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/sander-tangvik"
+        },
+        {
+          "id": "elias-lahti",
+          "name": "Elias Lahti",
+          "number": 40,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/elias-lahti"
+        },
+        {
+          "id": "fernando-dickes",
+          "name": "Fernando Dickes",
+          "number": 41,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/fernando-dickes"
+        },
+        {
+          "id": "david-moller-wolfe",
+          "name": "David Møller Wolfe",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/david-moller-wolfe"
+        },
+        {
+          "id": "zakaria-el-ouahdi",
+          "name": "Zakaria El Ouahdi",
+          "number": 7,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/zakaria-el-ouahdi"
+        },
+        {
+          "id": "warmed-omari",
+          "name": "Warmed Omari",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/warmed-omari"
+        },
+        {
+          "id": "jordan-torunarigha",
+          "name": "Jordan Torunarigha",
+          "number": 23,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jordan-torunarigha"
+        },
+        {
+          "id": "nicolas-capaldo",
+          "name": "Nicolás Capaldo",
+          "number": 24,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nicolas-capaldo"
+        },
+        {
+          "id": "miro-muheim",
+          "name": "Miro Muheim",
+          "number": 28,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/miro-muheim"
+        },
+        {
+          "id": "sebastiaan-bornauw",
+          "name": "Sebastiaan Bornauw",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/sebastiaan-bornauw"
+        },
+        {
+          "id": "louis-lemke",
+          "name": "Louis Lemke",
+          "number": 37,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/louis-lemke"
+        },
+        {
+          "id": "joel-agyekum",
+          "name": "Joel Agyekum",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/joel-agyekum"
+        },
+        {
+          "id": "shafiq-nandja",
+          "name": "Shafiq Nandja",
+          "number": 43,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/shafiq-nandja"
+        },
+        {
+          "id": "jason-bissi-mouelle",
+          "name": "Jason Bissi-Mouelle",
+          "number": 48,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jason-bissi-mouelle"
+        },
+        {
+          "id": "bilal-nadir",
+          "name": "Bilal Nadir",
+          "number": 4,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/bilal-nadir"
+        },
+        {
+          "id": "martin-adeline",
+          "name": "Martin Adeline",
+          "number": 5,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/martin-adeline"
+        },
+        {
+          "id": "albert-sambi-lokonga",
+          "name": "Albert Sambi Lokonga",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/albert-sambi-lokonga"
+        },
+        {
+          "id": "immanuel-pherai",
+          "name": "Immanuël Pherai",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/immanuel-pherai"
+        },
+        {
+          "id": "albert-gronbaek",
+          "name": "Albert Grønbæk",
+          "number": 11,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/albert-gronbaek"
+        },
+        {
+          "id": "fabio-vieira",
+          "name": "Fábio Vieira",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/fabio-vieira"
+        },
+        {
+          "id": "nicolai-remberg",
+          "name": "Nicolai Remberg",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/nicolai-remberg"
+        },
+        {
+          "id": "kofi-amoako",
+          "name": "Kofi Amoako",
+          "number": 22,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kofi-amoako"
+        },
+        {
+          "id": "kelvin-ojo",
+          "name": "Kelvin Ojo",
+          "number": 46,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/kelvin-ojo"
+        },
+        {
+          "id": "terem-moffi",
+          "name": "Terem Moffi",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/terem-moffi"
+        },
+        {
+          "id": "yussuf-poulsen",
+          "name": "Yussuf Poulsen",
+          "number": 15,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/yussuf-poulsen"
+        },
+        {
+          "id": "bakery-jatta",
+          "name": "Bakery Jatta",
+          "number": 18,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/bakery-jatta"
+        },
+        {
+          "id": "otto-stange",
+          "name": "Otto Stange",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/otto-stange"
+        },
+        {
+          "id": "patson-daka",
+          "name": "Patson Daka",
+          "number": 27,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/patson-daka"
+        },
+        {
+          "id": "alexander-rossing-lelesiit",
+          "name": "Alexander Røssing-Lelesiit",
+          "number": 38,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/alexander-rossing-lelesiit"
+        }
+      ]
+    },
+    {
+      "club": "1. FC Köln",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/1-fc-koeln",
+      "sourceSha256": "9c5a053426fdc449b7e8ddd8f3cea3abafc7c9fc2218d67ca347760243dc143d",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "marvin-schwabe",
+          "name": "Marvin Schwäbe",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/marvin-schwabe"
+        },
+        {
+          "id": "ron-robert-zieler",
+          "name": "Ron-Robert Zieler",
+          "number": 20,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/ron-robert-zieler"
+        },
+        {
+          "id": "martin-james",
+          "name": "Martin James",
+          "number": 21,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/martin-james"
+        },
+        {
+          "id": "matthias-kobbing",
+          "name": "Matthias Köbbing",
+          "number": 44,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/matthias-kobbing"
+        },
+        {
+          "id": "joel-schmied",
+          "name": "Joël Schmied",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/joel-schmied"
+        },
+        {
+          "id": "borna-sosa",
+          "name": "Borna Sosa",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/borna-sosa"
+        },
+        {
+          "id": "timo-hubers",
+          "name": "Timo Hübers",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/timo-hubers"
+        },
+        {
+          "id": "gideon-mensah",
+          "name": "Gideon Mensah",
+          "number": 14,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/gideon-mensah"
+        },
+        {
+          "id": "jahmai-simpson-pusey",
+          "name": "Jahmai Simpson-Pusey",
+          "number": 22,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jahmai-simpson-pusey"
+        },
+        {
+          "id": "luka-lochoshvili",
+          "name": "Luka Lochoshvili",
+          "number": 24,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luka-lochoshvili"
+        },
+        {
+          "id": "sebastian-sebulonsen",
+          "name": "Sebastian Sebulonsen",
+          "number": 28,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/sebastian-sebulonsen"
+        },
+        {
+          "id": "rav-van-den-berg",
+          "name": "Rav van den Berg",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/rav-van-den-berg"
+        },
+        {
+          "id": "jonathan-friemel",
+          "name": "Jonathan Friemel",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jonathan-friemel"
+        },
+        {
+          "id": "tom-kraus",
+          "name": "Tom Krauß",
+          "number": 5,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tom-kraus"
+        },
+        {
+          "id": "ellyes-skhiri",
+          "name": "Ellyes Skhiri",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ellyes-skhiri"
+        },
+        {
+          "id": "isak-johannesson",
+          "name": "Ísak Jóhannesson",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/isak-johannesson"
+        },
+        {
+          "id": "said-el-mala",
+          "name": "Saïd El Mala",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/said-el-mala"
+        },
+        {
+          "id": "reigan-heskey",
+          "name": "Reigan Heskey",
+          "number": 11,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/reigan-heskey"
+        },
+        {
+          "id": "alessio-castro-montes",
+          "name": "Alessio Castro-Montes",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/alessio-castro-montes"
+        },
+        {
+          "id": "paul-okon-engstler",
+          "name": "Paul Okon-Engstler",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/paul-okon-engstler"
+        },
+        {
+          "id": "jan-thielmann",
+          "name": "Jan Thielmann",
+          "number": 29,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jan-thielmann"
+        },
+        {
+          "id": "gil-neves",
+          "name": "Gil Neves",
+          "number": 31,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/gil-neves"
+        },
+        {
+          "id": "fayssal-harchaoui",
+          "name": "Fayssal Harchaoui",
+          "number": 34,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/fayssal-harchaoui"
+        },
+        {
+          "id": "linton-maina",
+          "name": "Linton Maina",
+          "number": 37,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/linton-maina"
+        },
+        {
+          "id": "luca-waldschmidt",
+          "name": "Luca Waldschmidt",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/luca-waldschmidt"
+        },
+        {
+          "id": "ragnar-ache",
+          "name": "Ragnar Ache",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/ragnar-ache"
+        },
+        {
+          "id": "imad-rondic",
+          "name": "Imad Rondić",
+          "number": 15,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/imad-rondic"
+        },
+        {
+          "id": "malek-el-mala",
+          "name": "Malek El Mala",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/malek-el-mala"
+        },
+        {
+          "id": "thijs-dallinga",
+          "name": "Thijs Dallinga",
+          "number": 27,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/thijs-dallinga"
+        },
+        {
+          "id": "marius-bulter",
+          "name": "Marius Bülter",
+          "number": 30,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/marius-bulter"
+        },
+        {
+          "id": "mikey-moore",
+          "name": "Mikey Moore",
+          "number": 47,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/mikey-moore"
+        }
+      ]
+    },
+    {
+      "club": "Werder Bremen",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/sv-werder-bremen",
+      "sourceSha256": "10738125be85a05476e3d797952e08f280b8a0a4f64d5e662ae3ca439b3f5023",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "karl-hein",
+          "name": "Karl Hein",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/karl-hein"
+        },
+        {
+          "id": "markus-kolke",
+          "name": "Markus Kolke",
+          "number": 25,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/markus-kolke"
+        },
+        {
+          "id": "alexander-schlager",
+          "name": "Alexander Schlager",
+          "number": 30,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/alexander-schlager"
+        },
+        {
+          "id": "stefan-smarkalev",
+          "name": "Stefan Smarkalev",
+          "number": 37,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/stefan-smarkalev"
+        },
+        {
+          "id": "olivier-deman",
+          "name": "Olivier Deman",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/olivier-deman"
+        },
+        {
+          "id": "oskar-wojcik",
+          "name": "Oskar Wójcik",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/oskar-wojcik"
+        },
+        {
+          "id": "niklas-stark",
+          "name": "Niklas Stark",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/niklas-stark"
+        },
+        {
+          "id": "amos-pieper",
+          "name": "Amos Pieper",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/amos-pieper"
+        },
+        {
+          "id": "mitchell-weiser",
+          "name": "Mitchell Weiser",
+          "number": 8,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/mitchell-weiser"
+        },
+        {
+          "id": "arthur-2",
+          "name": "Arthur",
+          "number": 13,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/arthur-2"
+        },
+        {
+          "id": "moussa-ndiaye",
+          "name": "Moussa Ndiaye",
+          "number": 16,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/moussa-ndiaye"
+        },
+        {
+          "id": "felix-agu",
+          "name": "Felix Agu",
+          "number": 27,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/felix-agu"
+        },
+        {
+          "id": "marco-friedl",
+          "name": "Marco Friedl",
+          "number": 32,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/marco-friedl"
+        },
+        {
+          "id": "mick-schmetgens",
+          "name": "Mick Schmetgens",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/mick-schmetgens"
+        },
+        {
+          "id": "luca-hocker",
+          "name": "Luca Höcker",
+          "number": 35,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luca-hocker"
+        },
+        {
+          "id": "mats-heitmann",
+          "name": "Mats Heitmann",
+          "number": 36,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/mats-heitmann"
+        },
+        {
+          "id": "ramiz-hamouda",
+          "name": "Ramiz Hamouda",
+          "number": 40,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ramiz-hamouda"
+        },
+        {
+          "id": "jens-stage",
+          "name": "Jens Stage",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/jens-stage"
+        },
+        {
+          "id": "senne-lynen",
+          "name": "Senne Lynen",
+          "number": 14,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/senne-lynen"
+        },
+        {
+          "id": "ludovit-reis",
+          "name": "Ludovit Reis",
+          "number": 15,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ludovit-reis"
+        },
+        {
+          "id": "eren-dinkci",
+          "name": "Eren Dinkçi",
+          "number": 18,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/eren-dinkci"
+        },
+        {
+          "id": "chuki",
+          "name": "Chuki",
+          "number": 20,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/chuki"
+        },
+        {
+          "id": "dariusz-stalmach",
+          "name": "Dariusz Stalmach",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/dariusz-stalmach"
+        },
+        {
+          "id": "skelly-alvero",
+          "name": "Skelly Alvero",
+          "number": 28,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/skelly-alvero"
+        },
+        {
+          "id": "darwin-soylu",
+          "name": "Darwin Soylu",
+          "number": 34,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/darwin-soylu"
+        },
+        {
+          "id": "arian-romers",
+          "name": "Arian Römers",
+          "number": 42,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/arian-romers"
+        },
+        {
+          "id": "youri-regeer",
+          "name": "Youri Regeer",
+          "number": 44,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/youri-regeer"
+        },
+        {
+          "id": "keke-topp",
+          "name": "Keke Topp",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/keke-topp"
+        },
+        {
+          "id": "niclas-fullkrug",
+          "name": "Niclas Füllkrug",
+          "number": 10,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/niclas-fullkrug"
+        },
+        {
+          "id": "justin-njinmah",
+          "name": "Justin Njinmah",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/justin-njinmah"
+        },
+        {
+          "id": "marco-grull",
+          "name": "Marco Grüll",
+          "number": 17,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/marco-grull"
+        },
+        {
+          "id": "kenny-emmanuel-quetant",
+          "name": "Kenny Emmanuel Quetant",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/kenny-emmanuel-quetant"
+        },
+        {
+          "id": "dawid-kownacki",
+          "name": "Dawid Kownacki",
+          "number": 21,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/dawid-kownacki"
+        },
+        {
+          "id": "cedric-itten",
+          "name": "Cedric Itten",
+          "number": 26,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/cedric-itten"
+        },
+        {
+          "id": "salim-musah",
+          "name": "Salim Musah",
+          "number": 29,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/salim-musah"
+        },
+        {
+          "id": "paul-erevbenagie",
+          "name": "Paul Erevbenagie",
+          "number": 38,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/paul-erevbenagie"
+        },
+        {
+          "id": "karlo-mijo",
+          "name": "Karlo Mijo",
+          "number": 41,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/karlo-mijo"
+        }
+      ]
+    },
+    {
+      "club": "Schalke 04",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/fc-schalke-04",
+      "sourceSha256": "f473b5591c74a44adb8a8e78d5f39fc8cc2ebf2881877e0830b19bf7d25042ec",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "loris-karius",
+          "name": "Loris Karius",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/loris-karius"
+        },
+        {
+          "id": "kevin-muller",
+          "name": "Kevin Müller",
+          "number": 22,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/kevin-muller"
+        },
+        {
+          "id": "johannes-siebeking",
+          "name": "Johannes Siebeking",
+          "number": 36,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/johannes-siebeking"
+        },
+        {
+          "id": "hasan-kurucay",
+          "name": "Hasan Kuruçay",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/hasan-kurucay"
+        },
+        {
+          "id": "timo-becker",
+          "name": "Timo Becker",
+          "number": 5,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/timo-becker"
+        },
+        {
+          "id": "robin-gosens",
+          "name": "Robin Gosens",
+          "number": 8,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/robin-gosens"
+        },
+        {
+          "id": "adrian-gantenbein",
+          "name": "Adrian Gantenbein",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/adrian-gantenbein"
+        },
+        {
+          "id": "nikola-katic",
+          "name": "Nikola Katić",
+          "number": 25,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nikola-katic"
+        },
+        {
+          "id": "tomas-kalas",
+          "name": "Tomáš Kalas",
+          "number": 26,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tomas-kalas"
+        },
+        {
+          "id": "anton-donkor",
+          "name": "Anton Donkor",
+          "number": 30,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/anton-donkor"
+        },
+        {
+          "id": "vitalie-becker",
+          "name": "Vitalie Becker",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/vitalie-becker"
+        },
+        {
+          "id": "maximilian-wober",
+          "name": "Maximilian Wöber",
+          "number": 39,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/maximilian-wober"
+        },
+        {
+          "id": "mertcan-ayhan",
+          "name": "Mertcan Ayhan",
+          "number": 43,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/mertcan-ayhan"
+        },
+        {
+          "id": "ron-schallenberg",
+          "name": "Ron Schallenberg",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/ron-schallenberg"
+        },
+        {
+          "id": "satoshi-tanaka",
+          "name": "Satoshi Tanaka",
+          "number": 13,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/satoshi-tanaka"
+        },
+        {
+          "id": "janik-bachmann",
+          "name": "Janik Bachmann",
+          "number": 14,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/janik-bachmann"
+        },
+        {
+          "id": "dejan-ljubicic",
+          "name": "Dejan Ljubičić",
+          "number": 21,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/dejan-ljubicic"
+        },
+        {
+          "id": "soufiane-el-faouzi",
+          "name": "Soufiane El-Faouzi",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/soufiane-el-faouzi"
+        },
+        {
+          "id": "adil-aouchiche",
+          "name": "Adil Aouchiche",
+          "number": 24,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/adil-aouchiche"
+        },
+        {
+          "id": "finn-porath",
+          "name": "Finn Porath",
+          "number": 27,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/finn-porath"
+        },
+        {
+          "id": "junior-dina-ebimbe",
+          "name": "Junior Dina Ebimbe",
+          "number": 29,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/junior-dina-ebimbe"
+        },
+        {
+          "id": "max-gruger",
+          "name": "Max Grüger",
+          "number": 37,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/max-gruger"
+        },
+        {
+          "id": "luca-vozar",
+          "name": "Luca Vozar",
+          "number": 38,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/luca-vozar"
+        },
+        {
+          "id": "hee-chan-hwang",
+          "name": "Hee Chan Hwang",
+          "number": 7,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/hee-chan-hwang"
+        },
+        {
+          "id": "moussa-sylla",
+          "name": "Moussa Sylla",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/moussa-sylla"
+        },
+        {
+          "id": "edin-dzeko",
+          "name": "Edin Džeko",
+          "number": 10,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/edin-dzeko"
+        },
+        {
+          "id": "bryan-lasme",
+          "name": "Bryan Lasme",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/bryan-lasme"
+        },
+        {
+          "id": "emil-hojlund",
+          "name": "Emil Højlund",
+          "number": 15,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/emil-hojlund"
+        },
+        {
+          "id": "kenan-karaman",
+          "name": "Kenan Karaman",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/kenan-karaman"
+        },
+        {
+          "id": "junior-adamu",
+          "name": "Junior Adamu",
+          "number": 20,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/junior-adamu"
+        },
+        {
+          "id": "zaid-tchibara",
+          "name": "Zaid Tchibara",
+          "number": 47,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/zaid-tchibara"
+        }
+      ]
+    },
+    {
+      "club": "SV Elversberg",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/sv-elversberg",
+      "sourceSha256": "6ba014100e57ffafadbda560d2793848d9b381af88feeb454e18ec425594ea80",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "frank-lehmann",
+          "name": "Frank Lehmann",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/frank-lehmann"
+        },
+        {
+          "id": "elias-etringer",
+          "name": "Elias Etringer",
+          "number": 12,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/elias-etringer"
+        },
+        {
+          "id": "nicolas-kristof",
+          "name": "Nicolas Kristof",
+          "number": 20,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/nicolas-kristof"
+        },
+        {
+          "id": "tim-boss",
+          "name": "Tim Boss",
+          "number": 28,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/tim-boss"
+        },
+        {
+          "id": "nicholas-mickelson",
+          "name": "Nicholas Mickelson",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nicholas-mickelson"
+        },
+        {
+          "id": "florian-le-joncour",
+          "name": "Florian Le Joncour",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/florian-le-joncour"
+        },
+        {
+          "id": "luis-seifert",
+          "name": "Luis Seifert",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luis-seifert"
+        },
+        {
+          "id": "lukas-pinckert",
+          "name": "Lukas Pinckert",
+          "number": 19,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lukas-pinckert"
+        },
+        {
+          "id": "lasse-gunther",
+          "name": "Lasse Günther",
+          "number": 21,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/lasse-gunther"
+        },
+        {
+          "id": "luca-sirch",
+          "name": "Luca Sirch",
+          "number": 26,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/luca-sirch"
+        },
+        {
+          "id": "jan-gyamerah",
+          "name": "Jan Gyamerah",
+          "number": 30,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jan-gyamerah"
+        },
+        {
+          "id": "maximilian-rohr",
+          "name": "Maximilian Rohr",
+          "number": 31,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/maximilian-rohr"
+        },
+        {
+          "id": "felix-keidel",
+          "name": "Felix Keidel",
+          "number": 43,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/felix-keidel"
+        },
+        {
+          "id": "amara-conde",
+          "name": "Amara Condé",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/amara-conde"
+        },
+        {
+          "id": "maurice-krattenmacher",
+          "name": "Maurice Krattenmacher",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/maurice-krattenmacher"
+        },
+        {
+          "id": "lukasz-poreba",
+          "name": "Łukasz Poręba",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/lukasz-poreba"
+        },
+        {
+          "id": "noah-darvich",
+          "name": "Noah Darvich",
+          "number": 10,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/noah-darvich"
+        },
+        {
+          "id": "raif-adam",
+          "name": "Raif Adam",
+          "number": 15,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/raif-adam"
+        },
+        {
+          "id": "frederik-schmahl",
+          "name": "Frederik Schmahl",
+          "number": 17,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/frederik-schmahl"
+        },
+        {
+          "id": "lukas-petkov",
+          "name": "Lukas Petkov",
+          "number": 25,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/lukas-petkov"
+        },
+        {
+          "id": "tom-zimmerschied",
+          "name": "Tom Zimmerschied",
+          "number": 29,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tom-zimmerschied"
+        },
+        {
+          "id": "francis-onyeka",
+          "name": "Francis Onyeka",
+          "number": 40,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/francis-onyeka"
+        },
+        {
+          "id": "noel-futkeu",
+          "name": "Noel Futkeu",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/noel-futkeu"
+        },
+        {
+          "id": "luca-pfeiffer",
+          "name": "Luca Pfeiffer",
+          "number": 16,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/luca-pfeiffer"
+        },
+        {
+          "id": "luca-schnellbacher",
+          "name": "Luca Schnellbacher",
+          "number": 24,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/luca-schnellbacher"
+        },
+        {
+          "id": "cole-campbell",
+          "name": "Cole Campbell",
+          "number": 39,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/cole-campbell"
+        },
+        {
+          "id": "david-mokwa",
+          "name": "David Mokwa",
+          "number": 42,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/david-mokwa"
+        }
+      ]
+    },
+    {
+      "club": "SC Paderborn",
+      "season": "2026/27",
+      "source": "https://www.bundesliga.com/en/bundesliga/clubs/sc-paderborn-07",
+      "sourceSha256": "4be23ad1a3c4d8d88d6aa56efb68017ba61de5a2982a9e250dadbeaeac4fd62b",
+      "retrievedAt": "2026-09-11",
+      "scope": "Players listed on the official Bundesliga club squad page; snapshot, not a complete registration guarantee.",
+      "independentReview": false,
+      "players": [
+        {
+          "id": "markus-schubert",
+          "name": "Markus Schubert",
+          "number": 1,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/markus-schubert"
+        },
+        {
+          "id": "nahuel-noll",
+          "name": "Nahuel Noll",
+          "number": 15,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/nahuel-noll"
+        },
+        {
+          "id": "florian-pruhs",
+          "name": "Florian Pruhs",
+          "number": 31,
+          "position": "Goalkeeper",
+          "source": "https://www.bundesliga.com/en/player/florian-pruhs"
+        },
+        {
+          "id": "ruben-muller",
+          "name": "Ruben Müller",
+          "number": 2,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/ruben-muller"
+        },
+        {
+          "id": "jonah-sticker",
+          "name": "Jonah Sticker",
+          "number": 3,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jonah-sticker"
+        },
+        {
+          "id": "nyamekye-awortwie-grant",
+          "name": "Nyamekye Awortwie-Grant",
+          "number": 4,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/nyamekye-awortwie-grant"
+        },
+        {
+          "id": "laurin-curda",
+          "name": "Laurin Curda",
+          "number": 17,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/laurin-curda"
+        },
+        {
+          "id": "felix-gotze",
+          "name": "Felix Götze",
+          "number": 20,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/felix-gotze"
+        },
+        {
+          "id": "jano-ter-horst",
+          "name": "Jano ter Horst",
+          "number": 21,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/jano-ter-horst"
+        },
+        {
+          "id": "niklas-mohr",
+          "name": "Niklas Mohr",
+          "number": 24,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/niklas-mohr"
+        },
+        {
+          "id": "tjark-scheller",
+          "name": "Tjark Scheller",
+          "number": 25,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tjark-scheller"
+        },
+        {
+          "id": "clemens-lippmann",
+          "name": "Clemens Lippmann",
+          "number": 29,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/clemens-lippmann"
+        },
+        {
+          "id": "marcel-hoffmeier",
+          "name": "Marcel Hoffmeier",
+          "number": 33,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/marcel-hoffmeier"
+        },
+        {
+          "id": "tristan-zobel",
+          "name": "Tristan Zobel",
+          "number": 46,
+          "position": "Defender",
+          "source": "https://www.bundesliga.com/en/player/tristan-zobel"
+        },
+        {
+          "id": "santiago-castaneda",
+          "name": "Santiago Castaneda",
+          "number": 5,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/santiago-castaneda"
+        },
+        {
+          "id": "tom-baack",
+          "name": "Tom Baack",
+          "number": 6,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/tom-baack"
+        },
+        {
+          "id": "oliver-batista-meier",
+          "name": "Oliver Batista Meier",
+          "number": 7,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/oliver-batista-meier"
+        },
+        {
+          "id": "luka-duric",
+          "name": "Luka Durić",
+          "number": 8,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/luka-duric"
+        },
+        {
+          "id": "mattes-hansen",
+          "name": "Mattes Hansen",
+          "number": 22,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/mattes-hansen"
+        },
+        {
+          "id": "raphael-obermair",
+          "name": "Raphael Obermair",
+          "number": 23,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/raphael-obermair"
+        },
+        {
+          "id": "sebastian-klaas",
+          "name": "Sebastian Klaas",
+          "number": 26,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/sebastian-klaas"
+        },
+        {
+          "id": "laurin-ulrich",
+          "name": "Laurin Ulrich",
+          "number": 28,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/laurin-ulrich"
+        },
+        {
+          "id": "gabriel-vidovic",
+          "name": "Gabriel Vidović",
+          "number": 40,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/gabriel-vidovic"
+        },
+        {
+          "id": "timur-gayret",
+          "name": "Timur Gayret",
+          "number": 44,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/timur-gayret"
+        },
+        {
+          "id": "vigo-wernet",
+          "name": "Vigo Wernet",
+          "number": 49,
+          "position": "Midfielder",
+          "source": "https://www.bundesliga.com/en/player/vigo-wernet"
+        },
+        {
+          "id": "rayan-philippe",
+          "name": "Rayan Philippe",
+          "number": 9,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/rayan-philippe"
+        },
+        {
+          "id": "sven-michel",
+          "name": "Sven Michel",
+          "number": 11,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/sven-michel"
+        },
+        {
+          "id": "marvin-pieringer",
+          "name": "Marvin Pieringer",
+          "number": 18,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/marvin-pieringer"
+        },
+        {
+          "id": "albert-millgramm",
+          "name": "Albert Millgramm",
+          "number": 19,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/albert-millgramm"
+        },
+        {
+          "id": "steffen-tigges",
+          "name": "Steffen Tigges",
+          "number": 27,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/steffen-tigges"
+        },
+        {
+          "id": "stefano-marino",
+          "name": "Stefano Marino",
+          "number": 30,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/stefano-marino"
+        },
+        {
+          "id": "lasse-eickel",
+          "name": "Lasse Eickel",
+          "number": 32,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/lasse-eickel"
+        },
+        {
+          "id": "deniz-zeitler",
+          "name": "Deniz Zeitler",
+          "number": 38,
+          "position": "Forward",
+          "source": "https://www.bundesliga.com/en/player/deniz-zeitler"
+        }
+      ]
+    }
+  ]
+}

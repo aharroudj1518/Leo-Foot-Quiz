@@ -1,0 +1,3322 @@
+[
+  {
+    "id": "ucl27-50129-story-1",
+    "prompt": "AEK broke new ground in Europe in 1977. How far did they go in the UEFA Cup?",
+    "answer": "Semi-finals",
+    "options": [
+      "Semi-finals",
+      "Final",
+      "Quarter-finals",
+      "Round of 16"
+    ],
+    "hint": "Only four clubs remained.",
+    "explanation": "AEK reached the UEFA Cup semi-finals in 1977.",
+    "source": "https://www.aekfc.gr/pages/history.aspx?lang=el",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50129",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50129-story-2",
+    "prompt": "Which trophy pair made 1978 a double-winning year for AEK?",
+    "answer": "Greek league and Greek Cup",
+    "options": [
+      "Greek league and Greek Cup",
+      "Greek Cup and UEFA Cup",
+      "Greek league and European Cup",
+      "UEFA Cup and Super Cup"
+    ],
+    "hint": "Both trophies were domestic.",
+    "explanation": "AEK followed their European run with the Greek league-and-cup double in 1978.",
+    "source": "https://www.aekfc.gr/pages/history.aspx?lang=el",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50129",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50129-story-3",
+    "prompt": "Which businessman took charge in 1974 before AEK’s late-1970s revival?",
+    "answer": "Loukas Barlos",
+    "options": [
+      "Loukas Barlos",
+      "Dimitris Melissanidis",
+      "Sokratis Kokkalis",
+      "Giannis Alafouzos"
+    ],
+    "hint": "His surname begins with B.",
+    "explanation": "Loukas Barlos took over in 1974 and backed the team’s transformation.",
+    "source": "https://www.aekfc.gr/pages/history.aspx?lang=el",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50129",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52683-story-1",
+    "prompt": "One finish made Villa European champions in 1982. Who supplied it?",
+    "answer": "Peter Withe",
+    "options": [
+      "Peter Withe",
+      "Gary Shaw",
+      "Tony Morley",
+      "Gordon Cowans"
+    ],
+    "hint": "Think of Villa’s centre-forward.",
+    "explanation": "Peter Withe scored the only goal of the 1982 European Cup final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52683",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52683-story-2",
+    "prompt": "Villa’s first European Cup campaign ended with the trophy. Which German club did they beat in the final?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Hamburg",
+      "Borussia Dortmund",
+      "Eintracht Frankfurt"
+    ],
+    "hint": "The opponents came from Bavaria.",
+    "explanation": "Villa defeated Bayern Munich 1–0 in the final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52683",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52683-story-3",
+    "prompt": "Villa fans conquered Europe in 1982 in which city?",
+    "answer": "Rotterdam",
+    "options": [
+      "Rotterdam",
+      "London",
+      "Paris",
+      "Rome"
+    ],
+    "hint": "De Kuip is the clue.",
+    "explanation": "The 1982 final was played at De Kuip in Rotterdam.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52683",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-aston-villa-story-1",
+    "prompt": "One finish made Villa European champions in 1982. Who supplied it?",
+    "answer": "Peter Withe",
+    "options": [
+      "Peter Withe",
+      "Gary Shaw",
+      "Tony Morley",
+      "Gordon Cowans"
+    ],
+    "hint": "Think of Villa’s centre-forward.",
+    "explanation": "Peter Withe scored the only goal of the 1982 European Cup final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-aston-villa",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-aston-villa-story-2",
+    "prompt": "Villa’s first European Cup campaign ended with the trophy. Which German club did they beat in the final?",
+    "answer": "Bayern Munich",
+    "options": [
+      "Bayern Munich",
+      "Hamburg",
+      "Borussia Dortmund",
+      "Eintracht Frankfurt"
+    ],
+    "hint": "The opponents came from Bavaria.",
+    "explanation": "Villa defeated Bayern Munich 1–0 in the final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-aston-villa",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-aston-villa-story-3",
+    "prompt": "Villa fans conquered Europe in 1982 in which city?",
+    "answer": "Rotterdam",
+    "options": [
+      "Rotterdam",
+      "London",
+      "Paris",
+      "Rome"
+    ],
+    "hint": "De Kuip is the clue.",
+    "explanation": "The 1982 final was played at De Kuip in Rotterdam.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b1e154752-f2cfb521c62d-1000--1981-82-withe-brings-villa-glory/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-aston-villa",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50124-story-1",
+    "prompt": "Two goals, including an extra-time winner: who was Atlético’s hero in the 2010 Europa League final?",
+    "answer": "Diego Forlán",
+    "options": [
+      "Diego Forlán",
+      "Sergio Agüero",
+      "Fernando Torres",
+      "Antoine Griezmann"
+    ],
+    "hint": "The striker represented Uruguay.",
+    "explanation": "Diego Forlán scored both Atlético goals in the 2–1 win.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50124",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50124-story-2",
+    "prompt": "Which London club stood between Atlético and the 2010 Europa League trophy?",
+    "answer": "Fulham",
+    "options": [
+      "Fulham",
+      "Chelsea",
+      "Arsenal",
+      "Tottenham Hotspur"
+    ],
+    "hint": "Their home is Craven Cottage.",
+    "explanation": "Atlético beat Fulham in the inaugural Europa League final.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50124",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50124-story-3",
+    "prompt": "Atlético’s 2010 European triumph ended a wait of how many years for major continental silverware?",
+    "answer": "48",
+    "options": [
+      "48",
+      "18",
+      "28",
+      "38"
+    ],
+    "hint": "The previous success was in 1962.",
+    "explanation": "The 2010 win ended a 48-year wait after the 1962 Cup Winners’ Cup.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50124",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-atletico-madrid-story-1",
+    "prompt": "Two goals, including an extra-time winner: who was Atlético’s hero in the 2010 Europa League final?",
+    "answer": "Diego Forlán",
+    "options": [
+      "Diego Forlán",
+      "Sergio Agüero",
+      "Fernando Torres",
+      "Antoine Griezmann"
+    ],
+    "hint": "The striker represented Uruguay.",
+    "explanation": "Diego Forlán scored both Atlético goals in the 2–1 win.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-atletico-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-atletico-madrid-story-2",
+    "prompt": "Which London club stood between Atlético and the 2010 Europa League trophy?",
+    "answer": "Fulham",
+    "options": [
+      "Fulham",
+      "Chelsea",
+      "Arsenal",
+      "Tottenham Hotspur"
+    ],
+    "hint": "Their home is Craven Cottage.",
+    "explanation": "Atlético beat Fulham in the inaugural Europa League final.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-atletico-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-atletico-madrid-story-3",
+    "prompt": "Atlético’s 2010 European triumph ended a wait of how many years for major continental silverware?",
+    "answer": "48",
+    "options": [
+      "48",
+      "18",
+      "28",
+      "38"
+    ],
+    "hint": "The previous success was in 1962.",
+    "explanation": "The 2010 win ended a 48-year wait after the 1962 Cup Winners’ Cup.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0250-0c50f4f42d9b-b99f75c54493-1000--forlan-double-gives-atletico-glory/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-atletico-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52758-story-1",
+    "prompt": "Off the bench, first touch, a chip over the keeper. Which Dortmund player did that in the 1997 final?",
+    "answer": "Lars Ricken",
+    "options": [
+      "Lars Ricken",
+      "Andreas Möller",
+      "Michael Zorc",
+      "Stéphane Chapuisat"
+    ],
+    "hint": "A local academy product with the initials LR.",
+    "explanation": "Lars Ricken scored Dortmund’s third goal moments after coming on.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52758",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52758-story-2",
+    "prompt": "Before Ricken’s chip, which striker had already scored twice for Dortmund in the 1997 final?",
+    "answer": "Karl-Heinz Riedle",
+    "options": [
+      "Karl-Heinz Riedle",
+      "Jan Koller",
+      "Márcio Amoroso",
+      "Stéphane Chapuisat"
+    ],
+    "hint": "His surname begins with R.",
+    "explanation": "Karl-Heinz Riedle scored twice in the first half against Juventus.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52758",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52758-story-3",
+    "prompt": "Who coached Dortmund to their first Champions League title in 1997?",
+    "answer": "Ottmar Hitzfeld",
+    "options": [
+      "Ottmar Hitzfeld",
+      "Jürgen Klopp",
+      "Thomas Tuchel",
+      "Matthias Sammer"
+    ],
+    "hint": "He later won the competition with Bayern too.",
+    "explanation": "Ottmar Hitzfeld’s Dortmund beat Juventus 3–1 in Munich.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52758",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-borussia-dortmund-story-1",
+    "prompt": "Off the bench, first touch, a chip over the keeper. Which Dortmund player did that in the 1997 final?",
+    "answer": "Lars Ricken",
+    "options": [
+      "Lars Ricken",
+      "Andreas Möller",
+      "Michael Zorc",
+      "Stéphane Chapuisat"
+    ],
+    "hint": "A local academy product with the initials LR.",
+    "explanation": "Lars Ricken scored Dortmund’s third goal moments after coming on.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-borussia-dortmund",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-borussia-dortmund-story-2",
+    "prompt": "Before Ricken’s chip, which striker had already scored twice for Dortmund in the 1997 final?",
+    "answer": "Karl-Heinz Riedle",
+    "options": [
+      "Karl-Heinz Riedle",
+      "Jan Koller",
+      "Márcio Amoroso",
+      "Stéphane Chapuisat"
+    ],
+    "hint": "His surname begins with R.",
+    "explanation": "Karl-Heinz Riedle scored twice in the first half against Juventus.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-borussia-dortmund",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-borussia-dortmund-story-3",
+    "prompt": "Who coached Dortmund to their first Champions League title in 1997?",
+    "answer": "Ottmar Hitzfeld",
+    "options": [
+      "Ottmar Hitzfeld",
+      "Jürgen Klopp",
+      "Thomas Tuchel",
+      "Matthias Sammer"
+    ],
+    "hint": "He later won the competition with Bayern too.",
+    "explanation": "Ottmar Hitzfeld’s Dortmund beat Juventus 3–1 in Munich.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0239-0e9729e32785-129364f01c3f-1000--20-years-on-dortmund-s-european-champions/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-borussia-dortmund",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50080-story-1",
+    "prompt": "A defender’s free-kick finally brought Barça the European Cup in 1992. Name him.",
+    "answer": "Ronald Koeman",
+    "options": [
+      "Ronald Koeman",
+      "Carles Puyol",
+      "Migueli",
+      "Albert Ferrer"
+    ],
+    "hint": "The Dutchman was famous for his powerful shooting.",
+    "explanation": "Ronald Koeman scored in extra time against Sampdoria.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50080",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50080-story-2",
+    "prompt": "Which former Barça player coached the 1992 European Cup-winning Dream Team?",
+    "answer": "Johan Cruyff",
+    "options": [
+      "Johan Cruyff",
+      "Pep Guardiola",
+      "Frank Rijkaard",
+      "Luis Enrique"
+    ],
+    "hint": "Total Football and the number 14 are clues.",
+    "explanation": "Johan Cruyff coached Barcelona to their first European Cup.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50080",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50080-story-3",
+    "prompt": "Barça’s first European Cup was won at which famous stadium?",
+    "answer": "Wembley",
+    "options": [
+      "Wembley",
+      "Camp Nou",
+      "San Siro",
+      "Hampden Park"
+    ],
+    "hint": "The final was played in London.",
+    "explanation": "Barcelona beat Sampdoria 1–0 at Wembley in 1992.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50080",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-barcelona-story-1",
+    "prompt": "A defender’s free-kick finally brought Barça the European Cup in 1992. Name him.",
+    "answer": "Ronald Koeman",
+    "options": [
+      "Ronald Koeman",
+      "Carles Puyol",
+      "Migueli",
+      "Albert Ferrer"
+    ],
+    "hint": "The Dutchman was famous for his powerful shooting.",
+    "explanation": "Ronald Koeman scored in extra time against Sampdoria.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-barcelona-story-2",
+    "prompt": "Which former Barça player coached the 1992 European Cup-winning Dream Team?",
+    "answer": "Johan Cruyff",
+    "options": [
+      "Johan Cruyff",
+      "Pep Guardiola",
+      "Frank Rijkaard",
+      "Luis Enrique"
+    ],
+    "hint": "Total Football and the number 14 are clues.",
+    "explanation": "Johan Cruyff coached Barcelona to their first European Cup.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-barcelona-story-3",
+    "prompt": "Barça’s first European Cup was won at which famous stadium?",
+    "answer": "Wembley",
+    "options": [
+      "Wembley",
+      "Camp Nou",
+      "San Siro",
+      "Hampden Park"
+    ],
+    "hint": "The final was played in London.",
+    "explanation": "Barcelona beat Sampdoria 1–0 at Wembley in 1992.",
+    "source": "https://www.fcbarcelona.com/en/news/1098924/20-may-1992-fc-barcelona-win-european-cup",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-barcelona",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-59333-story-1",
+    "prompt": "Bodø/Glimt stunned José Mourinho’s Roma in October 2021. What was the score?",
+    "answer": "6–1",
+    "options": [
+      "6–1",
+      "3–0",
+      "4–2",
+      "5–3"
+    ],
+    "hint": "Glimt scored half a dozen.",
+    "explanation": "Bodø/Glimt beat Roma 6–1 in the Conference League group stage.",
+    "source": "https://www.skysports.com/football/bodo-glimt-vs-roma/teams/457557",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-59333",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-59333-story-2",
+    "prompt": "Which Glimt striker scored in both halves of that 6–1 win over Roma?",
+    "answer": "Erik Botheim",
+    "options": [
+      "Erik Botheim",
+      "Victor Boniface",
+      "Kasper Høgh",
+      "Jens Petter Hauge"
+    ],
+    "hint": "His initials are EB.",
+    "explanation": "Erik Botheim scored in the eighth and 52nd minutes.",
+    "source": "https://www.skysports.com/football/bodo-glimt-vs-roma/teams/457557",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-59333",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-59333-story-3",
+    "prompt": "Which winger also scored twice for Glimt against Roma in that 2021 match?",
+    "answer": "Ola Solbakken",
+    "options": [
+      "Ola Solbakken",
+      "Patrick Berg",
+      "Amahl Pellegrino",
+      "Hugo Vetlesen"
+    ],
+    "hint": "His first name is Ola.",
+    "explanation": "Ola Solbakken scored Glimt’s fourth and sixth goals.",
+    "source": "https://www.skysports.com/football/bodo-glimt-vs-roma/teams/457557",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-59333",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50043-story-1",
+    "prompt": "Club Brugge reached the 1978 European Cup final. Which English club faced them?",
+    "answer": "Liverpool",
+    "options": [
+      "Liverpool",
+      "Nottingham Forest",
+      "Aston Villa",
+      "Leeds United"
+    ],
+    "hint": "The same opponents had beaten Brugge in the 1976 UEFA Cup final.",
+    "explanation": "Liverpool faced Club Brugge in both the 1976 UEFA Cup and 1978 European Cup finals.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0224-0e91681f7d73-40aa98506bea-1000--watch-when-club-brugge-fell-to-liverpool-at-wembley/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50043",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50043-story-2",
+    "prompt": "Which Austrian coach led Club Brugge to Wembley in 1978?",
+    "answer": "Ernst Happel",
+    "options": [
+      "Ernst Happel",
+      "Raymond Goethals",
+      "Guy Thys",
+      "Hugo Broos"
+    ],
+    "hint": "He had already won the European Cup with Feyenoord.",
+    "explanation": "Ernst Happel coached the 1978 finalists.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0224-0e91681f7d73-40aa98506bea-1000--watch-when-club-brugge-fell-to-liverpool-at-wembley/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50043",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50043-story-3",
+    "prompt": "Which future Belgium coach played in Club Brugge’s 1978 finalist squad?",
+    "answer": "René Vandereycken",
+    "options": [
+      "René Vandereycken",
+      "Marc Wilmots",
+      "Roberto Martínez",
+      "Domenico Tedesco"
+    ],
+    "hint": "His initials are RV.",
+    "explanation": "René Vandereycken was among the players in Happel’s Brugge side.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0224-0e91681f7d73-40aa98506bea-1000--watch-when-club-brugge-fell-to-liverpool-at-wembley/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50043",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-79946-story-1",
+    "prompt": "Como’s origin story includes a travelling show. Whose circus was involved in a 1906 match by the lake?",
+    "answer": "Buffalo Bill’s",
+    "options": [
+      "Buffalo Bill’s",
+      "Barnum’s",
+      "Cirque du Soleil",
+      "Moscow State Circus"
+    ],
+    "hint": "Think of an American Wild West show.",
+    "explanation": "The club history describes a game involving members of Buffalo Bill’s circus before Como was founded.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-79946",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-79946-story-2",
+    "prompt": "The number in Como 1907’s name marks what?",
+    "answer": "The club’s founding year",
+    "options": [
+      "The club’s founding year",
+      "The stadium’s capacity",
+      "A record goal total",
+      "The first promotion year"
+    ],
+    "hint": "It is a date, not a score.",
+    "explanation": "Como Football Club was founded in May 1907.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-79946",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-79946-story-3",
+    "prompt": "Which lakeside ground has been Como’s home since 1927?",
+    "answer": "Giuseppe Sinigaglia",
+    "options": [
+      "Giuseppe Sinigaglia",
+      "Giuseppe Meazza",
+      "Stadio Brianteo",
+      "Stadio Bentegodi"
+    ],
+    "hint": "It shares its first name with San Siro’s official name.",
+    "explanation": "The Giuseppe Sinigaglia stadium opened in 1927.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-79946",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-como-story-1",
+    "prompt": "Como’s origin story includes a travelling show. Whose circus was involved in a 1906 match by the lake?",
+    "answer": "Buffalo Bill’s",
+    "options": [
+      "Buffalo Bill’s",
+      "Barnum’s",
+      "Cirque du Soleil",
+      "Moscow State Circus"
+    ],
+    "hint": "Think of an American Wild West show.",
+    "explanation": "The club history describes a game involving members of Buffalo Bill’s circus before Como was founded.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-como",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-como-story-2",
+    "prompt": "The number in Como 1907’s name marks what?",
+    "answer": "The club’s founding year",
+    "options": [
+      "The club’s founding year",
+      "The stadium’s capacity",
+      "A record goal total",
+      "The first promotion year"
+    ],
+    "hint": "It is a date, not a score.",
+    "explanation": "Como Football Club was founded in May 1907.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-como",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-como-story-3",
+    "prompt": "Which lakeside ground has been Como’s home since 1927?",
+    "answer": "Giuseppe Sinigaglia",
+    "options": [
+      "Giuseppe Sinigaglia",
+      "Giuseppe Meazza",
+      "Stadio Brianteo",
+      "Stadio Bentegodi"
+    ],
+    "hint": "It shares its first name with San Siro’s official name.",
+    "explanation": "The Giuseppe Sinigaglia stadium opened in 1927.",
+    "source": "https://comofootball.com/en/history/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-como",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52692-story-1",
+    "prompt": "A Brazilian football icon coached Fenerbahçe in their 2008 Champions League quarter-final. Who?",
+    "answer": "Zico",
+    "options": [
+      "Zico",
+      "Sócrates",
+      "Dunga",
+      "Romário"
+    ],
+    "hint": "His nickname was the White Pelé.",
+    "explanation": "Zico coached Fenerbahçe against Chelsea in the 2008 quarter-finals.",
+    "source": "https://www.uefa.com/newsfiles/UCL/2008/301906_LU.pdf",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52692",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52692-story-2",
+    "prompt": "Which Brazilian playmaker wore Fenerbahçe’s number 20 against Chelsea in 2008?",
+    "answer": "Alex",
+    "options": [
+      "Alex",
+      "Diego",
+      "Kaká",
+      "Rivaldo"
+    ],
+    "hint": "He became an Istanbul club legend.",
+    "explanation": "Alex was listed with number 20 in that quarter-final side.",
+    "source": "https://www.uefa.com/newsfiles/UCL/2008/301906_LU.pdf",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52692",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52692-story-3",
+    "prompt": "Which goalkeeper was in Fenerbahçe’s starting side for the 2008 quarter-final first leg?",
+    "answer": "Volkan Demirel",
+    "options": [
+      "Volkan Demirel",
+      "Rüştü Reçber",
+      "Mert Günok",
+      "Altay Bayındır"
+    ],
+    "hint": "His first name is Volkan.",
+    "explanation": "Volkan Demirel started against Chelsea on 2 April 2008.",
+    "source": "https://www.uefa.com/newsfiles/UCL/2008/301906_LU.pdf",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52692",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52749-story-1",
+    "prompt": "An extra-time lob won Feyenoord the 1970 European Cup. Which Swedish striker scored it?",
+    "answer": "Ove Kindvall",
+    "options": [
+      "Ove Kindvall",
+      "Henrik Larsson",
+      "Zlatan Ibrahimović",
+      "John Guidetti"
+    ],
+    "hint": "His initials are OK.",
+    "explanation": "Ove Kindvall’s lob beat Celtic at San Siro.",
+    "source": "https://www.feyenoord.com/en/our-club/organisation/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52749",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52749-story-2",
+    "prompt": "Which free-kick specialist helped fire Feyenoord to the 2002 UEFA Cup?",
+    "answer": "Pierre van Hooijdonk",
+    "options": [
+      "Pierre van Hooijdonk",
+      "Robin van Persie",
+      "Dirk Kuyt",
+      "Roy Makaay"
+    ],
+    "hint": "Supporters called him Pi-Air.",
+    "explanation": "Pierre van Hooijdonk was central to Feyenoord’s 2002 triumph.",
+    "source": "https://www.feyenoord.com/en/our-club/organisation/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52749",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52749-story-3",
+    "prompt": "Which Feyenoord midfielder links the 1970 European Cup win with the 1974 UEFA Cup win?",
+    "answer": "Wim van Hanegem",
+    "options": [
+      "Wim van Hanegem",
+      "Giovanni van Bronckhorst",
+      "Ruud Gullit",
+      "Georginio Wijnaldum"
+    ],
+    "hint": "His surname begins with van H.",
+    "explanation": "Wim van Hanegem played a major part in both European successes.",
+    "source": "https://www.feyenoord.com/en/our-club/organisation/history",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52749",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-63405-story-1",
+    "prompt": "LASK’s historic double arrived in which year?",
+    "answer": "1965",
+    "options": [
+      "1965",
+      "1975",
+      "1985",
+      "1995"
+    ],
+    "hint": "It was in the middle of the 1960s.",
+    "explanation": "LASK won the Austrian championship and cup in 1965.",
+    "source": "https://www.lask.at/de/m/news/eine-zeitreise-mit-manfred-pichler-ins-historische-double-jahr-1965",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-63405",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-63405-story-2",
+    "prompt": "Two goals at Hohe Warte secured LASK’s 1965 title. Which pair scored them?",
+    "answer": "Dolfi Blutsch and Gyula Szabo",
+    "options": [
+      "Dolfi Blutsch and Gyula Szabo",
+      "Hans Krankl and Herbert Prohaska",
+      "Toni Polster and Andreas Herzog",
+      "Ivica Vastić and Mario Haas"
+    ],
+    "hint": "Think of the Linz heroes of the 1960s.",
+    "explanation": "Dolfi Blutsch and Gyula Szabo scored in the 2–0 victory over First Vienna.",
+    "source": "https://www.lask.at/de/m/news/eine-zeitreise-mit-manfred-pichler-ins-historische-double-jahr-1965",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-63405",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-63405-story-3",
+    "prompt": "LASK clinched the 1965 league title with a 2–0 win over which club?",
+    "answer": "First Vienna",
+    "options": [
+      "First Vienna",
+      "Rapid Vienna",
+      "Austria Vienna",
+      "Sturm Graz"
+    ],
+    "hint": "The match was at Hohe Warte.",
+    "explanation": "Goals from Dolfi Blutsch and Gyula Szabo beat Vienna at Hohe Warte.",
+    "source": "https://www.lask.at/de/m/news/eine-zeitreise-mit-manfred-pichler-ins-historische-double-jahr-1965",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-63405",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2603790-story-1",
+    "prompt": "A late strike took Leipzig into the 2020 Champions League semi-finals. Which American scored it?",
+    "answer": "Tyler Adams",
+    "options": [
+      "Tyler Adams",
+      "Weston McKennie",
+      "Christian Pulisic",
+      "Giovanni Reyna"
+    ],
+    "hint": "His initials are TA.",
+    "explanation": "Tyler Adams scored Leipzig’s late winner against Atlético.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2603790",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2603790-story-2",
+    "prompt": "Which Spanish club did Leipzig eliminate to reach their first Champions League semi-final?",
+    "answer": "Atlético Madrid",
+    "options": [
+      "Atlético Madrid",
+      "Real Madrid",
+      "Barcelona",
+      "Sevilla"
+    ],
+    "hint": "Diego Simeone coached the opponents.",
+    "explanation": "Leipzig beat Atlético Madrid 2–1 in the 2020 quarter-final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2603790",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2603790-story-3",
+    "prompt": "How far did Leipzig’s 2020 win over Atlético take them for the first time?",
+    "answer": "Champions League semi-finals",
+    "options": [
+      "Champions League semi-finals",
+      "Champions League final",
+      "Europa League final",
+      "Club World Cup final"
+    ],
+    "hint": "Only four Champions League clubs remained.",
+    "explanation": "The victory made Leipzig debut Champions League semi-finalists.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2603790",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-rb-leipzig-story-1",
+    "prompt": "A late strike took Leipzig into the 2020 Champions League semi-finals. Which American scored it?",
+    "answer": "Tyler Adams",
+    "options": [
+      "Tyler Adams",
+      "Weston McKennie",
+      "Christian Pulisic",
+      "Giovanni Reyna"
+    ],
+    "hint": "His initials are TA.",
+    "explanation": "Tyler Adams scored Leipzig’s late winner against Atlético.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-rb-leipzig",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-rb-leipzig-story-2",
+    "prompt": "Which Spanish club did Leipzig eliminate to reach their first Champions League semi-final?",
+    "answer": "Atlético Madrid",
+    "options": [
+      "Atlético Madrid",
+      "Real Madrid",
+      "Barcelona",
+      "Sevilla"
+    ],
+    "hint": "Diego Simeone coached the opponents.",
+    "explanation": "Leipzig beat Atlético Madrid 2–1 in the 2020 quarter-final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-rb-leipzig",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-rb-leipzig-story-3",
+    "prompt": "How far did Leipzig’s 2020 win over Atlético take them for the first time?",
+    "answer": "Champions League semi-finals",
+    "options": [
+      "Champions League semi-finals",
+      "Champions League final",
+      "Europa League final",
+      "Club World Cup final"
+    ],
+    "hint": "Only four Champions League clubs remained.",
+    "explanation": "The victory made Leipzig debut Champions League semi-finalists.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0260-101fb313a33d-349eb78c4d93-1000--leipzig-2-1-atletico-tyler-adams-scores-late-winner/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-rb-leipzig",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-75797-story-1",
+    "prompt": "Before becoming a Chelsea star, which Belgian scored for Lille in their January 2011 cup win at Forbach?",
+    "answer": "Eden Hazard",
+    "options": [
+      "Eden Hazard",
+      "Kevin De Bruyne",
+      "Dries Mertens",
+      "Romelu Lukaku"
+    ],
+    "hint": "His younger brother is Thorgan.",
+    "explanation": "Eden Hazard scored Lille’s opener against Forbach.",
+    "source": "https://www.losc.fr/actualites-foot-lille/forbach-losc-1-3-avec-s%C3%A9rieux-et-application",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-75797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-75797-story-2",
+    "prompt": "Which Ivorian winger joined Hazard on Lille’s scoresheet against Forbach in 2011?",
+    "answer": "Gervinho",
+    "options": [
+      "Gervinho",
+      "Didier Drogba",
+      "Salomon Kalou",
+      "Nicolas Pépé"
+    ],
+    "hint": "He later played for Arsenal and Roma.",
+    "explanation": "Gervinho scored Lille’s third goal in the 3–1 cup win.",
+    "source": "https://www.losc.fr/actualites-foot-lille/forbach-losc-1-3-avec-s%C3%A9rieux-et-application",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-75797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-75797-story-3",
+    "prompt": "Which coach was in charge of Lille during that 2010/11 cup campaign?",
+    "answer": "Rudi Garcia",
+    "options": [
+      "Rudi Garcia",
+      "Christophe Galtier",
+      "Marcelo Bielsa",
+      "Paulo Fonseca"
+    ],
+    "hint": "His first name is Rudi.",
+    "explanation": "Rudi Garcia was Lille’s coach in the 2010/11 season.",
+    "source": "https://www.losc.fr/actualites-foot-lille/forbach-losc-1-3-avec-s%C3%A9rieux-et-application",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-75797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-7889-story-1",
+    "prompt": "Istanbul, 2005: Liverpool are 3–0 down. Who heads in the first goal of the comeback?",
+    "answer": "Steven Gerrard",
+    "options": [
+      "Steven Gerrard",
+      "Xabi Alonso",
+      "Jamie Carragher",
+      "Luis García"
+    ],
+    "hint": "The captain led the way.",
+    "explanation": "Steven Gerrard’s header began Liverpool’s second-half comeback.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-7889",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-7889-story-2",
+    "prompt": "Whose saved penalty became Liverpool’s equaliser when he buried the rebound in Istanbul?",
+    "answer": "Xabi Alonso",
+    "options": [
+      "Xabi Alonso",
+      "Vladimír Šmicer",
+      "Djibril Cissé",
+      "John Arne Riise"
+    ],
+    "hint": "A Spanish midfielder who later played for Real Madrid.",
+    "explanation": "Xabi Alonso followed up Dida’s save to make it 3–3.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-7889",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-7889-story-3",
+    "prompt": "Which keeper saved Shevchenko’s shoot-out penalty to complete Liverpool’s 2005 miracle?",
+    "answer": "Jerzy Dudek",
+    "options": [
+      "Jerzy Dudek",
+      "Pepe Reina",
+      "Alisson Becker",
+      "Sander Westerveld"
+    ],
+    "hint": "The goalkeeper represented Poland.",
+    "explanation": "Jerzy Dudek’s save settled the shoot-out for Liverpool.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-7889",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-liverpool-story-1",
+    "prompt": "Istanbul, 2005: Liverpool are 3–0 down. Who heads in the first goal of the comeback?",
+    "answer": "Steven Gerrard",
+    "options": [
+      "Steven Gerrard",
+      "Xabi Alonso",
+      "Jamie Carragher",
+      "Luis García"
+    ],
+    "hint": "The captain led the way.",
+    "explanation": "Steven Gerrard’s header began Liverpool’s second-half comeback.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-liverpool",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-liverpool-story-2",
+    "prompt": "Whose saved penalty became Liverpool’s equaliser when he buried the rebound in Istanbul?",
+    "answer": "Xabi Alonso",
+    "options": [
+      "Xabi Alonso",
+      "Vladimír Šmicer",
+      "Djibril Cissé",
+      "John Arne Riise"
+    ],
+    "hint": "A Spanish midfielder who later played for Real Madrid.",
+    "explanation": "Xabi Alonso followed up Dida’s save to make it 3–3.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-liverpool",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-liverpool-story-3",
+    "prompt": "Which keeper saved Shevchenko’s shoot-out penalty to complete Liverpool’s 2005 miracle?",
+    "answer": "Jerzy Dudek",
+    "options": [
+      "Jerzy Dudek",
+      "Pepe Reina",
+      "Alisson Becker",
+      "Sander Westerveld"
+    ],
+    "hint": "The goalkeeper represented Poland.",
+    "explanation": "Jerzy Dudek’s save settled the shoot-out for Liverpool.",
+    "source": "https://www.liverpoolfc.com/news/features/351604-liverpool-2005-champions-league-final-istanbul",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-liverpool",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52919-story-1",
+    "prompt": "City fans only need to hear “93:20”. Which striker does that moment belong to?",
+    "answer": "Sergio Agüero",
+    "options": [
+      "Sergio Agüero",
+      "Edin Džeko",
+      "Carlos Tévez",
+      "Mario Balotelli"
+    ],
+    "hint": "Argentina’s Kun.",
+    "explanation": "Sergio Agüero scored the title-winning goal against QPR in 2012.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52919",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52919-story-2",
+    "prompt": "Which club almost denied City the title on the final day in 2012?",
+    "answer": "Queens Park Rangers",
+    "options": [
+      "Queens Park Rangers",
+      "Sunderland",
+      "Stoke City",
+      "Wigan Athletic"
+    ],
+    "hint": "The London club is often called QPR.",
+    "explanation": "City beat Queens Park Rangers 3–2 on the final day.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52919",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52919-story-3",
+    "prompt": "Agüero’s 2012 winner ended City’s league-title wait of how long?",
+    "answer": "44 years",
+    "options": [
+      "44 years",
+      "24 years",
+      "34 years",
+      "54 years"
+    ],
+    "hint": "City’s previous league title was in 1968.",
+    "explanation": "The win delivered City’s first league championship in 44 years.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52919",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-city-story-1",
+    "prompt": "City fans only need to hear “93:20”. Which striker does that moment belong to?",
+    "answer": "Sergio Agüero",
+    "options": [
+      "Sergio Agüero",
+      "Edin Džeko",
+      "Carlos Tévez",
+      "Mario Balotelli"
+    ],
+    "hint": "Argentina’s Kun.",
+    "explanation": "Sergio Agüero scored the title-winning goal against QPR in 2012.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-city",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-city-story-2",
+    "prompt": "Which club almost denied City the title on the final day in 2012?",
+    "answer": "Queens Park Rangers",
+    "options": [
+      "Queens Park Rangers",
+      "Sunderland",
+      "Stoke City",
+      "Wigan Athletic"
+    ],
+    "hint": "The London club is often called QPR.",
+    "explanation": "City beat Queens Park Rangers 3–2 on the final day.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-city",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-city-story-3",
+    "prompt": "Agüero’s 2012 winner ended City’s league-title wait of how long?",
+    "answer": "44 years",
+    "options": [
+      "44 years",
+      "24 years",
+      "34 years",
+      "54 years"
+    ],
+    "hint": "City’s previous league title was in 1968.",
+    "explanation": "The win delivered City’s first league championship in 44 years.",
+    "source": "https://www.mancity.com/citytv/features/2017/may/9320-aguero-watches-goal",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-city",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52682-story-1",
+    "prompt": "Barcelona, 1999: which United substitute scored the last-gasp Champions League winner?",
+    "answer": "Ole Gunnar Solskjær",
+    "options": [
+      "Ole Gunnar Solskjær",
+      "Teddy Sheringham",
+      "Andy Cole",
+      "Dwight Yorke"
+    ],
+    "hint": "The Norwegian was known for decisive goals from the bench.",
+    "explanation": "Solskjær scored after Sheringham’s equaliser to beat Bayern 2–1.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52682",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52682-story-2",
+    "prompt": "Which United winger slalomed through Arsenal to score in the 1999 FA Cup semi-final replay?",
+    "answer": "Ryan Giggs",
+    "options": [
+      "Ryan Giggs",
+      "David Beckham",
+      "Jesper Blomqvist",
+      "Andrei Kanchelskis"
+    ],
+    "hint": "The Welshman played on the left.",
+    "explanation": "Ryan Giggs scored the famous solo goal against Arsenal.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52682",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52682-story-3",
+    "prompt": "Which captain inspired United’s comeback from 2–0 down at Juventus in the 1999 semi-final?",
+    "answer": "Roy Keane",
+    "options": [
+      "Roy Keane",
+      "Steve Bruce",
+      "Eric Cantona",
+      "Gary Neville"
+    ],
+    "hint": "An Irish midfielder.",
+    "explanation": "Roy Keane helped United turn the second leg around in Turin.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52682",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-united-story-1",
+    "prompt": "Barcelona, 1999: which United substitute scored the last-gasp Champions League winner?",
+    "answer": "Ole Gunnar Solskjær",
+    "options": [
+      "Ole Gunnar Solskjær",
+      "Teddy Sheringham",
+      "Andy Cole",
+      "Dwight Yorke"
+    ],
+    "hint": "The Norwegian was known for decisive goals from the bench.",
+    "explanation": "Solskjær scored after Sheringham’s equaliser to beat Bayern 2–1.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-united",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-united-story-2",
+    "prompt": "Which United winger slalomed through Arsenal to score in the 1999 FA Cup semi-final replay?",
+    "answer": "Ryan Giggs",
+    "options": [
+      "Ryan Giggs",
+      "David Beckham",
+      "Jesper Blomqvist",
+      "Andrei Kanchelskis"
+    ],
+    "hint": "The Welshman played on the left.",
+    "explanation": "Ryan Giggs scored the famous solo goal against Arsenal.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-united",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-manchester-united-story-3",
+    "prompt": "Which captain inspired United’s comeback from 2–0 down at Juventus in the 1999 semi-final?",
+    "answer": "Roy Keane",
+    "options": [
+      "Roy Keane",
+      "Steve Bruce",
+      "Eric Cantona",
+      "Gary Neville"
+    ],
+    "hint": "An Irish midfielder.",
+    "explanation": "Roy Keane helped United turn the second leg around in Turin.",
+    "source": "https://www.manutd.com/en/club/history/history-by-decade/1990-1999",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-manchester-united",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50136-story-1",
+    "prompt": "Which Argentine number 10 captained Napoli’s 1989 UEFA Cup-winning side?",
+    "answer": "Diego Maradona",
+    "options": [
+      "Diego Maradona",
+      "Lionel Messi",
+      "Juan Román Riquelme",
+      "Pablo Aimar"
+    ],
+    "hint": "Naples later named its stadium after him.",
+    "explanation": "Diego Maradona captained Napoli’s European winners.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50136",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50136-story-2",
+    "prompt": "Which German club faced Napoli in the two-legged 1989 UEFA Cup final?",
+    "answer": "VfB Stuttgart",
+    "options": [
+      "VfB Stuttgart",
+      "Bayern Munich",
+      "Werder Bremen",
+      "Hamburg"
+    ],
+    "hint": "They wear white with a red chest band.",
+    "explanation": "Napoli beat Stuttgart 5–4 on aggregate.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50136",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50136-story-3",
+    "prompt": "Which Brazilian striker partnered Maradona in Napoli’s 1989 European-winning attack?",
+    "answer": "Careca",
+    "options": [
+      "Careca",
+      "Romário",
+      "Bebeto",
+      "Ronaldo"
+    ],
+    "hint": "His name starts with C.",
+    "explanation": "Careca was part of Napoli’s 1989 UEFA Cup-winning team.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50136",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-napoli-story-1",
+    "prompt": "Which Argentine number 10 captained Napoli’s 1989 UEFA Cup-winning side?",
+    "answer": "Diego Maradona",
+    "options": [
+      "Diego Maradona",
+      "Lionel Messi",
+      "Juan Román Riquelme",
+      "Pablo Aimar"
+    ],
+    "hint": "Naples later named its stadium after him.",
+    "explanation": "Diego Maradona captained Napoli’s European winners.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-napoli",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-napoli-story-2",
+    "prompt": "Which German club faced Napoli in the two-legged 1989 UEFA Cup final?",
+    "answer": "VfB Stuttgart",
+    "options": [
+      "VfB Stuttgart",
+      "Bayern Munich",
+      "Werder Bremen",
+      "Hamburg"
+    ],
+    "hint": "They wear white with a red chest band.",
+    "explanation": "Napoli beat Stuttgart 5–4 on aggregate.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-napoli",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-napoli-story-3",
+    "prompt": "Which Brazilian striker partnered Maradona in Napoli’s 1989 European-winning attack?",
+    "answer": "Careca",
+    "options": [
+      "Careca",
+      "Romário",
+      "Bebeto",
+      "Ronaldo"
+    ],
+    "hint": "His name starts with C.",
+    "explanation": "Careca was part of Napoli’s 1989 UEFA Cup-winning team.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0220-0e900e20b899-617d991b0678-1000--snap-shot-maradona-s-napoli-reign-supreme/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-napoli",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52747-story-1",
+    "prompt": "A long-range free-kick won PSG the 1996 Cup Winners’ Cup. Which defender struck it?",
+    "answer": "Bruno N’Gotty",
+    "options": [
+      "Bruno N’Gotty",
+      "Alain Roche",
+      "Paul Le Guen",
+      "Patrick Colleter"
+    ],
+    "hint": "His first name is Bruno.",
+    "explanation": "Bruno N’Gotty scored the only goal against Rapid Vienna.",
+    "source": "https://en.psg.fr/teams/club/content/50-legendary-matches-paris-european-glory-psg-uefa-retro",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52747",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52747-story-2",
+    "prompt": "Which Austrian club did Paris beat for European glory in 1996?",
+    "answer": "Rapid Vienna",
+    "options": [
+      "Rapid Vienna",
+      "Austria Vienna",
+      "Sturm Graz",
+      "LASK"
+    ],
+    "hint": "Their name suggests speed.",
+    "explanation": "PSG defeated Rapid Vienna 1–0.",
+    "source": "https://en.psg.fr/teams/club/content/50-legendary-matches-paris-european-glory-psg-uefa-retro",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52747",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52747-story-3",
+    "prompt": "PSG’s 1996 European final was played in which city?",
+    "answer": "Brussels",
+    "options": [
+      "Brussels",
+      "Paris",
+      "Vienna",
+      "Amsterdam"
+    ],
+    "hint": "The King Baudouin Stadium hosted it.",
+    "explanation": "Paris won the Cup Winners’ Cup in Brussels.",
+    "source": "https://en.psg.fr/teams/club/content/50-legendary-matches-paris-european-glory-psg-uefa-retro",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52747",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50064-story-1",
+    "prompt": "Which Porto playmaker scored the second goal in the 2004 Champions League final?",
+    "answer": "Deco",
+    "options": [
+      "Deco",
+      "Maniche",
+      "Costinha",
+      "Pedro Mendes"
+    ],
+    "hint": "He later played for Barcelona and Chelsea.",
+    "explanation": "Deco scored Porto’s second goal against Monaco.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/019d-0e6ae5999141-82ce41064ec4-1000/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50064",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50064-story-2",
+    "prompt": "Which Porto substitute completed the scoring in the 2004 final?",
+    "answer": "Dmitri Alenichev",
+    "options": [
+      "Dmitri Alenichev",
+      "Benni McCarthy",
+      "Pedro Emanuel",
+      "Sérgio Conceição"
+    ],
+    "hint": "He represented Russia.",
+    "explanation": "Dmitri Alenichev scored the third goal in the 3–0 win.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/019d-0e6ae5999141-82ce41064ec4-1000/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50064",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50064-story-3",
+    "prompt": "Which teenager opened Porto’s scoring in that 2004 Champions League final?",
+    "answer": "Carlos Alberto",
+    "options": [
+      "Carlos Alberto",
+      "Anderson",
+      "Hulk",
+      "Falcao"
+    ],
+    "hint": "His first name is Carlos.",
+    "explanation": "Carlos Alberto put Porto ahead against Monaco.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/019d-0e6ae5999141-82ce41064ec4-1000/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50064",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52265-story-1",
+    "prompt": "Betis were Spanish league champions before the Civil War. In which year?",
+    "answer": "1935",
+    "options": [
+      "1935",
+      "1925",
+      "1945",
+      "1955"
+    ],
+    "hint": "The title came in the mid-1930s.",
+    "explanation": "Betis won the Spanish league in 1935.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52265",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52265-story-2",
+    "prompt": "Which 1970s year brought Betis their first Copa del Rey?",
+    "answer": "1977",
+    "options": [
+      "1977",
+      "1971",
+      "1973",
+      "1979"
+    ],
+    "hint": "It has two sevens.",
+    "explanation": "Betis lifted the Copa del Rey in 1977.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52265",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52265-story-3",
+    "prompt": "Which domestic trophy did Betis win again in 2022?",
+    "answer": "Copa del Rey",
+    "options": [
+      "Copa del Rey",
+      "La Liga",
+      "Segunda División",
+      "Spanish Super Cup"
+    ],
+    "hint": "It is Spain’s knockout cup.",
+    "explanation": "Betis won the 2022 Copa del Rey.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52265",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-betis-story-1",
+    "prompt": "Betis were Spanish league champions before the Civil War. In which year?",
+    "answer": "1935",
+    "options": [
+      "1935",
+      "1925",
+      "1945",
+      "1955"
+    ],
+    "hint": "The title came in the mid-1930s.",
+    "explanation": "Betis won the Spanish league in 1935.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-betis",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-betis-story-2",
+    "prompt": "Which 1970s year brought Betis their first Copa del Rey?",
+    "answer": "1977",
+    "options": [
+      "1977",
+      "1971",
+      "1973",
+      "1979"
+    ],
+    "hint": "It has two sevens.",
+    "explanation": "Betis lifted the Copa del Rey in 1977.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-betis",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-betis-story-3",
+    "prompt": "Which domestic trophy did Betis win again in 2022?",
+    "answer": "Copa del Rey",
+    "options": [
+      "Copa del Rey",
+      "La Liga",
+      "Segunda División",
+      "Spanish Super Cup"
+    ],
+    "hint": "It is Spain’s knockout cup.",
+    "explanation": "Betis won the 2022 Copa del Rey.",
+    "source": "https://www.realbetisbalompie.es/club/la-historia",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-betis",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50051-story-1",
+    "prompt": "A ball drops from the sky in Glasgow. Which Madrid midfielder volleys in the 2002 final winner?",
+    "answer": "Zinedine Zidane",
+    "options": [
+      "Zinedine Zidane",
+      "Luís Figo",
+      "Guti",
+      "Claude Makélélé"
+    ],
+    "hint": "The Frenchman wore number 5.",
+    "explanation": "Zidane’s volley settled the 2002 final against Leverkusen.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50051",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50051-story-2",
+    "prompt": "Which German club were beaten by Zidane’s famous volley in 2002?",
+    "answer": "Bayer Leverkusen",
+    "options": [
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Schalke 04"
+    ],
+    "hint": "Their nickname is Die Werkself.",
+    "explanation": "Real Madrid beat Bayer Leverkusen in the final.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50051",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50051-story-3",
+    "prompt": "What does “La Novena” mean in Madrid’s European story?",
+    "answer": "The ninth European Cup",
+    "options": [
+      "The ninth European Cup",
+      "The ninth league title",
+      "Nine straight final wins",
+      "A nine-goal final"
+    ],
+    "hint": "Novena is Spanish for ninth.",
+    "explanation": "The 2002 triumph was Madrid’s ninth European Cup.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50051",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-madrid-story-1",
+    "prompt": "A ball drops from the sky in Glasgow. Which Madrid midfielder volleys in the 2002 final winner?",
+    "answer": "Zinedine Zidane",
+    "options": [
+      "Zinedine Zidane",
+      "Luís Figo",
+      "Guti",
+      "Claude Makélélé"
+    ],
+    "hint": "The Frenchman wore number 5.",
+    "explanation": "Zidane’s volley settled the 2002 final against Leverkusen.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-madrid-story-2",
+    "prompt": "Which German club were beaten by Zidane’s famous volley in 2002?",
+    "answer": "Bayer Leverkusen",
+    "options": [
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "Schalke 04"
+    ],
+    "hint": "Their nickname is Die Werkself.",
+    "explanation": "Real Madrid beat Bayer Leverkusen in the final.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-real-madrid-story-3",
+    "prompt": "What does “La Novena” mean in Madrid’s European story?",
+    "answer": "The ninth European Cup",
+    "options": [
+      "The ninth European Cup",
+      "The ninth league title",
+      "Nine straight final wins",
+      "A nine-goal final"
+    ],
+    "hint": "Novena is Spanish for ninth.",
+    "explanation": "The 2002 triumph was Madrid’s ninth European Cup.",
+    "source": "https://www.realmadrid.com/en-US/news/football/first-team/latest-news/21-years-since-la-novena",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-real-madrid",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50137-story-1",
+    "prompt": "Who supplied Roma’s winning goal in the first Conference League final?",
+    "answer": "Nicolò Zaniolo",
+    "options": [
+      "Nicolò Zaniolo",
+      "Tammy Abraham",
+      "Lorenzo Pellegrini",
+      "Henrikh Mkhitaryan"
+    ],
+    "hint": "His initials are NZ.",
+    "explanation": "Zaniolo scored the only goal of the 2022 final.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50137",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50137-story-2",
+    "prompt": "Which coach led Roma to the 2022 Conference League trophy?",
+    "answer": "José Mourinho",
+    "options": [
+      "José Mourinho",
+      "Luciano Spalletti",
+      "Claudio Ranieri",
+      "Rudi Garcia"
+    ],
+    "hint": "The Portuguese coach is called the Special One.",
+    "explanation": "José Mourinho coached Roma’s winners.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50137",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50137-story-3",
+    "prompt": "Which Dutch club did Roma defeat in the 2022 final in Tirana?",
+    "answer": "Feyenoord",
+    "options": [
+      "Feyenoord",
+      "Ajax",
+      "PSV Eindhoven",
+      "AZ Alkmaar"
+    ],
+    "hint": "The club is from Rotterdam.",
+    "explanation": "Roma beat Feyenoord 1–0 in Tirana.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50137",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-roma-story-1",
+    "prompt": "Who supplied Roma’s winning goal in the first Conference League final?",
+    "answer": "Nicolò Zaniolo",
+    "options": [
+      "Nicolò Zaniolo",
+      "Tammy Abraham",
+      "Lorenzo Pellegrini",
+      "Henrikh Mkhitaryan"
+    ],
+    "hint": "His initials are NZ.",
+    "explanation": "Zaniolo scored the only goal of the 2022 final.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-roma",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-roma-story-2",
+    "prompt": "Which coach led Roma to the 2022 Conference League trophy?",
+    "answer": "José Mourinho",
+    "options": [
+      "José Mourinho",
+      "Luciano Spalletti",
+      "Claudio Ranieri",
+      "Rudi Garcia"
+    ],
+    "hint": "The Portuguese coach is called the Special One.",
+    "explanation": "José Mourinho coached Roma’s winners.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-roma",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-roma-story-3",
+    "prompt": "Which Dutch club did Roma defeat in the 2022 final in Tirana?",
+    "answer": "Feyenoord",
+    "options": [
+      "Feyenoord",
+      "Ajax",
+      "PSV Eindhoven",
+      "AZ Alkmaar"
+    ],
+    "hint": "The club is from Rotterdam.",
+    "explanation": "Roma beat Feyenoord 1–0 in Tirana.",
+    "source": "https://www.asroma.com/en/news/64160/gallery-roma-make-history-in-tirana",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-roma",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52797-story-1",
+    "prompt": "Slovan pulled off a famous 1969 European final upset against which club?",
+    "answer": "Barcelona",
+    "options": [
+      "Barcelona",
+      "Real Madrid",
+      "AC Milan",
+      "Bayern Munich"
+    ],
+    "hint": "The opponents wear blue and garnet.",
+    "explanation": "Slovan beat Barcelona 3–2 in the Cup Winners’ Cup final.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52797-story-2",
+    "prompt": "Which European trophy did Slovan win in 1969?",
+    "answer": "Cup Winners’ Cup",
+    "options": [
+      "Cup Winners’ Cup",
+      "European Cup",
+      "UEFA Cup",
+      "Intertoto Cup"
+    ],
+    "hint": "It was for national cup winners.",
+    "explanation": "Slovan won the 1969 Cup Winners’ Cup.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52797-story-3",
+    "prompt": "Which coach led Slovan to their 1969 European trophy?",
+    "answer": "Michal Vičan",
+    "options": [
+      "Michal Vičan",
+      "Václav Ježek",
+      "Jozef Vengloš",
+      "Ján Kozák"
+    ],
+    "hint": "His first name is Michal.",
+    "explanation": "Michal Vičan coached the team that beat Barcelona in Basel.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/025a-0ea797bce7dc-b164f7bcd164-1000--sk-slovan-bratislava-five-claims-to-fame/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52797",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2609356-story-1",
+    "prompt": "Sabah are a young club. In which year were they founded?",
+    "answer": "2017",
+    "options": [
+      "2017",
+      "1997",
+      "2007",
+      "1987"
+    ],
+    "hint": "The club began in the late 2010s.",
+    "explanation": "Sabah FC was founded on 8 September 2017.",
+    "source": "https://sabahfc.az/club/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2609356",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2609356-story-2",
+    "prompt": "Which established Serbian club did Sabah beat 2–0 at home in European qualifying in 2023?",
+    "answer": "Partizan",
+    "options": [
+      "Partizan",
+      "Red Star Belgrade",
+      "Vojvodina",
+      "Čukarički"
+    ],
+    "hint": "Their colours are black and white.",
+    "explanation": "Sabah won the home leg against Partizan 2–0.",
+    "source": "https://sabahfc.az/club/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2609356",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-2609356-story-3",
+    "prompt": "Where did Sabah finish in their first season in Azerbaijan’s First Division?",
+    "answer": "Fifth",
+    "options": [
+      "Fifth",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "hint": "They finished just outside the top four.",
+    "explanation": "Sabah finished fifth in the 2017/18 First Division.",
+    "source": "https://sabahfc.az/club/history",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-2609356",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52498-story-1",
+    "prompt": "Which Slavia winger joined Manchester United after EURO 1996?",
+    "answer": "Karel Poborský",
+    "options": [
+      "Karel Poborský",
+      "Vladimír Šmicer",
+      "Radek Bejbl",
+      "Patrik Berger"
+    ],
+    "hint": "Remember his famous lob for the Czech Republic.",
+    "explanation": "Karel Poborský moved from Slavia to Manchester United.",
+    "source": "https://www.slavia.cz/cze/article/historie-803",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52498",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52498-story-2",
+    "prompt": "Which future Liverpool player left Slavia for Lens in 1996?",
+    "answer": "Vladimír Šmicer",
+    "options": [
+      "Vladimír Šmicer",
+      "Tomáš Rosický",
+      "Milan Baroš",
+      "Pavel Nedvěd"
+    ],
+    "hint": "He later scored in the Istanbul final.",
+    "explanation": "Vladimír Šmicer moved to Lens after EURO 1996.",
+    "source": "https://www.slavia.cz/cze/article/historie-803",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52498",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52498-story-3",
+    "prompt": "Alongside a domestic title, Slavia reached which stage of the UEFA Cup in 1996?",
+    "answer": "Semi-finals",
+    "options": [
+      "Semi-finals",
+      "Final",
+      "Quarter-finals",
+      "Round of 32"
+    ],
+    "hint": "They were one of the last four.",
+    "explanation": "Slavia reached the 1996 UEFA Cup semi-finals.",
+    "source": "https://www.slavia.cz/cze/article/historie-803",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52498",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50149-story-1",
+    "prompt": "Which future five-time Ballon d’Or winner made his Sporting senior debut in August 2002?",
+    "answer": "Cristiano Ronaldo",
+    "options": [
+      "Cristiano Ronaldo",
+      "Luís Figo",
+      "Ricardo Quaresma",
+      "Nani"
+    ],
+    "hint": "He was born in Madeira.",
+    "explanation": "Cristiano Ronaldo made his Sporting first-team debut on 14 August 2002.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/023c-0e976af10937-6aed2a57b183-1000--memories-of-ronaldo-s-debut-on-this-day-in-2002/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50149",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50149-story-2",
+    "prompt": "Ronaldo’s Sporting debut came against which Italian club?",
+    "answer": "Inter Milan",
+    "options": [
+      "Inter Milan",
+      "AC Milan",
+      "Juventus",
+      "Lazio"
+    ],
+    "hint": "Their traditional shirts are blue and black.",
+    "explanation": "He came on against Inter in Champions League qualifying.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/023c-0e976af10937-6aed2a57b183-1000--memories-of-ronaldo-s-debut-on-this-day-in-2002/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50149",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50149-story-3",
+    "prompt": "Which club signed Ronaldo from Sporting in 2003?",
+    "answer": "Manchester United",
+    "options": [
+      "Manchester United",
+      "Real Madrid",
+      "Arsenal",
+      "Barcelona"
+    ],
+    "hint": "Sir Alex Ferguson was the manager.",
+    "explanation": "Ronaldo moved from Sporting to Manchester United in 2003.",
+    "source": "https://www.uefa.com/uefachampionsleague/news/023c-0e976af10937-6aed2a57b183-1000--memories-of-ronaldo-s-debut-on-this-day-in-2002/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50149",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50107-story-1",
+    "prompt": "Which Stuttgart midfielder headed the winner that sealed the 2007 Bundesliga title?",
+    "answer": "Sami Khedira",
+    "options": [
+      "Sami Khedira",
+      "Thomas Hitzlsperger",
+      "Pavel Pardo",
+      "Roberto Hilbert"
+    ],
+    "hint": "He later played for Real Madrid and Juventus.",
+    "explanation": "Khedira headed Stuttgart’s winner against Cottbus.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50107",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50107-story-2",
+    "prompt": "Before Khedira’s winner, who equalised with a volley in Stuttgart’s 2007 title decider?",
+    "answer": "Thomas Hitzlsperger",
+    "options": [
+      "Thomas Hitzlsperger",
+      "Mario Gómez",
+      "Cacau",
+      "Antonio da Silva"
+    ],
+    "hint": "His powerful shooting earned him the nickname The Hammer.",
+    "explanation": "Hitzlsperger’s volley brought Stuttgart level.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50107",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50107-story-3",
+    "prompt": "Which club did Stuttgart beat on the last day to clinch the 2007 title?",
+    "answer": "Energie Cottbus",
+    "options": [
+      "Energie Cottbus",
+      "Schalke 04",
+      "Werder Bremen",
+      "Hamburg"
+    ],
+    "hint": "Their name begins with Energie.",
+    "explanation": "Stuttgart beat Energie Cottbus 2–1.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50107",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-vfb-stuttgart-story-1",
+    "prompt": "Which Stuttgart midfielder headed the winner that sealed the 2007 Bundesliga title?",
+    "answer": "Sami Khedira",
+    "options": [
+      "Sami Khedira",
+      "Thomas Hitzlsperger",
+      "Pavel Pardo",
+      "Roberto Hilbert"
+    ],
+    "hint": "He later played for Real Madrid and Juventus.",
+    "explanation": "Khedira headed Stuttgart’s winner against Cottbus.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-vfb-stuttgart",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-vfb-stuttgart-story-2",
+    "prompt": "Before Khedira’s winner, who equalised with a volley in Stuttgart’s 2007 title decider?",
+    "answer": "Thomas Hitzlsperger",
+    "options": [
+      "Thomas Hitzlsperger",
+      "Mario Gómez",
+      "Cacau",
+      "Antonio da Silva"
+    ],
+    "hint": "His powerful shooting earned him the nickname The Hammer.",
+    "explanation": "Hitzlsperger’s volley brought Stuttgart level.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-vfb-stuttgart",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-vfb-stuttgart-story-3",
+    "prompt": "Which club did Stuttgart beat on the last day to clinch the 2007 title?",
+    "answer": "Energie Cottbus",
+    "options": [
+      "Energie Cottbus",
+      "Schalke 04",
+      "Werder Bremen",
+      "Hamburg"
+    ],
+    "hint": "Their name begins with Energie.",
+    "explanation": "Stuttgart beat Energie Cottbus 2–1.",
+    "source": "https://www.vfb.de/de/1893/club/vfb-e-v-/geschichte/chronik/19--mai-2007/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-vfb-stuttgart",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52319-story-1",
+    "prompt": "Which Viking player won league titles in 1972, 1973, 1974, 1975 and 1979?",
+    "answer": "Inge Valen",
+    "options": [
+      "Inge Valen",
+      "Brede Hangeland",
+      "Erik Nevland",
+      "Bjarte Lunde Aarsheim"
+    ],
+    "hint": "His surname begins with V.",
+    "explanation": "Inge Valen joined Viking in 1972 and won those five championships.",
+    "source": "https://www.vikingfotball.no/nyheter/fire-nye-aeresmedlemmer-utnevnt",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52319",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52319-story-2",
+    "prompt": "Viking’s golden run from 1972 to 1975 brought how many consecutive league titles?",
+    "answer": "Four",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "hint": "Count both the first and last year.",
+    "explanation": "Viking won the Norwegian league in all four seasons from 1972 through 1975.",
+    "source": "https://www.vikingfotball.no/nyheter/fire-nye-aeresmedlemmer-utnevnt",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52319",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52319-story-3",
+    "prompt": "Viking’s record marksman scored 202 goals. Who was he?",
+    "answer": "Reidar Kvammen",
+    "options": [
+      "Reidar Kvammen",
+      "Erik Nevland",
+      "Egil Østenstad",
+      "Inge Valen"
+    ],
+    "hint": "His initials are RK.",
+    "explanation": "Viking’s club records credit Reidar Kvammen with 202 goals.",
+    "source": "https://www.vikingfotball.no/om-klubben",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52319",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-70691-story-1",
+    "prompt": "Which Villarreal keeper scored his penalty and then saved De Gea’s to win the 2021 Europa League?",
+    "answer": "Gerónimo Rulli",
+    "options": [
+      "Gerónimo Rulli",
+      "Sergio Asenjo",
+      "Pepe Reina",
+      "Diego López"
+    ],
+    "hint": "The goalkeeper is Argentine.",
+    "explanation": "Gerónimo Rulli decided the shoot-out against Manchester United.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-70691",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-70691-story-2",
+    "prompt": "Every outfield player had taken a penalty. What was Villarreal’s winning shoot-out score in the 2021 final?",
+    "answer": "11–10",
+    "options": [
+      "11–10",
+      "5–4",
+      "8–7",
+      "10–9"
+    ],
+    "hint": "The goalkeepers took the last two kicks.",
+    "explanation": "Villarreal won the penalty shoot-out 11–10.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-70691",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-70691-story-3",
+    "prompt": "Which coach won the 2021 Europa League with Villarreal?",
+    "answer": "Unai Emery",
+    "options": [
+      "Unai Emery",
+      "Manuel Pellegrini",
+      "Marcelino",
+      "Quique Setién"
+    ],
+    "hint": "He had already won it with Sevilla.",
+    "explanation": "Unai Emery guided Villarreal to the trophy in Gdańsk.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-70691",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-villarreal-story-1",
+    "prompt": "Which Villarreal keeper scored his penalty and then saved De Gea’s to win the 2021 Europa League?",
+    "answer": "Gerónimo Rulli",
+    "options": [
+      "Gerónimo Rulli",
+      "Sergio Asenjo",
+      "Pepe Reina",
+      "Diego López"
+    ],
+    "hint": "The goalkeeper is Argentine.",
+    "explanation": "Gerónimo Rulli decided the shoot-out against Manchester United.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-villarreal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-villarreal-story-2",
+    "prompt": "Every outfield player had taken a penalty. What was Villarreal’s winning shoot-out score in the 2021 final?",
+    "answer": "11–10",
+    "options": [
+      "11–10",
+      "5–4",
+      "8–7",
+      "10–9"
+    ],
+    "hint": "The goalkeepers took the last two kicks.",
+    "explanation": "Villarreal won the penalty shoot-out 11–10.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-villarreal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-la-liga-villarreal-story-3",
+    "prompt": "Which coach won the 2021 Europa League with Villarreal?",
+    "answer": "Unai Emery",
+    "options": [
+      "Unai Emery",
+      "Manuel Pellegrini",
+      "Marcelino",
+      "Quique Setién"
+    ],
+    "hint": "He had already won it with Sevilla.",
+    "explanation": "Unai Emery guided Villarreal to the trophy in Gdańsk.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/0269-125f1aaaeb0d-c59e8a06ac14-1000--villarreal-1-1-manchester-united-aet-11-10-pens-spanish-side/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-la-liga-villarreal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50037-story-1",
+    "prompt": "Which Bayern winger finally found the winner at Wembley in the 2013 Champions League final?",
+    "answer": "Arjen Robben",
+    "options": [
+      "Arjen Robben",
+      "Franck Ribéry",
+      "Thomas Müller",
+      "Xherdan Shaqiri"
+    ],
+    "hint": "The Dutchman was known for cutting in onto his left foot.",
+    "explanation": "Arjen Robben scored the late winner against Dortmund.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50037",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50037-story-2",
+    "prompt": "Which Croatian striker opened Bayern’s scoring in that 2013 final?",
+    "answer": "Mario Mandžukić",
+    "options": [
+      "Mario Mandžukić",
+      "Ivica Olić",
+      "Mario Gómez",
+      "Claudio Pizarro"
+    ],
+    "hint": "He later played for Atlético and Juventus.",
+    "explanation": "Mario Mandžukić put Bayern ahead at Wembley.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50037",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50037-story-3",
+    "prompt": "Which veteran coach led Bayern to their 2013 European triumph?",
+    "answer": "Jupp Heynckes",
+    "options": [
+      "Jupp Heynckes",
+      "Pep Guardiola",
+      "Louis van Gaal",
+      "Ottmar Hitzfeld"
+    ],
+    "hint": "His first name is Jupp.",
+    "explanation": "Jupp Heynckes coached Bayern’s 2013 winners.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50037",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-bayern-munich-story-1",
+    "prompt": "Which Bayern winger finally found the winner at Wembley in the 2013 Champions League final?",
+    "answer": "Arjen Robben",
+    "options": [
+      "Arjen Robben",
+      "Franck Ribéry",
+      "Thomas Müller",
+      "Xherdan Shaqiri"
+    ],
+    "hint": "The Dutchman was known for cutting in onto his left foot.",
+    "explanation": "Arjen Robben scored the late winner against Dortmund.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-bayern-munich",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-bayern-munich-story-2",
+    "prompt": "Which Croatian striker opened Bayern’s scoring in that 2013 final?",
+    "answer": "Mario Mandžukić",
+    "options": [
+      "Mario Mandžukić",
+      "Ivica Olić",
+      "Mario Gómez",
+      "Claudio Pizarro"
+    ],
+    "hint": "He later played for Atlético and Juventus.",
+    "explanation": "Mario Mandžukić put Bayern ahead at Wembley.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-bayern-munich",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-bundesliga-bayern-munich-story-3",
+    "prompt": "Which veteran coach led Bayern to their 2013 European triumph?",
+    "answer": "Jupp Heynckes",
+    "options": [
+      "Jupp Heynckes",
+      "Pep Guardiola",
+      "Louis van Gaal",
+      "Ottmar Hitzfeld"
+    ],
+    "hint": "His first name is Jupp.",
+    "explanation": "Jupp Heynckes coached Bayern’s 2013 winners.",
+    "source": "https://fcbayern.com/en/news/matchreports/2013/05/super-bayern-crowned-champions-of-europe",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-bundesliga-bayern-munich",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50067-story-1",
+    "prompt": "Which English club did Galatasaray beat on penalties to win the 2000 UEFA Cup?",
+    "answer": "Arsenal",
+    "options": [
+      "Arsenal",
+      "Liverpool",
+      "Chelsea",
+      "Leeds United"
+    ],
+    "hint": "The opponents are known as the Gunners.",
+    "explanation": "Galatasaray beat Arsenal in the final shoot-out.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/016e-0e6a3091ff2c-b6d02ad6a643-1000/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50067",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50067-story-2",
+    "prompt": "Which Italian club did Galatasaray beat before dropping into their successful 1999/2000 UEFA Cup run?",
+    "answer": "AC Milan",
+    "options": [
+      "AC Milan",
+      "Inter Milan",
+      "Juventus",
+      "Roma"
+    ],
+    "hint": "The club wears red and black.",
+    "explanation": "A win over AC Milan secured Galatasaray’s UEFA Cup entry.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/016e-0e6a3091ff2c-b6d02ad6a643-1000/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50067",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50067-story-3",
+    "prompt": "Galatasaray’s 2000 UEFA Cup win was a European first for clubs from which country?",
+    "answer": "Türkiye",
+    "options": [
+      "Türkiye",
+      "Greece",
+      "Romania",
+      "Bulgaria"
+    ],
+    "hint": "Galatasaray are based in Istanbul.",
+    "explanation": "The triumph brought Türkiye its first major European club honour.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/016e-0e6a3091ff2c-b6d02ad6a643-1000/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50067",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50062-story-1",
+    "prompt": "Which PSV keeper saved António Veloso’s penalty to win the 1988 European Cup?",
+    "answer": "Hans van Breukelen",
+    "options": [
+      "Hans van Breukelen",
+      "Jan van Beveren",
+      "Gomes",
+      "Ronald Waterreus"
+    ],
+    "hint": "His surname begins with van B.",
+    "explanation": "Hans van Breukelen made the decisive save against Benfica.",
+    "source": "https://www.psv.nl/en/club/history/history-2",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50062",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50062-story-2",
+    "prompt": "Which Portuguese club faced PSV in the 1988 European Cup final?",
+    "answer": "Benfica",
+    "options": [
+      "Benfica",
+      "Porto",
+      "Sporting CP",
+      "Braga"
+    ],
+    "hint": "Their nickname is the Eagles.",
+    "explanation": "PSV defeated Benfica on penalties in Stuttgart.",
+    "source": "https://www.psv.nl/en/club/history/history-2",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50062",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50062-story-3",
+    "prompt": "Which prolific striker is remembered as “Mister PSV”?",
+    "answer": "Willy van der Kuijlen",
+    "options": [
+      "Willy van der Kuijlen",
+      "Ruud van Nistelrooy",
+      "Romário",
+      "Ronaldo"
+    ],
+    "hint": "His first name is Willy.",
+    "explanation": "Willy van der Kuijlen’s long PSV career earned him that nickname.",
+    "source": "https://www.psv.nl/en/club/history/history-2",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50062",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52707-story-1",
+    "prompt": "Which Brazilian scored Shakhtar’s extra-time winner in the 2009 UEFA Cup final?",
+    "answer": "Jádson",
+    "options": [
+      "Jádson",
+      "Fernandinho",
+      "Willian",
+      "Ilsinho"
+    ],
+    "hint": "His name begins with J.",
+    "explanation": "Jádson scored the winner against Werder Bremen.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/01d9-0e7233534cb2-ca7dcb346335-1000--jadson-the-difference-as-shakhtar-triumph/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52707",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52707-story-2",
+    "prompt": "Which Shakhtar striker opened the scoring in the 2009 UEFA Cup final?",
+    "answer": "Luiz Adriano",
+    "options": [
+      "Luiz Adriano",
+      "Brandão",
+      "Alex Teixeira",
+      "Eduardo"
+    ],
+    "hint": "His first name is Luiz.",
+    "explanation": "Luiz Adriano put Shakhtar ahead in Istanbul.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/01d9-0e7233534cb2-ca7dcb346335-1000--jadson-the-difference-as-shakhtar-triumph/",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52707",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52707-story-3",
+    "prompt": "Shakhtar won the last final played under which competition name in 2009?",
+    "answer": "UEFA Cup",
+    "options": [
+      "UEFA Cup",
+      "Cup Winners’ Cup",
+      "Intertoto Cup",
+      "European Cup"
+    ],
+    "hint": "It became the Europa League the following season.",
+    "explanation": "Shakhtar were the final UEFA Cup winners before the Europa League rebrand.",
+    "source": "https://www.uefa.com/uefaeuropaleague/news/01d9-0e7233534cb2-ca7dcb346335-1000--jadson-the-difference-as-shakhtar-triumph/",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52707",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52280-story-1",
+    "prompt": "What nickname honours Arsenal’s unbeaten 2003/04 league champions?",
+    "answer": "The Invincibles",
+    "options": [
+      "The Invincibles",
+      "The Busby Babes",
+      "The Lisbon Lions",
+      "The Galácticos"
+    ],
+    "hint": "They finished the league season without a defeat.",
+    "explanation": "Arsenal’s 2003/04 champions are known as the Invincibles.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52280",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52280-story-2",
+    "prompt": "Arsenal’s unbeaten league sequence stretched across seasons. How many matches did it reach?",
+    "answer": "49",
+    "options": [
+      "49",
+      "38",
+      "42",
+      "55"
+    ],
+    "hint": "It was eleven more than a full 38-game season.",
+    "explanation": "The unbeaten run lasted 49 league matches from May 2003 to October 2004.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52280",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52280-story-3",
+    "prompt": "Which young Spanish midfielder scored when Arsenal broke the unbeaten league record against Blackburn in 2004?",
+    "answer": "Cesc Fàbregas",
+    "options": [
+      "Cesc Fàbregas",
+      "Mikel Arteta",
+      "Santi Cazorla",
+      "José Antonio Reyes"
+    ],
+    "hint": "He later played for Barcelona and Chelsea.",
+    "explanation": "Fàbregas was among the scorers in Arsenal’s record-breaking win over Blackburn.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52280",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-arsenal-story-1",
+    "prompt": "What nickname honours Arsenal’s unbeaten 2003/04 league champions?",
+    "answer": "The Invincibles",
+    "options": [
+      "The Invincibles",
+      "The Busby Babes",
+      "The Lisbon Lions",
+      "The Galácticos"
+    ],
+    "hint": "They finished the league season without a defeat.",
+    "explanation": "Arsenal’s 2003/04 champions are known as the Invincibles.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-arsenal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-arsenal-story-2",
+    "prompt": "Arsenal’s unbeaten league sequence stretched across seasons. How many matches did it reach?",
+    "answer": "49",
+    "options": [
+      "49",
+      "38",
+      "42",
+      "55"
+    ],
+    "hint": "It was eleven more than a full 38-game season.",
+    "explanation": "The unbeaten run lasted 49 league matches from May 2003 to October 2004.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-arsenal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-premier-league-arsenal-story-3",
+    "prompt": "Which young Spanish midfielder scored when Arsenal broke the unbeaten league record against Blackburn in 2004?",
+    "answer": "Cesc Fàbregas",
+    "options": [
+      "Cesc Fàbregas",
+      "Mikel Arteta",
+      "Santi Cazorla",
+      "José Antonio Reyes"
+    ],
+    "hint": "He later played for Barcelona and Chelsea.",
+    "explanation": "Fàbregas was among the scorers in Arsenal’s record-breaking win over Blackburn.",
+    "source": "https://www.arsenal.com/history/the-wenger-years/the-2004-invincibles?ts=dn",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-premier-league-arsenal",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50138-story-1",
+    "prompt": "Two clinical finishes made Inter champions of Europe in 2010. Which striker scored both?",
+    "answer": "Diego Milito",
+    "options": [
+      "Diego Milito",
+      "Samuel Eto’o",
+      "Goran Pandev",
+      "Mario Balotelli"
+    ],
+    "hint": "His nickname was Il Principe.",
+    "explanation": "Diego Milito scored both goals in Inter’s 2–0 final win.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50138",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50138-story-2",
+    "prompt": "Which Dutch playmaker supplied the return pass for Milito’s first goal in the 2010 final?",
+    "answer": "Wesley Sneijder",
+    "options": [
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Clarence Seedorf",
+      "Rafael van der Vaart"
+    ],
+    "hint": "He wore Inter’s number 10.",
+    "explanation": "Sneijder returned Milito’s headed pass before the opening goal.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50138",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-50138-story-3",
+    "prompt": "Who coached Inter’s treble-winning side in 2010?",
+    "answer": "José Mourinho",
+    "options": [
+      "José Mourinho",
+      "Roberto Mancini",
+      "Rafael Benítez",
+      "Antonio Conte"
+    ],
+    "hint": "The Portuguese coach left for Real Madrid that summer.",
+    "explanation": "José Mourinho coached Inter to the league, cup and Champions League treble.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-50138",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-inter-milan-story-1",
+    "prompt": "Two clinical finishes made Inter champions of Europe in 2010. Which striker scored both?",
+    "answer": "Diego Milito",
+    "options": [
+      "Diego Milito",
+      "Samuel Eto’o",
+      "Goran Pandev",
+      "Mario Balotelli"
+    ],
+    "hint": "His nickname was Il Principe.",
+    "explanation": "Diego Milito scored both goals in Inter’s 2–0 final win.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-inter-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-inter-milan-story-2",
+    "prompt": "Which Dutch playmaker supplied the return pass for Milito’s first goal in the 2010 final?",
+    "answer": "Wesley Sneijder",
+    "options": [
+      "Wesley Sneijder",
+      "Arjen Robben",
+      "Clarence Seedorf",
+      "Rafael van der Vaart"
+    ],
+    "hint": "He wore Inter’s number 10.",
+    "explanation": "Sneijder returned Milito’s headed pass before the opening goal.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-inter-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-inter-milan-story-3",
+    "prompt": "Who coached Inter’s treble-winning side in 2010?",
+    "answer": "José Mourinho",
+    "options": [
+      "José Mourinho",
+      "Roberto Mancini",
+      "Rafael Benítez",
+      "Antonio Conte"
+    ],
+    "hint": "The Portuguese coach left for Real Madrid that summer.",
+    "explanation": "José Mourinho coached Inter to the league, cup and Champions League treble.",
+    "source": "https://www.inter.it/it/notizie/2021-05-22-otd-triplete-champions-madrid-inter-bayern-monaco",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-inter-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52277-story-1",
+    "prompt": "Who scored the goal at Auxerre that sealed Lens’ 1998 league title?",
+    "answer": "Yoann Lachor",
+    "options": [
+      "Yoann Lachor",
+      "Tony Vairelles",
+      "Anto Drobnjak",
+      "Vladimír Šmicer"
+    ],
+    "hint": "His initials are YL.",
+    "explanation": "Yoann Lachor equalised in the 1–1 draw that secured the title.",
+    "source": "https://www.rclens.fr/fr/club/histoire/champions",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52277",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52277-story-2",
+    "prompt": "Who captained Lens’ 1998 French champions?",
+    "answer": "Jean-Guy Wallemme",
+    "options": [
+      "Jean-Guy Wallemme",
+      "Éric Sikora",
+      "Guillaume Warmuz",
+      "Frédéric Déhu"
+    ],
+    "hint": "His first name is Jean-Guy.",
+    "explanation": "Jean-Guy Wallemme captained the title-winning team.",
+    "source": "https://www.rclens.fr/fr/club/histoire/champions",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52277",
+    "clubTopic": "history"
+  },
+  {
+    "id": "ucl27-52277-story-3",
+    "prompt": "Lens needed what result at Auxerre on the last day of 1997/98 to become champions?",
+    "answer": "At least a draw",
+    "options": [
+      "At least a draw",
+      "A win by two goals",
+      "A win by three goals",
+      "A defeat by one goal"
+    ],
+    "hint": "One point was enough.",
+    "explanation": "A 1–1 draw gave Lens the point they needed.",
+    "source": "https://www.rclens.fr/fr/club/histoire/champions",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "ucl27-52277",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-ac-milan-story-1",
+    "prompt": "Which English founder chose Milan’s red-and-black identity in 1899?",
+    "answer": "Herbert Kilpin",
+    "options": [
+      "Herbert Kilpin",
+      "Alfred Edwards",
+      "Nereo Rocco",
+      "Gianni Rivera"
+    ],
+    "hint": "His initials are HK.",
+    "explanation": "Herbert Kilpin was a founder of Milan and associated red and black with the club’s identity.",
+    "source": "https://www.acmilan.com/en/club/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-ac-milan-story-2",
+    "prompt": "Which Milan coach won back-to-back European Cups in 1989 and 1990?",
+    "answer": "Arrigo Sacchi",
+    "options": [
+      "Arrigo Sacchi",
+      "Fabio Capello",
+      "Carlo Ancelotti",
+      "Nils Liedholm"
+    ],
+    "hint": "He changed football with pressing and an organised defensive line.",
+    "explanation": "Arrigo Sacchi led Milan to two European Cups.",
+    "source": "https://www.acmilan.com/en/club/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-ac-milan-story-3",
+    "prompt": "Milan filled the Ballon d’Or podium in 1988. Which Dutch trio occupied it?",
+    "answer": "Van Basten, Gullit and Rijkaard",
+    "options": [
+      "Van Basten, Gullit and Rijkaard",
+      "Cruyff, Neeskens and Rep",
+      "Bergkamp, Overmars and Seedorf",
+      "Robben, Sneijder and Van Persie"
+    ],
+    "hint": "All three played together at Milan.",
+    "explanation": "Marco van Basten, Ruud Gullit and Frank Rijkaard occupied the top three places in 1988.",
+    "source": "https://www.acmilan.com/en/club/history",
+    "category": "squads",
+    "difficulty": "expert",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "clubTopic": "history"
+  },
+  {
+    "id": "club27-serie-a-ac-milan-story-4",
+    "prompt": "Which year brought Milan their first European Cup, at Wembley?",
+    "answer": "1963",
+    "options": [
+      "1963",
+      "1953",
+      "1973",
+      "1983"
+    ],
+    "hint": "It was in the early 1960s.",
+    "explanation": "Milan became European champions for the first time in 1963.",
+    "source": "https://www.acmilan.com/en/club/history",
+    "category": "squads",
+    "difficulty": "fan",
+    "era": "Club history",
+    "premium": false,
+    "squadCode": "club27-serie-a-ac-milan",
+    "clubTopic": "history"
+  }
+]

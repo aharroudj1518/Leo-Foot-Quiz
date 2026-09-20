@@ -1,0 +1,55 @@
+import {normalize} from './core/quiz';
+export type ClubKit={base:string;secondary:string;ink:string;pattern:'plain'|'stripes'|'hoops'|'halves'|'sash'|'band'|'sleeves'|'panel'|'cross';description:string};
+const kits:Record<string,ClubKit>={};
+function add(names:string,base:string,secondary:string,pattern:ClubKit['pattern'],description:string,ink='#FFFFFF'){
+ for(const name of names.split('|'))kits[normalize(name)]= {base,secondary,pattern,description,ink};
+}
+// Traditional home identities, not replicas of a particular season's manufacturer kit.
+add('AC Milan|Bournemouth|Eintracht Frankfurt','#C41230','#151515','stripes','red and black stripes');
+add('FC Internazionale Milano|Inter Milan|Atalanta|Club Brugge KV','#0752A1','#141414','stripes','blue and black stripes');
+add('Juventus|Udinese|Newcastle United|LASK','#FFFFFF','#171717','stripes','black and white stripes');
+add('FC Barcelona|Barcelona','#A50044','#004D98','stripes','blue and garnet stripes');
+add('Atlético de Madrid|Atlético Madrid|Brentford|Sunderland|Athletic Bilbao|PSV Eindhoven','#D71920','#FFFFFF','stripes','red and white stripes','#101820');
+add('FC Porto|Espanyol|Deportivo A Coruña|Real Sociedad','#0054A6','#FFFFFF','stripes','blue and white stripes','#101820');
+add('Real Betis Balompié|Real Betis','#008D46','#FFFFFF','stripes','green and white stripes','#10251C');
+add('Sporting Clube de Portugal','#00854A','#FFFFFF','hoops','green and white hoops','#10251C');
+add('Feyenoord|SK Slavia Praha','#E1262F','#FFFFFF','halves','red and white halves','#101820');
+add('Galatasaray A.Ş.','#A90432','#F6A800','halves','red and golden-yellow halves');
+add('Fenerbahçe SK','#F8DA27','#14254B','stripes','yellow and navy stripes');
+add('RC Lens','#F5CA20','#CB1731','stripes','blood-red and gold stripes','#111111');
+add('AEK Athens FC','#FFD500','#191919','stripes','yellow and black stripes','#FFFFFF');
+add('FC Shakhtar Donetsk','#F47721','#191919','stripes','orange and black stripes');
+add('Crystal Palace|Levante','#D51920','#174AA1','stripes','red and blue stripes');
+add('Genoa|Bologna','#B7192D','#142D53','halves','red and navy halves');
+add('Sassuolo','#00864A','#181818','stripes','green and black stripes');
+add('Lecce','#E32632','#F9DA28','stripes','red and yellow stripes','#101820');
+add('Parma','#FFFFFF','#141414','cross','white with a black cross','#111111');
+add('VfB Stuttgart','#FFFFFF','#DA162C','band','white with a red chest band','#111111');
+add('Rayo Vallecano','#FFFFFF','#D81F2A','sash','white with a red diagonal sash','#111111');
+add('Arsenal FC|Arsenal','#EF202B','#FFFFFF','sleeves','red with white sleeves');
+add('Aston Villa','#7A263A','#95BFE5','sleeves','claret with sky-blue sleeves');
+add('Paris Saint-Germain','#082B54','#E32839','panel','navy blue with a red central stripe');
+add('Liverpool FC|Liverpool|Manchester United|FC Bayern München|Bayern Munich|LOSC Lille|Monza|Osasuna|Mainz 05|1. FC Köln|Union Berlin|Torino|Sevilla|Nottingham Forest','#CF142B','#FFFFFF','plain','red and white');
+add('Torino','#7C1C2B','#FFFFFF','plain','maroon and white');
+add('Sevilla|Real Madrid C.F.|Real Madrid|Tottenham Hotspur|Valencia|Fulham|Leeds United|Borussia Mönchengladbach|SV Elversberg','#FFFFFF','#172D44','plain','white with dark trim','#172D44');
+add('AS Roma|Roma','#8E1F2F','#F2A900','plain','deep red and golden yellow');
+add('Manchester City|SSC Napoli|Napoli|ŠK Slovan Bratislava|Coventry City|Lazio','#72BCE9','#FFFFFF','plain','sky blue and white','#102F4F');
+add('Viking FK','#142643','#FFFFFF','plain','navy blue and white');
+add('Sabah FC|Como 1907|Como|Chelsea|Everton|Getafe|Schalke 04|TSG Hoffenheim','#1556B8','#FFFFFF','plain','blue and white');
+add('FK Bodø/Glimt|Borussia Dortmund|Villarreal CF|Villarreal','#F9DD16','#141414','plain','yellow with dark trim','#141414');
+add('RB Leipzig','#FFFFFF','#E52239','plain','white and red','#D6192D');
+add('Brighton & Hove Albion|Alavés|Málaga|SC Paderborn','#1464B0','#FFFFFF','stripes','blue and white stripes','#101820');
+add('Hull City','#F6A800','#161616','stripes','amber and black stripes');
+add('Ipswich Town','#1563AA','#FFFFFF','plain','blue and white');
+add('Celta Vigo','#8FCFE8','#FFFFFF','plain','sky blue and white','#123E5F');
+add('Werder Bremen','#008E54','#FFFFFF','plain','green and white');
+add('Fiorentina','#613697','#FFFFFF','plain','violet and white');
+add('Frosinone','#F5D832','#185CA7','plain','yellow and blue','#164878');
+add('Cagliari','#B4112E','#152D4F','halves','red and navy halves');
+add('Venezia','#131A18','#F18B25','band','black with orange details');
+add('FC Augsburg','#FFFFFF','#D42136','plain','white and red','#D42136');
+add('SC Freiburg|Bayer Leverkusen','#D8192C','#161616','plain','red and black');
+add('Hamburger SV','#FFFFFF','#1E5AA6','plain','white and blue','#1E5AA6');
+add('Elche','#FFFFFF','#008E54','band','white with a green chest band','#103B2C');
+add('Racing Santander','#FFFFFF','#008E54','plain','white and green','#103B2C');
+export function clubKit(name:string){return kits[normalize(name)];}

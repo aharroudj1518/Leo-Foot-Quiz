@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/openfootball/worldcup.json/blob/516d3825c3bd23fdc298c4014e84bde78f2d4965/2026/worldcup.squads.json",
+  "revision": "516d3825c3bd23fdc298c4014e84bde78f2d4965",
+  "sha256": "32bfc35eab01e167f650c44892aebb921b083a0db350dbf48aa9cd2602ac590e",
+  "retrievedAt": "2026-09-11",
+  "license": "CC0-1.0",
+  "teams": 48,
+  "players": 1248,
+  "independentReview": false,
+  "excludedFields": [
+    "position",
+    "date_of_birth"
+  ],
+  "note": "Historical snapshot. Automated structural checks are not factual sign-off."
+}
