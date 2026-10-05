@@ -925,7 +925,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1999/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2000/",
     "era": "1999/00",
     "premium": false,
     "aliases": []
@@ -944,7 +944,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2000/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2001/",
     "era": "2000/01",
     "premium": false,
     "aliases": []
@@ -963,7 +963,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2001/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2002/",
     "era": "2001/02",
     "premium": false,
     "aliases": []
@@ -982,7 +982,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2002/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2003/",
     "era": "2002/03",
     "premium": false,
     "aliases": []
@@ -1001,7 +1001,7 @@
     "hint": "This club is based in Portugal.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2003/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2004/",
     "era": "2003/04",
     "premium": false,
     "aliases": []
@@ -1020,7 +1020,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2004/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2005/",
     "era": "2004/05",
     "premium": false,
     "aliases": []
@@ -1039,7 +1039,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2005/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2006/",
     "era": "2005/06",
     "premium": false,
     "aliases": []
@@ -1058,7 +1058,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2006/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2007/",
     "era": "2006/07",
     "premium": false,
     "aliases": []
@@ -1077,7 +1077,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2007/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2008/",
     "era": "2007/08",
     "premium": false,
     "aliases": [
@@ -1099,7 +1099,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2008/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2009/",
     "era": "2008/09",
     "premium": false,
     "aliases": []
@@ -1118,7 +1118,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2009/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2010/",
     "era": "2009/10",
     "premium": false,
     "aliases": []
@@ -1137,7 +1137,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2010/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2011/",
     "era": "2010/11",
     "premium": false,
     "aliases": []
@@ -1156,7 +1156,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2011/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2012/",
     "era": "2011/12",
     "premium": false,
     "aliases": []
@@ -1175,7 +1175,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2012/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2013/",
     "era": "2012/13",
     "premium": false,
     "aliases": []
@@ -1194,7 +1194,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2013/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2014/",
     "era": "2013/14",
     "premium": false,
     "aliases": []
@@ -1213,7 +1213,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2014/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2015/",
     "era": "2014/15",
     "premium": false,
     "aliases": []
@@ -1232,7 +1232,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2015/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2016/",
     "era": "2015/16",
     "premium": false,
     "aliases": []
@@ -1251,7 +1251,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2016/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2017/",
     "era": "2016/17",
     "premium": false,
     "aliases": []
@@ -1270,7 +1270,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2017/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2018/",
     "era": "2017/18",
     "premium": false,
     "aliases": []
@@ -1289,7 +1289,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2018/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2019/",
     "era": "2018/19",
     "premium": false,
     "aliases": []
@@ -1308,7 +1308,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2019/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2020/",
     "era": "2019/20",
     "premium": false,
     "aliases": []
@@ -1327,7 +1327,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2020/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2021/",
     "era": "2020/21",
     "premium": false,
     "aliases": []
@@ -1346,7 +1346,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2021/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2022/",
     "era": "2021/22",
     "premium": false,
     "aliases": []
@@ -1365,7 +1365,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2022/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2023/",
     "era": "2022/23",
     "premium": false,
     "aliases": []
@@ -1384,7 +1384,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2023/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2024/",
     "era": "2023/24",
     "premium": false,
     "aliases": []
@@ -2336,7 +2336,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1955/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1956/",
     "era": "1956",
     "premium": true,
     "aliases": []
@@ -2355,7 +2355,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1956/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1957/",
     "era": "1957",
     "premium": true,
     "aliases": []
@@ -2374,7 +2374,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1957/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1958/",
     "era": "1958",
     "premium": true,
     "aliases": []
@@ -2393,7 +2393,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1958/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1959/",
     "era": "1959",
     "premium": true,
     "aliases": []
@@ -2412,7 +2412,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1959/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1960/",
     "era": "1960",
     "premium": true,
     "aliases": []
@@ -2431,7 +2431,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1960/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1961/",
     "era": "1961",
     "premium": true,
     "aliases": []
@@ -2450,7 +2450,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1961/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1962/",
     "era": "1962",
     "premium": true,
     "aliases": []
@@ -2469,7 +2469,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1962/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1963/",
     "era": "1963",
     "premium": true,
     "aliases": []
@@ -2488,7 +2488,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1963/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1964/",
     "era": "1964",
     "premium": true,
     "aliases": []
@@ -2507,7 +2507,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1964/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1965/",
     "era": "1965",
     "premium": true,
     "aliases": []
@@ -2526,7 +2526,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1965/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1966/",
     "era": "1966",
     "premium": true,
     "aliases": []
@@ -2545,7 +2545,7 @@
     "hint": "The winning club is from Scotland.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1966/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1967/",
     "era": "1967",
     "premium": true,
     "aliases": []
@@ -2564,7 +2564,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1967/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1968/",
     "era": "1968",
     "premium": true,
     "aliases": []
@@ -2583,7 +2583,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1968/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1969/",
     "era": "1969",
     "premium": true,
     "aliases": []
@@ -2602,7 +2602,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1969/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1970/",
     "era": "1970",
     "premium": true,
     "aliases": []
@@ -2621,7 +2621,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1970/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1971/",
     "era": "1971",
     "premium": true,
     "aliases": []
@@ -2640,7 +2640,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1971/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1972/",
     "era": "1972",
     "premium": true,
     "aliases": []
@@ -2659,7 +2659,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1972/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1973/",
     "era": "1973",
     "premium": true,
     "aliases": []
@@ -2678,7 +2678,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1973/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1974/",
     "era": "1974",
     "premium": true,
     "aliases": []
@@ -2697,7 +2697,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1974/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1975/",
     "era": "1975",
     "premium": true,
     "aliases": []
@@ -2716,7 +2716,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1975/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1976/",
     "era": "1976",
     "premium": true,
     "aliases": []
@@ -2735,7 +2735,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1976/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1977/",
     "era": "1977",
     "premium": true,
     "aliases": []
@@ -2754,7 +2754,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1977/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1978/",
     "era": "1978",
     "premium": true,
     "aliases": []
@@ -2773,7 +2773,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1978/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1979/",
     "era": "1979",
     "premium": true,
     "aliases": []
@@ -2792,7 +2792,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1979/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1980/",
     "era": "1980",
     "premium": true,
     "aliases": []
@@ -2811,7 +2811,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1980/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1981/",
     "era": "1981",
     "premium": true,
     "aliases": []
@@ -2830,7 +2830,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1981/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1982/",
     "era": "1982",
     "premium": true,
     "aliases": []
@@ -2849,7 +2849,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1982/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1983/",
     "era": "1983",
     "premium": true,
     "aliases": []
@@ -2868,7 +2868,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1983/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1984/",
     "era": "1984",
     "premium": true,
     "aliases": []
@@ -2887,7 +2887,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1984/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1985/",
     "era": "1985",
     "premium": true,
     "aliases": []
@@ -2906,7 +2906,7 @@
     "hint": "The winning club is from Romania.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1985/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1986/",
     "era": "1986",
     "premium": true,
     "aliases": []
@@ -2925,7 +2925,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1986/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1987/",
     "era": "1987",
     "premium": true,
     "aliases": []
@@ -2944,7 +2944,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1987/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1988/",
     "era": "1988",
     "premium": true,
     "aliases": []
@@ -2963,7 +2963,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1988/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1989/",
     "era": "1989",
     "premium": true,
     "aliases": []
@@ -2982,7 +2982,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1989/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1990/",
     "era": "1990",
     "premium": true,
     "aliases": []
@@ -3001,7 +3001,7 @@
     "hint": "The winning club is from Yugoslavia at the time.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1990/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1991/",
     "era": "1991",
     "premium": true,
     "aliases": []
@@ -3020,7 +3020,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1991/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1992/",
     "era": "1992",
     "premium": true,
     "aliases": []
@@ -3039,7 +3039,7 @@
     "hint": "The winning club is from France.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1992/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1993/",
     "era": "1993",
     "premium": true,
     "aliases": []
@@ -3058,7 +3058,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1993/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1994/",
     "era": "1994",
     "premium": true,
     "aliases": []
@@ -3077,7 +3077,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1994/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1995/",
     "era": "1995",
     "premium": true,
     "aliases": []
