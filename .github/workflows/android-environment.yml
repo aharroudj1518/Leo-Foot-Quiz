@@ -1,0 +1,27 @@
+name: Android payment environment
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/play-release]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-environment]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Check production Android payment configuration without starting a build
+        run: eas env:exec production 'node scripts/check-android-environment.mjs production-paid' --non-interactive

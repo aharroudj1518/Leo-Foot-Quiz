@@ -98,6 +98,13 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
       - name: Check Expo authentication
         run: eas whoami
+      - name: Check Android production environment before building
+        run: |
+          case "$BUILD_PROFILE" in
+            production) node scripts/check-android-environment.mjs production ;;
+            production-paid) eas env:exec production 'node scripts/check-android-environment.mjs production-paid' --non-interactive ;;
+            *) echo "Unsupported build profile"; exit 1 ;;
+          esac
       - name: Build signed Android App Bundle
         run: eas build --platform android --profile "$BUILD_PROFILE" --freeze-credentials --non-interactive --wait --json > "$RUNNER_TEMP/leoqo-build.json"
       - name: Record and validate completed build
