@@ -52,6 +52,23 @@ with tempfile.TemporaryDirectory() as temp:
     module.finalize(root)
     import json
     assert json.loads((root / 'native-smoke-report.json').read_text())['status'] == 'not_completed'
+    assert module.android_failure_reason(b'', b'adb: failed to install /private/apk/path: Failure [INSTALL_FAILED_INVALID_APK: goog_private_value EXPO_TOKEN=private-token]') == 'INSTALL_FAILED_INVALID_APK'
+    assert module.android_failure_reason(b'', b'unknown option --private-option') == 'Android command option unsupported'
+    assert 'private' not in module.android_failure_reason(b'private-value', b'/private/path goog_private_key')
+    diagnostic = module.Smoke(root)
+    original_run = module.subprocess.run
+    module.subprocess.run = lambda *args, **kwargs: module.subprocess.CompletedProcess(args[0], 1, b'', b'Failure [INSTALL_FAILED_INSUFFICIENT_STORAGE: /private/apk/path sk_private_value]')
+    try:
+        try:
+            diagnostic.adb('install', '--no-streaming', '/private/apk/path')
+            raise AssertionError('Install failure passed')
+        except module.AndroidCommandError as error:
+            assert 'install_test_apk' in str(error)
+            assert 'INSTALL_FAILED_INSUFFICIENT_STORAGE' in str(error)
+            assert 'private' not in str(error)
+        assert diagnostic.report['failedCommand'] == {'stage': 'install_test_apk', 'exitCode': 1, 'reason': 'INSTALL_FAILED_INSUFFICIENT_STORAGE'}
+    finally:
+        module.subprocess.run = original_run
 `;
   const result = spawnSync('python3', ['-c', code], { cwd: new URL('../', import.meta.url), encoding: 'utf8', env: { ...process.env, PYTHONDONTWRITEBYTECODE: '1' } });
   assert.equal(result.status, 0, result.stderr || result.stdout);

@@ -39,6 +39,59 @@ def normalized(text):
     return ' '.join(text.split())
 
 
+def command_stage(args):
+    stages = {
+        ('install',): 'install_test_apk',
+        ('shell', 'pm', 'clear'): 'clear_test_app_data',
+        ('shell', 'am', 'start'): 'launch_test_app',
+        ('shell', 'wm', 'size'): 'configure_display_size',
+        ('shell', 'wm', 'density'): 'configure_display_density',
+        ('shell', 'getprop', 'ro.build.version.sdk'): 'read_android_api',
+        ('shell', 'getprop', 'ro.product.cpu.abi'): 'read_android_abi',
+        ('shell', 'pidof'): 'check_app_process',
+        ('shell', 'uiautomator'): 'capture_ui_hierarchy',
+        ('shell', 'rm'): 'clear_old_ui_hierarchy',
+        ('shell', 'input'): 'interact_with_native_ui',
+        ('exec-out', 'screencap'): 'capture_native_screenshot',
+        ('exec-out', 'cat'): 'read_ui_hierarchy',
+        ('logcat', '-c'): 'clear_test_logcat',
+        ('logcat',): 'collect_test_logcat',
+    }
+    return next((stage for prefix, stage in stages.items() if tuple(args[:len(prefix)]) == prefix), 'android_test_command')
+
+
+def android_failure_reason(stdout=b'', stderr=b''):
+    # Return only fixed codes/phrases, never raw command output, paths or values.
+    text = '\n'.join(value.decode('utf-8', errors='replace') if isinstance(value, bytes) else str(value) for value in (stdout, stderr))[-65536:]
+    for code in ('INSTALL_FAILED_INVALID_APK', 'INSTALL_FAILED_INSUFFICIENT_STORAGE', 'INSTALL_FAILED_NO_MATCHING_ABIS',
+                 'INSTALL_FAILED_TEST_ONLY', 'INSTALL_FAILED_UPDATE_INCOMPATIBLE', 'INSTALL_FAILED_VERSION_DOWNGRADE',
+                 'INSTALL_FAILED_OLDER_SDK', 'INSTALL_FAILED_NEWER_SDK', 'INSTALL_FAILED_MISSING_SPLIT',
+                 'INSTALL_FAILED_USER_RESTRICTED', 'INSTALL_FAILED_INTERNAL_ERROR', 'INSTALL_FAILED_DEXOPT',
+                 'INSTALL_FAILED_VERIFICATION_FAILURE', 'INSTALL_FAILED_CONFLICTING_PROVIDER',
+                 'INSTALL_PARSE_FAILED_NO_CERTIFICATES', 'INSTALL_PARSE_FAILED_BAD_MANIFEST',
+                 'INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES', 'INSTALL_FAILED_BAD_SIGNATURE'):
+        if re.search(r'\b' + code + r'\b', text):
+            return code
+    for pattern, reason in (
+        (r'device offline', 'ADB device offline'), (r'unauthorized', 'ADB device unauthorized'),
+        (r'no devices/emulators|device .* not found', 'ADB device unavailable'),
+        (r'more than one device', 'Multiple ADB devices'),
+        (r"Can.t find service.*package", 'Android package service unavailable'),
+        (r'Error type 3|Activity class .* does not exist', 'Android activity not found'),
+        (r'unable to resolve Intent', 'Android launch intent unresolved'),
+        (r'SecurityException|Permission Denial|permission denied', 'Android permission denied'),
+        (r'unknown option|unrecognized option', 'Android command option unsupported'),
+        (r'No such file or directory', 'Android command file unavailable'),
+    ):
+        if re.search(pattern, text, re.I):
+            return reason
+    return 'Android rejected the command; no recognized safe error code was returned'
+
+
+class AndroidCommandError(RuntimeError):
+    pass
+
+
 def verify_test_apk(apk, verification):
     if (verification.get('package') != PACKAGE or verification.get('buildId') != BUILD_ID
             or verification.get('sourceCommit') != SOURCE_COMMIT or verification.get('versionCode') != 6
@@ -60,12 +113,22 @@ class Smoke:
         self.report = {"kind": "native-android-emulator-smoke", "status": "running", "startedAt": utc_now(), "package": PACKAGE, "checks": [], "screenshots": [], "limitations": LIMITATIONS}
 
     def adb(self, *args, timeout=30, binary=False):
+        stage = command_stage(args)
+        self.report['lastCommandStage'] = stage
+        if stage not in self.report.setdefault('commandStagesStarted', []):
+            self.report['commandStagesStarted'].append(stage)
+            print(f'ANDROID STAGE: {stage}', flush=True)
         try:
             result = subprocess.run(['adb', *args], capture_output=True, timeout=timeout, check=False)
         except (subprocess.TimeoutExpired, OSError):
-            raise RuntimeError("Android test command did not complete; emulator/tool availability needs inspection.") from None
+            reason = 'Android command timed out or the local tool was unavailable'
+            self.report.setdefault('failedCommand', {"stage": stage, "reason": reason})
+            raise AndroidCommandError(f'Android stage {stage} failed: {reason}.') from None
         if result.returncode:
-            raise RuntimeError("Android test command failed; no command output or credentials were echoed.")
+            reason = android_failure_reason(result.stdout, result.stderr)
+            self.report.setdefault('failedCommand', {"stage": stage, "exitCode": result.returncode, "reason": reason})
+            raise AndroidCommandError(f'Android stage {stage} failed (exit {result.returncode}): {reason}.')
+        self.report['lastSuccessfulCommandStage'] = stage
         return result.stdout if binary else result.stdout.decode('utf-8', errors='replace')
 
     def dump(self):
@@ -163,7 +226,9 @@ class Smoke:
     def launch(self):
         result = self.adb('shell', 'am', 'start', '-W', '-S', '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', '-p', PACKAGE, timeout=60)
         if 'Status: ok' not in result:
-            raise RuntimeError('Android could not launch the installed app successfully.')
+            reason = android_failure_reason(result)
+            self.report.setdefault('failedCommand', {"stage": 'launch_test_app', "reason": reason})
+            raise AndroidCommandError(f'Android stage launch_test_app did not report success: {reason}.')
         self.wait(lambda root: self.match(root, 'Leoqo home'), 'home navigation after launch', timeout=75)
         pid_text = self.adb('shell', 'pidof', PACKAGE).strip()
         pids = {part for part in pid_text.split() if part.isdigit()}
@@ -289,7 +354,7 @@ def main():
         smoke.report['status'] = 'passed'
     except Exception as error:
         smoke.report['status'] = 'failed'
-        smoke.report['failure'] = redact(str(error))
+        smoke.report['failure'] = str(error) if isinstance(error, AndroidCommandError) else redact(str(error))
         print(f'FAIL: {smoke.report["failure"]}', file=sys.stderr, flush=True)
         try:
             smoke.screenshot('99-native-failure.png', 'Actual emulator display at the point the native smoke check failed.')
