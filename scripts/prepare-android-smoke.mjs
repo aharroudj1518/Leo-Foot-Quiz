@@ -5,17 +5,43 @@ import { chmod, lstat, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/p
 import { isAbsolute, join, parse, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-export const EXPECTED_SMOKE = Object.freeze({
-  buildId: '5f7931d6-c2a6-4a73-9397-12899c5d23a4',
-  sourceCommit: 'faeb0a4e6328d11166478dc34ad7c09650daa58c',
+const fixedTarget = Object.freeze({
   projectId: '99891114-dac6-4d4c-973c-3a246db2a7b1',
   package: 'com.leoqo.footballquiz', buildProfile: 'production-paid',
-  distribution: 'STORE', easStatus: 'FINISHED', versionCode: 6, targetSdk: 36, debuggable: false,
+  distribution: 'STORE', easStatus: 'FINISHED', targetSdk: 36, debuggable: false,
 });
-export const expectedBundleFilename = `leoqo-v6-${EXPECTED_SMOKE.buildId}.aab`;
 const bundletoolSha256 = 'a099cfa1543f55593bc2ed16a70a7c67fe54b1747bb7301f37fdfd6d91028e29';
 const maximumBundleBytes = 512 * 1024 * 1024;
 class SmokePreparationError extends Error {}
+
+export function smokeTarget(env = process.env) {
+  const buildId = env.SMOKE_BUILD_ID;
+  const sourceCommit = env.SMOKE_SOURCE_COMMIT;
+  const versionCode = env.SMOKE_VERSION_CODE;
+  if (typeof buildId !== 'string' || buildId.length !== 36 || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(buildId)) {
+    throw new SmokePreparationError('SMOKE_BUILD_ID must identify one exact build with a full lowercase UUID.');
+  }
+  if (typeof sourceCommit !== 'string' || sourceCommit.length !== 40 || !/^[0-9a-f]{40}$/.test(sourceCommit)) {
+    throw new SmokePreparationError('SMOKE_SOURCE_COMMIT must be the full lowercase source commit hash.');
+  }
+  if (typeof versionCode !== 'string' || !/^[1-9]\d{0,9}$/.test(versionCode)
+    || String(Number(versionCode)) !== versionCode || Number(versionCode) > 2100000000) {
+    throw new SmokePreparationError('SMOKE_VERSION_CODE must be a canonical decimal Android version code from 1 to 2100000000.');
+  }
+  return Object.freeze({ ...fixedTarget, buildId, sourceCommit, versionCode: Number(versionCode) });
+}
+
+function checkedTarget(target) {
+  if (!Number.isInteger(target?.versionCode) || Object.entries(fixedTarget).some(([field, value]) => target?.[field] !== value)) {
+    throw new SmokePreparationError('The smoke target must preserve the fixed Android release identity and configuration.');
+  }
+  return smokeTarget({ SMOKE_BUILD_ID: target.buildId, SMOKE_SOURCE_COMMIT: target.sourceCommit, SMOKE_VERSION_CODE: String(target.versionCode) });
+}
+
+export function expectedBundleFilename(target) {
+  const checked = checkedTarget(target);
+  return `leoqo-v${checked.versionCode}-${checked.buildId}.aab`;
+}
 
 function checkedPath(value) {
   if (typeof value !== 'string' || !value || /[\\\x00-\x1f]/.test(value) || value.split('/').includes('..')) {
@@ -48,8 +74,9 @@ async function digest(path, maximum = maximumBundleBytes) {
   return { sha256: hash.digest('hex'), bytes };
 }
 
-export function validateInspectionReport(report, actual) {
-  for (const [field, expected] of Object.entries(EXPECTED_SMOKE)) {
+export function validateInspectionReport(report, actual, target = smokeTarget()) {
+  const expectedTarget = checkedTarget(target);
+  for (const [field, expected] of Object.entries(expectedTarget)) {
     if (report?.[field] !== expected) throw new SmokePreparationError('Inspection report does not match the exact reviewed Android build.');
   }
   if (!/^[0-9a-f]{64}$/i.test(report.bundleSha256 ?? '') || !Number.isSafeInteger(report.bundleBytes)
@@ -61,11 +88,12 @@ export function validateInspectionReport(report, actual) {
     || !/^[0-9a-f]{64}$/i.test(report.signing?.certificateSha256 ?? '')) {
     throw new SmokePreparationError('Inspection report lacks verified bundle signing evidence.');
   }
-  return { ...EXPECTED_SMOKE, bundleSha256: actual.sha256, bundleBytes: actual.bytes,
+  return { ...expectedTarget, bundleSha256: actual.sha256, bundleBytes: actual.bytes,
     signing: { signedPayloadEntries: report.signing.signedPayloadEntries, certificateSha256: report.signing.certificateSha256.toUpperCase() } };
 }
 
-export async function verifyInspection(directory) {
+export async function verifyInspection(directory, target = smokeTarget()) {
+  const expectedTarget = checkedTarget(target);
   const input = checkedPath(directory);
   await noSymlinks(input);
   if (!(await lstat(input)).isDirectory()) throw new SmokePreparationError('Inspection input must be a directory.');
@@ -82,15 +110,15 @@ export async function verifyInspection(directory) {
     }
   }
   await walk(input);
-  const bundle = join(input, expectedBundleFilename);
-  if (bundles.length !== 1 || bundles[0] !== bundle) throw new SmokePreparationError('Expected exactly the inspected version 6 Android bundle at the artifact root.');
+  const bundle = join(input, expectedBundleFilename(expectedTarget));
+  if (bundles.length !== 1 || bundles[0] !== bundle) throw new SmokePreparationError('Expected exactly the pinned inspected Android bundle at the artifact root.');
   const reportPath = join(input, 'inspection-report.json');
   const reportInfo = await lstat(reportPath);
   if (!reportInfo.isFile() || reportInfo.size > 1024 * 1024) throw new SmokePreparationError('Inspection report file is invalid.');
   let report;
   try { report = JSON.parse(await readFile(reportPath, 'utf8')); }
   catch { throw new SmokePreparationError('Inspection report is not valid JSON.'); }
-  return { bundle, report: validateInspectionReport(report, await digest(bundle)) };
+  return { bundle, report: validateInspectionReport(report, await digest(bundle), expectedTarget) };
 }
 
 export function validateArchiveEntries(listing) {
@@ -123,6 +151,7 @@ function contains(parent, child) {
 }
 
 export async function prepareAndroidSmoke(inputDirectory, workDirectory, outputDirectory, env = process.env) {
+  const target = smokeTarget(env);
   const input = checkedPath(inputDirectory);
   const work = checkedPath(workDirectory);
   const output = checkedPath(outputDirectory);
@@ -133,7 +162,7 @@ export async function prepareAndroidSmoke(inputDirectory, workDirectory, outputD
   const tool = checkedPath(env.BUNDLETOOL_PATH);
   await noSymlinks(tool);
   if ((await digest(tool, 64 * 1024 * 1024)).sha256 !== bundletoolSha256) throw new SmokePreparationError('Bundletool does not match the pinned official 1.18.3 bytes.');
-  const verified = await verifyInspection(input);
+  const verified = await verifyInspection(input, target);
   validateArchiveEntries(run('unzip', ['-Z1', verified.bundle], 'Bundle architecture inspection'));
   for (const directory of [work, output]) {
     await noSymlinks(directory);
@@ -158,7 +187,7 @@ export async function prepareAndroidSmoke(inputDirectory, workDirectory, outputD
     finally { closeSync(descriptor); }
     const apkDigest = await digest(apk);
     const finalBundle = await digest(verified.bundle);
-    validateInspectionReport(verified.report, finalBundle);
+    validateInspectionReport(verified.report, finalBundle, target);
     const summary = { ...verified.report, inspectionRunId: env.INSPECTION_RUN_ID,
       aabSha256: finalBundle.sha256, aabBytes: finalBundle.bytes, apkSha256: apkDigest.sha256, apkBytes: apkDigest.bytes,
       bundletool: { version: '1.18.3', sha256: bundletoolSha256 }, emulatorArchitecture: 'x86_64',
@@ -167,7 +196,7 @@ export async function prepareAndroidSmoke(inputDirectory, workDirectory, outputD
         'APK preparation alone does not establish successful native launch or UI behavior. No EAS build, store submission or account change was performed.'] };
     await writeFile(join(output, 'input-verification.json'), JSON.stringify(summary, null, 2) + '\n', { flag: 'wx', mode: 0o600 });
     complete = true;
-    console.log('Exact inspected version 6 bundle verified; a disposable test-signed universal APK is ready in the private work directory.');
+    console.log(`Exact inspected version ${target.versionCode} bundle verified; a disposable test-signed universal APK is ready in the private work directory.`);
     return summary;
   } finally {
     await rm(key, { force: true });

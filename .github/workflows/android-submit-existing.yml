@@ -7,12 +7,12 @@ on:
         description: Exact finished EAS Android build UUID to submit
         type: string
         required: true
-        default: 5f7931d6-c2a6-4a73-9397-12899c5d23a4
+        default: 9d9d1a37-3fe9-4d41-83a1-8bea6745cd74
       source_commit:
         description: Full reviewed source commit SHA recorded on that build
         type: string
         required: true
-        default: faeb0a4e6328d11166478dc34ad7c09650daa58c
+        default: 089b8ed12c397e18aed059b99173088fafa15c52
   push:
     branches: [codex/play-submit]
 
@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      INSPECT_BUILD_ID: ${{ github.event_name == 'push' && '5f7931d6-c2a6-4a73-9397-12899c5d23a4' || inputs.build_id }}
-      INSPECT_SOURCE_COMMIT: ${{ github.event_name == 'push' && 'faeb0a4e6328d11166478dc34ad7c09650daa58c' || inputs.source_commit }}
-      INSPECT_MIN_VERSION_CODE: '6'
+      INSPECT_BUILD_ID: ${{ github.event_name == 'push' && '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' || inputs.build_id }}
+      INSPECT_SOURCE_COMMIT: ${{ github.event_name == 'push' && '089b8ed12c397e18aed059b99173088fafa15c52' || inputs.source_commit }}
+      INSPECT_MIN_VERSION_CODE: '7'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

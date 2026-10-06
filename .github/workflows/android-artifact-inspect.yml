@@ -14,7 +14,7 @@ on:
       minimum_version_code:
         description: Minimum accepted Android version code
         type: string
-        default: '6'
+        default: '7'
       upload_certificate_sha256:
         description: Optional expected Play upload certificate SHA-256 fingerprint
         type: string
@@ -35,9 +35,9 @@ jobs:
     timeout-minutes: 20
     env:
       # Exact candidate from the reviewed release run; never select a latest build.
-      INSPECT_BUILD_ID: ${{ inputs.build_id || '5f7931d6-c2a6-4a73-9397-12899c5d23a4' }}
-      INSPECT_SOURCE_COMMIT: ${{ inputs.source_commit || 'faeb0a4e6328d11166478dc34ad7c09650daa58c' }}
-      INSPECT_MIN_VERSION_CODE: ${{ inputs.minimum_version_code || '6' }}
+      INSPECT_BUILD_ID: ${{ inputs.build_id || '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' }}
+      INSPECT_SOURCE_COMMIT: ${{ inputs.source_commit || '089b8ed12c397e18aed059b99173088fafa15c52' }}
+      INSPECT_MIN_VERSION_CODE: ${{ inputs.minimum_version_code || '7' }}
       INSPECT_UPLOAD_CERT_SHA256: ${{ inputs.upload_certificate_sha256 || vars.ANDROID_UPLOAD_CERT_SHA256 }}
     steps:
       - uses: actions/checkout@v4

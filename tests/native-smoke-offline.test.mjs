@@ -4,8 +4,10 @@ import { test } from 'node:test';
 
 test('native smoke refuses changed APKs and stale UI captures and redacts short log credentials', () => {
   const code = String.raw`
-import hashlib, importlib.util, tempfile
+import hashlib, importlib.util, tempfile, os
 from pathlib import Path
+pins = {'SMOKE_BUILD_ID': '5f7931d6-c2a6-4a73-9397-12899c5d23a4', 'SMOKE_SOURCE_COMMIT': 'faeb0a4e6328d11166478dc34ad7c09650daa58c', 'SMOKE_VERSION_CODE': '6', 'SMOKE_API_LEVEL': '36'}
+os.environ.update(pins)
 spec = importlib.util.spec_from_file_location('native_smoke', 'scripts/android-native-smoke.py')
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
@@ -13,8 +15,7 @@ with tempfile.TemporaryDirectory() as temp:
     root = Path(temp)
     apk = root / 'app.apk'
     apk.write_bytes(b'test-only-artifact')
-    metadata = {'package': module.PACKAGE, 'buildId': module.BUILD_ID, 'sourceCommit': module.SOURCE_COMMIT,
-                'versionCode': 6, 'apkSha256': hashlib.sha256(apk.read_bytes()).hexdigest(), 'apkBytes': apk.stat().st_size}
+    metadata = {**module.smoke_target(), 'apkSha256': hashlib.sha256(apk.read_bytes()).hexdigest(), 'apkBytes': apk.stat().st_size}
     module.verify_test_apk(apk, metadata)
     apk.write_bytes(b'changed-artifact')
     try:
@@ -22,6 +23,37 @@ with tempfile.TemporaryDirectory() as temp:
         raise AssertionError('Changed APK passed')
     except RuntimeError:
         pass
+    for field, values in {'SMOKE_BUILD_ID': ['', 'latest', '5f7931d6', '5F7931D6-c2a6-4a73-9397-12899c5d23a4'],
+                          'SMOKE_SOURCE_COMMIT': ['', 'main', 'a' * 39, 'A' * 40],
+                          'SMOKE_VERSION_CODE': ['', '0', '06', '-1', '6.0', '2100000001']}.items():
+        for value in values:
+            try:
+                module.smoke_target({**pins, field: value})
+                raise AssertionError('Invalid candidate pin passed')
+            except RuntimeError:
+                pass
+    for incomplete in [{}, {key: value for key, value in pins.items() if key != 'SMOKE_BUILD_ID'}]:
+        try:
+            module.smoke_target(incomplete)
+            raise AssertionError('Missing candidate pin fell back to an old build')
+        except RuntimeError:
+            pass
+    assert module.smoke_api({'SMOKE_API_LEVEL': '32'}) == 32
+    assert module.smoke_api({'SMOKE_API_LEVEL': '36'}) == 36
+    for value in [None, '', 'latest', '35', 32]:
+        try:
+            module.smoke_api({'SMOKE_API_LEVEL': value})
+            raise AssertionError('Unsupported or implicit API was accepted')
+        except RuntimeError:
+            pass
+    os.environ['SMOKE_VERSION_CODE'] = '7'
+    apk.write_bytes(b'test-only-artifact')
+    try:
+        module.verify_test_apk(apk, metadata)
+        raise AssertionError('Previous version APK matched a new candidate pin')
+    except RuntimeError:
+        pass
+    os.environ['SMOKE_VERSION_CODE'] = '6'
     smoke = module.Smoke(root)
     calls = []
     def stale_dump(*args, **kwargs):

@@ -7,6 +7,25 @@ on:
         description: Exact successful Android artifact inspection workflow run ID
         type: string
         required: true
+      build_id:
+        description: Exact inspected EAS Android build UUID
+        type: string
+        required: true
+        default: 9d9d1a37-3fe9-4d41-83a1-8bea6745cd74
+      source_commit:
+        description: Exact native source commit, 40 lowercase hexadecimal characters
+        type: string
+        required: true
+        default: 089b8ed12c397e18aed059b99173088fafa15c52
+      version_code:
+        description: Exact inspected Android version code
+        type: string
+        required: true
+        default: '7'
+      include_api32:
+        description: Also exercise Android API 32 alongside required API 36
+        type: boolean
+        default: true
   push:
     branches: [codex/android-smoke]
 
@@ -14,11 +33,22 @@ permissions:
   contents: read
   actions: read
 
+env:
+  SMOKE_BUILD_ID: ${{ inputs.build_id || '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' }}
+  SMOKE_SOURCE_COMMIT: ${{ inputs.source_commit || '089b8ed12c397e18aed059b99173088fafa15c52' }}
+  SMOKE_VERSION_CODE: ${{ inputs.version_code || '7' }}
+
 jobs:
   smoke:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-smoke:')
     runs-on: ubuntu-latest
     timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        api: ${{ fromJSON((github.event_name == 'push' || inputs.include_api32) && '[36,32]' || '[36]') }}
+    env:
+      SMOKE_API_LEVEL: ${{ matrix.api }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,6 +61,8 @@ jobs:
           PUSH_MESSAGE: ${{ github.event.head_commit.message || '' }}
         with:
           script: |
+            const { smokeTarget } = await import(`${process.env.GITHUB_WORKSPACE}/scripts/prepare-android-smoke.mjs`);
+            const target = smokeTarget(process.env);
             const markers = [...process.env.PUSH_MESSAGE.matchAll(/\[android-smoke:(\d+)\]/g)];
             const raw = process.env.REQUESTED_RUN_ID || (markers.length === 1 ? markers[0][1] : '');
             if (!/^[1-9]\d{0,15}$/.test(raw) || !Number.isSafeInteger(Number(raw))) throw new Error('Provide one exact inspection run ID. Push marker: [android-smoke:<run-id>].');
@@ -45,6 +77,7 @@ jobs:
               if (matches.length !== 1) throw new Error('The exact run must contain one unexpired report and one signed AAB artifact.');
             }
             core.setOutput('run_id', raw);
+            core.setOutput('source_commit', target.sourceCommit);
             core.info(`Verified successful inspection run ${raw}. No build or Play action requested.`);
       - uses: actions/download-artifact@v4
         with:
@@ -61,7 +94,7 @@ jobs:
       - name: Read the question bank from the native build's exact source
         uses: actions/checkout@v4
         with:
-          ref: faeb0a4e6328d11166478dc34ad7c09650daa58c
+          ref: ${{ steps.inspection.outputs.source_commit }}
           path: native-source
           persist-credentials: false
           sparse-checkout: src/content/questions.json
@@ -90,13 +123,13 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
-      - name: Install and exercise the actual native app on API 36
+      - name: Install and exercise the actual native app on API ${{ matrix.api }}
         id: emulator
         # v2.38.0; no Play Store image, account login, EAS build or payment step.
         uses: reactivecircus/android-emulator-runner@a421e43855164a8197daf9d8d40fe71c6996bb0d
         timeout-minutes: 25
         with:
-          api-level: 36
+          api-level: ${{ matrix.api }}
           target: google_apis
           arch: x86_64
           profile: pixel_2
@@ -115,7 +148,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: leoqo-native-android-smoke-${{ github.run_id }}
+          name: leoqo-native-android-smoke-api${{ matrix.api }}-${{ github.run_id }}
           path: native-smoke
           if-no-files-found: ignore
           retention-days: 14
