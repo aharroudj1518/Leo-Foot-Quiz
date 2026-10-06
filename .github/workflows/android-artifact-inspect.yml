@@ -14,16 +14,21 @@ on:
       minimum_version_code:
         description: Minimum accepted Android version code
         type: string
-        default: '6'
+        default: '7'
       upload_certificate_sha256:
         description: Optional expected Play upload certificate SHA-256 fingerprint
         type: string
         required: false
   push:
     branches: [codex/artifact-inspect]
+  workflow_run:
+    workflows: [Android release]
+    types: [completed]
+    branches: [codex/play-release]
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: leoqo-android-artifact-inspection
@@ -31,16 +36,45 @@ concurrency:
 
 jobs:
   inspect:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.repository == 'aharroudj1518/Leo-Foot-Quiz' &&
+       github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == 'aharroudj1518/Leo-Foot-Quiz' &&
+       github.event.workflow_run.head_branch == 'codex/play-release' &&
+       github.event.workflow_run.head_sha == '089b8ed12c397e18aed059b99173088fafa15c52')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
       # Exact candidate from the reviewed release run; never select a latest build.
-      INSPECT_BUILD_ID: ${{ inputs.build_id || '5f7931d6-c2a6-4a73-9397-12899c5d23a4' }}
-      INSPECT_SOURCE_COMMIT: ${{ inputs.source_commit || 'faeb0a4e6328d11166478dc34ad7c09650daa58c' }}
-      INSPECT_MIN_VERSION_CODE: ${{ inputs.minimum_version_code || '6' }}
+      INSPECT_BUILD_ID: ${{ inputs.build_id || '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' }}
+      INSPECT_SOURCE_COMMIT: ${{ inputs.source_commit || '089b8ed12c397e18aed059b99173088fafa15c52' }}
+      INSPECT_MIN_VERSION_CODE: ${{ inputs.minimum_version_code || '7' }}
       INSPECT_UPLOAD_CERT_SHA256: ${{ inputs.upload_certificate_sha256 || vars.ANDROID_UPLOAD_CERT_SHA256 }}
     steps:
+      - name: Verify the exact completed release before automatic inspection
+        if: github.event_name == 'workflow_run'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const upstream = context.payload.workflow_run;
+            const { data: run } = await github.rest.actions.getWorkflowRun({ owner, repo, run_id: upstream.id });
+            const { data: workflow } = await github.rest.actions.getWorkflow({ owner, repo, workflow_id: run.workflow_id });
+            if (`${owner}/${repo}`.toLowerCase() !== 'aharroudj1518/leo-foot-quiz' ||
+                run.status !== 'completed' || run.conclusion !== 'success' || run.event !== 'push' ||
+                run.head_repository?.full_name?.toLowerCase() !== 'aharroudj1518/leo-foot-quiz' ||
+                run.head_branch !== 'codex/play-release' || run.head_sha !== '089b8ed12c397e18aed059b99173088fafa15c52' ||
+                workflow.path !== '.github/workflows/android-release.yml' ||
+                process.env.INSPECT_BUILD_ID !== '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' ||
+                process.env.INSPECT_SOURCE_COMMIT !== '089b8ed12c397e18aed059b99173088fafa15c52' ||
+                process.env.INSPECT_MIN_VERSION_CODE !== '7') throw new Error('Automatic inspection is restricted to the exact reviewed version 7 release.');
+            core.info('Exact successful version 7 release verified. This follow-on only inspects its existing signed artifact.');
       - uses: actions/checkout@v4
+        with:
+          # workflow_run uses trusted default-branch code, never upstream event code.
+          ref: ${{ github.event_name == 'workflow_run' && github.event.repository.default_branch || github.sha }}
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 24
