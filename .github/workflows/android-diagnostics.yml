@@ -22,7 +22,7 @@ jobs:
     env:
       EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
       BUILD_ID: ${{ inputs.build_id || '' }}
-      SOURCE_COMMIT: ${{ inputs.source_commit || (github.event_name == 'push' && 'faeb0a4e6328d11166478dc34ad7c09650daa58c') || '' }}
+      SOURCE_COMMIT: ${{ inputs.source_commit || (github.event_name == 'push' && '089b8ed12c397e18aed059b99173088fafa15c52') || '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
