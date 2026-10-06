@@ -7,7 +7,7 @@ function safe(message) {
     .replace(/https?:\/\/[^\s"<>]+/g, '[URL omitted]')
     .replace(/\b(?:goog|appl|sk|test)_[\w.-]+/g, '[SDK key omitted]')
     .replace(/((?:TOKEN|SECRET|PASSWORD|API_KEY)\s*[=:]\s*)[^\s,;]+/gi, '$1[omitted]')
-    .replace(/\b[A-Za-z0-9+/_=-]{32,}\b/g, '[long value omitted]')
+    .replace(/\b[A-Za-z0-9+/_=-]{32,}\b/g, value => /^(?:EXPO_PUBLIC_|EAS_BUILD_)[A-Z0-9_]+$/.test(value) ? value : '[long value omitted]')
     .slice(0, 700);
 }
 
@@ -53,7 +53,14 @@ for (const [index, address] of (build.logFiles ?? []).entries()) {
       }
     } catch { messages.push(line); }
   }
-  const errors = messages.filter(message => /FAIL:|error|failed|requires|unsupported|cannot|could not|not found|ENOENT/i.test(message));
+  // Doctor prints the dependency names and advice on lines that do not include
+  // "error". Include the bounded phase so the actual failing check is visible.
+  const doctor = messages.filter(message => /^RUN_EXPO_DOCTOR\s/.test(message));
+  if (doctor.length) {
+    console.log(`Log ${index + 1}: Expo Doctor phase (${doctor.length} messages).`);
+    for (const message of doctor.slice(-100)) console.log(safe(message));
+  }
+  const errors = messages.filter(message => !/^RUN_EXPO_DOCTOR\s/.test(message) && /FAIL:|error|failed|requires|unsupported|cannot|could not|not found|ENOENT/i.test(message));
   if (errors.length) {
     console.log(`Log ${index + 1}: ${errors.length} relevant message(s).`);
     for (const message of errors.slice(-35)) console.log(safe(message));
