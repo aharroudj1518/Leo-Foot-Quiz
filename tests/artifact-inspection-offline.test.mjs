@@ -43,8 +43,8 @@ test('metadata must identify the exact completed paid Android candidate and perm
 });
 
 test('download destinations permit official artifact hosts and reject private, credentialed or insecure locations', () => {
-  for (const url of [privateUrl, 'https://api.expo.dev/artifacts/eas/one.aab', 'https://artifacts.eascdn.net/one.aab', 'https://eas-build-artifacts.s3.us-east-1.amazonaws.com/one.aab', 'https://turtle-v2-artifacts.s3.amazonaws.com/one.aab']) assert.equal(checkedDownloadUrl(url, 'aab').protocol, 'https:');
-  for (const url of ['http://expo.dev/aab', 'https://user:secret@expo.dev/aab', 'https://expo.dev:444/aab', 'https://127.0.0.1/aab', 'https://expo.dev.attacker.example/aab', 'https://api.expo.dev.attacker.example/aab', 'https://expo.dev/aab#secret', 'https://github.com/unrelated.aab']) assert.throws(() => checkedDownloadUrl(url, 'aab'));
+  for (const url of [privateUrl, 'https://api.expo.dev/artifacts/eas/one.aab', 'https://artifacts.eascdn.net/one.aab', 'https://wf-artifacts.eascdn.net/one.aab', 'https://eas-build-artifacts.s3.us-east-1.amazonaws.com/one.aab', 'https://turtle-v2-artifacts.s3.amazonaws.com/one.aab']) assert.equal(checkedDownloadUrl(url, 'aab').protocol, 'https:');
+  for (const url of ['http://expo.dev/aab', 'https://user:secret@expo.dev/aab', 'https://expo.dev:444/aab', 'https://127.0.0.1/aab', 'https://expo.dev.attacker.example/aab', 'https://api.expo.dev.attacker.example/aab', 'https://wf-artifacts.eascdn.net.attacker.example/aab', 'https://expo.dev/aab#secret', 'https://github.com/unrelated.aab']) assert.throws(() => checkedDownloadUrl(url, 'aab'));
   assert.equal(checkedDownloadUrl(BUNDLETOOL.url, 'bundletool').hostname, 'github.com');
   assert.equal(BUNDLETOOL.version, '1.18.3');
   assert.equal(BUNDLETOOL.sha256, 'a099cfa1543f55593bc2ed16a70a7c67fe54b1747bb7301f37fdfd6d91028e29');
@@ -130,7 +130,7 @@ test('redirects are checked before following and are limited', async t => {
   assert.equal(requests, 6);
 });
 
-test('the observed Expo API redirect downloads without forwarding authorization credentials', async t => {
+test('the observed Expo API and workflow CDN redirects download without forwarding authorization credentials', async t => {
   const directory = await mkdtemp(join(tmpdir(), 'leoqo-expo-redirect-test-'));
   t.after(() => rm(directory, { recursive: true, force: true }));
   const bytes = Buffer.from('verified redirected bundle');
@@ -140,10 +140,13 @@ test('the observed Expo API redirect downloads without forwarding authorization 
     requests.push({ url, options });
     return requests.length === 1
       ? new Response(null, { status: 307, headers: { location: 'https://api.expo.dev/artifacts/eas/example.aab?token=private-signed-value' } })
-      : new Response(bytes);
+      : requests.length === 2
+        ? new Response(null, { status: 307, headers: { location: 'https://wf-artifacts.eascdn.net/fixture/example.aab?token=private-signed-value' } })
+        : new Response(bytes);
   } });
-  assert.equal(requests.length, 2);
+  assert.equal(requests.length, 3);
   assert.equal(new URL(requests[1].url).hostname, 'api.expo.dev');
+  assert.equal(new URL(requests[2].url).hostname, 'wf-artifacts.eascdn.net');
   for (const { options } of requests) {
     assert.equal(options.redirect, 'manual');
     assert.equal(options.credentials, 'omit');
