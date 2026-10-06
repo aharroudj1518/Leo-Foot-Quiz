@@ -12,12 +12,10 @@ import time
 import xml.etree.ElementTree as ET
 
 PACKAGE = "com.leoqo.footballquiz"
-BUILD_ID = "5f7931d6-c2a6-4a73-9397-12899c5d23a4"
-SOURCE_COMMIT = "faeb0a4e6328d11166478dc34ad7c09650daa58c"
 LIMITATIONS = [
     "APK was generated from the inspected signed AAB and signed with a disposable emulator test key.",
     "This is not a Play-installed or Play-signed billing candidate; purchases, restoration and licensing were not tested.",
-    "Screenshots are actual API 36 emulator captures, not physical-phone or Google Play listing approval.",
+    "Screenshots are actual emulator captures; the Android API is recorded in the report. These are not physical-phone or Google Play listing approval.",
     "No app rebuild, store submission, account login, paid unlock, clock override or direct app-storage edit was performed.",
 ]
 
@@ -39,10 +37,33 @@ def normalized(text):
     return ' '.join(text.split())
 
 
+def smoke_target(env=None):
+    env = os.environ if env is None else env
+    build_id, source, code = (env.get(key, '') for key in ('SMOKE_BUILD_ID', 'SMOKE_SOURCE_COMMIT', 'SMOKE_VERSION_CODE'))
+    if (not isinstance(build_id, str) or not re.fullmatch(r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}', build_id)
+            or not isinstance(source, str) or not re.fullmatch(r'[0-9a-f]{40}', source)
+            or not isinstance(code, str) or not re.fullmatch(r'[1-9][0-9]{0,9}', code) or int(code) > 2100000000):
+        raise RuntimeError('Provide explicit valid Android smoke build ID, source commit and version code pins.')
+    return {'buildId': build_id, 'sourceCommit': source, 'versionCode': int(code), 'package': PACKAGE,
+            'projectId': '99891114-dac6-4d4c-973c-3a246db2a7b1', 'buildProfile': 'production-paid',
+            'distribution': 'STORE', 'easStatus': 'FINISHED', 'targetSdk': 36, 'debuggable': False}
+
+
+def smoke_api(env=None):
+    env = os.environ if env is None else env
+    value = env.get('SMOKE_API_LEVEL')
+    if value not in ('32', '36'):
+        raise RuntimeError('Explicit Android smoke API must be 32 or 36.')
+    return int(value)
+
+
 def command_stage(args):
     stages = {
         ('install',): 'install_test_apk',
         ('shell', 'pm', 'clear'): 'clear_test_app_data',
+        ('shell', 'cmd', 'package', 'list'): 'verify_installed_enabled_package',
+        ('shell', 'cmd', 'package', 'query-activities'): 'query_installed_launcher',
+        ('shell', 'cmd', 'package', 'resolve-activity'): 'resolve_installed_launcher',
         ('shell', 'am', 'start'): 'launch_test_app',
         ('shell', 'wm', 'size'): 'configure_display_size',
         ('shell', 'wm', 'density'): 'configure_display_density',
@@ -93,17 +114,87 @@ class AndroidCommandError(RuntimeError):
 
 
 def verify_test_apk(apk, verification):
-    if (verification.get('package') != PACKAGE or verification.get('buildId') != BUILD_ID
-            or verification.get('sourceCommit') != SOURCE_COMMIT or verification.get('versionCode') != 6
+    if (any(verification.get(key) != expected or type(verification.get(key)) is not type(expected) for key, expected in smoke_target().items())
             or not re.fullmatch(r'[0-9a-f]{64}', verification.get('apkSha256', ''))
             or apk.is_symlink() or not apk.is_file()):
-        raise RuntimeError('Verified emulator APK provenance does not match the exact version 6 candidate.')
+        raise RuntimeError('Verified emulator APK provenance does not match the explicitly pinned candidate.')
     digest = hashlib.sha256()
     with apk.open('rb') as source:
         for chunk in iter(lambda: source.read(1024 * 1024), b''):
             digest.update(chunk)
     if digest.hexdigest() != verification['apkSha256'] or apk.stat().st_size != verification.get('apkBytes'):
         raise RuntimeError('The test APK changed after preparation; installation was blocked.')
+
+
+def checked_component(value):
+    # Components are public manifest names, not arbitrary tool output.
+    if not isinstance(value, str) or len(value) > 250:
+        raise RuntimeError('Android launcher component format was invalid.')
+    match = re.fullmatch(re.escape(PACKAGE) + r'/(\.?[A-Za-z_$][A-Za-z0-9_$.]*)', value)
+    if not match:
+        raise RuntimeError('Android launcher component did not belong to the inspected app.')
+    name = match[1]
+    name = PACKAGE + name if name.startswith('.') else name
+    if not name.startswith(PACKAGE + '.'):
+        raise RuntimeError('Android launcher activity was outside the expected app namespace.')
+    return PACKAGE + '/' + name
+
+
+def parse_apk_badging(raw):
+    if len(raw) > 1024 * 1024:
+        raise RuntimeError('APK manifest badging exceeded the diagnostic limit.')
+    identity = re.findall(r"^package: name='([^']+)' versionCode='(\d+)'", raw, re.M)
+    version = smoke_target()['versionCode']
+    if identity != [(PACKAGE, str(version))]:
+        raise RuntimeError('The generated APK manifest did not match the exact pinned package and version.')
+    names = re.findall(r"^launchable-activity: name='([^']+)'", raw, re.M)
+    components = sorted(set(checked_component(PACKAGE + '/' + name) for name in names))
+    if len(components) > 10:
+        raise RuntimeError('The generated APK declared an unexpected number of launcher activities.')
+    return {'package': PACKAGE, 'versionCode': version, 'declaredLauncherComponents': components}
+
+
+def inspect_apk_launcher(apk, output):
+    output.mkdir(parents=True, exist_ok=True)
+    report = {'kind': 'generated-apk-launcher-inspection', 'status': 'failed'}
+    try:
+        verification = json.loads((output / 'input-verification.json').read_text())
+        verify_test_apk(apk, verification)
+        roots = [Path(os.environ[key]) for key in ('ANDROID_HOME', 'ANDROID_SDK_ROOT') if os.environ.get(key)]
+        candidates = [tool for root in roots for tool in (root / 'build-tools').glob('*/aapt2')
+                      if re.fullmatch(r'\d+\.\d+\.\d+', tool.parent.name) and tool.is_file() and os.access(tool, os.X_OK)]
+        if not candidates:
+            raise RuntimeError('An installed Android SDK aapt2 is required to inspect the generated APK launcher.')
+        tool = max(candidates, key=lambda item: tuple(map(int, item.parent.name.split('.'))))
+        try:
+            result = subprocess.run([str(tool), 'dump', 'badging', str(apk)], capture_output=True, timeout=60, check=False)
+        except (subprocess.TimeoutExpired, OSError):
+            raise RuntimeError('The local aapt2 APK manifest probe could not complete; raw output was withheld.') from None
+        if result.returncode:
+            raise RuntimeError('The local aapt2 APK manifest probe failed; raw output was withheld.')
+        report.update(parse_apk_badging(result.stdout.decode('utf-8', errors='replace')))
+        report.update({'apkSha256': verification['apkSha256'], 'aapt2BuildToolsVersion': tool.parent.name})
+        if not report['declaredLauncherComponents']:
+            raise RuntimeError('The generated APK has no declared launchable activity; native launch was blocked.')
+        report['status'] = 'verified'
+        print('APK LAUNCHER: ' + json.dumps(report, sort_keys=True), flush=True)
+        return 0
+    except Exception as error:
+        report['failure'] = redact(str(error)) if isinstance(error, RuntimeError) else 'APK launcher inspection could not read verified inputs.'
+        print('FAIL: ' + report['failure'], file=sys.stderr, flush=True)
+        return 1
+    finally:
+        (output / 'apk-launcher-summary.json').write_text(json.dumps(report, indent=2) + '\n')
+
+
+def parse_launcher_components(raw):
+    value = raw.strip()
+    if value in ('No activities found', 'No activity found'):
+        return []
+    lines = value.splitlines()
+    if not lines or len(lines) > 10:
+        raise RuntimeError('Android launcher query did not return a bounded component list.')
+    return sorted(set(checked_component(line.strip()) for line in lines))
 
 
 class Smoke:
@@ -223,8 +314,36 @@ class Smoke:
         self.report['checks'].append(description)
         print(f'PASS: {description}', flush=True)
 
+    def launcher(self):
+        static = json.loads((self.output / 'apk-launcher-summary.json').read_text())
+        version = smoke_target()['versionCode']
+        if (static.get('status') != 'verified' or static.get('package') != PACKAGE or static.get('versionCode') != version
+                or static.get('apkSha256') != self.report.get('testApkSha256')):
+            raise RuntimeError('Static launcher evidence did not match the verified test APK.')
+        declared = sorted(set(checked_component(item) for item in static.get('declaredLauncherComponents', [])))
+        installed = self.adb('shell', 'cmd', 'package', 'list', 'packages', '-e', '--show-versioncode', '--user', 'current', PACKAGE)
+        enabled = installed.strip() == f'package:{PACKAGE} versionCode:{version}'
+        evidence = {'package': PACKAGE, 'versionCode': version, 'installedAndEnabled': enabled, 'declaredComponents': declared,
+                    'action': 'android.intent.action.MAIN', 'category': 'android.intent.category.LAUNCHER', 'queryFlags': 0}
+        self.report['launcher'] = evidence
+        if not enabled:
+            raise RuntimeError('The exact pinned app version was not installed and enabled for the current Android user.')
+        intent = ('--components', '--query-flags', '0', '--user', 'current', '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', '-p', PACKAGE)
+        queried = parse_launcher_components(self.adb('shell', 'cmd', 'package', 'query-activities', *intent))
+        resolved = parse_launcher_components(self.adb('shell', 'cmd', 'package', 'resolve-activity', *intent))
+        evidence.update({'queriedComponents': queried, 'resolvedComponents': resolved})
+        print('INSTALLED LAUNCHER: ' + json.dumps(evidence, sort_keys=True), flush=True)
+        if len(queried) != 1 or resolved != queried or queried[0] not in declared:
+            raise RuntimeError('An unambiguous enabled MAIN/LAUNCHER activity did not match both the installed resolver and actual APK declaration.')
+        return queried[0]
+
     def launch(self):
-        result = self.adb('shell', 'am', 'start', '-W', '-S', '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', '-p', PACKAGE, timeout=60)
+        # Android launchers start a resolved MAIN/LAUNCHER component explicitly.
+        # An implicit startActivity additionally requires CATEGORY_DEFAULT, which
+        # is deliberately absent from normal launcher filters. Never assume an
+        # activity name or alter the app's manifest to accommodate this harness.
+        component = self.launcher()
+        result = self.adb('shell', 'am', 'start', '-W', '-S', '-n', component, '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', timeout=60)
         if 'Status: ok' not in result:
             reason = android_failure_reason(result)
             self.report.setdefault('failedCommand', {"stage": 'launch_test_app', "reason": reason})
@@ -263,9 +382,10 @@ class Smoke:
         return bool(fatal)
 
     def run(self, apk, bank):
-        if self.adb('shell', 'getprop', 'ro.build.version.sdk').strip() != '36':
-            raise RuntimeError('This smoke check requires the requested API 36 emulator.')
-        self.report['androidApi'] = 36
+        api = smoke_api()
+        if self.adb('shell', 'getprop', 'ro.build.version.sdk').strip() != str(api):
+            raise RuntimeError('The emulator API did not match the explicitly requested Android smoke API.')
+        self.report['androidApi'] = api
         self.report['abi'] = self.adb('shell', 'getprop', 'ro.product.cpu.abi').strip()
         if self.report['abi'] != 'x86_64':
             raise RuntimeError('This smoke check requires the requested x86_64 emulator.')
@@ -276,7 +396,7 @@ class Smoke:
             raise RuntimeError('Could not establish a fresh test installation.')
         self.adb('logcat', '-c')
         self.launch()
-        self.screenshot('01-native-home.png', 'Actual fresh native home on the test-signed API 36 emulator install.')
+        self.screenshot('01-native-home.png', f'Actual fresh native home on the test-signed API {api} emulator install.')
         self.tap_label('Let’s play')
         first = self.question(bank, 1)
         self.check('Fresh installation launches the free quiz with an actual first question.')
@@ -331,6 +451,8 @@ def finalize(output):
 
 
 def main():
+    if len(sys.argv) == 4 and sys.argv[1] == '--inspect-apk':
+        return inspect_apk_launcher(Path(sys.argv[2]), Path(sys.argv[3]))
     if len(sys.argv) == 3 and sys.argv[1] == '--finalize':
         finalize(Path(sys.argv[2]))
         return 0
@@ -346,7 +468,7 @@ def main():
         # Require that provenance before interacting with an emulator.
         smoke.report['inputVerification'] = 'input-verification.json'
         verify_test_apk(apk, verification)
-        smoke.report.update({"buildId": BUILD_ID, "sourceCommit": SOURCE_COMMIT, "versionCode": 6, "aabSha256": verification['aabSha256'], "testApkSha256": verification['apkSha256']})
+        smoke.report.update({**smoke_target(), "requestedAndroidApi": smoke_api(), "aabSha256": verification['aabSha256'], "testApkSha256": verification['apkSha256']})
         bank = json.loads(bank_path.read_text())
         if not isinstance(bank, list) or not bank:
             raise RuntimeError('The exact-source question bank was unavailable.')
