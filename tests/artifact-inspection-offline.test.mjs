@@ -81,6 +81,33 @@ test('the artifact report enforces manifest, signature and optional upload-certi
   assert.equal(artifactReport(higher, inputs, [{ ...base, versionCode: 7 }], signature, downloaded).versionCode, 7);
 });
 
+test('launcher activity summaries retain disabled aliases and reject unsafe component names', () => {
+  const activity = { kind: 'activity', name: '.MainActivity', targetActivity: null, enabled: null, exported: 'true', mainLauncherFilter: true };
+  const alias = { kind: 'activity-alias', name: 'com.leoqo.footballquiz.Launcher', targetActivity: '.MainActivity', enabled: 'false', exported: 'true', mainLauncherFilter: true };
+  const manifest = sanitizedManifest({ ...rawManifest, applicationEnabled: 'false', activities: [activity, alias] }, 'base');
+  const report = artifactReport(checkedBuild(rawBuild, inputs), inputs, [manifest], signature, downloaded);
+  assert.equal(report.applicationEnabled, false);
+  assert.equal(report.launcherActivities.length, 2);
+  assert.equal(report.launcherActivities[0].enabled, null);
+  assert.equal(report.launcherActivities[1].enabled, false);
+  assert.equal(report.launcherActivities[1].targetActivity, '.MainActivity');
+  for (const change of [{ name: 'https://private.example/key' }, { name: 'MainActivity\nsecret' }, { targetActivity: '/private/path' }, { exported: 'private-value' }, { mainLauncherFilter: 'true' }]) {
+    assert.throws(() => sanitizedManifest({ ...rawManifest, activities: [{ ...activity, ...change }] }, 'base'), error => !error.message.includes('private'));
+  }
+  assert.deepEqual(artifactReport(checkedBuild(rawBuild, inputs), inputs, [sanitizedManifest(rawManifest, 'base')], signature, downloaded).launcherActivities, []);
+});
+
+test('launcher XML requires MAIN and LAUNCHER in the same intent filter and ignores unrelated metadata', () => {
+  const xml = `<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.leoqo.footballquiz"><application android:enabled="true"><activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter><meta-data android:name="secret" android:value="private-signed-value"/></activity><activity-alias android:name=".SeparateFilters" android:targetActivity=".MainActivity" android:enabled="false" android:exported="false"><intent-filter><action android:name="android.intent.action.MAIN"/></intent-filter><intent-filter><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity-alias></application></manifest>`;
+  const manifest = parseManifestXml(xml, 'base');
+  assert.equal(manifest.applicationEnabled, true);
+  assert.deepEqual(manifest.activities, [
+    { kind: 'activity', name: '.MainActivity', targetActivity: null, enabled: null, exported: true, mainLauncherFilter: true },
+    { kind: 'activity-alias', name: '.SeparateFilters', targetActivity: '.MainActivity', enabled: false, exported: false, mainLauncherFilter: false },
+  ]);
+  assert.ok(!JSON.stringify(manifest).includes('private'));
+});
+
 test('all module permissions are included and sensitive permissions are highlighted without calling this a device test', () => {
   const base = sanitizedManifest(rawManifest, 'base');
   const feature = sanitizedManifest({ ...rawManifest, permissions: [{ name: 'android.permission.RECORD_AUDIO', maxSdkVersion: null }], usesCleartextTraffic: 'true' }, 'feature');

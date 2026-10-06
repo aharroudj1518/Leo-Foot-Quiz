@@ -143,7 +143,14 @@ def attr(node, name): return None if node is None else node.get(ns + name)
 sdk = root.find('uses-sdk')
 app = root.find('application')
 permissions = [{'name': attr(p, 'name'), 'maxSdkVersion': attr(p, 'maxSdkVersion')} for p in root if p.tag in ('uses-permission', 'uses-permission-sdk-23')]
-print(json.dumps({'package':root.get('package'), 'versionCode':attr(root,'versionCode'), 'versionName':attr(root,'versionName'), 'minSdk':attr(sdk,'minSdkVersion'), 'targetSdk':attr(sdk,'targetSdkVersion'), 'debuggable':attr(app,'debuggable'), 'usesCleartextTraffic':attr(app,'usesCleartextTraffic'), 'testOnly':attr(app,'testOnly'), 'permissions':permissions}))
+activities = []
+if app is not None:
+  for activity in app:
+    if activity.tag not in ('activity', 'activity-alias'): continue
+    filters = activity.findall('intent-filter')
+    launcher = any(any(attr(action, 'name') == 'android.intent.action.MAIN' for action in item.findall('action')) and any(attr(category, 'name') == 'android.intent.category.LAUNCHER' for category in item.findall('category')) for item in filters)
+    activities.append({'kind':activity.tag, 'name':attr(activity,'name'), 'targetActivity':attr(activity,'targetActivity'), 'enabled':attr(activity,'enabled'), 'exported':attr(activity,'exported'), 'mainLauncherFilter':launcher})
+print(json.dumps({'package':root.get('package'), 'versionCode':attr(root,'versionCode'), 'versionName':attr(root,'versionName'), 'minSdk':attr(sdk,'minSdkVersion'), 'targetSdk':attr(sdk,'targetSdkVersion'), 'debuggable':attr(app,'debuggable'), 'usesCleartextTraffic':attr(app,'usesCleartextTraffic'), 'testOnly':attr(app,'testOnly'), 'applicationEnabled':attr(app,'enabled'), 'activities':activities, 'permissions':permissions}))
 `;
 
 export function sanitizedManifest(raw, moduleName) {
@@ -156,8 +163,16 @@ export function sanitizedManifest(raw, moduleName) {
     if (Number.isNaN(maxSdkVersion)) throw new Error('Manifest permission SDK bound is invalid.');
     return { name: permission.name, maxSdkVersion };
   }).sort((a, b) => a.name.localeCompare(b.name));
-  const result = { module: moduleName, package: PACKAGE, versionCode: int(raw.versionCode), versionName: raw.versionName ?? null, minSdk: int(raw.minSdk), targetSdk: int(raw.targetSdk), debuggable: bool(raw.debuggable), testOnly: bool(raw.testOnly), usesCleartextTraffic: bool(raw.usesCleartextTraffic), permissions };
-  if ([result.versionCode, result.minSdk, result.targetSdk].some(Number.isNaN) || [result.debuggable, result.testOnly, result.usesCleartextTraffic].includes('invalid') || (result.versionName !== null && !/^[A-Za-z0-9._+-]{1,128}$/.test(result.versionName))) throw new Error('Manifest version or application flags are invalid.');
+  const component = value => typeof value === 'string' && value.length <= 300 && /^\.?[A-Za-z_$][A-Za-z0-9_$]*(?:\.[A-Za-z_$][A-Za-z0-9_$]*)*$/.test(value);
+  if (raw.activities != null && (!Array.isArray(raw.activities) || raw.activities.length > 1000)) throw new Error('Manifest activities are invalid.');
+  const activities = (raw.activities ?? []).map(activity => {
+    if (!activity || !['activity', 'activity-alias'].includes(activity.kind) || !component(activity.name) || (activity.targetActivity != null && !component(activity.targetActivity)) || typeof activity.mainLauncherFilter !== 'boolean') throw new Error('Manifest activity identity or launcher filter is invalid.');
+    const enabled = bool(activity.enabled), exported = bool(activity.exported);
+    if ([enabled, exported].includes('invalid')) throw new Error('Manifest activity flags are invalid.');
+    return { kind: activity.kind, name: activity.name, targetActivity: activity.targetActivity ?? null, enabled, exported, mainLauncherFilter: activity.mainLauncherFilter };
+  });
+  const result = { module: moduleName, package: PACKAGE, versionCode: int(raw.versionCode), versionName: raw.versionName ?? null, minSdk: int(raw.minSdk), targetSdk: int(raw.targetSdk), debuggable: bool(raw.debuggable), testOnly: bool(raw.testOnly), usesCleartextTraffic: bool(raw.usesCleartextTraffic), applicationEnabled: bool(raw.applicationEnabled), activities, permissions };
+  if ([result.versionCode, result.minSdk, result.targetSdk].some(Number.isNaN) || [result.debuggable, result.testOnly, result.usesCleartextTraffic, result.applicationEnabled].includes('invalid') || (result.versionName !== null && !/^[A-Za-z0-9._+-]{1,128}$/.test(result.versionName))) throw new Error('Manifest version or application flags are invalid.');
   return result;
 }
 
@@ -186,6 +201,9 @@ export function artifactReport(build, inputs, manifests, signature, download) {
     signing: { certificateSha256: signature.certificateSha256, signedPayloadEntries: signature.signedPayloadEntries,
       uploadCertificateMatch: inputs.expectedCertificateSha256 ? 'matched supplied fingerprint' : 'not checked; compare with Google Play upload certificate' },
     modules: manifests.map(manifest => manifest.module), permissions,
+    applicationEnabled: base.applicationEnabled,
+    activities: manifests.flatMap(manifest => (manifest.activities ?? []).map(activity => ({ module: manifest.module, ...activity }))),
+    launcherActivities: manifests.flatMap(manifest => (manifest.activities ?? []).filter(activity => activity.mainLauncherFilter).map(activity => ({ module: manifest.module, ...activity }))),
     permissionsRequiringReview: needsReview,
     cleartextTrafficExplicitlyEnabled: manifests.some(manifest => manifest.usesCleartextTraffic === true),
     limitations: [
@@ -193,6 +211,7 @@ export function artifactReport(build, inputs, manifests, signature, download) {
       'No native device, purchase, restore, accessibility or account-deletion flow was exercised.',
       'Version code is checked against the requested minimum and EAS metadata, not against the live Play Console version history.',
       'Review every listed permission; the highlighted list is not an exhaustive policy assessment.',
+      'Launcher declarations describe the bundle manifest only; Android installation and intent resolution must be checked separately.',
     ],
   };
 }

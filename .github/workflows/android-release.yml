@@ -124,7 +124,8 @@ jobs:
         id: completed
         run: node scripts/record-android-build.mjs "$RUNNER_TEMP/leoqo-build.json"
       - name: Upload this build to Google Play internal draft
-        if: (github.event_name == 'workflow_dispatch' && inputs.submit) || github.event_name == 'push'
+        # The marker modifies a release/bootstrap push; dispatch uses its submit input.
+        if: (github.event_name == 'workflow_dispatch' && inputs.submit) || (github.event_name == 'push' && !contains(github.event.head_commit.message, '[android-build-only]'))
         env:
           BUILD_ID: ${{ steps.completed.outputs.build_id }}
         run: eas submit --platform android --profile play-internal --id "$BUILD_ID" --non-interactive --wait
