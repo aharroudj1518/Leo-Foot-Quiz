@@ -13,7 +13,7 @@ Prepared and primary sources checked **6 October 2026 (Europe/London)** against 
 | Export and score sharing | `App.tsx` invokes the operating system share sheet after the adult step. No automatic recipient or upload endpoint. | Destination chosen by the user; audit any later support workflow separately. |
 | Sources | External reference URLs open in the browser after the adult step. | Independent source website, with its own privacy practices. No embedded news webview is implemented. |
 | Ads / app analytics | No advertising or standalone app-analytics SDK integration appears in the current dependencies/code. | Verify native release traffic and transitive dependencies before making a zero-collection claim. |
-| Billing | `src/services/billing.ts` dynamically configures RevenueCat only after an adult shop action and only when both commerce and editorial switches allow it. | RevenueCat and Google Play when enabled. Current candidate blocks SDK configuration through this path. |
+| Billing | `src/services/billing.ts` dynamically configures RevenueCat only after an adult shop action and only when both commerce and editorial switches allow it. | RevenueCat and Google Play when enabled. The free `production` candidate blocks SDK configuration through this path; `production-paid` permits it when its checks pass. |
 
 SQLite storage is not an encryption-at-rest guarantee. Review Android backup/restore configuration in the final manifest: local application storage may participate in platform-managed backups. The app does not implement cloud progress sync.
 
