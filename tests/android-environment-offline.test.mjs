@@ -85,3 +85,71 @@ test('network and API failures remain actionable without exposing returned data 
     assert.ok(!errors.join(' ').includes(env.EXPO_PUBLIC_REVENUECAT_ANDROID_KEY));
   }
 });
+
+test('explicit bootstrap warns only for missing current offering or product mapping', async () => {
+  for (const body of [
+    { current_offering_id: null, offerings: [] },
+    { current_offering_id: 'default', offerings: [] },
+    { current_offering_id: 'default', offerings: [{ identifier: 'default', packages: [] }] },
+    { current_offering_id: 'default', offerings: [{ identifier: 'default', packages: [{ platform_product_identifier: 'another_product' }] }] },
+  ]) {
+    const warnings = [];
+    const options = { config: config(), env, fetchImpl: async () => ok(body), onWarning: message => warnings.push(message) };
+    assert.ok((await checkAndroidEnvironment(options)).length, 'Ordinary paid release must remain blocked');
+    assert.deepEqual(warnings, []);
+    assert.deepEqual(await checkAndroidEnvironment({ ...options, allowUnconfiguredOffering: true }), []);
+    assert.equal(warnings.length, 1);
+    assert.match(warnings[0], /internal-draft setup bundle/);
+    assert.match(warnings[0], /strict preflight/);
+  }
+});
+
+test('bootstrap cannot bypass key, identity, review or internal-draft guards', async () => {
+  const variants = [
+    { config: config(), env: {} },
+    { config: config(), env: { EXPO_PUBLIC_REVENUECAT_ANDROID_KEY: 'sk_private_value' } },
+    { config: config(), env: { EXPO_PUBLIC_REVENUECAT_ANDROID_KEY: 'test_simulated_value' } },
+  ];
+  for (const mutate of [
+    value => { value.app.expo.android.package = 'wrong.application'; },
+    value => { value.editorial.independentEditorialApproval = false; },
+    value => { value.questionBytes = Buffer.from('changed bank'); },
+    value => { value.eas.submit['play-internal'].android.track = 'production'; },
+    value => { value.eas.submit['play-internal'].android.releaseStatus = 'completed'; },
+  ]) {
+    const value = config();
+    mutate(value);
+    variants.push({ config: value, env });
+  }
+  for (const variant of variants) {
+    const errors = await checkAndroidEnvironment({
+      ...variant, allowUnconfiguredOffering: true,
+      fetchImpl: async () => assert.fail('Local bootstrap guard must run before API lookup'),
+      onWarning: () => assert.fail('Guard errors must not be downgraded to warnings'),
+    });
+    assert.ok(errors.length);
+  }
+});
+
+test('bootstrap still fails on malformed responses, authentication, HTTP and network errors', async () => {
+  const malformed = [
+    {}, { current_offering_id: 42, offerings: [] },
+    { current_offering_id: '', offerings: [] },
+    { current_offering_id: 'default', offerings: [{ identifier: 'default' }] },
+    { current_offering_id: 'default', offerings: [{ identifier: 'default', packages: [{}] }] },
+    { current_offering_id: 'default', offerings: [offering('default'), offering('default')] },
+  ];
+  const requests = [
+    ...malformed.map(body => async () => ok(body)),
+    ...[401, 403, 429, 500].map(status => async () => ({ ok: false, status })),
+    async () => { throw new Error('network failure'); },
+    async () => ({ ok: true, json: async () => { throw new Error('invalid JSON'); } }),
+  ];
+  for (const fetchImpl of requests) {
+    const errors = await checkAndroidEnvironment({
+      config: config(), env, fetchImpl, allowUnconfiguredOffering: true,
+      onWarning: () => assert.fail('API failures must not be downgraded to warnings'),
+    });
+    assert.ok(errors.length);
+  }
+});

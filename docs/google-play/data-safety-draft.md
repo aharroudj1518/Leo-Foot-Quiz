@@ -14,6 +14,9 @@ Prepared and primary sources checked **6 October 2026 (Europe/London)** against 
 | Sources | External reference URLs open in the browser after the adult step. | Independent source website, with its own privacy practices. No embedded news webview is implemented. |
 | Ads / app analytics | No advertising or standalone app-analytics SDK integration appears in the current dependencies/code. | Verify native release traffic and transitive dependencies before making a zero-collection claim. |
 | Billing | `src/services/billing.ts` dynamically configures RevenueCat only after an adult shop action and only when both commerce and editorial switches allow it. | RevenueCat and Google Play when enabled. The free `production` candidate blocks SDK configuration through this path; `production-paid` permits it when its checks pass. |
+| Purchase support | After billing is already configured, the native shop/privacy UI reads the existing RevenueCat app-user ID. It can be selected/shared; shop/privacy email drafts may prefill it. No purchase is necessary. | Displayed on device; sent to support only when the user sends a message or chooses a sharing destination. Web/Expo Go and disabled shops have no Support ID. |
+| Website hosting | The intended web app and public support/privacy site use Vercel. Static requests expose IP address and ordinary request/browser metadata; Vercel may derive approximate location. | Vercel; this is website-host processing, not a quiz-progress upload. Project logging and provider retention need verification. |
+| Voluntary support | The app and prepared support page link to `info@novaspheretechnology.co.uk`. Reports are not sent automatically. | A user-sent email supplies the sender address, message, optional Support ID and attachments to the support mailbox. Assess the chosen support process separately from automatic app collection. |
 
 SQLite storage is not an encryption-at-rest guarantee. Review Android backup/restore configuration in the final manifest: local application storage may participate in platform-managed backups. The app does not implement cloud progress sync.
 
@@ -22,6 +25,8 @@ Google defines collection around off-device transmission, including SDKs; local-
 ## Scenario A: current free candidate, optional news endpoint unset
 
 Conditions: `EXPO_PUBLIC_COMMERCE_READY=false`, `EXPO_PUBLIC_NEWS_FEED_URL` unset, and no additional production services introduced. Editorial approval alone does not configure billing; the commerce switch still prevents it in the free profile.
+
+The production EAS preflight on **6 October 2026 at 09:03 UTC** found the news-feed URL unset. Recheck the actual release environment when building; this does not imply that a later build cannot enable it.
 
 **Draft outcome:** “No” to required user-data collection/sharing is a candidate answer **only after** a clean-install native traffic and dependency check confirms this configuration. Repository review finds local play data, intentional system sharing and browser links; it cannot establish the behavior of every native dependency or remote build setting. Keep the network-capture result and manifest with the release record.
 
@@ -45,6 +50,8 @@ This scenario applies as soon as the enabled app configures the purchase SDK, in
 | Card / bank details | The app does not request them. Google Play's payment interface handles payment credentials; purchase history still needs the separate disclosure above. |
 | Location / app activity / diagnostics | No such app collection is established by this review. Check the native SDK version and provider settings; IP-based location derivation or a later analytics integration changes the answer. |
 | Data deletion request | Do not select “Yes” based only on the local-reset button. Supply and test a support mechanism that can locate and delete the relevant RevenueCat customer data, with disclosed retention exceptions. |
+
+The support route is now concrete: email `info@novaspheretechnology.co.uk`, with the **Support ID** from **Settings → Purchases & restore** after the adult step, if available. The owner can use it to locate the associated RevenueCat customer record, including records for people who opened the shop without paying. Displaying an ID and offering email do not establish that deletion has been exercised. Document identity checks, provider-specific steps and retained transaction records; do not promise refunds or store-record deletion through this route.
 
 Provider baseline: [RevenueCat's Google Play Data safety guide](https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety). Its advertising identifier guidance is conditional on integrations. Our unresolved identifier classification is a conservative review item, not a claim that this code reads an advertising ID.
 
@@ -86,13 +93,15 @@ Google requires a public, accessible, non-geofenced privacy-policy URL and priva
 
 | Missing owner/service fact | Why it is needed |
 | --- | --- |
-| Legal developer identity and public support/privacy email | Match the Play listing and provide a real route for questions, corrections and data requests. Do not invent an address. |
-| Public policy URL and effective date | A repository working draft or local screen is not the published URL. |
-| Support website / deletion-request route | Describe how the owner receives and fulfills requests. No remote deletion workflow is currently implemented or tested. |
-| Launch countries and audience decision | Determine the applicable children's privacy review and accurate Console targeting. |
+| Legal developer identity | Owner confirmation is pending; match the Play listing. The public support/privacy email is supplied: `info@novaspheretechnology.co.uk`. Do not infer a legal entity from its domain. |
+| Public policy URL and date | `public/privacy.html` is prepared for `https://leo-foot-quiz.vercel.app/privacy.html`; confirm operator/provider facts and verify deployment. A local file is not a published URL. See the [policy draft](privacy-policy-draft.md). |
+| Support website / deletion-request route | `public/support.html` is prepared for `https://leo-foot-quiz.vercel.app/support.html`, with the supplied email and Support ID instructions. Locating and deleting a remote customer/host record has not been tested. |
+| Launch countries and audience choices | The owner confirms a family product for ages 10+. Confirm countries and suitable Console age bands for the children's privacy review. |
 | RevenueCat account settings, recipients and retention | Explain actual purchase processing and any legally required retention. SDK availability alone is insufficient evidence. |
 | News host/CDN and retention, if enabled | Complete scenario C before publishing a remote-feed build. |
 | Support messages and exports received by the owner | Explain how voluntarily submitted email, diagnostics or question reports will be handled outside the app, without pretending the app automatically uploads them. |
+
+The Vercel-hosted pages disclose standard website metadata separately from local quiz storage. The [Vercel Privacy Notice](https://vercel.com/legal/privacy-notice) explains platform processing and context-dependent retention. Its [log-drain documentation](https://vercel.com/docs/drains/reference/logs) describes optional capabilities, not proof that this project enables them. Do not use a runtime-log plan limit as a promise about all provider-held data or infer native background collection from a browser visit.
 
 The policy should distinguish local progress deletion from provider-held purchase data, include browser-link and intentional-sharing behavior, and describe the features enabled in the release. Do not promise that all data is encrypted at rest, never leaves the phone, is never used for analytics, or can all be deleted by the local-reset button.
 

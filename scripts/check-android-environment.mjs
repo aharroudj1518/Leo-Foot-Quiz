@@ -22,7 +22,10 @@ function profileOverridesKey(eas, name) {
 
 // Run under `eas env:exec production ... --non-interactive`. That command loads
 // Plain text and Sensitive values, but cannot read variables marked Secret.
-export async function checkAndroidEnvironment({ config, env, buildProfile = 'production-paid', fetchImpl = fetch }) {
+export async function checkAndroidEnvironment({
+  config, env, buildProfile = 'production-paid', fetchImpl = fetch,
+  allowUnconfiguredOffering = false, onWarning = message => console.warn(`WARN: ${message}`),
+}) {
   if (!['production', 'production-paid'].includes(buildProfile)) return ['Unsupported Android release profile.'];
   const paid = buildProfile === 'production-paid';
   const errors = validateReleaseConfig(config, { buildProfile, paid }).errors;
@@ -71,19 +74,34 @@ export async function checkAndroidEnvironment({ config, env, buildProfile = 'pro
   let offerings;
   try { offerings = await response.json(); }
   catch { return ['RevenueCat returned an unreadable offering response. Rerun the check before starting a paid build.']; }
-  if (typeof offerings?.current_offering_id !== 'string' || !offerings.current_offering_id || !Array.isArray(offerings.offerings)) {
-    return ['RevenueCat has no valid current Android offering for the release diagnostic. Set a current offering and check targeting rules.'];
+  if (!offerings || typeof offerings !== 'object' || Array.isArray(offerings)
+    || !(offerings.current_offering_id === null || (typeof offerings.current_offering_id === 'string' && offerings.current_offering_id.length > 0))
+    || !Array.isArray(offerings.offerings)
+    || offerings.offerings.some(offering => !offering || typeof offering.identifier !== 'string' || !offering.identifier
+      || !Array.isArray(offering.packages)
+      || offering.packages.some(pkg => !pkg || typeof pkg.platform_product_identifier !== 'string' || !pkg.platform_product_identifier))) {
+    return ['RevenueCat returned an invalid offering response format. Rerun the check before starting a paid build.'];
   }
   const current = offerings.offerings.filter(offering => offering?.identifier === offerings.current_offering_id);
-  if (current.length !== 1 || !Array.isArray(current[0].packages) || !current[0].packages.some(pkg => pkg?.platform_product_identifier === productId)) {
-    return [`The current RevenueCat Android offering must include ${productId}. Check its Google Play package mapping and any targeting or experiments.`];
+  if (current.length > 1) return ['RevenueCat returned ambiguous current offerings. Check the offering response before starting a paid build.'];
+  let configurationError;
+  if (!offerings.current_offering_id || current.length === 0) {
+    configurationError = 'RevenueCat has no configured current Android offering for the release diagnostic. Set a current offering and check targeting rules.';
+  } else if (!current[0].packages.some(pkg => pkg.platform_product_identifier === productId)) {
+    configurationError = `The current RevenueCat Android offering must include ${productId}. Check its Google Play package mapping and any targeting or experiments.`;
+  }
+  if (configurationError) {
+    if (allowUnconfiguredOffering !== true) return [configurationError];
+    onWarning(`${configurationError} Explicit bootstrap permits only the signed internal-draft setup bundle. Configure the product and offering, then pass the strict preflight and native purchase tests before monetized release.`);
   }
   return [];
 }
 
 async function main(args) {
-  if (args.length > 1) throw new Error('Invalid arguments');
-  const buildProfile = args[0] ?? 'production-paid';
+  const allowUnconfiguredOffering = args.includes('--allow-unconfigured-offering');
+  const positional = args.filter(arg => arg !== '--allow-unconfigured-offering');
+  if (positional.length > 1 || args.filter(arg => arg === '--allow-unconfigured-offering').length > 1) throw new Error('Invalid arguments');
+  const buildProfile = positional[0] ?? 'production-paid';
   const read = path => JSON.parse(readFileSync(new URL(`../${path}`, import.meta.url), 'utf8'));
   const config = {
     app: read('app.json'), eas: read('eas.json'), editorial: read('src/content/editorial-status.json'),
@@ -92,12 +110,15 @@ async function main(args) {
   if (buildProfile === 'production-paid') {
     console.log(`EXPO_PUBLIC_NEWS_FEED_URL configured: ${Boolean(process.env.EXPO_PUBLIC_NEWS_FEED_URL?.trim())}`);
   }
-  const errors = await checkAndroidEnvironment({ config, env: process.env, buildProfile });
+  const warnings = [];
+  const errors = await checkAndroidEnvironment({ config, env: process.env, buildProfile, allowUnconfiguredOffering, onWarning: message => warnings.push(message) });
+  for (const warning of warnings) console.warn(`WARN: ${warning}`);
   for (const error of errors) console.error(`FAIL: ${error}`);
   if (errors.length) process.exitCode = 1;
   else if (buildProfile === 'production') console.log('Free Android profile checked; RevenueCat environment check skipped.');
   else {
-    console.log('Paid Android configuration, reviewed question bank, public SDK key and current offering mapping checked. No credential values were logged.');
+    if (warnings.length) console.log('Internal-draft bootstrap configuration, reviewed question bank and public SDK key checked. Offering setup remains incomplete. No credential values were logged.');
+    else console.log('Paid Android configuration, reviewed question bank, public SDK key and current offering mapping checked. No credential values were logged.');
     console.log('This diagnostic made no purchase. Native Google Play price, entitlement, purchase and restore checks are still required; targeting may vary for other users.');
   }
 }

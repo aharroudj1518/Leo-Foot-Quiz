@@ -66,7 +66,7 @@ async function currentQuestion(page) {
     const session = JSON.parse(localStorage.getItem('leoqo.profile.v1') ?? 'null')?.session;
     const question = session?.questionSnapshot?.find(item => item.id === session.questionIds[session.index]);
     if (!question) throw new Error('No active question snapshot was saved by the app.');
-    return { answer: question.answer, sourceName: question.sourceName, promptLength: question.prompt.length, longestOption: Math.max(...question.options.map(option => option.length)), index: session.index, count: session.questionIds.length };
+    return { answer: question.answer, sourceName: question.sourceName, prompt: question.prompt, options: question.options, promptLength: question.prompt.length, longestOption: Math.max(...question.options.map(option => option.length)), index: session.index, count: session.questionIds.length };
   });
 }
 
@@ -100,7 +100,13 @@ try {
     await answerAndAdvance(news.page);
     candidate = await currentQuestion(news.page);
   }
-  await capture(news.page, '02-matchday-question.png', 'Actual bundled Matchday question selected for compact choices; dates and question order are unchanged.');
+  // Scroll the actual question into view so the screenshot includes all four
+  // choices on a small phone, rather than clipping them below the header.
+  await news.page.getByText(candidate.prompt, { exact: true }).evaluate(element => element.scrollIntoView({ block: 'start' }));
+  for (const option of candidate.options) {
+    await expect(news.page.getByRole('button', { name: option, exact: true })).toBeInViewport({ ratio: 1 });
+  }
+  await capture(news.page, '02-matchday-question.png', 'Actual bundled Matchday question, scrolled to show its choices; dates and question order are unchanged.');
 
   const firstQuestion = await currentQuestion(news.page);
   await news.page.getByRole('button', { name: firstQuestion.answer, exact: true }).click();

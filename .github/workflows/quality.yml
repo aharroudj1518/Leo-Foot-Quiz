@@ -13,6 +13,8 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run build:web
+      - name: Verify exported privacy and support pages
+        run: node -e "for (const file of ['privacy.html', 'support.html', 'legal.css']) if (!require('node:fs').existsSync('dist/' + file)) throw new Error('Missing exported public file ' + file)"
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - name: Capture phone web previews

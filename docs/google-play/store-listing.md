@@ -65,9 +65,9 @@ This paragraph is conditional copy, **not for the current listing**. The three p
 | App or game / category | Game / Trivia is the proposed classification. Select only relevant tags offered by Console. |
 | Price to install | Free for this candidate. A later optional pack is an in-app purchase. |
 | Language | English. Choose the existing listing's default locale; this copy uses UK football terminology. The app currently supplies English text. |
-| Support email | **Owner must supply a monitored public address.** Required by Google. |
-| Support website | **Owner must supply a real public URL** if used; recommended by Google. A working support page can also explain corrections and purchase help. |
-| Privacy policy | **Public URL and complete policy still needed.** The local About/privacy screen is not a hosted policy. See the Data safety draft. |
+| Support email | **info@novaspheretechnology.co.uk**, supplied by the owner. |
+| Support website | [Public page prepared locally](../../public/support.html). Intended URL: `https://leo-foot-quiz.vercel.app/support.html`. Verify the deployed page before Console submission. Covers corrections, purchase help and privacy requests. |
+| Privacy policy | [Public page prepared locally](../../public/privacy.html). Intended URL: `https://leo-foot-quiz.vercel.app/privacy.html`. Confirm the responsible operator and release/provider facts, then verify publication. See the [policy working draft](privacy-policy-draft.md) and Data safety draft. |
 | Developer identity | Owner verifies the existing account's legal identity and public details in Console. Do not invent an address or commit identity documents, bank information or service-account keys. |
 | Countries / distribution | Owner selects the actual launch countries and supported device types, after the children's-data and support review. |
 
@@ -96,7 +96,7 @@ Suggested phone shots, in order:
 5. Two-player pass-and-play during a round.
 6. Learning screen after a real test session, showing missed-question review.
 
-Use deterministic test progress and remove tester-identifying content. Do not show the full paid pack unlocked in free-build screenshots. Screenshots are **not supplied by this draft**.
+Use deterministic test progress and remove tester-identifying content. Do not show the full paid pack unlocked in free-build screenshots. The [store icon and feature graphic](graphics/README.md) are supplied. Five phone-shaped web previews are available from the screenshot workflow artifact and the local `leoqo-store-previews` folder. They show the browser build; verification against genuine captures from the signed Android candidate is still needed before store submission.
 
 ## App content and review notes
 
@@ -124,7 +124,7 @@ For a paid candidate, replace the last sentence and provide Play's required acce
 
 - **Artifact:** signed Android App Bundle, correct package/signing identity, increasing version code, real-device tests and resolved pre-launch report findings. As of this check, new phone apps and updates must target Android 16 / API 36 under the rule effective 31 August 2026. Inspect the built manifest. [Target API policy](https://support.google.com/googleplay/android-developer/answer/11926878?hl=en)
 - **Account:** if this is a personal account created after 13 November 2023, a closed test needs at least 12 testers continuously opted in for 14 days before applying for production access. Internal testing alone does not satisfy this; approval is not automatic. Confirm the owner's actual account status. [Testing requirements](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en)
-- **Store materials:** actual screenshots, icon/feature graphic, support email, public privacy policy and accurate Console declarations.
+- **Store materials:** icon/feature graphic and five web phone previews are supplied; signed-Android capture verification remains. The support email is supplied and public support/privacy pages are prepared locally. Confirm the responsible operator, deploy and verify the URLs, and finish accurate Console declarations.
 - **Product/content:** the core 160-question bank has recorded independent AI factual review for its exact hash. Review new or edited editions and confirm audience suitability; this does not establish Google approval.
 - **Paid release:** finish the Families/SDK assessment and Data safety changes, configure the one-time product and entitlement, then test purchase, cancellation, pending payment and restore on Google Play. An existing RevenueCat account does not establish these results.
 

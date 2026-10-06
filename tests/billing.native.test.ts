@@ -1,16 +1,17 @@
 import {describe,it,expect,vi,beforeEach} from 'vitest';
-const store=vi.hoisted(()=>({owned:false,packages:[] as any[],offeringsError:null as Error|null,customerError:null as Error|null,configure:vi.fn()}));
+const store=vi.hoisted(()=>({owned:false,packages:[] as any[],offeringsError:null as Error|null,customerError:null as Error|null,configure:vi.fn(),getAppUserID:vi.fn()}));
 const info=()=>({entitlements:{active:store.owned?{legends:{}}:{}}});
 vi.mock('react-native',()=>({Platform:{OS:'android'}}));
 vi.mock('expo-constants',()=>({default:{appOwnership:'standalone'}}));
 vi.mock('../src/content/editorial-status.json',()=>({default:{independentEditorialApproval:true}}));
-vi.mock('react-native-purchases',()=>({default:{configure:store.configure,getCustomerInfo:async()=>{if(store.customerError)throw store.customerError;return info();},getOfferings:async()=>{if(store.offeringsError)throw store.offeringsError;return {current:{availablePackages:store.packages}};},purchasePackage:async()=>({customerInfo:info()}),restorePurchases:async()=>info()}}));
-import {buy,loadShop,restore} from '../src/services/billing';
+vi.mock('react-native-purchases',()=>({default:{configure:store.configure,getAppUserID:store.getAppUserID,getCustomerInfo:async()=>{if(store.customerError)throw store.customerError;return info();},getOfferings:async()=>{if(store.offeringsError)throw store.offeringsError;return {current:{availablePackages:store.packages}};},purchasePackage:async()=>({customerInfo:info()}),restorePurchases:async()=>info()}}));
+import {buy,getPurchaseSupport,loadShop,restore} from '../src/services/billing';
 const pkg={product:{identifier:'leoqo_legends_lifetime',priceString:'£2.99'}} as any;
-beforeEach(()=>{store.owned=false;store.packages=[];store.offeringsError=null;store.customerError=null;vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','true');vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','goog_live_key');});
+beforeEach(()=>{store.owned=false;store.packages=[];store.offeringsError=null;store.customerError=null;store.getAppUserID.mockReset().mockResolvedValue('$RCAnonymousID:existing-customer');vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','true');vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','goog_live_key');});
 describe('store build purchase path',()=>{
 it('stays closed until the commerce flag is set, even with editorial approval',async()=>{vi.stubEnv('EXPO_PUBLIC_COMMERCE_READY','false');const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.message).toContain('not open');});
 it('refuses test_ keys so a sandbox key never ships',async()=>{vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY','test_abc');const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.message).toContain('not open');});
+it('rejects secret REST keys, wrong-platform keys and malformed public keys before configuring billing',async()=>{for(const key of ['sk_private_rest_key','appl_ios_key','goog_','goog_key with spaces']){vi.stubEnv('EXPO_PUBLIC_REVENUECAT_ANDROID_KEY',key);store.configure.mockClear();const shop=await loadShop();expect(shop.available).toBe(false);expect(shop.owned).toBe(false);expect(shop.message).toContain('not open');expect(shop.message).not.toContain(key);expect(store.configure).not.toHaveBeenCalled();}});
 it('configures the SDK with the platform key and reports a missing offering without inventing a price',async()=>{const shop=await loadShop();expect(store.configure).toHaveBeenCalledWith({apiKey:'goog_live_key'});expect(shop.available).toBe(false);expect(shop.product).toBeNull();expect(shop.message).toContain('not available from your store yet');});
 it('exposes the real package and ownership when the store answers',async()=>{store.packages=[pkg];const shop=await loadShop();expect(shop.available).toBe(true);expect(shop.product).toBe(pkg);expect(shop.owned).toBe(false);expect(shop.message).toBe('');});
 it('keeps a verified owner unlocked when fetching offerings fails',async()=>{store.owned=true;store.offeringsError=new Error('Offers offline');const shop=await loadShop();expect(shop.owned).toBe(true);expect(shop.available).toBe(false);expect(shop.product).toBeNull();expect(shop.message).toContain('keep playing');});
@@ -20,4 +21,9 @@ it('does not offer another purchase when entitlement verification fails',async()
 it('does not report success when the store has not granted the entitlement',async()=>{await expect(buy(pkg)).rejects.toThrow('still being confirmed');});
 it('returns true only once the entitlement is active, for buy and restore',async()=>{store.owned=true;expect(await buy(pkg)).toBe(true);expect(await restore()).toBe(true);});
 it('never reconfigures the SDK once it is set up',async()=>{store.configure.mockClear();await loadShop();await restore();expect(store.configure).not.toHaveBeenCalled();});
+it('does not initialise billing merely to look for a support ID',async()=>{vi.resetModules();const untouched=await import('../src/services/billing');store.configure.mockClear();expect(await untouched.getPurchaseSupport()).toBeNull();expect(store.configure).not.toHaveBeenCalled();expect(store.getAppUserID).not.toHaveBeenCalled();});
+it('reads the existing customer ID after the shop has configured billing',async()=>{await loadShop();store.configure.mockClear();expect(await getPurchaseSupport()).toEqual({appUserId:'$RCAnonymousID:existing-customer'});expect(store.configure).not.toHaveBeenCalled();});
+it('a support ID lookup failure cannot alter verified ownership or the store package',async()=>{store.owned=true;store.packages=[pkg];const shop=await loadShop();store.getAppUserID.mockRejectedValue(new Error('ID unavailable'));expect(await getPurchaseSupport()).toEqual({appUserId:null});expect(shop.owned).toBe(true);expect(shop.product).toBe(pkg);expect((await loadShop()).owned).toBe(true);});
+it('keeps the customer ID available for support when store verification is offline',async()=>{store.customerError=new Error('Store offline');const shop=await loadShop();expect(shop.available).toBe(false);expect(await getPurchaseSupport()).toEqual({appUserId:'$RCAnonymousID:existing-customer'});});
+it('does not expose an empty or invalid customer ID as a usable support reference',async()=>{await loadShop();for(const id of ['', '   ', null]){store.getAppUserID.mockResolvedValue(id);expect(await getPurchaseSupport()).toEqual({appUserId:null});}});
 });

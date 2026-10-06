@@ -54,7 +54,9 @@ Alternatively, after authenticating the EAS CLI locally:
 npx eas-cli@latest build --platform android --profile production --wait
 ```
 
-Use `--profile production-paid` for the paid candidate after its release checks pass.
+Use `--profile production-paid` for the paid candidate after its release checks pass. The workflow checks the Android public SDK key and current RevenueCat product mapping using the production EAS environment before starting a cloud build. The separate **Android payment environment** workflow performs that check without creating a build or making a purchase.
+
+If Google Play requires the first binary upload before a one-time product can be created, use the workflow's explicit **bootstrap** option or an `[android-bootstrap]` commit on `codex/play-release`. This creates the same signed internal candidate while allowing a missing offering/product mapping to be reported as a warning. It still requires a valid Android public SDK key, reviewed content and all normal checks; malformed responses and credential failures are not bypassed. The shop stays unavailable until its real store product is configured. Bootstrap does not establish that billing works or promote a public release. RevenueCat offering changes are fetched at runtime, so adding the intended product after the upload does not by itself require another build.
 
 Check the finished build's source commit, Android application ID, version code and `.aab` artifact in EAS. The `preview` profile produces a directly installable APK and is a separate route; it is not the Play release artifact. [Expo Android submission](https://docs.expo.dev/submit/android/)
 
@@ -89,6 +91,8 @@ The existing app contract is:
 | Content approval field | `src/content/editorial-status.json` → `independentEditorialApproval` |
 
 The `production` profile sets the commerce switch to `false` and supports free play and previews. The `production-paid` profile inherits the same signed AAB configuration and sets it to `true`. Paid builds also require recorded editorial approval; the release checks must pass for the exact content being built. Account setup does not override that check. Record actual editorial review rather than changing an approval field merely to make a build pass.
+
+In Google Play, create or find the one-time product **`leoqo_legends_lifetime`**, with a real price and the intended country availability. Import/add its Google Play product in RevenueCat as **Non-consumable**, attach it to entitlement **`legends`**, and map it to a package in the current offering. The non-consumable type prevents a lifetime unlock from being consumed and sold again. Do not substitute a subscription product. [RevenueCat Google Play product setup](https://www.revenuecat.com/docs/getting-started/entitlements/android-products)
 
 Configure only RevenueCat's **Android public SDK key** in the production EAS environment. A RevenueCat secret REST key (`sk_...`) belongs on a server and must never appear in `EXPO_PUBLIC_*`. [RevenueCat keys](https://www.revenuecat.com/docs/projects/authentication) Values with the `EXPO_PUBLIC_` prefix are embedded in the app and can be read by users, regardless of dashboard visibility settings. [Expo environment variables](https://docs.expo.dev/eas/environment-variables/)
 

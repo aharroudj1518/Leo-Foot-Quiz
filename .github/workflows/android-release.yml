@@ -8,6 +8,10 @@ on:
         type: choice
         options: [production, production-paid]
         default: production-paid
+      bootstrap:
+        description: Build an internal candidate before the Android product is mapped
+        type: boolean
+        default: false
       submit:
         description: Upload the finished build to a Play internal-testing draft
         type: boolean
@@ -24,10 +28,11 @@ concurrency:
 
 env:
   BUILD_PROFILE: ${{ inputs.build_profile || 'production-paid' }}
+  BOOTSTRAP_OFFERING: ${{ inputs.bootstrap || contains(github.event.head_commit.message, '[android-bootstrap]') }}
 
 jobs:
   access:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]')
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]') || contains(github.event.head_commit.message, '[android-bootstrap]')
     runs-on: ubuntu-latest
     steps:
       - name: Check Expo credential is connected
@@ -41,7 +46,7 @@ jobs:
           echo "Expo token is present. Project access will be checked by EAS."
 
   verify:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]')
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]') || contains(github.event.head_commit.message, '[android-bootstrap]')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -60,6 +65,8 @@ jobs:
             *) echo "Unsupported build profile"; exit 1 ;;
           esac
       - run: npm run build:web
+      - name: Verify exported privacy and support pages
+        run: node -e "for (const file of ['privacy.html', 'support.html', 'legal.css']) if (!require('node:fs').existsSync('dist/' + file)) throw new Error('Missing exported public file ' + file)"
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - name: Capture phone web previews
@@ -102,7 +109,13 @@ jobs:
         run: |
           case "$BUILD_PROFILE" in
             production) node scripts/check-android-environment.mjs production ;;
-            production-paid) eas env:exec production 'node scripts/check-android-environment.mjs production-paid' --non-interactive ;;
+            production-paid)
+              if [ "$BOOTSTRAP_OFFERING" = "true" ]; then
+                eas env:exec production 'node scripts/check-android-environment.mjs production-paid --allow-unconfigured-offering' --non-interactive
+              else
+                eas env:exec production 'node scripts/check-android-environment.mjs production-paid' --non-interactive
+              fi
+              ;;
             *) echo "Unsupported build profile"; exit 1 ;;
           esac
       - name: Build signed Android App Bundle
