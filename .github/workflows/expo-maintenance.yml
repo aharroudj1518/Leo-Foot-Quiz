@@ -1,0 +1,35 @@
+name: Expo dependency maintenance
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/play-release]
+permissions:
+  contents: read
+jobs:
+  update:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[expo-maintenance]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Align packages with the installed Expo SDK
+        run: npx expo install --fix
+        env:
+          CI: '1'
+      - name: Validate Expo dependencies
+        run: npx expo-doctor
+      - run: npm run check
+      - run: npm run build:web
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: verified-expo-dependencies
+          path: |
+            package.json
+            package-lock.json
+          retention-days: 7
