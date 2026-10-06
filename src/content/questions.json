@@ -13,7 +13,7 @@
     "hint": "A South American country whose capital is Montevideo.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1930",
     "premium": false,
     "aliases": []
@@ -32,7 +32,7 @@
     "hint": "Its capital is Rome.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1934",
     "premium": false,
     "aliases": []
@@ -51,7 +51,7 @@
     "hint": "Its capital is Rome.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1938",
     "premium": false,
     "aliases": []
@@ -70,7 +70,7 @@
     "hint": "A South American country whose capital is Montevideo.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1950",
     "premium": false,
     "aliases": []
@@ -89,7 +89,7 @@
     "hint": "The team represented the western German state.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1954",
     "premium": false,
     "aliases": []
@@ -105,10 +105,10 @@
       "Netherlands"
     ],
     "explanation": "Brazil won the men’s World Cup in 1958. This question refers to that edition, not the current champions.",
-    "hint": "A South American country whose capital is Brasilia.",
+    "hint": "A South American country whose current capital is Brasília.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1958",
     "premium": false,
     "aliases": []
@@ -124,10 +124,10 @@
       "Portugal"
     ],
     "explanation": "Brazil won the men’s World Cup in 1962. This question refers to that edition, not the current champions.",
-    "hint": "A South American country whose capital is Brasilia.",
+    "hint": "A South American country whose current capital is Brasília.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1962",
     "premium": false,
     "aliases": []
@@ -146,7 +146,7 @@
     "hint": "Wembley is its national stadium.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1966",
     "premium": false,
     "aliases": []
@@ -162,10 +162,10 @@
       "Japan"
     ],
     "explanation": "Brazil won the men’s World Cup in 1970. This question refers to that edition, not the current champions.",
-    "hint": "A South American country whose capital is Brasilia.",
+    "hint": "A South American country whose current capital is Brasília.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1970",
     "premium": false,
     "aliases": []
@@ -184,7 +184,7 @@
     "hint": "The team represented the western German state.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1974",
     "premium": false,
     "aliases": []
@@ -203,7 +203,7 @@
     "hint": "A South American country whose capital is Buenos Aires.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
     "era": "1978",
     "premium": false,
     "aliases": []
@@ -222,7 +222,7 @@
     "hint": "Its capital is Rome.",
     "category": "world",
     "difficulty": "expert",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "1982",
     "premium": false,
     "aliases": []
@@ -241,7 +241,7 @@
     "hint": "A South American country whose capital is Buenos Aires.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "1986",
     "premium": false,
     "aliases": []
@@ -260,7 +260,7 @@
     "hint": "The team represented the western German state.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "1990",
     "premium": false,
     "aliases": []
@@ -276,10 +276,10 @@
       "Germany"
     ],
     "explanation": "Brazil won the men’s World Cup in 1994. This question refers to that edition, not the current champions.",
-    "hint": "A South American country whose capital is Brasilia.",
+    "hint": "A South American country whose current capital is Brasília.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "1994",
     "premium": false,
     "aliases": []
@@ -298,7 +298,7 @@
     "hint": "Its capital is Paris.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "1998",
     "premium": false,
     "aliases": []
@@ -314,10 +314,10 @@
       "England"
     ],
     "explanation": "Brazil won the men’s World Cup in 2002. This question refers to that edition, not the current champions.",
-    "hint": "A South American country whose capital is Brasilia.",
+    "hint": "A South American country whose current capital is Brasília.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2002",
     "premium": false,
     "aliases": []
@@ -336,7 +336,7 @@
     "hint": "Its capital is Rome.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2006",
     "premium": false,
     "aliases": []
@@ -355,7 +355,7 @@
     "hint": "Its capital is Madrid.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2010",
     "premium": false,
     "aliases": []
@@ -374,7 +374,7 @@
     "hint": "Its capital is Berlin.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2014",
     "premium": false,
     "aliases": []
@@ -393,7 +393,7 @@
     "hint": "Its capital is Paris.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2018",
     "premium": false,
     "aliases": []
@@ -412,7 +412,7 @@
     "hint": "A South American country whose capital is Buenos Aires.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_world_cup",
+    "source": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
     "era": "2022",
     "premium": false,
     "aliases": []
@@ -431,7 +431,7 @@
     "hint": "Its national flag features stars and stripes.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/USA",
     "era": "1991",
     "premium": false,
     "aliases": []
@@ -450,7 +450,7 @@
     "hint": "Its capital is Oslo.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/en/associations/NOR",
     "era": "1995",
     "premium": false,
     "aliases": []
@@ -469,7 +469,7 @@
     "hint": "Its national flag features stars and stripes.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/USA",
     "era": "1999",
     "premium": false,
     "aliases": []
@@ -488,7 +488,7 @@
     "hint": "Its capital is Berlin.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/GER",
     "era": "2003",
     "premium": false,
     "aliases": []
@@ -507,7 +507,7 @@
     "hint": "Its capital is Berlin.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/GER",
     "era": "2007",
     "premium": false,
     "aliases": []
@@ -526,7 +526,7 @@
     "hint": "Its capital is Tokyo.",
     "category": "world",
     "difficulty": "fan",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/jpn",
     "era": "2011",
     "premium": false,
     "aliases": []
@@ -545,7 +545,7 @@
     "hint": "Its national flag features stars and stripes.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/USA",
     "era": "2015",
     "premium": false,
     "aliases": []
@@ -564,7 +564,7 @@
     "hint": "Its national flag features stars and stripes.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/USA",
     "era": "2019",
     "premium": false,
     "aliases": []
@@ -583,7 +583,7 @@
     "hint": "Its capital is Madrid.",
     "category": "world",
     "difficulty": "starter",
-    "source": "https://www.archives.fifa.com/fifa_womens_world_cup",
+    "source": "https://inside.fifa.com/associations/ESP",
     "era": "2023",
     "premium": false,
     "aliases": []
@@ -925,7 +925,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2000/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1999/",
     "era": "1999/00",
     "premium": false,
     "aliases": []
@@ -944,7 +944,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2001/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2000/",
     "era": "2000/01",
     "premium": false,
     "aliases": []
@@ -963,7 +963,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2002/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2001/",
     "era": "2001/02",
     "premium": false,
     "aliases": []
@@ -982,7 +982,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2003/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2002/",
     "era": "2002/03",
     "premium": false,
     "aliases": []
@@ -1001,7 +1001,7 @@
     "hint": "This club is based in Portugal.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2004/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2003/",
     "era": "2003/04",
     "premium": false,
     "aliases": []
@@ -1020,7 +1020,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2005/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2004/",
     "era": "2004/05",
     "premium": false,
     "aliases": []
@@ -1039,7 +1039,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2006/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2005/",
     "era": "2005/06",
     "premium": false,
     "aliases": []
@@ -1058,7 +1058,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2007/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/2006/",
     "era": "2006/07",
     "premium": false,
     "aliases": []
@@ -1410,7 +1410,7 @@
   },
   {
     "id": "club-clue-2",
-    "prompt": "Which club is this?\n\nCatalan club whose motto is “Més que un club”, with its home at Camp Nou.",
+    "prompt": "Which club is this?\n\nCatalan club whose motto is “Més que un club”, with its historic home at Camp Nou.",
     "answer": "Barcelona",
     "options": [
       "Barcelona",
@@ -1422,7 +1422,7 @@
     "hint": "This club is based in Spain.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.fcbarcelona.com/en/club/history",
+    "source": "https://www.fcbarcelona.com/en/club/news/723765/50-anys-del-mes-que-un-club",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1441,7 +1441,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://www.liverpoolfc.com/history",
+    "source": "https://www.liverpoolfc.com/info/why-youll-never-walk-alone-liverpool-fcs-anthem",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1460,7 +1460,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "starter",
-    "source": "https://fcbayern.com/en/club/history",
+    "source": "https://fcbayern.com/en/news/matchreports/2016/09/match-report-bundesliga-fc-bayern---fc-ingolstadt-170916",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1479,7 +1479,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.juventus.com/en/history",
+    "source": "https://www.juventus.com/en/news/articles/121-years-your-homes-your-history-happy-birthday-old-lady",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1498,7 +1498,7 @@
     "hint": "This club is based in the Netherlands.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.ajax.nl/en/club/history/",
+    "source": "https://www.uefa.com/uefachampionsleague/news/025a-0eaadf5cfb61-444b65b2aa25-1000--masters-of-total-football/",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1517,7 +1517,7 @@
     "hint": "This club is based in Germany.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.bvb.de/eng/BVB/History",
+    "source": "https://www.bvb.de/de/en/signal-iduna-park/suedtribuene.html",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1536,7 +1536,7 @@
     "hint": "This club is based in Italy.",
     "category": "clubs",
     "difficulty": "fan",
-    "source": "https://www.inter.it/en/club/history",
+    "source": "https://www.inter.it/en/news/2021-05-22-otd-treble-ucl-inter-bayern-munich",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1555,7 +1555,7 @@
     "hint": "This club is based in Scotland.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.celticfc.com/history",
+    "source": "https://charity.celticfc.com/uncategorized/jock-stein-30th-anniversary-charity-match-and-dinner/",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1574,7 +1574,7 @@
     "hint": "This club is based in England.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.nottinghamforest.co.uk/club/history",
+    "source": "https://www.uefa.com/uefasupercup/history/1979/",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1593,14 +1593,14 @@
     "hint": "This club is based in Portugal.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.fcporto.pt/en/club/history",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0250-0c50f100f076-ecb0d9d85bb1-1000--2003-04-porto-pull-off-biggest-surprise/",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
   },
   {
     "id": "club-clue-12",
-    "prompt": "Which club is this?\n\nLisbon club that won consecutive European Cups in 1961 and 1962 with Eusébio.",
+    "prompt": "Which club is this?\n\nLisbon club that won consecutive European Cups in 1961 and 1962.",
     "answer": "Benfica",
     "options": [
       "Benfica",
@@ -1612,7 +1612,7 @@
     "hint": "This club is based in Portugal.",
     "category": "clubs",
     "difficulty": "expert",
-    "source": "https://www.slbenfica.pt/en-us/clube/historia",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d7ff54758e9-79e665db9ac4-1000--the-greatest-teams-of-all-time-benfica-1960-62/",
     "era": "Club history through 2024",
     "premium": false,
     "aliases": []
@@ -1627,11 +1627,11 @@
       "Thierry Henry",
       "Zinedine Zidane"
     ],
-    "explanation": "Lionel Messi represents Argentina. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Argentina.",
+    "explanation": "Lionel Messi has represented Argentina internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Argentina.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.intermiamicf.com/players/lionel-messi/",
+    "source": "https://www.intermiamicf.com/news/inter-miami-cf-signs-seven-time-ballon-d-or-winner-world-cup-champion-lionel-mes",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1648,11 +1648,11 @@
       "Zinedine Zidane",
       "David Beckham"
     ],
-    "explanation": "Cristiano Ronaldo represents Portugal. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Portugal.",
+    "explanation": "Cristiano Ronaldo has represented Portugal internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Portugal.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/cristiano-ronaldo-dos-santos-aveiro",
+    "source": "https://www.juventus.com/en/news/articles/cristiano-ronaldo-is-bianconero",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1669,11 +1669,11 @@
       "David Beckham",
       "Luka Modrić"
     ],
-    "explanation": "Thierry Henry represents France. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Thierry Henry has represented France internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: France.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.arsenal.com/historic/players/thierry-henry",
+    "source": "https://www.fff.fr/equipe-nationale/joueur/9809-henry-thierry/fiche.html",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1690,8 +1690,8 @@
       "Luka Modrić",
       "Didier Drogba"
     ],
-    "explanation": "Zinedine Zidane represents France. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents France.",
+    "explanation": "Zinedine Zidane has represented France internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: France.",
     "category": "players",
     "difficulty": "fan",
     "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/zinedine-zidane",
@@ -1711,11 +1711,11 @@
       "Didier Drogba",
       "Fernando Torres"
     ],
-    "explanation": "David Beckham represents England. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents England.",
+    "explanation": "David Beckham has represented England internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: England.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/david-robert-joseph-beckham",
+    "source": "https://www.lagalaxy.com/players/david-beckham/",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1732,11 +1732,11 @@
       "Fernando Torres",
       "Luis Suárez"
     ],
-    "explanation": "Luka Modrić represents Croatia. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Croatia.",
+    "explanation": "Luka Modrić has represented Croatia internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Croatia.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.realmadrid.com/en-US/the-club/history/football-legends/luka-modric",
+    "source": "https://www.tottenhamhotspur.com/news/1042121/the-foe-you-know-real-madrids-modric-and-bale",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1753,11 +1753,11 @@
       "Luis Suárez",
       "Mohamed Salah"
     ],
-    "explanation": "Didier Drogba represents Ivory Coast. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Ivory Coast.",
+    "explanation": "Didier Drogba has represented Ivory Coast internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Ivory Coast.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.chelseafc.com/en/didier-drogba",
+    "source": "https://www.uefa.com/uefachampionsleague/news/0254-0d7b39250689-72b617e521d5-1000--chelsea-wrap-up-drogba-deal/",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1774,8 +1774,8 @@
       "Mohamed Salah",
       "Sadio Mané"
     ],
-    "explanation": "Fernando Torres represents Spain. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Spain.",
+    "explanation": "Fernando Torres has represented Spain internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Spain.",
     "category": "players",
     "difficulty": "expert",
     "source": "https://www.liverpoolfc.com/info/fernando-torres",
@@ -1795,11 +1795,11 @@
       "Sadio Mané",
       "Robert Lewandowski"
     ],
-    "explanation": "Luis Suárez represents Uruguay. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Uruguay.",
+    "explanation": "Luis Suárez has represented Uruguay internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Uruguay.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.liverpoolfc.com/info/luis-suarez",
+    "source": "https://www.intermiamicf.com/news/inter-miami-cf-signs-iconic-striker-luis-suarez",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1816,11 +1816,11 @@
       "Robert Lewandowski",
       "Lionel Messi"
     ],
-    "explanation": "Mohamed Salah represents Egypt. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Egypt.",
+    "explanation": "Mohamed Salah has represented Egypt internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Egypt.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.liverpoolfc.com/team/mens/player/mohamed-salah",
+    "source": "https://www.liverpoolfc.com/news/first-team/266612-in-profile-salah-s-journey-from-egypt-to-anfield",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1837,11 +1837,11 @@
       "Lionel Messi",
       "Cristiano Ronaldo"
     ],
-    "explanation": "Sadio Mané represents Senegal. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Senegal.",
+    "explanation": "Sadio Mané has represented Senegal internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Senegal.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.liverpoolfc.com/info/sadio-mane",
+    "source": "https://www.liverpoolfc.com/news/first-team/225716-profile-sadio-mane-s-journey-to-anfield",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1858,11 +1858,11 @@
       "Cristiano Ronaldo",
       "Thierry Henry"
     ],
-    "explanation": "Robert Lewandowski represents Poland. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Poland.",
+    "explanation": "Robert Lewandowski has represented Poland internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: Poland.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.fcbarcelona.com/en/football/first-team/players/5109/robert-lewandowski",
+    "source": "https://www.fcbarcelona.com/en/news/4526738/robert-lewandowski/amp",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1879,11 +1879,11 @@
       "Aitana Bonmatí",
       "Alex Morgan"
     ],
-    "explanation": "Lucy Bronze represents England. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents England.",
+    "explanation": "Lucy Bronze has represented England internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: England.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.chelseafc.com/en/teams/profile/lucy-bronze",
+    "source": "https://www.chelseafc.com/en/news/article/lucy-bronze-joins-chelsea",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1900,11 +1900,11 @@
       "Lucy Bronze",
       "Megan Rapinoe"
     ],
-    "explanation": "Alex Morgan represents United States. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents United States.",
+    "explanation": "Alex Morgan has represented the United States internationally. These are selected stops in their club career, in order; the path is not a current-club claim.",
+    "hint": "National team: United States.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.ussoccer.com/players/m/alex-morgan",
+    "source": "https://www.orlandocitysc.com/players/alex-morgan/",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1921,11 +1921,11 @@
       "Alex Morgan",
       "Marta"
     ],
-    "explanation": "Megan Rapinoe represents United States. The clue describes this player’s historical achievement.",
-    "hint": "This player represents United States.",
+    "explanation": "Megan Rapinoe has represented the United States internationally. The clue describes this player’s historical achievement.",
+    "hint": "National team: United States.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.ussoccer.com/players/r/megan-rapinoe",
+    "source": "https://www.ussoccer.com/stories/2023/07/us-womens-national-team-legend-megan-rapinoe-will-retire-at-end-of-2023-nwsl-season",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1942,11 +1942,11 @@
       "Megan Rapinoe",
       "Sam Kerr"
     ],
-    "explanation": "Marta represents Brazil. The clue describes this player’s historical achievement.",
-    "hint": "This player represents Brazil.",
+    "explanation": "Marta has represented Brazil internationally. The clue describes this player’s historical achievement.",
+    "hint": "National team: Brazil.",
     "category": "players",
     "difficulty": "starter",
-    "source": "https://www.orlandocitysc.com/pride/players/marta/",
+    "source": "https://inside.fifa.com/organisation/news/marta-ive-got-a-dream",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1963,11 +1963,11 @@
       "Marta",
       "Ada Hegerberg"
     ],
-    "explanation": "Sam Kerr represents Australia. These are selected stops in their club career, in order; the path is not a current-club claim.",
-    "hint": "This player represents Australia.",
+    "explanation": "Sam Kerr has represented Australia internationally. These are selected clubs in the order she first joined them; she also alternated Australian and US seasons. This is not a current-club claim.",
+    "hint": "National team: Australia.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.chelseafc.com/en/teams/profile/sam-kerr",
+    "source": "https://www.olympics.com.au/olympians/sam-kerr/",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -1984,11 +1984,11 @@
       "Sam Kerr",
       "Alexia Putellas"
     ],
-    "explanation": "Ada Hegerberg represents Norway. The clue describes this player’s historical achievement.",
-    "hint": "This player represents Norway.",
+    "explanation": "Ada Hegerberg has represented Norway internationally. The clue describes this player’s historical achievement.",
+    "hint": "National team: Norway.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/womenschampionsleague/news/024c-0e1762cd438a-cf591c14c353-1000--hegerberg-wins-first-women-s-ballon-d-or/",
+    "source": "https://www.uefa.com/womenschampionsleague/news/0252-0ce4d6fbe983-c6ecd00d29ad-1000--hegerberg-returns-a-salute/",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -2005,11 +2005,11 @@
       "Ada Hegerberg",
       "Aitana Bonmatí"
     ],
-    "explanation": "Alexia Putellas represents Spain. The clue describes this player’s historical achievement.",
-    "hint": "This player represents Spain.",
+    "explanation": "Alexia Putellas has represented Spain internationally. The clue describes this player’s historical achievement.",
+    "hint": "National team: Spain.",
     "category": "players",
     "difficulty": "expert",
-    "source": "https://www.fcbarcelona.com/en/football/womens-football/players/711855/alexia-putellas",
+    "source": "https://www.fcbarcelona.com/en/football/womens-football/news/2857507/alexia-putellas-wins-second-ballon-dor",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -2026,11 +2026,11 @@
       "Alexia Putellas",
       "Lucy Bronze"
     ],
-    "explanation": "Aitana Bonmatí represents Spain. The clue describes this player’s historical achievement.",
-    "hint": "This player represents Spain.",
+    "explanation": "Aitana Bonmatí has represented Spain internationally. The clue describes this player’s historical achievement.",
+    "hint": "National team: Spain.",
     "category": "players",
     "difficulty": "fan",
-    "source": "https://www.fcbarcelona.com/en/football/womens-football/players/711860/aitana-bonmati",
+    "source": "https://inside.fifa.com/organisation/media-releases/nominees-for-the-best-fifa-football-awards-tm-2023-revealed",
     "era": "Career / achievements through 2024",
     "premium": false,
     "aliases": [
@@ -2039,7 +2039,7 @@
   },
   {
     "id": "rule-1",
-    "prompt": "In a standard eleven-a-side match, how many players can one team have on the field?",
+    "prompt": "What is the maximum number of players one team may have on the field in a standard eleven-a-side match?",
     "answer": "11",
     "options": [
       "11",
@@ -2058,7 +2058,7 @@
   },
   {
     "id": "rule-2",
-    "prompt": "What is the minimum number of players a team must have for a match to start or continue?",
+    "prompt": "At the start of a match, what is the minimum number of players a team must have?",
     "answer": "7",
     "options": [
       "7",
@@ -2066,7 +2066,7 @@
       "6",
       "8"
     ],
-    "explanation": "A match may not start or continue if either team has fewer than seven players.",
+    "explanation": "A team must begin a match with at least seven players. Law 3 has specific exceptions for temporary absences during play.",
     "hint": "It is fewer than eleven but more than six.",
     "category": "rules",
     "difficulty": "starter",
@@ -2199,7 +2199,7 @@
       "The corner arc",
       "The halfway line"
     ],
-    "explanation": "The ball is placed on the penalty mark for a penalty kick.",
+    "explanation": "The ball must be stationary, with part of it touching or overhanging the centre of the penalty mark.",
     "hint": "It is inside the penalty area.",
     "category": "rules",
     "difficulty": "fan",
@@ -2238,7 +2238,7 @@
       "A penalty kick"
     ],
     "explanation": "Each half starts with a kick-off at the centre of the field.",
-    "hint": "Players begin at the halfway line.",
+    "hint": "The ball starts on the centre mark.",
     "category": "rules",
     "difficulty": "expert",
     "source": "https://www.theifab.com/laws/latest/the-start-and-restart-of-play/",
@@ -2248,7 +2248,7 @@
   },
   {
     "id": "rule-12",
-    "prompt": "Can a player be offside directly from a goal kick?",
+    "prompt": "Can a player commit an offside offence by receiving the ball directly from a goal kick?",
     "answer": "No",
     "options": [
       "No",
@@ -2267,7 +2267,7 @@
   },
   {
     "id": "rule-13",
-    "prompt": "Can a player be offside directly from a throw-in?",
+    "prompt": "Can a player commit an offside offence by receiving the ball directly from a throw-in?",
     "answer": "No",
     "options": [
       "No",
@@ -2336,7 +2336,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1956/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1955/",
     "era": "1956",
     "premium": true,
     "aliases": []
@@ -2355,7 +2355,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1957/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1956/",
     "era": "1957",
     "premium": true,
     "aliases": []
@@ -2374,7 +2374,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1958/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1957/",
     "era": "1958",
     "premium": true,
     "aliases": []
@@ -2393,7 +2393,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1959/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1958/",
     "era": "1959",
     "premium": true,
     "aliases": []
@@ -2412,7 +2412,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1960/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1959/",
     "era": "1960",
     "premium": true,
     "aliases": []
@@ -2431,7 +2431,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1961/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1960/",
     "era": "1961",
     "premium": true,
     "aliases": []
@@ -2450,7 +2450,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1962/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1961/",
     "era": "1962",
     "premium": true,
     "aliases": []
@@ -2469,7 +2469,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1963/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1962/",
     "era": "1963",
     "premium": true,
     "aliases": []
@@ -2488,7 +2488,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1964/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1963/",
     "era": "1964",
     "premium": true,
     "aliases": []
@@ -2507,7 +2507,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1965/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1964/",
     "era": "1965",
     "premium": true,
     "aliases": []
@@ -2526,7 +2526,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1966/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1965/",
     "era": "1966",
     "premium": true,
     "aliases": []
@@ -2545,7 +2545,7 @@
     "hint": "The winning club is from Scotland.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1967/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1966/",
     "era": "1967",
     "premium": true,
     "aliases": []
@@ -2564,7 +2564,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "expert",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1968/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1967/",
     "era": "1968",
     "premium": true,
     "aliases": []
@@ -2583,7 +2583,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1969/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1968/",
     "era": "1969",
     "premium": true,
     "aliases": []
@@ -2602,7 +2602,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1970/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1969/",
     "era": "1970",
     "premium": true,
     "aliases": []
@@ -2621,7 +2621,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1971/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1970/",
     "era": "1971",
     "premium": true,
     "aliases": []
@@ -2640,7 +2640,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1972/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1971/",
     "era": "1972",
     "premium": true,
     "aliases": []
@@ -2659,7 +2659,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1973/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1972/",
     "era": "1973",
     "premium": true,
     "aliases": []
@@ -2678,7 +2678,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1974/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1973/",
     "era": "1974",
     "premium": true,
     "aliases": []
@@ -2697,7 +2697,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1975/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1974/",
     "era": "1975",
     "premium": true,
     "aliases": []
@@ -2716,7 +2716,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1976/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1975/",
     "era": "1976",
     "premium": true,
     "aliases": []
@@ -2735,7 +2735,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1977/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1976/",
     "era": "1977",
     "premium": true,
     "aliases": []
@@ -2754,7 +2754,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1978/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1977/",
     "era": "1978",
     "premium": true,
     "aliases": []
@@ -2773,7 +2773,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1979/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1978/",
     "era": "1979",
     "premium": true,
     "aliases": []
@@ -2792,7 +2792,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1980/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1979/",
     "era": "1980",
     "premium": true,
     "aliases": []
@@ -2811,7 +2811,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1981/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1980/",
     "era": "1981",
     "premium": true,
     "aliases": []
@@ -2830,7 +2830,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1982/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1981/",
     "era": "1982",
     "premium": true,
     "aliases": []
@@ -2849,7 +2849,7 @@
     "hint": "The winning club is from Germany.",
     "category": "legends",
     "difficulty": "fan",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1983/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1982/",
     "era": "1983",
     "premium": true,
     "aliases": []
@@ -2868,7 +2868,7 @@
     "hint": "The winning club is from England.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1984/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1983/",
     "era": "1984",
     "premium": true,
     "aliases": []
@@ -2887,7 +2887,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1985/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1984/",
     "era": "1985",
     "premium": true,
     "aliases": []
@@ -2906,7 +2906,7 @@
     "hint": "The winning club is from Romania.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1986/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1985/",
     "era": "1986",
     "premium": true,
     "aliases": []
@@ -2925,7 +2925,7 @@
     "hint": "The winning club is from Portugal.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1987/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1986/",
     "era": "1987",
     "premium": true,
     "aliases": []
@@ -2944,7 +2944,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1988/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1987/",
     "era": "1988",
     "premium": true,
     "aliases": []
@@ -2963,7 +2963,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1989/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1988/",
     "era": "1989",
     "premium": true,
     "aliases": []
@@ -2982,7 +2982,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1990/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1989/",
     "era": "1990",
     "premium": true,
     "aliases": []
@@ -3001,7 +3001,7 @@
     "hint": "The winning club is from Yugoslavia at the time.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1991/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1990/",
     "era": "1991",
     "premium": true,
     "aliases": []
@@ -3020,7 +3020,7 @@
     "hint": "The winning club is from Spain.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1992/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1991/",
     "era": "1992",
     "premium": true,
     "aliases": []
@@ -3039,7 +3039,7 @@
     "hint": "The winning club is from France.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1993/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1992/",
     "era": "1993",
     "premium": true,
     "aliases": []
@@ -3058,7 +3058,7 @@
     "hint": "The winning club is from Italy.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1994/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1993/",
     "era": "1994",
     "premium": true,
     "aliases": []
@@ -3077,7 +3077,7 @@
     "hint": "The winning club is from the Netherlands.",
     "category": "legends",
     "difficulty": "starter",
-    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1995/",
+    "source": "https://www.uefa.com/uefachampionsleague/history/seasons/1994/",
     "era": "1995",
     "premium": true,
     "aliases": []

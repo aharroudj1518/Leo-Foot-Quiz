@@ -15,6 +15,17 @@ jobs:
       - run: npm run build:web
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
+      - name: Capture phone web previews
+        run: |
+          python -m http.server 8081 --bind 127.0.0.1 --directory dist > "$RUNNER_TEMP/leoqo-screenshot-server.log" 2>&1 &
+          npm run store:screenshots
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: store-web-previews
+          path: store-screenshots
+          if-no-files-found: ignore
+          retention-days: 14
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
