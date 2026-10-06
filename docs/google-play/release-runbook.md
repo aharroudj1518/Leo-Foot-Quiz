@@ -62,6 +62,10 @@ Check the finished build's source commit, Android application ID, version code a
 
 ## Submit the exact completed build
 
+**Current recovery — 6 October 2026:** EAS build [`5f7931d6-c2a6-4a73-9397-12899c5d23a4`](https://expo.dev/accounts/amoharroudj/projects/leoqo-football-quiz/builds/5f7931d6-c2a6-4a73-9397-12899c5d23a4) finished at **09:32:24 UTC**, with version code **6**, source `faeb0a4e6328d11166478dc34ad7c09650daa58c` and a signed AAB. The release workflow validated the finished build before its submission step failed with **“Google Service Account Keys cannot be set up in --non-interactive mode.”** No Play upload was created. The missing credential is for Play submission; signing and compilation already succeeded.
+
+Either download this finished AAB from the Expo build page and upload it in this app's **Internal testing** release screen, keeping the release in draft, or configure the Google Play service-account key directly in EAS using the credential instructions above. Do not send the key in chat or commit it. After configuration, submit the same build with the command below, using `5f7931d6-c2a6-4a73-9397-12899c5d23a4` as the ID. Rebuilding is unnecessary solely to resolve the submission key. Native artifact inspection and emulator/phone smoke checks have no results yet; build completion does not establish those results or successful licence-tester billing.
+
 When optional submission is selected in the workflow, submit only the build completed by that same run. For a manual submission, replace `BUILD_ID_FROM_THIS_RUN` below with its recorded EAS build ID:
 
 ```sh

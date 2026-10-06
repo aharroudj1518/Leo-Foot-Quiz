@@ -68,39 +68,67 @@ function parseJson(text, label) {
   try { return JSON.parse(text); } catch { throw new Error(`${label} did not return valid JSON.`); }
 }
 
+// Only public routing labels are diagnostic. Never include a pathname, query,
+// response body, underlying error message, or the full signed URL in a log.
+function downloadRoute(value) {
+  try {
+    const parsed = new URL(value);
+    const host = /^[a-z0-9.-]{1,253}$/.test(parsed.hostname) ? parsed.hostname : 'invalid-host';
+    let bucket = 'not-applicable';
+    if (host === 'storage.googleapis.com' || /^s3(?:[.-][a-z0-9-]+)?\.amazonaws\.com$/.test(host)) {
+      const name = parsed.pathname.split('/')[1];
+      bucket = ['turtle-v2-artifacts', 'eas-build-artifacts', 'expo-build-artifacts'].includes(name) ? name : 'unrecognized-bucket';
+    }
+    return { host, bucket };
+  } catch { return { host: 'invalid-url', bucket: 'not-applicable' }; }
+}
+
 export async function downloadVerified(url, destination, { kind, maxBytes, expectedSha256, fetchImpl = fetch }) {
   let created = false;
+  const diagnostic = { stage: 'initial-url', cause: 'url-validation', ...downloadRoute(url), status: null, redirects: 0 };
   try {
     const signal = AbortSignal.timeout(300000);
     let current = checkedDownloadUrl(url, kind);
     for (let redirect = 0; redirect <= 5; redirect++) {
+      Object.assign(diagnostic, { stage: 'request', cause: 'network-or-timeout', ...downloadRoute(current.href), status: null, redirects: redirect });
       const response = await fetchImpl(current.href, { redirect: 'manual', signal, credentials: 'omit', headers: { 'User-Agent': 'leoqo-artifact-inspection/1' } });
+      diagnostic.status = Number.isInteger(response.status) && response.status >= 100 && response.status <= 599 ? response.status : null;
       if ([301, 302, 303, 307, 308].includes(response.status)) {
+        diagnostic.stage = 'redirect'; diagnostic.cause = 'response-cleanup';
         const location = response.headers.get('location');
         await response.body?.cancel();
+        diagnostic.cause = !location ? 'missing-location' : 'redirect-limit';
         if (!location || redirect === 5) throw new Error('Redirect limit.');
-        current = checkedDownloadUrl(new URL(location, current).href, kind);
+        diagnostic.cause = 'url-validation';
+        const next = new URL(location, current);
+        Object.assign(diagnostic, downloadRoute(next.href));
+        current = checkedDownloadUrl(next.href, kind);
         continue;
       }
+      diagnostic.stage = 'response'; diagnostic.cause = response.ok ? 'missing-body' : 'http-status';
       if (!response.ok || !response.body) throw new Error('Download response not successful.');
       const length = response.headers.get('content-length');
+      diagnostic.cause = 'declared-size';
       if (length && (!/^\d+$/.test(length) || Number(length) > maxBytes)) { await response.body.cancel(); throw new Error('Declared size exceeds limit.'); }
       let bytes = 0;
       const hash = createHash('sha256');
+      diagnostic.stage = 'destination'; diagnostic.cause = 'exclusive-file-create';
       const handle = await open(destination, 'wx', 0o600);
       created = true;
+      diagnostic.stage = 'stream'; diagnostic.cause = 'stream-read-or-write';
       await pipeline(Readable.fromWeb(response.body), new Transform({ transform(chunk, _, done) {
         bytes += chunk.length;
-        if (bytes > maxBytes) { done(new Error('Stream size exceeds limit.')); return; }
+        if (bytes > maxBytes) { diagnostic.cause = 'stream-size'; done(new Error('Stream size exceeds limit.')); return; }
         hash.update(chunk); done(null, chunk);
       } }), handle.createWriteStream());
       const sha256 = hash.digest('hex');
+      diagnostic.stage = 'integrity'; diagnostic.cause = !bytes ? 'empty-artifact' : 'checksum-mismatch';
       if (!bytes || (expectedSha256 && sha256 !== expectedSha256)) throw new Error('Empty or mismatched artifact.');
       return { bytes, sha256 };
     }
   } catch {
     if (created) await rm(destination, { force: true });
-    throw new Error(`${kind === 'bundletool' ? 'Pinned bundletool' : 'Android bundle'} download or integrity check failed. No private download URL was logged.`);
+    throw new Error(`${kind === 'bundletool' ? 'Pinned bundletool' : 'Android bundle'} download or integrity check failed: ${JSON.stringify(diagnostic)}. No private download URL was logged.`);
   }
 }
 

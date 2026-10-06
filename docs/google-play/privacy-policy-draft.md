@@ -1,6 +1,6 @@
-# Leoqo Football Quiz privacy policy — UNPUBLISHED RELEASE DRAFT
+# Leoqo Football Quiz privacy policy — release working notes
 
-Updated **6 October 2026** from the repository and provider documentation. The owner supplied **info@novaspheretechnology.co.uk**. Public-facing files are prepared at [privacy.html](../../public/privacy.html), [support.html](../../public/support.html) and [legal.css](../../public/legal.css). **No publication or deployment is recorded here. The intended URLs have not been verified live.**
+Updated **6 October 2026** from the repository, provider documentation and deployment verification. The owner supplied **info@novaspheretechnology.co.uk**. The [privacy policy](https://leo-foot-quiz.vercel.app/privacy.html), [support page](https://leo-foot-quiz.vercel.app/support.html) and [stylesheet](https://leo-foot-quiz.vercel.app/legal.css) were verified live at **09:18 UTC** by [run 37442034644](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37442034644): HTTP 200 without login, correct MIME types and content matching the repository files. This document is the internal release record, not the public policy or a claim that store declarations are complete.
 
 ## Known details and remaining owner inputs
 
@@ -8,17 +8,17 @@ Updated **6 October 2026** from the repository and provider documentation. The o
 | --- | --- |
 | Product | Leoqo Football Quiz. No legal entity is inferred from the email domain. |
 | Public contact | [info@novaspheretechnology.co.uk](mailto:info@novaspheretechnology.co.uk), supplied by the owner for support and privacy requests. |
-| Intended policy URL | `https://leo-foot-quiz.vercel.app/privacy.html`; verify the deployed page before Console submission. |
-| Intended support URL | `https://leo-foot-quiz.vercel.app/support.html`; covers corrections, purchases and information requests. |
+| Public policy URL | `https://leo-foot-quiz.vercel.app/privacy.html`; unauthenticated retrieval and content verified as recorded above. |
+| Public support URL | `https://leo-foot-quiz.vercel.app/support.html`; verified on the same run; covers corrections, purchases and information requests. |
 | Operator | Owner confirmation of the responsible legal/developer name is pending. Match the Play listing and final policy. |
 | Audience | Family product for ages 10+. Confirm launch countries and appropriate Console bands; do not describe it as adult-only. |
 | Website hosting | Vercel. Static visits expose connection metadata. Project log configuration, integrations and retention have not been inspected. |
 | Remote news | The production EAS check on 6 October 2026 at 09:03 UTC found the news-feed URL unset. The candidate uses bundled/saved editions. The policy also explains conditional manual updates; identify the actual host before enabling them. Do not assume it is Vercel. |
-| Date | The HTML review date is a preparation date, not proof of a published effective date. |
+| Date | The HTML shows a review date of 6 October 2026. Public retrieval was confirmed at 09:18 UTC that day. |
 
-The HTML contains usable product text and the supplied contact, without placeholder operators or invented retention promises. The product policy and support route can be reviewed at the prepared URLs after deployment. Confirm the responsible operator, actual release configuration and provider practices before submitting the final store declarations; publication of the product text does not establish that those declarations are complete. The adult challenge is a feature safeguard, **not verified age assurance, parental identity or parental consent**. The copy makes no compliance certification.
+The published HTML names the product and supplied contact, without placeholder operators or invented retention promises. Confirm the responsible legal/developer identity, actual release configuration and provider practices before submitting final store declarations; publication does not establish that those declarations are complete. The adult challenge is a feature safeguard, **not verified age assurance, parental identity or parental consent**. The copy makes no compliance certification.
 
-## What the prepared policy covers
+## What the published policy covers
 
 - **Local play:** no Leoqo login or identity/location prompt. Answers, scores, mistakes, hints, settings, question reports and saved rounds remain in mobile local storage or browser storage during ordinary play. Completed-round history is limited to 100; daily records can remain longer. Storage is not an encryption guarantee and may participate in platform backups.
 - **Briefings:** included and cached editions work offline and show their dates. Where configured, an adult can manually request new editions over HTTPS. The host receives connection information but the request does not include quiz progress or reports. There is no automatic polling. Provider log retention needs configuration evidence.
@@ -33,12 +33,14 @@ The HTML contains usable product text and the supplied contact, without placehol
 
 The repository uses Expo SDK 57. Its [versioned documentation](https://docs.expo.dev/versions/v57.0.0/) and [Metro configuration reference](https://docs.expo.dev/versions/v57.0.0/config/metro/) were checked before code changes. Expo's [static-files documentation](https://docs.expo.dev/guides/customizing-metro/#static-files) says root `public/` files are served during development and copied to `dist/` on export. No Router conversion is needed. No `public/index.html` was added, so the generated app entry remains available.
 
-After `npm run build:web`, confirm `dist/privacy.html`, `dist/support.html` and `dist/legal.css`. After separately authorized deployment, check both URLs without login, HTTP success, correct titles, usable email links and CSS. Confirm hosting rewrites do not return the app shell for either HTML URL. Only then paste the verified URLs into Play Console.
+The latest [app CI run](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37443001397) passed the web export and public-file presence check. The separate public-page run verified all three exact HTTPS paths without credentials or following redirects, and compared the returned text to the source files after trimming surrounding whitespace. The returned HTML therefore matched the actual pages rather than an app shell, login page or challenge. Re-run these checks after relevant deployment changes. The check establishes availability from its runner, not worldwide availability or a legal review.
 
 ## Evidence and limits
 
-Reviewed `App.tsx`, `src/i18n.ts`, `src/core/sharing.ts`, and the storage, web storage, news and billing services, plus `app.json` and `package.json`. Provider dashboards, production network captures and remote deletion were not inspected or tested for this draft.
+Reviewed `App.tsx`, `src/i18n.ts`, `src/core/sharing.ts`, and the storage, web storage, news and billing services, plus `app.json` and `package.json`. The production Android RevenueCat key is validated and a current offering exists, but the Android `leoqo_legends_lifetime` mapping is missing. This limited configuration check does not establish provider retention/integrations, production native traffic, completed purchase tests or remote deletion. Those remain unverified.
+
+EAS build `5f7931d6-c2a6-4a73-9397-12899c5d23a4` finished at **09:32:24 UTC on 6 October**, producing version-code-6 AAB from `faeb0a4e6328d11166478dc34ad7c09650daa58c`. Submission stopped because EAS lacks a Google Play service-account key; no Play upload was created. Artifact inspection and native smoke/traffic tests have no recorded results yet. A successful build does not validate the privacy behavior of the installed app.
 
 Primary references: [RevenueCat identifiers](https://www.revenuecat.com/docs/customers/identifying-customers), [RevenueCat Data safety guidance](https://www.revenuecat.com/docs/platform-resources/google-platform-resources/google-plays-data-safety), [RevenueCat privacy](https://www.revenuecat.com/privacy), [Google privacy](https://policies.google.com/privacy), [Apple privacy](https://www.apple.com/legal/privacy/), [Vercel Privacy Notice](https://vercel.com/legal/privacy-notice), [Vercel CDN](https://vercel.com/docs/how-vercel-cdn-works) and [optional log drains](https://vercel.com/docs/drains/reference/logs). Optional drain documentation does not establish that this project enables drains. Runtime-log plan limits are not a universal retention rule for Vercel's platform data.
 
-Use the [Data safety draft](data-safety-draft.md) for release-specific declarations. The prepared pages do not establish Play approval, provider compliance or completed publication.
+Use the [Data safety draft](data-safety-draft.md) for release-specific declarations. The published pages do not establish Play approval, provider compliance or completion of the outstanding operator, family-audience and native-purchase review.

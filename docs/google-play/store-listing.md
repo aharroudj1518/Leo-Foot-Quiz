@@ -2,6 +2,8 @@
 
 Prepared and primary sources checked **6 October 2026 (Europe/London)**. This is copy for the free `production` candidate, not evidence of Play approval or a published app. Its build switch disables the shop. The bank now has hash-bound independent AI editorial review; the separate `production-paid` candidate supports native purchase testing. See the [release runbook](release-runbook.md) for building and submitting the Android bundle and the [Data safety draft](data-safety-draft.md) for declarations.
 
+Release evidence updated **6 October 2026**: [CI run 37443001397](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37443001397) passed 53 Vitest, 58 offline and 34 browser tests, the web export and five phone-sized web captures. EAS build `5f7931d6-c2a6-4a73-9397-12899c5d23a4` **FINISHED at 09:32:24 UTC**, producing the signed AAB from source `faeb0a4e6328d11166478dc34ad7c09650daa58c`, version code 6. The [release workflow](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37441864181) failed only at submission because Expo has no Google Play service-account key configured. No Play upload was created. Native artifact inspection and emulator/phone tests do not yet have results.
+
 ## Fields to paste
 
 ### App name
@@ -57,6 +59,8 @@ Replace only the Legends paragraph after the content approval, Families/data rev
 
 This paragraph is conditional copy, **not for the current listing**. The three preview questions are part of the 40-question pack. Do not advertise a subscription, recurring new packs or cross-device progress: these are not implemented. Configure and test the actual one-time product before describing it as such.
 
+The production Android RevenueCat public SDK key is validated. A current offering exists, but its Android package mapping does not yet include `leoqo_legends_lifetime`. This configuration and native licence-tester billing remain to be completed; a valid key alone does not make the pack purchasable.
+
 ## Store setup and owner details
 
 | Field | Prepared value or remaining action |
@@ -66,12 +70,14 @@ This paragraph is conditional copy, **not for the current listing**. The three p
 | Price to install | Free for this candidate. A later optional pack is an in-app purchase. |
 | Language | English. Choose the existing listing's default locale; this copy uses UK football terminology. The app currently supplies English text. |
 | Support email | **info@novaspheretechnology.co.uk**, supplied by the owner. |
-| Support website | [Public page prepared locally](../../public/support.html). Intended URL: `https://leo-foot-quiz.vercel.app/support.html`. Verify the deployed page before Console submission. Covers corrections, purchase help and privacy requests. |
-| Privacy policy | [Public page prepared locally](../../public/privacy.html). Intended URL: `https://leo-foot-quiz.vercel.app/privacy.html`. Confirm the responsible operator and release/provider facts, then verify publication. See the [policy working draft](privacy-policy-draft.md) and Data safety draft. |
+| Support website | [Published support page](https://leo-foot-quiz.vercel.app/support.html), verified HTTP 200 without login and matching repository content on 6 October at 09:18 UTC. Covers corrections, purchase help and privacy requests. |
+| Privacy policy | [Published policy](https://leo-foot-quiz.vercel.app/privacy.html), verified on the same check. Confirm the responsible operator and final release/provider declarations. See the [policy working notes](privacy-policy-draft.md) and Data safety draft. |
 | Developer identity | Owner verifies the existing account's legal identity and public details in Console. Do not invent an address or commit identity documents, bank information or service-account keys. |
 | Countries / distribution | Owner selects the actual launch countries and supported device types, after the children's-data and support review. |
 
 Support contact requirements: [Google listing setup](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en). Monetization also requires the appropriate payments profile and account verification; public address requirements depend on the account and monetization status. Complete those with the owner's genuine details: [payments profile](https://support.google.com/googleplay/android-developer/answer/7161426?hl=en), [developer identity](https://support.google.com/googleplay/android-developer/answer/13628312?hl=en).
+
+The [public-page verification run](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37442034644) checked both HTML URLs and `legal.css` for HTTP 200, expected MIME types and exact content after trimming surrounding whitespace. This confirms public retrieval from the runner; it does not establish Play approval or completed legal declarations.
 
 ## Required images and capture plan
 
@@ -122,10 +128,10 @@ For a paid candidate, replace the last sentence and provide Play's required acce
 
 ## Publication prerequisites still to verify
 
-- **Artifact:** signed Android App Bundle, correct package/signing identity, increasing version code, real-device tests and resolved pre-launch report findings. As of this check, new phone apps and updates must target Android 16 / API 36 under the rule effective 31 August 2026. Inspect the built manifest. [Target API policy](https://support.google.com/googleplay/android-developer/answer/11926878?hl=en)
+- **Artifact and upload:** version-code-6 signed AAB is built. Complete native package/signing/manifest inspection, device tests and any pre-launch report fixes. Upload the existing artifact manually to Internal testing or configure EAS's Google Play submission key and retry that exact build. As of this check, new phone apps and updates must target Android 16 / API 36 under the rule effective 31 August 2026; verify the built manifest. [Target API policy](https://support.google.com/googleplay/android-developer/answer/11926878?hl=en)
 - **Account:** if this is a personal account created after 13 November 2023, a closed test needs at least 12 testers continuously opted in for 14 days before applying for production access. Internal testing alone does not satisfy this; approval is not automatic. Confirm the owner's actual account status. [Testing requirements](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en)
-- **Store materials:** icon/feature graphic and five web phone previews are supplied; signed-Android capture verification remains. The support email is supplied and public support/privacy pages are prepared locally. Confirm the responsible operator, deploy and verify the URLs, and finish accurate Console declarations.
+- **Store materials:** icon/feature graphic and five web phone previews are supplied; signed-Android capture verification remains. The support email is supplied and public support/privacy URLs are verified. Confirm the responsible operator and finish accurate Console declarations for the intended family audience aged 10+.
 - **Product/content:** the core 160-question bank has recorded independent AI factual review for its exact hash. Review new or edited editions and confirm audience suitability; this does not establish Google approval.
-- **Paid release:** finish the Families/SDK assessment and Data safety changes, configure the one-time product and entitlement, then test purchase, cancellation, pending payment and restore on Google Play. An existing RevenueCat account does not establish these results.
+- **Paid release:** finish the Families/SDK assessment and Data safety changes, map the Android `leoqo_legends_lifetime` product into the current RevenueCat offering and verify its entitlement, then test purchase, cancellation, pending payment and restore on Google Play. The validated public key does not establish these results.
 
 Expo's current documentation allows a first EAS submission to create an internal release after the Play app and service-account setup; a mandatory manual first upload is no longer a universal prerequisite. A draft upload still requires Console setup and a deliberate rollout before testers can install it. [Expo Android submission](https://docs.expo.dev/submit/android/), [project release runbook](release-runbook.md).

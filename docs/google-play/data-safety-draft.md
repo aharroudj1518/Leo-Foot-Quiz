@@ -2,6 +2,8 @@
 
 Prepared and primary sources checked **6 October 2026 (Europe/London)** against the current repository. This is a developer working draft, not a submitted declaration or a published privacy policy. Confirm the exact release binary, build environment, provider settings and all relevant active versions before making Console selections.
 
+The Android AAB from source `faeb0a4e6328d11166478dc34ad7c09650daa58c`, version code 6, completed in EAS build `5f7931d6-c2a6-4a73-9397-12899c5d23a4` at **09:32:24 UTC on 6 October 2026**. The [GitHub workflow](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37441864181) failed only at submission because EAS has no Google Play service-account key configured; no Play upload was created. Native artifact inspection, emulator/phone checks and release-traffic observations have no recorded results yet. Build completion does not establish Data safety answers.
+
 ## What the app actually does
 
 | Flow | Repository evidence | Destination |
@@ -16,7 +18,7 @@ Prepared and primary sources checked **6 October 2026 (Europe/London)** against 
 | Billing | `src/services/billing.ts` dynamically configures RevenueCat only after an adult shop action and only when both commerce and editorial switches allow it. | RevenueCat and Google Play when enabled. The free `production` candidate blocks SDK configuration through this path; `production-paid` permits it when its checks pass. |
 | Purchase support | After billing is already configured, the native shop/privacy UI reads the existing RevenueCat app-user ID. It can be selected/shared; shop/privacy email drafts may prefill it. No purchase is necessary. | Displayed on device; sent to support only when the user sends a message or chooses a sharing destination. Web/Expo Go and disabled shops have no Support ID. |
 | Website hosting | The intended web app and public support/privacy site use Vercel. Static requests expose IP address and ordinary request/browser metadata; Vercel may derive approximate location. | Vercel; this is website-host processing, not a quiz-progress upload. Project logging and provider retention need verification. |
-| Voluntary support | The app and prepared support page link to `info@novaspheretechnology.co.uk`. Reports are not sent automatically. | A user-sent email supplies the sender address, message, optional Support ID and attachments to the support mailbox. Assess the chosen support process separately from automatic app collection. |
+| Voluntary support | The app and published support page link to `info@novaspheretechnology.co.uk`. Reports are not sent automatically. | A user-sent email supplies the sender address, message, optional Support ID and attachments to the support mailbox. Assess the chosen support process separately from automatic app collection. |
 
 SQLite storage is not an encryption-at-rest guarantee. Review Android backup/restore configuration in the final manifest: local application storage may participate in platform-managed backups. The app does not implement cloud progress sync.
 
@@ -94,12 +96,14 @@ Google requires a public, accessible, non-geofenced privacy-policy URL and priva
 | Missing owner/service fact | Why it is needed |
 | --- | --- |
 | Legal developer identity | Owner confirmation is pending; match the Play listing. The public support/privacy email is supplied: `info@novaspheretechnology.co.uk`. Do not infer a legal entity from its domain. |
-| Public policy URL and date | `public/privacy.html` is prepared for `https://leo-foot-quiz.vercel.app/privacy.html`; confirm operator/provider facts and verify deployment. A local file is not a published URL. See the [policy draft](privacy-policy-draft.md). |
-| Support website / deletion-request route | `public/support.html` is prepared for `https://leo-foot-quiz.vercel.app/support.html`, with the supplied email and Support ID instructions. Locating and deleting a remote customer/host record has not been tested. |
-| Launch countries and audience choices | The owner confirms a family product for ages 10+. Confirm countries and suitable Console age bands for the children's privacy review. |
+| Public policy URL and date | [Published policy](https://leo-foot-quiz.vercel.app/privacy.html), reviewed 6 October 2026 and verified live at 09:18 UTC that day. Confirm the responsible operator and final provider/release declarations. See the [policy working notes](privacy-policy-draft.md). |
+| Support website / deletion-request route | [Published support page](https://leo-foot-quiz.vercel.app/support.html), verified on the same run, with the supplied email and Support ID instructions. Locating and deleting a remote customer/host record has not been tested. |
+| Launch countries and audience choices | The current product offers family play for ages 10+; the owner has not yet confirmed launch countries and Console audience choices. Review suitable age bands and the applicable children's requirements. |
 | RevenueCat account settings, recipients and retention | Explain actual purchase processing and any legally required retention. SDK availability alone is insufficient evidence. |
 | News host/CDN and retention, if enabled | Complete scenario C before publishing a remote-feed build. |
 | Support messages and exports received by the owner | Explain how voluntarily submitted email, diagnostics or question reports will be handled outside the app, without pretending the app automatically uploads them. |
+
+The [public-page check on 6 October at 09:18 UTC](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37442034644) verified both HTML pages and their stylesheet: HTTP 200 without credentials or redirects, expected MIME types and content matching the repository files after trimming surrounding whitespace. This proves retrieval from the runner, not worldwide availability, provider-policy compliance or Google approval.
 
 The Vercel-hosted pages disclose standard website metadata separately from local quiz storage. The [Vercel Privacy Notice](https://vercel.com/legal/privacy-notice) explains platform processing and context-dependent retention. Its [log-drain documentation](https://vercel.com/docs/drains/reference/logs) describes optional capabilities, not proof that this project enables them. Do not use a runtime-log plan limit as a promise about all provider-held data or infer native background collection from a browser visit.
 

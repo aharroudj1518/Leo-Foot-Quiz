@@ -1,0 +1,132 @@
+name: Submit existing Android build
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: Exact finished EAS Android build UUID to submit
+        type: string
+        required: true
+        default: 5f7931d6-c2a6-4a73-9397-12899c5d23a4
+      source_commit:
+        description: Full reviewed source commit SHA recorded on that build
+        type: string
+        required: true
+        default: faeb0a4e6328d11166478dc34ad7c09650daa58c
+  push:
+    branches: [codex/play-submit]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: leoqo-android-submit-existing
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[android-submit]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      INSPECT_BUILD_ID: ${{ github.event_name == 'push' && '5f7931d6-c2a6-4a73-9397-12899c5d23a4' || inputs.build_id }}
+      INSPECT_SOURCE_COMMIT: ${{ github.event_name == 'push' && 'faeb0a4e6328d11166478dc34ad7c09650daa58c' || inputs.source_commit }}
+      INSPECT_MIN_VERSION_CODE: '6'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Validate exact build request
+        id: request
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync } from 'node:fs';
+          import { inspectionInputs } from './scripts/inspect-android-artifact.mjs';
+          try {
+            const inputs = inspectionInputs(process.env);
+            appendFileSync(process.env.GITHUB_OUTPUT, `build_id=${inputs.buildId}\n`);
+            console.log('Exact build UUID, reviewed source SHA and minimum version code validated.');
+          } catch (error) {
+            console.error(`Invalid submission request: ${error.message}`);
+            process.exitCode = 1;
+          }
+          NODE
+      - name: Check Expo credential is connected
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          if [ -z "$EXPO_TOKEN" ]; then
+            echo "::error::EXPO_TOKEN is missing. Connect the existing Expo access token in repository Actions secrets."
+            exit 1
+          fi
+      - run: npm ci
+      - name: Check reviewed paid candidate and internal draft configuration
+        run: npm run release:check -- --build-profile production-paid --paid
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Check Expo authentication
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: eas whoami
+      - name: Read metadata for this exact existing build
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          REQUESTED_BUILD_ID: ${{ steps.request.outputs.build_id }}
+        run: |
+          umask 077
+          if ! eas build:view "$REQUESTED_BUILD_ID" --json > "$RUNNER_TEMP/leoqo-submit-build.json" 2> "$RUNNER_TEMP/leoqo-submit-lookup.stderr"; then
+            echo "::error::Could not read the exact EAS build. Check Expo project access. Raw lookup output was withheld."
+            exit 1
+          fi
+      - name: Validate build identity and record the submission target
+        id: checked
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync, readFileSync } from 'node:fs';
+          import { join } from 'node:path';
+          import { inspectionInputs, checkedBuild } from './scripts/inspect-android-artifact.mjs';
+          try {
+            let metadata;
+            try {
+              metadata = JSON.parse(readFileSync(join(process.env.RUNNER_TEMP, 'leoqo-submit-build.json'), 'utf8'));
+            } catch {
+              throw new Error('EAS build metadata could not be read as JSON. Raw metadata was withheld.');
+            }
+            const build = checkedBuild(metadata, inspectionInputs(process.env));
+            appendFileSync(process.env.GITHUB_OUTPUT, `build_id=${build.id}\nbuild_url=${build.url}\n`);
+            appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+              `Existing Android build selected: [${build.id}](${build.url})\n\n` +
+              `Recorded source commit: ${build.commit}\n\nAndroid version code: ${build.versionCode}\n\n` +
+              'Metadata confirms the finished production-paid store build for Leoqo. ' +
+              'The artifact URL was checked but the artifact was not downloaded. ' +
+              'Submission targets only a Google Play internal-testing draft.\n');
+            console.log(`Validated submission target: ${build.url}`);
+          } catch (error) {
+            console.error(`Submission validation failed: ${error.message}`);
+            process.exitCode = 1;
+          }
+          NODE
+      - name: Submit the validated existing build to the Play internal draft
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          BUILD_ID: ${{ steps.checked.outputs.build_id }}
+        run: eas submit --platform android --profile play-internal --id "$BUILD_ID" --non-interactive --wait
+      - name: Record completed draft submission
+        env:
+          BUILD_ID: ${{ steps.checked.outputs.build_id }}
+          BUILD_URL: ${{ steps.checked.outputs.build_url }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync } from 'node:fs';
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            `\nEAS Submit completed for [${process.env.BUILD_ID}](${process.env.BUILD_URL}). ` +
+            'Review and roll out the internal-testing draft in Play Console before testers can install it. ' +
+            'No new build or public production rollout was started by this workflow.\n');
+          NODE
+      - name: Remove private lookup metadata
+        if: always()
+        run: rm -f -- "$RUNNER_TEMP/leoqo-submit-build.json" "$RUNNER_TEMP/leoqo-submit-lookup.stderr"

@@ -129,3 +129,24 @@ test('redirects are checked before following and are limited', async t => {
   await assert.rejects(downloadVerified(privateUrl, join(directory, 'loop'), { kind: 'aab', maxBytes: 100, fetchImpl: async () => { requests++; return new Response(null, { status: 302, headers: { location: privateUrl } }); } }));
   assert.equal(requests, 6);
 });
+
+test('download diagnostics expose only fixed failure labels, HTTP status and public routing labels', async t => {
+  const directory = await mkdtemp(join(tmpdir(), 'leoqo-diagnostics-test-'));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const cases = [
+    { response: new Response(null, { status: 302, headers: { location: 'https://storage.googleapis.com/turtle-v2-artifacts/private-path.aab?token=private-signed-value' } }), expected: /"stage":"redirect","cause":"url-validation","host":"storage.googleapis.com","bucket":"turtle-v2-artifacts","status":302/ },
+    { response: new Response(null, { status: 302, headers: { location: 'https://storage.googleapis.com/private-bucket/private-path?token=private-signed-value' } }), expected: /"bucket":"unrecognized-bucket"/ },
+    { response: new Response('private response', { status: 403 }), expected: /"stage":"response","cause":"http-status".*"status":403/ },
+    { fail: true, expected: /"stage":"request","cause":"network-or-timeout".*"status":null/ },
+  ];
+  for (const [index, fixture] of cases.entries()) {
+    await assert.rejects(downloadVerified(privateUrl, join(directory, String(index)), { kind: 'aab', maxBytes: 100, fetchImpl: async () => {
+      if (fixture.fail) throw new Error(`${privateUrl} private response`);
+      return fixture.response;
+    } }), error => {
+      assert.match(error.message, fixture.expected);
+      for (const secret of ['https://', 'private-signed-value', 'private response', 'private-path', 'private-bucket', 'token=']) assert.ok(!error.message.includes(secret));
+      return true;
+    });
+  }
+});
