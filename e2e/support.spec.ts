@@ -28,7 +28,7 @@ async function captureExternalLinks(page: Page, failMailto = false) {
 }
 
 async function openedUrls(page: Page) {
-  return page.evaluate(() => (window as CapturedWindow).__supportOpenedUrls);
+  return page.evaluate(() => (window as unknown as CapturedWindow).__supportOpenedUrls);
 }
 
 async function openSettings(page: Page) {
