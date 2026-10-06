@@ -40,7 +40,7 @@ export function checkedDownloadUrl(value, kind) {
   const host = url.hostname;
   const allowed = kind === 'bundletool'
     ? host === 'github.com' || host === 'release-assets.githubusercontent.com'
-    : host === 'expo.dev' || host === 'artifacts.eascdn.net' ||
+    : host === 'expo.dev' || host === 'api.expo.dev' || host === 'artifacts.eascdn.net' ||
       /^(?:eas-build-artifacts(?:-[a-z0-9-]+)?|turtle-v2-artifacts)\.s3(?:[.-][a-z0-9-]+)?\.amazonaws\.com$/.test(host) ||
       (/^s3(?:[.-][a-z0-9-]+)?\.amazonaws\.com$/.test(host) && /^\/(?:eas-build-artifacts(?:-[a-z0-9-]+)?|turtle-v2-artifacts)\//.test(url.pathname));
   if (!allowed) throw new Error('Download host is outside the approved Expo or bundletool artifact hosts.');
