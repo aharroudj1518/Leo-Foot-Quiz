@@ -1,0 +1,35 @@
+name: Android build diagnostics
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: Exact Expo build ID to inspect
+        type: string
+        required: true
+  push:
+    branches: [codex/play-release]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-diagnostics]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+      BUILD_ID: ${{ inputs.build_id || 'd22d7174-cb93-417d-b7da-a14e69c3821c' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate build ID
+        run: node -e 'if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(process.env.BUILD_ID || "")) process.exit(1)'
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Read exact build metadata
+        run: eas build:view "$BUILD_ID" --json > "$RUNNER_TEMP/leoqo-diagnostic.json"
+      - name: Read redacted build failure details
+        run: node scripts/diagnose-android-build.mjs "$RUNNER_TEMP/leoqo-diagnostic.json"

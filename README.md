@@ -27,7 +27,7 @@ The first briefing is bundled and playable offline. **A continuously operated pu
 
 ## Validation status
 
-The Matchday build at commit `941f152` passed GitHub CI: TypeScript, **38 Vitest tests**, **39 offline tests**, the Expo web export and **22 browser tests**. The Android release changes add local checks, bringing the offline suite to **47 passing tests**. Check the latest [GitHub Actions results](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions) for the final release commit; local dependency downloads remain blocked by the workspace proxy.
+The release source at commit `db31c5f` passed GitHub CI: TypeScript, **46 Vitest tests**, **47 offline tests**, the Expo web export, **22 browser tests** and all **five phone-sized web captures**. Check the latest [GitHub Actions results](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions) for later commits; local dependency downloads remain blocked by the workspace proxy.
 
 Native Android installation and real Google Play purchase tests are still required. A passing web build is not a signed Android artifact or a published Play listing.
 
