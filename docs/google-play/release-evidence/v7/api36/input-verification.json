@@ -1,0 +1,33 @@
+{
+  "projectId": "99891114-dac6-4d4c-973c-3a246db2a7b1",
+  "package": "com.leoqo.footballquiz",
+  "buildProfile": "production-paid",
+  "distribution": "STORE",
+  "easStatus": "FINISHED",
+  "targetSdk": 36,
+  "debuggable": false,
+  "buildId": "9d9d1a37-3fe9-4d41-83a1-8bea6745cd74",
+  "sourceCommit": "089b8ed12c397e18aed059b99173088fafa15c52",
+  "versionCode": 7,
+  "bundleSha256": "a7af79a4e3d1bcf9fa1d19a56a6d544d7ea3c2cdd8d7a28c4668f542b8b05933",
+  "bundleBytes": 58539591,
+  "signing": {
+    "signedPayloadEntries": 1573,
+    "certificateSha256": "6FBFBFBC10C6861ABF35DE69A4E450688E88298D71C961691690EBC19C239D3C"
+  },
+  "inspectionRunId": "37450178570",
+  "aabSha256": "a7af79a4e3d1bcf9fa1d19a56a6d544d7ea3c2cdd8d7a28c4668f542b8b05933",
+  "aabBytes": 58539591,
+  "apkSha256": "a53f2e510ad88951d7e1abf58ec525b58f6ac16f77c124173881f5a92ecffcb9",
+  "apkBytes": 85103740,
+  "bundletool": {
+    "version": "1.18.3",
+    "sha256": "a099cfa1543f55593bc2ed16a70a7c67fe54b1747bb7301f37fdfd6d91028e29"
+  },
+  "emulatorArchitecture": "x86_64",
+  "apkSigning": "Disposable local test key; the original signed AAB was not modified.",
+  "limitations": [
+    "This test-signed APK is not the Google Play-signed application and cannot verify Play Billing, purchases, restore, Play acceptance or production signing.",
+    "APK preparation alone does not establish successful native launch or UI behavior. No EAS build, store submission or account change was performed."
+  ]
+}

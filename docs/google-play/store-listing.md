@@ -2,7 +2,11 @@
 
 Prepared and primary sources checked **6 October 2026 (Europe/London)**. This copy describes the free play available in both release profiles. The completed Android candidate uses `production-paid` for native purchase testing; its Legends product still needs store configuration and verified purchase/restore results before monetized release. The bank has hash-bound independent AI editorial review. This draft is not evidence of Play approval or a published app. See the [release runbook](release-runbook.md) for building and submitting the Android bundle and the [Data safety draft](data-safety-draft.md) for declarations.
 
-Release evidence updated **6 October 2026**: [CI run 37443001397](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37443001397) passed 53 Vitest, 58 offline and 34 browser tests, the web export and five phone-sized web captures. EAS build `5f7931d6-c2a6-4a73-9397-12899c5d23a4` **FINISHED at 09:32:24 UTC**, producing the signed AAB from source `faeb0a4e6328d11166478dc34ad7c09650daa58c`, version code 6. The [release workflow](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37441864181) failed only at submission because Expo has no Google Play service-account key configured. No Play upload was created. Native artifact inspection and emulator/phone tests do not yet have results.
+Release evidence updated **6 October 2026**: [App checks](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37449426923) succeeded for helper-integration source `77e31ba3070dd39aa80db3e5f459bde6bb92b055`: 53 Vitest, 95 offline and 34 browser tests, web export and five web phone captures. The signed candidate is **v7**, source `089b8ed12c397e18aed059b99173088fafa15c52`, EAS build `9d9d1a37-3fe9-4d41-83a1-8bea6745cd74`. It finished at 10:26:59 UTC and [passed inspection](release-evidence/v7/inspection-report.json) at 10:30:56 UTC.
+
+[Both v7 native runs](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37450537693) passed: API 32 at **10:36:44.216 UTC**, API 36 at **10:37:33.784 UTC**. Each verified fresh startup, four reachable answers, reveal/Next, saved-quiz resume after force-stop/relaunch, Settings/Play navigation and the installed v7 launcher. Each produced five genuine 1080 × 1920 screenshots and 0 captured app runtime/fatal error lines. The disposable-test-signed APKs came from the same inspected AAB with unchanged app contents. These results support internal-test upload; they do not establish Play installation/signing, physical-phone behavior or purchase/restore.
+
+V7 intentionally skipped submission. The earlier v6 submission failed because EAS lacks its Google Play service-account key; no Play upload exists. Certificate comparison, upload setup, real billing and the owner declarations below remain.
 
 ## Fields to paste
 
@@ -49,7 +53,7 @@ Leoqo is an independent football quiz. It is not endorsed by any player, club, F
 
 Validated character counts, including spaces and line breaks: name **19/30**, short description **75/80**, full description **1,602/4,000**. Recount after editing. [Google listing limits](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
 
-The listing describes bundled, dated editions. It does not promise a staffed daily editorial service, live match results or an automatically updating feed. Recheck the 120/40 counts and included content against the actual release artifact.
+The listing describes bundled, dated editions. The production feed URL is unset and no automated news publisher is connected. It does not promise a staffed daily editorial service, live match results or an automatically updating feed. Recheck the 120/40 counts and included content against the actual release artifact.
 
 ## When a paid build is actually ready
 
@@ -59,7 +63,7 @@ Replace only the Legends paragraph after the content approval, Families/data rev
 
 This paragraph is conditional copy, **not for the current listing**. The three preview questions are part of the 40-question pack. Do not advertise a subscription, recurring new packs or cross-device progress: these are not implemented. Configure and test the actual one-time product before describing it as such.
 
-The production Android RevenueCat public SDK key is validated. A current offering exists, but its Android package mapping does not yet include `leoqo_legends_lifetime`. This configuration and native licence-tester billing remain to be completed; a valid key alone does not make the pack purchasable.
+The production Android RevenueCat public SDK key is validated. A current offering exists, but its Android package mapping does not yet include `leoqo_legends_lifetime`. Check the existing Play product and activate a **Buy** purchase option with the intended price and regions; **Rent** would provide time-limited access. RevenueCat's Google Play service-credential health and native licence-tester billing remain unverified. A public SDK key does not validate those provider credentials. See [Google's purchase-option guide](https://support.google.com/googleplay/android-developer/answer/16430488?hl=en) and the [release setup](release-runbook.md#revenuecat-and-the-shop).
 
 ## Store setup and owner details
 
@@ -102,7 +106,7 @@ Suggested phone shots, in order:
 5. Two-player pass-and-play during a round.
 6. Learning screen after a real test session, showing missed-question review.
 
-Use deterministic test progress and remove tester-identifying content. Do not show the full paid pack unlocked in free-build screenshots. The [store icon and feature graphic](graphics/README.md) are supplied. Five phone-shaped web previews are available from the screenshot workflow artifact and the local `leoqo-store-previews` folder. They show the browser build; verification against genuine captures from the signed Android candidate is still needed before store submission.
+Use deterministic test progress and remove tester-identifying content. Do not show the full paid pack unlocked in free-build screenshots. The [store icon and feature graphic](graphics/README.md), five web phone previews and [ten actual v7 emulator captures](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37450537693) are supplied. The native set contains five 1080 × 1920 images for each of API 32 and API 36, from disposable-test-signed APKs generated from the inspected AAB. PNG24 listing exports are being prepared; no image or purchase-flow approval is claimed.
 
 ## App content and review notes
 
@@ -116,11 +120,11 @@ Complete every declaration surfaced in this app's Console dashboard; the app's c
 | Target audience | The app explicitly says ages 10–75 and beyond. Assess 9–12, 13–15, 16–17 and 18+ against actual design and suitability. This includes children and triggers Families review; an 18+-only declaration would contradict the product. |
 | Data safety | Use the scenario matching the submitted build and other active versions; free, news-enabled and commerce-enabled builds differ. |
 | News declaration | Answer the displayed questions against the actual dated-news quiz feature. Game category alone is not a reason to skip this form. |
-| Permissions / other forms | Inspect the final native manifest, then complete applicable forms. Configuration intent alone does not prove which permissions the AAB includes. |
+| Permissions / other forms | [V7 inspection](release-evidence/v7/inspection-report.json) confirms the removal of external-storage and system-overlay permissions; billing remains, with no microphone, location, camera, advertising-ID or Ad Services permissions. Complete applicable forms using the inspected artifact and actual SDK behavior. |
 
 [Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455?hl=en), [target audience settings](https://support.google.com/googleplay/android-developer/answer/9867159?hl=en). The specific Families issue is documented in the [Data safety draft](data-safety-draft.md#children-and-the-adult-step).
 
-Suggested app-access instructions for the **current free candidate**:
+Suggested app-access instructions for the **free `production` profile only**:
 
 > No Leoqo login is required. Core rounds, Daily Five, the included Matchday edition and the three-question Legends preview can be reviewed without a purchase. Source links, sharing, news refresh where configured, purchases and deletion use an adult step: reverse the three digits currently displayed, tick the adult checkbox, then continue. The digits change; there is no fixed access code. Backgrounding the app clears the adult-step state. The full Legends Pack shop is intentionally disabled in this candidate.
 
@@ -128,10 +132,10 @@ For a paid candidate, replace the last sentence and provide Play's required acce
 
 ## Publication prerequisites still to verify
 
-- **Artifact and upload:** version-code-6 signed AAB is built. Complete native package/signing/manifest inspection, device tests and any pre-launch report fixes. Upload the existing artifact manually to Internal testing or configure EAS's Google Play submission key and retry that exact build. As of this check, new phone apps and updates must target Android 16 / API 36 under the rule effective 31 August 2026; verify the built manifest. [Target API policy](https://support.google.com/googleplay/android-developer/answer/11926878?hl=en)
+- **Artifact and upload:** v7 is built, inspected and smoke-tested on API 32/36, with target SDK 36, minimum SDK 24 and the exact installed launcher/version verified. Compare its certificate with Play's expected upload certificate, then submit this exact build after configuring EAS's key or upload the AAB manually. Play installation, physical-phone tests and pre-launch fixes remain. [Target API policy](https://support.google.com/googleplay/android-developer/answer/11926878?hl=en)
 - **Account:** if this is a personal account created after 13 November 2023, a closed test needs at least 12 testers continuously opted in for 14 days before applying for production access. Internal testing alone does not satisfy this; approval is not automatic. Confirm the owner's actual account status. [Testing requirements](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en)
-- **Store materials:** icon/feature graphic and five web phone previews are supplied; signed-Android capture verification remains. The support email is supplied and public support/privacy URLs are verified. Confirm the responsible operator and finish accurate Console declarations for the intended family audience aged 10+.
+- **Store materials:** icon/feature graphic, five web previews and ten genuine v7 emulator captures are supplied; PNG24 listing exports are in preparation. The support email is supplied; public support/privacy URLs are verified. Confirm the responsible operator and finish accurate Console declarations for the intended family audience aged 10+.
 - **Product/content:** the core 160-question bank has recorded independent AI factual review for its exact hash. Review new or edited editions and confirm audience suitability; this does not establish Google approval.
-- **Paid release:** finish the Families/SDK assessment and Data safety changes, map the Android `leoqo_legends_lifetime` product into the current RevenueCat offering and verify its entitlement, then test purchase, cancellation, pending payment and restore on Google Play. The validated public key does not establish these results.
+- **Paid release:** finish the Families/SDK assessment and Data safety changes; verify the active Buy option, price/regions, RevenueCat product/entitlement mapping and Play service-credential health; then test purchase, cancellation, pending payment and restore on Google Play. The validated public SDK key does not establish these results.
 
 Expo's current documentation allows a first EAS submission to create an internal release after the Play app and service-account setup; a mandatory manual first upload is no longer a universal prerequisite. A draft upload still requires Console setup and a deliberate rollout before testers can install it. [Expo Android submission](https://docs.expo.dev/submit/android/), [project release runbook](release-runbook.md).

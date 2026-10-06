@@ -1,0 +1,11 @@
+{
+  "kind": "generated-apk-launcher-inspection",
+  "status": "verified",
+  "package": "com.leoqo.footballquiz",
+  "versionCode": 7,
+  "declaredLauncherComponents": [
+    "com.leoqo.footballquiz/com.leoqo.footballquiz.MainActivity"
+  ],
+  "apkSha256": "6eef5b4a210870269644bb0cb09e827dc373dfba67ad08a629df1c2ce4957da7",
+  "aapt2BuildToolsVersion": "37.0.0"
+}

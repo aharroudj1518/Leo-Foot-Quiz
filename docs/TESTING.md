@@ -1,8 +1,12 @@
 # Test status and acceptance checklist
 
-Status recorded 5 October 2026. The uploaded source ZIP at commit `128313cf8406ba9bce88b2440ec019093610a814` is the baseline. This records local checks before remote CI.
+Status updated 6 October 2026. The [latest completed repository checks](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37449426923) passed TypeScript type checking, 53 Vitest tests, 95 offline tests, 34 browser tests, the Expo web export and five web phone captures. The original uploaded ZIP is the historical baseline, not the current verification result.
 
-## Completed here
+The [v7 native emulator check](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37450537693) passed fresh startup, four reachable answer choices, answer reveal/Next, saved quiz resume after force-stop/relaunch and Settings/Play navigation on both API 32 and API 36. Each test captured five actual screenshots and found zero app runtime/fatal error lines in its collected logs. The test-signed APKs were generated from the exact inspected signed AAB; these results do not prove Google Play installation/signing, physical-phone behavior or billing.
+
+The signed v7 candidate also [passed artifact inspection](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37450178570): target SDK 36, verified signature, correct launcher and billing permission, with unused storage/overlay permissions absent. See the [release runbook](google-play/release-runbook.md) for its exact build ID and upload steps. The [inspection report](google-play/release-evidence/v7/inspection-report.json) and [API 32](google-play/release-evidence/v7/api32/native-smoke-report.json) / [API 36](google-play/release-evidence/v7/api36/native-smoke-report.json) reports retain the evidence beyond CI artifact retention.
+
+## Historical local checks on 5 October
 
 | Check | Result |
 | --- | --- |
@@ -14,9 +18,9 @@ Status recorded 5 October 2026. The uploaded source ZIP at commit `128313cf8406b
 
 The offline suite exercises daily fairness, save migration/recovery, duplicate submissions, snapshots, streak persistence beyond 100 rounds, hint persistence, feed chronology and archive boundaries, schema errors, source dates, immutable IDs, HTTPS requests, size limits, timeouts and score-sharing dates. Fetch tests use controlled responses, not a deployed content service.
 
-## Still required
+## Repeatable checks and remaining device acceptance
 
-The environment proxy prevented npm dependency installation. **TypeScript type checking, Vitest, Expo bundling, browser E2E and native-device testing have not run.** Syntax parsing and core tests do not establish that the full app renders or that real store purchases work.
+The original local proxy prevented dependency installation, so the full checks were subsequently run successfully in GitHub Actions. Native free gameplay was checked on the v7 API 32 and API 36 emulators as described above. Physical-phone acceptance and actual Google Play licence-tester purchases and restoration remain to be completed; browser and emulator results do not establish those outcomes.
 
 On a machine with package access:
 
@@ -28,7 +32,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The browser suite includes the six existing flows and five new Matchday/daily/persistence scenarios, on desktop and phone viewports. The new GitHub Actions workflow runs the same full checks and installs browser OS dependencies. It has not been executed in this workspace.
+The browser suite covers quiz, Matchday, daily play, persistence, navigation and support flows on desktop and phone viewports. GitHub Actions runs the full checks and installs browser OS dependencies. Fetch tests use controlled responses; no automated production news publisher is connected.
 
 ## Manual acceptance
 

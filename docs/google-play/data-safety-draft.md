@@ -2,7 +2,11 @@
 
 Prepared and primary sources checked **6 October 2026 (Europe/London)** against the current repository. This is a developer working draft, not a submitted declaration or a published privacy policy. Confirm the exact release binary, build environment, provider settings and all relevant active versions before making Console selections.
 
-The Android AAB from source `faeb0a4e6328d11166478dc34ad7c09650daa58c`, version code 6, completed in EAS build `5f7931d6-c2a6-4a73-9397-12899c5d23a4` at **09:32:24 UTC on 6 October 2026**. The [GitHub workflow](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37441864181) failed only at submission because EAS has no Google Play service-account key configured; no Play upload was created. Native artifact inspection, emulator/phone checks and release-traffic observations have no recorded results yet. Build completion does not establish Data safety answers.
+The current candidate is **v7**, source `089b8ed12c397e18aed059b99173088fafa15c52`, EAS build `9d9d1a37-3fe9-4d41-83a1-8bea6745cd74`, finished at **10:26:59 UTC on 6 October 2026** and inspected at 10:30:56 UTC. [Native verification](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37450537693) passed on API 32 and API 36: fresh startup, four reachable answers, reveal/Next, quiz persistence after force-stop/relaunch, Settings/Play navigation and the exact installed v7 launcher. Each API produced five genuine 1080 × 1920 captures and 0 captured app runtime/fatal error lines. The permanent [API 32](release-evidence/v7/api32/native-smoke-report.json) and [API 36](release-evidence/v7/api36/native-smoke-report.json) reports identify the same inspected AAB. Both APKs were signed with disposable test keys without changing app contents. Play installation/signing, physical-phone behavior, purchase/restore, traffic collection and remote deletion remain unverified.
+
+V7 intentionally skipped submission. The earlier v6 attempt failed because EAS lacks the Play submission key; no upload exists. Compare the expected Play upload certificate and complete upload setup. Separately, [App checks](https://github.com/aharroudj1518/Leo-Foot-Quiz/actions/runs/37449426923) passed for helper-integration source `77e31ba3070dd39aa80db3e5f459bde6bb92b055`: 53 Vitest, 95 offline and 34 browser tests plus web export/five web captures. Capture release traffic before finalizing these declarations; the emulator smoke test does not establish collection behavior.
+
+The [v7 manifest record](release-evidence/v7/inspection-report.json) confirms target SDK 36, minimum SDK 24, a non-debuggable app and one MainActivity launcher. `READ_EXTERNAL_STORAGE`, `WRITE_EXTERNAL_STORAGE` and `SYSTEM_ALERT_WINDOW` are absent. Billing remains; microphone, location, camera, advertising-ID and Ad Services permissions are absent. These manifest facts do not establish the absence of off-device SDK processing.
 
 ## What the app actually does
 
@@ -12,7 +16,7 @@ The Android AAB from source `faeb0a4e6328d11166478dc34ad7c09650daa58c`, version 
 | Progress | Answers, history, mistakes, streak dates, unfinished session, settings and question reports are serialized by `src/services/storage.ts`. Typed player answers can be retained with the round. | Android SQLite database `leoqo.db`, profile key `leoqo.profile.v1`. No progress server is implemented. |
 | News content | Bundled JSON plus optional downloaded editions cached under `leoqo.news.v1`. | On device unless an adult chooses the optional refresh. |
 | Question reports | The reason, question ID and timestamp are stored locally; reporting does not upload them. | Local until the user chooses export/share. |
-| Export and score sharing | `App.tsx` invokes the operating system share sheet after the adult step. No automatic recipient or upload endpoint. | Destination chosen by the user; audit any later support workflow separately. |
+| Export and score sharing | Normal export/share controls use the adult step. The fatal-recovery export is available without that step so local progress can be recovered. Both require a user action; no automatic recipient or upload endpoint is configured. | Destination chosen by the user through device/browser sharing or download; audit any later support workflow separately. |
 | Sources | External reference URLs open in the browser after the adult step. | Independent source website, with its own privacy practices. No embedded news webview is implemented. |
 | Ads / app analytics | No advertising or standalone app-analytics SDK integration appears in the current dependencies/code. | Verify native release traffic and transitive dependencies before making a zero-collection claim. |
 | Billing | `src/services/billing.ts` dynamically configures RevenueCat only after an adult shop action and only when both commerce and editorial switches allow it. | RevenueCat and Google Play when enabled. The free `production` candidate blocks SDK configuration through this path; `production-paid` permits it when its checks pass. |
@@ -28,7 +32,7 @@ Google defines collection around off-device transmission, including SDKs; local-
 
 Conditions: `EXPO_PUBLIC_COMMERCE_READY=false`, `EXPO_PUBLIC_NEWS_FEED_URL` unset, and no additional production services introduced. Editorial approval alone does not configure billing; the commerce switch still prevents it in the free profile.
 
-The production EAS preflight on **6 October 2026 at 09:03 UTC** found the news-feed URL unset. Recheck the actual release environment when building; this does not imply that a later build cannot enable it.
+The production EAS preflight on **6 October 2026 at 09:03 UTC** found the news-feed URL unset. No automated news publisher is connected. Recheck the actual release environment when building; this does not imply that a later build cannot enable it.
 
 **Draft outcome:** “No” to required user-data collection/sharing is a candidate answer **only after** a clean-install native traffic and dependency check confirms this configuration. Repository review finds local play data, intentional system sharing and browser links; it cannot establish the behavior of every native dependency or remote build setting. Keep the network-capture result and manifest with the release record.
 
@@ -39,6 +43,8 @@ No account-creation feature is present. Answer account questions accordingly. �
 ## Scenario B: RevenueCat commerce enabled
 
 This scenario applies as soon as the enabled app configures the purchase SDK, including shop/restore use, not only after someone pays. The current code passes a public API key to `Purchases.configure()` without a custom user ID or customer attributes. RevenueCat assigns an anonymous App User ID; “anonymous” here is a product identifier, not a guarantee of irreversible anonymization. [RevenueCat customer identification](https://www.revenuecat.com/docs/customers/identifying-customers)
+
+The production Android public SDK key is validated and a current RevenueCat offering exists, but it does not include the Android `leoqo_legends_lifetime` mapping. That does not establish whether the product exists in Play Console, or demonstrate a purchase. RevenueCat's Google Play service-credential health is still unverified; a valid public SDK key does not validate its provider credentials. Scenario B still applies when the enabled shop configures the SDK before a product can be bought.
 
 | Console question / data type | Working answer for an enabled build |
 | --- | --- |
@@ -112,7 +118,7 @@ The policy should distinguish local progress deletion from provider-held purchas
 ## Evidence to attach to the release record
 
 - Commit, app version/version code, AAB checksum, enabled build-variable names and their non-secret feature states.
-- Final native manifest and SDK/dependency inventory; especially permissions for advertising ID, microphone and location. Current Expo audio configuration disables microphone recording, but the binary must confirm the outcome.
+- The [inspected v7 manifest and signature record](release-evidence/v7/inspection-report.json), plus the SDK/dependency inventory and comparison with Play's expected upload certificate. Re-inspect any later artifact.
 - Native network-capture results for the scenarios above, including an offline run and deliberately failed news/purchase requests.
 - RevenueCat/hosting settings review, completed identifier mapping and any processor/retention decisions.
 - Published policy/support URLs, final Console answers, genuine content-rating result and audience rationale.

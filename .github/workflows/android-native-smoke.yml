@@ -28,6 +28,9 @@ on:
         default: true
   push:
     branches: [codex/android-smoke]
+  workflow_run:
+    workflows: [Inspect signed Android artifact]
+    types: [completed]
 
 permissions:
   contents: read
@@ -40,18 +43,31 @@ env:
 
 jobs:
   smoke:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-smoke:')
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && contains(github.event.head_commit.message, '[android-smoke:')) ||
+      (github.event_name == 'workflow_run' &&
+       github.repository == 'aharroudj1518/Leo-Foot-Quiz' &&
+       github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == 'aharroudj1518/Leo-Foot-Quiz' &&
+       ((github.event.workflow_run.event == 'workflow_run' &&
+         github.event.workflow_run.head_branch == github.event.repository.default_branch) ||
+        (github.event.workflow_run.event == 'push' &&
+         github.event.workflow_run.head_branch == 'codex/artifact-inspect' &&
+         github.event.workflow_run.head_sha == 'fff27df04eabd74f8e15c5e07cf3848c0e0d68fb')))
     runs-on: ubuntu-latest
     timeout-minutes: 45
     strategy:
       fail-fast: false
       matrix:
-        api: ${{ fromJSON((github.event_name == 'push' || inputs.include_api32) && '[36,32]' || '[36]') }}
+        api: ${{ fromJSON((github.event_name != 'workflow_dispatch' || inputs.include_api32) && '[36,32]' || '[36]') }}
     env:
       SMOKE_API_LEVEL: ${{ matrix.api }}
     steps:
       - uses: actions/checkout@v4
         with:
+          # Automatic verification runs only trusted default-branch harness code.
+          ref: ${{ github.event_name == 'workflow_run' && github.event.repository.default_branch || github.sha }}
           persist-credentials: false
       - name: Verify the exact successful inspection run
         id: inspection
@@ -64,13 +80,22 @@ jobs:
             const { smokeTarget } = await import(`${process.env.GITHUB_WORKSPACE}/scripts/prepare-android-smoke.mjs`);
             const target = smokeTarget(process.env);
             const markers = [...process.env.PUSH_MESSAGE.matchAll(/\[android-smoke:(\d+)\]/g)];
-            const raw = process.env.REQUESTED_RUN_ID || (markers.length === 1 ? markers[0][1] : '');
+            const automatic = context.eventName === 'workflow_run';
+            const raw = automatic ? String(context.payload.workflow_run.id) : process.env.REQUESTED_RUN_ID || (markers.length === 1 ? markers[0][1] : '');
             if (!/^[1-9]\d{0,15}$/.test(raw) || !Number.isSafeInteger(Number(raw))) throw new Error('Provide one exact inspection run ID. Push marker: [android-smoke:<run-id>].');
             const { owner, repo } = context.repo;
             if (`${owner}/${repo}`.toLowerCase() !== 'aharroudj1518/leo-foot-quiz') throw new Error('Unexpected repository.');
             const { data: run } = await github.rest.actions.getWorkflowRun({ owner, repo, run_id: Number(raw) });
             const { data: workflow } = await github.rest.actions.getWorkflow({ owner, repo, workflow_id: run.workflow_id });
             if (run.status !== 'completed' || run.conclusion !== 'success' || workflow.path !== '.github/workflows/android-artifact-inspect.yml' || run.head_repository?.full_name?.toLowerCase() !== 'aharroudj1518/leo-foot-quiz') throw new Error('The exact run must be a successful inspection from this repository.');
+            const trustedAutomaticInspection = run.event === 'workflow_run' && run.head_branch === context.payload.repository.default_branch;
+            const exactReviewedInspectionPush = run.event === 'push' && run.head_branch === 'codex/artifact-inspect' &&
+              run.head_sha === 'fff27df04eabd74f8e15c5e07cf3848c0e0d68fb';
+            if (automatic && ((!trustedAutomaticInspection && !exactReviewedInspectionPush) ||
+                target.buildId !== '9d9d1a37-3fe9-4d41-83a1-8bea6745cd74' ||
+                target.sourceCommit !== '089b8ed12c397e18aed059b99173088fafa15c52' || target.versionCode !== 7)) {
+              throw new Error('Automatic native smoke requires the trusted automatic inspection and exact version 7 candidate.');
+            }
             const { data } = await github.rest.actions.listWorkflowRunArtifacts({ owner, repo, run_id: Number(raw), per_page: 100 });
             for (const name of [`leoqo-android-inspection-report-${raw}`, `leoqo-signed-android-aab-${raw}`]) {
               const matches = data.artifacts.filter(item => item.name === name && !item.expired);

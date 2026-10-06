@@ -1,0 +1,122 @@
+{
+  "kind": "native-android-emulator-smoke",
+  "status": "passed",
+  "startedAt": "2026-10-06T10:35:42.275722+00:00",
+  "package": "com.leoqo.footballquiz",
+  "checks": [
+    "Fresh installation launches the free quiz with an actual first question.",
+    "All four answer options are reachable on the native phone display.",
+    "Answering and advancing displays the next native question.",
+    "The unfinished quiz persists through process restart and resumes at the same question.",
+    "Settings and Play navigation remain usable after the saved round."
+  ],
+  "screenshots": [
+    {
+      "file": "01-native-home.png",
+      "description": "Actual fresh native home on the test-signed API 36 emulator install.",
+      "width": 1080,
+      "height": 1920,
+      "capturedAt": "2026-10-06T10:36:10.823111+00:00",
+      "sha256": "f50914c783264bd65b217a726f25d18f3adb8ea640ce1851a25f0d1cf455851a"
+    },
+    {
+      "file": "02-native-question.png",
+      "description": "Actual first question before answering; no question, date or UI content was replaced.",
+      "width": 1080,
+      "height": 1920,
+      "capturedAt": "2026-10-06T10:36:28.526317+00:00",
+      "sha256": "f3fce9b388ac263fc3ec9f3e05fdf7148bbabdba6d99416decb67d55517a4b46"
+    },
+    {
+      "file": "03-native-answer-reveal.png",
+      "description": "Actual answer reveal after selecting a normal answer option; score is not fabricated.",
+      "width": 1080,
+      "height": 1920,
+      "capturedAt": "2026-10-06T10:36:45.124506+00:00",
+      "sha256": "064e5a74e8850d6b343fa02bdc80a2acd5a6759ca6c096d0c8ca4967e43f37e9"
+    },
+    {
+      "file": "04-native-resumed-question.png",
+      "description": "The same saved second question after force-stop and normal app relaunch.",
+      "width": 1080,
+      "height": 1920,
+      "capturedAt": "2026-10-06T10:37:17.924939+00:00",
+      "sha256": "8d716077ec568f514a81dc28c0dfcc3686309ca9c1f4bf535043b2ee14a81d47"
+    },
+    {
+      "file": "05-native-settings.png",
+      "description": "Actual native settings reached through free navigation; no billing screens entered.",
+      "width": 1080,
+      "height": 1920,
+      "capturedAt": "2026-10-06T10:37:26.987837+00:00",
+      "sha256": "efde12445b6e87ec61c664452d300f8838fd4b4df1753f5f5e590cc9b6d03b65"
+    }
+  ],
+  "limitations": [
+    "APK was generated from the inspected signed AAB and signed with a disposable emulator test key.",
+    "This is not a Play-installed or Play-signed billing candidate; purchases, restoration and licensing were not tested.",
+    "Screenshots are actual emulator captures; the Android API is recorded in the report. These are not physical-phone or Google Play listing approval.",
+    "No app rebuild, store submission, account login, paid unlock, clock override or direct app-storage edit was performed."
+  ],
+  "inputVerification": "input-verification.json",
+  "buildId": "9d9d1a37-3fe9-4d41-83a1-8bea6745cd74",
+  "sourceCommit": "089b8ed12c397e18aed059b99173088fafa15c52",
+  "versionCode": 7,
+  "projectId": "99891114-dac6-4d4c-973c-3a246db2a7b1",
+  "buildProfile": "production-paid",
+  "distribution": "STORE",
+  "easStatus": "FINISHED",
+  "targetSdk": 36,
+  "debuggable": false,
+  "requestedAndroidApi": 36,
+  "aabSha256": "a7af79a4e3d1bcf9fa1d19a56a6d544d7ea3c2cdd8d7a28c4668f542b8b05933",
+  "testApkSha256": "a53f2e510ad88951d7e1abf58ec525b58f6ac16f77c124173881f5a92ecffcb9",
+  "lastCommandStage": "collect_test_logcat",
+  "commandStagesStarted": [
+    "read_android_api",
+    "read_android_abi",
+    "configure_display_size",
+    "configure_display_density",
+    "install_test_apk",
+    "clear_test_app_data",
+    "clear_test_logcat",
+    "verify_installed_enabled_package",
+    "query_installed_launcher",
+    "resolve_installed_launcher",
+    "launch_test_app",
+    "clear_old_ui_hierarchy",
+    "capture_ui_hierarchy",
+    "read_ui_hierarchy",
+    "check_app_process",
+    "capture_native_screenshot",
+    "interact_with_native_ui",
+    "collect_test_logcat"
+  ],
+  "lastSuccessfulCommandStage": "collect_test_logcat",
+  "androidApi": 36,
+  "abi": "x86_64",
+  "launcher": {
+    "package": "com.leoqo.footballquiz",
+    "versionCode": 7,
+    "installedAndEnabled": true,
+    "declaredComponents": [
+      "com.leoqo.footballquiz/com.leoqo.footballquiz.MainActivity"
+    ],
+    "action": "android.intent.action.MAIN",
+    "category": "android.intent.category.LAUNCHER",
+    "queryFlags": 0,
+    "queriedComponents": [
+      "com.leoqo.footballquiz/com.leoqo.footballquiz.MainActivity"
+    ],
+    "resolvedComponents": [
+      "com.leoqo.footballquiz/com.leoqo.footballquiz.MainActivity"
+    ]
+  },
+  "logcat": {
+    "appProcessIdsObserved": 2,
+    "relevantDiagnosticLines": 382,
+    "fatalOrRuntimeErrorLines": 0,
+    "rawLogcatUploaded": false
+  },
+  "completedAt": "2026-10-06T10:37:33.784482+00:00"
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "module": "base",
+    "package": "com.leoqo.footballquiz",
+    "versionCode": 7,
+    "versionName": "0.1.0",
+    "minSdk": 24,
+    "targetSdk": 36,
+    "debuggable": null,
+    "testOnly": null,
+    "usesCleartextTraffic": null,
+    "applicationEnabled": null,
+    "activities": [
+      {
+        "kind": "activity",
+        "name": "com.leoqo.footballquiz.MainActivity",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": true,
+        "mainLauncherFilter": true
+      },
+      {
+        "kind": "activity",
+        "name": "com.revenuecat.purchases.amazon.purchasing.ProxyAmazonBillingActivity",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": null,
+        "mainLauncherFilter": false
+      },
+      {
+        "kind": "activity",
+        "name": "com.revenuecat.purchases.SimulatedStoreErrorDialogActivity",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": null,
+        "mainLauncherFilter": false
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivity",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": false,
+        "mainLauncherFilter": false
+      },
+      {
+        "kind": "activity",
+        "name": "com.android.billingclient.api.ProxyBillingActivityV2",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": false,
+        "mainLauncherFilter": false
+      },
+      {
+        "kind": "activity",
+        "name": "com.google.android.gms.common.api.GoogleApiActivity",
+        "targetActivity": null,
+        "enabled": null,
+        "exported": false,
+        "mainLauncherFilter": false
+      }
+    ],
+    "permissions": [
+      {
+        "name": "android.permission.ACCESS_NETWORK_STATE",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "android.permission.INTERNET",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "android.permission.MODIFY_AUDIO_SETTINGS",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "android.permission.VIBRATE",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "android.permission.WAKE_LOCK",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "com.android.vending.BILLING",
+        "maxSdkVersion": null
+      },
+      {
+        "name": "com.leoqo.footballquiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "maxSdkVersion": null
+      }
+    ]
+  }
+]
