@@ -11,10 +11,22 @@ function safe(message) {
     .slice(0, 700);
 }
 
-const value = JSON.parse(readFileSync(process.argv[2], 'utf8'));
+const rawMetadata = readFileSync(process.argv[2], 'utf8');
+let value;
+try { value = JSON.parse(rawMetadata); }
+catch {
+  console.error('Build metadata query did not return JSON. Redacted CLI details:');
+  for (const line of rawMetadata.split('\n').filter(Boolean).slice(-12)) console.error(safe(line));
+  if (process.argv[3]) for (const line of readFileSync(process.argv[3], 'utf8').split('\n').filter(Boolean).slice(-8)) console.error(safe(line));
+  process.exit(1);
+}
 const builds = Array.isArray(value) ? value : [value];
 if (builds.length !== 1) throw new Error('Expected metadata for one exact build.');
 const build = builds[0];
+if (!build.id && build.error) {
+  console.error(`Metadata query error: ${safe(build.error.message ?? 'Unknown CLI error')}`);
+  process.exit(1);
+}
 if (build.app?.id !== '99891114-dac6-4d4c-973c-3a246db2a7b1' || build.platform !== 'ANDROID') {
   throw new Error('Diagnostic build does not belong to the existing Android project.');
 }
@@ -36,6 +48,8 @@ for (const [index, address] of (build.logFiles ?? []).entries()) {
       for (const item of Array.isArray(entry) ? entry : [entry]) {
         const message = item.msg ?? item.message ?? item.body;
         if (typeof message === 'string') messages.push(`${item.phase ?? ''} ${message}`);
+        if (item.err?.message) messages.push(`${item.phase ?? ''} Error: ${item.err.message}`);
+        if (item.result === 'failed') messages.push(`${item.phase ?? ''} Failed step: ${item.buildStepDisplayName ?? item.buildStepId ?? item.marker ?? ''}`);
       }
     } catch { messages.push(line); }
   }

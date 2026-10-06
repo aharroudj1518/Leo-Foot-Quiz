@@ -66,7 +66,7 @@ async function currentQuestion(page) {
     const session = JSON.parse(localStorage.getItem('leoqo.profile.v1') ?? 'null')?.session;
     const question = session?.questionSnapshot?.find(item => item.id === session.questionIds[session.index]);
     if (!question) throw new Error('No active question snapshot was saved by the app.');
-    return { answer: question.answer, sourceName: question.sourceName, index: session.index, count: session.questionIds.length };
+    return { answer: question.answer, sourceName: question.sourceName, promptLength: question.prompt.length, longestOption: Math.max(...question.options.map(option => option.length)), index: session.index, count: session.questionIds.length };
   });
 }
 
@@ -93,10 +93,14 @@ try {
   await capture(news.page, '01-home.png', 'Fresh guest home, using the actual capture date.');
   await news.page.getByRole('button', { name: /^(Play the news quiz|Play this archive)$/ }).click();
   await expect(news.page.getByText('QUESTION 1 OF 5', { exact: true })).toBeVisible();
-  // Use the shorter second question so the full choices are useful in a phone
-  // preview. The first question is answered through the same real UI.
-  await answerAndAdvance(news.page);
-  await capture(news.page, '02-matchday-question.png', 'Second bundled Matchday question; dated content is unchanged.');
+  // The session shuffles stories. Select a compact question through actual
+  // play, answering earlier questions normally without altering its order.
+  let candidate = await currentQuestion(news.page);
+  while ((candidate.promptLength > 100 || candidate.longestOption > 30) && candidate.index < candidate.count - 1) {
+    await answerAndAdvance(news.page);
+    candidate = await currentQuestion(news.page);
+  }
+  await capture(news.page, '02-matchday-question.png', 'Actual bundled Matchday question selected for compact choices; dates and question order are unchanged.');
 
   const firstQuestion = await currentQuestion(news.page);
   await news.page.getByRole('button', { name: firstQuestion.answer, exact: true }).click();

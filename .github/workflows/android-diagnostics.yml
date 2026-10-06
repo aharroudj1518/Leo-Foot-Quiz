@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+      - run: npm ci
       - name: Validate build ID
         run: node -e 'if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(process.env.BUILD_ID || "")) process.exit(1)'
       - uses: expo/expo-github-action@v8
@@ -30,6 +32,7 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
       - name: Read exact build metadata
-        run: eas build:view "$BUILD_ID" --json > "$RUNNER_TEMP/leoqo-diagnostic.json"
+        continue-on-error: true
+        run: eas build:view "$BUILD_ID" --json > "$RUNNER_TEMP/leoqo-diagnostic.json" 2> "$RUNNER_TEMP/leoqo-diagnostic-error.txt"
       - name: Read redacted build failure details
-        run: node scripts/diagnose-android-build.mjs "$RUNNER_TEMP/leoqo-diagnostic.json"
+        run: node scripts/diagnose-android-build.mjs "$RUNNER_TEMP/leoqo-diagnostic.json" "$RUNNER_TEMP/leoqo-diagnostic-error.txt"
