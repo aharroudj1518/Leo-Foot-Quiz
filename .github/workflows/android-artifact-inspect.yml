@@ -1,0 +1,80 @@
+name: Inspect signed Android artifact
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_id:
+        description: Exact finished EAS Android build ID
+        type: string
+        required: true
+      source_commit:
+        description: Full source SHA used to create that build
+        type: string
+        required: true
+      minimum_version_code:
+        description: Minimum accepted Android version code
+        type: string
+        default: '6'
+      upload_certificate_sha256:
+        description: Optional expected Play upload certificate SHA-256 fingerprint
+        type: string
+        required: false
+  push:
+    branches: [codex/artifact-inspect]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: leoqo-android-artifact-inspection
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Exact candidate from the reviewed release run; never select a latest build.
+      INSPECT_BUILD_ID: ${{ inputs.build_id || '5f7931d6-c2a6-4a73-9397-12899c5d23a4' }}
+      INSPECT_SOURCE_COMMIT: ${{ inputs.source_commit || 'faeb0a4e6328d11166478dc34ad7c09650daa58c' }}
+      INSPECT_MIN_VERSION_CODE: ${{ inputs.minimum_version_code || '6' }}
+      INSPECT_UPLOAD_CERT_SHA256: ${{ inputs.upload_certificate_sha256 || vars.ANDROID_UPLOAD_CERT_SHA256 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Validate exact inspection inputs
+        run: node --input-type=module -e "import {inspectionInputs} from './scripts/inspect-android-artifact.mjs'; inspectionInputs(process.env);"
+      - run: npm ci
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Check inspection regressions
+        run: node --test --test-isolation=none tests/artifact-inspection-offline.test.mjs tests/signature-offline.test.mjs
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Inspect the existing signed AAB without rebuilding or submitting
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: node scripts/inspect-android-artifact.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: leoqo-android-inspection-report-${{ github.run_id }}
+          path: |
+            artifacts/android-inspection/inspection-report.json
+            artifacts/android-inspection/manifest-summary.json
+            artifacts/android-inspection/README.txt
+          if-no-files-found: error
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        with:
+          name: leoqo-signed-android-aab-${{ github.run_id }}
+          path: artifacts/android-inspection/*.aab
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14

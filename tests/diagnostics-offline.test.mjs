@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { buildSummary, selectSourceBuild, validateDiagnosticBuild } from '../scripts/diagnose-android-build.mjs';
+import { buildSummary, safe, selectSourceBuild, validateDiagnosticBuild } from '../scripts/diagnose-android-build.mjs';
 
 const sourceCommit = 'faeb0a4e6328d11166478dc34ad7c09650daa58c';
 const build = {
@@ -36,4 +36,15 @@ test('progress summaries omit signed metadata and untrusted status or version va
   const invalid = buildSummary({ ...build, status: 'secret-status', appBuildVersion: 'secret-version' });
   assert.match(invalid, /status UNKNOWN; version code not assigned/);
   assert.ok(!invalid.includes('secret'));
+});
+
+test('CLI and build errors redact short credentials in quoted and plain assignments', () => {
+  for (const message of [
+    'error: {"EXPO_TOKEN":"synthetic-short-value"}',
+    "error: {'API_KEY': 'synthetic-short-value'}",
+    'EXPO_TOKEN=synthetic-short-value',
+    'Authorization: Bearer synthetic-short-value',
+    'request used Bearer synthetic-short-value',
+  ]) assert.ok(!safe(message).includes('synthetic-short-value'));
+  assert.ok(!safe('download https://example.com/log?token=hidden').includes('hidden'));
 });
