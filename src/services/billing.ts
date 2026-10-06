@@ -20,9 +20,18 @@ function owned(info: CustomerInfo) { return !!info.entitlements.active[ENTITLEME
 export async function loadShop(): Promise<Shop> {
   try {
     const purchases = await sdk();
-    const [info, offerings] = await Promise.all([purchases.getCustomerInfo(), purchases.getOfferings()]);
-    const product = offerings.current?.availablePackages.find(p => p.product.identifier === 'leoqo_legends_lifetime') ?? null;
-    return { available: !!product, owned: owned(info), product, message: product ? '' : 'The Legends Pack is not available from your store yet. No payment has been taken.' };
+    const [info, offerings] = await Promise.allSettled([purchases.getCustomerInfo(), purchases.getOfferings()]);
+    if (info.status === 'rejected') throw info.reason;
+    const hasPack = owned(info.value);
+    // Product availability and an existing purchase are independent. An offers
+    // outage must never lock a pack whose entitlement was just verified.
+    if (offerings.status === 'rejected') {
+      return { available: false, owned: hasPack, product: null, message: hasPack
+        ? 'Your Legends Pack is unlocked. Store offers could not be loaded, but you can keep playing.'
+        : 'The store could not be reached. No payment has been taken. Please try again.' };
+    }
+    const product = offerings.value.current?.availablePackages.find(p => p.product.identifier === 'leoqo_legends_lifetime') ?? null;
+    return { available: !!product, owned: hasPack, product, message: product || hasPack ? '' : 'The Legends Pack is not available from your store yet. No payment has been taken.' };
   } catch (error) { return { available: false, owned: false, product: null, message: error instanceof Error ? error.message : 'The store could not be reached. Please try again.' }; }
 }
 export async function buy(product: PurchasesPackage): Promise<boolean> {

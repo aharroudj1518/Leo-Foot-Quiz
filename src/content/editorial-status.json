@@ -1,7 +1,16 @@
 {
-  "status": "development-bank",
-  "independentEditorialApproval": false,
+  "status": "independently-ai-reviewed",
+  "independentEditorialApproval": true,
   "createdAt": "2026-09-08",
+  "reviewedAt": "2026-10-06",
   "questions": 160,
-  "note": "Original wording with reference URLs. Verify every linked source and fact independently before enabling paid release. No claim of independent sign-off."
+  "questionBankSha256": "590cc775c34baa86e5b163c15ac34f84793f291669e0f3d81c11b43fd6f6dda5",
+  "reviewMethod": "Independent AI editorial review by separate Codex agents against primary football and IFAB sources, followed by correction reconciliation and complete subset-hash verification. No human sign-off is claimed.",
+  "reviewRecords": [
+    "docs/google-play/paid-content-review.md",
+    "docs/google-play/free-world-rules-review.md",
+    "docs/google-play/free-rules-editorial-evidence.md",
+    "docs/google-play/free-clubs-players-review.md"
+  ],
+  "note": "Approval covers the exact 160-question bank hash above. Primary-source retrieval limitations and provisional difficulty estimates are recorded in the review documents. This does not certify native billing, store approval or licensing. Regenerating or changing the bank requires a new review."
 }

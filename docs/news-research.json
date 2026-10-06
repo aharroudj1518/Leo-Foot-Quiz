@@ -1,0 +1,161 @@
+{
+  "edition": {
+    "id": "briefing-2026-10-05",
+    "title": "Early October football briefing",
+    "description": "Five questions on men's internationals, women's club football, Asian football and the grassroots game.",
+    "coverageStart": "2026-10-02",
+    "coverageEnd": "2026-10-04",
+    "checkedAt": "2026-10-05",
+    "status": "source-checked-draft",
+    "independentEditorialApproval": false,
+    "isLiveFeed": false,
+    "suggestedAvailableFrom": "2026-10-05T00:00:00.000Z",
+    "suggestedExpiresAt": "2026-10-12T00:00:00.000Z",
+    "freshnessNote": "A fixed editorial starter edition checked on 5 October 2026. Source stories are dated 2–4 October. Do not refresh its date automatically or present it as live reporting. After expiry, retain it only as a dated archive.",
+    "rightsNote": "Original quiz wording and outbound source references only. No publisher prose, photographs or video is reproduced. Research verification is not independent editorial sign-off or a production content licence; see market-review.md for provider constraints."
+  },
+  "questions": [
+    {
+      "id": "news-2026-10-03-england-braces",
+      "category": "players",
+      "difficulty": "fan",
+      "era": "3 October 2026 · Nations League",
+      "prompt": "Which pair both scored twice for England in the 7–0 win over Croatia on 3 October 2026?",
+      "options": ["Harry Kane and Bukayo Saka", "Jude Bellingham and Anthony Gordon", "Harry Kane and Jude Bellingham", "Bukayo Saka and Anthony Gordon"],
+      "answer": "Harry Kane and Bukayo Saka",
+      "aliases": ["Kane and Saka", "Saka and Kane", "Bukayo Saka and Harry Kane"],
+      "hint": "One is England's captain; the other usually attacks from the right.",
+      "explanation": "Kane and Saka each contributed two goals in England's seven-goal victory in Rijeka. The FA's post-match interview confirms both braces.",
+      "source": "https://www.englandfootball.com/articles/2026/Oct/03/croatia-england-uefa-nations-league-harry-kane-bukayo-saka-reaction-20260310",
+      "story": {
+        "title": "England's trip to Rijeka",
+        "topic": "Men's internationals",
+        "publisher": "England Football / The FA",
+        "sourceTitle": "Kane and Saka hail ‘unbelievable’ win over Croatia",
+        "publishedAt": "2026-10-03",
+        "eventDate": "2026-10-03",
+        "verifiedAt": "2026-10-05",
+        "evidence": "Official article explicitly identifies both players as scoring twice. Publication date appears above the article. Body and heading agree on the 7–0 result.",
+        "accessMethod": "Direct full-text page opened successfully."
+      }
+    },
+    {
+      "id": "news-2026-10-04-chelsea-women",
+      "category": "clubs",
+      "difficulty": "starter",
+      "era": "4 October 2026 · Women's Super League",
+      "prompt": "Which team beat West Ham United Women 3–0 in the Women's Super League on 4 October 2026?",
+      "options": ["Chelsea", "Arsenal", "Manchester City", "Manchester United"],
+      "answer": "Chelsea",
+      "aliases": ["Chelsea Women", "Chelsea FC Women", "Chelsea FC"],
+      "hint": "Their nickname is the Blues.",
+      "explanation": "Chelsea won 3–0 away to West Ham. The club published its match highlights and post-match reactions on 4 October 2026.",
+      "source": "https://www.chelseafc.com/en/video/wsl-highlights-west-ham-women-0-3-chelsea-women-2026-27",
+      "story": {
+        "title": "A London derby in the WSL",
+        "topic": "Women's football",
+        "publisher": "Chelsea FC",
+        "sourceTitle": "WSL Highlights: West Ham Women 0-3 Chelsea Women",
+        "publishedAt": "2026-10-04",
+        "eventDate": "2026-10-04",
+        "verifiedAt": "2026-10-05",
+        "evidence": "Indexed official video page gives the score, competition and explicit 04 October 2026 date. Official Ellie Carpenter and Sonia Bompastor reaction pages independently repeat that score and date. No video content or images are reused.",
+        "accessMethod": "Official page's dated title/description available via web search; direct page extraction returned only an iframe. Metadata verified, video not watched.",
+        "corroboratingSources": [
+          "https://www.chelseafc.com/en/video/carpenter-post-west-ham-a-wsl-2026-27",
+          "https://www.chelseafc.com/en/video/bompastor-post-west-ham-a-wsl-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "news-2026-10-03-asean-challenge",
+      "category": "world",
+      "difficulty": "fan",
+      "era": "3 October 2026 · Asian football",
+      "prompt": "Who won the first FIFA ASEAN Challenge Cup, beating Cambodia 2–0 in the final on 3 October 2026?",
+      "options": ["Hong Kong, China", "Laos", "Myanmar", "Brunei Darussalam"],
+      "answer": "Hong Kong, China",
+      "aliases": ["Hong Kong", "Hong Kong China"],
+      "hint": "The champions hosted this tournament, including the final at Kai Tak Stadium.",
+      "explanation": "Hong Kong, China defeated Cambodia 2–0 to claim the inaugural Challenge Cup. This was the Challenge Cup tournament, separate from the FIFA ASEAN Cup played in Indonesia.",
+      "source": "https://inside.fifa.com/organisation/president/news/infantino-final-asean-challenge-cup-hong-kong-china",
+      "story": {
+        "title": "A first trophy at Kai Tak",
+        "topic": "Asian football",
+        "publisher": "FIFA",
+        "sourceTitle": "Gianni Infantino attends final of inaugural FIFA ASEAN Challenge Cup in Hong Kong, China",
+        "publishedAt": "2026-10-04",
+        "eventDate": "2026-10-03",
+        "verifiedAt": "2026-10-05",
+        "evidence": "Inside FIFA recap is explicitly dated Sunday 04 October 2026, 13:30 and confirms the winner and 2–0 score. FIFA's separate match page explicitly places the match on Saturday 3 October; AFF's report is also dated 3 October. Do not confuse publication date with match date or the Challenge Cup with the parallel ASEAN Cup.",
+        "accessMethod": "Inside FIFA recap opened as full text. Match date corroborated from official FIFA indexed match page and official AFF report.",
+        "corroboratingSources": [
+          "https://www.fifa.com/en/tournaments/mens/asean-cup/2026/articles/hong-kong-cambodia-final-report-highlights-quotes",
+          "https://www.aseanfootball.org/v3/cambodia-finish-as-runners-up-division-2-fifa-asean-cup-2026/"
+        ]
+      }
+    },
+    {
+      "id": "news-2026-10-03-nations-league-window",
+      "category": "world",
+      "difficulty": "expert",
+      "era": "September–October 2026 · Nations League",
+      "prompt": "During the extended opening window of the 2026/27 Nations League, from 24 September to 6 October, how many matches were teams generally scheduled to play?",
+      "options": ["Four", "Two", "Three", "Six"],
+      "answer": "Four",
+      "aliases": ["4", "Four matches", "4 matches"],
+      "hint": "The usual two-match pattern was doubled for this opening window.",
+      "explanation": "UEFA's dated competition guide describes a longer opening international window containing four Nations League matchdays. The question concerns the published schedule, not a prediction of results.",
+      "source": "https://www.uefa.com/uefanationsleague/news/0298-1d6ef1acfaef-b54fcf1da859-1000--2026-27-uefa-nations-league-all-you-need-to-know/",
+      "story": {
+        "title": "Understanding the longer international window",
+        "topic": "Competition explainer",
+        "publisher": "UEFA",
+        "sourceTitle": "2026/27 UEFA Nations League: All you need to know",
+        "publishedAt": null,
+        "updatedAt": "2026-10-03",
+        "sourceDate": "2026-10-03",
+        "sourceDateKind": "updated",
+        "eventDate": "2026-09-24",
+        "eventEndDate": "2026-10-06",
+        "verifiedAt": "2026-10-05",
+        "evidence": "The page heading is dated Saturday, October 3, 2026 and the footer expressly labels that date as Last updated. The original publication date is not established. Its section on the fifth edition states four matches are generally played from 24 September to 6 October. Retain the word generally to avoid claiming every team necessarily plays four.",
+        "accessMethod": "Direct full-text page opened successfully. One manually checked factual explainer; no automated scraper or copied article."
+      }
+    },
+    {
+      "id": "news-2026-10-02-play-safe",
+      "category": "world",
+      "difficulty": "starter",
+      "era": "3–4 October 2026 · Grassroots football",
+      "prompt": "What was the main purpose of The FA's Play Safe Weekend on 3–4 October 2026?",
+      "options": ["Safeguarding people involved in football", "Introducing a new offside rule", "Selecting the England squad", "Changing the league points system"],
+      "answer": "Safeguarding people involved in football",
+      "aliases": ["Safeguarding", "Keeping people safe in football", "Safeguarding in football"],
+      "hint": "The campaign encouraged adults to listen when children talk about their football experiences.",
+      "explanation": "Play Safe Weekend focused on safeguarding across football. The 2026 campaign encouraged everyday conversations so children and young people feel heard and can raise concerns.",
+      "source": "https://www.englandfootball.com/articles/2026/Oct/02/english-football-comes-together-for-play-safe-weekend-20260210",
+      "story": {
+        "title": "The grassroots game joins a national campaign",
+        "topic": "Football community",
+        "publisher": "England Football / The FA",
+        "sourceTitle": "English football unites for Play Safe Weekend 2026",
+        "publishedAt": "2026-10-02",
+        "eventDate": "2026-10-03",
+        "eventEndDate": "2026-10-04",
+        "verifiedAt": "2026-10-05",
+        "evidence": "Official FA article is dated 02 October 2026, states the weekend dates as 3–4 October, and identifies safeguarding and listening to children as the campaign's purpose.",
+        "accessMethod": "Direct full-text page opened successfully."
+      }
+    }
+  ],
+  "editorialNotes": [
+    "These are five original development questions grounded in dated primary references, not an assertion that the complete existing 160-question bank has been approved.",
+    "The Chelsea reference is an official dated video page rather than a text article. Its indexed metadata was checked and its video was not watched.",
+    "The UEFA source gives an updated date, not a verifiable original publication date. Preserve that distinction in any display or feed schema.",
+    "FIFA's indexed final match article displays 2 October as a publication date while its body identifies the match as 3 October. The chosen primary recap has the unambiguous 4 October publication date; the result and match date are corroborated separately.",
+    "Suggested expiry is an editorial freshness decision, not a claim that these dated facts become false. An expired edition should be labelled as archive rather than news for the current day.",
+    "Source titles can reveal answers; show source details after answering, or behind the read-source action, to avoid spoiling scored questions.",
+    "A second person should independently open references, confirm answers and check distractors before approving a paid/public editorial release."
+  ]
+}

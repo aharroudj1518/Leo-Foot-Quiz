@@ -1,0 +1,110 @@
+name: Android release
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_profile:
+        description: Candidate (paid enables Google Play purchase testing)
+        type: choice
+        options: [production, production-paid]
+        default: production-paid
+      submit:
+        description: Upload the finished build to a Play internal-testing draft
+        type: boolean
+        default: false
+  push:
+    branches: [codex/play-release]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: leoqo-android-release
+  cancel-in-progress: false
+
+env:
+  BUILD_PROFILE: ${{ inputs.build_profile || 'production-paid' }}
+
+jobs:
+  access:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Expo credential is connected
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: |
+          if [ -z "$EXPO_TOKEN" ]; then
+            echo "::error::EXPO_TOKEN is missing. Add the existing Expo access token under repository Settings > Secrets and variables > Actions. See docs/google-play/release-runbook.md."
+            exit 1
+          fi
+          echo "Expo token is present. Project access will be checked by EAS."
+
+  verify:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - name: Check candidate configuration
+        run: |
+          case "$BUILD_PROFILE" in
+            production) npm run release:check ;;
+            production-paid) npm run release:check -- --build-profile production-paid --paid ;;
+            *) echo "Unsupported build profile"; exit 1 ;;
+          esac
+      - run: npm run build:web
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Capture phone web previews
+        run: |
+          python -m http.server 8081 --bind 127.0.0.1 --directory dist > "$RUNNER_TEMP/leoqo-screenshot-server.log" 2>&1 &
+          npm run store:screenshots
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-release-web-previews
+          path: store-screenshots
+          if-no-files-found: ignore
+          retention-days: 14
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: android-release-browser-results
+          path: test-results
+
+  build:
+    needs: [access, verify]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - name: Check Expo authentication
+        run: eas whoami
+      - name: Build signed Android App Bundle
+        run: eas build --platform android --profile "$BUILD_PROFILE" --freeze-credentials --non-interactive --wait --json > "$RUNNER_TEMP/leoqo-build.json"
+      - name: Record and validate completed build
+        id: completed
+        run: node scripts/record-android-build.mjs "$RUNNER_TEMP/leoqo-build.json"
+      - name: Upload this build to Google Play internal draft
+        if: (github.event_name == 'workflow_dispatch' && inputs.submit) || github.event_name == 'push'
+        env:
+          BUILD_ID: ${{ steps.completed.outputs.build_id }}
+        run: eas submit --platform android --profile play-internal --id "$BUILD_ID" --non-interactive --wait

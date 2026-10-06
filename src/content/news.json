@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "editions": [
+    {
+      "id": "briefing-2026-10-05",
+      "title": "Early October football briefing",
+      "summary": "Five questions on men's internationals, women's club football, Asian football and the grassroots game.",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "expiresAt": "2026-10-12T00:00:00.000Z",
+      "questions": [
+        {
+          "id": "news-2026-10-03-england-braces",
+          "category": "players",
+          "difficulty": "fan",
+          "era": "3 October 2026 · Nations League",
+          "prompt": "Which pair both scored twice for England in the 7–0 win over Croatia on 3 October 2026?",
+          "options": [
+            "Harry Kane and Bukayo Saka",
+            "Jude Bellingham and Anthony Gordon",
+            "Harry Kane and Jude Bellingham",
+            "Bukayo Saka and Anthony Gordon"
+          ],
+          "answer": "Harry Kane and Bukayo Saka",
+          "aliases": [
+            "Kane and Saka",
+            "Saka and Kane",
+            "Bukayo Saka and Harry Kane"
+          ],
+          "hint": "One is England's captain; the other usually attacks from the right.",
+          "explanation": "Kane and Saka each contributed two goals in England's seven-goal victory in Rijeka. The FA's post-match interview confirms both braces.",
+          "source": "https://www.englandfootball.com/articles/2026/Oct/03/croatia-england-uefa-nations-league-harry-kane-bukayo-saka-reaction-20260310",
+          "sourceName": "England Football / The FA",
+          "publishedAt": "2026-10-03"
+        },
+        {
+          "id": "news-2026-10-04-chelsea-women",
+          "category": "clubs",
+          "difficulty": "starter",
+          "era": "4 October 2026 · Women's Super League",
+          "prompt": "Which team beat West Ham United Women 3–0 in the Women's Super League on 4 October 2026?",
+          "options": [
+            "Chelsea",
+            "Arsenal",
+            "Manchester City",
+            "Manchester United"
+          ],
+          "answer": "Chelsea",
+          "aliases": [
+            "Chelsea Women",
+            "Chelsea FC Women",
+            "Chelsea FC"
+          ],
+          "hint": "Their nickname is the Blues.",
+          "explanation": "Chelsea won 3–0 away to West Ham. The club published its match highlights and post-match reactions on 4 October 2026.",
+          "source": "https://www.chelseafc.com/en/video/wsl-highlights-west-ham-women-0-3-chelsea-women-2026-27",
+          "sourceName": "Chelsea FC",
+          "publishedAt": "2026-10-04"
+        },
+        {
+          "id": "news-2026-10-03-asean-challenge",
+          "category": "world",
+          "difficulty": "fan",
+          "era": "3 October 2026 · Asian football",
+          "prompt": "Who won the first FIFA ASEAN Challenge Cup, beating Cambodia 2–0 in the final on 3 October 2026?",
+          "options": [
+            "Hong Kong, China",
+            "Laos",
+            "Myanmar",
+            "Brunei Darussalam"
+          ],
+          "answer": "Hong Kong, China",
+          "aliases": [
+            "Hong Kong",
+            "Hong Kong China"
+          ],
+          "hint": "The champions hosted this tournament, including the final at Kai Tak Stadium.",
+          "explanation": "Hong Kong, China defeated Cambodia 2–0 to claim the inaugural Challenge Cup. This was the Challenge Cup tournament, separate from the FIFA ASEAN Cup played in Indonesia.",
+          "source": "https://inside.fifa.com/organisation/president/news/infantino-final-asean-challenge-cup-hong-kong-china",
+          "sourceName": "FIFA",
+          "publishedAt": "2026-10-04"
+        },
+        {
+          "id": "news-2026-10-03-nations-league-window",
+          "category": "world",
+          "difficulty": "expert",
+          "era": "September–October 2026 · Nations League",
+          "prompt": "During the extended opening window of the 2026/27 Nations League, from 24 September to 6 October, how many matches were teams generally scheduled to play?",
+          "options": [
+            "Four",
+            "Two",
+            "Three",
+            "Six"
+          ],
+          "answer": "Four",
+          "aliases": [
+            "4",
+            "Four matches",
+            "4 matches"
+          ],
+          "hint": "The usual two-match pattern was doubled for this opening window.",
+          "explanation": "UEFA's dated competition guide describes a longer opening international window containing four Nations League matchdays. The question concerns the published schedule, not a prediction of results.",
+          "source": "https://www.uefa.com/uefanationsleague/news/0298-1d6ef1acfaef-b54fcf1da859-1000--2026-27-uefa-nations-league-all-you-need-to-know/",
+          "sourceName": "UEFA",
+          "updatedAt": "2026-10-03"
+        },
+        {
+          "id": "news-2026-10-02-play-safe",
+          "category": "world",
+          "difficulty": "starter",
+          "era": "3–4 October 2026 · Grassroots football",
+          "prompt": "What was the main purpose of The FA's Play Safe Weekend on 3–4 October 2026?",
+          "options": [
+            "Safeguarding people involved in football",
+            "Introducing a new offside rule",
+            "Selecting the England squad",
+            "Changing the league points system"
+          ],
+          "answer": "Safeguarding people involved in football",
+          "aliases": [
+            "Safeguarding",
+            "Keeping people safe in football",
+            "Safeguarding in football"
+          ],
+          "hint": "The campaign encouraged adults to listen when children talk about their football experiences.",
+          "explanation": "Play Safe Weekend focused on safeguarding across football. The 2026 campaign encouraged everyday conversations so children and young people feel heard and can raise concerns.",
+          "source": "https://www.englandfootball.com/articles/2026/Oct/02/english-football-comes-together-for-play-safe-weekend-20260210",
+          "sourceName": "England Football / The FA",
+          "publishedAt": "2026-10-02"
+        }
+      ]
+    }
+  ]
+}

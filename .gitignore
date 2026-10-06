@@ -40,6 +40,7 @@ yarn-error.*
 coverage/
 test-results/
 playwright-report/
+/store-screenshots/
 
 # generated native folders
 /ios
