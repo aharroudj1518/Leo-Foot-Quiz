@@ -82,6 +82,8 @@ jobs:
           INSPECTION_RUN_ID: ${{ steps.inspection.outputs.run_id }}
           BUNDLETOOL_PATH: ${{ runner.temp }}/leoqo-bundletool.jar
         run: node scripts/prepare-android-smoke.mjs android-inspection "$RUNNER_TEMP/leoqo-native-smoke" native-smoke
+      - name: Inspect the actual generated APK launcher before starting an emulator
+        run: python3 scripts/android-native-smoke.py --inspect-apk "$RUNNER_TEMP/leoqo-native-smoke/universal.apk" native-smoke
       - name: Enable runner KVM for the isolated emulator
         run: |
           test -e /dev/kvm

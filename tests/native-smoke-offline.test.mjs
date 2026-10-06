@@ -69,6 +69,53 @@ with tempfile.TemporaryDirectory() as temp:
         assert diagnostic.report['failedCommand'] == {'stage': 'install_test_apk', 'exitCode': 1, 'reason': 'INSTALL_FAILED_INSUFFICIENT_STORAGE'}
     finally:
         module.subprocess.run = original_run
+    component = module.PACKAGE + '/' + module.PACKAGE + '.MainActivity'
+    assert module.checked_component(module.PACKAGE + '/.MainActivity') == component
+    badging = "package: name='com.leoqo.footballquiz' versionCode='6' versionName='0.1.0'\nlaunchable-activity: name='com.leoqo.footballquiz.MainActivity' label='Leoqo' icon='private/icon/path'\napplication-label:'goog_private_value'\n"
+    summary = module.parse_apk_badging(badging)
+    assert summary == {'package': module.PACKAGE, 'versionCode': 6, 'declaredLauncherComponents': [component]}
+    assert 'private' not in str(summary)
+    assert module.parse_apk_badging("package: name='com.leoqo.footballquiz' versionCode='6'\n")['declaredLauncherComponents'] == []
+    assert module.parse_launcher_components(module.PACKAGE + '/.MainActivity\n') == [component]
+    assert module.parse_launcher_components('No activities found\n') == []
+    for invalid in ['com.other.app/.MainActivity', module.PACKAGE + '/.MainActivity\nAuthorization: Bearer private-value', module.PACKAGE + '/private key']:
+        try:
+            module.parse_launcher_components(invalid)
+            raise AssertionError('Unsafe or foreign launcher output passed')
+        except RuntimeError as error:
+            assert 'private' not in str(error)
+    for bad in [badging.replace("versionCode='6'", "versionCode='7'"), badging.replace("name='com.leoqo.footballquiz'", "name='com.other.app'")]:
+        try:
+            module.parse_apk_badging(bad)
+            raise AssertionError('Unexpected APK identity passed')
+        except RuntimeError:
+            pass
+    import json
+    (root / 'apk-launcher-summary.json').write_text(json.dumps({**summary, 'status': 'verified', 'apkSha256': 'a' * 64}))
+    launcher_smoke = module.Smoke(root)
+    launcher_smoke.report['testApkSha256'] = 'a' * 64
+    launcher_calls = []
+    def launcher_adb(*args, **kwargs):
+        launcher_calls.append(args)
+        if args[3] == 'list':
+            return 'package:' + module.PACKAGE + ' versionCode:6\n'
+        return module.PACKAGE + '/.MainActivity\n'
+    launcher_smoke.adb = launcher_adb
+    assert launcher_smoke.launcher() == component
+    assert all('--query-flags' in call and call[call.index('--query-flags') + 1] == '0' for call in launcher_calls[1:])
+    launcher_smoke.adb = lambda *args, **kwargs: ('package:' + module.PACKAGE + ' versionCode:6\n') if args[3] == 'list' else 'No activities found\n'
+    try:
+        launcher_smoke.launcher()
+        raise AssertionError('Absent actual launcher was bypassed')
+    except RuntimeError:
+        pass
+    launcher_smoke.adb = launcher_adb
+    launcher_smoke.report['testApkSha256'] = 'b' * 64
+    try:
+        launcher_smoke.launcher()
+        raise AssertionError('Different APK launcher evidence was accepted')
+    except RuntimeError:
+        pass
 `;
   const result = spawnSync('python3', ['-c', code], { cwd: new URL('../', import.meta.url), encoding: 'utf8', env: { ...process.env, PYTHONDONTWRITEBYTECODE: '1' } });
   assert.equal(result.status, 0, result.stderr || result.stdout);

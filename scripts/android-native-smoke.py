@@ -43,6 +43,9 @@ def command_stage(args):
     stages = {
         ('install',): 'install_test_apk',
         ('shell', 'pm', 'clear'): 'clear_test_app_data',
+        ('shell', 'cmd', 'package', 'list'): 'verify_installed_enabled_package',
+        ('shell', 'cmd', 'package', 'query-activities'): 'query_installed_launcher',
+        ('shell', 'cmd', 'package', 'resolve-activity'): 'resolve_installed_launcher',
         ('shell', 'am', 'start'): 'launch_test_app',
         ('shell', 'wm', 'size'): 'configure_display_size',
         ('shell', 'wm', 'density'): 'configure_display_density',
@@ -104,6 +107,76 @@ def verify_test_apk(apk, verification):
             digest.update(chunk)
     if digest.hexdigest() != verification['apkSha256'] or apk.stat().st_size != verification.get('apkBytes'):
         raise RuntimeError('The test APK changed after preparation; installation was blocked.')
+
+
+def checked_component(value):
+    # Components are public manifest names, not arbitrary tool output.
+    if not isinstance(value, str) or len(value) > 250:
+        raise RuntimeError('Android launcher component format was invalid.')
+    match = re.fullmatch(re.escape(PACKAGE) + r'/(\.?[A-Za-z_$][A-Za-z0-9_$.]*)', value)
+    if not match:
+        raise RuntimeError('Android launcher component did not belong to the inspected app.')
+    name = match[1]
+    name = PACKAGE + name if name.startswith('.') else name
+    if not name.startswith(PACKAGE + '.'):
+        raise RuntimeError('Android launcher activity was outside the expected app namespace.')
+    return PACKAGE + '/' + name
+
+
+def parse_apk_badging(raw):
+    if len(raw) > 1024 * 1024:
+        raise RuntimeError('APK manifest badging exceeded the diagnostic limit.')
+    identity = re.findall(r"^package: name='([^']+)' versionCode='(\d+)'", raw, re.M)
+    if identity != [(PACKAGE, '6')]:
+        raise RuntimeError('The generated APK manifest did not match the exact package and version 6.')
+    names = re.findall(r"^launchable-activity: name='([^']+)'", raw, re.M)
+    components = sorted(set(checked_component(PACKAGE + '/' + name) for name in names))
+    if len(components) > 10:
+        raise RuntimeError('The generated APK declared an unexpected number of launcher activities.')
+    return {'package': PACKAGE, 'versionCode': 6, 'declaredLauncherComponents': components}
+
+
+def inspect_apk_launcher(apk, output):
+    output.mkdir(parents=True, exist_ok=True)
+    report = {'kind': 'generated-apk-launcher-inspection', 'status': 'failed'}
+    try:
+        verification = json.loads((output / 'input-verification.json').read_text())
+        verify_test_apk(apk, verification)
+        roots = [Path(os.environ[key]) for key in ('ANDROID_HOME', 'ANDROID_SDK_ROOT') if os.environ.get(key)]
+        candidates = [tool for root in roots for tool in (root / 'build-tools').glob('*/aapt2')
+                      if re.fullmatch(r'\d+\.\d+\.\d+', tool.parent.name) and tool.is_file() and os.access(tool, os.X_OK)]
+        if not candidates:
+            raise RuntimeError('An installed Android SDK aapt2 is required to inspect the generated APK launcher.')
+        tool = max(candidates, key=lambda item: tuple(map(int, item.parent.name.split('.'))))
+        try:
+            result = subprocess.run([str(tool), 'dump', 'badging', str(apk)], capture_output=True, timeout=60, check=False)
+        except (subprocess.TimeoutExpired, OSError):
+            raise RuntimeError('The local aapt2 APK manifest probe could not complete; raw output was withheld.') from None
+        if result.returncode:
+            raise RuntimeError('The local aapt2 APK manifest probe failed; raw output was withheld.')
+        report.update(parse_apk_badging(result.stdout.decode('utf-8', errors='replace')))
+        report.update({'apkSha256': verification['apkSha256'], 'aapt2BuildToolsVersion': tool.parent.name})
+        if not report['declaredLauncherComponents']:
+            raise RuntimeError('The generated APK has no declared launchable activity; native launch was blocked.')
+        report['status'] = 'verified'
+        print('APK LAUNCHER: ' + json.dumps(report, sort_keys=True), flush=True)
+        return 0
+    except Exception as error:
+        report['failure'] = redact(str(error)) if isinstance(error, RuntimeError) else 'APK launcher inspection could not read verified inputs.'
+        print('FAIL: ' + report['failure'], file=sys.stderr, flush=True)
+        return 1
+    finally:
+        (output / 'apk-launcher-summary.json').write_text(json.dumps(report, indent=2) + '\n')
+
+
+def parse_launcher_components(raw):
+    value = raw.strip()
+    if value in ('No activities found', 'No activity found'):
+        return []
+    lines = value.splitlines()
+    if not lines or len(lines) > 10:
+        raise RuntimeError('Android launcher query did not return a bounded component list.')
+    return sorted(set(checked_component(line.strip()) for line in lines))
 
 
 class Smoke:
@@ -223,8 +296,35 @@ class Smoke:
         self.report['checks'].append(description)
         print(f'PASS: {description}', flush=True)
 
+    def launcher(self):
+        static = json.loads((self.output / 'apk-launcher-summary.json').read_text())
+        if (static.get('status') != 'verified' or static.get('package') != PACKAGE or static.get('versionCode') != 6
+                or static.get('apkSha256') != self.report.get('testApkSha256')):
+            raise RuntimeError('Static launcher evidence did not match the verified test APK.')
+        declared = sorted(set(checked_component(item) for item in static.get('declaredLauncherComponents', [])))
+        installed = self.adb('shell', 'cmd', 'package', 'list', 'packages', '-e', '--show-versioncode', '--user', 'current', PACKAGE)
+        enabled = installed.strip() == f'package:{PACKAGE} versionCode:6'
+        evidence = {'package': PACKAGE, 'versionCode': 6, 'installedAndEnabled': enabled, 'declaredComponents': declared,
+                    'action': 'android.intent.action.MAIN', 'category': 'android.intent.category.LAUNCHER', 'queryFlags': 0}
+        self.report['launcher'] = evidence
+        if not enabled:
+            raise RuntimeError('The exact version 6 app was not installed and enabled for the current Android user.')
+        intent = ('--components', '--query-flags', '0', '--user', 'current', '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', '-p', PACKAGE)
+        queried = parse_launcher_components(self.adb('shell', 'cmd', 'package', 'query-activities', *intent))
+        resolved = parse_launcher_components(self.adb('shell', 'cmd', 'package', 'resolve-activity', *intent))
+        evidence.update({'queriedComponents': queried, 'resolvedComponents': resolved})
+        print('INSTALLED LAUNCHER: ' + json.dumps(evidence, sort_keys=True), flush=True)
+        if len(queried) != 1 or resolved != queried or queried[0] not in declared:
+            raise RuntimeError('An unambiguous enabled MAIN/LAUNCHER activity did not match both the installed resolver and actual APK declaration.')
+        return queried[0]
+
     def launch(self):
-        result = self.adb('shell', 'am', 'start', '-W', '-S', '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', '-p', PACKAGE, timeout=60)
+        # Android launchers start a resolved MAIN/LAUNCHER component explicitly.
+        # An implicit startActivity additionally requires CATEGORY_DEFAULT, which
+        # is deliberately absent from normal launcher filters. Never assume an
+        # activity name or alter the app's manifest to accommodate this harness.
+        component = self.launcher()
+        result = self.adb('shell', 'am', 'start', '-W', '-S', '-n', component, '-a', 'android.intent.action.MAIN', '-c', 'android.intent.category.LAUNCHER', timeout=60)
         if 'Status: ok' not in result:
             reason = android_failure_reason(result)
             self.report.setdefault('failedCommand', {"stage": 'launch_test_app', "reason": reason})
@@ -331,6 +431,8 @@ def finalize(output):
 
 
 def main():
+    if len(sys.argv) == 4 and sys.argv[1] == '--inspect-apk':
+        return inspect_apk_launcher(Path(sys.argv[2]), Path(sys.argv[3]))
     if len(sys.argv) == 3 and sys.argv[1] == '--finalize':
         finalize(Path(sys.argv[2]))
         return 0
